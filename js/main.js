@@ -11,27 +11,42 @@
   }
 })();
 
-// Email signup forms
+// Email signup forms — connected to Brevo via Cloudflare Worker
 (function() {
-  document.querySelectorAll('.email-form, .email-hero-form').forEach(function(form) {
-    form.addEventListener('submit', function(e) {
+  const WORKER_URL = 'https://newsanarchist-subscribe.steve-5cb.workers.dev/subscribe';
+
+  document.querySelectorAll('.email-form, .email-hero-form, .newsletter-form, form[data-newsletter]').forEach(function(form) {
+    form.addEventListener('submit', async function(e) {
       e.preventDefault();
       const input = form.querySelector('input[type="email"]');
-      if (input && input.value) {
-        const btn = form.querySelector('button');
-        const original = btn ? btn.textContent : '';
-        if (btn) {
-          btn.textContent = '✓ Subscribed!';
-          btn.style.background = '#00aa44';
+      if (!input || !input.value) return;
+
+      const email = input.value.trim();
+      const btn = form.querySelector('button[type="submit"], button');
+      const originalText = btn ? btn.textContent : '';
+
+      if (btn) {
+        btn.textContent = 'Subscribing...';
+        btn.disabled = true;
+      }
+
+      try {
+        const resp = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await resp.json();
+
+        if (data.success) {
+          form.innerHTML = '<p style="color:#4caf50;font-weight:bold;padding:8px 0">✅ You\'re in! Check your inbox for a welcome email.</p>';
+        } else {
+          if (btn) { btn.textContent = originalText; btn.disabled = false; }
+          alert('Something went wrong. Please try again.');
         }
-        // In production: send to email service API
-        setTimeout(function() {
-          if (btn) {
-            btn.textContent = original;
-            btn.style.background = '';
-          }
-          if (input) input.value = '';
-        }, 3000);
+      } catch (err) {
+        if (btn) { btn.textContent = originalText; btn.disabled = false; }
+        alert('Connection error. Please try again.');
       }
     });
   });
