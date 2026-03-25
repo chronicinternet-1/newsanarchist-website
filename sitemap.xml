@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://newsanarchist.com/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/about.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/subscribe.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/trending.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/privacy.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/terms.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://newsanarchist.com/category/politics.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/tech.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/world.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/culture.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/opinion.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Articles — March 25, 2026 -->
+  <url>
+    <loc>https://newsanarchist.com/articles/paratroopers-middle-east-iran-conflict.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T07:00:00Z</news:publication_date>
+      <news:title>Army Paratroopers Ordered to Middle East as U.S. Weighs Next Move in Iran Conflict</news:title>
+      <news:keywords>Iran, US military, paratroopers, Pentagon, Middle East</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/iran-strikes-gulf-bases-trump-peace-plan.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.95</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T06:00:00Z</news:publication_date>
+      <news:title>Iran Launches Strikes on US Bases in Gulf — Oil Prices Drop After Trump's Peace Plan Leak</news:title>
+      <news:keywords>Iran, Gulf, US bases, oil prices, Trump</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/democrat-flips-mar-a-lago-florida-district.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T08:00:00Z</news:publication_date>
+      <news:title>Democrat Emily Gregory Wins Florida Special Election in Mar-a-Lago's Own District</news:title>
+      <news:keywords>Florida election, Democrats, Mar-a-Lago, special election, Emily Gregory</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/agentic-ai-next-frontier-2026.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T03:00:00Z</news:publication_date>
+      <news:title>Agentic AI: The Next Frontier Beyond Current AI Models — 2026's Tech Inflection Point</news:title>
+      <news:keywords>AI, agentic AI, artificial intelligence, tech 2026</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/iran-negotiations-trump-claims.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T05:00:00Z</news:publication_date>
+      <news:title>Iran Rejects Trump's 'Very Strong Talks' Claim — Military Continues Airstrikes</news:title>
+      <news:keywords>Iran, Trump, negotiations, airstrikes, diplomacy</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/oil-prices-trump-iran-peace-claim.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.85</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsAnarchist</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25T06:30:00Z</news:publication_date>
+      <news:title>Oil Prices Plunge After Trump Claims Iran Peace Negotiations — Markets Skeptical</news:title>
+      <news:keywords>oil prices, Iran, Trump, peace talks, energy markets</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/sample-article.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
