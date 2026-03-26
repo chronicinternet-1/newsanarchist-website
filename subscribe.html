@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe — NewsAnarchist Premium</title>
+  <meta name="description" content="Get exclusive analysis, daily briefings, and ad-free reading with NewsAnarchist Premium.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://newsanarchist.com/subscribe">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
+  <style>
+    :root { --red: #dc2626; --dark: #111; --muted: #666; --bg: #fafafa; --card: #fff; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--dark); background: var(--bg); line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+    header { background: var(--dark); padding: 16px 0; }
+    header .container { display: flex; justify-content: space-between; align-items: center; }
+    .logo { color: #fff; text-decoration: none; font-size: 1.3rem; font-weight: 800; }
+    .logo span { color: var(--red); }
+    header a.back { color: #aaa; text-decoration: none; font-size: 0.9rem; }
+
+    .hero { padding: 60px 0 40px; text-align: center; }
+    .hero h1 { font-size: 2.4rem; font-weight: 900; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .hero p { font-size: 1.1rem; color: var(--muted); max-width: 560px; margin: 0 auto; }
+
+    .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 40px 0 60px; }
+    .plan {
+      background: var(--card); border: 2px solid #e5e5e5; border-radius: 16px;
+      padding: 36px 28px; text-align: center; position: relative; transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .plan:hover { border-color: var(--red); box-shadow: 0 8px 32px rgba(220,38,38,0.1); }
+    .plan.popular { border-color: var(--red); }
+    .popular-badge {
+      position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+      background: var(--red); color: #fff; padding: 4px 16px; border-radius: 50px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .plan-name { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+    .plan-price { font-size: 2.8rem; font-weight: 900; margin-bottom: 4px; }
+    .plan-price span { font-size: 1rem; font-weight: 500; color: var(--muted); }
+    .plan-save { color: var(--red); font-weight: 700; font-size: 0.9rem; margin-bottom: 16px; }
+    .plan-features { list-style: none; text-align: left; margin-bottom: 24px; }
+    .plan-features li { padding: 6px 0; font-size: 0.95rem; color: #444; }
+    .plan-features li::before { content: "✓ "; color: var(--red); font-weight: 700; }
+    .btn-subscribe {
+      display: inline-block; width: 100%; padding: 14px; background: var(--red); color: #fff;
+      border: none; border-radius: 10px; font-size: 1.05rem; font-weight: 700;
+      cursor: pointer; transition: background 0.2s, transform 0.2s; text-decoration: none;
+    }
+    .btn-subscribe:hover { background: #b91c1c; transform: translateY(-2px); }
+    .btn-subscribe:disabled { background: #999; cursor: wait; }
+
+    .guarantee { text-align: center; padding: 40px 0 60px; }
+    .guarantee p { color: var(--muted); font-size: 0.95rem; max-width: 500px; margin: 0 auto; }
+    .guarantee strong { color: var(--dark); }
+
+    footer { text-align: center; padding: 24px 0; border-top: 1px solid #e5e5e5; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--muted); margin: 0 8px; }
+
+    @media (max-width: 640px) { .plans { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="/" class="logo">News<span>Anarchist</span></a>
+      <a href="/" class="back">← Back to News</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Go Premium</h1>
+      <p>Exclusive analysis, daily briefings, ad-free reading, and premium newsletters delivered to your inbox.</p>
+    </div>
+
+    <div class="plans">
+      <div class="plan">
+        <div class="plan-name">Monthly</div>
+        <div class="plan-price">$7.99<span>/mo</span></div>
+        <div class="plan-save">&nbsp;</div>
+        <ul class="plan-features">
+          <li>Daily premium briefings</li>
+          <li>Exclusive analysis & deep dives</li>
+          <li>Ad-free reading experience</li>
+          <li>Premium newsletter</li>
+          <li>Cancel anytime</li>
+        </ul>
+        <button class="btn-subscribe" onclick="checkout('na-premium-monthly')">Subscribe Monthly</button>
+      </div>
+
+      <div class="plan popular">
+        <div class="popular-badge">Best Value</div>
+        <div class="plan-name">Annual</div>
+        <div class="plan-price">$59.99<span>/yr</span></div>
+        <div class="plan-save">Save 37% — just $5/mo</div>
+        <ul class="plan-features">
+          <li>Everything in Monthly</li>
+          <li>Priority access to breaking news</li>
+          <li>Exclusive annual subscriber events</li>
+          <li>Premium newsletter</li>
+          <li>Cancel anytime</li>
+        </ul>
+        <button class="btn-subscribe" onclick="checkout('na-premium-yearly')">Subscribe Annually</button>
+      </div>
+    </div>
+
+    <div class="guarantee">
+      <p>🔒 <strong>30-day money-back guarantee.</strong> Secure payments via Stripe. Cancel anytime from your account. Questions? <a href="mailto:steve@chronicinternet.com" style="color:var(--red);">Contact us</a>.</p>
+    </div>
+  </div>
+
+  <footer>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="https://chronicinternet.com/refund">Refund Policy</a>
+    <p style="margin-top:8px;">&copy; 2026 NewsAnarchist — A Chronic Internet Publication</p>
+  </footer>
+
+  <script>
+    const CHECKOUT_API = 'https://stripe-checkout.steve-5cb.workers.dev/checkout';
+
+    async function checkout(product) {
+      const btn = event.target;
+      btn.disabled = true;
+      btn.textContent = 'Redirecting to checkout...';
+      try {
+        const res = await fetch(CHECKOUT_API, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ product }),
+        });
+        const data = await res.json();
+        if (data.url) {
+          window.location.href = data.url;
+        } else {
+          alert('Something went wrong. Please try again.');
+          btn.disabled = false;
+          btn.textContent = product.includes('yearly') ? 'Subscribe Annually' : 'Subscribe Monthly';
+        }
+      } catch (e) {
+        alert('Connection error. Please try again.');
+        btn.disabled = false;
+        btn.textContent = product.includes('yearly') ? 'Subscribe Annually' : 'Subscribe Monthly';
+      }
+    }
+  </script>
+</body>
+</html>
