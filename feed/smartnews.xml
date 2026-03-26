@@ -9,21 +9,21 @@
     <title>NewsAnarchist</title>
     <link>https://newsanarchist.com</link>
     <atom:link href="https://newsanarchist.com/feed/smartnews.xml" rel="self" type="application/rss+xml"/>
-    <description>News Without the Noise. Breaking news on politics, tech, world affairs, and culture — without the spin.</description>
+    <description>Breaking news on politics, tech, world affairs, and culture — without the spin.</description>
     <language>en-US</language>
     <lastBuildDate>Thu, 26 Mar 2026 03:02:42 GMT</lastBuildDate>
-    <ttl>30</ttl>
+    <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
       <title>NewsAnarchist</title>
       <link>https://newsanarchist.com</link>
     </image>
     <snf:logo>
-      <snf:url>https://newsanarchist.com/images/logo.png</snf:url>
+      <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
-    <snf:logoDarkMode>
-      <snf:url>https://newsanarchist.com/images/logo.png</snf:url>
-    </snf:logoDarkMode>
+    <snf:darkModeLogo>
+      <url>https://newsanarchist.com/images/logo.png</url>
+    </snf:darkModeLogo>
     <item>
       <title><![CDATA[Why This City’s Reckoning With Cesar Chavez Is So Complicated - The...]]></title>
       <link>https://newsanarchist.com/articles/2026-03-26-why-this-citys-reckoning-with-cesar-chavez-is-so-complicated-the-new-york-times.html</link>
@@ -35,9 +35,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[White House holds off on CDC pick as search for permanent chief con...]]></title>
@@ -50,9 +48,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[What a GOP loss in Trump’s Mar-a-Lago district says about the midte...]]></title>
@@ -65,9 +61,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[U.S. Circulates Iran Peace Plan While Sending Troops to the Middle ...]]></title>
@@ -80,9 +74,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[TSA boss warns of airport shutdowns, but no deal yet on day 40 of H...]]></title>
@@ -95,9 +87,7 @@
       <category><![CDATA[Tech]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Trump showed classified map to passengers on his plane in 2022, mem...]]></title>
@@ -110,9 +100,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Top Trump housing official issues new criminal referral for New Yor...]]></title>
@@ -125,9 +113,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[The Narrow Path to a U.S.‑Iran Deal - WSJ]]></title>
@@ -140,9 +126,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Judge Orders Arrest of Matt Bevin, Former Kentucky Governor, for Co...]]></title>
@@ -155,9 +139,7 @@
       <category><![CDATA[Tech]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[ICE Agents at Some Airports Begin Checking IDs in Security Lines - ...]]></title>
@@ -170,9 +152,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Greenland independence party wins seat in Danish parliament at key ...]]></title>
@@ -185,9 +165,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[GOP lawmakers vent frustration over Trump administration’s lack of ...]]></title>
@@ -200,9 +178,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[UK’s King Charles will be patron for major Jewish security organiza...]]></title>
@@ -215,9 +191,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[T.S.A. Tipped Off ICE Agents Before Arrests at San Francisco Airpor...]]></title>
@@ -230,9 +204,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Survivor, Denmark: Mette Frederiksen clings on — offering lessons f...]]></title>
@@ -245,9 +217,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Strikes hit Iran while Tehran targets Israel and Gulf states amid m...]]></title>
@@ -260,9 +230,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Salt Lake City initiates process to rename street honoring Cesar Ch...]]></title>
@@ -275,9 +243,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Prosecutor conceded lack of criminal evidence in Federal Reserve in...]]></title>
@@ -290,9 +256,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Iran War Live Updates: Mediators Aim for U.S.-Iran Meeting by Thurs...]]></title>
@@ -305,9 +269,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[US-Iran Conflict Day 26: New Strikes, Troop Buildups, No Diplomacy]]></title>
@@ -320,9 +282,7 @@
       <category><![CDATA[Breaking — Live Updates]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Iran Says ‘Non-Hostile’ Ships Can Sail Through the Strait of Hormuz...]]></title>
@@ -335,9 +295,7 @@
       <category><![CDATA[Tech]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Exclusive: Trump's approval hits new 36% low as fuel prices surge a...]]></title>
@@ -350,9 +308,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Investigators Seek Answers in Coordinated Antisemitic Attacks Across Europe]]></title>
@@ -365,9 +321,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Epic Games to Lay Off 1,000 Staffers and Cut $500 Million as Fortnite Revenue Slides]]></title>
@@ -380,9 +334,7 @@
       <category><![CDATA[Gaming]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Democrats flip Florida state seat that includes Trump's Mar-a-Lago ...]]></title>
@@ -395,9 +347,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Deal to fund DHS falters amid bipartisan pushback - Axios]]></title>
@@ -410,9 +360,7 @@
       <category><![CDATA[Politics]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[California governor debate canceled after criticism of criteria tha...]]></title>
@@ -425,9 +373,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Army paratroopers ordered to Middle East as U.S. weighs next move i...]]></title>
@@ -440,9 +386,7 @@
       <category><![CDATA[World]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
     <item>
       <title><![CDATA[Agentic AI: The 2026 Tech Inflection Point That Changes Everything]]></title>
@@ -455,9 +399,7 @@
       <category><![CDATA[Artificial Intelligence]]></category>
       <media:content url="https://newsanarchist.com/images/og-default.jpg" medium="image"/>
       <media:thumbnail url="https://newsanarchist.com/images/og-default.jpg"/>
-      <snf:analytics><![CDATA[<!-- GA4: G-7N6W04M3XW -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>]]></snf:analytics>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
     </item>
   </channel>
 </rss>
