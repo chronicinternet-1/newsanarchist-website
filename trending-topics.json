@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-03-31T03:14:04.769Z",
+  "scrapedAt": "2026-03-31T15:14:06.982Z",
   "topicsCount": 12,
   "topics": [
     {
@@ -37,8 +37,19 @@
       ],
       "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s88jm6/i_found_a_reddit_setting_that_lets_them_use_your/",
-      "generatedAt": "2026-03-31T03:13:43.590Z",
-      "relatedArticles": []
+      "generatedAt": "2026-03-31T15:13:44.440Z",
+      "relatedArticles": [
+        {
+          "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
+          "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment",
+          "slug": "2026-03-31-price-collapse-hits-memory-sticks-as-hoarded-inventory-floods-market-after-googl",
+          "category": "Tech & Privacy"
+        }
+      ]
     },
     {
       "title": "Data breach at Premera insurance partner firm",
@@ -75,13 +86,8 @@
       ],
       "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7vao0/data_breach_at_premera_insurance_partner_firm/",
-      "generatedAt": "2026-03-31T03:13:44.767Z",
+      "generatedAt": "2026-03-31T15:13:45.558Z",
       "relatedArticles": [
-        {
-          "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
-          "category": "Corporate Watchdog"
-        },
         {
           "title": "Online Footprint & Safety Advice",
           "slug": "2026-03-31-online-footprint-safety-advice",
@@ -93,7 +99,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-03-31T03:13:42.141Z",
+      "pubDate": "2026-03-31T15:13:42.391Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -123,113 +129,67 @@
       ],
       "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-03-31T03:13:46.983Z",
+      "generatedAt": "2026-03-31T15:13:51.036Z",
       "relatedArticles": [
         {
-          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
-          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
+          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+          "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
           "category": "Government Secrets"
         },
         {
-          "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
-          "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
+          "title": "Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low",
+          "slug": "2026-03-31-job-openings-drop-after-huge-upward-revision-as-hires-quits-unexpectedly-plunge",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
-      "url": "https://www.zerohedge.com/markets/biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-state-tuition-illegal",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Jill McLaughlin via The Epoch Times,</em></a></p> <p>A district court judge tossed out the Trump administration’s lawsuit on Ma",
-      "pubDate": "Mon, 30 Mar 2026 23:45:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Surveillance State",
-      "score": 10,
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "description": "",
+      "pubDate": "2026-03-31T09:00:40.000Z",
+      "source": "Hacker News",
+      "hnScore": 888,
+      "hnComments": 490,
+      "category": "Government Secrets",
+      "score": 9,
       "sources": [
-        "ZeroHedge"
+        "Hacker News"
       ],
-      "content": "Authored by Jill McLaughlin via The Epoch Times, A district court judge tossed out the Trump administration’s lawsuit on March 27 against Minnesota laws that allow illegal immigrants to pay in-state tuition rates, or in some cases waive tuition, for college and university classes, ruling that the state law doesn’t violate federal law. United States District Judge Katherine Menendez, appointed in 2021 by President Biden, granted the state’s motion to dismiss the Department of Justice’s (DOJ) lawsuit , filed on June 25, 2025, finding Minnesota’s in-state tuition rules didn’t discriminate against citizens. “As Defendants point out, there are multiple ways a student could qualify for Resident Tuition without residing in Minnesota, such as attending a Minnesota high school while living in a neighboring state, or by attending a Minnesota high school while living in a neighboring state, or by attending a Minnesota boarding school,” Menendez wrote in the decision. The federal government sued Minnesota’s Gov. Tim Walz and other state officials over the state’s laws that allow foreign nationals to receive lower or free tuition for college. Minnesota law states that any student, other than a non-immigrant alien, can qualify for a resident tuition rate at state universities and colleges if they attend high school in the state for at least three years and graduate from a state high school or get a high school equivalent degree. The law also states an illegal immigrant must give the state proof they have complied with federal selective service registration requirements, filed to obtain lawful immigration status, and provide documents showing they have tried to get lawful immigration status to qualify for in-state tuition. Menendez also agreed with Walz and Minnesota’s Attorney General Keith Ellison, who argued they should not have been included in the lawsuit by the DOJ because “none of the Minnesota statutes mention either official, and nowhere in the Complaint does the United States allege specific actions of involvement by either official.” The judge dismissed the case with prejudice, meaning it stands as the final judgment and can’t be refiled. Students paying in-state tuition pay half the cost of those paying out-of-state tuition. For the 2024–2025 school year, the average out-of-state tuition in Minnesota was $26,700, while in-state tuition was about $12,900, according to the Federation for American Immigration Reform . In addition to the in-state tuition law, Minnesota passed the North Star Promise Program, signed by Walz in 2023, which gives illegal immigrants who attend high school for three years in the state the ability to qualify for free tuition, scholarships, grants, and stipends if their families make less than $80,000. The DOJ’s lawsuit concerned the interpretation of federal immigration law that limits eligibility and preferential treatment of immigrants not lawfully present in the United States. The law states immigrants who are not lawfully present in the country “shall not be eligible on the basis of residence within a state for any postsecondary education benefit unless a citizen or national of the United States is eligible for such a benefit without regard to whether the citizen or national is such a resident.” In the lawsuit, the DOJ alleged the state’s policy to provide reduced and free tuition for illegal immigrants unlawfully discriminated against U.S. citizens. The Diana E. Murphy U.S. Courthouse in Minneapolis on June 13, 2024. Michael Goldberg/AP Photo “No state can be allowed to treat Americans like second-class citizens in their own country by offering financial benefits to illegal aliens,” U.S. Attorney General Pam Bondi said at the time of the lawsuit filing. Federal law prohibits higher-learning institutions from providing postsecondary education benefits to immigrants that are not offered to U.S. citizens, according to the DOJ. The DOJ, Walz, and Ellison’s offices did not immediately return requests for comment about the decision. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "",
       "keywords": [
-        "surveillance-state news",
-        "state",
-        "tuition",
-        "minnesota",
-        "lawsuit",
-        "field",
-        "immigrants",
-        "school"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#state",
-        "#tuition",
-        "#minnesota",
-        "#lawsuit",
-        "#field",
-        "#immigrants",
-        "#school"
-      ],
-      "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
-      "sourceUrl": "https://www.zerohedge.com/markets/biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-state-tuition-illegal",
-      "generatedAt": "2026-03-31T03:13:49.367Z",
-      "relatedArticles": [
-        {
-          "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
-          "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
-          "category": "Surveillance State"
-        },
-        {
-          "title": "How are y'all getting your Weather?",
-          "slug": "2026-03-31-how-are-yall-getting-your-weather",
-          "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-      "url": "https://www.zerohedge.com/geopolitical/offramp-progress-israeli-media-signals-completion-phrase-iran-war",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>It's no secret that Washington is looking for an off-ramp amid what has been a steady pattern of escalation with Iran over the past month since Operation Epic Fury began.",
-      "pubDate": "Mon, 30 Mar 2026 19:40:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Corporate Watchdog",
-      "score": 10,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "It&#x27;s no secret that Washington is looking for an off-ramp amid what has been a steady pattern of escalation with Iran over the past month since Operation Epic Fury began. The White House&#x27;s anticipated timeline and even list of objectives has seriously shifted since the war&#x27;s start, as has the scope, given Tehran&#x27;s &#x27;unexpected&#x27; big retaliatory strikes on the Gulf and Israel - including on energy and infrastructure targets. It seems Trump was thinking Iran could be parallel to the Venezuela situation - where a &#x27;decapitation&#x27; operation swiftly removed Maduro and the US basically acknowledged a pliant puppet in his place (Delcy Rodríguez). That&#x27;s why White House officials at the very start were talking about an operation that would lust just &#x27;days&#x27; or maybe a couple weeks. Now, one month in, and we have fresh headlines like this : \"Iran war enters its fourth week with no clear end in sight.\" The US administration is meanwhile trying to refocus its definable objectives, however overall vision and strategy for a &#x27;mission accomplished&#x27; end-goal has been anything but clear. For example, the start of the war saw the White House officially list as an objective the end of Iran&#x27;s nuclear program and removal of enriched uranium - but that is no longer listed . Instead, the State Dept. - citing Marco Rubio - has issued the following military objectives in Iran : 1. The destruction of Iran&#x27;s air force 3. The severe diminishing of their missile launching capability These are much more &#x27;achievable aims&#x27; allowing the Trump administration to save face by declaring they&#x27;ve all been met, whenever it wants to proclaim a mission complete situation, and pull Pentagon assets from the theatre. But the fact that Iran still has de facto hold over the Strait of Hormuz remains a big problem, as does its ongoing nuclear capabilities, despite that nuclear sites have been degraded or possibly destroyed. One big and somewhat surprising sign that the US-Israeli coalition could be about to wind down the war is that Times of Israel on Monday ran the following headline : \"A month into the war with Iran, the Israeli military has almost completed bombing all of the targets it defined for itself at the start of the conflict, and has now been ordered by Israel’s political leadership to shift to hitting &#x27;economic&#x27; targets of the Iranian regime,\" the publication wrote. It goes on: \"The Israeli Air Force has conducted hundreds of waves of strikes in Iran, dropping over 13,000 bombs on Iranian regime and military sites, including air defense systems, ballistic missile launchers, weapon production sites, some nuclear facilities, and various headquarters.\" The same report also details how dozens of top civilian and military leaders have been killed in the campaign, and most importantly longtime Ayatollah Ali Khamnieni. However, the report also mentions one Israeli objecting of \"setting the conditions\" for some kind of popular uprising which could topple the government, and that has not happened. Still, the language in the report strongly suggests an offramp could be in the works, perhaps under pressure by the United States : On Saturday, IDF Spokesman Brig. Gen. Effie Defrin said that “within a few days” the military would complete targeting all of the “critical” assets of Iran’s military production industries, sites used to develop weapons that threaten Israel. The military has also said it has taken out most of Iran’s ballistic missile launchers and air defense systems. And here&#x27;s a key line from Times of Israel : Israel’s defense establishment is now in what it described as the “completion phase” of the goals it set out at the start of the war, meaning it believes it has largely achieved its objectives of degrading Iran’s military capabilities and “creating the conditions” for the Iranian regime to fall, The Times of Israel has learned. Yet there are still other signs which suggest the war could go on for quite a bit longer, and even turn into a deeper quagmire, given the White House has yet to rule out ground forces. I told @NewYorker : “What is the point of the entire U.S. military role in the Middle East? If it has any point, it should be to prevent something like the closure of the Strait of Hormuz. Yet U.S. military action has only brought about the very problem it’s supposed to prevent.” Is Trump heading toward trying to &#x27;force&#x27; a &#x27;mission accomplished&#x27; moment? It would be interesting if this happened before the Strait of Hormuz was actually opened up. Such an outcome would probably be used by Iranian officials to instead declare &#x27;victory&#x27; for the Islamic Republic. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "corporate-watchdog news",
-        "iran",
-        "military",
-        "field",
+        "government-secrets news",
+        "code",
+        "claude",
+        "source",
         "been",
-        "israel",
-        "israeli",
-        "start"
+        "leaked",
+        "file",
+        "their"
       ],
       "hashtags": [
-        "#corporate-watchdognews",
-        "#iran",
-        "#military",
-        "#field",
+        "#government-secretsnews",
+        "#code",
+        "#claude",
+        "#source",
         "#been",
-        "#israel",
-        "#israeli",
-        "#start"
+        "#leaked",
+        "#file",
+        "#their"
       ],
-      "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/offramp-progress-israeli-media-signals-completion-phrase-iran-war",
-      "generatedAt": "2026-03-31T03:13:51.290Z",
+      "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
+      "sourceUrl": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "generatedAt": "2026-03-31T15:13:53.362Z",
       "relatedArticles": [
         {
-          "title": "Data breach at Premera insurance partner firm",
-          "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
-          "category": "Corporate Watchdog"
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
         },
         {
-          "title": "Online Footprint & Safety Advice",
-          "slug": "2026-03-31-online-footprint-safety-advice",
-          "category": "Corporate Watchdog"
+          "title": "Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low",
+          "slug": "2026-03-31-job-openings-drop-after-huge-upward-revision-as-hires-quits-unexpectedly-plunge",
+          "category": "Government Secrets"
         }
       ]
     },
@@ -268,13 +228,8 @@
       ],
       "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s878e9/apple_revealed_hide_my_email_user_identity_in_fbi/",
-      "generatedAt": "2026-03-31T03:13:53.208Z",
+      "generatedAt": "2026-03-31T15:13:54.397Z",
       "relatedArticles": [
-        {
-          "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
-          "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
-          "category": "Surveillance State"
-        },
         {
           "title": "How are y'all getting your Weather?",
           "slug": "2026-03-31-how-are-yall-getting-your-weather",
@@ -317,17 +272,61 @@
       ],
       "slug": "2026-03-31-how-are-yall-getting-your-weather",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7u5rd/how_are_yall_getting_your_weather/",
-      "generatedAt": "2026-03-31T03:13:55.150Z",
+      "generatedAt": "2026-03-31T15:13:55.605Z",
       "relatedArticles": [
-        {
-          "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
-          "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
-          "category": "Surveillance State"
-        },
         {
           "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
           "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
           "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
+      "url": "https://www.reddit.com/r/privacy/comments/1s8p4p8/is_it_safe_to_provide_ssn_and_id_online_when/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Is it safe to provide ssn to volunteer for Crisis Text Line (a mental health crisis non-profit where you volunteer as a crisis counselor after I think 15 hours of training)? They require ssn and I think ID for a background check which I understand but I'm a privacy conscious person. However, I'd like to volunteer as a crisis counselor because I want to help people",
+      "pubDate": "2026-03-31T14:33:26.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it safe to provide ssn to volunteer for Crisis Text Line (a mental health crisis non-profit where you volunteer as a crisis counselor after I think 15 hours of training)? They require ssn and I think ID for a background check which I understand but I'm a privacy conscious person. However, I'd like to volunteer as a crisis counselor because I want to help people",
+      "keywords": [
+        "tech-&-privacy news",
+        "volunteer",
+        "crisis",
+        "safe",
+        "provide",
+        "counselor",
+        "think",
+        "online"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#volunteer",
+        "#crisis",
+        "#safe",
+        "#provide",
+        "#counselor",
+        "#think",
+        "#online"
+      ],
+      "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s8p4p8/is_it_safe_to_provide_ssn_and_id_online_when/",
+      "generatedAt": "2026-03-31T15:13:57.076Z",
+      "relatedArticles": [
+        {
+          "title": "I found a Reddit setting that lets them use your activity to target ads across other websites, it's buried and on by default",
+          "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment",
+          "slug": "2026-03-31-price-collapse-hits-memory-sticks-as-hoarded-inventory-floods-market-after-googl",
+          "category": "Tech & Privacy"
         }
       ]
     },
@@ -366,188 +365,135 @@
       ],
       "slug": "2026-03-31-online-footprint-safety-advice",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s81375/online_footprint_safety_advice/",
-      "generatedAt": "2026-03-31T03:13:56.798Z",
+      "generatedAt": "2026-03-31T15:13:58.252Z",
       "relatedArticles": [
         {
           "title": "Data breach at Premera insurance partner firm",
           "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
           "category": "Corporate Watchdog"
-        },
-        {
-          "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
-          "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
-      "url": "https://www.zerohedge.com/geopolitical/zelensky-calls-easter-truce-russia-amid-nightly-ratcheted-drone-assaults",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Ukrainian President Volodymyr Zelensky is urging for an Easter holiday ceasefire with Russia, at a moment each side has sent daily and nightly drones and missiles across the bor",
-      "pubDate": "Tue, 31 Mar 2026 01:50:00 +0000",
+      "title": "Solar Stocks Surge As Energy Shock Revives Renewables Trade",
+      "url": "https://www.zerohedge.com/markets/solar-stocks-surge-energy-shock-revives-renewables-trade",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Solar Stocks Surge As Energy Shock Revives Renewables Trade</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Goldman analyst Adam Wijaya asked clients whether this year's surge in SolarEdge, Enphase Energy, and other solar stocks is reviving a familiar trade: <strong>higher crude oil and natur",
+      "pubDate": "Tue, 31 Mar 2026 14:55:00 +0000",
       "source": "ZeroHedge",
-      "category": "Government Secrets",
+      "category": "Global Power",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Ukrainian President Volodymyr Zelensky is urging for an Easter holiday ceasefire with Russia, at a moment each side has sent daily and nightly drones and missiles across the border. \"We’re ready for a ceasefire during the Easter holidays,\" Zelensky told reporters, describing that \"normal people who respect life\" would seek a permanent ceasefire. \"But we’re ready for any compromises, except those involving our dignity and sovereignty,\" he added. The vast majority of both the Russian & Ukrainian populations are Orthodox Christians. Both countries have predominantly Eastern Orthodox Christian populations, and Orthodox Easter, also known as Pascha, takes place on April 16 this year . The West, or rather the Roman Catholic and Protestant churches, will celebrate on April 5. While full ceasefires, even short ones, have not had much success in the past more than four years of war, the two sides have previously agreed to days or even weeks of pauses on attacking energy sites. This limited truce does hold some potential. \"If Russia is ready to stop hitting Ukrainian energy facilities, we will not respond against their energy sector,\" Zelensky said. Last year saw an effort to put in place a Pascha ceasefire, called for by President Putin - however, there were widespread accusations of violations. Putin himself attends the long Orthodox Pascha vigil each year, while Zelensky is Jewish. He became the first Jewish president of Ukraine after being elected in 2019, and has since faced accusations of persecuting Ukrainian Orthodox who maintain spiritual ties with the Moscow patriarchate . Currently, drone attacks on mutual energy sites are continuing at rapid pace. We detailed that last week Russia set a record for the largest single-day drone assault on Ukraine of the war. At least seven people were killed in Ukraine last Tuesday after Russia launched the truly massive drone. Counting both drones and cruise missiles, 979 warheads poured into Ukrainian airspace as diplomatic efforts at ending the war remain stalled and the world&#x27;s attention focused almost entirely on the US-Israeli war on Iran. If some kind of Easter truce could actually hold later next month, it would constitute a significant breakthrough regarding broader diplomatic efforts toward peace, at a moment the US-mediated talks have stalled amid the Iran war in the Middle East, and removal of some sanctions on Russian oil. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Goldman analyst Adam Wijaya asked clients whether this year&#x27;s surge in SolarEdge, Enphase Energy, and other solar stocks is reviving a familiar trade: higher crude oil and natural gas prices in Europe and globally, strengthening the case for renewables as the energy shock sparks a return to coal switching . \"Are we back to running the 2022 playbook? \" Wijaya asked in a note published Monday. Wijaya said, \" Certainly seems that way based on recent px action in residential solar .\" \"SEDG is +79% YTD vs ENPH +18% and RUN -32%... oil + gas prices moving higher in Europe/globally + coal switching coming into the equation begs the question &#x27;do we start to see more renewables adoption in the EU given demand needs ?&#x27;\". SolarEdge shares are up 64% year to date, broadly tracking Brent crude and the European natural gas benchmark. The logic behind the trade is that higher fossil fuel prices improve the economics of alternative energy. \"As we start getting closer to midterm elections – some specialists asking questions around the &#x27;blue playbook&#x27;… ie which single stocks could have leverage to a policy shift in Energy focused on solar/wind/renewables .\" Potentially stronger demand for renewables comes as the Hormuz crisis forces countries to rethink energy security. With some power grid operators likely to switch to coal to keep the lights on , the shock is also reviving the conversation around adding more solar and wind to diversify grid mix. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
-        "government-secrets news",
+        "global-power news",
         "field",
-        "zelensky",
-        "easter",
-        "ukrainian",
-        "drone",
-        "ceasefire",
-        "russia"
+        "energy",
+        "solar",
+        "renewables",
+        "stocks",
+        "trade",
+        "surge"
       ],
       "hashtags": [
-        "#government-secretsnews",
+        "#global-powernews",
         "#field",
-        "#zelensky",
-        "#easter",
-        "#ukrainian",
-        "#drone",
-        "#ceasefire",
-        "#russia"
+        "#energy",
+        "#solar",
+        "#renewables",
+        "#stocks",
+        "#trade",
+        "#surge"
       ],
-      "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/zelensky-calls-easter-truce-russia-amid-nightly-ratcheted-drone-assaults",
-      "generatedAt": "2026-03-31T03:13:58.372Z",
-      "relatedArticles": [
-        {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
-        },
-        {
-          "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
-          "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
-      "url": "https://www.zerohedge.com/military/us-firm-boosts-production-anti-drone-systems",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Firm Boosts Production Of Precision Anti-Drone Systems</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Prabhat Ranjan Mishra via Interesting Engineering</a>,</em></p> <p><strong>A Florida-based company is accelerating production of powerful systems that can counter small d",
-      "pubDate": "Tue, 31 Mar 2026 01:25:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Government Secrets",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Authored by Prabhat Ranjan Mishra via Interesting Engineering , A Florida-based company is accelerating production of powerful systems that can counter small drone threats . VAMPIRE counter-unmanned systems (C-UxS) deliver precision strike capabilities against drones. The system has proved its efficacy on the frontline. Developed by L3Harris Technologies, the system is a self-contained platform that delivers advanced reconnaissance and can conduct operations against remotely piloted aircraft. L3Harris Technologies recently installed its VAMPIRE counter-unmanned system aboard a GM Defense Infantry Squad Vehicle (ISV), demonstrating a mobile solution to take out drone threats. The facility features a flexible assembly, testing and installation area to integrate VAMPIRE onto ground vehicles and containerized weapon systems. The production line can adjust and increase volume as demand evolves. “Deploying VAMPIRE on GM Defense’s ISV is a great example of how quickly and seamlessly this system can be used by our Army customer to defeat the rapidly growing threat of small, hostile drones,” said Tom Kirkland, vice president and general manager, Targeting and Sensor Systems, L3Harris. “Working together, we have swiftly responded to the urgent need to defeat small unmanned autonomous systems accurately and affordably while allowing ground forces to stay tactically mobile.” The company claims that the GM Defense ISV is uniquely engineered to fulfill U.S. Army requirements for rapid deployment . With robust off-road capabilities, the ISV significantly improves tactical mobility across a range of military operations. The vehicle is easily maintainable and highly adaptable to meet diverse mission and operational needs, according to a press release. GM Defense partners with companies like L3Harris to design and produce diverse kits to support the broad range of mission requirements for a variety of general purpose and special operations forces. Incorporating a Counter-small UAS system like VAMPIRE adds new capability to protect operators from hostile drone attacks, as per the release . “The versatility of the ISV is one of its core strengths, and integrating a critical counter-UAS capability like VAMPIRE showcases our ability to rapidly adapt the vehicle to meet evolving threats,” said John ‘JD’ Johnson, Vice President of Government Solutions and Strategy, GM Defense. “This successful integration highlights how the ISV’s modular design and commercial-based architecture can quickly incorporate next-generation technologies to deliver immediate value and enhanced protection to our warfighters.” The company also highlighted that the completely self-contained, low-cost, multi-mission, precision-guided weapons platform effectively engaged in combat operations since 2023 , safeguarding personnel and critical infrastructure against hostile unmanned systems and ground threats. The affordable, compact ISR and counter-unmanned weapons system designed to deploy on nearly any platform, vehicle or vessel, according to L3 Harris. This all-in-one system excels in Counter-small Unmanned Airborne System (C-sUAS) operations, delivering precision strike capabilities with customizable sensors and weapons, significantly reducing the cost-per-effect and overall cost of ownership, according to the company. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "government-secrets news",
-        "systems",
-        "field",
-        "counter",
-        "system",
-        "small",
-        "vampire",
-        "unmanned"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#systems",
-        "#field",
-        "#counter",
-        "#system",
-        "#small",
-        "#vampire",
-        "#unmanned"
-      ],
-      "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
-      "sourceUrl": "https://www.zerohedge.com/military/us-firm-boosts-production-anti-drone-systems",
-      "generatedAt": "2026-03-31T03:14:00.046Z",
-      "relatedArticles": [
-        {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
-        },
-        {
-          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
-          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "'Project Hail Mary' Writer Credits Not Going Woke For Film's Success",
-      "url": "https://www.zerohedge.com/political/project-hail-mary-writer-credits-not-going-woke-films-success",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">'Project Hail Mary' Writer Credits Not Going Woke For Film's Success</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><strong>With an $80.6 million domestic opening weekend, a 95% critics’ score on Rotten Tomatoes, and a 96% audience score, Project Hail Mary is an undeniable blockbuster hit.</",
-      "pubDate": "Tue, 31 Mar 2026 01:00:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Unexplained",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "With an $80.6 million domestic opening weekend, a 95% critics’ score on Rotten Tomatoes, and a 96% audience score, Project Hail Mary is an undeniable blockbuster hit. By its second weekend, the movie crossed $300 million worldwide and dethroned Avatar: Fire and Ash as the top-grossing Hollywood film of 2026 in North America. It’s become the second-biggest non-franchise opening over the past decade, after Oppenheimer . The Hollywood Reporter published a piece titled \"Project Hail Mary: 4 Lessons Hollywood Won&#x27;t Learn From Its Success,\" pointing to smart storytelling, sincerity, patience, and practical effects as the pillars behind the film&#x27;s blockbuster performance. That&#x27;s a solid four. But, it predictably missed the fifth, and arguably most important point: Don&#x27;t go woke. In the movie, Ryan Gosling plays Ryland Grace, a science teacher and biologist who wakes up alone on a deep-space mission to figure out how to stop a microorganism from dimming the sun. He eventually makes contact with an alien on the same mission, and the two team up to save their respective worlds from extinction. The premise could have easily become a vehicle for climate allegory and geopolitical moralizing, but it didn&#x27;t. Andy Weir, the author of the novel, sat down with Will Jordan - better known online as The Critical Drinker - on Jordan&#x27;s YouTube channel shortly after the film&#x27;s release. \"For me, it&#x27;s a great example of what you can do now with movies,\" Jordan said. \"If you&#x27;re faithful to the source material and you don&#x27;t insult the intelligence of your audience, and give them something really interesting to grapple with, and you know, dare I say it, [don’t] try and shove, like, crappy identity politics into it, you end up with a goddam good movie at the end of it that the people just want to watch. \" Weir&#x27;s response was immediate and unambiguous. \"I think you and me are kind of on the same wavelength there when it comes to fiction writing,\" he said. \" I never put any politics or messaging in any of my stories at all. There&#x27;s no deeper meaning; there isn&#x27;t even any symbolism, even non-political. There&#x27;s just no symbolism at all. My books are just purely to entertain.\" Weir added. \"You don&#x27;t have to worry about the message .\" This is why Andy Weir will always be one of my favorite authors. His goal is to entertain, not lecture. pic.twitter.com/5KmvOvf8c4 That&#x27;s a best-selling author of two major Hollywood adaptations - The Martian and now Project Hail Mary - telling an audience of millions that the secret ingredient is the absence of an agenda. Not diversity hires. Not carefully calibrated representation metrics. Not a third-act monologue about social justice. Just a story, told well, about humans trying to survive. The contrast with HBO Max&#x27;s upcoming Harry Potter series couldn&#x27;t be clearer. Last week, the teaser trailer for the first season dropped, and the internet promptly caught fire over the casting of Paapa Essiedu - a black actor - as Severus Snape. The show had been pitched as a more faithful adaptation of J.K. Rowling&#x27;s novels than the original eight films were able to be. But upon the announcement of Essiedu’s casting, fans quickly pointed to original illustrations and decades of book descriptions of Snape, and realized this was not going to be a faithful adaptation of the novels. Following the release of the trailer, social media has been flooded with \"Black Snape\" memes, AI-generated edits, and videos, many lamenting how certain Harry Potter storylines and character dynamics will land differently because of the race swap. The conversation about the new series has become almost entirely about casting politics and DEI, rather than storytelling. That&#x27;s exactly what Project Hail Mary avoided. Directors Phil Lord and Chris Miller, and a production that respected its source material, delivered a film people actually wanted to see. Hollywood has a template now. It&#x27;s not complicated. Serve the audience, not the agenda. The question isn&#x27;t whether the lesson is available. It&#x27;s whether Hollywood is willing to hear it. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "unexplained news",
-        "field",
-        "project",
-        "hail",
-        "mary",
-        "film",
-        "hollywood",
-        "audience"
-      ],
-      "hashtags": [
-        "#unexplainednews",
-        "#field",
-        "#project",
-        "#hail",
-        "#mary",
-        "#film",
-        "#hollywood",
-        "#audience"
-      ],
-      "slug": "2026-03-31-project-hail-mary-writer-credits-not-going-woke-for-films-success",
-      "sourceUrl": "https://www.zerohedge.com/political/project-hail-mary-writer-credits-not-going-woke-films-success",
-      "generatedAt": "2026-03-31T03:14:01.418Z",
+      "slug": "2026-03-31-solar-stocks-surge-as-energy-shock-revives-renewables-trade",
+      "sourceUrl": "https://www.zerohedge.com/markets/solar-stocks-surge-energy-shock-revives-renewables-trade",
+      "generatedAt": "2026-03-31T15:14:00.079Z",
       "relatedArticles": []
     },
     {
-      "title": "China's Breakthrough Lithium Battery Could Double EV Range To 600+ Miles, Survive -94°F Temp",
-      "url": "https://www.zerohedge.com/technology/chinas-breakthrough-lithium-battery-could-double-ev-range-600-miles-survive-94degf-temp",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">China's Breakthrough Lithium Battery Could Double EV Range To 600+ Miles, Survive -94°F Temp</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Bojan Stojkovski via Interesting Engineering</a>,</em></p> <p><strong>A team of researchers in China has unveiled an all-weather electr",
-      "pubDate": "Tue, 31 Mar 2026 00:35:00 +0000",
+      "title": "\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment",
+      "url": "https://www.zerohedge.com/ai/price-collapse-hits-memory-sticks-hoarded-inventory-floods-market-after-googles-deepseek-moment",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Following our <span style=\"box-sizing: border-box; margin: 0px; padding: 0px;\">\"<a href=\" target=\"_blank\">Google's</a></span><a href=\" DeepSeek",
+      "pubDate": "Tue, 31 Mar 2026 14:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Tech & Privacy",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Following our \" Google&#x27;s DeepSeek Moment \" report last week, which detailed how TurboQuant, a compression algorithm for large language models and vector search engines, could sharply reduce AI memory requirements and sparked a selloff in top memory stocks, a Taiwanese financial outlet is now reporting a plunge in memory stick prices this week. Taiwan-based Economic Daily News reports that DDR5 memory stick prices have dropped by 15% to 30%, marking the first major price correction after a rally that began in early fall, as AI data center demand for memory ramped up. The correction comes as the market expects lower memory demand following the unveiling of Google&#x27;s TurboQuant. In the U.S., Amazon listings showed steep declines in DDR5 pricing. In mainland China, retailers described the move as a \" price collapse ,\" with 16GB DDR5 modules falling from about $145 to $101 and 32GB modules dropping from about $435 to $319, based on current exchange rates. Distributors said the price drop was driven by sellers dumping previously hoarded inventory . Reporters Li Mengshan and Xie Shouzhen posted an infographic on price drops by region, which we have translated here: Amazon Micron 32GB 6400MHz DDR5 module fell from a high of $490 to $379.99, a correction of nearly 30%. 16GB 5200MHz DDR5 module fell from $260 to $219.99, a decline of more than 15%. Local channel data shows mainstream 16GB DDR5 module prices recently fell to around RMB 700, a drop of about 30%. 32GB DDR5 module prices fell from RMB 3,000 to around RMB 2,200, a decline of about 27%. Prices for DDR4 and DDR5 on secondhand platforms have also fallen in tandem. Overall pricing momentum is still continuing. Original factory contract prices have not declined at all. \" Industry insiders point out that this is the first significant price drop in recent months , and the simultaneous price adjustments across multiple platforms indicate that end-user demand is becoming more conservative under the pressure of high prices,\" the reporters said. The report continued: \" Industry insiders say that the current &#x27;visible price drop&#x27; reflects a short-term correction in supply and demand and market sentiment, rather than a reversal in the industry&#x27;s fundamentals .\" There&#x27;s growing speculation that OpenAI&#x27;s Sam Altman soaked up the entire memory market with non-binding orders. So Sam Altman blew up the memory market with non-binding DRAM orders of 40% of global supply and then changed his mind because Stargate can&#x27;t get off the ground? $MU pic.twitter.com/ioe6PZN0S8 Given the emerging theme of sliding memory stick prices, driven by TurboQuant and growing doubts that Altman’s Stargate will get off the ground, memory stocks are now hovering near critical support and trading at levels not seen since earlier this month and mid-January levels. \"On the memory side, what did not help were weekend datapoints pointing to DDR5 prices dropping, in some cases by as much as 30%, after the Google TurboQuant news. U.S. prices for 32GB 6400MHz DDR5 modules and China prices for mainstream 16GB DDR5 modules have both fallen around 30% from their peaks,\" a Goldman analyst wrote earlier today. And remember, Korea’s Kospi has already slipped into a bear market amid the downdraft in memory names. It is all linked. More on memory stock charts via our technicians at The Market Ear ( chartpack here ). Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide",
+      "keywords": [
+        "tech-&-privacy news",
+        "memory",
+        "prices",
+        "price",
+        "field",
+        "market",
+        "google",
+        "deepseek"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#memory",
+        "#prices",
+        "#price",
+        "#field",
+        "#market",
+        "#google",
+        "#deepseek"
+      ],
+      "slug": "2026-03-31-price-collapse-hits-memory-sticks-as-hoarded-inventory-floods-market-after-googl",
+      "sourceUrl": "https://www.zerohedge.com/ai/price-collapse-hits-memory-sticks-hoarded-inventory-floods-market-after-googles-deepseek-moment",
+      "generatedAt": "2026-03-31T15:14:01.667Z",
+      "relatedArticles": [
+        {
+          "title": "I found a Reddit setting that lets them use your activity to target ads across other websites, it's buried and on by default",
+          "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
+          "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low",
+      "url": "https://www.zerohedge.com/markets/job-openings-drop-after-huge-upward-revision-hires-quits-unexpectedly-plunge-six-year-low",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>A few weeks ago, the BLS reported that January job openings unexpectedly soared by 400K, the biggest increase since November 2024, to 6.946MM, the h",
+      "pubDate": "Tue, 31 Mar 2026 14:33:43 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Authored by Bojan Stojkovski via Interesting Engineering , A team of researchers in China has unveiled an all-weather electrolyte designed to boost the performance of lithium batteries across a wide range of conditions. Scientists based in Shanghai and Tianjin report that batteries built with the new hydrofluorocarbon-based electrolyte delivered more than twice the energy density of conventional designs when tested at room temperature. Fluorine-based electrolyte could improve EV and drone battery efficiency. Beyond efficiency gains, the team says the chemistry remains stable in extreme environments, with batteries continuing to operate effectively at temperatures as low as minus 94 degrees Fahrenheit. The development points to a potential path for longer-lasting, more resilient batteries suited for EVs and other demanding applications, where both energy density and reliability under stress are critical. In a study published last month in the journal Nature , researchers outlined how hydrofluorocarbon-based electrolytes could help overcome long-standing limits in battery power and energy density. The team found that, for the same battery mass, energy storage capacity at room temperature could increase by two to three times compared to conventional designs . In turn, this suggests a viable route toward significantly more efficient lithium batteries, with implications for EVs, grid storage , and other high-demand applications, the South China Morning Post reported . The advance could significantly extend electric vehicle range, potentially increasing it from roughly 310–370 miles to about 620 miles on a single charge, the scientists noted. Beyond EVs, the technology may also enhance the performance of devices such as smartphones, drones, robots, and even spacecraft , particularly in extremely cold environments where conventional batteries tend to struggle. At the core of any battery is the electrolyte, a chemical medium that allows ions to move between the positive and negative electrodes. For decades, most lithium battery electrolytes have relied on oxygen- and nitrogen-based compounds because they effectively dissolve lithium salts. However, these materials have limits – they don’t transfer charge as efficiently under stress, which can slow down charging, reduce performance in cold conditions , and in some cases, raise safety concerns. The team, part of Nankai University and the Shanghai Institute of Space Power-Sources (SISP) under the China Aerospace Science and Technology Corporation, developed fluorine-based electrolytes for lithium-metal batteries that offer lower viscosity, improved stability, and enhanced performance in cold conditions. Using one of their hydrogen-, fluorine-, and carbon-based electrolytes, the researchers produced lithium-metal pouch cells with an energy density exceeding 700 Wh per pound at room temperature and around 400 Wh per pound at minus 58 °F. By comparison, conventional lithium batteries reach about 136 Wh per pound at room temperature , dropping to roughly 68 Wh per pound at minus 4 °F. The researchers reported that even at minus 94 °F, their fluorine-based electrolyte maintained high efficiency and stable charge-discharge cycles. Even with strong performance at both room and extremely low temperatures, the team noted that the electrolyte’s high-temperature stability still needs improvement. Raising the boiling point of the electrolytes could open the door to true all-climate applications, making the technology viable across a wider range of environments. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "A few weeks ago, the BLS reported that January job openings unexpectedly soared by 400K, the biggest increase since November 2024, to 6.946MM, the highest since last October. Well, it turns out the jump was even higher than that because moments ago, the BLS published the latest February print, and while that number came in line with estimates, at 6.882MM, or just shy of the 6.890MM estimate, it was a big drop from January, which was revised massively higher by another 300K to 7.240MM from 6.946MM. In other words, the January job openings surge after the revision was a massive 690K, the biggest one month increase since Sept 2022! In this light the February print, while a drop from January, was still a solid improvement from the January five year low of 6.550 million. According to the BLS, the number of job openings decreased in accommodation and food services (-211,000) and in mining and logging (-12,000). Declines were also observed in Construction, Manufacturing,Information, Finance, Private Education and Government; these were offset by modest increases in Professional and business services as well as Other Services. The silver lining: the collapse in government and federal job openings continues. The sharp revision to January and then the extension of job opening declines in February meant that after almost reversing in January (-128K), February saw a surge in labor supply number as there were 689K fewer job openings than unemployed workers. It also means that after rising back to 1.0x in January, in February the ratio of job openings to unemployed dropped back to 0.9x where it has been since last summer. But while the job openings number was in line, previous month&#x27;s revision gimmicks notwithstanding, the real surprise in this month&#x27;s print was the number of Quits and Hires, both of which tumbled to 6 year lows. The number of hires decreased to 4.8 million (-498,000) in February and was down by 387,000 over the year . The hires rate decreased over the month to 3.1 percent. This was the lowest hires rate since April 2020 when it was also 3.1 percent. In February, the number of hires decreased in accommodation and food services (-178,000) and in construction (-88,000). Since this number feeds directly into the payrolls calculations (after netting out separations) this explains why the March payrolls report was such a total disaster. As for quits, in February, the number of quits plunged by 157K to 2.974MM, the lowest since 2020, led by decreases in accommodation and food services (-119,000), wholesale trade (-35,000), and federal government (-6,000). Quits increased in nondurable goods manufacturing (+21,000). Overall, this was a messy JOLTS report and aside from the now revised away January spike, it confirms that the US labor market continues to deteriorate slowly with every passing month. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
-        "lithium",
+        "openings",
+        "january",
         "field",
-        "batteries",
-        "based",
-        "battery",
-        "china",
-        "team"
+        "number",
+        "since",
+        "february",
+        "hires"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#lithium",
+        "#openings",
+        "#january",
         "#field",
-        "#batteries",
-        "#based",
-        "#battery",
-        "#china",
-        "#team"
+        "#number",
+        "#since",
+        "#february",
+        "#hires"
       ],
-      "slug": "2026-03-31-chinas-breakthrough-lithium-battery-could-double-ev-range-to-600-miles-survive-9",
-      "sourceUrl": "https://www.zerohedge.com/technology/chinas-breakthrough-lithium-battery-could-double-ev-range-600-miles-survive-94degf-temp",
-      "generatedAt": "2026-03-31T03:14:03.170Z",
+      "slug": "2026-03-31-job-openings-drop-after-huge-upward-revision-as-hires-quits-unexpectedly-plunge",
+      "sourceUrl": "https://www.zerohedge.com/markets/job-openings-drop-after-huge-upward-revision-hires-quits-unexpectedly-plunge-six-year-low",
+      "generatedAt": "2026-03-31T15:14:03.698Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
@@ -555,8 +501,56 @@
           "category": "Government Secrets"
         },
         {
-          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
-          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
+          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+          "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Army Reviews Helicopter Flights Near Kid Rock's Home, Anti-Trump Protests",
+      "url": "https://www.zerohedge.com/political/army-reviews-helicopter-flights-near-kid-rocks-home-anti-trump-protests",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Army Reviews Helicopter Flights Near Kid Rock's Home, Anti-Trump Protests</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Kimberly Hayek via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>The U.S. Army has opened an administrative review of two AH-64 Apache helicopt",
+      "pubDate": "Tue, 31 Mar 2026 14:25:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Kimberly Hayek via The Epoch Times (emphasis ours), The U.S. Army has opened an administrative review of two AH-64 Apache helicopters that flew low near musician Kid Rock’s home and above an anti-Trump protest in Nashville over the weekend. Two AH-64 Apache attack helicopters conduct flight operations in the U.S. Central Command area of responsibility on Nov. 3, 2025. U.S. Army photo by Spc. Doniel Kennedy, via DVIDS Kid Rock, whose real name is Robert James Ritchie, posted a video on X on March 28 showing the helicopters hovering alongside his outdoor swimming pool. In the clips, he claps, salutes, and raises a fist as the aircraft linger nearby before flying off. The 27,000-square-foot hillside mansion he calls the “Southern White House” sits in the Nashville area. The Army has launched an “administrative review” into why two Apache attack helicopters performed a low-altitude maneuver in front of the Nashville, Tennessee, home of Kid Rock. Martha Raddatz reports. pic.twitter.com/oGRtBykO4R “An administrative review ⁠is underway to assess the mission and verify compliance with regulations and airspace requirements,” U.S. Army ‌spokesperson Major Montrell Russell said in a statement sent to media outlets. “Appropriate action will be taken if any violations are found. Until the review is complete, there will ​be no further comment.” The U.S. Army did not immediately return a request for comment. “ God Bless ​America and all those who have ​made ‌the ultimate sacrifice to defend her,” Rock commented above the video of the helicopters. The same helicopters had flown earlier over a “No Kings” anti-Trump protest in downtown Nashville that day. Demonstrators had gathered to protest President Donald Trump’s policies. Fort Campbell leadership initiated the probe after the videos spread online. No injuries or property damage were reported. The Army has not released additional details on the crews or exact mission orders. Saturday’s “No Kings” rally reflected broader opposition to Trump administration policies, including immigration enforcement and the Iran war. Local authorities said thousands participated in the protest in Nashville. More than ‌3,200 events had been planned in all 50 states, after the two previous nationwide ⁠events attracted millions of participants. The Army emphasized that Apache crews routinely conduct low-level training in the region to maintain readiness . Such routes are approved in advance through federal aviation channels. Still, the proximity to a high-profile private residence and a political demonstration prompted immediate command-level attention. Kid Rock has maintained a public friendship with Trump for years, endorsing him in multiple campaigns and performing at related events. His Nashville-area estate has hosted high-profile visitors and become a symbol of the entertainer’s conservative leanings. Military helicopter operations near civilian areas have drawn scrutiny in the past when they appear to intersect with political activity. The ongoing administrative review will determine whether any policies were breached. The Army said it will update the public if disciplinary measures or procedural changes follow. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "army",
+        "field",
+        "rock",
+        "trump",
+        "helicopters",
+        "review",
+        "nashville"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#army",
+        "#field",
+        "#rock",
+        "#trump",
+        "#helicopters",
+        "#review",
+        "#nashville"
+      ],
+      "slug": "2026-03-31-army-reviews-helicopter-flights-near-kid-rocks-home-anti-trump-protests",
+      "sourceUrl": "https://www.zerohedge.com/political/army-reviews-helicopter-flights-near-kid-rocks-home-anti-trump-protests",
+      "generatedAt": "2026-03-31T15:14:05.369Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+          "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
           "category": "Government Secrets"
         }
       ]

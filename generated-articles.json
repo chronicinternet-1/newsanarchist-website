@@ -1499,7 +1499,7 @@
     "category": "Tech & Privacy",
     "filename": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o.html",
     "pubDate": "2026-03-31T00:38:24.000Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "r/privacy",
     "description": "<!-- SC_OFF --><div class=\"md\"><p>Was doing a settings audit this week and stumbled on this. Wanted to share because I think most people have no idea it exists.</p> <p>Go to Settings， Privacy &amp; Safety → Ad preferences. There's an option called \"Allow Reddit to use your data for personalized ads from advertisers,\" the one that caught me off guard is right below it:</p> <p>\"Allow Reddit to use y"
   },
@@ -1509,7 +1509,7 @@
     "category": "Corporate Watchdog",
     "filename": "2026-03-31-data-breach-at-premera-insurance-partner-firm.html",
     "pubDate": "2026-03-30T16:21:44.000Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "r/privacy",
     "description": "<!-- SC_OFF --><div class=\"md\"><p><strong>What Happened?</strong><br/> On March 2, 2025, BRG discovered suspicious network activity including indicators of compromise consistent with a ransomware attack (the “Incident”). Upon discovery, BRG immediately took steps to contain and remediate the situation, including taking systems offline, engaging cybersecurity and privacy professionals to assist, an"
   },
@@ -1518,8 +1518,8 @@
     "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
     "category": "Government Secrets",
     "filename": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation.html",
-    "pubDate": "2026-03-31T03:13:42.141Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "pubDate": "2026-03-31T15:13:42.391Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "MuckRock FOIA",
     "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed."
   },
@@ -1549,7 +1549,7 @@
     "category": "Surveillance State",
     "filename": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation.html",
     "pubDate": "2026-03-30T23:41:03.000Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "r/privacy",
     "description": "<!-- SC_OFF --><div class=\"md\"><p><em>Apple has provided US law enforcement with the real identity behind an anonymized iCloud email address generated using its “Hide My Email” feature, according to newly unsealed court documents.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Legitimate6295 </a> <br/> <span><a href=\" &#32; <span><a href=\""
   },
@@ -1559,7 +1559,7 @@
     "category": "Surveillance State",
     "filename": "2026-03-31-how-are-yall-getting-your-weather.html",
     "pubDate": "2026-03-30T15:41:58.000Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "r/privacy",
     "description": "<!-- SC_OFF --><div class=\"md\"><p>Just found out my name and social security number are on the dark web so I'm done playing. I know it's just a weather app, but I'm tired of my data being sold. What's the best privacy-focused way to get your weather?Minimal-tracking that avoid selling user data. These are the apps I've learned about so far: </p> <ul> <li><strong>Breezy Weather (Android):</strong> "
   },
@@ -1569,7 +1569,7 @@
     "category": "Corporate Watchdog",
     "filename": "2026-03-31-online-footprint-safety-advice.html",
     "pubDate": "2026-03-30T19:44:20.000Z",
-    "generatedAt": "2026-03-31T03:14:09.535Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
     "source": "r/privacy",
     "description": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>Recently I’ve done an overhaul on my online presence/security. I am looking for opinions and advice regarding my setup:</p> <p>I am using Bitwarden to manage my passwords, backed with Ente Auth for 2fa. All of my recovery codes are stored in Ente Auth. All of my main accounts that allow it (bank, email, etc.) are setup with 2fa through Ente as well.<"
   },
@@ -1612,5 +1612,65 @@
     "generatedAt": "2026-03-31T03:14:09.535Z",
     "source": "ZeroHedge",
     "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">China's Breakthrough Lithium Battery Could Double EV Range To 600+ Miles, Survive -94°F Temp</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Bojan Stojkovski via Interesting Engineering</a>,</em></p> <p><strong>A team of researchers in China has unveiled an all-weather electr"
+  },
+  {
+    "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+    "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
+    "category": "Government Secrets",
+    "filename": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry.html",
+    "pubDate": "2026-03-31T09:00:40.000Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "Hacker News",
+    "description": ""
+  },
+  {
+    "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
+    "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
+    "category": "Tech & Privacy",
+    "filename": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job.html",
+    "pubDate": "2026-03-31T14:33:26.000Z",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "r/privacy",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p>Is it safe to provide ssn to volunteer for Crisis Text Line (a mental health crisis non-profit where you volunteer as a crisis counselor after I think 15 hours of training)? They require ssn and I think ID for a background check which I understand but I'm a privacy conscious person. However, I'd like to volunteer as a crisis counselor because I want to help people"
+  },
+  {
+    "title": "Solar Stocks Surge As Energy Shock Revives Renewables Trade",
+    "slug": "2026-03-31-solar-stocks-surge-as-energy-shock-revives-renewables-trade",
+    "category": "Global Power",
+    "filename": "2026-03-31-solar-stocks-surge-as-energy-shock-revives-renewables-trade.html",
+    "pubDate": "Tue, 31 Mar 2026 14:55:00 +0000",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "ZeroHedge",
+    "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Solar Stocks Surge As Energy Shock Revives Renewables Trade</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Goldman analyst Adam Wijaya asked clients whether this year's surge in SolarEdge, Enphase Energy, and other solar stocks is reviving a familiar trade: <strong>higher crude oil and natur"
+  },
+  {
+    "title": "\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment",
+    "slug": "2026-03-31-price-collapse-hits-memory-sticks-as-hoarded-inventory-floods-market-after-googl",
+    "category": "Tech & Privacy",
+    "filename": "2026-03-31-price-collapse-hits-memory-sticks-as-hoarded-inventory-floods-market-after-googl.html",
+    "pubDate": "Tue, 31 Mar 2026 14:40:00 +0000",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "ZeroHedge",
+    "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"Price Collapse\" Hits Memory Sticks As Hoarded Inventory Floods Market After Google's DeepSeek Moment</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Following our <span style=\"box-sizing: border-box; margin: 0px; padding: 0px;\">\"<a href=\" target=\"_blank\">Google's</a></span><a href=\" DeepSeek"
+  },
+  {
+    "title": "Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low",
+    "slug": "2026-03-31-job-openings-drop-after-huge-upward-revision-as-hires-quits-unexpectedly-plunge",
+    "category": "Government Secrets",
+    "filename": "2026-03-31-job-openings-drop-after-huge-upward-revision-as-hires-quits-unexpectedly-plunge.html",
+    "pubDate": "Tue, 31 Mar 2026 14:33:43 +0000",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "ZeroHedge",
+    "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Job Openings Drop After Huge Upward Revision As Hires, Quits Unexpectedly Plunge To Six Year Low</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>A few weeks ago, the BLS reported that January job openings unexpectedly soared by 400K, the biggest increase since November 2024, to 6.946MM, the h"
+  },
+  {
+    "title": "Army Reviews Helicopter Flights Near Kid Rock's Home, Anti-Trump Protests",
+    "slug": "2026-03-31-army-reviews-helicopter-flights-near-kid-rocks-home-anti-trump-protests",
+    "category": "Government Secrets",
+    "filename": "2026-03-31-army-reviews-helicopter-flights-near-kid-rocks-home-anti-trump-protests.html",
+    "pubDate": "Tue, 31 Mar 2026 14:25:00 +0000",
+    "generatedAt": "2026-03-31T15:14:09.516Z",
+    "source": "ZeroHedge",
+    "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Army Reviews Helicopter Flights Near Kid Rock's Home, Anti-Trump Protests</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Kimberly Hayek via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>The U.S. Army has opened an administrative review of two AH-64 Apache helicopt"
   }
 ]
