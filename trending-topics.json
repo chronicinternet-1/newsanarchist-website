@@ -1,7 +1,45 @@
 {
-  "scrapedAt": "2026-03-30T21:15:12.535Z",
+  "scrapedAt": "2026-03-31T03:14:04.769Z",
   "topicsCount": 12,
   "topics": [
+    {
+      "title": "I found a Reddit setting that lets them use your activity to target ads across other websites, it's buried and on by default",
+      "url": "https://www.reddit.com/r/privacy/comments/1s88jm6/i_found_a_reddit_setting_that_lets_them_use_your/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Was doing a settings audit this week and stumbled on this. Wanted to share because I think most people have no idea it exists.</p> <p>Go to Settings， Privacy &amp; Safety → Ad preferences. There's an option called \"Allow Reddit to use your data for personalized ads from advertisers,\" the one that caught me off guard is right below it:</p> <p>\"Allow Reddit to use y",
+      "pubDate": "2026-03-31T00:38:24.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 15,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Was doing a settings audit this week and stumbled on this. Wanted to share because I think most people have no idea it exists.</p> <p>Go to Settings， Privacy &amp; Safety → Ad preferences. There's an option called \"Allow Reddit to use your data for personalized ads from advertisers,\" the one that caught me off guard is right below it:</p> <p>\"Allow Reddit to use y",
+      "keywords": [
+        "tech-&-privacy news",
+        "reddit",
+        "your",
+        "settings",
+        "allow",
+        "found",
+        "setting",
+        "lets"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#reddit",
+        "#your",
+        "#settings",
+        "#allow",
+        "#found",
+        "#setting",
+        "#lets"
+      ],
+      "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s88jm6/i_found_a_reddit_setting_that_lets_them_use_your/",
+      "generatedAt": "2026-03-31T03:13:43.590Z",
+      "relatedArticles": []
+    },
     {
       "title": "Data breach at Premera insurance partner firm",
       "url": "https://www.reddit.com/r/privacy/comments/1s7vao0/data_breach_at_premera_insurance_partner_firm/",
@@ -35,18 +73,18 @@
         "#partner",
         "#firm"
       ],
-      "slug": "2026-03-30-data-breach-at-premera-insurance-partner-firm",
+      "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7vao0/data_breach_at_premera_insurance_partner_firm/",
-      "generatedAt": "2026-03-30T21:14:51.383Z",
+      "generatedAt": "2026-03-31T03:13:44.767Z",
       "relatedArticles": [
         {
           "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-30-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
+          "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
           "category": "Corporate Watchdog"
         },
         {
-          "title": "Trump Signals Response To Haifa Refinery Strike 'Shortly' As WH Mulls Uranium Seizure Op; Bessent Vows To 'Retake' Hormuz 'Over Time'",
-          "slug": "2026-03-30-trump-signals-response-to-haifa-refinery-strike-shortly-as-wh-mulls-uranium-seiz",
+          "title": "Online Footprint & Safety Advice",
+          "slug": "2026-03-31-online-footprint-safety-advice",
           "category": "Corporate Watchdog"
         }
       ]
@@ -55,7 +93,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-03-30T21:14:49.960Z",
+      "pubDate": "2026-03-31T03:13:42.141Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -83,19 +121,67 @@
         "#aids",
         "#healthcare"
       ],
-      "slug": "2026-03-30-foia-10000000-grant-to-aids-healthcare-foundation",
+      "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-03-30T21:14:53.759Z",
+      "generatedAt": "2026-03-31T03:13:46.983Z",
       "relatedArticles": [
         {
-          "title": "Springtime For RINOs",
-          "slug": "2026-03-30-springtime-for-rinos",
+          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
+          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
           "category": "Government Secrets"
         },
         {
-          "title": "Cory Booker Blasts Party, Says Democrats 'Failed This Moment', And Calls For New Leaders",
-          "slug": "2026-03-30-cory-booker-blasts-party-says-democrats-failed-this-moment-and-calls-for-new-lea",
+          "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
+          "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
           "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
+      "url": "https://www.zerohedge.com/markets/biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-state-tuition-illegal",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Jill McLaughlin via The Epoch Times,</em></a></p> <p>A district court judge tossed out the Trump administration’s lawsuit on Ma",
+      "pubDate": "Mon, 30 Mar 2026 23:45:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 10,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Jill McLaughlin via The Epoch Times, A district court judge tossed out the Trump administration’s lawsuit on March 27 against Minnesota laws that allow illegal immigrants to pay in-state tuition rates, or in some cases waive tuition, for college and university classes, ruling that the state law doesn’t violate federal law. United States District Judge Katherine Menendez, appointed in 2021 by President Biden, granted the state’s motion to dismiss the Department of Justice’s (DOJ) lawsuit , filed on June 25, 2025, finding Minnesota’s in-state tuition rules didn’t discriminate against citizens. “As Defendants point out, there are multiple ways a student could qualify for Resident Tuition without residing in Minnesota, such as attending a Minnesota high school while living in a neighboring state, or by attending a Minnesota high school while living in a neighboring state, or by attending a Minnesota boarding school,” Menendez wrote in the decision. The federal government sued Minnesota’s Gov. Tim Walz and other state officials over the state’s laws that allow foreign nationals to receive lower or free tuition for college. Minnesota law states that any student, other than a non-immigrant alien, can qualify for a resident tuition rate at state universities and colleges if they attend high school in the state for at least three years and graduate from a state high school or get a high school equivalent degree. The law also states an illegal immigrant must give the state proof they have complied with federal selective service registration requirements, filed to obtain lawful immigration status, and provide documents showing they have tried to get lawful immigration status to qualify for in-state tuition. Menendez also agreed with Walz and Minnesota’s Attorney General Keith Ellison, who argued they should not have been included in the lawsuit by the DOJ because “none of the Minnesota statutes mention either official, and nowhere in the Complaint does the United States allege specific actions of involvement by either official.” The judge dismissed the case with prejudice, meaning it stands as the final judgment and can’t be refiled. Students paying in-state tuition pay half the cost of those paying out-of-state tuition. For the 2024–2025 school year, the average out-of-state tuition in Minnesota was $26,700, while in-state tuition was about $12,900, according to the Federation for American Immigration Reform . In addition to the in-state tuition law, Minnesota passed the North Star Promise Program, signed by Walz in 2023, which gives illegal immigrants who attend high school for three years in the state the ability to qualify for free tuition, scholarships, grants, and stipends if their families make less than $80,000. The DOJ’s lawsuit concerned the interpretation of federal immigration law that limits eligibility and preferential treatment of immigrants not lawfully present in the United States. The law states immigrants who are not lawfully present in the country “shall not be eligible on the basis of residence within a state for any postsecondary education benefit unless a citizen or national of the United States is eligible for such a benefit without regard to whether the citizen or national is such a resident.” In the lawsuit, the DOJ alleged the state’s policy to provide reduced and free tuition for illegal immigrants unlawfully discriminated against U.S. citizens. The Diana E. Murphy U.S. Courthouse in Minneapolis on June 13, 2024. Michael Goldberg/AP Photo “No state can be allowed to treat Americans like second-class citizens in their own country by offering financial benefits to illegal aliens,” U.S. Attorney General Pam Bondi said at the time of the lawsuit filing. Federal law prohibits higher-learning institutions from providing postsecondary education benefits to immigrants that are not offered to U.S. citizens, according to the DOJ. The DOJ, Walz, and Ellison’s offices did not immediately return requests for comment about the decision. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "surveillance-state news",
+        "state",
+        "tuition",
+        "minnesota",
+        "lawsuit",
+        "field",
+        "immigrants",
+        "school"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#state",
+        "#tuition",
+        "#minnesota",
+        "#lawsuit",
+        "#field",
+        "#immigrants",
+        "#school"
+      ],
+      "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
+      "sourceUrl": "https://www.zerohedge.com/markets/biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-state-tuition-illegal",
+      "generatedAt": "2026-03-31T03:13:49.367Z",
+      "relatedArticles": [
+        {
+          "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
+          "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "How are y'all getting your Weather?",
+          "slug": "2026-03-31-how-are-yall-getting-your-weather",
+          "category": "Surveillance State"
         }
       ]
     },
@@ -131,67 +217,68 @@
         "#israeli",
         "#start"
       ],
-      "slug": "2026-03-30-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
+      "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/offramp-progress-israeli-media-signals-completion-phrase-iran-war",
-      "generatedAt": "2026-03-30T21:14:55.889Z",
+      "generatedAt": "2026-03-31T03:13:51.290Z",
       "relatedArticles": [
         {
           "title": "Data breach at Premera insurance partner firm",
-          "slug": "2026-03-30-data-breach-at-premera-insurance-partner-firm",
+          "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
           "category": "Corporate Watchdog"
         },
         {
-          "title": "Trump Signals Response To Haifa Refinery Strike 'Shortly' As WH Mulls Uranium Seizure Op; Bessent Vows To 'Retake' Hormuz 'Over Time'",
-          "slug": "2026-03-30-trump-signals-response-to-haifa-refinery-strike-shortly-as-wh-mulls-uranium-seiz",
+          "title": "Online Footprint & Safety Advice",
+          "slug": "2026-03-31-online-footprint-safety-advice",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "Trump Signals Response To Haifa Refinery Strike 'Shortly' As WH Mulls Uranium Seizure Op; Bessent Vows To 'Retake' Hormuz 'Over Time'",
-      "url": "https://www.zerohedge.com/geopolitical/trump-cites-progress-dealing-more-reasonable-regime-while-mulling-ground-operation",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Trump Signals Response To Haifa Refinery Strike 'Shortly' As WH Mulls Uranium Seizure Op; Bessent Vows To 'Retake' Hormuz 'Over Time'</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><h2>Summary</h2> <ul><li> <p><b><i>Iran rejects 'excessive, illogical' US demands </i></b><em>while</em> <em>Trump",
-      "pubDate": "Mon, 30 Mar 2026 15:10:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Corporate Watchdog",
-      "score": 10,
+      "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
+      "url": "https://www.reddit.com/r/privacy/comments/1s878e9/apple_revealed_hide_my_email_user_identity_in_fbi/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p><em>Apple has provided US law enforcement with the real identity behind an anonymized iCloud email address generated using its “Hide My Email” feature, according to newly unsealed court documents.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Legitimate6295 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-03-30T23:41:03.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 9,
       "sources": [
-        "ZeroHedge"
+        "r/privacy"
       ],
-      "content": "Summary Iran rejects &#x27;excessive, illogical&#x27; US demands while Trump mentions &#x27;progress&#x27; with a &#x27;more reasonable regime&#x27;. Trump again threatens to destroy Iran energy sites and Kharg Island. Hundreds of US Special Forces arrive in region . White House seriously considering ground operation to seize Iran&#x27;s enriched uranium stockpile but also wants Tehran to negotiate handing it over willingly. Bessent: US will &#x27;retake&#x27; Hormuz Strait &#x27;over time&#x27; . Bazan oil refinery in Israel&#x27;s northern city of Haifa is on fire after a second apparent Iranian missile strike of the war. Trump says US response &#x27;coming shortly&#x27; . Iran accuses Israel of more &#x27;false flags&#x27; - after Kuwait water desalination plant hit. There continues to be a situation where Washington is proclaiming successes in meeting all military objectives in Iran, and yet Tehran is still refusing all alleged US initiatives at direct talks toward some kind of ceasefire. A Monday morning post from the State Department laid out the following words of Secretary Rubio, who at one point stated: \" We always prefer to settle things through diplomacy. But we also have to be prepared for the fact that effort might fail . We are dealing with a 47-year-old regime that still has a lot of people involved in it who aren&#x27;t necessarily big fans of diplomacy or peace.\" SECRETARY RUBIO: Here are the clear objectives of the operation. You should write them down: 1. The destruction of Iran’s air force 2. The destruction of their navy 3. The severe diminishing of their missile launching capability 4. The destruction of their factories 🎯 pic.twitter.com/SrqCtPLlZB President Trump has meanwhile suggested a major US response is coming after Israel&#x27;s Bazan oil refinery in Haifa was attacked by the Iranians. A huge blaze has engulfed the vital energy complex. According to a NY Post interview : President Trump on Monday put Iran and the speaker of the Islamic Republic’s parliament on notice after Tehran attacked Israel’s biggest oil refinery and told The Post his response is coming \"shortly.\" Iran escalated its attack on infrastructure by striking a water and electrical plant in Kuwait, and an oil refinery was set ablaze in the northern Israeli city of Haifa after the Iranian missile attack. Asked for his response on the strike, he told The Post: “You’ll see shortly.” As for the man believed to be running the day-to-day of Iran&#x27;s government, parliament speaker Mohammad Bagher Ghalibaf, Trump said \"We&#x27;re gonna find out\" if Washington can work with him. \"I&#x27;ll let you know that in about a week,\" Trump stated. The IRGC is meanwhile touting that it is targeting \"American-Israeli command centers , drone hangars, and pilot hideouts in new missile strikes on their military installations in the region\" - per Press TV. As of last week Rubio was still giving a timeline of at least 2-4 more weeks of Iranian operations. On Monday CBS is reporting that hundreds of special forces, including Navy SEALS and Army Rangers, are now positioned in the Mideast region . Army paratroopers are also said to be in place - and yet these numbers still don&#x27;t seem on a level needed for an outright ground assault, as Trump is said to be mulling some kind of high risk seizure of Iran&#x27;s uranium (below). Fresh Monday statements from Treasury Secretary Scott Bessent continue to signal a longish timeframe for US operations in Iran (far beyond the mere &#x27;days&#x27; mentioned in late February at the start). Speaking somewhat ambiguously, he said \"over time\" the US will \"retake\" control of the Strait of Hormuz . Hundreds of US Special Ops military personnel, including Navy SEALs and Army Rangers, are now in the Middle East, as well as Marines and Army paratroopers, sources tell @CBSNews . We reported on some of the preparations on March 20. The deployments serve to give Trump options in… \"We are seeing more and more ships go through on a daily basis as individual countries cut deals with the Iranian regime for the time being,\" Bessent described, saying also \"The market is well supplied,\" according to Bloomberg . Iran has once again stated that it has rejected the latest \"US demands\" as \"excessive and illogical\" according to state Tasnim, also confirming that it did not participate in the weekend Pakistan-hosted summit attended by the foreign ministers of Turkey, Pakistan, Saudi Arabia and Egypt. \"We have never had any direct negotiations with the United States. What has been raised are messages received through intermediaries indicating the US desire to negotiate,\" Foreign Ministry Spokesman Esmail Baghaei said in a press conference Monday. Meanwhile Pakistan’s Foreign Minister Ishaq Dar is expected in China on Tuesday for talks with his Chinese counterpart , after Beijing made clear it is ready to back a Pakistan-mediated peace effort. Egypt’s President Abdel Fattah el-Sisi has urged President Trump to end the war, saying Washington holds the key here to stopping a worse spiral. \"I tell President Trump: Nobody can stop the war in our region in the Gulf but you,\" Sisi stated at the opening of the country&#x27;s Egypes energy conference. Still, despite Tehran&#x27;s latest statement of rejection, Trump put out of a fresh Monday Truth Social Post displaying some optimism toward dealing with a \"more reasonable regime\" and mentioned \"great progress\" - but coupled with the usual &#x27;or else&#x27; type threats. For example, Trump again has threatened to destroy Iran energy sites and Kharg Island . Over the weekend Trump had said to reporters aboard Air Force One, \" The one regime was decimated, destroyed, they’re all dead . The next regime is mostly dead, and the third regime - we’re dealing with different people than anybody&#x27;s dealt with before… and frankly, they&#x27;ve been very reasonable.\" With more Marines and reportedly Airborne troops en route to the region, among Trump&#x27;s &#x27;options&#x27; is the seizure of Iran&#x27;s enriched uranium. A fresh Wall Street Journal report says Monday, \"President Trump is weighing a military operation to extract nearly 1,000 pounds of uranium from Iran, according to U.S. officials, a complex and risky mission that would likely put American forces inside the country for days or longer .\"",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><em>Apple has provided US law enforcement with the real identity behind an anonymized iCloud email address generated using its “Hide My Email” feature, according to newly unsealed court documents.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Legitimate6295 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
       "keywords": [
-        "corporate-watchdog news",
-        "trump",
-        "iran",
-        "field",
-        "regime",
-        "monday",
-        "response",
-        "refinery"
+        "surveillance-state news",
+        "email",
+        "apple",
+        "hide",
+        "identity",
+        "revealed",
+        "user",
+        "investigation"
       ],
       "hashtags": [
-        "#corporate-watchdognews",
-        "#trump",
-        "#iran",
-        "#field",
-        "#regime",
-        "#monday",
-        "#response",
-        "#refinery"
+        "#surveillance-statenews",
+        "#email",
+        "#apple",
+        "#hide",
+        "#identity",
+        "#revealed",
+        "#user",
+        "#investigation"
       ],
-      "slug": "2026-03-30-trump-signals-response-to-haifa-refinery-strike-shortly-as-wh-mulls-uranium-seiz",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/trump-cites-progress-dealing-more-reasonable-regime-while-mulling-ground-operation",
-      "generatedAt": "2026-03-30T21:14:57.776Z",
+      "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s878e9/apple_revealed_hide_my_email_user_identity_in_fbi/",
+      "generatedAt": "2026-03-31T03:13:53.208Z",
       "relatedArticles": [
         {
-          "title": "Data breach at Premera insurance partner firm",
-          "slug": "2026-03-30-data-breach-at-premera-insurance-partner-firm",
-          "category": "Corporate Watchdog"
+          "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
+          "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
+          "category": "Surveillance State"
         },
         {
-          "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-30-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
-          "category": "Corporate Watchdog"
+          "title": "How are y'all getting your Weather?",
+          "slug": "2026-03-31-how-are-yall-getting-your-weather",
+          "category": "Surveillance State"
         }
       ]
     },
@@ -228,13 +315,18 @@
         "#found",
         "#name"
       ],
-      "slug": "2026-03-30-how-are-yall-getting-your-weather",
+      "slug": "2026-03-31-how-are-yall-getting-your-weather",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7u5rd/how_are_yall_getting_your_weather/",
-      "generatedAt": "2026-03-30T21:14:59.733Z",
+      "generatedAt": "2026-03-31T03:13:55.150Z",
       "relatedArticles": [
         {
-          "title": "Stop AI mass surveillance by opposing the FISA Act",
-          "slug": "2026-03-30-stop-ai-mass-surveillance-by-opposing-the-fisa-act",
+          "title": "Biden-Appointed Judge Tosses DOJ Lawsuit Challenging Minnesota's In-State Tuition For Illegal Immigrants",
+          "slug": "2026-03-31-biden-appointed-judge-tosses-doj-lawsuit-challenging-minnesotas-in-state-tuition",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
+          "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
           "category": "Surveillance State"
         }
       ]
@@ -272,296 +364,199 @@
         "#footprint",
         "#safety"
       ],
-      "slug": "2026-03-30-online-footprint-safety-advice",
+      "slug": "2026-03-31-online-footprint-safety-advice",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s81375/online_footprint_safety_advice/",
-      "generatedAt": "2026-03-30T21:15:00.773Z",
+      "generatedAt": "2026-03-31T03:13:56.798Z",
       "relatedArticles": [
         {
           "title": "Data breach at Premera insurance partner firm",
-          "slug": "2026-03-30-data-breach-at-premera-insurance-partner-firm",
+          "slug": "2026-03-31-data-breach-at-premera-insurance-partner-firm",
           "category": "Corporate Watchdog"
         },
         {
           "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-30-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
+          "slug": "2026-03-31-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "Sharing emails & AI privacy concerns",
-      "url": "https://www.reddit.com/r/privacy/comments/1s7tfst/sharing_emails_ai_privacy_concerns/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Recently, when sending a very sensitive email to my brother including my mother’s health information, I wondered what happens if a recipient copied and pasted the email into say ChatGPT to get its perspective / vent. ChatGPT then has a host of personal information that could then be shared with others.</p> <p>I wonder how often this happens and if any guard rails ",
-      "pubDate": "2026-03-30T15:16:20.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Recently, when sending a very sensitive email to my brother including my mother’s health information, I wondered what happens if a recipient copied and pasted the email into say ChatGPT to get its perspective / vent. ChatGPT then has a host of personal information that could then be shared with others.</p> <p>I wonder how often this happens and if any guard rails ",
-      "keywords": [
-        "tech-&-privacy news",
-        "email",
-        "information",
-        "happens",
-        "chatgpt",
-        "sharing",
-        "emails",
-        "privacy"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#email",
-        "#information",
-        "#happens",
-        "#chatgpt",
-        "#sharing",
-        "#emails",
-        "#privacy"
-      ],
-      "slug": "2026-03-30-sharing-emails-ai-privacy-concerns",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7tfst/sharing_emails_ai_privacy_concerns/",
-      "generatedAt": "2026-03-30T21:15:02.445Z",
-      "relatedArticles": [
-        {
-          "title": "We hid a free trip to Switzerland in our privacy policy",
-          "slug": "2026-03-30-we-hid-a-free-trip-to-switzerland-in-our-privacy-policy",
-          "category": "Tech & Privacy"
-        }
-      ]
-    },
-    {
-      "title": "Stop AI mass surveillance by opposing the FISA Act",
-      "url": "https://www.reddit.com/r/privacy/comments/1s6kjc5/stop_ai_mass_surveillance_by_opposing_the_fisa_act/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>In Congress is voting to extend the FISA Act on the 20th of April this year. The FISA Act allows the government to buy your emails, texts, and calls from corporations. With the newly established shady deal with Open AI surveillance has become even more accessible and applicable on a much more larger and invasive scale. It very important for the sake of maintaining",
-      "pubDate": "2026-03-29T03:32:00.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>In Congress is voting to extend the FISA Act on the 20th of April this year. The FISA Act allows the government to buy your emails, texts, and calls from corporations. With the newly established shady deal with Open AI surveillance has become even more accessible and applicable on a much more larger and invasive scale. It very important for the sake of maintaining",
-      "keywords": [
-        "surveillance-state news",
-        "fisa",
-        "surveillance",
-        "stop",
-        "mass",
-        "opposing",
-        "congress",
-        "voting"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#fisa",
-        "#surveillance",
-        "#stop",
-        "#mass",
-        "#opposing",
-        "#congress",
-        "#voting"
-      ],
-      "slug": "2026-03-30-stop-ai-mass-surveillance-by-opposing-the-fisa-act",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s6kjc5/stop_ai_mass_surveillance_by_opposing_the_fisa_act/",
-      "generatedAt": "2026-03-30T21:15:04.205Z",
-      "relatedArticles": [
-        {
-          "title": "How are y'all getting your Weather?",
-          "slug": "2026-03-30-how-are-yall-getting-your-weather",
-          "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "We hid a free trip to Switzerland in our privacy policy",
-      "url": "https://www.cape.co/blog/easter-egg-in-privacy-policy",
-      "description": "",
-      "pubDate": "2026-03-30T20:05:13.000Z",
-      "source": "Hacker News",
-      "hnScore": 54,
-      "hnComments": 10,
-      "category": "Tech & Privacy",
-      "score": 8,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "At Cape, we’ve always said that privacy shouldn&#x27;t be buried in legalese. We believe privacy policies should be accessible and written in plain language—which is why we provide a summarized version of ours for anyone to read. To put this to the test, we decided to run an experiment. We teamed up with our partners at Proton to hide an \"Easter egg\" inside our policy: a free round-trip getaway to Switzerland, the world’s privacy capital and where Proton is headquartered . We wanted to see if anyone was actually reading. As it turns out, someone was. After about two weeks since placing the Easter egg in our privacy policy, we received an email with the subject: “Free trip to Switzerland?!” Our soon-to-be winner had stumbled upon a line in our privacy policy while she was doing what most people don’t: she was vetting her mobile carrier’s security claims. Having already adopted tools like Proton Mail, VPNs, and private browsers, she was looking for the final piece of her privacy puzzle. While researching Cape, she dove into the fine print to see if we actually lived up to our promises. Tucked away in the text, she didn&#x27;t find a dense paragraph about data-sharing or tracking; she found the Cape Experience Sweepstakes. Our winner took her trip in December 2025 and captured the experience for us here: Play Video Play Video The \"Fine Print\" Problem The industry standard for privacy is broken. Most carriers rely on the fact that you won&#x27;t read the fine print so that they can monetize your data by sharing it with their marketing affiliates or selling it to data brokers. According to an FTC report, as little as 0.5% of subscribers ever look at their carrier’s privacy policy. This lack of transparency has real-world consequences. Our study with The Harris Poll (releasing soon) found that while most Americans don’t believe they’ve given carriers permission to share their location or browsing data, they actually have—the moment they activate their service. In 2024 alone, the FCC fined major U.S. carriers $200 million for illegally selling subscriber location data. At Cape, we think that’s unacceptable. You shouldn’t need a law degree to understand what’s happening to your data. As Patricia Egger, Proton’s Head of Security, puts it: “Companies should minimize the data they collect and apply end-to-end encryption wherever possible. Storing unnecessary personal information only creates risk—for users and for organizations.” Our Swiss giveaway may be over, but our commitment to transparency remains. We are continuing to build the tools necessary to defend your privacy and secure your mobile data in a first-class way. The next time you sign up for a service, take a look at the privacy policy. It might not always contain a trip to the Alps, but if you can&#x27;t understand the jargon well enough to even find an Easter egg, chances are the company is trying to bury something in all the legalese. Ready to switch to a carrier that puts you in control? Switch to Cape. Share it Switch to Cape, America&#x27;s privacy-first mobile carrier. Premium, nationwide cell service for $99/month with no hidden costs.",
-      "keywords": [
-        "tech-&-privacy news",
-        "privacy",
-        "data",
-        "policy",
-        "cape",
-        "trip",
-        "they",
-        "proton"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#privacy",
-        "#data",
-        "#policy",
-        "#cape",
-        "#trip",
-        "#they",
-        "#proton"
-      ],
-      "slug": "2026-03-30-we-hid-a-free-trip-to-switzerland-in-our-privacy-policy",
-      "sourceUrl": "https://www.cape.co/blog/easter-egg-in-privacy-policy",
-      "generatedAt": "2026-03-30T21:15:05.720Z",
-      "relatedArticles": [
-        {
-          "title": "Sharing emails & AI privacy concerns",
-          "slug": "2026-03-30-sharing-emails-ai-privacy-concerns",
-          "category": "Tech & Privacy"
-        }
-      ]
-    },
-    {
-      "title": "JFK's personal secretary wrote explosive hidden memo claiming he was murdered in secret US government plot",
-      "url": "https://www.reddit.com/r/conspiracy/comments/1s7p3iv/jfks_personal_secretary_wrote_explosive_hidden/",
-      "description": "<table> <tr><td> <a href=\" <img src=\" alt=\"JFK's personal secretary wrote explosive hidden memo claiming he was murdered in secret US government plot\" title=\"JFK's personal secretary wrote explosive hidden memo claiming he was murdered in secret US government plot\" /> </a> </td><td> &#32; submitted by &#32; <a href=\" /u/anarchyart2021 </a> <br/> <span><a href=\" &#32; <span><a href=\" </td></tr></ta",
-      "pubDate": "2026-03-30T12:25:56.000Z",
-      "source": "r/conspiracy",
-      "redditScore": 0,
-      "category": "Corporate Watchdog",
-      "score": 8,
-      "sources": [
-        "r/conspiracy"
-      ],
-      "content": "<table> <tr><td> <a href=\" <img src=\" alt=\"JFK's personal secretary wrote explosive hidden memo claiming he was murdered in secret US government plot\" title=\"JFK's personal secretary wrote explosive hidden memo claiming he was murdered in secret US government plot\" /> </a> </td><td> &#32; submitted by &#32; <a href=\" /u/anarchyart2021 </a> <br/> <span><a href=\" &#32; <span><a href=\" </td></tr></ta",
-      "keywords": [
-        "corporate-watchdog news",
-        "personal",
-        "secretary",
-        "wrote",
-        "explosive",
-        "hidden",
-        "memo",
-        "claiming"
-      ],
-      "hashtags": [
-        "#corporate-watchdognews",
-        "#personal",
-        "#secretary",
-        "#wrote",
-        "#explosive",
-        "#hidden",
-        "#memo",
-        "#claiming"
-      ],
-      "slug": "2026-03-30-jfks-personal-secretary-wrote-explosive-hidden-memo-claiming-he-was-murdered-in",
-      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1s7p3iv/jfks_personal_secretary_wrote_explosive_hidden/",
-      "generatedAt": "2026-03-30T21:15:06.812Z",
-      "relatedArticles": [
-        {
-          "title": "Data breach at Premera insurance partner firm",
-          "slug": "2026-03-30-data-breach-at-premera-insurance-partner-firm",
-          "category": "Corporate Watchdog"
-        },
-        {
-          "title": "Off-Ramp In Progress? Israeli Media Signals 'Completion Phase' Of Iran War",
-          "slug": "2026-03-30-off-ramp-in-progress-israeli-media-signals-completion-phase-of-iran-war",
-          "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
-      "title": "Springtime For RINOs",
-      "url": "https://www.zerohedge.com/geopolitical/springtime-rinos",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Springtime For RINOs</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by James Howard Kunstler,</em></a></p> <blockquote> <p><em>“This <strong>sort of derangment is a novel</strong> psychopathology in the human species. . . a synthesis of <strong>low-IQ feminized brain scramble & neu",
-      "pubDate": "Mon, 30 Mar 2026 20:25:00 +0000",
+      "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
+      "url": "https://www.zerohedge.com/geopolitical/zelensky-calls-easter-truce-russia-amid-nightly-ratcheted-drone-assaults",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Ukrainian President Volodymyr Zelensky is urging for an Easter holiday ceasefire with Russia, at a moment each side has sent daily and nightly drones and missiles across the bor",
+      "pubDate": "Tue, 31 Mar 2026 01:50:00 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "“This sort of derangment is a novel psychopathology in the human species. . . a synthesis of low-IQ feminized brain scramble & neurotic lunacy .\" Went to the No Kings assemblies in my town and the next nearby town on Saturday. Mental illness as far as the eye could see. Old folks, too, as far as the eye could see, predominately of the female persuasion: the devouring grandmothers . The Democratic Party has marshalled mental illness as its premier campaign strategy, and lately it is winning bigly around the country as mental illness becomes the go-to cope option for the ragged remnants of Boomerdom. They believe things that are patently insane, for instance, the latest proposal by Rep. Pramila Jayapal (D-WA) that illegal immigrants deserve reparations on account of being “traumatized” by U.S. immigration enforcement actions. If it feels like the Democratic Party is at war with our country you are not hallucinating. It is every bit as much a jihad as the Death to America crowd in Iran has explicitly pushed since 1979. The president gets no help whatsoever from his own party, as you see in the disgraceful hijinks around the urgent issue of election reform. You know exactly how the election playbook was written: let x-million foreigners into the country illegally, give them (illegally) social security numbers, driver’s licenses, automatic voter registrations, addresses, mail-in ballots. . . and voila! They don’t even have to mail-in their own mail-in ballots. Lawfare ninja Marc Elias will arrange ballot pick-up service. And the cherry on top is that the census must count all the illegal aliens to add new congressional districts for extra seats in Congress. So, in the face of that, Republican Majority Leader John Thune could not muster enough votes to save the SAVE Act. Or so he said. Looks more like lack a’wanna. Eerie lack a’wanna. On their tours of cable news, the hapless Republican senators, when asked, would not name their colleagues leaning against the SAVE Act. But you know who they are. Mitch McConnell, Murkowski, Tillis, Collins, Capito. Leader Thune could not even manage to get Homeland Security funded with the prospect of Iranian sleeper cells awakening around the country. He just threw in the towel at three o’clock in the morning on Friday, and sent the whole crew home to meet the Easter Bunny. Chuck Schumer did an end-zone dance. The brokenness of our politics could not be more in your face. As things shape up this grueling springtime, Mr. Trump might have to go Abe Lincoln on these folks. That is, declare some sort of national emergency to save the election and the country. Of course, the nation is more than a little distracted just now with doings in Iran. The No Kings folk are unabashedly rooting for everything to go wrong there, and not a few conservatives in the public arena are straining to conjure an Iranian victory in their black-pilled deliriums . Many claim they “have no idea” what we are doing there — can it be that hard? — or else they are rabidly exercised over our alliance with Israel in the operation. You know how that goes. Cue Tucker. He’ll explain. The truth is we are pounding these savage Shia clerics and their Revolutionary Guard myrmidons to the garden of eternal bliss where the seventy-two virgins wait. Whatever remains of Iran’s legit government is bargaining under cover for an off-ramp now. Pakistan mediates. The parties sit in different rooms and pass notes through the mediators in a third room. Iran’s Foreign Minister Abbas Araghchi pretends that he will not negotiate with Mr. Trump’s envoys, Witkoff and Kushner, both Jews, the horror! But that’s sheer fakery. To avoid humiliation in the process, Iran is still lobbing missiles and drones around the Emirates, Saudi Arabia and Israel, and they will probably keep doing that until the very moment of capitulation. Anyway, in less than a week, Mr. Trump turns the lights off all over Iran, and then they are back in the twelfth century. . . no command communication, no juice for anything, no money, no food, no water, no nothing . . . and a population getting dangerously desperate to make it all go away. . . to return to some dim memory of what normal life once was in an Iran not ruled by psychotic death cultists. Everybody else is greatly alarmed by the disruption of Persian Gulf oil supplies through Hormuz. Global finance was already pretty shaky before the hot war commenced, and the economic tail of that dog was not wagging happily. In America, BlackRock, Morgan Stanley, Apollo Global, and Blue Owl Capital had recently “gated” redemptions — meaning investors can’t get all or part of their money out of plays that are folding on collateral rot. This private equity fiasco has significant contagion potential. The sudden oil shock makes everything feel a hundred times worse, and pain is already felt, especially in the far east and Australia / New Zealand. But consider that the Hormuz “blockade” is also a bit of last-ditch capitulation bravado. It could be a shorter crisis than the alarmists imagine. We see everything that Iran has got from high in the sky, whatever attack boats remain. . . the thermal signatures of rockets going off. . . the bays where the drones emerge. Mr. Trump might order troops in to the stabilize ports and more than one island. Or perhaps not. I doubt we’ll know until after Iranian lights go out. If the kinetics conclude, what remains is re-starting the maritime insurance apparatus with or without Lloyd’s of London. Then, tankers start moving again. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide",
+      "content": "Ukrainian President Volodymyr Zelensky is urging for an Easter holiday ceasefire with Russia, at a moment each side has sent daily and nightly drones and missiles across the border. \"We’re ready for a ceasefire during the Easter holidays,\" Zelensky told reporters, describing that \"normal people who respect life\" would seek a permanent ceasefire. \"But we’re ready for any compromises, except those involving our dignity and sovereignty,\" he added. The vast majority of both the Russian & Ukrainian populations are Orthodox Christians. Both countries have predominantly Eastern Orthodox Christian populations, and Orthodox Easter, also known as Pascha, takes place on April 16 this year . The West, or rather the Roman Catholic and Protestant churches, will celebrate on April 5. While full ceasefires, even short ones, have not had much success in the past more than four years of war, the two sides have previously agreed to days or even weeks of pauses on attacking energy sites. This limited truce does hold some potential. \"If Russia is ready to stop hitting Ukrainian energy facilities, we will not respond against their energy sector,\" Zelensky said. Last year saw an effort to put in place a Pascha ceasefire, called for by President Putin - however, there were widespread accusations of violations. Putin himself attends the long Orthodox Pascha vigil each year, while Zelensky is Jewish. He became the first Jewish president of Ukraine after being elected in 2019, and has since faced accusations of persecuting Ukrainian Orthodox who maintain spiritual ties with the Moscow patriarchate . Currently, drone attacks on mutual energy sites are continuing at rapid pace. We detailed that last week Russia set a record for the largest single-day drone assault on Ukraine of the war. At least seven people were killed in Ukraine last Tuesday after Russia launched the truly massive drone. Counting both drones and cruise missiles, 979 warheads poured into Ukrainian airspace as diplomatic efforts at ending the war remain stalled and the world&#x27;s attention focused almost entirely on the US-Israeli war on Iran. If some kind of Easter truce could actually hold later next month, it would constitute a significant breakthrough regarding broader diplomatic efforts toward peace, at a moment the US-mediated talks have stalled amid the Iran war in the Middle East, and removal of some sanctions on Russian oil. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
         "field",
-        "iran",
-        "they",
-        "their",
-        "country",
-        "name",
-        "around"
+        "zelensky",
+        "easter",
+        "ukrainian",
+        "drone",
+        "ceasefire",
+        "russia"
       ],
       "hashtags": [
         "#government-secretsnews",
         "#field",
-        "#iran",
-        "#they",
-        "#their",
-        "#country",
-        "#name",
-        "#around"
+        "#zelensky",
+        "#easter",
+        "#ukrainian",
+        "#drone",
+        "#ceasefire",
+        "#russia"
       ],
-      "slug": "2026-03-30-springtime-for-rinos",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/springtime-rinos",
-      "generatedAt": "2026-03-30T21:15:09.066Z",
+      "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/zelensky-calls-easter-truce-russia-amid-nightly-ratcheted-drone-assaults",
+      "generatedAt": "2026-03-31T03:13:58.372Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-30-foia-10000000-grant-to-aids-healthcare-foundation",
+          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "Cory Booker Blasts Party, Says Democrats 'Failed This Moment', And Calls For New Leaders",
-          "slug": "2026-03-30-cory-booker-blasts-party-says-democrats-failed-this-moment-and-calls-for-new-lea",
+          "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
+          "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "Cory Booker Blasts Party, Says Democrats 'Failed This Moment', And Calls For New Leaders",
-      "url": "https://www.zerohedge.com/political/cory-booker-blasts-party-says-democrats-failed-moment-and-calls-new-leaders",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Cory Booker Blasts Party, Says Democrats 'Failed This Moment', And Calls For New Leaders</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><strong>Sen. Cory Booker (D-N.J.) appeared on NBC's <em>Meet the Press</em> Sunday morning and delivered a scathing rebuke of his own party, saying it has “",
-      "pubDate": "Mon, 30 Mar 2026 19:20:00 +0000",
+      "title": "US Firm Boosts Production Of Precision Anti-Drone Systems",
+      "url": "https://www.zerohedge.com/military/us-firm-boosts-production-anti-drone-systems",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Firm Boosts Production Of Precision Anti-Drone Systems</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Prabhat Ranjan Mishra via Interesting Engineering</a>,</em></p> <p><strong>A Florida-based company is accelerating production of powerful systems that can counter small d",
+      "pubDate": "Tue, 31 Mar 2026 01:25:00 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Sen. Cory Booker (D-N.J.) appeared on NBC&#x27;s Meet the Press Sunday morning and delivered a scathing rebuke of his own party, saying it has “failed this moment.” Booker was on the show to promote his new book, and host Kristen Welker read a passage from it in which he argues that political coalitions can’t succeed if they exclude people based on “purity tests” or demand total agreement on every issue. In his book, he wrote, “ We cannot cancel everyone who fails a purity test. We cannot exile those who don’t align with our every belief, however passionately we hold it. Coalitions that are only composed of the already converted cannot change the country. If everyone in your coalition agrees with you on everything, your coalition is too small, too small to make big change and too small for what our democracy demands.” Welker then pressed him on whether Democrats are shrinking their coalition by doing exactly that. “ Do you believe Democrats are making the mistake of shrinking their coalition with what you describe as purity tests, senator?” “Look, I’m proud of so many things that my Democratic colleagues are doing, but as a whole, our party has failed this moment ,” he replied. “It’s why I’ve called for new leadership in America. I’ve called for a generational renewal, because this left-right divide is killing our country, and our adversaries know it. They come onto our social media and try to whip up hate in America. That is one of our biggest crises. It is time for a new vision of our country that’s far more uniting, that brings people together, doesn’t deepen divides. I really believe this is a time where we need new leadership, new moral imagination to pull our country together, because the challenges on the horizon aren’t just this current crisis that Trump has caused.” Booker even appeared to criticize the Democrats’ Trump obsession , telling Welker that Trump “shouldn’t be the main character of our narrative right now.” “We have real challenges from new technologies like AI and robotics, new challenges, that we need more unity in our country, and a reminder that we are not each other’s enemies. In fact, our ability to find common ground has always been our greatest hope.” Booker continued, \"Americans want a new generation of leaders that show that they can lift the whole country up,\" he said. And then, in case anyone missed it: \"It is time for a new vision of our country that is far more uniting that brings people together, doesn&#x27;t deepen divides.\" While hawking his new book on Meet the Press, Cory Booker calls for new leaders in the Democrat Party and says that Democrats have \"failed this moment.\" \"I&#x27;m proud of so many things that my Democratic colleagues are doing, but as a whole, our party has failed this moment.\" Then… pic.twitter.com/3Js1l3Pjk1 Booker’s comment reeks of irony. According to reports , Senate Democrats are quietly - and not so quietly - tearing each other apart over Senate Minority Leader Chuck Schumer. Sen. Chris Murphy (D-Conn.) recently met with progressive activists in Georgetown, where the discussion turned to whether Chuck Schumer could be pushed out of leadership. Murphy indicated that some lawmakers had been informally counting votes to gauge support for removing Schumer. Murphy is reportedly part of a group of senators quietly canvassing colleagues about dissatisfaction with Schumer. That group, dubbed “Fight Club,” is reportedly coordinating through a Signal chat to oppose Schumer’s preferred candidates in key 2026 races. The group believes Schumer has been putting his thumb on the scale for centrist candidates while an insurgent wave of progressive energy goes untapped. That sounds like a party that is still demanding ideological purity, not diversity . It would be foolish to think that Cory Booker is calling for the next generation of Democratic leaders to take over because they’ll bring ideological diversity to the party. Much of the anger against Chuck Schumer stems from his vote to fund the federal government in March of 2025 to avoid a shutdown. His approval ratings tanked because he was seen as capitulating to President Donald Trump, and Rep. Alexandria Ocasio-Cortez has been floated as a possible primary challenger, and polling even showed her with a double-digit lead over Schumer. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Authored by Prabhat Ranjan Mishra via Interesting Engineering , A Florida-based company is accelerating production of powerful systems that can counter small drone threats . VAMPIRE counter-unmanned systems (C-UxS) deliver precision strike capabilities against drones. The system has proved its efficacy on the frontline. Developed by L3Harris Technologies, the system is a self-contained platform that delivers advanced reconnaissance and can conduct operations against remotely piloted aircraft. L3Harris Technologies recently installed its VAMPIRE counter-unmanned system aboard a GM Defense Infantry Squad Vehicle (ISV), demonstrating a mobile solution to take out drone threats. The facility features a flexible assembly, testing and installation area to integrate VAMPIRE onto ground vehicles and containerized weapon systems. The production line can adjust and increase volume as demand evolves. “Deploying VAMPIRE on GM Defense’s ISV is a great example of how quickly and seamlessly this system can be used by our Army customer to defeat the rapidly growing threat of small, hostile drones,” said Tom Kirkland, vice president and general manager, Targeting and Sensor Systems, L3Harris. “Working together, we have swiftly responded to the urgent need to defeat small unmanned autonomous systems accurately and affordably while allowing ground forces to stay tactically mobile.” The company claims that the GM Defense ISV is uniquely engineered to fulfill U.S. Army requirements for rapid deployment . With robust off-road capabilities, the ISV significantly improves tactical mobility across a range of military operations. The vehicle is easily maintainable and highly adaptable to meet diverse mission and operational needs, according to a press release. GM Defense partners with companies like L3Harris to design and produce diverse kits to support the broad range of mission requirements for a variety of general purpose and special operations forces. Incorporating a Counter-small UAS system like VAMPIRE adds new capability to protect operators from hostile drone attacks, as per the release . “The versatility of the ISV is one of its core strengths, and integrating a critical counter-UAS capability like VAMPIRE showcases our ability to rapidly adapt the vehicle to meet evolving threats,” said John ‘JD’ Johnson, Vice President of Government Solutions and Strategy, GM Defense. “This successful integration highlights how the ISV’s modular design and commercial-based architecture can quickly incorporate next-generation technologies to deliver immediate value and enhanced protection to our warfighters.” The company also highlighted that the completely self-contained, low-cost, multi-mission, precision-guided weapons platform effectively engaged in combat operations since 2023 , safeguarding personnel and critical infrastructure against hostile unmanned systems and ground threats. The affordable, compact ISR and counter-unmanned weapons system designed to deploy on nearly any platform, vehicle or vessel, according to L3 Harris. This all-in-one system excels in Counter-small Unmanned Airborne System (C-sUAS) operations, delivering precision strike capabilities with customizable sensors and weapons, significantly reducing the cost-per-effect and overall cost of ownership, according to the company. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
-        "booker",
-        "party",
+        "systems",
         "field",
-        "schumer",
-        "democrats",
-        "country",
-        "cory"
+        "counter",
+        "system",
+        "small",
+        "vampire",
+        "unmanned"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#booker",
-        "#party",
+        "#systems",
         "#field",
-        "#schumer",
-        "#democrats",
-        "#country",
-        "#cory"
+        "#counter",
+        "#system",
+        "#small",
+        "#vampire",
+        "#unmanned"
       ],
-      "slug": "2026-03-30-cory-booker-blasts-party-says-democrats-failed-this-moment-and-calls-for-new-lea",
-      "sourceUrl": "https://www.zerohedge.com/political/cory-booker-blasts-party-says-democrats-failed-moment-and-calls-new-leaders",
-      "generatedAt": "2026-03-30T21:15:10.601Z",
+      "slug": "2026-03-31-us-firm-boosts-production-of-precision-anti-drone-systems",
+      "sourceUrl": "https://www.zerohedge.com/military/us-firm-boosts-production-anti-drone-systems",
+      "generatedAt": "2026-03-31T03:14:00.046Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-30-foia-10000000-grant-to-aids-healthcare-foundation",
+          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "Springtime For RINOs",
-          "slug": "2026-03-30-springtime-for-rinos",
+          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
+          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "'Project Hail Mary' Writer Credits Not Going Woke For Film's Success",
+      "url": "https://www.zerohedge.com/political/project-hail-mary-writer-credits-not-going-woke-films-success",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">'Project Hail Mary' Writer Credits Not Going Woke For Film's Success</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><strong>With an $80.6 million domestic opening weekend, a 95% critics’ score on Rotten Tomatoes, and a 96% audience score, Project Hail Mary is an undeniable blockbuster hit.</",
+      "pubDate": "Tue, 31 Mar 2026 01:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Unexplained",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "With an $80.6 million domestic opening weekend, a 95% critics’ score on Rotten Tomatoes, and a 96% audience score, Project Hail Mary is an undeniable blockbuster hit. By its second weekend, the movie crossed $300 million worldwide and dethroned Avatar: Fire and Ash as the top-grossing Hollywood film of 2026 in North America. It’s become the second-biggest non-franchise opening over the past decade, after Oppenheimer . The Hollywood Reporter published a piece titled \"Project Hail Mary: 4 Lessons Hollywood Won&#x27;t Learn From Its Success,\" pointing to smart storytelling, sincerity, patience, and practical effects as the pillars behind the film&#x27;s blockbuster performance. That&#x27;s a solid four. But, it predictably missed the fifth, and arguably most important point: Don&#x27;t go woke. In the movie, Ryan Gosling plays Ryland Grace, a science teacher and biologist who wakes up alone on a deep-space mission to figure out how to stop a microorganism from dimming the sun. He eventually makes contact with an alien on the same mission, and the two team up to save their respective worlds from extinction. The premise could have easily become a vehicle for climate allegory and geopolitical moralizing, but it didn&#x27;t. Andy Weir, the author of the novel, sat down with Will Jordan - better known online as The Critical Drinker - on Jordan&#x27;s YouTube channel shortly after the film&#x27;s release. \"For me, it&#x27;s a great example of what you can do now with movies,\" Jordan said. \"If you&#x27;re faithful to the source material and you don&#x27;t insult the intelligence of your audience, and give them something really interesting to grapple with, and you know, dare I say it, [don’t] try and shove, like, crappy identity politics into it, you end up with a goddam good movie at the end of it that the people just want to watch. \" Weir&#x27;s response was immediate and unambiguous. \"I think you and me are kind of on the same wavelength there when it comes to fiction writing,\" he said. \" I never put any politics or messaging in any of my stories at all. There&#x27;s no deeper meaning; there isn&#x27;t even any symbolism, even non-political. There&#x27;s just no symbolism at all. My books are just purely to entertain.\" Weir added. \"You don&#x27;t have to worry about the message .\" This is why Andy Weir will always be one of my favorite authors. His goal is to entertain, not lecture. pic.twitter.com/5KmvOvf8c4 That&#x27;s a best-selling author of two major Hollywood adaptations - The Martian and now Project Hail Mary - telling an audience of millions that the secret ingredient is the absence of an agenda. Not diversity hires. Not carefully calibrated representation metrics. Not a third-act monologue about social justice. Just a story, told well, about humans trying to survive. The contrast with HBO Max&#x27;s upcoming Harry Potter series couldn&#x27;t be clearer. Last week, the teaser trailer for the first season dropped, and the internet promptly caught fire over the casting of Paapa Essiedu - a black actor - as Severus Snape. The show had been pitched as a more faithful adaptation of J.K. Rowling&#x27;s novels than the original eight films were able to be. But upon the announcement of Essiedu’s casting, fans quickly pointed to original illustrations and decades of book descriptions of Snape, and realized this was not going to be a faithful adaptation of the novels. Following the release of the trailer, social media has been flooded with \"Black Snape\" memes, AI-generated edits, and videos, many lamenting how certain Harry Potter storylines and character dynamics will land differently because of the race swap. The conversation about the new series has become almost entirely about casting politics and DEI, rather than storytelling. That&#x27;s exactly what Project Hail Mary avoided. Directors Phil Lord and Chris Miller, and a production that respected its source material, delivered a film people actually wanted to see. Hollywood has a template now. It&#x27;s not complicated. Serve the audience, not the agenda. The question isn&#x27;t whether the lesson is available. It&#x27;s whether Hollywood is willing to hear it. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "unexplained news",
+        "field",
+        "project",
+        "hail",
+        "mary",
+        "film",
+        "hollywood",
+        "audience"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#field",
+        "#project",
+        "#hail",
+        "#mary",
+        "#film",
+        "#hollywood",
+        "#audience"
+      ],
+      "slug": "2026-03-31-project-hail-mary-writer-credits-not-going-woke-for-films-success",
+      "sourceUrl": "https://www.zerohedge.com/political/project-hail-mary-writer-credits-not-going-woke-films-success",
+      "generatedAt": "2026-03-31T03:14:01.418Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "China's Breakthrough Lithium Battery Could Double EV Range To 600+ Miles, Survive -94°F Temp",
+      "url": "https://www.zerohedge.com/technology/chinas-breakthrough-lithium-battery-could-double-ev-range-600-miles-survive-94degf-temp",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">China's Breakthrough Lithium Battery Could Double EV Range To 600+ Miles, Survive -94°F Temp</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Bojan Stojkovski via Interesting Engineering</a>,</em></p> <p><strong>A team of researchers in China has unveiled an all-weather electr",
+      "pubDate": "Tue, 31 Mar 2026 00:35:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Bojan Stojkovski via Interesting Engineering , A team of researchers in China has unveiled an all-weather electrolyte designed to boost the performance of lithium batteries across a wide range of conditions. Scientists based in Shanghai and Tianjin report that batteries built with the new hydrofluorocarbon-based electrolyte delivered more than twice the energy density of conventional designs when tested at room temperature. Fluorine-based electrolyte could improve EV and drone battery efficiency. Beyond efficiency gains, the team says the chemistry remains stable in extreme environments, with batteries continuing to operate effectively at temperatures as low as minus 94 degrees Fahrenheit. The development points to a potential path for longer-lasting, more resilient batteries suited for EVs and other demanding applications, where both energy density and reliability under stress are critical. In a study published last month in the journal Nature , researchers outlined how hydrofluorocarbon-based electrolytes could help overcome long-standing limits in battery power and energy density. The team found that, for the same battery mass, energy storage capacity at room temperature could increase by two to three times compared to conventional designs . In turn, this suggests a viable route toward significantly more efficient lithium batteries, with implications for EVs, grid storage , and other high-demand applications, the South China Morning Post reported . The advance could significantly extend electric vehicle range, potentially increasing it from roughly 310–370 miles to about 620 miles on a single charge, the scientists noted. Beyond EVs, the technology may also enhance the performance of devices such as smartphones, drones, robots, and even spacecraft , particularly in extremely cold environments where conventional batteries tend to struggle. At the core of any battery is the electrolyte, a chemical medium that allows ions to move between the positive and negative electrodes. For decades, most lithium battery electrolytes have relied on oxygen- and nitrogen-based compounds because they effectively dissolve lithium salts. However, these materials have limits – they don’t transfer charge as efficiently under stress, which can slow down charging, reduce performance in cold conditions , and in some cases, raise safety concerns. The team, part of Nankai University and the Shanghai Institute of Space Power-Sources (SISP) under the China Aerospace Science and Technology Corporation, developed fluorine-based electrolytes for lithium-metal batteries that offer lower viscosity, improved stability, and enhanced performance in cold conditions. Using one of their hydrogen-, fluorine-, and carbon-based electrolytes, the researchers produced lithium-metal pouch cells with an energy density exceeding 700 Wh per pound at room temperature and around 400 Wh per pound at minus 58 °F. By comparison, conventional lithium batteries reach about 136 Wh per pound at room temperature , dropping to roughly 68 Wh per pound at minus 4 °F. The researchers reported that even at minus 94 °F, their fluorine-based electrolyte maintained high efficiency and stable charge-discharge cycles. Even with strong performance at both room and extremely low temperatures, the team noted that the electrolyte’s high-temperature stability still needs improvement. Raising the boiling point of the electrolytes could open the door to true all-climate applications, making the technology viable across a wider range of environments. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "lithium",
+        "field",
+        "batteries",
+        "based",
+        "battery",
+        "china",
+        "team"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#lithium",
+        "#field",
+        "#batteries",
+        "#based",
+        "#battery",
+        "#china",
+        "#team"
+      ],
+      "slug": "2026-03-31-chinas-breakthrough-lithium-battery-could-double-ev-range-to-600-miles-survive-9",
+      "sourceUrl": "https://www.zerohedge.com/technology/chinas-breakthrough-lithium-battery-could-double-ev-range-600-miles-survive-94degf-temp",
+      "generatedAt": "2026-03-31T03:14:03.170Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Zelensky Calls For Easter Truce Amid Nightly Russian Drone Assaults",
+          "slug": "2026-03-31-zelensky-calls-for-easter-truce-amid-nightly-russian-drone-assaults",
           "category": "Government Secrets"
         }
       ]
