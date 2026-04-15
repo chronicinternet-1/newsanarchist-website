@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-15T01:28:50.543Z",
+  "scrapedAt": "2026-04-15T03:56:46.330Z",
   "topicsCount": 12,
   "topics": [
     {
@@ -37,11 +37,16 @@
       ],
       "slug": "2026-04-15-palantir-is-now-helping-the-irs-decide-who-gets-audited",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slfcgv/palantir_is_now_helping_the_irs_decide_who_gets/",
-      "generatedAt": "2026-04-15T01:28:31.405Z",
+      "generatedAt": "2026-04-15T03:56:27.834Z",
       "relatedArticles": [
         {
           "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
           "slug": "2026-04-15-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Another Court Rules Copyright Can’t Stop People From Reading and Speaking the Law",
+          "slug": "2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law",
           "category": "Corporate Watchdog"
         }
       ]
@@ -81,7 +86,7 @@
       ],
       "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sl8yvb/i_stumbled_across_a_whatsapp_privacy_loophole/",
-      "generatedAt": "2026-04-15T01:28:32.506Z",
+      "generatedAt": "2026-04-15T03:56:29.333Z",
       "relatedArticles": [
         {
           "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
@@ -99,7 +104,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-04-15T01:28:30.086Z",
+      "pubDate": "2026-04-15T03:56:25.432Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -129,17 +134,56 @@
       ],
       "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-04-15T01:28:34.229Z",
+      "generatedAt": "2026-04-15T03:56:31.571Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+      "url": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
+      "pubDate": "2026-04-14T21:48:00.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 10,
+      "sources": [
+        "r/privacy",
+        "EFF"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
+      "keywords": [
+        "surveillance-state news",
+        "google",
+        "data",
+        "thomas",
+        "johnson",
+        "broke",
+        "promise",
+        "september"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#google",
+        "#data",
+        "#thomas",
+        "#johnson",
+        "#broke",
+        "#promise",
+        "#september"
+      ],
+      "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
+      "generatedAt": "2026-04-15T03:56:32.922Z",
       "relatedArticles": [
         {
-          "title": "Tesla China CEO Says Shanghai Gigafactory Is \"Golden Key\" To Optimus Robot Production",
-          "slug": "2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product",
-          "category": "Government Secrets"
+          "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
+          "slug": "2026-04-15-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
+          "category": "Surveillance State"
         },
         {
-          "title": "Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails",
-          "slug": "2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails",
-          "category": "Government Secrets"
+          "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+          "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
+          "category": "Surveillance State"
         }
       ]
     },
@@ -178,56 +222,17 @@
       ],
       "slug": "2026-04-15-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
-      "generatedAt": "2026-04-15T01:28:35.299Z",
+      "generatedAt": "2026-04-15T03:56:34.852Z",
       "relatedArticles": [
         {
           "title": "Palantir is now helping the IRS decide who gets audited.",
           "slug": "2026-04-15-palantir-is-now-helping-the-irs-decide-who-gets-audited",
           "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
-      "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
-      "url": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
-      "pubDate": "2026-04-14T21:48:00.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
-      "keywords": [
-        "surveillance-state news",
-        "google",
-        "data",
-        "thomas",
-        "johnson",
-        "broke",
-        "promise",
-        "september"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#google",
-        "#data",
-        "#thomas",
-        "#johnson",
-        "#broke",
-        "#promise",
-        "#september"
-      ],
-      "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
-      "generatedAt": "2026-04-15T01:28:36.848Z",
-      "relatedArticles": [
+        },
         {
-          "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
-          "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
-          "category": "Surveillance State"
+          "title": "Another Court Rules Copyright Can’t Stop People From Reading and Speaking the Law",
+          "slug": "2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law",
+          "category": "Corporate Watchdog"
         }
       ]
     },
@@ -266,7 +271,7 @@
       ],
       "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1skuhfa/michigan_digital_age_bills_pulled_after_privacy/",
-      "generatedAt": "2026-04-15T01:28:38.337Z",
+      "generatedAt": "2026-04-15T03:56:36.195Z",
       "relatedArticles": [
         {
           "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
@@ -315,7 +320,7 @@
       ],
       "slug": "2026-04-15-this-is-going-to-sound-weird-but-i-think-my-church-is-selling-my-data-how-do-i-f",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slirf0/this_is_going_to_sound_weird_but_i_think_my/",
-      "generatedAt": "2026-04-15T01:28:39.742Z",
+      "generatedAt": "2026-04-15T03:56:37.447Z",
       "relatedArticles": [
         {
           "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
@@ -364,7 +369,7 @@
       ],
       "slug": "2026-04-15-thoughts-on-child-check-in-at-church",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slaf9d/thoughts_on_child_checkin_at_church/",
-      "generatedAt": "2026-04-15T01:28:40.865Z",
+      "generatedAt": "2026-04-15T03:56:38.608Z",
       "relatedArticles": [
         {
           "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
@@ -413,7 +418,7 @@
       ],
       "slug": "2026-04-15-age-checks-are-a-total-invasion-of-privacy",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1skfawl/age_checks_are_a_total_invasion_of_privacy/",
-      "generatedAt": "2026-04-15T01:28:42.476Z",
+      "generatedAt": "2026-04-15T03:56:40.058Z",
       "relatedArticles": [
         {
           "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
@@ -428,13 +433,109 @@
       ]
     },
     {
+      "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
+      "url": "https://www.eff.org/deeplinks/2026/04/we-need-you-our-privacy-cannot-afford-clean-extension-section-702",
+      "description": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span data-ccp-props=\"{}\">We go through this every couple of years: Section 702 of the Foreign Intelligence Surveillance Act (FISA), which </span><span data-contrast=\"none\">of Americans’ communications with foreign persons overseas</span><span data-contrast=\"none\"> is up for renewal. As always, Congress can reauthorize it with or without changes, or jus",
+      "pubDate": "Fri, 10 Apr 2026 13:50:32 +0000",
+      "source": "EFF",
+      "category": "Surveillance State",
+      "score": 9,
+      "sources": [
+        "EFF"
+      ],
+      "content": "We go through this every couple of years: Section 702 of the Foreign Intelligence Surveillance Act (FISA), which of Americans’ communications with foreign persons overseas is up for renewal. As always, Congress can reauthorize it with or without changes, or just let it expire. We know, we know, it’s a pain to have to do this every few years –but it gives us a chance to lift the hood of this behemoth tool of government surveillance and tinker with how it works . That’s why it’s so important right now to urge your Member of Congress not to pass any bill that reauthorizes Section 702 without substantial reforms. Section 702 is rife with problems, loopholes, and compliance issues that need fixing. The National Security Agency (NSA) collects full conversations being conducted by surveillance targets overseas and stores them, allowing the Federal Bureau of Investigation (FBI) to operate in a “finders keepers” mode of surveillance—they reason that it's already collected, so why can’t they look at those conversations? There, the FBI can query and even read the U.S. side of that communication without a warrant . The problem is, people who have been spied on by this program won’t even know and have very few ways of finding out. EFF and other civil liberties advocates have been trying for years to know when data collected through Section 702 is used as evidence against them. There’s simply no excuse for any Member of Congress to support a \" clean\" reauthorization of Section 702 . Anyone who votes to do so does not take your privacy seriously. Full stop. The intelligence community and its defenders in Congress, as always, seem more interested in defending their rights to read your private communications than in protecting your right to privacy. It’s not really a compromise between safety and privacy if it's always your privacy that gets sacrificed. Now, we’re drawing a line in the sand: Congress cannot pass a clean extension. Use this EFF tool to write to your Member of Congress and tell them not to pass a clean reauthorization of Section 702. Two years ago, Congress passed the “Reforming Intelligence and Securing America” Act (RISAA) that included nominal reforms to Section 702 of the Foreign Intelligence Surveillance Act (FISA) . The bill unfortunately included some problematic expansions of the law—but it also included a relatively big victory for civil liberties advocates: Section... While How to Fix the Internet is on hiatus, we wanted to share a great conversation with you from last week. EFF Executive Director Cindy Cohn spoke with bestselling novelist, journalist, and EFF Special Advisor Cory Doctorow about Cindy’s new book, “Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance” ( ... Mass surveillance authority Section 702 of FISA, which allows the government to collect international communications, many of which happen to have one side in the United States, has been renewed several times since its creation with the passage of the 2008 FISA Amendments Act. This law has been an incessant... You should be able to message your family and friends without fear that law enforcement is reading everything you send. Privacy is a human right, and that’s why we break down the ways you can protect your ability to have a private conversation . Learn how governments are able to... We at EFF have long recognized the threats posed by the unchecked technological prowess of law enforcement and intelligence agencies. Since our founding in 1990, we have been in the forefront of efforts to impose meaningful legal controls and accountability on the secretive activities of those entities, including the National... EFF has joined with 23 other organizations including the ACLU, Restore the Fourth, the Brennan Center for Justice, Access Now, and the Freedom of the Press Foundation to demand that the Office of the Director of National Intelligence (ODNI) furnish the public with an estimate of exactly how many... The Canadian House of Commons is currently considering Bill C-26 , which would make sweeping amendments to the country’s Telecommunications Act that would expand its Minister of Industry’s power over telecommunication service providers. It’s designed to accomplish a laudable and challenging goal: ensure that government and industry partners efficiently and... A bombshell report from WIRED reveals that two days after the U.S. Congress renewed and expanded the mass-surveillance authority Section 702 of the Foreign Intelligence Surveillance Act , the deputy director of the Federal Bureau of Investigation (FBI), Paul Abbate, sent an email imploring agents to “ use ” Section... Check out our 4-star rating on Charity Navigator .",
+      "keywords": [
+        "surveillance-state news",
+        "section",
+        "surveillance",
+        "congress",
+        "intelligence",
+        "your",
+        "privacy",
+        "field"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#section",
+        "#surveillance",
+        "#congress",
+        "#intelligence",
+        "#your",
+        "#privacy",
+        "#field"
+      ],
+      "slug": "2026-04-15-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/04/we-need-you-our-privacy-cannot-afford-clean-extension-section-702",
+      "generatedAt": "2026-04-15T03:56:41.264Z",
+      "relatedArticles": [
+        {
+          "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+          "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+          "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Another Court Rules Copyright Can’t Stop People From Reading and Speaking the Law",
+      "url": "https://www.eff.org/deeplinks/2026/04/another-court-rules-copyright-cant-stop-people-reading-and-speaking-law",
+      "description": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p>Another court has <a href=\" title=\"Third Circuit Opinion in ASTM v Upcodes\">ruled</a> that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though ",
+      "pubDate": "Wed, 08 Apr 2026 18:13:58 +0000",
+      "source": "EFF",
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "EFF"
+      ],
+      "content": "Another court has ruled that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though those codes are developed by private parties who claim copyright in them. The court followed the suggestions EFF and others presented in an amicus brief , and joined a growing list of courts that have placed public access to the law over private copyright holders’ desire for control. UpCodes created a database of building codes—like the National Electrical Code—that includes codes incorporated by reference into law. ASTM, a private organization that coordinated the development of some of those codes, insists that it retains copyright in them even after they have been adopted into law, and therefore has the right to control how the public accesses and shares them. Fortunately, neither the Constitution nor the Copyright Act support that theory. Faced with similar claims, some courts, including the Fifth Circuit Court of Appeals, have held that the codes lose copyright protection when they are incorporated into law. Others, like the D.C. Circuit Court of Appeals in a case EFF defended on behalf of Public.Resource.Org, have held that, whether or not the legal status of the standards changes once they are incorporated into law, making them fully accessible and usable online is a lawful fair use. In this case, the Third Circuit found that UpCodes’s copying of the codes was a fair use, in a decision closely following the D.C. Circuit’s reasoning. Fair use turns on four factors listed in the Copyright Act, and the court found that all four favored UpCodes to some degree. On the first factor, the purpose and character of the use, the court found that UpCodes’s use was “transformative” because it had a separate and distinct purpose from ASTM—informing people about the law, rather than just best practices in the building industry. No matter that UpCodes was copying and disseminating entire safety codes verbatim—using the codes for a different purpose was enough. And UpCodes being a commercial venture didn’t change the outcome either, because UpCodes wasn’t charging for access to the codes. On the second factor, the nature of the copyrighted work, the Third Circuit joined other appeals courts in finding that laws are facts, and stand at “the periphery of copyright’s core protection.” And this included codes that were “indirectly” incorporated—meaning that they were incorporated into other codes that were themselves incorporated into law. The third factor looks at the amount and substantiality of the material used. The court said that UpCodes could not have accomplished its purpose—providing access to the current binding laws governing building construction—without copying entire codes, so the copying was justified. Importantly, the court noted that UpCodes was justified in copying optional parts of the codes as well as “mandatory” sections because both help people understand what the law is. Finally, the fourth factor looks at potential harm to the market for the original work, balanced against the public interest in allowing the challenged use. The court rejected an argument frequently raised by copyright holders—that harm can be assumed any time materials are posted to the internet for all to access. Instead, the court held that when a use is transformative, a rightsholder has to bring evidence of harm, and that harm will be balanced against the public benefit. Because “enhanced public access to the law is a clear and significant public benefit,” and ASTM hadn’t shown significant evidence that UpCodes had meaningfully reduced ASTM’s revenues, the fourth factor was at least neutral. It didn’t matter to the court that ASTM offered to provide copies of legally binding standards to the public on request, because “the mere possibility of obtaining a free technical standard does not nullify the public benefits associated with enhanced access to law.” This is a good result that will expand the public’s access to the laws that bind us—something that’s more important than ever given recent assaults on the rule of law. In the future, we hope that courts will recognize that codes and standards lose copyright when they are incorporated into law, so that people don’t have to spend years and legal fees litigating fair use just to exercise their rights. The Watch Tower Bible and Tract Society is trying to use flimsy copyright claims to exploit the special legal tools available to copyright owners in order to unmask anonymous online speakers. EFF has stepped in to urge the courts not to give Watch Tower’s attempts the force... EFF has filed a new lawsuit against the Consumer Product Safety Commission (CPSC) to ensure that the public has full access to the laws that govern us.Our client Public.Resource.Org (Public Resource), a tiny non-profit founded by open records advocate Carl Malamud, has a mission that’s... The government should not help a religious institution to punish or deter members from inquiring about their faith. Yet, once again , the Watch Tower Bible and Tract Society is trying to use flimsy copyright claims to exploit the special legal tools available to copyright owners in order to... Since earliest days of computer games, people have tinkered with the software to customize their own experiences or share their vision with others. From the dad who changed the game’s male protagonist to a girl so his daughter could see herself in it, to the developers who got their start... Fair use is not just an excuse to copy—it’s a pillar of online speech protection, and disregarding it in order to lash out at a critic should have serious consequences. That’s what we told a federal court in Channel 781 News v. Waltham Community Access Corporation ,... Things are speeding up in generative AI legal cases, with two judicial opinions just out on an issue that will shape the future of generative AI: whether training gen-AI models on copyrighted works is fair use. One gets it spot on; the other, not so much, but fortunately in... A bill purporting to target the issue of misinformation and defamation caused by generative AI has mutated into something that could change the internet forever, harming speech and innovation from here on out.The Nurture Originals, Foster Art and Keep Entertainment Safe (NO FAKES) Act aims to address understandable concerns about... Check out our 4-star rating on Charity Navigator .",
+      "keywords": [
+        "corporate-watchdog news",
+        "court",
+        "copyright",
+        "codes",
+        "public",
+        "upcodes",
+        "incorporated",
+        "access"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#court",
+        "#copyright",
+        "#codes",
+        "#public",
+        "#upcodes",
+        "#incorporated",
+        "#access"
+      ],
+      "slug": "2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/04/another-court-rules-copyright-cant-stop-people-reading-and-speaking-law",
+      "generatedAt": "2026-04-15T03:56:42.621Z",
+      "relatedArticles": [
+        {
+          "title": "Palantir is now helping the IRS decide who gets audited.",
+          "slug": "2026-04-15-palantir-is-now-helping-the-irs-decide-who-gets-audited",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
+          "slug": "2026-04-15-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
       "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
       "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
       "description": "",
       "pubDate": "2026-04-14T17:47:00.000Z",
       "source": "Hacker News",
-      "hnScore": 485,
-      "hnComments": 200,
+      "hnScore": 536,
+      "hnComments": 223,
       "category": "Surveillance State",
       "score": 8,
       "sources": [
@@ -463,108 +564,17 @@
       ],
       "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
       "sourceUrl": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
-      "generatedAt": "2026-04-15T01:28:44.509Z",
+      "generatedAt": "2026-04-15T03:56:44.724Z",
       "relatedArticles": [
         {
           "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
           "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
           "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "Tesla China CEO Says Shanghai Gigafactory Is \"Golden Key\" To Optimus Robot Production",
-      "url": "https://www.zerohedge.com/technology/tesla-china-ceo-says-shanghai-gigafactory-golden-key-optimus-robot-production",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Tesla China CEO Says Shanghai Gigafactory Is \"Golden Key\" To Optimus Robot Production </span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Tesla's China president was quoted by local media on Tuesday as saying the Shanghai Gigafactory could eventually play a major role in mass-producing humanoid ",
-      "pubDate": "Wed, 15 Apr 2026 00:30:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Government Secrets",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Tesla&#x27;s China president was quoted by local media on Tuesday as saying the Shanghai Gigafactory could eventually play a major role in mass-producing humanoid robots. The comment comes after Tesla said earlier this year that it would pivot away from producing Model S and X vehicles at its California factory and convert the vehicle production lines to Optimus robot production. The Shanghai Morning Post quoted Allan Wang Hao, a senior executive at Tesla China, who said the Shanghai Gigafactory could provide a \" golden key\" to mass-producing the Optimus robot. \"Like other Tesla factories, Giga Shanghai can shoulder important responsibilities in manufacturing all new products, including robots, to make our contributions to the company,\" Hao said. \"We are highly confident in welcoming the arrival of a new era of robots.\" Giga Shanghai is Tesla&#x27;s largest factory. In 2025, it produced 851,000 EVs, more than half of Tesla&#x27;s global output, and in the first quarter of 2026, the factory accounted for about 60% of worldwide deliveries. SCMP noted, \"It was the first time a Tesla executive publicly mentioned the potential use of the Shanghai factory for building humanoid robots.\" Earlier this year, Elon Musk told investors on an earnings call that the company would stop making new Model S and Model X vehicles in the second quarter. \"It&#x27;s part of our overall shift to an autonomous future,\" Musk said, adding that the Model S and X production lines in Fremont, California, will be converted to making Optimus. Musk recently stated on X, \"Custom orders of the Tesla Model S & X have come to an end. All that&#x27;s left are some in inventory.\" The latest Polymarket odds for when Tesla will release the humanoid robot for consumers stand at just 6% by June 30 and 16% by the end of the year. UBS analyst Phyllis Wang recently added color to the global landscape of humanoid robotics, and the big takeaway was that production is set to ramp up. Read the report here for more color on the humanoid robot shipment roadmap. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "government-secrets news",
-        "tesla",
-        "shanghai",
-        "field",
-        "robot",
-        "production",
-        "humanoid",
-        "china"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#tesla",
-        "#shanghai",
-        "#field",
-        "#robot",
-        "#production",
-        "#humanoid",
-        "#china"
-      ],
-      "slug": "2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product",
-      "sourceUrl": "https://www.zerohedge.com/technology/tesla-china-ceo-says-shanghai-gigafactory-golden-key-optimus-robot-production",
-      "generatedAt": "2026-04-15T01:28:46.545Z",
-      "relatedArticles": [
-        {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
         },
         {
-          "title": "Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails",
-          "slug": "2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails",
-      "url": "https://www.zerohedge.com/medical/fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Zachary Stieber via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>A top government doctor who declined to receive a COVID-19 vaccine in 2021 was wor",
-      "pubDate": "Wed, 15 Apr 2026 00:05:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Government Secrets",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Authored by Zachary Stieber via The Epoch Times (emphasis ours), A top government doctor who declined to receive a COVID-19 vaccine in 2021 was worried he would lose his job and medical license in retaliation , according to newly obtained emails. The National Institutes of Health in Bethesda, Md., on May 30, 2024. Madalina Vasiliu/The Epoch Times “There were times when I was worried about losing my job especially when we first started receiving emails about [vaccine] mandate deadlines,” Dr. Matthew Memoli, who led the Laboratory of Infectious Diseases clinical studies unit at the National Institute of Allergy and Infectious Diseases (NIAID) during the COVID-19 pandemic, said in one missive to a NIAID spokesman. He added later that he was more concerned about losing his medical license because he was aware there were “protections for government employees.” “Washington, DC directly threatened to take away my medical license which would have threatened my job (I need a medical license) so I applied for a Virginia license and protected myself that way,” Memoli also wrote in the email, sent on Jan. 17, 2024, and obtained by The Epoch Times through a Freedom of Information Act request. After President Donald Trump took office in 2025, Memoli was made acting director of NIAID’s parent agency, the National Institutes of Health (NIH). He has been the NIH’s principal deputy director since March 31, 2025. Memoli did not respond to a request for comment. Memoli became publicly known in 2021 when he was one of the few government officials to speak out against COVID-19 vaccine mandates, which were being imposed on millions of people and promoted at the highest levels of the government. Emails obtained by The Epoch Times in 2024 showed that Memoli warned Dr. Anthony Fauci—a White House COVID-19 adviser, the longtime head of NIAID until his retirement, and a proponent of vaccine mandates—that mandating COVID-19 vaccination was a mistake, in part because the vaccines did not prevent transmission of the disease. “ At best what we are doing with mandated mass vaccination does nothing and the variants emerge evading immunity anyway as they would have without the vaccine, ” Memoli wrote to Fauci in one email. “At worst it drives evolution of the virus in a way that is different from nature and possibly detrimental, prolonging the pandemic or causing more morbidity and mortality than it should.” Dr. Anthony Fauci arrives to testify before the Select Subcommittee on the Coronavirus Pandemic in Washington on June 3, 2024. Madalina Vasiliu/The Epoch Times Memoli at the time agreed to answer questions via email from The Epoch Times, but officials blocked the interview. Memoli sent his answers to NIAID spokesman Ken Pekoc to review. In response, Pekoc said the interview request had been rejected by NIAID’s parent agency, the Department of Health and Human Services (HHS), according to one of the newly obtained emails. The reasoning for the rejection was not detailed. The Epoch Times had asked whether Memoli was in danger of being fired due to his opposition to the mandates and whether he wished he had gone public with his opposition to the mandates sooner, among other questions. “I had expressed many reservations about the vaccines in press interviews that I did far prior to late 2021,” Memoli said in response, in answers that were never sent to The Epoch Times. “I was always honest about that. The reporters I spoke to never seemed to publish any of the information I provided regarding that.” That changed near the end of 2021, when The Wall Street Journal and other papers published stories about Memoli’s remarks after President Joe Biden and federal agencies such as NIAID and its parent agency, the NIH, mandated COVID-19 vaccination for federal employees and contractors. People wait in line at a vaccination site in Washington on Nov. 29, 2021. Jim Watson/AFP via Getty Images Memoli, in comments to reporters and in internal emails, said he opposed the mandates because from his experience with respiratory viruses, they evade immunity, and vaccines could drive the evolution of the virus. He also said requiring shots infringed on medical freedom. “The vaccine was not working well due to the rise of variants, there were safety issues arising, and as my family and I had chosen not to be vaccinated we were dealing with threats of having our medical licenses taken away, loss of employment, etc., ” Memoli wrote to Pekoc in one of the newly obtained emails, dated Jan. 16, 2024. “We had friends who felt coerced into accepting vaccination as was happening all over the country. Therefore, to again try to be constructive I contacted the NIH ethics office to appeal to them to consider this.” After exchanging emails with NIH ethics personnel, Memoli was invited to speak at an agency event called the Ethics Grand Rounds in December 2021. In his speech, he made the case that mandates should only be imposed in rare situations, and should not be imposed for COVID-19 vaccines because the vaccines’ effectiveness dropped over time.",
-      "keywords": [
-        "government-secrets news",
-        "memoli",
-        "covid",
-        "times",
-        "vaccine",
-        "emails",
-        "field",
-        "epoch"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#memoli",
-        "#covid",
-        "#times",
-        "#vaccine",
-        "#emails",
-        "#field",
-        "#epoch"
-      ],
-      "slug": "2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails",
-      "sourceUrl": "https://www.zerohedge.com/medical/fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails",
-      "generatedAt": "2026-04-15T01:28:48.570Z",
-      "relatedArticles": [
-        {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
-        },
-        {
-          "title": "Tesla China CEO Says Shanghai Gigafactory Is \"Golden Key\" To Optimus Robot Production",
-          "slug": "2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product",
-          "category": "Government Secrets"
+          "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
+          "slug": "2026-04-15-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
+          "category": "Surveillance State"
         }
       ]
     }
