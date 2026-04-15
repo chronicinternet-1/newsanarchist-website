@@ -1,47 +1,96 @@
 {
-  "scrapedAt": "2026-03-31T21:14:06.960Z",
+  "scrapedAt": "2026-04-15T00:07:37.382Z",
   "topicsCount": 12,
   "topics": [
     {
-      "title": "I found a Reddit setting that lets them use your activity to target ads across other websites, it's buried and on by default",
-      "url": "https://www.reddit.com/r/privacy/comments/1s88jm6/i_found_a_reddit_setting_that_lets_them_use_your/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Was doing a settings audit this week and stumbled on this. Wanted to share because I think most people have no idea it exists.</p> <p>Go to Settings， Privacy &amp; Safety → Ad preferences. There's an option called \"Allow Reddit to use your data for personalized ads from advertisers,\" the one that caught me off guard is right below it:</p> <p>\"Allow Reddit to use y",
-      "pubDate": "2026-03-31T00:38:24.000Z",
+      "title": "Palantir is now helping the IRS decide who gets audited.",
+      "url": "https://www.reddit.com/r/privacy/comments/1slfcgv/palantir_is_now_helping_the_irs_decide_who_gets/",
+      "description": "&#32; submitted by &#32; <a href=\" /u/Secret-Broccoli9908 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-04-14T17:26:00.000Z",
       "source": "r/privacy",
       "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 15,
+      "category": "Corporate Watchdog",
+      "score": 12,
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Was doing a settings audit this week and stumbled on this. Wanted to share because I think most people have no idea it exists.</p> <p>Go to Settings， Privacy &amp; Safety → Ad preferences. There's an option called \"Allow Reddit to use your data for personalized ads from advertisers,\" the one that caught me off guard is right below it:</p> <p>\"Allow Reddit to use y",
+      "content": "&#32; submitted by &#32; <a href=\" /u/Secret-Broccoli9908 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "keywords": [
+        "corporate-watchdog news",
+        "palantir",
+        "helping",
+        "decide",
+        "gets",
+        "audited",
+        "submitted",
+        "secret"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#palantir",
+        "#helping",
+        "#decide",
+        "#gets",
+        "#audited",
+        "#submitted",
+        "#secret"
+      ],
+      "slug": "2026-04-15-palantir-is-now-helping-the-irs-decide-who-gets-audited",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slfcgv/palantir_is_now_helping_the_irs_decide_who_gets/",
+      "generatedAt": "2026-04-15T00:07:18.375Z",
+      "relatedArticles": [
+        {
+          "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
+          "slug": "2026-04-15-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
+      "url": "https://www.reddit.com/r/privacy/comments/1sl8yvb/i_stumbled_across_a_whatsapp_privacy_loophole/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>I think I’ve accidently found a privacy issue with WhatsApp communities.</p> <p>I’m in a WhatsApp community where the Admin has hidden the member list, so members should not be able to see who else is in it. That part works as expected. However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro",
+      "pubDate": "2026-04-14T13:37:24.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 12,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I think I’ve accidently found a privacy issue with WhatsApp communities.</p> <p>I’m in a WhatsApp community where the Admin has hidden the member list, so members should not be able to see who else is in it. That part works as expected. However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro",
       "keywords": [
         "tech-&-privacy news",
-        "reddit",
-        "your",
-        "settings",
-        "allow",
-        "found",
-        "setting",
-        "lets"
+        "whatsapp",
+        "privacy",
+        "hidden",
+        "community",
+        "members",
+        "stumbled",
+        "across"
       ],
       "hashtags": [
         "#tech-&-privacynews",
-        "#reddit",
-        "#your",
-        "#settings",
-        "#allow",
-        "#found",
-        "#setting",
-        "#lets"
+        "#whatsapp",
+        "#privacy",
+        "#hidden",
+        "#community",
+        "#members",
+        "#stumbled",
+        "#across"
       ],
-      "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s88jm6/i_found_a_reddit_setting_that_lets_them_use_your/",
-      "generatedAt": "2026-03-31T21:13:47.023Z",
+      "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sl8yvb/i_stumbled_across_a_whatsapp_privacy_loophole/",
+      "generatedAt": "2026-04-15T00:07:19.474Z",
       "relatedArticles": [
         {
-          "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
-          "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
+          "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
+          "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "This is going to sound weird, but I think my church is selling my data. How do I find out?",
+          "slug": "2026-04-15-this-is-going-to-sound-weird-but-i-think-my-church-is-selling-my-data-how-do-i-f",
           "category": "Tech & Privacy"
         }
       ]
@@ -50,7 +99,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-03-31T21:13:45.088Z",
+      "pubDate": "2026-04-15T00:07:17.046Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -78,70 +127,71 @@
         "#aids",
         "#healthcare"
       ],
-      "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+      "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-03-31T21:13:49.243Z",
+      "generatedAt": "2026-04-15T00:07:21.678Z",
       "relatedArticles": [
         {
-          "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-          "slug": "2026-03-31-the-claude-code-source-leak-fake-tools-frustration-regexes-undercover-mode",
+          "title": "Xi Says \"Global Order Crumbling Into Disarray\" As Trump Turns Up Pressure Campaign On China",
+          "slug": "2026-04-15-xi-says-global-order-crumbling-into-disarray-as-trump-turns-up-pressure-campaign",
           "category": "Government Secrets"
         },
         {
-          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-          "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
+          "title": "Should You Keep Your Target-Date Funds In Retirement?",
+          "slug": "2026-04-15-should-you-keep-your-target-date-funds-in-retirement",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "Treasury Unveils Whistleblower Portal To Combat Transnational Medicare, Medicaid Fraud Rings",
-      "url": "https://www.zerohedge.com/political/treasury-unveils-whistleblower-portal-combat-transnational-medicare-medicaid-fraud-rings",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Treasury Unveils Whistleblower Portal To Combat Transnational Medicare, Medicaid Fraud Rings</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Kimberly Hayek via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>Whistleblowers are encouraged to report abuse of Medicare, ",
-      "pubDate": "Tue, 31 Mar 2026 16:20:00 +0000",
-      "source": "ZeroHedge",
+      "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
+      "url": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Please read the rules, this is not <a href=\"/r/cybersecurity\">r/cybersecurity</a>. We’re removing many more of these posts these days than ever before it seems.</p> <h1>Tip: if you find yourself using the word “safe”, “secure”, “hacked”, etc in your title, you’re probably off-topic.</h1> </div><!-- SC_ON --> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2024-01-25T22:34:37.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
       "category": "Corporate Watchdog",
-      "score": 10,
+      "score": 9,
       "sources": [
-        "ZeroHedge"
+        "r/privacy"
       ],
-      "content": "Authored by Kimberly Hayek via The Epoch Times (emphasis ours), Whistleblowers are encouraged to report abuse of Medicare, Medicaid, and other government health benefit programs, the Department of the Treasury announced on March 30, while warning that sophisticated fraud schemes are siphoning billions from them. The White House and the U.S. Department of the Treasury in Washington on March 10, 2025. Madalina Vasiliu/The Epoch Times In an advisory, the Treasury detailed the way in which transnational criminal organizations —working with domestic fraudsters and organized crime groups— create fake health care providers, employ cover people to pose as owners who are not U.S. residents, and steal the personal data of actual beneficiaries to submit false claims for care that was never provided or was not needed. Proceeds are then laundered through wire transfers, digital assets, and culpable bank co-conspirators before being transferred overseas. The department said its Financial Crimes Enforcement Network (FinCEN) has published a proposed rule to fully implement a whistleblower program that would reward 10–30 percent of penalties collected in successful enforcement in fraud and money laundering cases, as well as sanctions violations. Payments would be taken from penalties obtained under the Bank Secrecy Act and other laws already in place. “The regulation proposed today, when finalized, will fully implement these statutes,” FinCEN said. “ Whistleblowers are encouraged to submit information as soon as possible and to provide detailed, specific documentation to support their claims .” In the meantime, FinCEN said it “recently launched a portal” for whistleblowers to begin making reports. Financial institutions reported a 20 percent increase in suspicious activity linked to health care fraud in 2025 over the previous year, according to the advisory. Officials, however, suspect the filings reveal only a small part of the fraud. “President Trump has been clear that Americans have a right to know that their tax dollars are not being used to commit fraud,” Treasury Secretary Scott Bessent said in a statement. “Under President Trump’s leadership, Treasury will continue to find and disrupt fraud schemes wherever they exist, and we will work with our law enforcement partners to hold perpetrators to account.” The department’s Financial Crimes Enforcement Network advisory comes as the Trump administration works to undermine waste and abuse in federal spending. The advisory was released in collaboration with the FBI and the Health and Human Services Department’s Office of Inspector General. It aligns with an executive order targeting fraud across federal payments. Treasury officials said the advisory and proposed regulation are in line with administration actions to protect taxpayer dollars and protect the financial system against illicit activity, and that financial institutions are requested to file suspicious activity reports and to inform law enforcement immediately upon encountering suspicious transactions. In February, Bessent described efforts to combat fraud in federal spending. “We are encouraging whistleblowers who know about fraud, people who are stealing from the American taxpayer, to come forward at Treasury,” he said. “ We will be giving rewards up to 10 percent to 30 percent of the fines that we levy. ” Bessent added that these efforts represent a great way to ferret out waste, fraud, and abuse. The Trump administration has also flagged fraud concerns in New York. Federal investigators there have homed in on the state’s Medicaid program. In March, Centers for Medicare and Medicaid Services Administrator Dr. Mehmet Oz, tasked with spearheading a federal review of Medicaid spending, cited abnormal job growth in home health and personal care aides as showing signs of possible abuse. “ Heart surgeons are trained to look at the numbers, ” the cardiothoracic surgeon said. “When something doesn’t add up, you don’t ignore it; you investigate.” In a specific New York case, eight people were indicted in a $68 million Medicaid fraud scheme revolving around Brooklyn adult day care centers that allegedly entailed bribes and inflated claims. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Please read the rules, this is not <a href=\"/r/cybersecurity\">r/cybersecurity</a>. We’re removing many more of these posts these days than ever before it seems.</p> <h1>Tip: if you find yourself using the word “safe”, “secure”, “hacked”, etc in your title, you’re probably off-topic.</h1> </div><!-- SC_ON --> <br/> <span><a href=\" &#32; <span><a href=\"",
       "keywords": [
         "corporate-watchdog news",
-        "fraud",
-        "treasury",
-        "field",
-        "medicaid",
-        "medicare",
-        "whistleblowers",
-        "abuse"
+        "posts",
+        "cybersecurity",
+        "topic",
+        "please",
+        "read",
+        "rules",
+        "removing"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#fraud",
-        "#treasury",
-        "#field",
-        "#medicaid",
-        "#medicare",
-        "#whistleblowers",
-        "#abuse"
+        "#posts",
+        "#cybersecurity",
+        "#topic",
+        "#please",
+        "#read",
+        "#rules",
+        "#removing"
       ],
-      "slug": "2026-03-31-treasury-unveils-whistleblower-portal-to-combat-transnational-medicare-medicaid",
-      "sourceUrl": "https://www.zerohedge.com/political/treasury-unveils-whistleblower-portal-combat-transnational-medicare-medicaid-fraud-rings",
-      "generatedAt": "2026-03-31T21:13:50.792Z",
+      "slug": "2026-04-15-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
+      "generatedAt": "2026-04-15T00:07:23.377Z",
       "relatedArticles": [
         {
-          "title": "Online Footprint & Safety Advice",
-          "slug": "2026-03-31-online-footprint-safety-advice",
+          "title": "Palantir is now helping the IRS decide who gets audited.",
+          "slug": "2026-04-15-palantir-is-now-helping-the-irs-decide-who-gets-audited",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "No Permit, No Problem: California Governor Hopeful Chad Bianco's 500+ Unauthorized Surveillance Cameras",
-      "url": "https://www.reddit.com/r/privacy/comments/1s8sij5/no_permit_no_problem_california_governor_hopeful/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Riverside County issued three encroachment permits for 500+ Flock surveillance cameras to the wrong permittee and based on incomplete applications. Then it let them lapse for over a year. Bianco and Flock continued to operate them.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/SSA22_HCM1 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-03-31T16:35:39.000Z",
+      "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+      "url": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
+      "pubDate": "2026-04-14T21:48:00.000Z",
       "source": "r/privacy",
       "redditScore": 0,
       "category": "Surveillance State",
@@ -149,146 +199,43 @@
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Riverside County issued three encroachment permits for 500+ Flock surveillance cameras to the wrong permittee and based on incomplete applications. Then it let them lapse for over a year. Bianco and Flock continued to operate them.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/SSA22_HCM1 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs Enforcement (ICE) sent Google an administrative subpoena requesting his data. The next month, Google gave Thomas-Johnson's information to ICE without giving him the chance ",
       "keywords": [
         "surveillance-state news",
-        "bianco",
-        "surveillance",
-        "cameras",
-        "flock",
-        "them",
-        "permit",
-        "problem"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#bianco",
-        "#surveillance",
-        "#cameras",
-        "#flock",
-        "#them",
-        "#permit",
-        "#problem"
-      ],
-      "slug": "2026-03-31-no-permit-no-problem-california-governor-hopeful-chad-biancos-500-unauthorized-s",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s8sij5/no_permit_no_problem_california_governor_hopeful/",
-      "generatedAt": "2026-03-31T21:13:52.424Z",
-      "relatedArticles": [
-        {
-          "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
-          "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
-          "category": "Surveillance State"
-        },
-        {
-          "title": "How are y'all getting your Weather?",
-          "slug": "2026-03-31-how-are-yall-getting-your-weather",
-          "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
-      "url": "https://www.reddit.com/r/privacy/comments/1s878e9/apple_revealed_hide_my_email_user_identity_in_fbi/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p><em>Apple has provided US law enforcement with the real identity behind an anonymized iCloud email address generated using its “Hide My Email” feature, according to newly unsealed court documents.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Legitimate6295 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-03-30T23:41:03.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><em>Apple has provided US law enforcement with the real identity behind an anonymized iCloud email address generated using its “Hide My Email” feature, according to newly unsealed court documents.</em></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Legitimate6295 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "keywords": [
-        "surveillance-state news",
-        "email",
-        "apple",
-        "hide",
-        "identity",
-        "revealed",
-        "user",
-        "investigation"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#email",
-        "#apple",
-        "#hide",
-        "#identity",
-        "#revealed",
-        "#user",
-        "#investigation"
-      ],
-      "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s878e9/apple_revealed_hide_my_email_user_identity_in_fbi/",
-      "generatedAt": "2026-03-31T21:13:53.734Z",
-      "relatedArticles": [
-        {
-          "title": "No Permit, No Problem: California Governor Hopeful Chad Bianco's 500+ Unauthorized Surveillance Cameras",
-          "slug": "2026-03-31-no-permit-no-problem-california-governor-hopeful-chad-biancos-500-unauthorized-s",
-          "category": "Surveillance State"
-        },
-        {
-          "title": "How are y'all getting your Weather?",
-          "slug": "2026-03-31-how-are-yall-getting-your-weather",
-          "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "How are y'all getting your Weather?",
-      "url": "https://www.reddit.com/r/privacy/comments/1s7u5rd/how_are_yall_getting_your_weather/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Just found out my name and social security number are on the dark web so I'm done playing. I know it's just a weather app, but I'm tired of my data being sold. What's the best privacy-focused way to get your weather?Minimal-tracking that avoid selling user data. These are the apps I've learned about so far: </p> <ul> <li><strong>Breezy Weather (Android):</strong> ",
-      "pubDate": "2026-03-30T15:41:58.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Just found out my name and social security number are on the dark web so I'm done playing. I know it's just a weather app, but I'm tired of my data being sold. What's the best privacy-focused way to get your weather?Minimal-tracking that avoid selling user data. These are the apps I've learned about so far: </p> <ul> <li><strong>Breezy Weather (Android):</strong> ",
-      "keywords": [
-        "surveillance-state news",
-        "weather",
-        "your",
-        "just",
+        "google",
         "data",
-        "getting",
-        "found",
-        "name"
+        "thomas",
+        "johnson",
+        "broke",
+        "promise",
+        "september"
       ],
       "hashtags": [
         "#surveillance-statenews",
-        "#weather",
-        "#your",
-        "#just",
+        "#google",
         "#data",
-        "#getting",
-        "#found",
-        "#name"
+        "#thomas",
+        "#johnson",
+        "#broke",
+        "#promise",
+        "#september"
       ],
-      "slug": "2026-03-31-how-are-yall-getting-your-weather",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s7u5rd/how_are_yall_getting_your_weather/",
-      "generatedAt": "2026-03-31T21:13:55.344Z",
+      "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slmow9/google_broke_its_promise_to_me_now_ice_has_my_data/",
+      "generatedAt": "2026-04-15T00:07:24.799Z",
       "relatedArticles": [
         {
-          "title": "No Permit, No Problem: California Governor Hopeful Chad Bianco's 500+ Unauthorized Surveillance Cameras",
-          "slug": "2026-03-31-no-permit-no-problem-california-governor-hopeful-chad-biancos-500-unauthorized-s",
-          "category": "Surveillance State"
-        },
-        {
-          "title": "Apple revealed ‘Hide My Email’ user identity in FBI investigation",
-          "slug": "2026-03-31-apple-revealed-hide-my-email-user-identity-in-fbi-investigation",
+          "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+          "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
           "category": "Surveillance State"
         }
       ]
     },
     {
-      "title": "Is it safe to provide ssn and ID online when applying for a volunteer job?",
-      "url": "https://www.reddit.com/r/privacy/comments/1s8p4p8/is_it_safe_to_provide_ssn_and_id_online_when/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Is it safe to provide ssn to volunteer for Crisis Text Line (a mental health crisis non-profit where you volunteer as a crisis counselor after I think 15 hours of training)? They require ssn and I think ID for a background check which I understand but I'm a privacy conscious person. However, I'd like to volunteer as a crisis counselor because I want to help people",
-      "pubDate": "2026-03-31T14:33:26.000Z",
+      "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
+      "url": "https://www.reddit.com/r/privacy/comments/1skuhfa/michigan_digital_age_bills_pulled_after_privacy/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Hold the line. Keep fighting. They’re getting a lot of push back from these os level age verification bills. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Correctthecorrectors </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-04-14T01:29:02.000Z",
       "source": "r/privacy",
       "redditScore": 0,
       "category": "Tech & Privacy",
@@ -296,263 +243,328 @@
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Is it safe to provide ssn to volunteer for Crisis Text Line (a mental health crisis non-profit where you volunteer as a crisis counselor after I think 15 hours of training)? They require ssn and I think ID for a background check which I understand but I'm a privacy conscious person. However, I'd like to volunteer as a crisis counselor because I want to help people",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hold the line. Keep fighting. They’re getting a lot of push back from these os level age verification bills. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Correctthecorrectors </a> <br/> <span><a href=\" &#32; <span><a href=\"",
       "keywords": [
         "tech-&-privacy news",
-        "volunteer",
-        "crisis",
-        "safe",
-        "provide",
-        "counselor",
-        "think",
-        "online"
+        "bills",
+        "michigan",
+        "digital",
+        "pulled",
+        "privacy",
+        "concerns",
+        "raised"
       ],
       "hashtags": [
         "#tech-&-privacynews",
-        "#volunteer",
-        "#crisis",
-        "#safe",
-        "#provide",
-        "#counselor",
-        "#think",
-        "#online"
+        "#bills",
+        "#michigan",
+        "#digital",
+        "#pulled",
+        "#privacy",
+        "#concerns",
+        "#raised"
       ],
-      "slug": "2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s8p4p8/is_it_safe_to_provide_ssn_and_id_online_when/",
-      "generatedAt": "2026-03-31T21:13:56.979Z",
+      "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1skuhfa/michigan_digital_age_bills_pulled_after_privacy/",
+      "generatedAt": "2026-04-15T00:07:26.595Z",
       "relatedArticles": [
         {
-          "title": "I found a Reddit setting that lets them use your activity to target ads across other websites, it's buried and on by default",
-          "slug": "2026-03-31-i-found-a-reddit-setting-that-lets-them-use-your-activity-to-target-ads-across-o",
+          "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
+          "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "This is going to sound weird, but I think my church is selling my data. How do I find out?",
+          "slug": "2026-04-15-this-is-going-to-sound-weird-but-i-think-my-church-is-selling-my-data-how-do-i-f",
           "category": "Tech & Privacy"
         }
       ]
     },
     {
-      "title": "Online Footprint & Safety Advice",
-      "url": "https://www.reddit.com/r/privacy/comments/1s81375/online_footprint_safety_advice/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>Recently I’ve done an overhaul on my online presence/security. I am looking for opinions and advice regarding my setup:</p> <p>I am using Bitwarden to manage my passwords, backed with Ente Auth for 2fa. All of my recovery codes are stored in Ente Auth. All of my main accounts that allow it (bank, email, etc.) are setup with 2fa through Ente as well.<",
-      "pubDate": "2026-03-30T19:44:20.000Z",
+      "title": "This is going to sound weird, but I think my church is selling my data. How do I find out?",
+      "url": "https://www.reddit.com/r/privacy/comments/1slirf0/this_is_going_to_sound_weird_but_i_think_my/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Alright, so I downloaded a pastor's new \"app,\" purely out of curiosity to see if I would start getting spam emails at the unique (fake) email address I used. I want to know if this man has people downloading his app in the name of God so that he can sell their data through the app. When you check the privacy settings on the app page in the App Store, it says there",
+      "pubDate": "2026-04-14T19:25:11.000Z",
       "source": "r/privacy",
       "redditScore": 0,
-      "category": "Corporate Watchdog",
+      "category": "Tech & Privacy",
       "score": 9,
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>Recently I’ve done an overhaul on my online presence/security. I am looking for opinions and advice regarding my setup:</p> <p>I am using Bitwarden to manage my passwords, backed with Ente Auth for 2fa. All of my recovery codes are stored in Ente Auth. All of my main accounts that allow it (bank, email, etc.) are setup with 2fa through Ente as well.<",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Alright, so I downloaded a pastor's new \"app,\" purely out of curiosity to see if I would start getting spam emails at the unique (fake) email address I used. I want to know if this man has people downloading his app in the name of God so that he can sell their data through the app. When you check the privacy settings on the app page in the App Store, it says there",
       "keywords": [
-        "corporate-watchdog news",
-        "ente",
-        "online",
-        "advice",
-        "setup",
-        "auth",
-        "footprint",
-        "safety"
+        "tech-&-privacy news",
+        "data",
+        "going",
+        "sound",
+        "weird",
+        "think",
+        "church",
+        "selling"
       ],
       "hashtags": [
-        "#corporate-watchdognews",
-        "#ente",
-        "#online",
-        "#advice",
-        "#setup",
-        "#auth",
-        "#footprint",
-        "#safety"
+        "#tech-&-privacynews",
+        "#data",
+        "#going",
+        "#sound",
+        "#weird",
+        "#think",
+        "#church",
+        "#selling"
       ],
-      "slug": "2026-03-31-online-footprint-safety-advice",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1s81375/online_footprint_safety_advice/",
-      "generatedAt": "2026-03-31T21:13:58.247Z",
+      "slug": "2026-04-15-this-is-going-to-sound-weird-but-i-think-my-church-is-selling-my-data-how-do-i-f",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slirf0/this_is_going_to_sound_weird_but_i_think_my/",
+      "generatedAt": "2026-04-15T00:07:28.369Z",
       "relatedArticles": [
         {
-          "title": "Treasury Unveils Whistleblower Portal To Combat Transnational Medicare, Medicaid Fraud Rings",
-          "slug": "2026-03-31-treasury-unveils-whistleblower-portal-to-combat-transnational-medicare-medicaid",
-          "category": "Corporate Watchdog"
+          "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
+          "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
+          "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
+          "category": "Tech & Privacy"
         }
       ]
     },
     {
-      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
-      "description": "Related ongoing thread: Claude Code&#x27;s source code has been leaked via a map file in their NPM registry - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47584540",
-      "pubDate": "2026-03-31T13:04:30.000Z",
+      "title": "Thoughts on Child Check-in at church",
+      "url": "https://www.reddit.com/r/privacy/comments/1slaf9d/thoughts_on_child_checkin_at_church/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>So recently the staff at our church has gone tech crazy and I'm over it. As someone who values privacy, I want to know thoughts on this. Recently the nursery has started using a digital check in for children. It has an Ipad and pagers and prints some sort of label to check in the child. They are saying it's for \"safety\" of course. I get that it seems to help them ",
+      "pubDate": "2026-04-14T14:31:48.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>So recently the staff at our church has gone tech crazy and I'm over it. As someone who values privacy, I want to know thoughts on this. Recently the nursery has started using a digital check in for children. It has an Ipad and pagers and prints some sort of label to check in the child. They are saying it's for \"safety\" of course. I get that it seems to help them ",
+      "keywords": [
+        "tech-&-privacy news",
+        "check",
+        "thoughts",
+        "child",
+        "church",
+        "recently",
+        "staff",
+        "gone"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#check",
+        "#thoughts",
+        "#child",
+        "#church",
+        "#recently",
+        "#staff",
+        "#gone"
+      ],
+      "slug": "2026-04-15-thoughts-on-child-check-in-at-church",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1slaf9d/thoughts_on_child_checkin_at_church/",
+      "generatedAt": "2026-04-15T00:07:30.333Z",
+      "relatedArticles": [
+        {
+          "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
+          "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
+          "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "AGE CHECKS ARE A TOTAL INVASION OF PRIVACY",
+      "url": "https://www.reddit.com/r/privacy/comments/1skfawl/age_checks_are_a_total_invasion_of_privacy/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Look, nobody thinks children should have unrestricted access to the Internet.</p> <p>THAT DOES NOT, IN ANY WAY, MEAN IT IS OK FOR COMPANIES TO ASK FOR MY FACE, DRIVER’S LICENSE, ETC. THAT IS *MY* PRIVATE INFORMATION AND NOBODY IS ALLOWED TO HAVE IT EXCEPT ME (and the government of course)!!!</p> <p>For example, Roblox (a gaming platform for those unaware) now requ",
+      "pubDate": "2026-04-13T16:05:35.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Look, nobody thinks children should have unrestricted access to the Internet.</p> <p>THAT DOES NOT, IN ANY WAY, MEAN IT IS OK FOR COMPANIES TO ASK FOR MY FACE, DRIVER’S LICENSE, ETC. THAT IS *MY* PRIVATE INFORMATION AND NOBODY IS ALLOWED TO HAVE IT EXCEPT ME (and the government of course)!!!</p> <p>For example, Roblox (a gaming platform for those unaware) now requ",
+      "keywords": [
+        "tech-&-privacy news",
+        "nobody",
+        "checks",
+        "total",
+        "invasion",
+        "privacy",
+        "look",
+        "thinks"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#nobody",
+        "#checks",
+        "#total",
+        "#invasion",
+        "#privacy",
+        "#look",
+        "#thinks"
+      ],
+      "slug": "2026-04-15-age-checks-are-a-total-invasion-of-privacy",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1skfawl/age_checks_are_a_total_invasion_of_privacy/",
+      "generatedAt": "2026-04-15T00:07:31.360Z",
+      "relatedArticles": [
+        {
+          "title": "I stumbled across a WhatsApp privacy loophole that identifies hidden Community members",
+          "slug": "2026-04-15-i-stumbled-across-a-whatsapp-privacy-loophole-that-identifies-hidden-community-m",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Michigan ‘digital age’ bills pulled after privacy concerns raised",
+          "slug": "2026-04-15-michigan-digital-age-bills-pulled-after-privacy-concerns-raised",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+      "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+      "description": "",
+      "pubDate": "2026-04-14T17:47:00.000Z",
       "source": "Hacker News",
-      "hnScore": 377,
-      "hnComments": 156,
-      "category": "Government Secrets",
+      "hnScore": 449,
+      "hnComments": 184,
+      "category": "Surveillance State",
       "score": 8,
       "sources": [
         "Hacker News"
       ],
-      "content": "I use Claude Code daily, so when Chaofan Shou noticed earlier today that Anthropic had shipped a .map file alongside their Claude Code npm package, one containing the full, readable source code of the CLI tool, I immediately wanted to look inside. The package has since been pulled, but not before the code was widely mirrored, incluiding myself and picked apart on Hacker News . This is Anthropic&rsquo;s second accidental exposure in a week (the model spec leak was just days ago), and some people on Twitter are starting to wonder if someone inside is doing this on purpose. Probably not, but it&rsquo;s a bad look either way. The timing is also hard to ignore: just ten days ago, Anthropic sent legal threats to OpenCode , forcing them to remove built-in Claude authentication because third-party tools were using Claude Code&rsquo;s internal APIs to access Opus at subscription rates instead of pay-per-token pricing. That whole saga makes some of the findings below more pointed. So I spent my morning reading through the HN comments and leaked source. Here&rsquo;s what I found, roughly ordered by how &ldquo;spicy&rdquo; I thought it was. In claude.ts (line 301-313) , there&rsquo;s a flag called ANTI_DISTILLATION_CC . When enabled, Claude Code sends anti_distillation: ['fake_tools'] in its API requests. This tells the server to silently inject decoy tool definitions into the system prompt. The idea: if someone is recording Claude Code&rsquo;s API traffic to train a competing model, the fake tools pollute that training data. It&rsquo;s gated behind a GrowthBook feature flag ( tengu_anti_distill_fake_tool_injection ) and only active for first-party CLI sessions. This was one of the first things people noticed in the HN thread. Whether you see this as smart defensive engineering or anti-competitive behavior probably depends on which side of the distillation debate you&rsquo;re on. There&rsquo;s also a second anti-distillation mechanism in betas.ts (lines 279-298) : server-side connector-text summarization. When enabled, the API buffers the assistant&rsquo;s text between tool calls, summarizes it, and returns the summary with a cryptographic signature. On subsequent turns, the original text can be restored from the signature. If you&rsquo;re recording API traffic, you only get the summaries, not the full reasoning chain. How hard would it be to work around these? Not very. Looking at the activation logic in claude.ts , the fake tools injection requires all four conditions to be true: the ANTI_DISTILLATION_CC compile-time flag, the cli entrypoint, a first-party API provider, and the tengu_anti_distill_fake_tool_injection GrowthBook flag returning true. A MITM proxy that strips the anti_distillation field from request bodies before they reach the API would bypass it entirely, since the injection is server-side and opt-in. The shouldIncludeFirstPartyOnlyBetas() function also checks for CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS , so setting that env var to a truthy value disables the whole thing. And if you&rsquo;re using a third-party API provider or the SDK entrypoint instead of the CLI, the check never fires at all. The connector-text summarization is even more narrowly scoped: it&rsquo;s Anthropic-internal-only ( USER_TYPE === 'ant' ), so external users won&rsquo;t encounter it regardless. Anyone serious about distilling from Claude Code traffic would find the workarounds in about an hour of reading the source. The real protection is probably legal, not technical. The file undercover.ts (about 90 lines) implements a mode that strips all traces of Anthropic internals when Claude Code is used in non-internal repos. It instructs the model to never mention internal codenames like &ldquo;Capybara&rdquo; or &ldquo;Tengu,&rdquo; internal Slack channels, repo names, or the phrase &ldquo;Claude Code&rdquo; itself. &ldquo;There is NO force-OFF. This guards against model codename leaks.&rdquo; You can force it ON with CLAUDE_CODE_UNDERCOVER=1 , but there&rsquo;s no way to force it off. In external builds, the entire function gets dead-code-eliminated to trivial returns. This is a one-way door. The obvious concern, raised repeatedly in the HN thread: this means AI-authored commits and PRs from Anthropic employees in open source projects will have no indication that an AI wrote them. It&rsquo;s one thing to hide internal codenames. It&rsquo;s another to have the AI actively pretend to be human. userPromptKeywords.ts contains a regex pattern that detects user frustration: /\\b(wtf|wth|ffs|omfg|shit(ty|tiest)?|dumbass|horrible|awful| piss(ed|ing)? off|piece of (shit|crap|junk)|what the (fuck|hell)| fucking? (broken|useless|terrible|awful|horrible)|fuck you| screw (this|you)|so frustrating|this sucks|damn it)\\b/ This was the most-discussed finding in the HN thread. The general reaction: an LLM company using regexes for sentiment analysis is peak irony. Is it ironic? Sure. Is it also probably faster and cheaper than running an LLM inference just to figure out if a user is swearing at the tool? Also yes. Sometimes a regex is the right tool. In system.ts (lines 59-95) , API requests include a cch=00000 placeholder. Before the request leaves the process, Bun&rsquo;s native HTTP stack (written in Zig) overwrites those five zeros with a computed hash. The server then validates the hash to confirm the request came from a real Claude Code binary, not a spoofed client. They use a placeholder of the same length so the replacement doesn&rsquo;t change the Content-Length header or require buffer reallocation. The computation happens below the JavaScript runtime, so it&rsquo;s invisible to anything running in the JS layer. It&rsquo;s basically DRM for API calls, implemented at the HTTP transport level. This is the technical enforcement behind the OpenCode legal fight. Anthropic doesn&rsquo;t just ask third-party tools not to use their APIs; the binary itself cryptographically proves it&rsquo;s the real Claude Code client. If you&rsquo;re wondering why the OpenCode community had to resort to session-stitching hacks and auth plugins after Anthropic&rsquo;s legal notice, this is why. That said, the attestation isn&rsquo;t airtight. The whole mechanism is gated behind a compile-time feature flag ( NATIVE_CLIENT_ATTESTATION ), and the cch=00000 placeholder only gets injected into the x-anthropic-billing-header when that flag is on. The header itself can be disabled entirely by setting CLAUDE_CODE_ATTRIBUTION_HEADER to a falsy value, or remotely via a GrowthBook killswitch ( tengu_attribution_header ). The Zig-level hash replacement also only works inside the official Bun binary. If you rebuilt the JS bundle and ran it on stock Bun (or Node), the placeholder would survive as-is, five literal zeros hitting the server. Whether the server rejects that outright or just logs it is an open question, but the code comment references a server-side _parse_cc_header function that &ldquo;tolerates unknown extra fields,&rdquo; which suggests the validation might be more forgiving than you&rsquo;d expect for a DRM-like system. None of this is a push-button bypass, but it&rsquo;s not the kind of thing that would stop a determined third-party client for long.",
+      "content": "I wrote to Flock&rsquo;s privacy contact to opt out of their domestic spying program: I am a resident of California. As such, and because you are subject to the CCPA, delete all information about me, my vehicle, and other household members from all of your databases. I do not give you permission to collect or store data about me, my vehicles, or my relatives, in any future situation. Dear [misspelled name, i.e. not copied and pasted], Your request cannot be completed at this time. Thank you for submitting your privacy request. At this time, we are unable to process this request for the reasons detailed below. Flock Safety provides its services to our customers, and our customers are owners and controllers of the data Flock Safety processes on their behalf. Flock Safety processes data as a service provider and processor for our customers and as a result, we are unable to directly fulfill your request. We recommend contacting the organization that engaged Flock Safety&rsquo;s services to submit your request, as they are responsible for assessing and responding to it. Here are a few additional points about Flock Safety&rsquo;s data collection and privacy practices: For more information about how Flock Safety processes data, please refer to our Privacy Policy and LPR Policy. I think that&rsquo;s legally inaccurate. They&rsquo;re the entity collecting and processing my personally identifiable information, and my non-lawyer reading of the California Consumer Privacy Act (CCPA) would seem to obligate them to comply with my request. I haven&rsquo;t decided to engage a lawyer yet, but neither have I ruled it out.",
       "keywords": [
-        "government-secrets news",
+        "surveillance-state news",
+        "flock",
+        "privacy",
         "rsquo",
-        "code",
-        "claude",
-        "anthropic",
-        "anti",
-        "tool",
-        "server"
+        "request",
+        "safety",
+        "your",
+        "data"
       ],
       "hashtags": [
-        "#government-secretsnews",
+        "#surveillance-statenews",
+        "#flock",
+        "#privacy",
         "#rsquo",
-        "#code",
-        "#claude",
-        "#anthropic",
-        "#anti",
-        "#tool",
-        "#server"
+        "#request",
+        "#safety",
+        "#your",
+        "#data"
       ],
-      "slug": "2026-03-31-the-claude-code-source-leak-fake-tools-frustration-regexes-undercover-mode",
-      "sourceUrl": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
-      "generatedAt": "2026-03-31T21:14:00.050Z",
+      "slug": "2026-04-15-i-wrote-to-flocks-privacy-contact-to-opt-out-of-their-domestic-spying-program",
+      "sourceUrl": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+      "generatedAt": "2026-04-15T00:07:32.617Z",
       "relatedArticles": [
         {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
-        },
-        {
-          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-          "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
-          "category": "Government Secrets"
+          "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+          "slug": "2026-04-15-google-broke-its-promise-to-me-now-ice-has-my-data",
+          "category": "Surveillance State"
         }
       ]
     },
     {
-      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
-      "description": "https:&#x2F;&#x2F;xcancel.com&#x2F;Fried_rice&#x2F;status&#x2F;2038894956459290963 Related ongoing thread: The Claude Code Source Leak: fake tools, frustration regexes, undercover mode - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47586778",
-      "pubDate": "2026-03-31T09:00:40.000Z",
-      "source": "Hacker News",
-      "hnScore": 1759,
-      "hnComments": 866,
+      "title": "Xi Says \"Global Order Crumbling Into Disarray\" As Trump Turns Up Pressure Campaign On China",
+      "url": "https://www.zerohedge.com/geopolitical/xi-says-global-order-crumbling-disarray-trump-turns-pressure-campaign-china",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Xi Says \"Global Order Crumbling Into Disarray\" As Trump Turns Up Pressure Campaign On China</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>President Trump's four-and-a-half-month crusade across the Western Hemisphere, and now into the Middle East, increasingly looks like a massive blitz to a",
+      "pubDate": "Tue, 14 Apr 2026 12:45:00 +0000",
+      "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 8,
       "sources": [
-        "Hacker News"
+        "ZeroHedge",
+        "r/worldnews"
       ],
-      "content": "https:&#x2F;&#x2F;xcancel.com&#x2F;Fried_rice&#x2F;status&#x2F;2038894956459290963 Related ongoing thread: The Claude Code Source Leak: fake tools, frustration regexes, undercover mode - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47586778",
+      "content": "President Trump&#x27;s four-and-a-half-month crusade across the Western Hemisphere, and now into the Middle East, increasingly looks like a massive blitz to acquire - or control - energy assets and maritime chokepoints as part of a broader economic pressure campaign against China, which depends heavily on the Gulf and Venezuelan crude. \" Chokepoint after chokepoint : the administration is methodically building a portfolio of assets that they are stacking against China: the Panama Canal, which is the only exit route for oil and gas from the Gulf of Mexico to China; Venezuela and her oil that used to go to China; Kharg Island and Iran&#x27;s oil which used to go to China, and SoH through which Iran&#x27;s and all Arab countries&#x27; oil used to go everywhere but mostly to China,\" Zoltan Pozsar of advisory firm Ex Uno Plures wrote in a March note. Pozsar&#x27;s view is important because, when placed alongside Chinese President Xi Jinping&#x27;s comments earlier today that the world is slipping into \"disarray,\" the larger picture comes into sharp focus. \" The international order is crumbling into disarray ,\" Xi told Spanish Prime Minister Pedro Sánchez in Beijing. He used a Chinese expression indicating not only chaos but also moral decay. What Xi calls disorder increasingly looks like the unwinding of the global order that allowed China to roam freely across markets, resources, and trade corridors for years. In the Trump era, that ability appears to have been systematically dismantled - to some degree - in just four months. Xi&#x27;s comments are his first public statements on the US-Iran conflict, as new economic data overnight show the conflict took a sharp toll on Chinese exports in March. China has criticized Trump&#x27;s military action against Iran and called the US naval blockade of the Strait of Hormuz \"dangerous and irresponsible,\" while warning it could respond if Washington links the conflict to a new round of tariffs on Chinese exports. For more context, about half of China&#x27;s crude imports came from the Gulf/Middle East before the war disruption. Reuters reported the region accounted for 52% of China&#x27;s oil imports. That share recently fell to 31% as Hormuz-related disruptions forced China to replace crude supplies with imports from Brazil and Russia. Pozsar noted: \" Again, the game is not to control Venezuela and Iran to choke China …\" And you might ask why Trump is squeezing China. Well, as Pozsar pointed out, \" The aim is not to deny energy to China. The aim is to level the playing field between the two countries. To be blunt, in ways I couldn&#x27;t be at Credit Suisse: if you fuck me on rare earths, I fuck you on energy .\" President Trump has previously said his meeting with Xi in Beijing was pushed to May because of the conflict. The question now is whether Washington and Beijing can still strike a deal. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
-        "code",
-        "claude",
-        "source",
-        "been",
-        "leaked",
-        "file",
-        "their"
+        "china",
+        "field",
+        "trump",
+        "iran",
+        "order",
+        "disarray",
+        "president"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#code",
-        "#claude",
-        "#source",
-        "#been",
-        "#leaked",
-        "#file",
-        "#their"
+        "#china",
+        "#field",
+        "#trump",
+        "#iran",
+        "#order",
+        "#disarray",
+        "#president"
       ],
-      "slug": "2026-03-31-claude-codes-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry",
-      "sourceUrl": "https://twitter.com/Fried_rice/status/2038894956459290963",
-      "generatedAt": "2026-03-31T21:14:01.651Z",
+      "slug": "2026-04-15-xi-says-global-order-crumbling-into-disarray-as-trump-turns-up-pressure-campaign",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/xi-says-global-order-crumbling-disarray-trump-turns-pressure-campaign-china",
+      "generatedAt": "2026-04-15T00:07:34.271Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+          "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-          "slug": "2026-03-31-the-claude-code-source-leak-fake-tools-frustration-regexes-undercover-mode",
+          "title": "Should You Keep Your Target-Date Funds In Retirement?",
+          "slug": "2026-04-15-should-you-keep-your-target-date-funds-in-retirement",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "The Bullet Used in Charlie Kirk Murder Doesn't Match The Alleged Weapon",
-      "url": "https://www.zerohedge.com/political/bullet-used-charlie-kirk-murder-doesnt-match-alleged-weapon",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">The Bullet Used in Charlie Kirk Murder Doesn't Match The Alleged Weapon</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>There’s a new wrinkle in the case against Tyler Robinson, the 22-year-old charged with assassinating conservative activist Charlie Kirk. Defense attorneys <a href=\" last wee",
-      "pubDate": "Tue, 31 Mar 2026 20:50:00 +0000",
-      "source": "ZeroHedge",
-      "category": "True Crime",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "There’s a new wrinkle in the case against Tyler Robinson, the 22-year-old charged with assassinating conservative activist Charlie Kirk. Defense attorneys revealed last week that federal ballistic analysis cannot link the bullet that killed Kirk to the rifle prosecutors say Robinson used. Robinson faces charges of aggravated murder, along with multiple felony counts, for the September 10, 2025, killing of Kirk at Utah Valley University in Orem, Utah. Prosecutors are seeking the death penalty. The case seemed, from the outside, fairly straightforward: Robinson reportedly confessed to his father, who told a youth pastor with ties to the U.S. Marshals Service, and Robinson himself surrendered to the Washington County Sheriff&#x27;s Office the following night. Prosecutors say DNA consistent with Robinson&#x27;s was recovered from the trigger, the fired cartridge casing, and two unfired cartridges on the rifle found near the scene. However, in a motion filed Friday, Robinson&#x27;s attorneys disclosed that they had received an ATF summary report with an unexpected finding. \"Regarding the firearm evidence, the defense has been provided with an ATF summary report which indicates that the ATF was unable to identify the bullet recovered at autopsy to the rifle allegedly tied to Mr. Robinson ,\" the motion reads. The defense added, “Although the State has not indicated an intent to produce this report at the preliminary hearing, the defense may very well decide to offer the testimony of the ATF firearm analyst as exculpatory evidence.” Authorities recovered an old German bolt-action Mauser Model 98 .30-06 caliber rifle used in both World Wars from a forested area near the shooting site . The FBI is conducting additional ballistic tests, but the results are still pending. Until they arrive, the defense is sitting on an ATF report that they believe actively undermines the state&#x27;s physical evidence narrative. Here&#x27;s, by the way, what a .30-06 does: DNA questions are also piling up alongside the ballistic ones. Defense attorneys point out that forensic reports show multiple people&#x27;s DNA on some items, which they argue demands more sophisticated analysis than a standard single-contributor examination. “ As these cases indicate, determining the number of contributors to a DNA mixture, and determining whether the FBI and the ATF reliably applied validated and correct scientific procedures … is a complicated process which requires the assistance of various types of experts, including forensic biologists, geneticists, system engineers, and statisticians, all of whom must review and evaluate\" several categories. The defense has received roughly 20,000 files - 61,500 pages, 31 hours of audio, and more than 700 hours of video spread across 5,000-plus clips. Defense attorneys say it will take at least 60 days to make a first pass through the material, and are now asking the court to push the May 18 preliminary hearing back by at least six months. The preliminary hearing itself is not a trial. It&#x27;s the moment prosecutors must demonstrate sufficient cause to proceed. That makes the ATF report strategically critical right now. If the defense can successfully use it to cast doubt on the state&#x27;s physical evidence package at this early stage, the downstream implications for a capital case are significant. However, it’s debatable how crucial it really is. Prosecutors still have DNA evidence, an alleged text message in which Robinson reportedly told his romantic partner he targeted Kirk because he \"had enough of his hatred,\" and witness testimony from Robinson&#x27;s parents and roommate. The confession to his father remains a cornerstone of the state&#x27;s case. The defense is also pushing for a televised trial, insisting that having the court proceedings “as public as possible helps to quell and contradict the tide of misinformation,\" and will limit conspiracy theories. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "true-crime news",
-        "robinson",
-        "defense",
-        "field",
-        "kirk",
-        "case",
-        "attorneys",
-        "prosecutors"
-      ],
-      "hashtags": [
-        "#true-crimenews",
-        "#robinson",
-        "#defense",
-        "#field",
-        "#kirk",
-        "#case",
-        "#attorneys",
-        "#prosecutors"
-      ],
-      "slug": "2026-03-31-the-bullet-used-in-charlie-kirk-murder-doesnt-match-the-alleged-weapon",
-      "sourceUrl": "https://www.zerohedge.com/political/bullet-used-charlie-kirk-murder-doesnt-match-alleged-weapon",
-      "generatedAt": "2026-03-31T21:14:02.968Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "One Man Thinks He Knows \"Why Everything Sucks\"",
-      "url": "https://www.zerohedge.com/personal-finance/one-man-thinks-he-knows-why-everything-sucks",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">One Man Thinks He Knows \"Why Everything Sucks\"</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Matt Van Swol via X,</em></a></p> <p>I think I know why everything sucks...</p> <p><strong>...and it's because everything is fake </strong></p> <p>We are getting fake college degrees th",
-      "pubDate": "Tue, 31 Mar 2026 20:25:00 +0000",
+      "title": "Should You Keep Your Target-Date Funds In Retirement?",
+      "url": "https://www.zerohedge.com/personal-finance/should-you-keep-your-target-date-funds-retirement",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Should You Keep Your Target-Date Funds In Retirement?</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Javier Simon via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>Target-date funds (TDFs) can be effective retirement savings vehicles for many investors.</strong></",
+      "pubDate": "Tue, 14 Apr 2026 23:15:00 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "...and it&#x27;s because everything is fake We are getting fake college degrees that cost 4 years and six figures that teach you fake education and get you fake jobs. We are eating fake food, with fake ingredients, funded by fake research. We are scrolling through fake lives, with fake relationships, who take fake, curated vacations to promote brands that make fake products. We are voting for fake candidates, who run on fake promises, inside a fake system that was never designed to fix anything. We are raising kids in fake schools that teach fake history, fake science, which quietly produce fake adults who can&#x27;t think for themselves. We are watching fake news, about fake crises, produced by fake journalists, for fake outrage. We are borrowing fake money that was printed from nothing, to fund a fake economy that would collapse in an afternoon if people stopped pretending it was real. We are buying fake organic food that&#x27;s just a paid label, and drinking fake juice with two percent juice in it, and putting fake cheese on cheeseburgers that&#x27;s just \"cheese product\" on fake burger meat. We are donating to fake nonprofits where the money never makes it to the people and then funding fake foreign aid that buys real weapons to prop up fake governments. We are going to fake therapy that teaches fake coping skills instead of telling you hard truths. We are buying fake furniture made of fake wood that&#x27;s actually compressed sawdust and glue that looks like wood, ships in fourteen boxes with instructions written in a fake language that isn&#x27;t quite any language, requires tools it doesn&#x27;t include, takes 4 hours to build, wobbles on day 1, and is totally destroyed in 6 months. We are downloading fake \"free\" apps that charge a subscription after three days for AI features that don&#x27;t work, hidden behind a paywall we didn&#x27;t see, protected by a privacy policy we didn&#x27;t read, buried inside Terms of Service written by lawyers specifically so we wouldn&#x27;t read them, that we agreed to by tapping a button the size of a thumbnail, that gave a company we&#x27;ve never heard of the right to sell our data to companies we&#x27;ll never hear of, to build a profile on us we&#x27;ll never see, to influence decisions we&#x27;ll never know were made. There was a time with a simple handshake between men was a contract. When bread went stale because... well, that&#x27;s what real bread does! When kids played outside all day until it was dark, and nobody tracked them. When a family could live off a single income. When music was made by people who LIVED something real and you could feel it. When schools was HARD... and that was the point! When doctors knew your name and your family, they even came to your house.",
+      "content": "Authored by Javier Simon via The Epoch Times (emphasis ours), Target-date funds (TDFs) can be effective retirement savings vehicles for many investors. Target-date funds adjust risk over time, but their limited flexibility can make them less suitable for complex retirement plans. SsCreativeStudio/Shutterstock TDFs are professionally managed portfolios often built with various mutual funds. They are designed to automatically adjust their asset allocation of stocks, bonds, cash and sometimes alternative investments to become more conservative as you reach the target date. Over time, these funds reduce exposure to generally riskier assets like stocks and shift toward typically safer investments like bonds in order to mitigate risk and reduce volatility. It could allow the fund to focus more on stability and capital preservation as retirement nears. To many retirees, this makes sense. By the time you reach retirement, you may prioritize income potential and reduced risk. By design, TDFs aim to provide this to investors. But also within its inherent design, there may lie some flaws that could raise serious challenges in retirement. So let’s take a closer look. By the time you reach the target date, your TDF may still be heavily exposed to stocks. At a glance, a 2030 TDF from a major provider is composed of about 62 percent stocks. This asset allocation may be too aggressive for some retirees. Their portfolio would likely take a major hit if a severe market downturn occurs during the early retirement. This is known as sequence or returns risk. It could force retirees to sell investments at a loss. And that would not only lock in those losses, but it prevents those investments from growing when the market recovers. But the opposite can happen too. A retiree with multiple sources of income, who prioritizes growth potential, could end up with an extremely conservative TDF upon retirement. This is why it’s important to carefully analyze a TDF’s glide path. This is the planned change in asset allocation over time. Moreover, it’s also important to understand whether your TDF is a “to” or “through” fund. “To” funds become most conservative at the target date. “Through funds” may continue to get more conservative beyond the target date. So it’s key to make sure that the TDF’s glide path still aligns with your risk tolerance, investment goals and financial situation as you get closer to retirement. A TDF automatically rebalances its asset allocation over time. That’s very convenient for the set-it-and-forget investor and younger ones who may find it difficult to start saving for retirement in the first place. After all, TDFs are often the qualified default investment alternative (QDIA) in many corporate 401(k) plans. This means they’d be automatically enrolled in a TDF that aligns with their potential retirement year if they don’t choose their own investment options. Those just entering the workforce may find it suitable to stick with a TDF rather than taking the time to carefully choose and analyze different investment options to build a personalized portfolio. And that may work in the beginning. But over time, your financial situation could get more complex. You may need to tailor your asset allocation to align with factors like change in risk tolerance, other sources of income, and tax efficiency. With a TDF, this is virtually impossible since the fund managers run the entire portfolio on behalf of potentially millions of investors with varying needs. A TDF generally limits you to proportional withdrawals from the different assets it holds. So keeping your savings in a TDF may not fit well into dynamic strategies like the bucket approach. This involves strategically breaking down your retirement assets into three or more time-based buckets. The first one would hold generally safer and liquid assets like cash and cash equivalents. While the other buckets are filled with growth-oriented investments ranging from bonds to stocks and exchange-traded funds (ETFs). The idea here is to begin drawing from the first bucket during the first few years of retirement in order to give the other buckets more time to grow.",
       "keywords": [
         "government-secrets news",
-        "fake",
-        "field",
-        "never",
-        "everything",
-        "name",
-        "real",
-        "sucks"
+        "retirement",
+        "funds",
+        "time",
+        "your",
+        "target",
+        "date",
+        "field"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#fake",
-        "#field",
-        "#never",
-        "#everything",
-        "#name",
-        "#real",
-        "#sucks"
+        "#retirement",
+        "#funds",
+        "#time",
+        "#your",
+        "#target",
+        "#date",
+        "#field"
       ],
-      "slug": "2026-03-31-one-man-thinks-he-knows-why-everything-sucks",
-      "sourceUrl": "https://www.zerohedge.com/personal-finance/one-man-thinks-he-knows-why-everything-sucks",
-      "generatedAt": "2026-03-31T21:14:04.959Z",
+      "slug": "2026-04-15-should-you-keep-your-target-date-funds-in-retirement",
+      "sourceUrl": "https://www.zerohedge.com/personal-finance/should-you-keep-your-target-date-funds-retirement",
+      "generatedAt": "2026-04-15T00:07:36.076Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-03-31-foia-10000000-grant-to-aids-healthcare-foundation",
+          "slug": "2026-04-15-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-          "slug": "2026-03-31-the-claude-code-source-leak-fake-tools-frustration-regexes-undercover-mode",
+          "title": "Xi Says \"Global Order Crumbling Into Disarray\" As Trump Turns Up Pressure Campaign On China",
+          "slug": "2026-04-15-xi-says-global-order-crumbling-into-disarray-as-trump-turns-up-pressure-campaign",
           "category": "Government Secrets"
         }
       ]
