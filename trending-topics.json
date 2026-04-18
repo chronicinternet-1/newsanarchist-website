@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-18T14:00:41.772Z",
+  "scrapedAt": "2026-04-18T22:00:44.060Z",
   "topicsCount": 12,
   "topics": [
     {
@@ -37,16 +37,65 @@
       ],
       "slug": "2026-04-18-i-didnt-know-how-bad-things-are-getting-globally-before-finding-rprivacy",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sorj8r/i_didnt_know_how_bad_things_are_getting_globally/",
-      "generatedAt": "2026-04-18T14:00:23.561Z",
+      "generatedAt": "2026-04-18T22:00:25.113Z",
       "relatedArticles": [
+        {
+          "title": "Data leak changed how I see privacy",
+          "slug": "2026-04-18-data-leak-changed-how-i-see-privacy",
+          "category": "Surveillance State"
+        },
         {
           "title": "Handful of House Dems help extend surveillance powers until April 30 after late-night vote where some GOP revolted against it",
           "slug": "2026-04-18-handful-of-house-dems-help-extend-surveillance-powers-until-april-30-after-late",
           "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Data leak changed how I see privacy",
+      "url": "https://www.reddit.com/r/privacy/comments/1sozbkq/data_leak_changed_how_i_see_privacy/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>My name is Gijs and I am a data &amp; AI engineer by profession.</p> <p>Last year, my wife's most private data was leaked to the dark web from a health service provider working with the Dutch public health authorities. The dataset includes her social security number and full personal records, among other things. This is an irreversible leak: a social security numb",
+      "pubDate": "2026-04-18T14:36:57.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 12,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>My name is Gijs and I am a data &amp; AI engineer by profession.</p> <p>Last year, my wife's most private data was leaked to the dark web from a health service provider working with the Dutch public health authorities. The dataset includes her social security number and full personal records, among other things. This is an irreversible leak: a social security numb",
+      "keywords": [
+        "surveillance-state news",
+        "data",
+        "leak",
+        "health",
+        "social",
+        "security",
+        "changed",
+        "privacy"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#data",
+        "#leak",
+        "#health",
+        "#social",
+        "#security",
+        "#changed",
+        "#privacy"
+      ],
+      "slug": "2026-04-18-data-leak-changed-how-i-see-privacy",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sozbkq/data_leak_changed_how_i_see_privacy/",
+      "generatedAt": "2026-04-18T22:00:26.914Z",
+      "relatedArticles": [
+        {
+          "title": "I didn't know how bad things are getting globally before finding /r/privacy",
+          "slug": "2026-04-18-i-didnt-know-how-bad-things-are-getting-globally-before-finding-rprivacy",
+          "category": "Surveillance State"
         },
         {
-          "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
-          "slug": "2026-04-18-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
+          "title": "Handful of House Dems help extend surveillance powers until April 30 after late-night vote where some GOP revolted against it",
+          "slug": "2026-04-18-handful-of-house-dems-help-extend-surveillance-powers-until-april-30-after-late",
           "category": "Surveillance State"
         }
       ]
@@ -55,7 +104,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-04-18T14:00:16.554Z",
+      "pubDate": "2026-04-18T22:00:19.168Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -85,14 +134,8 @@
       ],
       "slug": "2026-04-18-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-04-18T14:00:25.834Z",
-      "relatedArticles": [
-        {
-          "title": "Go to your smart tv deepest settings, find all \"legitimate interest\" toggles buried in the deep details",
-          "slug": "2026-04-18-go-to-your-smart-tv-deepest-settings-find-all-legitimate-interest-toggles-buried",
-          "category": "Government Secrets"
-        }
-      ]
+      "generatedAt": "2026-04-18T22:00:29.161Z",
+      "relatedArticles": []
     },
     {
       "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
@@ -129,8 +172,13 @@
       ],
       "slug": "2026-04-18-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
-      "generatedAt": "2026-04-18T14:00:27.624Z",
+      "generatedAt": "2026-04-18T22:00:30.302Z",
       "relatedArticles": [
+        {
+          "title": "Reading/Watching recommendations?",
+          "slug": "2026-04-18-readingwatching-recommendations",
+          "category": "Corporate Watchdog"
+        },
         {
           "title": "Convenience is slowly killing privacy, and most people don’t seem to care",
           "slug": "2026-04-18-convenience-is-slowly-killing-privacy-and-most-people-dont-seem-to-care",
@@ -173,7 +221,7 @@
       ],
       "slug": "2026-04-18-am-i-missing-something",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1soxsdt/am_i_missing_something/",
-      "generatedAt": "2026-04-18T14:00:28.653Z",
+      "generatedAt": "2026-04-18T22:00:31.319Z",
       "relatedArticles": [
         {
           "title": "Google Chrome lacks protection against one of the most basic and common ways to track users online (Browser fingerprinting is everywhere)",
@@ -181,9 +229,58 @@
           "category": "Tech & Privacy"
         },
         {
-          "title": "The Parents decide act is Unconstitutional.",
-          "slug": "2026-04-18-the-parents-decide-act-is-unconstitutional",
+          "title": "How Push Notifications Can Betray Your Privacy (and What to Do About It)",
+          "slug": "2026-04-18-how-push-notifications-can-betray-your-privacy-and-what-to-do-about-it",
           "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Reading/Watching recommendations?",
+      "url": "https://www.reddit.com/r/privacy/comments/1sp4ogf/readingwatching_recommendations/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>All the recent encroachments on our privacy have had me wanting to make my personal computer a lot more private and secure. I feel like I’m in over my head though cause I dont know a lot about computers and web design. Do yall have any recommendations for books to read and people to be watching to get up to speed with all that you guys know? I am particularly inte",
+      "pubDate": "2026-04-18T18:01:36.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>All the recent encroachments on our privacy have had me wanting to make my personal computer a lot more private and secure. I feel like I’m in over my head though cause I dont know a lot about computers and web design. Do yall have any recommendations for books to read and people to be watching to get up to speed with all that you guys know? I am particularly inte",
+      "keywords": [
+        "corporate-watchdog news",
+        "watching",
+        "recommendations",
+        "know",
+        "reading",
+        "recent",
+        "encroachments",
+        "privacy"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#watching",
+        "#recommendations",
+        "#know",
+        "#reading",
+        "#recent",
+        "#encroachments",
+        "#privacy"
+      ],
+      "slug": "2026-04-18-readingwatching-recommendations",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sp4ogf/readingwatching_recommendations/",
+      "generatedAt": "2026-04-18T22:00:33.274Z",
+      "relatedArticles": [
+        {
+          "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
+          "slug": "2026-04-18-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Convenience is slowly killing privacy, and most people don’t seem to care",
+          "slug": "2026-04-18-convenience-is-slowly-killing-privacy-and-most-people-dont-seem-to-care",
+          "category": "Corporate Watchdog"
         }
       ]
     },
@@ -222,7 +319,7 @@
       ],
       "slug": "2026-04-18-handful-of-house-dems-help-extend-surveillance-powers-until-april-30-after-late",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1snzvjs/handful_of_house_dems_help_extend_surveillance/",
-      "generatedAt": "2026-04-18T14:00:30.452Z",
+      "generatedAt": "2026-04-18T22:00:35.147Z",
       "relatedArticles": [
         {
           "title": "I didn't know how bad things are getting globally before finding /r/privacy",
@@ -230,8 +327,8 @@
           "category": "Surveillance State"
         },
         {
-          "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
-          "slug": "2026-04-18-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
+          "title": "Data leak changed how I see privacy",
+          "slug": "2026-04-18-data-leak-changed-how-i-see-privacy",
           "category": "Surveillance State"
         }
       ]
@@ -271,7 +368,7 @@
       ],
       "slug": "2026-04-18-google-chrome-lacks-protection-against-one-of-the-most-basic-and-common-ways-to",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1so2gvs/google_chrome_lacks_protection_against_one_of_the/",
-      "generatedAt": "2026-04-18T14:00:31.954Z",
+      "generatedAt": "2026-04-18T22:00:36.375Z",
       "relatedArticles": [
         {
           "title": "Am I missing something?",
@@ -279,8 +376,8 @@
           "category": "Tech & Privacy"
         },
         {
-          "title": "The Parents decide act is Unconstitutional.",
-          "slug": "2026-04-18-the-parents-decide-act-is-unconstitutional",
+          "title": "How Push Notifications Can Betray Your Privacy (and What to Do About It)",
+          "slug": "2026-04-18-how-push-notifications-can-betray-your-privacy-and-what-to-do-about-it",
           "category": "Tech & Privacy"
         }
       ]
@@ -320,154 +417,17 @@
       ],
       "slug": "2026-04-18-convenience-is-slowly-killing-privacy-and-most-people-dont-seem-to-care",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sns7cl/convenience_is_slowly_killing_privacy_and_most/",
-      "generatedAt": "2026-04-18T14:00:33.127Z",
+      "generatedAt": "2026-04-18T22:00:37.665Z",
       "relatedArticles": [
         {
           "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
           "slug": "2026-04-18-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
           "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
-      "title": "Go to your smart tv deepest settings, find all \"legitimate interest\" toggles buried in the deep details",
-      "url": "https://www.reddit.com/r/privacy/comments/1so3tn4/go_to_your_smart_tv_deepest_settings_find_all/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>As per title, go to your smart tv deepest settings, find all \"legitimate interest\" toggles buried in the deep details and untick hundreds of them manually one by one. Yes, it will take you 45 minutes but it has to be done. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/J-96788-EU </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-04-17T15:12:09.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Government Secrets",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>As per title, go to your smart tv deepest settings, find all \"legitimate interest\" toggles buried in the deep details and untick hundreds of them manually one by one. Yes, it will take you 45 minutes but it has to be done. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/J-96788-EU </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "keywords": [
-        "government-secrets news",
-        "your",
-        "smart",
-        "deepest",
-        "settings",
-        "find",
-        "legitimate",
-        "interest"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#your",
-        "#smart",
-        "#deepest",
-        "#settings",
-        "#find",
-        "#legitimate",
-        "#interest"
-      ],
-      "slug": "2026-04-18-go-to-your-smart-tv-deepest-settings-find-all-legitimate-interest-toggles-buried",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1so3tn4/go_to_your_smart_tv_deepest_settings_find_all/",
-      "generatedAt": "2026-04-18T14:00:34.199Z",
-      "relatedArticles": [
-        {
-          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
-          "slug": "2026-04-18-foia-10000000-grant-to-aids-healthcare-foundation",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "The Parents decide act is Unconstitutional.",
-      "url": "https://www.reddit.com/r/privacy/comments/1snghv5/the_parents_decide_act_is_unconstitutional/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>It requires sensitive information to be put in, needing that to just use a device is an invasion of privacy and a clear fourth amendment violation. Take a look, compromising people's privacy to \"protect kids\" is not a legal justification to nuke the fourth amendment. If you need to violate the fourth amendment to protect kids, maybe you're the problem.</p> <p><a h",
-      "pubDate": "2026-04-16T21:07:40.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>It requires sensitive information to be put in, needing that to just use a device is an invasion of privacy and a clear fourth amendment violation. Take a look, compromising people's privacy to \"protect kids\" is not a legal justification to nuke the fourth amendment. If you need to violate the fourth amendment to protect kids, maybe you're the problem.</p> <p><a h",
-      "keywords": [
-        "tech-&-privacy news",
-        "fourth",
-        "amendment",
-        "privacy",
-        "protect",
-        "kids",
-        "parents",
-        "decide"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#fourth",
-        "#amendment",
-        "#privacy",
-        "#protect",
-        "#kids",
-        "#parents",
-        "#decide"
-      ],
-      "slug": "2026-04-18-the-parents-decide-act-is-unconstitutional",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1snghv5/the_parents_decide_act_is_unconstitutional/",
-      "generatedAt": "2026-04-18T14:00:35.687Z",
-      "relatedArticles": [
-        {
-          "title": "Am I missing something?",
-          "slug": "2026-04-18-am-i-missing-something",
-          "category": "Tech & Privacy"
         },
         {
-          "title": "Google Chrome lacks protection against one of the most basic and common ways to track users online (Browser fingerprinting is everywhere)",
-          "slug": "2026-04-18-google-chrome-lacks-protection-against-one-of-the-most-basic-and-common-ways-to",
-          "category": "Tech & Privacy"
-        }
-      ]
-    },
-    {
-      "title": "Need advice: system overhaul + data archiving",
-      "url": "https://www.reddit.com/r/privacy/comments/1sogcgm/need_advice_system_overhaul_data_archiving/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>I've fallen off a bit with my privacy practices for various reasons. Right now I'm in the process of making the switch to linux on my main system. I plan on using pop_os as my main driver and then having a temporary dual boot of windows so I can run VR until I figure out how to get my quest 2 to talk to linux systems. After that I want to have backup distro thats ",
-      "pubDate": "2026-04-17T22:54:10.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I've fallen off a bit with my privacy practices for various reasons. Right now I'm in the process of making the switch to linux on my main system. I plan on using pop_os as my main driver and then having a temporary dual boot of windows so I can run VR until I figure out how to get my quest 2 to talk to linux systems. After that I want to have backup distro thats ",
-      "keywords": [
-        "tech-&-privacy news",
-        "system",
-        "linux",
-        "main",
-        "need",
-        "advice",
-        "overhaul",
-        "data"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#system",
-        "#linux",
-        "#main",
-        "#need",
-        "#advice",
-        "#overhaul",
-        "#data"
-      ],
-      "slug": "2026-04-18-need-advice-system-overhaul-data-archiving",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1sogcgm/need_advice_system_overhaul_data_archiving/",
-      "generatedAt": "2026-04-18T14:00:37.622Z",
-      "relatedArticles": [
-        {
-          "title": "Am I missing something?",
-          "slug": "2026-04-18-am-i-missing-something",
-          "category": "Tech & Privacy"
-        },
-        {
-          "title": "Google Chrome lacks protection against one of the most basic and common ways to track users online (Browser fingerprinting is everywhere)",
-          "slug": "2026-04-18-google-chrome-lacks-protection-against-one-of-the-most-basic-and-common-ways-to",
-          "category": "Tech & Privacy"
+          "title": "Reading/Watching recommendations?",
+          "slug": "2026-04-18-readingwatching-recommendations",
+          "category": "Corporate Watchdog"
         }
       ]
     },
@@ -505,7 +465,7 @@
       ],
       "slug": "2026-04-18-how-push-notifications-can-betray-your-privacy-and-what-to-do-about-it",
       "sourceUrl": "https://www.eff.org/deeplinks/2026/04/how-push-notifications-can-betray-your-privacy-and-what-do-about-it",
-      "generatedAt": "2026-04-18T14:00:38.946Z",
+      "generatedAt": "2026-04-18T22:00:39.454Z",
       "relatedArticles": [
         {
           "title": "Am I missing something?",
@@ -553,7 +513,7 @@
       ],
       "slug": "2026-04-18-we-need-you-our-privacy-cannot-afford-a-clean-extension-of-section-702",
       "sourceUrl": "https://www.eff.org/deeplinks/2026/04/we-need-you-our-privacy-cannot-afford-clean-extension-section-702",
-      "generatedAt": "2026-04-18T14:00:40.179Z",
+      "generatedAt": "2026-04-18T22:00:40.648Z",
       "relatedArticles": [
         {
           "title": "I didn't know how bad things are getting globally before finding /r/privacy",
@@ -561,8 +521,57 @@
           "category": "Surveillance State"
         },
         {
-          "title": "Handful of House Dems help extend surveillance powers until April 30 after late-night vote where some GOP revolted against it",
-          "slug": "2026-04-18-handful-of-house-dems-help-extend-surveillance-powers-until-april-30-after-late",
+          "title": "Data leak changed how I see privacy",
+          "slug": "2026-04-18-data-leak-changed-how-i-see-privacy",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "US Prepares To Board Iran-Linked Ships Globally Following Iranian Gunboat Attack On Tanker In Hormuz",
+      "url": "https://www.zerohedge.com/geopolitical/bit-chaos-hormuz-reportedly-shuts-agains-ships-make-u-turn",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Prepares To Board Iran-Linked Ships Globally Following Iranian Gunboat Attack On Tanker In Hormuz</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><h2>Summary: </h2> <ul><li><em>US officials: <strong>War may resume</strong> if no peace talks breakthrough: Axios</em></li> <li><em>Two Iranian gu",
+      "pubDate": "Sat, 18 Apr 2026 16:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 8,
+      "sources": [
+        "ZeroHedge",
+        "r/worldnews"
+      ],
+      "content": "Summary: US officials: War may resume if no peace talks breakthrough: Axios Two Iranian gunboats Open Fire on a tanker near Oman; 2nd tanker hit by &#x27;unknown projectile&#x27;. India summons Iranian ambassador to condemn incident Pentagon prepared to expand anti-vessel action, signals prepared to board Iran-linked ships globally Friday : Hormuz Open; Saturday : Hormuz Closed Trump: Iran wanted to close up Strait again, can&#x27;t blackmail us Strait of Hormuz traffic returns to normal by end of April? Yes 28% · No 72% View full market & trade on Polymarket * * * Not good, amid reports Pakistan peace talks could also resume, Monday perhaps: US OFFICIAL TELLS AXIOS WAR MAY RESUME IF NO BREAKTHROUGH 🚨🇺🇸🇮🇷President Trump convened a White House Situation Room meeting on Saturday morning to discuss the renewed crisis around the Strait of Hormuz and negotiations with Iran, according to two U.S. officials. My story on @axios New Delhi has summoned the Iranian ambassador to condemn the IRGC Navy&#x27;s attack on one of its tankers earlier in the day: According to the latest headlines there was a second tanker incident : a Container ship reportedly hit by &#x27; unknown projectile&#x27; in second incident while other traffic stalls . Meanwhile on Saturday the Pentagon is signaling yet another major escalation in the latest effort to reassert US leverage over the Hormuz crisis. It is preparing to expand the fight not just to the Hormuz/Persian Gulf regions, but broadly to the high seas. \"The U.S. military is preparing in coming days to board Iran-linked oil tankers and seize commercial ships in international waters, according to U.S. officials, expanding its naval crackdown beyond the Middle East,\" WSJ reports. This means the American military will pursue vessels around the world that are helping Iran , as it steps up &#x27;Economic Fury&#x27; as an extension of &#x27;Epic Furty&#x27;. WSJ comments further: The planning comes as the Iranian military continues to tighten its grip on the Strait of Hormuz, attacking several commercial vessels on Saturday as it declared the waterway was being “strictly controlled” by Iran . The developments sent shipping companies scrambling a day after Iran’s foreign minister said the strait was fully open to commercial traffic—an announcement that was welcomed by President Trump. Audio of the Indian oil tanker Sanmar Herald pleading with Iranian forces to stop shooting at it in the Strait of Hormuz this morning. pic.twitter.com/7Y5n7Jb7o0 The past days have seen both sides try and declare and assert control over the vital waterway and their own blockade based on rival &#x27;conditions&#x27; for ship passage. But all of this has meant a continued effective closure. US Central Command (CENTCOM) has cited that the US Navy has already turned back at least 23 ships after they were at Iranian ports. In the meantime Trump is still claiming Iran agreed to hand over its enriched uranium - or nuclear &#x27;dust&#x27; - but Tehran has made clear it will never do so , dismissing this as a made-up fantasy. The UK Maritime Trade Operations (UKMTO) reports that a tanker was \" approached by 2 IRGC gunboats, with no VHF challenge, and then fired upon .\" UKMTO did not provide any further details about the two Iranian vessels that fired on the tanker or the type of weapons used in the maritime incident, which was reported to have occurred 20 nautical miles northeast of Oman. Assume that President Trump is about to become absolutely furious on Truth Social. One can also assume that backchanneling and behind-the-scenes talks are not going well if an incident like this occurred ahead of the U.S.-Iran weekend negotiations. The Trump administration’s \" baffle &#x27;em with bullshit\" methodology has been on full display, as the reopening of the Hormuz chokepoint on Friday drove a broad risk-on in markets: US equities soared, crude collapsed, and Treasury yields declined, based on the assumption that disruption to global energy flows had eased. However, as of early Saturday morning, those moves may prove premature. The Wall Street Journal reports that the world’s most important maritime chokepoint is once again closed to commercial transit. About 20 ships waiting to enter the Persian Gulf through the maritime chokepoint have turned back toward Oman after Iran’s military declared the waterway closed again, amid a U.S. blockade of Iranian ports. And rejected: the two tankers taking the neutral route, Minerva Evropi and Nissos Keros, have turned around; the Sanmar Herald which appears to be taking the Iran-sanctioned Larak island route is proceeding. pic.twitter.com/gmkM37iA1U The OSINT community on X is reporting a Hormuz closure as well... A bit of chaos in Hormuz this morning as nearly all of the outbound tankers have abruptly turned around. Follows an announcement by Iranian military leadership that the Strait has \"reverted to its previous state of strict military control.\" pic.twitter.com/XSc6lvxwJo",
+      "keywords": [
+        "surveillance-state news",
+        "iran",
+        "hormuz",
+        "iranian",
+        "field",
+        "tanker",
+        "strait",
+        "ships"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#iran",
+        "#hormuz",
+        "#iranian",
+        "#field",
+        "#tanker",
+        "#strait",
+        "#ships"
+      ],
+      "slug": "2026-04-18-us-prepares-to-board-iran-linked-ships-globally-following-iranian-gunboat-attack",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/bit-chaos-hormuz-reportedly-shuts-agains-ships-make-u-turn",
+      "generatedAt": "2026-04-18T22:00:42.235Z",
+      "relatedArticles": [
+        {
+          "title": "I didn't know how bad things are getting globally before finding /r/privacy",
+          "slug": "2026-04-18-i-didnt-know-how-bad-things-are-getting-globally-before-finding-rprivacy",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Data leak changed how I see privacy",
+          "slug": "2026-04-18-data-leak-changed-how-i-see-privacy",
           "category": "Surveillance State"
         }
       ]
