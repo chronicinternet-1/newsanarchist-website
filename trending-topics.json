@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-22T06:00:57.428Z",
+  "scrapedAt": "2026-04-22T14:00:50.177Z",
   "topicsCount": 12,
   "topics": [
     {
@@ -37,7 +37,7 @@
       ],
       "slug": "2026-04-22-why-do-most-countries-that-implement-age-verification-rules-never-reflect-on-hac",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srmqqk/why_do_most_countries_that_implement_age/",
-      "generatedAt": "2026-04-22T06:00:37.045Z",
+      "generatedAt": "2026-04-22T14:00:30.792Z",
       "relatedArticles": [
         {
           "title": "San José Residents Sue City, Saying Flock Safety Cameras Allow ‘Mass Surveillance’",
@@ -81,7 +81,7 @@
       ],
       "slug": "2026-04-22-san-jos-residents-sue-city-saying-flock-safety-cameras-allow-mass-surveillance",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srxxt4/san_josé_residents_sue_city_saying_flock_safety/",
-      "generatedAt": "2026-04-22T06:00:38.585Z",
+      "generatedAt": "2026-04-22T14:00:32.163Z",
       "relatedArticles": [
         {
           "title": "Why do most countries that implement \"Age Verification\" rules never reflect on hacking in Indonesia?",
@@ -125,50 +125,52 @@
       ],
       "slug": "2026-04-22-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
-      "generatedAt": "2026-04-22T06:00:40.213Z",
+      "generatedAt": "2026-04-22T14:00:33.233Z",
       "relatedArticles": [
         {
-          "title": "Whistleblower Says CIA Hid 2020 Election Threats To Help Biden",
-          "slug": "2026-04-22-whistleblower-says-cia-hid-2020-election-threats-to-help-biden",
+          "title": "Some secret management belongs in your HTTP proxy",
+          "slug": "2026-04-22-some-secret-management-belongs-in-your-http-proxy",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "Whistleblower Says CIA Hid 2020 Election Threats To Help Biden",
-      "url": "https://www.zerohedge.com/political/whistleblower-says-cia-hid-2020-election-threats-help-biden",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Whistleblower Says CIA Hid 2020 Election Threats To Help Biden</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>For years, Democrats and the mainstream media treated 2020 as settled history: the system worked, the election was secure, and accusations of fraud were conspiracy theories.</p> <p>H",
-      "pubDate": "Tue, 21 Apr 2026 21:20:00 +0000",
-      "source": "ZeroHedge",
+      "title": "Some secret management belongs in your HTTP proxy",
+      "url": "https://blog.exe.dev/http-proxy-secrets",
+      "description": "",
+      "pubDate": "2026-04-19T17:19:32.000Z",
+      "source": "Hacker News",
+      "hnScore": 35,
+      "hnComments": 9,
       "category": "Corporate Watchdog",
-      "score": 10,
+      "score": 8,
       "sources": [
-        "ZeroHedge"
+        "Hacker News"
       ],
-      "content": "For years, Democrats and the mainstream media treated 2020 as settled history: the system worked, the election was secure, and accusations of fraud were conspiracy theories. However, a newly declassified intelligence memo, paired with fresh whistleblower allegations, points in a less convenient direction. Behind the scenes, U.S. intelligence warned well before the 2020 election that core election systems were more exposed than the public was told, especially the vast digital repositories that hold voter registration data. Making matters worse, according to former senior cyber official Christopher Porter, intelligence leaders then kept those warnings from public view because airing them could have benefited President Donald Trump and complicated the push to portray Joe Biden’s eventual victory as unquestionable. On January 15, 2020, the National Intelligence Council (NIC) produced an assessment warning that foreign adversaries could compromise U.S. election infrastructure in the coming presidential election, which has just been declassified. The memo specifically called out Russia, China, Iran, North Korea, and other non-state actors. Analysts did not claim they had evidence of a specific plot to alter votes nationwide, but they did say the threat was real, technically plausible, and serious enough that senior intelligence officials personally briefed President Trump at the White House in February 2020. What worried analysts most was not some Hollywood-style rewrite of every ballot cast in America . “We assess that centralized election-related data repositories, such as voter registration databases, pollbooks, and official election websites, are most vulnerable to exploitation, and adversaries could use access to these systems to disrupt election processes,” the NIC assessment warned. Intelligence analysts believed vote tabulators and reporting systems had weaknesses, especially machines without paper backups. Despite this, they judged it would be hard for foreign adversaries to change the certified national outcome through direct machine compromise alone. That was never the same as saying the systems were secure in any ordinary sense. It meant large-scale outcome manipulation looked difficult, while localized disruption and perception management looked much easier. Despite the warnings of threats, after the election, senior officials pushed the opposite narrative, assuring Americans that 2020 had been a model of resilience. In mid-November 2020, the Election Infrastructure Government Coordinating Council’s executive committee issued the now-famous statement declaring that “the November 3rd election was the most secure in American history.” Chris Krebs, then running the Cybersecurity and Infrastructure Security Agency (CISA), later testified that he approved the statement and regarded it as the consensus view of the election-security community. That tidy line proved politically useful. It also sat awkwardly beside an internal intelligence record showing that multiple foreign actors had the capacity to exploit the very systems officials were publicly celebrating. Porter, who prepared the January 2020 memo in his role overseeing cyber intelligence, says the contradiction was not an accident. “What is shocking is how uncontroversial some of these findings are to professionals—it is no secret that China and Iran compromise election equipment for a variety of intelligence purposes, nor was it controversial at the time that these systems had technical vulnerabilities,” he said. He goes further, alleging that bureaucratic and political considerations shaped what the public was allowed to know. “Every agency concurred on these findings, but because it was seen as potentially aiding the President’s reelection campaign, there was an active effort to damage him politically by refusing to share the declassified report with the public.” Another way to put it was that the truth would have undermined faith in Joe Biden’s eventual victory. That is the heart of the whistleblower claim. According to Porter, Trump personally ordered the information declassified because he believed election integrity demanded it. But Porter said that CIA leadership refused to release it. “The President of the United States personally ordered this information declassified and shared with the public because he thought election integrity was so important to our country. Despite this, CIA leaders at the time refused to release the declassified report,” he said. He also alleges the resistance did not end there. “Years later, when he was reelected, CIA went so far as to claim that the report had never been declassified. Even the record of its declassification had been removed from the system,” he said. Porter describes that as an extraordinary breach of normal intelligence practice, adding, “It is important for people to recognize that this is not normal behavior by the Intelligence Community—most officers would never do something like this.” Intelligence reports later concluded that China gained access to voter registration databases in multiple states before the election. A confidential FBI counterintelligence source also reported in summer 2020 that Beijing was attempting to interfere to aid Biden, including through a scheme involving fake U.S. driver’s licenses shipped into the country. Those reports did not become part of the public understanding in real time. Iranian hackers were not indicted until November 2021. Chinese penetration of voter data emerged publicly only after documents surfaced in March 2026. By then, the “most secure in history” line had already hardened into civic catechism. The intelligence community’s inspector general, Christopher Fox, has opened a full investigation into whether Porter’s warnings were buried and whether he faced retaliation for pressing agencies to follow Trump’s declassification order. That review arrives alongside earlier findings from the intelligence community’s analytic ombudsman, who concluded in January 2021 that some analysts downplayed China’s role because of their disdain for Trump and reluctance to bolster his China policy. None of this proves that foreign actors changed the 2020 outcome through hacked machines. But it tells us that senior officials knew election systems had meaningful vulnerabilities, but went out of their way to sell to the public a more politically convenient story. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Larger organizations commit to centralizing secrets management in a service. When done well, these services solve a lot of issues around secrets, at the cost of creating a lot of ops overhead (which is why they are limited to larger organizations) and engineering complexity. Smaller organizations have, until now, lived with the pain. But the pain has become far more significant with agents. Agents fuss when you directly hand them an API key. It usually works, and if you make it a rapidly revocable key that you disable after the session, you mitigate the risks. But some models (you know which ones) freak out on seeing the secret, and refuse to do anything now that the key is “exposed.” Models that are not so ridiculous about API keys will write the key to inter-session memory, pulling it out in another session and burning precious context window trying to use a revoked key. All of which assumes you go to the effort of constantly generating keys. Like so many problems getting attention right now, this looks like a problem created by agents. But the problem was always there. API keys are convenient but too powerful. Holding one does not just grant you the ability to make API calls, it grants you the power to give others the ability to make API calls (by sending them the key). No software I write in production that has an /etc/defaults file full of env vars containing API keys needs that power. We have always just been careful about how we write programs to not exfil keys. Never careful enough, because many security flaws in such an app now let the attacker walk off the keys and give them a window to do nastiness from wherever they like, until we realize and start manually rotating them. Attempts to automate key rotation to close this hole have mixed success. Our industry does use OAuth in some places, and sometimes OAuth is configured to rotate keys. But services still ship API keys, because they are easy for users. (OAuth, while simple in theory, is always painfully complex to use.) Some services give us the worst of all worlds, like GitHub encouraging personal access tokens with 90-day expiry windows. Just long enough for you to forget about them and your internal service to break mysteriously while you are on vacation. Inter-server OAuth as commonly practiced today also does not help with agents, as creation is usually designed to have some human intervention via a web browser cookie in a way deliberately designed to be hard to automate. I do not think I have ever used a service that gave me an OAUTH_CLIENT_SECRET via an API. So it’s fine (if complex and painful) for traditional services, but your agent is not doing that. So in practice, what can we do today to solve this? We can use an HTTP proxy that injects headers. Many APIs talk HTTP. They usually ship an HTTP header, either a basic auth header or their own. Here is, for example, Stripe’s: curl \\ -u &#34;sk_test_BQokikJOvBiI2HlWgH4olfQ2:&#34; \\ -d &#34;name=Jenny Rosen&#34; \\ --data-urlencode &#34;email=jennyrosen@example.com&#34; So instead of an /etc/defaults file with your sk_test key, if you have an HTTP proxy managing secrets you can do this: curl \\ -d &#34;name=Jenny Rosen&#34; \\ --data-urlencode &#34;email=jennyrosen@example.com&#34; Where the server in the URL has been changed to another internal service you run. And the key has been removed! What grants your server, and your agents, the ability to use the secret is their ability to reach your secrets HTTP proxy. This covers, amazingly, almost all secrets. A proxy like this is part of machinery provided by complex secrets management products. What is interesting is that it is one of the easier parts of secrets management, and delivers a large amount of the value. The final piece of the puzzle is: why do you need to write and manage an HTTP proxy? Your cloud should do it for you. So we built Integrations into exe.dev to do this. Assign an integration to a tag, tag the VMs you want to have access, done. Clone your VM, you get a fresh space to work with agents and your integrations are automatically present. For GitHub, we did something special, and built a GitHub App to manage the OAuth for you. No need for manual rotation of keys. We intend to build a lot more integrations soon.",
       "keywords": [
         "corporate-watchdog news",
-        "election",
-        "intelligence",
-        "field",
-        "declassified",
-        "systems",
-        "public",
-        "porter"
+        "your",
+        "keys",
+        "secrets",
+        "proxy",
+        "agents",
+        "oauth",
+        "some"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#election",
-        "#intelligence",
-        "#field",
-        "#declassified",
-        "#systems",
-        "#public",
-        "#porter"
+        "#your",
+        "#keys",
+        "#secrets",
+        "#proxy",
+        "#agents",
+        "#oauth",
+        "#some"
       ],
-      "slug": "2026-04-22-whistleblower-says-cia-hid-2020-election-threats-to-help-biden",
-      "sourceUrl": "https://www.zerohedge.com/political/whistleblower-says-cia-hid-2020-election-threats-help-biden",
-      "generatedAt": "2026-04-22T06:00:42.428Z",
+      "slug": "2026-04-22-some-secret-management-belongs-in-your-http-proxy",
+      "sourceUrl": "https://blog.exe.dev/http-proxy-secrets",
+      "generatedAt": "2026-04-22T14:00:34.698Z",
       "relatedArticles": [
         {
           "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
@@ -181,7 +183,7 @@
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-04-22T06:00:31.017Z",
+      "pubDate": "2026-04-22T14:00:23.112Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -211,7 +213,7 @@
       ],
       "slug": "2026-04-22-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-04-22T06:00:44.204Z",
+      "generatedAt": "2026-04-22T14:00:36.847Z",
       "relatedArticles": [
         {
           "title": "UK intelligence: 100 nations have spyware that can hack Britain",
@@ -255,7 +257,7 @@
       ],
       "slug": "2026-04-22-uk-intelligence-100-nations-have-spyware-that-can-hack-britain",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1ssbnff/uk_intelligence_100_nations_have_spyware_that_can/",
-      "generatedAt": "2026-04-22T06:00:45.357Z",
+      "generatedAt": "2026-04-22T14:00:38.557Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
@@ -265,88 +267,48 @@
       ]
     },
     {
-      "title": "US Senator Urges Delay Of CLARITY Act Senate Markup Until May: Report",
-      "url": "https://www.zerohedge.com/crypto/us-senator-urges-delay-clarity-act-senate-markup-until-may-report",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Senator Urges Delay Of CLARITY Act Senate Markup Until May: Report</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Brayden Lindrea via CoinTelegraph.com,</em></a></p> <p>A US senator has reportedly urged Senate Banking Chair Tim Scott to delay the markup for the crypto market ",
-      "pubDate": "Tue, 21 Apr 2026 16:20:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 10,
+      "title": "Iran claims US exploited networking equipment backdoors during strikes",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
+      "description": "",
+      "pubDate": "2026-04-22T11:10:49.000Z",
+      "source": "Hacker News",
+      "hnScore": 28,
+      "hnComments": 22,
+      "category": "Tech & Privacy",
+      "score": 9,
       "sources": [
-        "ZeroHedge"
+        "Hacker News",
+        "r/technology"
       ],
-      "content": "Authored by Brayden Lindrea via CoinTelegraph.com, A US senator has reportedly urged Senate Banking Chair Tim Scott to delay the markup for the crypto market structure bill until May, as banking and crypto representatives need more time to resolve disagreements over stablecoin yield provisions. US Republican Thom Tillis of North Carolina told reporters Monday that he does not expect the Senate Banking Committee to mark up the legislation, also known as the CLARITY Act, in April and has recommended that Scott schedule it for next month, according to Punchbowl News. Tillis, who has been leading discussions between crypto and banking members, reportedly told Scott: “It’s very important to me not to accelerate things, to hear everybody, and give them a rational basis for what we do accept.” Continued delays have sparked concern that the CLARITY Act may not pass before the US midterms in November, an event that US Treasury Secretary Scott Bessent said could reverse momentum of the bill. “I think if the Democrats were to take the House, which is far from my best case, then the prospects of getting a deal done will just fall apart,” Bessent said in March. It comes the same day crypto advocacy group The Digital Chamber sent a letter to the Senate Banking Committee asking it to move the crypto market structure legislation forward to a Senate markup “as soon as the calendar allows.” The banking industry has raised concerns that allowing stablecoin yield could trigger significant deposit outflows from the traditional banking system, particularly at community banks. It argues that those banks may not have enough balance-sheet flexibility to absorb such outflows without relying on higher-cost wholesale funding. Meanwhile, Coinbase CEO Brian Armstrong and others have pushed for more favorable stablecoin provisions. Last month, members of the banking and crypto industries were reportedly close to agreeing on enabling stablecoin rewards tied to crypto activity on third-party crypto platforms, but not for passive balances. The Digital Chamber noted that it has now been more than 270 days since the House passed the CLARITY Act with bipartisan support. “Clarity cannot wait,” The Digital Chamber’s government affairs director, Taylor Barr, said, adding: “More than 70 million Americans who have embraced digital assets deserve the regulatory clarity they have waited far too long for.” Other members of the crypto industry have argued that moving the bill forward is more important than holding out for perfect terms. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Tech Industry China tests deep-sea electro-hydrostatic actuator that can cut undersea cables at a depth of 3,500 meters Tech Industry Russian-made Shahed drones are &lsquo;disintegrating in the air before reaching their targets&rsquo; due to shoddy manufacturing, video shows Tech Industry Iran reportedly bought an in-orbit Chinese satellite to target US assets in the Middle East Wi-Fi Routers TP-Link seeks to secure conditional approval from FCC following router import ban Wi-Fi Routers Netgear secures conditional approval from the FCC following router ban Tech Industry Russian ship loitering near transatlantic data cables chased off by Royal Navy attack helicopter Tech Industry UK navy tracked three Russian submarines near undersea cables, damage would 'have serious consequences,' Putin warned Tech Industry Dutch Secretary of Defense threatens to jailbreak nation's F-35 jet fighters Tech Industry Iranian missile blitz takes down AWS data centers in Bahrain and Dubai Networking Undersea cable cutting shenanigans lead Finland to create a dedicated maritime surveillance center Cybersecurity HWMonitor and CPU-Z developer CPUID breached by unknown attackers Tech Industry Iran threatens &lsquo;complete and utter annihilation&rsquo; of OpenAI's $30B Stargate AI data center in Abu Dhabi Tech Industry US and Gulf states race for Ukrainian interceptor drones, including 3D printed model that costs $1,000 apiece Cybersecurity Russian GRU hackers are hijacking TP-Link and MikroTik routers to steal Outlook credentials, cybersecurity center warns Cybersecurity 10 petabytes of sensitive data stolen from China's National Supercomputing Center, hackers claim (Image credit: Getty) Copy link Facebook X Whatsapp Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Tom's Hardware Stay On the Cutting Edge: Get the Tom's Hardware Newsletter Get Tom's Hardware's best news and in-depth reviews, straight to your inbox. By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over. You are now subscribed Iranian state media has alleged that equipment from Cisco, Juniper, Fortinet, and MikroTik failed during U.S. and Israeli military operations against Iran. The report, which claims that &ldquo;American &lsquo;black boxes&rsquo; failed at zero hour of the attack on Isfahan,&rdquo; concerns devices that Iran claims either rebooted or dropped offline despite the country having already been disconnected from the global Internet, a fact it says \"indicates deep sabotage.\" Iranian media speculates that hidden firmware or backdoors allowed remote sabotage, possibly triggered by satellite or at a pre-set time. None of the claims has been independently verified, and given that the claims originate from state media, some skepticism is merited. Meanwhile, the U.S. hasn&rsquo;t addressed Iran's specific allegations, but has publicly confirmed that it conducted cyber operations against Iran's communications infrastructure. Chairman of the Joint Chiefs of Staff, General Dan Caine, said during a March 2nd Pentagon briefing that U.S. Cyber Command and U.S. Space Command were the &ldquo;first movers&rdquo; in so-called Operation Epic Fury, the military campaign launched against Iran at the end of February. Caine said coordinated space and cyber operations disrupted Iranian communications and sensor networks before strikes began. You may like US cybersecurity agency issues an urgent alert as Iranian hackers attack critical infrastructure Iran hacking group claims attack on med-tech company Stryker Iran's forced nationwide internet blackout becomes second-longest on record as it passes 1,000 hours offline Iran&rsquo;s claims are unverified, but each of the four vendors it named &mdash; Cisco, Juniper, Fortinet, and MikroTik &mdash; has a documented record of security issues. NSA documents leaked by Edward Snowden in 2014, for example, demonstrated the agency&rsquo;s Tailored Access Operations unit intercepting Cisco routers during shipping and installing surveillance implants before repackaging them. Cisco never cooperated with the program and later began shipping equipment to decoy addresses to disrupt interception. Juniper Networks, in 2015, meanwhile, disclosed that it had found unauthorized code in the ScreenOS firmware running on its NetScreen firewalls, which could allow attackers to bypass authentication and decrypt VPN traffic. Fortinet acknowledged in 2016 that older versions of FortiOS contained hardcoded SSH passwords granting remote access, though it characterized the problem as a management authentication issue. As for MikroTik, its routers have been a persistent target for botnet operators , with Tenable documenting a vulnerability chain in 2019 that could enable an attacker to downgrade firmware and create a persistent backdoor. Chinese state media seized the opportunity to pile on Iran&rsquo;s claims, with the country&rsquo;s National Computer Virus Emergency Response Center, which has repeatedly claimed that the U.S. fabricated the Volt Typhoon hacking campaign to deflect from its own cyber operations, promoted the allegations as further evidence of American backdoors in networking hardware. Five Eyes intelligence agencies have attributed Volt Typhoon to Chinese state-sponsored actors targeting Western critical infrastructure. Iran's Internet, meanwhile, has been largely offline for 52 consecutive days , with connectivity having sat at roughly 1% of pre-war levels since strikes began on February 28, making it the longest nationwide internet shutdown on record. Get Tom's Hardware's best news and in-depth reviews, straight to your inbox. Follow Tom's Hardware on Google News , or add us as a preferred source , to get our latest news, analysis, & reviews in your feeds. Luke James Contributor Luke James is a freelance writer and journalist. Although his background is in legal, he has a personal interest in all things tech, especially hardware and microelectronics, and anything regulatory.",
       "keywords": [
-        "global-power news",
-        "crypto",
-        "field",
-        "banking",
-        "clarity",
-        "senate",
-        "markup",
-        "scott"
-      ],
-      "hashtags": [
-        "#global-powernews",
-        "#crypto",
-        "#field",
-        "#banking",
-        "#clarity",
-        "#senate",
-        "#markup",
-        "#scott"
-      ],
-      "slug": "2026-04-22-us-senator-urges-delay-of-clarity-act-senate-markup-until-may-report",
-      "sourceUrl": "https://www.zerohedge.com/crypto/us-senator-urges-delay-clarity-act-senate-markup-until-may-report",
-      "generatedAt": "2026-04-22T06:00:47.383Z",
-      "relatedArticles": [
-        {
-          "title": "US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons",
-          "slug": "2026-04-22-us-treasury-sanctions-14-targets-for-helping-iran-obtain-weapons",
-          "category": "Global Power"
-        }
-      ]
-    },
-    {
-      "title": "US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons",
-      "url": "https://www.zerohedge.com/geopolitical/us-treasury-sanctions-14-targets-helping-iran-obtain-weapons",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Joseph Lord via The Epoch Times,</em></a></p> <p>The U.S. Treasury Department on April 21 announced that it is imposing sanctions on 14 targets “for their involvement ",
-      "pubDate": "Wed, 22 Apr 2026 00:55:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Authored by Joseph Lord via The Epoch Times, The U.S. Treasury Department on April 21 announced that it is imposing sanctions on 14 targets “for their involvement in helping the Iranian regime obtain weapons,” in contravention of international sanctions. “As the regime attempts to reconstitute its production capacity, the United States will continue to deplete Iran’s ballistic missile inventories,” the Treasury wrote in a post on X. According to a press release from the Treasury, the targets include 14 “individuals, entities, and aircraft” based in Iran, Turkey, and the United Arab Emirates, “for their involvement in procuring or transporting weapons or weapons components on behalf of the Iranian regime.” During the military operations in the region, the United States and Israel have sought to deplete Iran’s weapons reserves, particularly targeting Iranian ballistic missile sites. Amid these operations, the Treasury said, Iran “is seeking to reconstitute its production capacity.” The Treasury noted that increasingly, the Persian state is relying on one-way, unmanned drones to target U.S. and allied locations in the Middle East, and indicated that the Treasury would continue to work to prevent Iran from obtaining weapons. “The Iranian regime must be held accountable for its extortion of global energy markets and indiscriminate targeting of civilians with missiles and drones,” Treasury Secretary Scott Bessent said. “Under President [Donald] Trump’s leadership, as part of Economic Fury, Treasury will continue to follow the money and target the Iranian regime’s recklessness and those who enable it,” Bessent added. Currently, the ceasefire between the United States and Iran is holding. On Tuesday, Trump agreed to extend the ceasefire, but tensions with Iran remain high. “Based on the fact that the Government of Iran is seriously fractured, not unexpectedly so and, upon the request of Field Marshal Asim Munir, and Prime Minister Shehbaz Sharif, of Pakistan, we have been asked to hold our Attack on the Country of Iran until such time as their leaders and representatives can come up with a unified proposal,” Trump wrote in a post on Truth Social. Simultaneously, Trump said the U.S. military will extend the more-than-week-long naval blockade of Iranian ports, saying that it will, “in all other respects, remain ready and able, and will therefore extend the Ceasefire until such time as their proposal is submitted, and discussions are concluded, one way or the other.” Meanwhile, the Strait of Hormuz remains closed to commercial traffic. Iran briefly opened the all-important shipping route on April 17 after the initial ceasefire agreement, but again closed the area to commercial shipping the next day, citing the ongoing U.S. blockade of its ports. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "global-power news",
-        "treasury",
+        "tech-&-privacy news",
         "iran",
-        "field",
-        "weapons",
-        "iranian",
-        "sanctions",
-        "targets"
+        "tech",
+        "industry",
+        "claims",
+        "rsquo",
+        "hardware",
+        "routers"
       ],
       "hashtags": [
-        "#global-powernews",
-        "#treasury",
+        "#tech-&-privacynews",
         "#iran",
-        "#field",
-        "#weapons",
-        "#iranian",
-        "#sanctions",
-        "#targets"
+        "#tech",
+        "#industry",
+        "#claims",
+        "#rsquo",
+        "#hardware",
+        "#routers"
       ],
-      "slug": "2026-04-22-us-treasury-sanctions-14-targets-for-helping-iran-obtain-weapons",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/us-treasury-sanctions-14-targets-helping-iran-obtain-weapons",
-      "generatedAt": "2026-04-22T06:00:49.385Z",
+      "slug": "2026-04-22-iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
+      "generatedAt": "2026-04-22T14:00:40.181Z",
       "relatedArticles": [
         {
-          "title": "US Senator Urges Delay Of CLARITY Act Senate Markup Until May: Report",
-          "slug": "2026-04-22-us-senator-urges-delay-of-clarity-act-senate-markup-until-may-report",
-          "category": "Global Power"
+          "title": "67% of Android apps log data not mentioned in their privacy policies",
+          "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
+          "category": "Tech & Privacy"
         }
       ]
     },
@@ -385,143 +347,185 @@
       ],
       "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srvuf1/67_of_android_apps_log_data_not_mentioned_in/",
-      "generatedAt": "2026-04-22T06:00:50.587Z",
+      "generatedAt": "2026-04-22T14:00:41.974Z",
       "relatedArticles": [
         {
-          "title": "University wants me to text them a photo of myself holding my ID in order to reset password. Is this normal?",
-          "slug": "2026-04-22-university-wants-me-to-text-them-a-photo-of-myself-holding-my-id-in-order-to-res",
+          "title": "Iran claims US exploited networking equipment backdoors during strikes",
+          "slug": "2026-04-22-iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
           "category": "Tech & Privacy"
         }
       ]
     },
     {
-      "title": "University wants me to text them a photo of myself holding my ID in order to reset password. Is this normal?",
-      "url": "https://www.reddit.com/r/privacy/comments/1srs4x4/university_wants_me_to_text_them_a_photo_of/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Is this normal? Has anyone else ran across this? Are there any privacy concerns?</p> <p>I've graduated, I'm looking to go back, but my account is locked and I've forgotten my password. I was told that in order to unlock it I need to text them a photo of me holding my ID. I've never been asked to face verify like this.</p> </div><!-- SC_ON --> &#32; submitted by &#",
-      "pubDate": "2026-04-21T16:05:22.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 9,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Is this normal? Has anyone else ran across this? Are there any privacy concerns?</p> <p>I've graduated, I'm looking to go back, but my account is locked and I've forgotten my password. I was told that in order to unlock it I need to text them a photo of me holding my ID. I've never been asked to face verify like this.</p> </div><!-- SC_ON --> &#32; submitted by &#",
-      "keywords": [
-        "tech-&-privacy news",
-        "text",
-        "them",
-        "photo",
-        "holding",
-        "order",
-        "password",
-        "normal"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#text",
-        "#them",
-        "#photo",
-        "#holding",
-        "#order",
-        "#password",
-        "#normal"
-      ],
-      "slug": "2026-04-22-university-wants-me-to-text-them-a-photo-of-myself-holding-my-id-in-order-to-res",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srs4x4/university_wants_me_to_text_them_a_photo_of/",
-      "generatedAt": "2026-04-22T06:00:52.344Z",
-      "relatedArticles": [
-        {
-          "title": "67% of Android apps log data not mentioned in their privacy policies",
-          "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
-          "category": "Tech & Privacy"
-        }
-      ]
-    },
-    {
-      "title": "Israel Says Hezbollah Fired Rockets, Breaching Lebanon Ceasefire",
-      "url": "https://www.zerohedge.com/geopolitical/israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Israel Says Hezbollah Fired Rockets, Breaching Lebanon Ceasefire</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Just as the Iran ceasefire seems on the brink of collapsing (though unilaterally extended late in the day Tuesday by Trump), so does the Lebanon one as well, as on Tuesday Israel a",
-      "pubDate": "Tue, 21 Apr 2026 22:50:00 +0000",
+      "title": "Psychedelic Stocks Just Went Mainstream",
+      "url": "https://www.zerohedge.com/markets/psychedelic-stocks-just-went-mainstream",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Psychedelic Stocks Just Went Mainstream</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em>Submitted by <a href=\" Fringe Finance</a></em></p> <p data-pm-slice=\"1 1 []\">Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive ",
+      "pubDate": "Wed, 22 Apr 2026 12:35:00 +0000",
       "source": "ZeroHedge",
-      "category": "Unexplained",
-      "score": 8,
-      "sources": [
-        "ZeroHedge",
-        "The Intercept"
-      ],
-      "content": "Just as the Iran ceasefire seems on the brink of collapsing (though unilaterally extended late in the day Tuesday by Trump), so does the Lebanon one as well, as on Tuesday Israel accused Hezbollah of firing a new rocket volley at its IDF forces, effectively breaking the ceasefire. The Israel Defense Forces said Hezbollah targeted its troops in southern Lebanon, seeing in this a breaching of the fragile ceasefire ahead of a further round of US-mediated talks between the Israeli and Lebanese governments. Illustrative prior war image: Getty However, Hezbollah&#x27;s stated stance is that it has the \"right to resist\" Israeli forces operating inside southern Lebanon , given they are occupying forces. Starting last Thursday, a 10-day ceasefire brokered by Washington took effect, even as Israeli forces remain deployed in a strip of Lebanese territory several miles deep along the border. Israel calls it a &#x27;buffer zone&#x27; - but Lebanese sees it as a land grab . Lebanese Parliament Speaker Nabih Berri, a Hezbollah ally and leader of the Amal Movement - which is the other big Shia organization in Lebanon - has newly stated that if Israel \"maintains its occupation, whether of areas, positions, or by drawing yellow lines, it will smell the scent of resistance every day.\" He added: \"If they insist on remaining, they will face resistance, and our history bears witness to that.\" Lebanese officials have also charged Israel with trying to erase the Lebanese presence in southern Lebanon in a genocidal act, or &#x27;cultural genocide&#x27;. This after Israeli forces have carried out demolitions in southern villages, targeting what they describe as Hezbollah infrastructure embedded in civilian areas. Lebanon’s state-run National News Agency reported new detonations in at least eight villages on Tuesday, as well as shelling in some of these locations. 🇮🇱🇱🇧⚡️– Al Jazeera: Israel has established a \"yellow line\" in southern Lebanon, a no-go zone targeting anyone who approaches. Similar to measures in Gaza, the move risks further land seizures and systematic demolitions. pic.twitter.com/oeovSFDJ1i Israeli officials previously referred to their deployment boundary as the \"Yellow Line\" - which it should be noted is a designation also used in Gaza, where entire local neighborhoods have long ago been permanently wiped out. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "unexplained news",
-        "lebanon",
-        "israel",
-        "field",
-        "hezbollah",
-        "ceasefire",
-        "forces",
-        "lebanese"
-      ],
-      "hashtags": [
-        "#unexplainednews",
-        "#lebanon",
-        "#israel",
-        "#field",
-        "#hezbollah",
-        "#ceasefire",
-        "#forces",
-        "#lebanese"
-      ],
-      "slug": "2026-04-22-israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire",
-      "generatedAt": "2026-04-22T06:00:53.906Z",
-      "relatedArticles": [
-        {
-          "title": "A Reckoning Is Underway At The FDA",
-          "slug": "2026-04-22-a-reckoning-is-underway-at-the-fda",
-          "category": "Unexplained"
-        }
-      ]
-    },
-    {
-      "title": "A Reckoning Is Underway At The FDA",
-      "url": "https://www.zerohedge.com/medical/reckoning-underway-fda",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">A Reckoning Is Underway At The FDA</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Maryanne Demasi via The Brownstone Institute,</em></a></p> <p><strong>For months, a quiet battle has been unfolding inside the US Food and Drug Administration (FDA).</strong></p> <p><a data-image-e",
-      "pubDate": "Tue, 21 Apr 2026 21:40:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Unexplained",
+      "category": "Global Power",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Authored by Maryanne Demasi via The Brownstone Institute, For months, a quiet battle has been unfolding inside the US Food and Drug Administration (FDA). It began with an analysis of child deaths after Covid vaccination, followed by strategic leaks to major media outlets, and has now erupted into the open with a memo from the regulator’s own vaccine chief. In September, it was reported that FDA officials had privately investigated 25 paediatric deaths following Covid vaccination — the first systematic review of such cases since the rollout began. The findings were meant to be presented to the CDC’s Advisory Committee on Immunization Practices (ACIP). But the presentation never came. The meeting passed without a word. Something had happened behind closed doors. On 13 November 2025, STAT published an extraordinary insider account describing a tense internal meeting in which FDA scientist Dr Tracy Beth Høeg presented evidence of young people who had died after Covid vaccination. According to STAT, her findings triggered pushback from career FDA regulators who feared the implications of acknowledging fatal cases. Now, comes the explosive memo from FDA vaccine chief Dr Vinay Prasad, confirming — for the first time — that US regulators have formally attributed at least 10 of these children’s deaths to Covid vaccination. Prasad called it “a profound revelation” with far-reaching implications for American vaccine policy, adding that the true number is “certainly an underestimate.” Here, I’ll take you through the memo, the leaks, the internal rebellion at FDA, and what this means — not just for Covid vaccines, but for all vaccine approvals going forward. This story marks a turning point in US vaccine regulation. In early September, insiders at the FDA and CDC quietly told the New York Times and the Washington Post that the agency had begun investigating child deaths reported to VAERS. My reporting confirmed that Dr Tracy Beth Høeg, a senior adviser within the FDA’s vaccine division, had led the review — contacting families, gathering medical records, and obtaining autopsy findings. It was the first case-by-case evaluation of paediatric deaths conducted since the vaccines were authorised. The review identified twenty-five children whose deaths occurred following vaccination. Those findings were expected to be presented to ACIP on 18–19 September. Instead, without explanation, the discussion disappeared from the agenda. Even FDA Commissioner Dr Marty Makary had hinted at the findings on CNN, saying, “We’ve been looking into the VAERS database self-reports, [and] there have been children that have died from the Covid vaccine.” He described an “intense” investigation involving doctors, autopsies, and family interviews. Yet ACIP heard nothing. Had the FDA reversed course — or had internal forces blocked disclosure? STAT’s reporting offered the first real clues. STAT described a confidential gathering of FDA vaccine scientists in which Høeg presented slides listing roughly two dozen deaths of young people following vaccination.",
+      "content": "Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive order aimed at accelerating research and access to psychedelic therapies, backing it with $50 million in federal funding and directing regulators to remove barriers that have long kept this entire category stuck on the sidelines. This has been a key prediction in my thesis for psychedelic stocks that I’ve laid out over time. First, in January 2025, calling the psychedelic names “stocks to watch” for the year. Then, in July 2025, urging patience in these positions: Being Early—And Patient—In Psychedelics Then again naming psychedelic names to my “stocks to watch” for 2026 and even going so far as to name the sector my “best idea” for 2026: My \"Best Idea\" Sector For 2026 Today I’ll discuss what, for me, remains the most prudent way to get and keep long-term exposure to the sector, and where I think things go after this morning’s rally. Trump’s administration framed the move as part of a broader attempt to confront the mental health crisis, particularly among veterans, while signaling that agencies like the FDA should dramatically speed up review timelines for promising treatments. The focus, at least initially, includes ibogaine, a compound with a controversial safety profile but growing interest for its potential in treating addiction and trauma. Alongside him were figures like Robert F. Kennedy Jr. and Joe Rogan, both of whom have been outspoken advocates for these therapies, underscoring how quickly this conversation has moved from the fringe into the mainstream. There are still real concerns from scientists about safety, trial rigor, and whether the process could move too fast, but the direction is unmistakable: the federal government is no longer ignoring psychedelics, it is actively engaging with them. And if you have been reading me for the last year, none of this should feel surprising. At the beginning of 2025, I laid out what I thought was coming: a convergence between science, sentiment, and politics that could finally legitimize an industry that had been written off for decades. I was not pretending the timing would be perfect or that the stocks would go straight up, in fact, I explicitly said the opposite. These were always going to be volatile, early stage, cash burning companies operating in one of the most regulation sensitive industries on the planet. What mattered was not the quarter to quarter performance. What mattered was whether the world would eventually start taking this category seriously. That was the first part of the bet. The next is clinical data. And along the way, the market did exactly what it tends to do with misunderstood themes. It tested conviction. The ETF held up relatively well, individual names stumbled, sentiment wavered, and most investors moved on, filing the entire space under maybe someday or probably never. But the thesis was never about clean execution in year one. It was about whether a regulatory shift, any regulatory shift, could change the entire trajectory of the space. Because in something like psychedelics, policy is not just a factor, it is the factor. That is why, when I revisited the idea in January 2026, I framed it as one of the most mispriced areas of the market. Not because the science was a mystery, but because the perception was broken. The consensus view had already written the story: the FDA had shut it down, politics would never allow it, and the stigma was too entrenched to overcome. 🔥 50% OFF FOR LIFE: Using this coupon entitles you to 50% off an annual subscription to Fringe Finance for life: Get 50% off forever What makes this moment different is that it is no longer theoretical. You now have federal dollars being allocated, timelines being discussed in terms of weeks instead of years, and high level officials openly framing psychedelics as part of the solution to a national health crisis. That does not guarantee success for any individual company, and it does not eliminate the very real risks around clinical trials, commercialization, or safety. Some of these names will fail. Some will dilute shareholders into the ground. That is the nature of early stage biotech. But the broader direction of the space is what matters, and that direction is changing in a way that is hard to ignore. The deeper reason I have stayed bullish, though, has never just been about the market opportunity. It is about what these compounds actually represent. The current mental health model leaves an enormous number of people behind, and most treatments are designed around chronic, daily use. Psychedelics flip that model on its head. They are not ‘take this forever’ drugs. In many cases, they are structured as limited, guided interventions that can produce durable effects. That alone makes them disruptive, not just commercially, but philosophically. And having experienced them myself in a deliberate, structured way, I do not view this as abstract or hypothetical. I have seen the difference. I have felt the shift. And I know how profound it can be when these tools are used correctly. What is happening now does not mean the story is over. If anything, it means it is just getting started. We are moving out of the phase where this is dismissed outright and into the phase where serious institutions are forced to engage with it. That is where things tend to accelerate. This note , published on my blog this week , has my preferred way to gain exposure to the psychedelic sector. QTR’s Disclaimer : Please read my full legal disclaimer on my About page here . This post represents my opinions only. In addition, please understand I am an idiot and often get things wrong and lose money. I may own or transact in any names mentioned in this piece at any time without warning. Contributor posts and aggregated posts have been hand selected by me, have not been fact checked and are the opinions of their authors. They are either submitted to QTR by their author, reprinted under a Creative Commons license with my best effort to uphold what the license asks, or with the permission of the author. This is not a recommendation to buy or sell any stocks or securities, just my opinions. I often lose money on positions I trade/invest in. I may add any name mentioned in this article and sell any name mentioned in this piece at any time, without further warning. None of this is a solicitation to buy or sell securities. I may or may not own names I write about and are watching. Sometimes I’m bullish without owning things, sometimes I’m bearish and do own things. Just assume my positions could be exactly the opposite of what you think they are just in case. If I’m long I could quickly be short and vice versa. I won’t update my positions. All positions can change immediately as soon as I publish this, with or without notice and at any point I can be long, short or neutral on any position. You are on your own. Do not make decisions based on my blog. I exist on the fringe. If you see numbers and calculations of any sort, assume they are wrong and double check them. I failed Algebra in 8th grade and topped off my high school math accolades by getting a D- in remedial Calculus my senior year, before becoming an English major in college so I could bullshit my way through things easier.",
       "keywords": [
-        "unexplained news",
+        "global-power news",
+        "just",
         "field",
-        "vaccine",
-        "deaths",
-        "covid",
-        "vaccination",
-        "findings",
-        "been"
+        "psychedelic",
+        "stocks",
+        "been",
+        "name",
+        "names"
       ],
       "hashtags": [
-        "#unexplainednews",
+        "#global-powernews",
+        "#just",
         "#field",
-        "#vaccine",
-        "#deaths",
-        "#covid",
-        "#vaccination",
-        "#findings",
-        "#been"
+        "#psychedelic",
+        "#stocks",
+        "#been",
+        "#name",
+        "#names"
       ],
-      "slug": "2026-04-22-a-reckoning-is-underway-at-the-fda",
-      "sourceUrl": "https://www.zerohedge.com/medical/reckoning-underway-fda",
-      "generatedAt": "2026-04-22T06:00:55.730Z",
+      "slug": "2026-04-22-psychedelic-stocks-just-went-mainstream",
+      "sourceUrl": "https://www.zerohedge.com/markets/psychedelic-stocks-just-went-mainstream",
+      "generatedAt": "2026-04-22T14:00:43.688Z",
       "relatedArticles": [
         {
-          "title": "Israel Says Hezbollah Fired Rockets, Breaching Lebanon Ceasefire",
-          "slug": "2026-04-22-israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire",
-          "category": "Unexplained"
+          "title": "China \"Aggressively\" Selling Oil In Recent Weeks",
+          "slug": "2026-04-22-china-aggressively-selling-oil-in-recent-weeks",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "China \"Aggressively\" Selling Oil In Recent Weeks",
+      "url": "https://www.zerohedge.com/energy/china-aggressively-selling-oil-recent-weeks",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">China \"Aggressively\" Selling Oil In Recent Weeks</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>We knew there was a <a href=\" why China had accumulated a cool 1.5 billion barrels </a>in its strategic petroleum reserve: the reason, to become the world's strategist petroleum reserve when the t",
+      "pubDate": "Wed, 22 Apr 2026 10:55:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "We knew there was a reason why China had accumulated a cool 1.5 billion barrels in its strategic petroleum reserve: the reason, to become the world&#x27;s strategist petroleum reserve when the time arises... for a price of course. According to the chief executive officer of commodity trader Mercuria, Chinese oil companies have been aggressive sellers in recent weeks, selling barrels to several nations in tenders. “What has been happening in the last two or three weeks is actually they have been aggressively selling crude oil,” Mercuria CEO Marco Dunand said at the FT Commodities Global Summit in Lausanne on Tuesday. “ They’ve taken out a lot of demand from various countries and offered aggressively in tenders.\" Dunand said there are a variety of possible explanations for the selling. They include the release of oil inventories within China, continued sales of Iranian oil in the weeks after the war started, and possible optimism that the Strait of Hormuz would reopen quicker than it has so far. He also said that Mercuria sees Chinese gasoline demand falling by 1 million barrels a day this year as a result of electric-vehicle adoption, which also could have played a factor in the sales. But the most important thing Dunand said, was his response to question how long this last: “How long can they do this for? I think the guess would be probably for about another three weeks and then I think at that point they would have to revise their position.\" Well, three weeks is also how long Iran has before its oil sector is permanently shut in. The good news: the end of the Iran war is - one way or another - now in sight. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "global-power news",
+        "field",
+        "weeks",
+        "china",
+        "selling",
+        "they",
+        "aggressively",
+        "barrels"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#field",
+        "#weeks",
+        "#china",
+        "#selling",
+        "#they",
+        "#aggressively",
+        "#barrels"
+      ],
+      "slug": "2026-04-22-china-aggressively-selling-oil-in-recent-weeks",
+      "sourceUrl": "https://www.zerohedge.com/energy/china-aggressively-selling-oil-recent-weeks",
+      "generatedAt": "2026-04-22T14:00:45.586Z",
+      "relatedArticles": [
+        {
+          "title": "Psychedelic Stocks Just Went Mainstream",
+          "slug": "2026-04-22-psychedelic-stocks-just-went-mainstream",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "Trump's \"Sock Puppet\"",
+      "url": "https://www.zerohedge.com/economics/trumps-sock-puppet",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Trump's \"Sock Puppet\"</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em>By Philip Marey of Rabobank</em></p> <p><em><strong>Summary</strong></em></p> <ul><li>The confirmation hearing of Fed Chair nominee Kevin Warsh by the Senate Banking Committee was a very partisan affair.</li> <li>In his",
+      "pubDate": "Wed, 22 Apr 2026 12:05:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "First Democratic senator Warren called nominee Warsh president Trump’s sock puppet. Then Republican senator Kennedy tried to settle the issue by asking: “Mr Warsh, are you going to be the president’s human sock puppet?” “Absolutely not,” said Warsh. This was clearly a very partisan confirmation hearing for Kevin Warsh and near the end of the 2.5 hour session one of the more empathetic senators asked him why he would want this job. This was a big change from 20 years ago when Warsh was confirmed as Fed Governor with bipartisan support. Warren gave him a couple of litmus tests of his independence by asking whether Trump lost the election of 2021 and if Warsh could name one aspect of Trump’s policies that he disagreed with. Warsh gave evasive answers and the tone for the hearing was set. Warsh was walking a tightrope between convincing the Senate Banking Committee that he is going to be an independent Fed Chair and staying loyal to President Trump. Meanwhile, there was as much interest in Warsh’s personal balance sheet as in the Fed’s balance sheet . Warsh said he had made an agreement with relevant authorities to divest his assets before sworn in (or within 90 days of his confirmation), but that answer did not seem satisfactory to several (Democratic) senators. Ironically, Senator Tillis (Rep) – who wants to hold up the confirmation until the case against Powell is dropped – had to come to the rescue by stressing that Warsh was not out of compliance. Warsh did not read the full text of his prepared remarks that were published a day before the hearing, as Chairman Scott tried to keep the meeting on schedule. In his speech, he stressed that monetary policy independence is essential, but he does not believe that the operational independence of monetary policy is particularly threatened when elected officials – presidents, senators, or member of the House – state their views on interest rates. He said that Fed independence is largely up to the Fed. He highlighted three important implications. First, Congress has tasked the Fed with price stability and that means that low inflation is the Fed’s plot armor (against criticism). Second, Fed independence is at its peak in the operational conduct of monetary policy, but that does not mean that the central bank has the same degree of independence in other areas, such as regulation and supervision. Third, the Fed must stay in its lane and avoid straying into fiscal and social policies. In response to the opening question by Chairman Tim Scott (Rep), Warsh said that he wanted a new inflation framework, that he preferred the interest rate tool over the balance sheet tool, and that he wanted a new communications approach. For a more detailed discussion of the nominee’s ideas, we refer to The Warsh Regime Obviously, there were several questions about Fed independence and whether Warsh had promised President Trump to cut rates in order to get the nomination. When Senator Reed (Dem) asked him about Fed independence, Warsh said that presidents (in general, not just Trump) want lower rates, but that independence is up to the Fed. In an answer to Senator Kennedy (Rep), Warsh said that the president never asked him to pre-commit on any interest rate decision. It got really heated when Senator Gallego asked Warsh whether it was his sworn testimony that the President had not asked him to commit to cutting rates. When Warsh confirmed, Gallego (Dem) concluded that either Warsh or Trump was lying, referring to an article in the Wall Street Journal on December 12. In response, Warsh said that these reporters needed better sources and that he took independence very seriously: “the President never asked me and I would never do so.” There was also a lot of interest in Warsh’s argument that the Fed could cut rates because of AI. Warsh said that he expected the supply effects to outweigh the increase in demand, but he did not really answer the question how fast AI needed to show up for cutting interest rates. Senator Van Hollen (Dem) asked him what would happen if the Fed cut rates to 1% in 2026 as suggested by Trump and thought it implausible that AI could cause a situation where this would be justified. Again Warsh gave an evasive answer. Fed independence is not just about rate decisions. When Senator Alsobrooks (Dem) asked him a number of questions regarding the court cases of Governor Cook and Chair Powell, Warsh gave evasive answers and managed to briefly mumble “ I’ll defend Fed independence ” somewhere in between. Warsh repeatedly said that interest rates rather than the balance sheet should be the dominant tool of monetary policy, because the distributional effects of the latter favored the rich, while the more pervasive effects of the former reached everybody. He did not have a specific target for the balance sheet in mind, but he did say the Fed should not be holding longer-term assets as if it’s a fiscal authority. In response to Senator Kim’s concerns about fears of a rapid change, Warsh said it should be a public discussion and that any regime change should be deliberate and well-described. He wants to work with the Treasury Secretary to see how the Fed can reduce the balance sheet and get out of fiscal policy. Warsh indicated that while at present most FOMC decisions are taken unanimously, he liked messier meetings with “good family fights” and that he was not for pre-deciding meetings. Warsh said there is nothing wrong with dissents. He said that one of his lessons was that there is a lot of groupthink in the economics profession , so openmindedness is important. Warsh said that too many Fed officials give forward guidance and we need central bankers that are humble, nimble, and open minded. Warsh stressed that the Fed has to deliver on price stability and full employment so that politicians stay out. He gave his own definition of price stability as a change in prices that nobody talks about. He also prefers trimmed averages as measures of inflation. However, Warsh said that we need new data to assess what’s the real underlying inflation rate and that would be one of his first reforms: a data project. Warsh lambasted the 2020 change in the Fed’s inflation framework – the change to Flexible Average Inflation Targeting – that ‘’asked for a little more inflation and got a lot more and we’re still living with it.” Instead, Warsh wants a robust reform of the inflation framework. He said that the cumulative increase in prices in recent years is a legacy of past policy error. On Wednesday, the Senate Banking Committee members have an opportunity to pose additional written questions to the nominee. On Thursday, Warsh is supposed to answer these questions. The crucial vote is Republican Senator Thom Tillis, who wants the DOJ to drop the inquiry into current Fed Chair Jerome Powell before advancing the nomination to the Senate floor. An offramp seems possible because Tillis said he would agree with replacing the DOJ inquiry by a congressional inquiry. However, so far Trump has dismissed this option. If this standoff continues, it may be difficult to get Warsh confirmed by May 15, the end of Powell’s term as Chair. In this case, Powell wants to stay on as Chair pro tempore, but this is disputed by the Trump administration. So we could be heading for some verbal fireworks in DC in the coming weeks. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-&-markets news",
+        "warsh",
+        "trump",
+        "independence",
+        "senator",
+        "field",
+        "asked",
+        "policy"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#warsh",
+        "#trump",
+        "#independence",
+        "#senator",
+        "#field",
+        "#asked",
+        "#policy"
+      ],
+      "slug": "2026-04-22-trumps-sock-puppet",
+      "sourceUrl": "https://www.zerohedge.com/economics/trumps-sock-puppet",
+      "generatedAt": "2026-04-22T14:00:46.913Z",
+      "relatedArticles": [
+        {
+          "title": "Opening a crypto wallet for my kids?",
+          "slug": "2026-04-22-opening-a-crypto-wallet-for-my-kids",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Opening a crypto wallet for my kids?",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ssg9b6/opening_a_crypto_wallet_for_my_kids/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about the best way to set my kids up for the future, and honestly, a traditional savings account feels like it's going nowhere with current interest rates. I’m considering opening a separate wallet for them and throwing in a set amount every month, mostly BTC and ETH, maybe some SOL, and just letting it sit there until they turn 18. It feels lik",
+      "pubDate": "2026-04-22T09:16:53.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 3,
+      "sources": [
+        "r/cryptocurrency"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about the best way to set my kids up for the future, and honestly, a traditional savings account feels like it's going nowhere with current interest rates. I’m considering opening a separate wallet for them and throwing in a set amount every month, mostly BTC and ETH, maybe some SOL, and just letting it sit there until they turn 18. It feels lik",
+      "keywords": [
+        "money-&-markets news",
+        "opening",
+        "wallet",
+        "kids",
+        "feels",
+        "crypto",
+        "been",
+        "thinking"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#opening",
+        "#wallet",
+        "#kids",
+        "#feels",
+        "#crypto",
+        "#been",
+        "#thinking"
+      ],
+      "slug": "2026-04-22-opening-a-crypto-wallet-for-my-kids",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1ssg9b6/opening_a_crypto_wallet_for_my_kids/",
+      "generatedAt": "2026-04-22T14:00:48.733Z",
+      "relatedArticles": [
+        {
+          "title": "Trump's \"Sock Puppet\"",
+          "slug": "2026-04-22-trumps-sock-puppet",
+          "category": "Money & Markets"
         }
       ]
     }
