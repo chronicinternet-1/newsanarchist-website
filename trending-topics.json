@@ -1,101 +1,12 @@
 {
-  "scrapedAt": "2026-04-22T20:21:08.771Z",
+  "scrapedAt": "2026-04-22T22:00:48.089Z",
   "topicsCount": 12,
   "topics": [
-    {
-      "title": "Why do most countries that implement \"Age Verification\" rules never reflect on hacking in Indonesia?",
-      "url": "https://www.reddit.com/r/privacy/comments/1srmqqk/why_do_most_countries_that_implement_age/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Considering that many countries are trying to create social media regulations for those under 16 and are experiencing hacking at the wrong time, I think most State government have forgotten how private or important data is get hacked in Indonesia.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Dyyroth21 </a> <br/> <span><a href=\" &#32; <span><a hre",
-      "pubDate": "2026-04-21T12:51:19.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 15,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Considering that many countries are trying to create social media regulations for those under 16 and are experiencing hacking at the wrong time, I think most State government have forgotten how private or important data is get hacked in Indonesia.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/Dyyroth21 </a> <br/> <span><a href=\" &#32; <span><a hre",
-      "keywords": [
-        "surveillance-state news",
-        "countries",
-        "hacking",
-        "indonesia",
-        "implement",
-        "verification",
-        "rules",
-        "never"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#countries",
-        "#hacking",
-        "#indonesia",
-        "#implement",
-        "#verification",
-        "#rules",
-        "#never"
-      ],
-      "slug": "2026-04-22-why-do-most-countries-that-implement-age-verification-rules-never-reflect-on-hac",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srmqqk/why_do_most_countries_that_implement_age/",
-      "generatedAt": "2026-04-22T20:20:47.303Z",
-      "relatedArticles": [
-        {
-          "title": "Surveillance Pricing: Exploiting Information Asymmetries",
-          "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
-          "category": "Surveillance State"
-        }
-      ]
-    },
-    {
-      "title": "Surveillance Pricing: Exploiting Information Asymmetries",
-      "url": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
-      "description": "",
-      "pubDate": "2026-04-22T17:13:19.000Z",
-      "source": "Hacker News",
-      "hnScore": 51,
-      "hnComments": 18,
-      "category": "Surveillance State",
-      "score": 11,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Before the 1870s, retail goods rarely carried fixed prices. Instead, haggling was the norm. Customers and store clerks engaged in a song and dance, testing the other’s economic limits. Then, on the eve of the Philadelphia World’s Fair, businessman John Wanamaker transformed an abandoned railroad station into the Grand Depot , one of the first department stores in the United States. At the grand opening, each item in the sprawling store was affixed with a conspicuous label declaring a non-negotiable price. When millions came to the city for the fair, many had their first encounter with fixed price tags. The elimination of haggling saved both customers and clerks time, making the market significantly more efficient. Fair visitors brought the idea of the price tag home with them. Soon, businesses around the world adopted fixed prices and price transparency. One hundred and fifty years later, the datafication of the economy is causing the retail experience to regress to a form of variable pricing far more coercive than the haggling of the past. With online shopping, social media, and data collection, modern corporations have access to more information than ever before. Retailers can view your purchase history, location, personal demographics, and much more. This has enabled businesses across a variety of sectors to engage in surveillance pricing—the practice of extracting and exploiting personal information in order to charge customers different prices for the same product or service. Today, variable pricing is back, but this time the seller knows everything about you. The viability of surveillance pricing—its profitability, ubiquity, and exploitative nature—hinges on the presence of market failures. Severe information asymmetries are perhaps the most insidious. While corporations have access to data brokers, online behavioral advertising, and algorithms that can adjust prices in real time, consumers are more disempowered than ever. Surveillance pricing is not new. American capitalism has a long tradition of consumer exploitation, including targeted advertising, behavioral advertising, price discrimination, and algorithmic pricing. All of these tactics make it easier for corporations to extract more consumer surplus; that is, to close the gap between what consumers are willing to pay and what they actually pay. Since the 2010s, companies have been experimenting with more precise and invasive pricing schemes. In 2011, Ticketmaster rolled out “ dynamic pricing ,” which adjusted ticket prices based on demand and caused prices to reach levels that captured virtually all consumer surplus. Later that year, Uber implemented its notorious “ surge pricing ,” which applied multipliers to the price of a ride during weekends, special events, and inclement weather. In 2012, Orbitz infamously displayed more expensive hotel offers to Mac users on the assumption that they were less price-sensitive. A 2015 ProPublica investigation revealed that Princeton Review charged higher prices to customers from ZIP codes with more Asian people . Staples and Target have both experimented with GPS-based pricing, charging higher prices to customers close to them and far from competitors . In 2025, a group of nonprofits revealed that some grocery prices on Instacart differed by as much as 23 percent from one customer to another. These pricing strategies share a common characteristic: using information asymmetries to take advantage of consumers when they are most constrained and captive. Crucially, the objective of surveillance pricing is not personalization, but maximum extraction. While an outright ban on surveillance pricing offers a direct solution, such an approach still leaves underlying systemic problems unaddressed. The extractive aspects of a failing oligopolistic market—data brokers, online behavioral advertising, information asymmetry, and consumer isolation—remain even if corporations can no longer openly engage in surveillance pricing. Conversely, mere disclosure—which typically only requires companies to inform consumers that prices may be set based on personal data—is far too narrow to meaningfully protect consumers from price gouging. Disclosure regimes outsource accountability by placing the onus on consumers to determine how their data may affect the price they are shown instead of changing corporations’ practices. Laws mandating disclosure may leave consumers more informed, but they fail to lower prices and prevent companies from amassing personal data. In May 2025, New York became the first state to pass a law specifically targeting surveillance pricing. The Algorithmic Pricing Disclosure Act requires companies that set prices using an algorithm based on consumers’ personal data to display a disclosure stating, “THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA.” The Act defines personal data as “any data that identifies or could reasonably be linked, directly or indirectly, with a specific consumer or device.” Several other states have pending bills that would either ban surveillance pricing outright or require similar disclosures. Although New York’s Algorithmic Pricing Disclosure Act represents a step in the right direction, it ultimately falls into the transparency trap. That is, transparency alone will not curb the harms of surveillance pricing. The New York law merely mandates that businesses acknowledge their use of surveillance pricing. The consumer is left informed but unprotected. Without options to safeguard their data, the value of the disclosure is questionable at best. Furthermore, individuals often lack the necessary expertise or resources to make sense of disclosed information, resulting in information overload or fatigue (when was the last time you read a cookie consent prompt?). The disclosure approach is untenable as digital products and services become increasingly essential for navigating daily life. Addressing surveillance pricing requires more than mere transparency; it necessitates meaningful accountability. To that end, recent federal bills offer a more impactful solution by including a missing ingredient: enforcement. The Stop AI Price Gouging and Wage Fixing Act of 2025 , introduced by House Representatives Greg Casar (D-TX) and Rashida Tlaib (D-MI), would eliminate surveillance pricing and wage setting. With respect to surveillance pricing, the proposed bill defines “surveillance data” as not only data obtained by the business implementing surveillance pricing but information gathered or purchased from other sources. Crucially, state attorneys general and private citizens could bring civil actions for alleged violations. Additionally, the Act empowers the FTC to impose fines and consumer redress on offenders. In December 2025, Senator Ruben Gallego (D-AZ) introduced the “ One Fair Price Act of 2025 ,” which includes similar definitions and enforcement mechanisms. Unfortunately, the likelihood of either bill passing is low. While federal legislation faces significant hurdles in a divided Congress, there is an appetite for regulating surveillance pricing. The outlook is more positive in state legislatures , where lawmakers are more sensitive to constituents’ concerns about the rising costs of groceries and housing. Despite my gripes with the New York law’s distinct lack of bite, business interests were quick to call the law too broad and confusing for consumers . Critics allege that the language imposed by the Act could be interpreted as a warning about pricing errors or overcharging instead of a neutral transparency statement. In July 2025, the National Retail Federation, the world’s largest retail trade association, challenged the New York disclosure law on First Amendment grounds , arguing that the Act “compels NRF members to publish misleading government opinions.” The Southern District of New York dismissed NRF’s lawsuit in October 2025, reasoning that “the statement requirement by the Act . . . is plainly factual,” and “the required disclosure accurately describes plaintiff’s members’ practices.” The case is pending appeal before the Second Circuit, but the law went into effect in November 2025. While New York’s law survived the challenge at the district court level, the lawsuit highlights a significant risk to legislative efforts to limit companies’ ability to collect information on consumers: the First Amendment. The Supreme Court in Sorrell v. IMS Health (2011) struck down Vermont’s Prescription Confidentiality Law, which prohibited the sale of doctors’ prescribing history to drug marketers. According to the Vermont legislature, the law was designed to prohibit pharmacies from selling or using “prescriber-identifiable” data to drug companies. By banning the sale of prescription records, the law aimed to protect physician privacy, curb targeted pharmaceutical marketing, and ultimately, reduce reliance on expensive brand-name drugs. The Court, however, held that restricting corporate flows of information—here, physicians’ prescribing records—violated the First Amendment. Specifically, the Court found that the Vermont law imposed speaker- and content-based restrictions by targeting specific speakers (pharmaceutical sales representatives and data miners) and specific content (drug marketing). In fact, the Court held that the law amounted to both content and viewpoint discrimination because it permitted the same information to be used freely for other purposes, such as research and education, but restricted its use for marketing purposes. In a 6-3 decision, the Court in Sorrell concluded that data mining for marketing purposes is speech fully protected by the First Amendment. The Sorrell case reflects a dire interpretive misstep in First Amendment jurisprudence: conflating privacy regulation with speech regulation. The Court found that the creation and dissemination of information are themselves speech protected by the First Amendment. However, if “data” is given the same constitutional treatment as “speech,” this expansionist interpretation would swallow up virtually every regulation affecting data flows: product labels, securities disclosures, job safety and labor law disclosures, and so on. Not all regulations of information flows fall within the realm of the First Amendment. NRF’s lawsuit seeking to enjoin the New York Algorithmic Pricing Disclosure Act also invoked Sorrell , arguing that “the Act is subject to heightened review because it singles out a class of speakers for differential treatment based on the subject matter of their speech.” Thankfully, the district court distinguished the New York law as requiring commercial disclosure whereas the Vermont law restricted commercial speech. Despite this limited victory, courts have increasingly adopted an expansionist conception of the First Amendment post Sorrell , rendering the constitutionality of data privacy statutes and even disclosure statutes unclear. Sorrell is an obstacle to an outright ban on surveillance pricing and limits states’ ability to regulate data brokers. However, Sorrell also offers valuable lessons for states interested in regulating surveillance pricing and enacting privacy protections more broadly. Since Sorrell , courts have applied a more forgiving standard to disclosures. In fact, when the Southern District of New York dismissed the NRF’s lawsuit, it held that disclosure mandates promote the free flow of information. To avoid Vermont’s pitfall of targeting a specific category of speakers and content, legislation should be drafted carefully to only regulate economic activity or conduct.",
-      "keywords": [
-        "surveillance-state news",
-        "pricing",
-        "data",
-        "surveillance",
-        "information",
-        "disclosure",
-        "prices",
-        "price"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#pricing",
-        "#data",
-        "#surveillance",
-        "#information",
-        "#disclosure",
-        "#prices",
-        "#price"
-      ],
-      "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
-      "sourceUrl": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
-      "generatedAt": "2026-04-22T20:20:48.458Z",
-      "relatedArticles": [
-        {
-          "title": "Why do most countries that implement \"Age Verification\" rules never reflect on hacking in Indonesia?",
-          "slug": "2026-04-22-why-do-most-countries-that-implement-age-verification-rules-never-reflect-on-hac",
-          "category": "Surveillance State"
-        }
-      ]
-    },
     {
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-04-22T20:20:41.504Z",
+      "pubDate": "2026-04-22T22:00:21.930Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -125,7 +36,7 @@
       ],
       "slug": "2026-04-22-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-04-22T20:20:51.201Z",
+      "generatedAt": "2026-04-22T22:00:28.502Z",
       "relatedArticles": [
         {
           "title": "A New Iran (Military?) Base Case",
@@ -146,8 +57,7 @@
         "ZeroHedge",
         "r/worldnews",
         "r/technology",
-        "r/cryptocurrency",
-        "Ars Technica"
+        "r/cryptocurrency"
       ],
       "content": "Our central assumption for the Iran war had been that by end the third week of April at latest, the Iranian regime faction willing to make a deal in line with Trump’s tweets would have asserted itself over those who won’t, Hormuz would slowly reopen, and energy markets gradually normalise. As neither the Iranian nor US negotiating teams traveled to Pakistan for the second round of peace talks yesterday, that cannot happen. Our new geopolitical base case is of an extended closure of Hormuz (in the range of 2-4 weeks). However, the likelihood of escalation to achieve that de-escalation is very high, which risks more energy supply damage. Trump just unilaterally and indefinitely extended the ceasefire, “based on the fact that the Government of Iran is seriously fractured,” which the Iranians didn’t request, but Pakistan did. In the Middle East, making a threat and not following through smacks of weakness, and will be noted (again) by Tehran’s hardliners. He added US attacks would be held off “until such time as their leadership and representatives can come up with a unified proposal.” That’s as a Saudi tweet claimed Ghalibaf and Pezeskhian, willing to negotiate with Trump, have been arrested by the IRGC. If true, that points to a unified Iranian position of defiance. That would then require a US response - either an attack or a 1956 Suez Crisis retreat . Of course, Iran may be incapable of a unified answer until its factions turn on each other (which is likely part of the US strategy) - that would also suggest the need for a US attack, to ‘shake the box’. Or this ceasefire extension can be a US deception as its forces continue to fly or sail into the region. Meanwhile, the US economic blockade of Iran and the de facto Iranian blockade of Hormuz remain in place: critical energy and goods are not going to flow for longer, with exponentially rising economic damage. Indeed, the US says it will ramp up Operation ‘Economic Fury’ at sea and via sanctions. Iran claims it will break its blockade by force, if it persists, which would of course lead us straight to an escalation again. Importantly, the threat of an extended throttling of Hormuz will increase the global pressure to act . On one hand, US allies might do something, though this seems unlikely. On the other, China may have to given it has already stated it wants Hormuz to reopen. Looked at like this, there is nothing for markets to savor about a ‘chicken TACO Tuesday ’. Indeed, screen oil prices only softened a little in response to the US ceasefire extension, and the price of physical oil and products in Asia will continue to rise unless Hormuz reopens. Yet it’s undeniable the extended ceasefire also points towards a true TACO, which we’ve long made clear would be a geopolitical earthquake on par with the 1956 Suez Crisis. Were that to occur, it might be bearish for energy but could leave Iran in charge of Hormuz, which is less so; or Israel in charge of removing Iran from Hormuz, so far less so. Moreover, it would be it would be bearish for lots of assets markets don’t yet envision. This is as Trump says a proposed currency swap with the UAE -- which is pegged to the dollar-- is under consideration, with some suggestions China will step in if not. That such an economy might need a dollar facility says a lot about the new world (dis)order that is emerging. In parallel to Iran, Israel and Hezbollah’s ceasefire is holding on by its fingernails. Lebanon’s PM says his government will not let Hezbollah “intimidate us” – which lack of government actions shows it clearly does; and top US senators are calling to halt aid to Lebanon’s army over its failed Hezbollah disarmament efforts. Things are also fluid --but not flowing-- on other geopolitical fronts. Zelenskyy stated the Druzhba oil pipeline will be ready to ship Russian oil again – as Russia halted Kazakhstan&#x27;s oil flows to Germany via it, worsening its energy crisis . The €90bn EU loan to Ukraine may now proceed, with Kyiv expected to spend the bulk of it on US Patriots, UK Storm Shadows and its own drones – which will be used to hit Russian oil refineries based on the recent heuristic. Yet Ukraine is reportedly proposing naming part of the disputed Donbas region to ‘Donnyland’ in Trump’s honor, not Von der Leyen-land. At the same time the EU is trying to ease new tensions with Turkey, which also hosts energy pipelines leading to it, after VDL used a media interview to name the EU neighbour alongside Russia and China as threats to Europe requiring Brussels to ‘Complete the continent.” To paraphrase Oscar Wilde, “ To lose one key NATO ally may be regarded as a misfortune; to lose two looks like carelessness.” Meanwhile, as the Middle East and Russian energy complexes are mired in war, a key trader warns of a looming global food shock due to a squeeze on fertilizers ; the EU is looking to revive joint gas buying as energy fears mount, which critics say will make little difference; Brussels said we should keep flying despite a looming fuel shortage as “Fears of widespread cancellations are overblown” – as Lufthansa axed 20,000 ‘unprofitable’ flights to save jet fuel; and EU lawmakers urged the Parliament to halt its monthly trip to Strasbourg over energy costs. So, to central banks. See our US strategist Philip Marey’s take on Fed Chair nominee Warsh’s Senate confirmation hearing here , but note he had a tough time, reflecting how much political economy has shifted in the past few years . (Recall “Maestro’ Greenspan, anyone?) Senator Warren called Warsh President Trump’s “sock puppet .” Then there were a series of questions over Warsh’s wealth, and the extent to which it was tied to Trump, Druckenmiller, China, or Epstein. That’s before we got to actual central banking, which was also disputed. Warsh had to underline that he backs Fed independence. Yet he thinks interest rates rather than the balance sheet should be the dominant tool of monetary policy, because the distributional effects of the latter favoured the rich, while the more pervasive effects of the former reached everybody. That statement undoes most of the post-GFC central bank strategy. Warsh also said he wants to work with the Treasury Secretary to see how the Fed can reduce the balance sheet and get out of fiscal policy. That’s as the Pentagon budget is about to increase by 40% and the Treasury is extending its reach into other areas as part of US economic statecraft. Moreover, while there was some Q&A around the impact of the Iran war on inflation, there was no revealed view on how the Fed can keep CPI low if physical supply constraints matter , from oil to AI to the military; nor what to do if those constraints extend into the geopolitical realm, both in terms of freely-perceived problems and politesse-free solutions. Saying ‘That’s not my job,’ is not how economic statecraft works. There was also a short discussion of crypto, which Warsh backed: and US dollar stablecoins are potential US economic statecraft, as we have previously explained. Yet there were no questions about political swaplines, perhaps because the Treasury is also muscling in on that territory of late(?)",
       "keywords": [
@@ -172,12 +82,100 @@
       ],
       "slug": "2026-04-22-a-new-iran-military-base-case",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/new-iran-military-base-case",
-      "generatedAt": "2026-04-22T20:20:53.552Z",
+      "generatedAt": "2026-04-22T22:00:30.409Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
           "slug": "2026-04-22-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Surveillance Pricing: Exploiting Information Asymmetries",
+      "url": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
+      "description": "",
+      "pubDate": "2026-04-22T17:13:19.000Z",
+      "source": "Hacker News",
+      "hnScore": 73,
+      "hnComments": 30,
+      "category": "Surveillance State",
+      "score": 11,
+      "sources": [
+        "Hacker News"
+      ],
+      "content": "Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Before the 1870s, retail goods rarely carried fixed prices. Instead, haggling was the norm. Customers and store clerks engaged in a song and dance, testing the other’s economic limits. Then, on the eve of the Philadelphia World’s Fair, businessman John Wanamaker transformed an abandoned railroad station into the Grand Depot , one of the first department stores in the United States. At the grand opening, each item in the sprawling store was affixed with a conspicuous label declaring a non-negotiable price. When millions came to the city for the fair, many had their first encounter with fixed price tags. The elimination of haggling saved both customers and clerks time, making the market significantly more efficient. Fair visitors brought the idea of the price tag home with them. Soon, businesses around the world adopted fixed prices and price transparency. One hundred and fifty years later, the datafication of the economy is causing the retail experience to regress to a form of variable pricing far more coercive than the haggling of the past. With online shopping, social media, and data collection, modern corporations have access to more information than ever before. Retailers can view your purchase history, location, personal demographics, and much more. This has enabled businesses across a variety of sectors to engage in surveillance pricing—the practice of extracting and exploiting personal information in order to charge customers different prices for the same product or service. Today, variable pricing is back, but this time the seller knows everything about you. The viability of surveillance pricing—its profitability, ubiquity, and exploitative nature—hinges on the presence of market failures. Severe information asymmetries are perhaps the most insidious. While corporations have access to data brokers, online behavioral advertising, and algorithms that can adjust prices in real time, consumers are more disempowered than ever. Surveillance pricing is not new. American capitalism has a long tradition of consumer exploitation, including targeted advertising, behavioral advertising, price discrimination, and algorithmic pricing. All of these tactics make it easier for corporations to extract more consumer surplus; that is, to close the gap between what consumers are willing to pay and what they actually pay. Since the 2010s, companies have been experimenting with more precise and invasive pricing schemes. In 2011, Ticketmaster rolled out “ dynamic pricing ,” which adjusted ticket prices based on demand and caused prices to reach levels that captured virtually all consumer surplus. Later that year, Uber implemented its notorious “ surge pricing ,” which applied multipliers to the price of a ride during weekends, special events, and inclement weather. In 2012, Orbitz infamously displayed more expensive hotel offers to Mac users on the assumption that they were less price-sensitive. A 2015 ProPublica investigation revealed that Princeton Review charged higher prices to customers from ZIP codes with more Asian people . Staples and Target have both experimented with GPS-based pricing, charging higher prices to customers close to them and far from competitors . In 2025, a group of nonprofits revealed that some grocery prices on Instacart differed by as much as 23 percent from one customer to another. These pricing strategies share a common characteristic: using information asymmetries to take advantage of consumers when they are most constrained and captive. Crucially, the objective of surveillance pricing is not personalization, but maximum extraction. While an outright ban on surveillance pricing offers a direct solution, such an approach still leaves underlying systemic problems unaddressed. The extractive aspects of a failing oligopolistic market—data brokers, online behavioral advertising, information asymmetry, and consumer isolation—remain even if corporations can no longer openly engage in surveillance pricing. Conversely, mere disclosure—which typically only requires companies to inform consumers that prices may be set based on personal data—is far too narrow to meaningfully protect consumers from price gouging. Disclosure regimes outsource accountability by placing the onus on consumers to determine how their data may affect the price they are shown instead of changing corporations’ practices. Laws mandating disclosure may leave consumers more informed, but they fail to lower prices and prevent companies from amassing personal data. In May 2025, New York became the first state to pass a law specifically targeting surveillance pricing. The Algorithmic Pricing Disclosure Act requires companies that set prices using an algorithm based on consumers’ personal data to display a disclosure stating, “THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA.” The Act defines personal data as “any data that identifies or could reasonably be linked, directly or indirectly, with a specific consumer or device.” Several other states have pending bills that would either ban surveillance pricing outright or require similar disclosures. Although New York’s Algorithmic Pricing Disclosure Act represents a step in the right direction, it ultimately falls into the transparency trap. That is, transparency alone will not curb the harms of surveillance pricing. The New York law merely mandates that businesses acknowledge their use of surveillance pricing. The consumer is left informed but unprotected. Without options to safeguard their data, the value of the disclosure is questionable at best. Furthermore, individuals often lack the necessary expertise or resources to make sense of disclosed information, resulting in information overload or fatigue (when was the last time you read a cookie consent prompt?). The disclosure approach is untenable as digital products and services become increasingly essential for navigating daily life. Addressing surveillance pricing requires more than mere transparency; it necessitates meaningful accountability. To that end, recent federal bills offer a more impactful solution by including a missing ingredient: enforcement. The Stop AI Price Gouging and Wage Fixing Act of 2025 , introduced by House Representatives Greg Casar (D-TX) and Rashida Tlaib (D-MI), would eliminate surveillance pricing and wage setting. With respect to surveillance pricing, the proposed bill defines “surveillance data” as not only data obtained by the business implementing surveillance pricing but information gathered or purchased from other sources. Crucially, state attorneys general and private citizens could bring civil actions for alleged violations. Additionally, the Act empowers the FTC to impose fines and consumer redress on offenders. In December 2025, Senator Ruben Gallego (D-AZ) introduced the “ One Fair Price Act of 2025 ,” which includes similar definitions and enforcement mechanisms. Unfortunately, the likelihood of either bill passing is low. While federal legislation faces significant hurdles in a divided Congress, there is an appetite for regulating surveillance pricing. The outlook is more positive in state legislatures , where lawmakers are more sensitive to constituents’ concerns about the rising costs of groceries and housing. Despite my gripes with the New York law’s distinct lack of bite, business interests were quick to call the law too broad and confusing for consumers . Critics allege that the language imposed by the Act could be interpreted as a warning about pricing errors or overcharging instead of a neutral transparency statement. In July 2025, the National Retail Federation, the world’s largest retail trade association, challenged the New York disclosure law on First Amendment grounds , arguing that the Act “compels NRF members to publish misleading government opinions.” The Southern District of New York dismissed NRF’s lawsuit in October 2025, reasoning that “the statement requirement by the Act . . . is plainly factual,” and “the required disclosure accurately describes plaintiff’s members’ practices.” The case is pending appeal before the Second Circuit, but the law went into effect in November 2025. While New York’s law survived the challenge at the district court level, the lawsuit highlights a significant risk to legislative efforts to limit companies’ ability to collect information on consumers: the First Amendment. The Supreme Court in Sorrell v. IMS Health (2011) struck down Vermont’s Prescription Confidentiality Law, which prohibited the sale of doctors’ prescribing history to drug marketers. According to the Vermont legislature, the law was designed to prohibit pharmacies from selling or using “prescriber-identifiable” data to drug companies. By banning the sale of prescription records, the law aimed to protect physician privacy, curb targeted pharmaceutical marketing, and ultimately, reduce reliance on expensive brand-name drugs. The Court, however, held that restricting corporate flows of information—here, physicians’ prescribing records—violated the First Amendment. Specifically, the Court found that the Vermont law imposed speaker- and content-based restrictions by targeting specific speakers (pharmaceutical sales representatives and data miners) and specific content (drug marketing). In fact, the Court held that the law amounted to both content and viewpoint discrimination because it permitted the same information to be used freely for other purposes, such as research and education, but restricted its use for marketing purposes. In a 6-3 decision, the Court in Sorrell concluded that data mining for marketing purposes is speech fully protected by the First Amendment. The Sorrell case reflects a dire interpretive misstep in First Amendment jurisprudence: conflating privacy regulation with speech regulation. The Court found that the creation and dissemination of information are themselves speech protected by the First Amendment. However, if “data” is given the same constitutional treatment as “speech,” this expansionist interpretation would swallow up virtually every regulation affecting data flows: product labels, securities disclosures, job safety and labor law disclosures, and so on. Not all regulations of information flows fall within the realm of the First Amendment. NRF’s lawsuit seeking to enjoin the New York Algorithmic Pricing Disclosure Act also invoked Sorrell , arguing that “the Act is subject to heightened review because it singles out a class of speakers for differential treatment based on the subject matter of their speech.” Thankfully, the district court distinguished the New York law as requiring commercial disclosure whereas the Vermont law restricted commercial speech. Despite this limited victory, courts have increasingly adopted an expansionist conception of the First Amendment post Sorrell , rendering the constitutionality of data privacy statutes and even disclosure statutes unclear. Sorrell is an obstacle to an outright ban on surveillance pricing and limits states’ ability to regulate data brokers. However, Sorrell also offers valuable lessons for states interested in regulating surveillance pricing and enacting privacy protections more broadly. Since Sorrell , courts have applied a more forgiving standard to disclosures. In fact, when the Southern District of New York dismissed the NRF’s lawsuit, it held that disclosure mandates promote the free flow of information. To avoid Vermont’s pitfall of targeting a specific category of speakers and content, legislation should be drafted carefully to only regulate economic activity or conduct.",
+      "keywords": [
+        "surveillance-state news",
+        "pricing",
+        "data",
+        "surveillance",
+        "information",
+        "disclosure",
+        "prices",
+        "price"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#pricing",
+        "#data",
+        "#surveillance",
+        "#information",
+        "#disclosure",
+        "#prices",
+        "#price"
+      ],
+      "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
+      "sourceUrl": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
+      "generatedAt": "2026-04-22T22:00:32.208Z",
+      "relatedArticles": [
+        {
+          "title": "Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC",
+          "slug": "2026-04-22-democrats-lose-a-vital-propaganda-machine-with-the-fall-of-the-splc",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC",
+      "url": "https://www.zerohedge.com/political/democrats-lose-vital-propaganda-machine-fall-splc",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC </span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>When creating a short list of nefarious NGOs that manipulate government policy and socially engineer public opinion, the Southern Poverty Law Center is usually near the top. Th",
+      "pubDate": "Wed, 22 Apr 2026 14:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 10,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "When creating a short list of nefarious NGOs that manipulate government policy and socially engineer public opinion, the Southern Poverty Law Center is usually near the top. The group has been fading in influence due to excessive exposure, with new and less visible left wing NGOs taking it&#x27;s place. However, it remains a key pillar of the Democratic Party&#x27;s propaganda machine and a poisonous cloud looming over grassroots conservative organization. News from the Trump FBI and DOJ indicates that this reign of political terror may finally be coming to an end. The Southern Poverty Law Center has been indicted on federal fraud charges that accuse it of illegally raising millions of dollars to pay informants in white supremacist and other extremist groups. Acting Attorney General Todd Blanche said the SPLC used paid operatives within extremist circles to incite and intensify racial tensions, arguing the group fostered the very threats it claimed to fight. But why was an NGO allowed to operate like a covert federal agency for so long? These operations were essentially endorsed by the Democratic Party (as well as some Neo-Cons). One could say that the SPLC had two missions: First, to drum up hysteria among weak minded liberals and make them believe that there are malicious \"hate groups\" under every rock and behind every tree. Second, to make conservatives paranoid about informants when seeking to build political opposition movements. Sadly, to this day, the SPLC was rather successful in achieving both goals. The NGO&#x27;s efforts to create a false model of \"hate networks\" (especially during the Obama years) was a primary impetus for the eventual rise of the woke activist movement from around 2012 onward. In other words, the insane cult obsessed with race and identity that plagues America today found its roots within the SPLC and their alliance with the Democratic Party. SPLC \"informants\" were a constant nuisance among conservative activist and protest groups as well as preparedness groups. Nothing these conservatives did was actually illegal, but, the SPLC had a knack for making it sound as if they were engaging in criminality. Far too many right wingers were frightened into refusing to engage in basic meetings and public discussions, simply on the possibility that SPLC informants might be present. No such infiltration was used to target left wing extremist groups like Antifa, which have carried out numerous criminal attacks, riots, sabotage and acts of intimidation against their political opponents. But, times change and the truth cannot be suppressed forever. Conservative and nationalist movements grew exponentially, even if they still suck at organizing formally. And today, the SPLC is a widely known and rightfully despised entity. The SPLC was specifically integral to the Obama and Biden Administrations, including a direct information sharing relationship with the DHS and FBI. The majority of anti-conservative policy papers published by the federal government during this time were crafted using SPLC propaganda. The 2009 DHS Rightwing Extremism Report, a unclassified assessment warning of potential \"surges\" in right-wing extremism, drew input extensively from SPLC info. The report targeted militia groups as potential homegrown terrorists and was partially withdrawn because of political backlash. A separate 2009 state-level fusion center report - the Missouri Information Analysis Center (MIAC) \"Modern Militia Movement\" report - linked supposedly dangerous militia members to \"3rd party political groups\" and \"supporters of Ron Paul, Chuck Baldwin, and Bob Barr.\" The report flagged symbols like the Gadsden Flag, as well as anti-government, anti-new world order and anti-martial law discussion as potential indicators of homegrown terrorism. The SPLC was a key participant in the formation of the MIAC report. SPLC President Richard Cohen served on Secretary Janet Napolitano’s CVE Working Group in 2010. Cohen and an SPLC colleague acted as subject-matter experts on right-wing extremism in the DHS Countering Violent Extremism (CVE) Working Group. Their purpose was to shift federal law enforcement focus almost entirely from Islamic-based terrorism over to right wing extremism. Under Biden, the SPLC was highly active in shaping public narratives surrounding the J6 trials. SPLC staff provided training to DOJ prosecutors and SPLC leaders/staff visited the White House at least 11 times. President Biden personally met with SPLC representatives at least 6 times. With the fall of the SPLC, the Democrats lose a vital tool in their social engineering arsenal. If the accusations turn out to be true and SPLC leaders are convicted, their activities should be considered as treason against the American people. Any and all NGOs participating in social engineering operations against the US populace must eventually be indicted and erased if the country is ever going to rebuild the public trust, but bringing down the SPLC is a good start. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "surveillance-state news",
+        "splc",
+        "field",
+        "groups",
+        "policy",
+        "report",
+        "public",
+        "center"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#splc",
+        "#field",
+        "#groups",
+        "#policy",
+        "#report",
+        "#public",
+        "#center"
+      ],
+      "slug": "2026-04-22-democrats-lose-a-vital-propaganda-machine-with-the-fall-of-the-splc",
+      "sourceUrl": "https://www.zerohedge.com/political/democrats-lose-vital-propaganda-machine-fall-splc",
+      "generatedAt": "2026-04-22T22:00:33.756Z",
+      "relatedArticles": [
+        {
+          "title": "Surveillance Pricing: Exploiting Information Asymmetries",
+          "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
+          "category": "Surveillance State"
         }
       ]
     },
@@ -215,7 +213,7 @@
       ],
       "slug": "2026-04-22-duffy-seeking-10-billion-from-congress-to-revamp-air-traffic-control-system",
       "sourceUrl": "https://www.zerohedge.com/political/duffy-seeking-10-billion-congress-revamp-air-traffic-control-system",
-      "generatedAt": "2026-04-22T20:20:55.569Z",
+      "generatedAt": "2026-04-22T22:00:35.541Z",
       "relatedArticles": [
         {
           "title": "CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber",
@@ -258,7 +256,7 @@
       ],
       "slug": "2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif",
       "sourceUrl": "https://www.zerohedge.com/political/cia-security-officer-files-lawsuit-against-steve-baker-and-blaze-identifying-her-j6",
-      "generatedAt": "2026-04-22T20:20:57.206Z",
+      "generatedAt": "2026-04-22T22:00:36.802Z",
       "relatedArticles": [
         {
           "title": "Duffy Seeking $10 Billion From Congress To Revamp Air Traffic Control System",
@@ -301,57 +299,143 @@
       ],
       "slug": "2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da",
       "sourceUrl": "https://www.zerohedge.com/ai/anthropics-too-dangerous-release-ai-model-was-accessed-discord-group-day-one",
-      "generatedAt": "2026-04-22T20:20:58.858Z",
+      "generatedAt": "2026-04-22T22:00:38.362Z",
       "relatedArticles": [
         {
-          "title": "In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era",
-          "slug": "2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era",
+          "title": "67% of Android apps log data not mentioned in their privacy policies",
+          "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
           "category": "Tech & Privacy"
         }
       ]
     },
     {
-      "title": "In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era",
-      "url": "https://www.zerohedge.com/ai/google-unveils-two-chips-agentic-era",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>In a blog post titled <strong><em>\"Our Eighth Generation TPUs: Two Chips for the Agentic Era,\"</em></strong> Google Senior Vice President and Chief Technologist for AI and In",
-      "pubDate": "Wed, 22 Apr 2026 13:00:00 +0000",
-      "source": "ZeroHedge",
+      "title": "67% of Android apps log data not mentioned in their privacy policies",
+      "url": "https://www.reddit.com/r/privacy/comments/1srvuf1/67_of_android_apps_log_data_not_mentioned_in/",
+      "description": "&#32; submitted by &#32; <a href=\" /u/ATonOfBricksFellOnMe </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-04-21T18:11:17.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
       "category": "Tech & Privacy",
       "score": 9,
       "sources": [
-        "ZeroHedge",
-        "r/stocks",
-        "Ars Technica"
+        "r/privacy"
       ],
-      "content": "In a blog post titled \"Our Eighth Generation TPUs: Two Chips for the Agentic Era,\" Google Senior Vice President and Chief Technologist for AI and Infrastructure Amin Vahdat unveiled the latest generation of the company&#x27;s in-house AI chips, splitting the lineup into two versions. The TPU 8t is designed for training AI models, while the TPU 8i is built for inference, or running AI services once they are developed and deployed, taking direct aim at Nvidia. \"The culmination of a decade of development, TPU 8t and TPU 8i are custom-engineered to power the next generation of supercomputing with efficiency and scale,\" Vahdat wrote in the blog post . Hardware development cycles are much longer than software. With each generation of TPUs, we need to consider what technologies and demands will exist by the time they are brought to market. Several years ago, we anticipated rising demand for inference from customers as frontier AI models are deployed in production and at scale. And with the rise of AI agents, we determined the community would benefit from chips individually specialized to the needs of training and serving. Vahdat pointed out that the new chips store more data directly on the processor, helping reduce delays and improve responsiveness, especially for more complex AI models that reason through tasks in steps. He also emphasized efficiency, saying the TPU 8t delivers 124% more performance per watt than the prior generation, while the TPU 8i improves that metric by 117% - this is important since the power bill crisis has swayed local politicians in many states and become a major roadblock in data center buildouts. The announcement highlights Google&#x27;s move to become a leader in producing in-house AI chips despite Nvidia&#x27;s continued dominance. At the same time, Google said it will continue offering Nvidia-based systems to customers. The broader message is that Google is trying to strengthen its AI infrastructure advantage by tailoring its chips more precisely for the distinct demands of training and inference. Also, across the industry, Microsoft, Meta, Amazon, Apple, and others are pursuing custom AI chips for specialized workloads. Shares of Google were modestly higher in premarket trading after the blog post, rising about 1.5%. Even so, the stock has traded sideways this year. TPUs have powered Google&#x27;s Gemini models for years, and the latest announcement signals a push to deliver greater scale, efficiency, and responsiveness across both training and serving workloads. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "&#32; submitted by &#32; <a href=\" /u/ATonOfBricksFellOnMe </a> <br/> <span><a href=\" &#32; <span><a href=\"",
       "keywords": [
         "tech-&-privacy news",
-        "chips",
-        "google",
-        "field",
-        "generation",
-        "nvidia",
-        "latest",
-        "agentic"
+        "android",
+        "apps",
+        "data",
+        "mentioned",
+        "their",
+        "privacy",
+        "policies"
       ],
       "hashtags": [
         "#tech-&-privacynews",
-        "#chips",
-        "#google",
-        "#field",
-        "#generation",
-        "#nvidia",
-        "#latest",
-        "#agentic"
+        "#android",
+        "#apps",
+        "#data",
+        "#mentioned",
+        "#their",
+        "#privacy",
+        "#policies"
       ],
-      "slug": "2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era",
-      "sourceUrl": "https://www.zerohedge.com/ai/google-unveils-two-chips-agentic-era",
-      "generatedAt": "2026-04-22T20:21:00.163Z",
+      "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srvuf1/67_of_android_apps_log_data_not_mentioned_in/",
+      "generatedAt": "2026-04-22T22:00:39.776Z",
       "relatedArticles": [
         {
           "title": "Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One",
           "slug": "2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da",
           "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Here's How Trump Can Nuke Virginia's New Gerrymandered Map...",
+      "url": "https://www.zerohedge.com/political/heres-how-trump-can-nuke-virginias-new-gerrymandered-map-and-its-brilliant",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Here's How Trump Can Nuke Virginia's New Gerrymandered Map...</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Matt Margolis via PJMedia.com,</em></a></p> <p><strong>Virginia used to be a model of fair redistricting. That reputation is now gone.</strong></p> <p><a data-image-exter",
+      "pubDate": "Wed, 22 Apr 2026 21:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Unexplained",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Matt Margolis via PJMedia.com, Virginia used to be a model of fair redistricting. That reputation is now gone. On Tuesday, Virginia Democrats passed a redistricting plan that transforms one of the most fairly apportioned states in the country into one of the most blatantly gerrymandered. Keep in mind that Virginia only narrowly backed Kamala Harris over Donald Trump in 2024 by roughly five points. Virginia is, in every way, a battleground state. Yet under the new map, nearly half the state’s voters effectively lose their voice. The new lines snake from densely packed, heavily Democratic suburbs deep into rural territory. There is nothing democratic about it. And the endgame is obvious. If these maps survive a court challenge, Democrats will have a much easier path to stacking Congress against President Donald Trump — setting up yet another sham impeachment attempt over nothing. Democrats aren’t even hiding what they’re doing anymore. Why would they? Republicans have spent years playing nice while the left plays to win, and they play dirty. That has to stop. And there may be a remarkable way to stop it right now. Chad R. Mizelle — former chief of staff to the U.S. Attorney General, former acting general counsel of DHS, former chief of staff at DHS, and former associate counsel to President Trump — has floated a counter-move. He’s calling it a form of “re-Districting,” and it could nuke the Democrats’ new gerrymandered map. Here’s the history. In 1790, both Virginia and Maryland ceded territory to create the new national capital. Virginia’s portion — what is now Arlington County and the city of Alexandria — remained part of the District of Columbia until 1847, when Congress returned it to Virginia. The reason? To protect slavery. The District had abolished it, and Virginia slaveholders didn’t want to give up their slaves. Democrats love to talk about the legacy of slavery to justify tearing down statues, renaming buildings, etc. — to be consistent, they should give that piece of land back to the District. The legal questions over this retrocession have never gone away. President William Howard Taft and others argued that it was unconstitutional and pushed to reclaim the land for D.C. However, the Supreme Court has never definitively settled the matter. Mizelle’s proposal is for Trump to issue an executive order declaring that slavery-motivated retrocession unconstitutional. That order wouldn’t need to resolve everything on its own — it would immediately trigger litigation and force federal courts to finally answer the question: Do Arlington and Alexandria legally belong to Virginia or to the District of Columbia? The legal footing here is rock solid, but the cultural argument is just as strong. Obviously, Arlington and Alexandria are among the bluest jurisdictions in the country, packed with federal employees and D.C.-oriented professionals whose political and economic lives are already aligned with the capital. As Mizelle notes, those residents would “feel right at home” as part of the District. Their removal from Virginia’s congressional map would substantially shift the partisan balance across the rest of the commonwealth, restoring a voice to the rural and small-town voters currently being drowned out. This isn’t a mirror-image power grab. It targets a historically tainted decision, seeks legitimate judicial clarity, and corrects a gerrymander that disenfranchises nearly half a state. There’s more detailed legal analysis available over at The American Capital Project , and the constitutional case for returning that slice of Virginia to D.C. is solid. I’ve said it before, and I’ll say it again: Republicans have to stop playing nice. This is exactly the kind of response that shows Democrats the era of one-sided hardball is over. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide",
+      "keywords": [
+        "unexplained news",
+        "virginia",
+        "field",
+        "trump",
+        "democrats",
+        "district",
+        "here",
+        "gerrymandered"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#virginia",
+        "#field",
+        "#trump",
+        "#democrats",
+        "#district",
+        "#here",
+        "#gerrymandered"
+      ],
+      "slug": "2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map",
+      "sourceUrl": "https://www.zerohedge.com/political/heres-how-trump-can-nuke-virginias-new-gerrymandered-map-and-its-brilliant",
+      "generatedAt": "2026-04-22T22:00:40.942Z",
+      "relatedArticles": [
+        {
+          "title": "H.R. 8250 (Parents Decide Act) would require age verification at the OS level",
+          "slug": "2026-04-22-hr-8250-parents-decide-act-would-require-age-verification-at-the-os-level",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "H.R. 8250 (Parents Decide Act) would require age verification at the OS level",
+      "url": "https://www.reddit.com/r/privacy/comments/1ssjyhi/hr_8250_parents_decide_act_would_require_age/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>A bill currently in Congress — H.R. 8250, the Parents Decide Act — proposes requiring age verification built into operating systems as a way to protect minors online. The intent is understandable, but the implementation raises some serious questions worth bringing to your representative's attention.</p> <p>A few concerns worth considering:</p> <p>If OS-level verif",
+      "pubDate": "2026-04-22T12:24:56.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Unexplained",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>A bill currently in Congress — H.R. 8250, the Parents Decide Act — proposes requiring age verification built into operating systems as a way to protect minors online. The intent is understandable, but the implementation raises some serious questions worth bringing to your representative's attention.</p> <p>A few concerns worth considering:</p> <p>If OS-level verif",
+      "keywords": [
+        "unexplained news",
+        "parents",
+        "decide",
+        "verification",
+        "level",
+        "worth",
+        "require",
+        "bill"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#parents",
+        "#decide",
+        "#verification",
+        "#level",
+        "#worth",
+        "#require",
+        "#bill"
+      ],
+      "slug": "2026-04-22-hr-8250-parents-decide-act-would-require-age-verification-at-the-os-level",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1ssjyhi/hr_8250_parents_decide_act_would_require_age/",
+      "generatedAt": "2026-04-22T22:00:42.653Z",
+      "relatedArticles": [
+        {
+          "title": "Here's How Trump Can Nuke Virginia's New Gerrymandered Map...",
+          "slug": "2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map",
+          "category": "Unexplained"
         }
       ]
     },
@@ -389,7 +473,7 @@
       ],
       "slug": "2026-04-22-alligator-alcatraz-can-continue-operating-appeals-court-says",
       "sourceUrl": "https://www.zerohedge.com/political/alligator-alcatraz-can-continue-operating-appeals-court-says",
-      "generatedAt": "2026-04-22T20:21:01.635Z",
+      "generatedAt": "2026-04-22T22:00:44.281Z",
       "relatedArticles": [
         {
           "title": "US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing",
@@ -432,98 +516,12 @@
       ],
       "slug": "2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing",
       "sourceUrl": "https://www.zerohedge.com/ai/us-law-firm-apologizes-after-ai-hallucinations-made-it-legal-filing",
-      "generatedAt": "2026-04-22T20:21:03.673Z",
+      "generatedAt": "2026-04-22T22:00:46.286Z",
       "relatedArticles": [
         {
           "title": "'Alligator Alcatraz' Can Continue Operating, Appeals Court Says",
           "slug": "2026-04-22-alligator-alcatraz-can-continue-operating-appeals-court-says",
           "category": "Money & Markets"
-        }
-      ]
-    },
-    {
-      "title": "Solid 20Y Auction Stops Through With Above Average Foreign Demand",
-      "url": "https://www.zerohedge.com/markets/solid-20y-auction-stops-through-above-average-foreign-demand",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Solid 20Y Auction Stops Through With Above Average Foreign Demand</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>The week's lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction.</p> <p>The auction stopped at a high yield of 4.883%, u",
-      "pubDate": "Wed, 22 Apr 2026 17:31:05 +0000",
-      "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "The week&#x27;s lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction. The auction stopped at a high yield of 4.883%, up from 4.817% in March and the highest since last July. It also stopped through the 4.892% When Issued by 0.9bps, the highest since January. The bid to cover was 2.68, down from 2.76 in March but above the 2.63 six-auction average. The internals were also solid with Indirects taking 67.4% of the auction, down modestly from 69.2% last month but also above the 62.9% recent average for foreign buyers. And with Directs taking 22.9%, up modestly from 21.6% last month, Dealers were left holding just 9.7%, down from the recent average of 11.2%. Overall, this was another solid auction, which is a welcome outcome at a time when 10Y yields are trading near weekly highs just around 4.30%. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "global-power news",
-        "auction",
-        "field",
-        "solid",
-        "average",
-        "above",
-        "foreign",
-        "name"
-      ],
-      "hashtags": [
-        "#global-powernews",
-        "#auction",
-        "#field",
-        "#solid",
-        "#average",
-        "#above",
-        "#foreign",
-        "#name"
-      ],
-      "slug": "2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand",
-      "sourceUrl": "https://www.zerohedge.com/markets/solid-20y-auction-stops-through-above-average-foreign-demand",
-      "generatedAt": "2026-04-22T20:21:05.430Z",
-      "relatedArticles": [
-        {
-          "title": "WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips",
-          "slug": "2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr",
-          "category": "Global Power"
-        }
-      ]
-    },
-    {
-      "title": "WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips",
-      "url": "https://www.zerohedge.com/energy/wti-extends-gains-us-oil-product-exports-hit-record-highs-huge-spr-release-production-dips",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Oil prices are modestly higher this morning, erasing overnight losses on Trump's 'ceasefire extension' after Iran attacked three ships in the Strait ",
-      "pubDate": "Wed, 22 Apr 2026 14:40:17 +0000",
-      "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Oil prices are modestly higher this morning, erasing overnight losses on Trump&#x27;s &#x27;ceasefire extension&#x27; after Iran attacked three ships in the Strait of Hormuz. While headline roulette continues to drive oil prices incrementally, this morning&#x27;s inventory/supply data from DOE will provide some color on how the Gasoline -4.57mm - 10th weekly draw in a row Distillates -3.43mm - 4th weekly draw in a row Crude stocks unexpectedly saw a build last week (after a draw the week before) as did Cushing inventories. However, on the product side, the sizable drawdowns continue... Since the war started, Crude stocks have risen significantly, while gasoline inventories have seen non-stop draws... Weekly US implied gasoline demand is holding up despite elevated prices. The 4-week moving average indicate a slight rise of 32,000 barrels per day, while the more volatile weekly data series ticked down by 33,000 barrels per day. Meanwhile, US average gasoline prices remain above $4 a gallon. It was near $3 a gallon right before the Iran war. The crude inventory build was more than offset by a huge 4.14mm barrel drawdown from the SPR... Notably, total US oil product exports accelerated to a new record high last week... WTI is holding gains for now, near yesterday&#x27;s highs around $92... Finally, as The Wall Street Journal reports, analysts and commodities trading company executives are expressing shock at what they call a disconnect between market pricing and reality. Prices of the most-active Brent futures contract are holding below $100 a barrel despite escalating tension in the Strait of Hormuz and the cancellation of U.S.-Iran peace talks. Just today, two attacks on ships in the waterway showed that the fight for control of the strait continues and spooked shipowners and crew members. Here&#x27;s what I&#x27;m hearing from experts and industry leaders at the Financial Times Commodities Global Summit in Lausanne, Switzerland: \"The lack of price discovery that we are seeing is so worrying to me, because in reality we are storing up a bigger problem for the future,\" said Amrita Sen, founder and director of market intelligence at Energy Aspects. Price discovery refers to the process of buyers and sellers determining the fair price of a good or an asset in the futures market. \"Futures prices are meant to do the job of giving signals to sort out supply and demand. We are doing the opposite,\" she said in a panel. In 2022, when Russia invaded Ukraine, the market didn&#x27;t experience nearly as large a physical disruption as this time, and yet oil prices went much higher and stayed between $110 and $125 a barrel for months, said Saad Rahim, chief economist at Swiss commodity trader Trafigura, at the conference yesterday. \"This time, the scale seems to be something where the market cannot get its head around it, and therefore it says, we are not going to think about it.\" The world is already losing an average of 10 million barrels a day of crude oil and 5 million barrels a day of oil products. Hits to the world&#x27;s supply of fertilizers and chemicals are also severe. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "global-power news",
-        "field",
-        "prices",
-        "market",
-        "product",
-        "iran",
-        "strait",
-        "gasoline"
-      ],
-      "hashtags": [
-        "#global-powernews",
-        "#field",
-        "#prices",
-        "#market",
-        "#product",
-        "#iran",
-        "#strait",
-        "#gasoline"
-      ],
-      "slug": "2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr",
-      "sourceUrl": "https://www.zerohedge.com/energy/wti-extends-gains-us-oil-product-exports-hit-record-highs-huge-spr-release-production-dips",
-      "generatedAt": "2026-04-22T20:21:07.399Z",
-      "relatedArticles": [
-        {
-          "title": "Solid 20Y Auction Stops Through With Above Average Foreign Demand",
-          "slug": "2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand",
-          "category": "Global Power"
         }
       ]
     }

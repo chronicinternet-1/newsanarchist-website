@@ -11,20 +11,20 @@
    ============================================ */
 :root {
   /* Backgrounds */
-  --bg-primary: #FAFAFA;
-  --bg-secondary: #F4F4F4;
-  --bg-card: #FFFFFF;
-  --bg-hover: #F8F8F8;
+  --bg-primary: #E8E4DF;
+  --bg-secondary: #D9D4CE;
+  --bg-card: #F5F1EC;
+  --bg-hover: #EDE9E4;
 
   /* Text */
-  --text-primary: #111111;
-  --text-secondary: #555555;
+  --text-primary: #1A1B2E;
+  --text-secondary: #3D3F54;
   --text-muted: #888888;
 
   /* NewsAnarchist accent — bold orange: confident, disruptive, but clean */
-  --accent: #FF6B35;
-  --accent-dark: #E85520;
-  --accent-light: #FFF0EB;
+  --accent: #2B2D42;
+  --accent-dark: #1A1B2E;
+  --accent-light: #E8E4DF;
 
   /* Structure */
   --border-color: #E8E8E8;
@@ -188,7 +188,7 @@ img { max-width: 100%; height: auto; display: block; }
    BREAKING NEWS TICKER
    ============================================ */
 .breaking-bar {
-  background: var(--accent);
+  background: #C41E24;
   padding: 7px 0;
   overflow: hidden;
   display: flex;
@@ -1313,3 +1313,11 @@ img { max-width: 100%; height: auto; display: block; }
   .share-bar { flex-wrap: wrap; }
   .email-hero-banner { padding: 20px 16px; }
 }
+
+/* === OVERRIDES: Red accents === */
+.nav-logo .logo-icon { background: #C41E24 !important; }
+.btn-subscribe, .email-hero-form .btn-subscribe, .btn-email { background: #C41E24 !important; border-color: #C41E24 !important; }
+.btn-subscribe:hover, .btn-email:hover { background: #A01820 !important; }
+.badge-live { background: #C41E24 !important; animation: blink-live 1.5s infinite; }
+@keyframes blink-live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+.breaking-label { color: #C41E24 !important; }
