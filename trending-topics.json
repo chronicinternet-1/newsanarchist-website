@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-04-22T14:00:50.177Z",
+  "scrapedAt": "2026-04-22T19:55:46.704Z",
   "topicsCount": 12,
   "topics": [
     {
@@ -37,51 +37,52 @@
       ],
       "slug": "2026-04-22-why-do-most-countries-that-implement-age-verification-rules-never-reflect-on-hac",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srmqqk/why_do_most_countries_that_implement_age/",
-      "generatedAt": "2026-04-22T14:00:30.792Z",
+      "generatedAt": "2026-04-22T19:55:27.359Z",
       "relatedArticles": [
         {
-          "title": "San José Residents Sue City, Saying Flock Safety Cameras Allow ‘Mass Surveillance’",
-          "slug": "2026-04-22-san-jos-residents-sue-city-saying-flock-safety-cameras-allow-mass-surveillance",
+          "title": "Surveillance Pricing: Exploiting Information Asymmetries",
+          "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
           "category": "Surveillance State"
         }
       ]
     },
     {
-      "title": "San José Residents Sue City, Saying Flock Safety Cameras Allow ‘Mass Surveillance’",
-      "url": "https://www.reddit.com/r/privacy/comments/1srxxt4/san_josé_residents_sue_city_saying_flock_safety/",
-      "description": "&#32; submitted by &#32; <a href=\" /u/Medical-Decision-125 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-04-21T19:24:11.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
+      "title": "Surveillance Pricing: Exploiting Information Asymmetries",
+      "url": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
+      "description": "",
+      "pubDate": "2026-04-22T17:13:19.000Z",
+      "source": "Hacker News",
+      "hnScore": 47,
+      "hnComments": 14,
       "category": "Surveillance State",
-      "score": 9,
+      "score": 11,
       "sources": [
-        "r/privacy"
+        "Hacker News"
       ],
-      "content": "&#32; submitted by &#32; <a href=\" /u/Medical-Decision-125 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "content": "Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Patrick K. Lin is a Clinical Teaching Fellow at NYU School of Law. Before the 1870s, retail goods rarely carried fixed prices. Instead, haggling was the norm. Customers and store clerks engaged in a song and dance, testing the other’s economic limits. Then, on the eve of the Philadelphia World’s Fair, businessman John Wanamaker transformed an abandoned railroad station into the Grand Depot , one of the first department stores in the United States. At the grand opening, each item in the sprawling store was affixed with a conspicuous label declaring a non-negotiable price. When millions came to the city for the fair, many had their first encounter with fixed price tags. The elimination of haggling saved both customers and clerks time, making the market significantly more efficient. Fair visitors brought the idea of the price tag home with them. Soon, businesses around the world adopted fixed prices and price transparency. One hundred and fifty years later, the datafication of the economy is causing the retail experience to regress to a form of variable pricing far more coercive than the haggling of the past. With online shopping, social media, and data collection, modern corporations have access to more information than ever before. Retailers can view your purchase history, location, personal demographics, and much more. This has enabled businesses across a variety of sectors to engage in surveillance pricing—the practice of extracting and exploiting personal information in order to charge customers different prices for the same product or service. Today, variable pricing is back, but this time the seller knows everything about you. The viability of surveillance pricing—its profitability, ubiquity, and exploitative nature—hinges on the presence of market failures. Severe information asymmetries are perhaps the most insidious. While corporations have access to data brokers, online behavioral advertising, and algorithms that can adjust prices in real time, consumers are more disempowered than ever. Surveillance pricing is not new. American capitalism has a long tradition of consumer exploitation, including targeted advertising, behavioral advertising, price discrimination, and algorithmic pricing. All of these tactics make it easier for corporations to extract more consumer surplus; that is, to close the gap between what consumers are willing to pay and what they actually pay. Since the 2010s, companies have been experimenting with more precise and invasive pricing schemes. In 2011, Ticketmaster rolled out “ dynamic pricing ,” which adjusted ticket prices based on demand and caused prices to reach levels that captured virtually all consumer surplus. Later that year, Uber implemented its notorious “ surge pricing ,” which applied multipliers to the price of a ride during weekends, special events, and inclement weather. In 2012, Orbitz infamously displayed more expensive hotel offers to Mac users on the assumption that they were less price-sensitive. A 2015 ProPublica investigation revealed that Princeton Review charged higher prices to customers from ZIP codes with more Asian people . Staples and Target have both experimented with GPS-based pricing, charging higher prices to customers close to them and far from competitors . In 2025, a group of nonprofits revealed that some grocery prices on Instacart differed by as much as 23 percent from one customer to another. These pricing strategies share a common characteristic: using information asymmetries to take advantage of consumers when they are most constrained and captive. Crucially, the objective of surveillance pricing is not personalization, but maximum extraction. While an outright ban on surveillance pricing offers a direct solution, such an approach still leaves underlying systemic problems unaddressed. The extractive aspects of a failing oligopolistic market—data brokers, online behavioral advertising, information asymmetry, and consumer isolation—remain even if corporations can no longer openly engage in surveillance pricing. Conversely, mere disclosure—which typically only requires companies to inform consumers that prices may be set based on personal data—is far too narrow to meaningfully protect consumers from price gouging. Disclosure regimes outsource accountability by placing the onus on consumers to determine how their data may affect the price they are shown instead of changing corporations’ practices. Laws mandating disclosure may leave consumers more informed, but they fail to lower prices and prevent companies from amassing personal data. In May 2025, New York became the first state to pass a law specifically targeting surveillance pricing. The Algorithmic Pricing Disclosure Act requires companies that set prices using an algorithm based on consumers’ personal data to display a disclosure stating, “THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA.” The Act defines personal data as “any data that identifies or could reasonably be linked, directly or indirectly, with a specific consumer or device.” Several other states have pending bills that would either ban surveillance pricing outright or require similar disclosures. Although New York’s Algorithmic Pricing Disclosure Act represents a step in the right direction, it ultimately falls into the transparency trap. That is, transparency alone will not curb the harms of surveillance pricing. The New York law merely mandates that businesses acknowledge their use of surveillance pricing. The consumer is left informed but unprotected. Without options to safeguard their data, the value of the disclosure is questionable at best. Furthermore, individuals often lack the necessary expertise or resources to make sense of disclosed information, resulting in information overload or fatigue (when was the last time you read a cookie consent prompt?). The disclosure approach is untenable as digital products and services become increasingly essential for navigating daily life. Addressing surveillance pricing requires more than mere transparency; it necessitates meaningful accountability. To that end, recent federal bills offer a more impactful solution by including a missing ingredient: enforcement. The Stop AI Price Gouging and Wage Fixing Act of 2025 , introduced by House Representatives Greg Casar (D-TX) and Rashida Tlaib (D-MI), would eliminate surveillance pricing and wage setting. With respect to surveillance pricing, the proposed bill defines “surveillance data” as not only data obtained by the business implementing surveillance pricing but information gathered or purchased from other sources. Crucially, state attorneys general and private citizens could bring civil actions for alleged violations. Additionally, the Act empowers the FTC to impose fines and consumer redress on offenders. In December 2025, Senator Ruben Gallego (D-AZ) introduced the “ One Fair Price Act of 2025 ,” which includes similar definitions and enforcement mechanisms. Unfortunately, the likelihood of either bill passing is low. While federal legislation faces significant hurdles in a divided Congress, there is an appetite for regulating surveillance pricing. The outlook is more positive in state legislatures , where lawmakers are more sensitive to constituents’ concerns about the rising costs of groceries and housing. Despite my gripes with the New York law’s distinct lack of bite, business interests were quick to call the law too broad and confusing for consumers . Critics allege that the language imposed by the Act could be interpreted as a warning about pricing errors or overcharging instead of a neutral transparency statement. In July 2025, the National Retail Federation, the world’s largest retail trade association, challenged the New York disclosure law on First Amendment grounds , arguing that the Act “compels NRF members to publish misleading government opinions.” The Southern District of New York dismissed NRF’s lawsuit in October 2025, reasoning that “the statement requirement by the Act . . . is plainly factual,” and “the required disclosure accurately describes plaintiff’s members’ practices.” The case is pending appeal before the Second Circuit, but the law went into effect in November 2025. While New York’s law survived the challenge at the district court level, the lawsuit highlights a significant risk to legislative efforts to limit companies’ ability to collect information on consumers: the First Amendment. The Supreme Court in Sorrell v. IMS Health (2011) struck down Vermont’s Prescription Confidentiality Law, which prohibited the sale of doctors’ prescribing history to drug marketers. According to the Vermont legislature, the law was designed to prohibit pharmacies from selling or using “prescriber-identifiable” data to drug companies. By banning the sale of prescription records, the law aimed to protect physician privacy, curb targeted pharmaceutical marketing, and ultimately, reduce reliance on expensive brand-name drugs. The Court, however, held that restricting corporate flows of information—here, physicians’ prescribing records—violated the First Amendment. Specifically, the Court found that the Vermont law imposed speaker- and content-based restrictions by targeting specific speakers (pharmaceutical sales representatives and data miners) and specific content (drug marketing). In fact, the Court held that the law amounted to both content and viewpoint discrimination because it permitted the same information to be used freely for other purposes, such as research and education, but restricted its use for marketing purposes. In a 6-3 decision, the Court in Sorrell concluded that data mining for marketing purposes is speech fully protected by the First Amendment. The Sorrell case reflects a dire interpretive misstep in First Amendment jurisprudence: conflating privacy regulation with speech regulation. The Court found that the creation and dissemination of information are themselves speech protected by the First Amendment. However, if “data” is given the same constitutional treatment as “speech,” this expansionist interpretation would swallow up virtually every regulation affecting data flows: product labels, securities disclosures, job safety and labor law disclosures, and so on. Not all regulations of information flows fall within the realm of the First Amendment. NRF’s lawsuit seeking to enjoin the New York Algorithmic Pricing Disclosure Act also invoked Sorrell , arguing that “the Act is subject to heightened review because it singles out a class of speakers for differential treatment based on the subject matter of their speech.” Thankfully, the district court distinguished the New York law as requiring commercial disclosure whereas the Vermont law restricted commercial speech. Despite this limited victory, courts have increasingly adopted an expansionist conception of the First Amendment post Sorrell , rendering the constitutionality of data privacy statutes and even disclosure statutes unclear. Sorrell is an obstacle to an outright ban on surveillance pricing and limits states’ ability to regulate data brokers. However, Sorrell also offers valuable lessons for states interested in regulating surveillance pricing and enacting privacy protections more broadly. Since Sorrell , courts have applied a more forgiving standard to disclosures. In fact, when the Southern District of New York dismissed the NRF’s lawsuit, it held that disclosure mandates promote the free flow of information. To avoid Vermont’s pitfall of targeting a specific category of speakers and content, legislation should be drafted carefully to only regulate economic activity or conduct.",
       "keywords": [
         "surveillance-state news",
-        "residents",
-        "city",
-        "saying",
-        "flock",
-        "safety",
-        "cameras",
-        "allow"
+        "pricing",
+        "data",
+        "surveillance",
+        "information",
+        "disclosure",
+        "prices",
+        "price"
       ],
       "hashtags": [
         "#surveillance-statenews",
-        "#residents",
-        "#city",
-        "#saying",
-        "#flock",
-        "#safety",
-        "#cameras",
-        "#allow"
+        "#pricing",
+        "#data",
+        "#surveillance",
+        "#information",
+        "#disclosure",
+        "#prices",
+        "#price"
       ],
-      "slug": "2026-04-22-san-jos-residents-sue-city-saying-flock-safety-cameras-allow-mass-surveillance",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srxxt4/san_josé_residents_sue_city_saying_flock_safety/",
-      "generatedAt": "2026-04-22T14:00:32.163Z",
+      "slug": "2026-04-22-surveillance-pricing-exploiting-information-asymmetries",
+      "sourceUrl": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
+      "generatedAt": "2026-04-22T19:55:28.811Z",
       "relatedArticles": [
         {
           "title": "Why do most countries that implement \"Age Verification\" rules never reflect on hacking in Indonesia?",
@@ -91,99 +92,10 @@
       ]
     },
     {
-      "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
-      "url": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Please read the rules, this is not <a href=\"/r/cybersecurity\">r/cybersecurity</a>. We’re removing many more of these posts these days than ever before it seems.</p> <h1>Tip: if you find yourself using the word “safe”, “secure”, “hacked”, etc in your title, you’re probably off-topic.</h1> </div><!-- SC_ON --> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2024-01-25T22:34:37.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Corporate Watchdog",
-      "score": 12,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Please read the rules, this is not <a href=\"/r/cybersecurity\">r/cybersecurity</a>. We’re removing many more of these posts these days than ever before it seems.</p> <h1>Tip: if you find yourself using the word “safe”, “secure”, “hacked”, etc in your title, you’re probably off-topic.</h1> </div><!-- SC_ON --> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "keywords": [
-        "corporate-watchdog news",
-        "posts",
-        "cybersecurity",
-        "topic",
-        "please",
-        "read",
-        "rules",
-        "removing"
-      ],
-      "hashtags": [
-        "#corporate-watchdognews",
-        "#posts",
-        "#cybersecurity",
-        "#topic",
-        "#please",
-        "#read",
-        "#rules",
-        "#removing"
-      ],
-      "slug": "2026-04-22-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
-      "generatedAt": "2026-04-22T14:00:33.233Z",
-      "relatedArticles": [
-        {
-          "title": "Some secret management belongs in your HTTP proxy",
-          "slug": "2026-04-22-some-secret-management-belongs-in-your-http-proxy",
-          "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
-      "title": "Some secret management belongs in your HTTP proxy",
-      "url": "https://blog.exe.dev/http-proxy-secrets",
-      "description": "",
-      "pubDate": "2026-04-19T17:19:32.000Z",
-      "source": "Hacker News",
-      "hnScore": 35,
-      "hnComments": 9,
-      "category": "Corporate Watchdog",
-      "score": 8,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "Larger organizations commit to centralizing secrets management in a service. When done well, these services solve a lot of issues around secrets, at the cost of creating a lot of ops overhead (which is why they are limited to larger organizations) and engineering complexity. Smaller organizations have, until now, lived with the pain. But the pain has become far more significant with agents. Agents fuss when you directly hand them an API key. It usually works, and if you make it a rapidly revocable key that you disable after the session, you mitigate the risks. But some models (you know which ones) freak out on seeing the secret, and refuse to do anything now that the key is “exposed.” Models that are not so ridiculous about API keys will write the key to inter-session memory, pulling it out in another session and burning precious context window trying to use a revoked key. All of which assumes you go to the effort of constantly generating keys. Like so many problems getting attention right now, this looks like a problem created by agents. But the problem was always there. API keys are convenient but too powerful. Holding one does not just grant you the ability to make API calls, it grants you the power to give others the ability to make API calls (by sending them the key). No software I write in production that has an /etc/defaults file full of env vars containing API keys needs that power. We have always just been careful about how we write programs to not exfil keys. Never careful enough, because many security flaws in such an app now let the attacker walk off the keys and give them a window to do nastiness from wherever they like, until we realize and start manually rotating them. Attempts to automate key rotation to close this hole have mixed success. Our industry does use OAuth in some places, and sometimes OAuth is configured to rotate keys. But services still ship API keys, because they are easy for users. (OAuth, while simple in theory, is always painfully complex to use.) Some services give us the worst of all worlds, like GitHub encouraging personal access tokens with 90-day expiry windows. Just long enough for you to forget about them and your internal service to break mysteriously while you are on vacation. Inter-server OAuth as commonly practiced today also does not help with agents, as creation is usually designed to have some human intervention via a web browser cookie in a way deliberately designed to be hard to automate. I do not think I have ever used a service that gave me an OAUTH_CLIENT_SECRET via an API. So it’s fine (if complex and painful) for traditional services, but your agent is not doing that. So in practice, what can we do today to solve this? We can use an HTTP proxy that injects headers. Many APIs talk HTTP. They usually ship an HTTP header, either a basic auth header or their own. Here is, for example, Stripe’s: curl \\ -u &#34;sk_test_BQokikJOvBiI2HlWgH4olfQ2:&#34; \\ -d &#34;name=Jenny Rosen&#34; \\ --data-urlencode &#34;email=jennyrosen@example.com&#34; So instead of an /etc/defaults file with your sk_test key, if you have an HTTP proxy managing secrets you can do this: curl \\ -d &#34;name=Jenny Rosen&#34; \\ --data-urlencode &#34;email=jennyrosen@example.com&#34; Where the server in the URL has been changed to another internal service you run. And the key has been removed! What grants your server, and your agents, the ability to use the secret is their ability to reach your secrets HTTP proxy. This covers, amazingly, almost all secrets. A proxy like this is part of machinery provided by complex secrets management products. What is interesting is that it is one of the easier parts of secrets management, and delivers a large amount of the value. The final piece of the puzzle is: why do you need to write and manage an HTTP proxy? Your cloud should do it for you. So we built Integrations into exe.dev to do this. Assign an integration to a tag, tag the VMs you want to have access, done. Clone your VM, you get a fresh space to work with agents and your integrations are automatically present. For GitHub, we did something special, and built a GitHub App to manage the OAuth for you. No need for manual rotation of keys. We intend to build a lot more integrations soon.",
-      "keywords": [
-        "corporate-watchdog news",
-        "your",
-        "keys",
-        "secrets",
-        "proxy",
-        "agents",
-        "oauth",
-        "some"
-      ],
-      "hashtags": [
-        "#corporate-watchdognews",
-        "#your",
-        "#keys",
-        "#secrets",
-        "#proxy",
-        "#agents",
-        "#oauth",
-        "#some"
-      ],
-      "slug": "2026-04-22-some-secret-management-belongs-in-your-http-proxy",
-      "sourceUrl": "https://blog.exe.dev/http-proxy-secrets",
-      "generatedAt": "2026-04-22T14:00:34.698Z",
-      "relatedArticles": [
-        {
-          "title": "Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.",
-          "slug": "2026-04-22-uptick-in-security-and-off-topic-posts-please-read-the-rules-this-is-not-rcybers",
-          "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
       "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
       "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
       "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
-      "pubDate": "2026-04-22T14:00:23.112Z",
+      "pubDate": "2026-04-22T19:55:21.475Z",
       "source": "MuckRock FOIA",
       "category": "Government Secrets",
       "score": 12,
@@ -213,51 +125,50 @@
       ],
       "slug": "2026-04-22-foia-10000000-grant-to-aids-healthcare-foundation",
       "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
-      "generatedAt": "2026-04-22T14:00:36.847Z",
+      "generatedAt": "2026-04-22T19:55:30.873Z",
       "relatedArticles": [
         {
-          "title": "UK intelligence: 100 nations have spyware that can hack Britain",
-          "slug": "2026-04-22-uk-intelligence-100-nations-have-spyware-that-can-hack-britain",
+          "title": "Iran's Covert Oil Trade Persists As Tankers Breach US Blockade",
+          "slug": "2026-04-22-irans-covert-oil-trade-persists-as-tankers-breach-us-blockade",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "UK intelligence: 100 nations have spyware that can hack Britain",
-      "url": "https://www.reddit.com/r/privacy/comments/1ssbnff/uk_intelligence_100_nations_have_spyware_that_can/",
-      "description": "&#32; submitted by &#32; <a href=\" /u/donutloop </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-04-22T04:55:58.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
+      "title": "Iran's Covert Oil Trade Persists As Tankers Breach US Blockade",
+      "url": "https://www.zerohedge.com/geopolitical/irans-covert-oil-trade-persists-tankers-breach-us-blockade",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Iran's Covert Oil Trade Persists As Tankers Breach US Blockade</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em>By Tsvetana Paraskova of <a href=\" <p>Iran continues to export its oil out of the Persian Gulf via the Strait of Hormuz using dark mode on tankers to move past the US blockade ou",
+      "pubDate": "Wed, 22 Apr 2026 17:20:00 +0000",
+      "source": "ZeroHedge",
       "category": "Government Secrets",
-      "score": 9,
+      "score": 10,
       "sources": [
-        "r/privacy"
+        "ZeroHedge"
       ],
-      "content": "&#32; submitted by &#32; <a href=\" /u/donutloop </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "content": "Iran continues to export its oil out of the Persian Gulf via the Strait of Hormuz using dark mode on tankers to move past the US blockade outside the world’s most vital oil chokepoint. At least two Iran-flagged supertankers fully laden with an estimated about 4 million barrels of crude have exited the Gulf via the Strait of Hormuz and through the U.S. blockade, Bloomberg reports , citing satellite imagery analyzed by energy flows intelligence firm Vortexa. The two Iranian very large crude carriers have been detected by satellite images as they had turned off their transponders and AIS positioning weeks ago. One of the supertankers, the Hero II , last transmitted a signal more than a month ago, with position in the Malacca Strait, data on MarineTraffic showed. The other VLCC, the Hedy, was last detected by AIS transponders around the same area near Malaysia and Singapore more than 70 days ago. Various vessel-tracking and maritime intelligence firms say that Iran continues to export its oil and move tankers past the U.S. blockade, by increasingly using dark activity and signal spoofing tactics. Earlier this week, an Iranian supertanker, which had delivered 2 million barrels of crude to a ship-to-ship transfer offshore Indonesia, was en route to return to Iran’s Kharg Island after entering the Strait of Hormuz through the U.S. blockade . An Iran-owned VLCC departed Iran in late March 2026 and traveled to the Riau Archipelago in Indonesia, where she transferred 2 million barrels of crude oil to another VLCC, according to vessel monitoring data by TankerTrackers.com . “Iranian flows continue via deception, including dark activity and ship-to-ship transfers,” maritime intelligence firm Windward said in a daily note on Tuesday. “Iranian maritime trade remains active, but increasingly reliant on deceptive shipping practices and alternative routing strategies. New intelligence indicates potential shifts east of Hormuz, suggesting that pressure in the Gulf is driving adaptation rather than halting flows.” Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
-        "intelligence",
-        "nations",
-        "spyware",
-        "hack",
-        "britain",
-        "submitted",
-        "donutloop"
+        "iran",
+        "field",
+        "blockade",
+        "tankers",
+        "strait",
+        "hormuz",
+        "gulf"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#intelligence",
-        "#nations",
-        "#spyware",
-        "#hack",
-        "#britain",
-        "#submitted",
-        "#donutloop"
+        "#iran",
+        "#field",
+        "#blockade",
+        "#tankers",
+        "#strait",
+        "#hormuz",
+        "#gulf"
       ],
-      "slug": "2026-04-22-uk-intelligence-100-nations-have-spyware-that-can-hack-britain",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1ssbnff/uk_intelligence_100_nations_have_spyware_that_can/",
-      "generatedAt": "2026-04-22T14:00:38.557Z",
+      "slug": "2026-04-22-irans-covert-oil-trade-persists-as-tankers-breach-us-blockade",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/irans-covert-oil-trade-persists-tankers-breach-us-blockade",
+      "generatedAt": "2026-04-22T19:55:32.843Z",
       "relatedArticles": [
         {
           "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
@@ -267,178 +178,306 @@
       ]
     },
     {
-      "title": "Iran claims US exploited networking equipment backdoors during strikes",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
-      "description": "",
-      "pubDate": "2026-04-22T11:10:49.000Z",
-      "source": "Hacker News",
-      "hnScore": 28,
-      "hnComments": 22,
-      "category": "Tech & Privacy",
-      "score": 9,
+      "title": "CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber",
+      "url": "https://www.zerohedge.com/political/cia-security-officer-files-lawsuit-against-steve-baker-and-blaze-identifying-her-j6",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by 'sundance' via The Last Refuge,</em></a></p> <p><strong>Steve Baker and The Blaze are being sued by former Capitol Hill police off",
+      "pubDate": "Wed, 22 Apr 2026 18:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Corporate Watchdog",
+      "score": 10,
       "sources": [
-        "Hacker News",
-        "r/technology"
+        "ZeroHedge"
       ],
-      "content": "Tech Industry China tests deep-sea electro-hydrostatic actuator that can cut undersea cables at a depth of 3,500 meters Tech Industry Russian-made Shahed drones are &lsquo;disintegrating in the air before reaching their targets&rsquo; due to shoddy manufacturing, video shows Tech Industry Iran reportedly bought an in-orbit Chinese satellite to target US assets in the Middle East Wi-Fi Routers TP-Link seeks to secure conditional approval from FCC following router import ban Wi-Fi Routers Netgear secures conditional approval from the FCC following router ban Tech Industry Russian ship loitering near transatlantic data cables chased off by Royal Navy attack helicopter Tech Industry UK navy tracked three Russian submarines near undersea cables, damage would 'have serious consequences,' Putin warned Tech Industry Dutch Secretary of Defense threatens to jailbreak nation's F-35 jet fighters Tech Industry Iranian missile blitz takes down AWS data centers in Bahrain and Dubai Networking Undersea cable cutting shenanigans lead Finland to create a dedicated maritime surveillance center Cybersecurity HWMonitor and CPU-Z developer CPUID breached by unknown attackers Tech Industry Iran threatens &lsquo;complete and utter annihilation&rsquo; of OpenAI's $30B Stargate AI data center in Abu Dhabi Tech Industry US and Gulf states race for Ukrainian interceptor drones, including 3D printed model that costs $1,000 apiece Cybersecurity Russian GRU hackers are hijacking TP-Link and MikroTik routers to steal Outlook credentials, cybersecurity center warns Cybersecurity 10 petabytes of sensitive data stolen from China's National Supercomputing Center, hackers claim (Image credit: Getty) Copy link Facebook X Whatsapp Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Tom's Hardware Stay On the Cutting Edge: Get the Tom's Hardware Newsletter Get Tom's Hardware's best news and in-depth reviews, straight to your inbox. By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over. You are now subscribed Iranian state media has alleged that equipment from Cisco, Juniper, Fortinet, and MikroTik failed during U.S. and Israeli military operations against Iran. The report, which claims that &ldquo;American &lsquo;black boxes&rsquo; failed at zero hour of the attack on Isfahan,&rdquo; concerns devices that Iran claims either rebooted or dropped offline despite the country having already been disconnected from the global Internet, a fact it says \"indicates deep sabotage.\" Iranian media speculates that hidden firmware or backdoors allowed remote sabotage, possibly triggered by satellite or at a pre-set time. None of the claims has been independently verified, and given that the claims originate from state media, some skepticism is merited. Meanwhile, the U.S. hasn&rsquo;t addressed Iran's specific allegations, but has publicly confirmed that it conducted cyber operations against Iran's communications infrastructure. Chairman of the Joint Chiefs of Staff, General Dan Caine, said during a March 2nd Pentagon briefing that U.S. Cyber Command and U.S. Space Command were the &ldquo;first movers&rdquo; in so-called Operation Epic Fury, the military campaign launched against Iran at the end of February. Caine said coordinated space and cyber operations disrupted Iranian communications and sensor networks before strikes began. You may like US cybersecurity agency issues an urgent alert as Iranian hackers attack critical infrastructure Iran hacking group claims attack on med-tech company Stryker Iran's forced nationwide internet blackout becomes second-longest on record as it passes 1,000 hours offline Iran&rsquo;s claims are unverified, but each of the four vendors it named &mdash; Cisco, Juniper, Fortinet, and MikroTik &mdash; has a documented record of security issues. NSA documents leaked by Edward Snowden in 2014, for example, demonstrated the agency&rsquo;s Tailored Access Operations unit intercepting Cisco routers during shipping and installing surveillance implants before repackaging them. Cisco never cooperated with the program and later began shipping equipment to decoy addresses to disrupt interception. Juniper Networks, in 2015, meanwhile, disclosed that it had found unauthorized code in the ScreenOS firmware running on its NetScreen firewalls, which could allow attackers to bypass authentication and decrypt VPN traffic. Fortinet acknowledged in 2016 that older versions of FortiOS contained hardcoded SSH passwords granting remote access, though it characterized the problem as a management authentication issue. As for MikroTik, its routers have been a persistent target for botnet operators , with Tenable documenting a vulnerability chain in 2019 that could enable an attacker to downgrade firmware and create a persistent backdoor. Chinese state media seized the opportunity to pile on Iran&rsquo;s claims, with the country&rsquo;s National Computer Virus Emergency Response Center, which has repeatedly claimed that the U.S. fabricated the Volt Typhoon hacking campaign to deflect from its own cyber operations, promoted the allegations as further evidence of American backdoors in networking hardware. Five Eyes intelligence agencies have attributed Volt Typhoon to Chinese state-sponsored actors targeting Western critical infrastructure. Iran's Internet, meanwhile, has been largely offline for 52 consecutive days , with connectivity having sat at roughly 1% of pre-war levels since strikes began on February 28, making it the longest nationwide internet shutdown on record. Get Tom's Hardware's best news and in-depth reviews, straight to your inbox. Follow Tom's Hardware on Google News , or add us as a preferred source , to get our latest news, analysis, & reviews in your feeds. Luke James Contributor Luke James is a freelance writer and journalist. Although his background is in legal, he has a personal interest in all things tech, especially hardware and microelectronics, and anything regulatory.",
+      "content": "Authored by &#x27;sundance&#x27; via The Last Refuge, Steve Baker and The Blaze are being sued by former Capitol Hill police officer Shauni Kerkoff, who Baker accused of being the J6 pipe bomber based on “gait” analysis and other dubious claims. Mr Baker, a former FBI employee named Kyle Seraphin and Kentucky representative Thomas Massie also pushed the accusation, saying FBI Director Kash and other FBI officials were lying and an innocent guy was arrested . The arrested suspect, Brian J. Cole, Jr., confessed to the crimes. Yesterday, Shauni Kerkoff, who now works for the CIA security office, filed a lawsuit against Steve Baker and The Blaze , claiming Steve Baker was motivated by anger over his arrest for activity in the J6 event where Ms. Kerkoff was present providing security. According to the lawsuit , Steve Baker and The Blaze created a conspiracy theory using Shauni Kerkoff as the target of their claims. This is going to be an interesting lawsuit to watch unfold as there are various types of conspiracy claims similar to Mr Baker that are circulating. If their claim is false, both Mr Baker and The Blaze could end up in the same financial position as Alex Jones. I suspect this is not going to end well for Steve Baker, The Blaze or Glenn Beck. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
-        "tech-&-privacy news",
-        "iran",
-        "tech",
-        "industry",
-        "claims",
-        "rsquo",
-        "hardware",
-        "routers"
+        "corporate-watchdog news",
+        "baker",
+        "field",
+        "steve",
+        "blaze",
+        "lawsuit",
+        "security",
+        "kerkoff"
       ],
       "hashtags": [
-        "#tech-&-privacynews",
-        "#iran",
-        "#tech",
-        "#industry",
-        "#claims",
-        "#rsquo",
-        "#hardware",
-        "#routers"
+        "#corporate-watchdognews",
+        "#baker",
+        "#field",
+        "#steve",
+        "#blaze",
+        "#lawsuit",
+        "#security",
+        "#kerkoff"
       ],
-      "slug": "2026-04-22-iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
-      "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
-      "generatedAt": "2026-04-22T14:00:40.181Z",
+      "slug": "2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif",
+      "sourceUrl": "https://www.zerohedge.com/political/cia-security-officer-files-lawsuit-against-steve-baker-and-blaze-identifying-her-j6",
+      "generatedAt": "2026-04-22T19:55:34.598Z",
       "relatedArticles": [
         {
-          "title": "67% of Android apps log data not mentioned in their privacy policies",
-          "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
-          "category": "Tech & Privacy"
+          "title": "Does anyone else ever get the feeling that A.I. didn’t just “appear” recently… like it’s been developed and used in secret for 30+ years, and now it’s finally being slowly introduced to the public?",
+          "slug": "2026-04-22-does-anyone-else-ever-get-the-feeling-that-ai-didnt-just-appear-recently-like-it",
+          "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "67% of Android apps log data not mentioned in their privacy policies",
-      "url": "https://www.reddit.com/r/privacy/comments/1srvuf1/67_of_android_apps_log_data_not_mentioned_in/",
-      "description": "&#32; submitted by &#32; <a href=\" /u/ATonOfBricksFellOnMe </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-04-21T18:11:17.000Z",
-      "source": "r/privacy",
+      "title": "Does anyone else ever get the feeling that A.I. didn’t just “appear” recently… like it’s been developed and used in secret for 30+ years, and now it’s finally being slowly introduced to the public?",
+      "url": "https://www.reddit.com/r/conspiracy/comments/1sskfin/does_anyone_else_ever_get_the_feeling_that_ai/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Not the stuff we’re seeing publicly now, but something way more refined behind closed doors.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/TacticalJock15 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-04-22T12:44:47.000Z",
+      "source": "r/conspiracy",
       "redditScore": 0,
-      "category": "Tech & Privacy",
-      "score": 9,
+      "category": "Corporate Watchdog",
+      "score": 8,
       "sources": [
-        "r/privacy"
+        "r/conspiracy"
       ],
-      "content": "&#32; submitted by &#32; <a href=\" /u/ATonOfBricksFellOnMe </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Not the stuff we’re seeing publicly now, but something way more refined behind closed doors.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/TacticalJock15 </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "keywords": [
+        "corporate-watchdog news",
+        "does",
+        "anyone",
+        "else",
+        "ever",
+        "feeling",
+        "didn",
+        "just"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#does",
+        "#anyone",
+        "#else",
+        "#ever",
+        "#feeling",
+        "#didn",
+        "#just"
+      ],
+      "slug": "2026-04-22-does-anyone-else-ever-get-the-feeling-that-ai-didnt-just-appear-recently-like-it",
+      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1sskfin/does_anyone_else_ever_get_the_feeling_that_ai/",
+      "generatedAt": "2026-04-22T19:55:36.022Z",
+      "relatedArticles": [
+        {
+          "title": "CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber",
+          "slug": "2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One",
+      "url": "https://www.zerohedge.com/ai/anthropics-too-dangerous-release-ai-model-was-accessed-discord-group-day-one",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><strong>Anthropic's 'Mythos' model is extraordinarily dangerous.</strong> The company itself warned that it could autonomously identify and exploit zero-day",
+      "pubDate": "Wed, 22 Apr 2026 16:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Tech & Privacy",
+      "score": 10,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Anthropic&#x27;s &#x27;Mythos&#x27; model is extraordinarily dangerous. The company itself warned that it could autonomously identify and exploit zero-day vulnerabilities in every major operating system, every major web browser, and every critical software library on Earth . And because of this offensive cybersecurity power, Anthropic refused to release Mythos publicly - and instead tightly restricted access through &#x27;Project Glasswing&#x27; to roughly 50 carefully vetted organizations - 12 named launch partners plus more than 40 additional critical software and government entities, including the U.S. National Security Agency (NSA). Yet within hours of the limited rollout announcement on April 7, 2026, a small group of unauthorized users in a private Discord server had already broken in. The breach, reported by Bloomberg on Tuesday, reveals how fragile the safeguards around frontier AI models can be. According to the report, the group gained access using a surprisingly low-tech combination: legitimate credentials from a third-party contractor involved in Anthropic&#x27;s evaluations, plus clever internet sleuthing to guess the hidden API endpoint by reverse-engineering Anthropic&#x27;s internal naming conventions (patterns inferred from an earlier Mercor data leak). They have reportedly been using Mythos regularly for nearly two weeks . Sources emphasize the usage has been non-malicious so far - things like building simple websites - rather than launching cyberattacks. \"We’re investigating a report claiming unauthorized access to Claude Mythos Preview through one of our third-party vendor environments,\" a spokesperson said in a statement, adding that there&#x27;s no evidence that the access went beyond a third-party vendor&#x27;s environment or that it is impacting any of Anthropic&#x27;s systems. In early April, Anthropic launched Project Glasswing , a defensive cybersecurity initiative built around Mythos Preview. The 12 launch partners included Amazon Web Services, Apple, Microsoft, Google, Cisco, CrowdStrike, Palo Alto Networks, NVIDIA, Broadcom, JPMorgan Chase, and the Linux Foundation , along with over 40 additional critical software organizations. The explicit goal was to give these defenders a head start: let Mythos hunt for vulnerabilities in their own systems and major open-source projects before malicious actors could weaponize the same capabilities. Anthropic&#x27;s own red-team testing reportedly showed Mythos could find and chain complex zero-days that had remained hidden for decades in software like Linux, OpenBSD, and FFmpeg. Even as the Pentagon formally labeled Anthropic a “supply-chain risk” in March 2026 - citing the company’s refusal to remove ethical guardrails that would allow its models to be used for mass domestic surveillance and autonomous weapons - other key parts of the U.S. government have moved with urgency to embrace the very same technology . The National Security Agency is already actively using Claude Mythos Preview, while the White House’s Office of Management and Budget circulated an internal memo on Monday directing federal agencies to begin leveraging the model for vulnerability discovery in government networks. The Treasury Department has been particularly aggressive , rushing to secure access and convening major bank CEOs for urgent red-teaming sessions after being warned that Mythos could \"hack every major system.\" The unauthorized access was deceptively simple. One member of the Discord group (a private forum focused on hunting unreleased AI models) had legitimate access as a worker at a third-party contractor. Using knowledge of Anthropic&#x27;s naming patterns, the group correctly guessed the private API endpoint for Mythos Preview on the very same day the limited release was announced. Once inside, they continued using the model without triggering obvious alarms. Anthropic said Mythos was too dangerous to release. Then four random guys in a Discord gained access on day one by guessing the URL... This is pretty insane: → Group in a private Discord guessed the endpoint from Anthropic&#x27;s naming conventions → They figured out the… So, here&#x27;s where we are: these AI models are becoming so powerful that even their creators treat them with extreme caution - yet the operational security surrounding them can still fall to basic tactics like credential misuse and URL guessing. As of Wednesday, Anthropic has offered no further updates on its investigation, no timeline, and no announcement of technical fixes such as credential rotation or endpoint randomization. There is still no public evidence of malicious use by the Discord group - however, the breach raises serious questions about how many other restricted AI systems might be leaking through similar third-party or supply-chain vulnerabilities. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "tech-&-privacy news",
-        "android",
-        "apps",
-        "data",
-        "mentioned",
-        "their",
-        "privacy",
-        "policies"
+        "anthropic",
+        "mythos",
+        "field",
+        "group",
+        "access",
+        "discord",
+        "model"
       ],
       "hashtags": [
         "#tech-&-privacynews",
-        "#android",
-        "#apps",
-        "#data",
-        "#mentioned",
-        "#their",
-        "#privacy",
-        "#policies"
+        "#anthropic",
+        "#mythos",
+        "#field",
+        "#group",
+        "#access",
+        "#discord",
+        "#model"
       ],
-      "slug": "2026-04-22-67-of-android-apps-log-data-not-mentioned-in-their-privacy-policies",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1srvuf1/67_of_android_apps_log_data_not_mentioned_in/",
-      "generatedAt": "2026-04-22T14:00:41.974Z",
+      "slug": "2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da",
+      "sourceUrl": "https://www.zerohedge.com/ai/anthropics-too-dangerous-release-ai-model-was-accessed-discord-group-day-one",
+      "generatedAt": "2026-04-22T19:55:38.030Z",
       "relatedArticles": [
         {
-          "title": "Iran claims US exploited networking equipment backdoors during strikes",
-          "slug": "2026-04-22-iran-claims-us-exploited-networking-equipment-backdoors-during-strikes",
+          "title": "In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era",
+          "slug": "2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era",
           "category": "Tech & Privacy"
         }
       ]
     },
     {
-      "title": "Psychedelic Stocks Just Went Mainstream",
-      "url": "https://www.zerohedge.com/markets/psychedelic-stocks-just-went-mainstream",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Psychedelic Stocks Just Went Mainstream</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em>Submitted by <a href=\" Fringe Finance</a></em></p> <p data-pm-slice=\"1 1 []\">Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive ",
-      "pubDate": "Wed, 22 Apr 2026 12:35:00 +0000",
+      "title": "In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era",
+      "url": "https://www.zerohedge.com/ai/google-unveils-two-chips-agentic-era",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>In a blog post titled <strong><em>\"Our Eighth Generation TPUs: Two Chips for the Agentic Era,\"</em></strong> Google Senior Vice President and Chief Technologist for AI and In",
+      "pubDate": "Wed, 22 Apr 2026 13:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "ZeroHedge",
+        "r/stocks",
+        "Ars Technica"
+      ],
+      "content": "In a blog post titled \"Our Eighth Generation TPUs: Two Chips for the Agentic Era,\" Google Senior Vice President and Chief Technologist for AI and Infrastructure Amin Vahdat unveiled the latest generation of the company&#x27;s in-house AI chips, splitting the lineup into two versions. The TPU 8t is designed for training AI models, while the TPU 8i is built for inference, or running AI services once they are developed and deployed, taking direct aim at Nvidia. \"The culmination of a decade of development, TPU 8t and TPU 8i are custom-engineered to power the next generation of supercomputing with efficiency and scale,\" Vahdat wrote in the blog post . Hardware development cycles are much longer than software. With each generation of TPUs, we need to consider what technologies and demands will exist by the time they are brought to market. Several years ago, we anticipated rising demand for inference from customers as frontier AI models are deployed in production and at scale. And with the rise of AI agents, we determined the community would benefit from chips individually specialized to the needs of training and serving. Vahdat pointed out that the new chips store more data directly on the processor, helping reduce delays and improve responsiveness, especially for more complex AI models that reason through tasks in steps. He also emphasized efficiency, saying the TPU 8t delivers 124% more performance per watt than the prior generation, while the TPU 8i improves that metric by 117% - this is important since the power bill crisis has swayed local politicians in many states and become a major roadblock in data center buildouts. The announcement highlights Google&#x27;s move to become a leader in producing in-house AI chips despite Nvidia&#x27;s continued dominance. At the same time, Google said it will continue offering Nvidia-based systems to customers. The broader message is that Google is trying to strengthen its AI infrastructure advantage by tailoring its chips more precisely for the distinct demands of training and inference. Also, across the industry, Microsoft, Meta, Amazon, Apple, and others are pursuing custom AI chips for specialized workloads. Shares of Google were modestly higher in premarket trading after the blog post, rising about 1.5%. Even so, the stock has traded sideways this year. TPUs have powered Google&#x27;s Gemini models for years, and the latest announcement signals a push to deliver greater scale, efficiency, and responsiveness across both training and serving workloads. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "tech-&-privacy news",
+        "chips",
+        "google",
+        "field",
+        "generation",
+        "nvidia",
+        "latest",
+        "agentic"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#chips",
+        "#google",
+        "#field",
+        "#generation",
+        "#nvidia",
+        "#latest",
+        "#agentic"
+      ],
+      "slug": "2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era",
+      "sourceUrl": "https://www.zerohedge.com/ai/google-unveils-two-chips-agentic-era",
+      "generatedAt": "2026-04-22T19:55:39.497Z",
+      "relatedArticles": [
+        {
+          "title": "Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One",
+          "slug": "2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Solid 20Y Auction Stops Through With Above Average Foreign Demand",
+      "url": "https://www.zerohedge.com/markets/solid-20y-auction-stops-through-above-average-foreign-demand",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Solid 20Y Auction Stops Through With Above Average Foreign Demand</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>The week's lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction.</p> <p>The auction stopped at a high yield of 4.883%, u",
+      "pubDate": "Wed, 22 Apr 2026 17:31:05 +0000",
       "source": "ZeroHedge",
       "category": "Global Power",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive order aimed at accelerating research and access to psychedelic therapies, backing it with $50 million in federal funding and directing regulators to remove barriers that have long kept this entire category stuck on the sidelines. This has been a key prediction in my thesis for psychedelic stocks that I’ve laid out over time. First, in January 2025, calling the psychedelic names “stocks to watch” for the year. Then, in July 2025, urging patience in these positions: Being Early—And Patient—In Psychedelics Then again naming psychedelic names to my “stocks to watch” for 2026 and even going so far as to name the sector my “best idea” for 2026: My \"Best Idea\" Sector For 2026 Today I’ll discuss what, for me, remains the most prudent way to get and keep long-term exposure to the sector, and where I think things go after this morning’s rally. Trump’s administration framed the move as part of a broader attempt to confront the mental health crisis, particularly among veterans, while signaling that agencies like the FDA should dramatically speed up review timelines for promising treatments. The focus, at least initially, includes ibogaine, a compound with a controversial safety profile but growing interest for its potential in treating addiction and trauma. Alongside him were figures like Robert F. Kennedy Jr. and Joe Rogan, both of whom have been outspoken advocates for these therapies, underscoring how quickly this conversation has moved from the fringe into the mainstream. There are still real concerns from scientists about safety, trial rigor, and whether the process could move too fast, but the direction is unmistakable: the federal government is no longer ignoring psychedelics, it is actively engaging with them. And if you have been reading me for the last year, none of this should feel surprising. At the beginning of 2025, I laid out what I thought was coming: a convergence between science, sentiment, and politics that could finally legitimize an industry that had been written off for decades. I was not pretending the timing would be perfect or that the stocks would go straight up, in fact, I explicitly said the opposite. These were always going to be volatile, early stage, cash burning companies operating in one of the most regulation sensitive industries on the planet. What mattered was not the quarter to quarter performance. What mattered was whether the world would eventually start taking this category seriously. That was the first part of the bet. The next is clinical data. And along the way, the market did exactly what it tends to do with misunderstood themes. It tested conviction. The ETF held up relatively well, individual names stumbled, sentiment wavered, and most investors moved on, filing the entire space under maybe someday or probably never. But the thesis was never about clean execution in year one. It was about whether a regulatory shift, any regulatory shift, could change the entire trajectory of the space. Because in something like psychedelics, policy is not just a factor, it is the factor. That is why, when I revisited the idea in January 2026, I framed it as one of the most mispriced areas of the market. Not because the science was a mystery, but because the perception was broken. The consensus view had already written the story: the FDA had shut it down, politics would never allow it, and the stigma was too entrenched to overcome. 🔥 50% OFF FOR LIFE: Using this coupon entitles you to 50% off an annual subscription to Fringe Finance for life: Get 50% off forever What makes this moment different is that it is no longer theoretical. You now have federal dollars being allocated, timelines being discussed in terms of weeks instead of years, and high level officials openly framing psychedelics as part of the solution to a national health crisis. That does not guarantee success for any individual company, and it does not eliminate the very real risks around clinical trials, commercialization, or safety. Some of these names will fail. Some will dilute shareholders into the ground. That is the nature of early stage biotech. But the broader direction of the space is what matters, and that direction is changing in a way that is hard to ignore. The deeper reason I have stayed bullish, though, has never just been about the market opportunity. It is about what these compounds actually represent. The current mental health model leaves an enormous number of people behind, and most treatments are designed around chronic, daily use. Psychedelics flip that model on its head. They are not ‘take this forever’ drugs. In many cases, they are structured as limited, guided interventions that can produce durable effects. That alone makes them disruptive, not just commercially, but philosophically. And having experienced them myself in a deliberate, structured way, I do not view this as abstract or hypothetical. I have seen the difference. I have felt the shift. And I know how profound it can be when these tools are used correctly. What is happening now does not mean the story is over. If anything, it means it is just getting started. We are moving out of the phase where this is dismissed outright and into the phase where serious institutions are forced to engage with it. That is where things tend to accelerate. This note , published on my blog this week , has my preferred way to gain exposure to the psychedelic sector. QTR’s Disclaimer : Please read my full legal disclaimer on my About page here . This post represents my opinions only. In addition, please understand I am an idiot and often get things wrong and lose money. I may own or transact in any names mentioned in this piece at any time without warning. Contributor posts and aggregated posts have been hand selected by me, have not been fact checked and are the opinions of their authors. They are either submitted to QTR by their author, reprinted under a Creative Commons license with my best effort to uphold what the license asks, or with the permission of the author. This is not a recommendation to buy or sell any stocks or securities, just my opinions. I often lose money on positions I trade/invest in. I may add any name mentioned in this article and sell any name mentioned in this piece at any time, without further warning. None of this is a solicitation to buy or sell securities. I may or may not own names I write about and are watching. Sometimes I’m bullish without owning things, sometimes I’m bearish and do own things. Just assume my positions could be exactly the opposite of what you think they are just in case. If I’m long I could quickly be short and vice versa. I won’t update my positions. All positions can change immediately as soon as I publish this, with or without notice and at any point I can be long, short or neutral on any position. You are on your own. Do not make decisions based on my blog. I exist on the fringe. If you see numbers and calculations of any sort, assume they are wrong and double check them. I failed Algebra in 8th grade and topped off my high school math accolades by getting a D- in remedial Calculus my senior year, before becoming an English major in college so I could bullshit my way through things easier.",
+      "content": "The week&#x27;s lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction. The auction stopped at a high yield of 4.883%, up from 4.817% in March and the highest since last July. It also stopped through the 4.892% When Issued by 0.9bps, the highest since January. The bid to cover was 2.68, down from 2.76 in March but above the 2.63 six-auction average. The internals were also solid with Indirects taking 67.4% of the auction, down modestly from 69.2% last month but also above the 62.9% recent average for foreign buyers. And with Directs taking 22.9%, up modestly from 21.6% last month, Dealers were left holding just 9.7%, down from the recent average of 11.2%. Overall, this was another solid auction, which is a welcome outcome at a time when 10Y yields are trading near weekly highs just around 4.30%. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "global-power news",
-        "just",
+        "auction",
         "field",
-        "psychedelic",
-        "stocks",
-        "been",
-        "name",
-        "names"
+        "solid",
+        "average",
+        "above",
+        "foreign",
+        "name"
       ],
       "hashtags": [
         "#global-powernews",
-        "#just",
+        "#auction",
         "#field",
-        "#psychedelic",
-        "#stocks",
-        "#been",
-        "#name",
-        "#names"
+        "#solid",
+        "#average",
+        "#above",
+        "#foreign",
+        "#name"
       ],
-      "slug": "2026-04-22-psychedelic-stocks-just-went-mainstream",
-      "sourceUrl": "https://www.zerohedge.com/markets/psychedelic-stocks-just-went-mainstream",
-      "generatedAt": "2026-04-22T14:00:43.688Z",
+      "slug": "2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand",
+      "sourceUrl": "https://www.zerohedge.com/markets/solid-20y-auction-stops-through-above-average-foreign-demand",
+      "generatedAt": "2026-04-22T19:55:41.463Z",
       "relatedArticles": [
         {
-          "title": "China \"Aggressively\" Selling Oil In Recent Weeks",
-          "slug": "2026-04-22-china-aggressively-selling-oil-in-recent-weeks",
+          "title": "WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips",
+          "slug": "2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr",
           "category": "Global Power"
         }
       ]
     },
     {
-      "title": "China \"Aggressively\" Selling Oil In Recent Weeks",
-      "url": "https://www.zerohedge.com/energy/china-aggressively-selling-oil-recent-weeks",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">China \"Aggressively\" Selling Oil In Recent Weeks</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>We knew there was a <a href=\" why China had accumulated a cool 1.5 billion barrels </a>in its strategic petroleum reserve: the reason, to become the world's strategist petroleum reserve when the t",
-      "pubDate": "Wed, 22 Apr 2026 10:55:00 +0000",
+      "title": "WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips",
+      "url": "https://www.zerohedge.com/energy/wti-extends-gains-us-oil-product-exports-hit-record-highs-huge-spr-release-production-dips",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Oil prices are modestly higher this morning, erasing overnight losses on Trump's 'ceasefire extension' after Iran attacked three ships in the Strait ",
+      "pubDate": "Wed, 22 Apr 2026 14:40:17 +0000",
       "source": "ZeroHedge",
       "category": "Global Power",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "We knew there was a reason why China had accumulated a cool 1.5 billion barrels in its strategic petroleum reserve: the reason, to become the world&#x27;s strategist petroleum reserve when the time arises... for a price of course. According to the chief executive officer of commodity trader Mercuria, Chinese oil companies have been aggressive sellers in recent weeks, selling barrels to several nations in tenders. “What has been happening in the last two or three weeks is actually they have been aggressively selling crude oil,” Mercuria CEO Marco Dunand said at the FT Commodities Global Summit in Lausanne on Tuesday. “ They’ve taken out a lot of demand from various countries and offered aggressively in tenders.\" Dunand said there are a variety of possible explanations for the selling. They include the release of oil inventories within China, continued sales of Iranian oil in the weeks after the war started, and possible optimism that the Strait of Hormuz would reopen quicker than it has so far. He also said that Mercuria sees Chinese gasoline demand falling by 1 million barrels a day this year as a result of electric-vehicle adoption, which also could have played a factor in the sales. But the most important thing Dunand said, was his response to question how long this last: “How long can they do this for? I think the guess would be probably for about another three weeks and then I think at that point they would have to revise their position.\" Well, three weeks is also how long Iran has before its oil sector is permanently shut in. The good news: the end of the Iran war is - one way or another - now in sight. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Oil prices are modestly higher this morning, erasing overnight losses on Trump&#x27;s &#x27;ceasefire extension&#x27; after Iran attacked three ships in the Strait of Hormuz. While headline roulette continues to drive oil prices incrementally, this morning&#x27;s inventory/supply data from DOE will provide some color on how the Gasoline -4.57mm - 10th weekly draw in a row Distillates -3.43mm - 4th weekly draw in a row Crude stocks unexpectedly saw a build last week (after a draw the week before) as did Cushing inventories. However, on the product side, the sizable drawdowns continue... Since the war started, Crude stocks have risen significantly, while gasoline inventories have seen non-stop draws... Weekly US implied gasoline demand is holding up despite elevated prices. The 4-week moving average indicate a slight rise of 32,000 barrels per day, while the more volatile weekly data series ticked down by 33,000 barrels per day. Meanwhile, US average gasoline prices remain above $4 a gallon. It was near $3 a gallon right before the Iran war. The crude inventory build was more than offset by a huge 4.14mm barrel drawdown from the SPR... Notably, total US oil product exports accelerated to a new record high last week... WTI is holding gains for now, near yesterday&#x27;s highs around $92... Finally, as The Wall Street Journal reports, analysts and commodities trading company executives are expressing shock at what they call a disconnect between market pricing and reality. Prices of the most-active Brent futures contract are holding below $100 a barrel despite escalating tension in the Strait of Hormuz and the cancellation of U.S.-Iran peace talks. Just today, two attacks on ships in the waterway showed that the fight for control of the strait continues and spooked shipowners and crew members. Here&#x27;s what I&#x27;m hearing from experts and industry leaders at the Financial Times Commodities Global Summit in Lausanne, Switzerland: \"The lack of price discovery that we are seeing is so worrying to me, because in reality we are storing up a bigger problem for the future,\" said Amrita Sen, founder and director of market intelligence at Energy Aspects. Price discovery refers to the process of buyers and sellers determining the fair price of a good or an asset in the futures market. \"Futures prices are meant to do the job of giving signals to sort out supply and demand. We are doing the opposite,\" she said in a panel. In 2022, when Russia invaded Ukraine, the market didn&#x27;t experience nearly as large a physical disruption as this time, and yet oil prices went much higher and stayed between $110 and $125 a barrel for months, said Saad Rahim, chief economist at Swiss commodity trader Trafigura, at the conference yesterday. \"This time, the scale seems to be something where the market cannot get its head around it, and therefore it says, we are not going to think about it.\" The world is already losing an average of 10 million barrels a day of crude oil and 5 million barrels a day of oil products. Hits to the world&#x27;s supply of fertilizers and chemicals are also severe. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "global-power news",
         "field",
-        "weeks",
-        "china",
-        "selling",
-        "they",
-        "aggressively",
-        "barrels"
+        "prices",
+        "market",
+        "product",
+        "iran",
+        "strait",
+        "gasoline"
       ],
       "hashtags": [
         "#global-powernews",
         "#field",
-        "#weeks",
-        "#china",
-        "#selling",
-        "#they",
-        "#aggressively",
-        "#barrels"
+        "#prices",
+        "#market",
+        "#product",
+        "#iran",
+        "#strait",
+        "#gasoline"
       ],
-      "slug": "2026-04-22-china-aggressively-selling-oil-in-recent-weeks",
-      "sourceUrl": "https://www.zerohedge.com/energy/china-aggressively-selling-oil-recent-weeks",
-      "generatedAt": "2026-04-22T14:00:45.586Z",
+      "slug": "2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr",
+      "sourceUrl": "https://www.zerohedge.com/energy/wti-extends-gains-us-oil-product-exports-hit-record-highs-huge-spr-release-production-dips",
+      "generatedAt": "2026-04-22T19:55:42.718Z",
       "relatedArticles": [
         {
-          "title": "Psychedelic Stocks Just Went Mainstream",
-          "slug": "2026-04-22-psychedelic-stocks-just-went-mainstream",
+          "title": "Solid 20Y Auction Stops Through With Above Average Foreign Demand",
+          "slug": "2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand",
           "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing",
+      "url": "https://www.zerohedge.com/ai/us-law-firm-apologizes-after-ai-hallucinations-made-it-legal-filing",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Brayden Lindrea via CoinTelegraph.com,</em></a></p> <p>Wall Street law firm Sullivan & Cromwell has apologized to a federal judge after submitting a court filing",
+      "pubDate": "Wed, 22 Apr 2026 16:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Brayden Lindrea via CoinTelegraph.com, Wall Street law firm Sullivan & Cromwell has apologized to a federal judge after submitting a court filing that contained around 40 incorrect citations and other errors caused by AI hallucinations. “We deeply regret that this has occurred,” Andrew Dietderich, co-head of Sullivan & Cromwell’s global restructuring team, wrote Friday in a letter to Chief Judge Martin Glenn of the US Bankruptcy Court for the Southern District of New York. “The Firm and I are keenly aware of our responsibility to ensure the accuracy of all submissions including under Local Bankruptcy Rule 9011-1(d), and I take responsibility for the failure to do so,” he said of an emergency motion filed nine days earlier. Excerpt from Andrew Dietderich’s letter to Chief Judge Martin Glenn. Source: Sullivan & Cromwell The incident highlights the risk AI tools can pose in high-stakes professional work without proper oversight. A database managed by legal technologist Damien Charlotin has recorded 1,334 incidents of AI hallucinations in court filings around the world, including more than 900 in the US. Charlotin pointed out that most of these hallucinations involve fabricated citations, though AI-generated legal arguments have also occasionally been identified. Dietderich said Sullivan & Cromwell has policies in place for the use of AI tools, which include a review of the citations it uses, but said the policies weren’t followed. Sullivan & Cromwell is one of the largest law firms in the US by revenue, ranking 30th on the AmLaw Global 200. The firm also represented crypto exchange FTX in its bankruptcy case. Dietderich said the law firm took “immediate remedial measures,” including a full review of the circumstances that led to the errors. The firm is also “evaluating whether further enhancements to its internal training and review processes are warranted,” Dietderich said. Dietderich also noted that the errors were spotted by a rival law firm. “I also called Boies Schiller Flexner LLP on Friday to thank them for bringing this matter to our attention and to apologize directly to them as well,” he said. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-&-markets news",
+        "firm",
+        "field",
+        "sullivan",
+        "cromwell",
+        "dietderich",
+        "hallucinations",
+        "legal"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#firm",
+        "#field",
+        "#sullivan",
+        "#cromwell",
+        "#dietderich",
+        "#hallucinations",
+        "#legal"
+      ],
+      "slug": "2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing",
+      "sourceUrl": "https://www.zerohedge.com/ai/us-law-firm-apologizes-after-ai-hallucinations-made-it-legal-filing",
+      "generatedAt": "2026-04-22T19:55:43.926Z",
+      "relatedArticles": [
+        {
+          "title": "Trump's \"Sock Puppet\"",
+          "slug": "2026-04-22-trumps-sock-puppet",
+          "category": "Money & Markets"
         }
       ]
     },
@@ -476,55 +515,11 @@
       ],
       "slug": "2026-04-22-trumps-sock-puppet",
       "sourceUrl": "https://www.zerohedge.com/economics/trumps-sock-puppet",
-      "generatedAt": "2026-04-22T14:00:46.913Z",
+      "generatedAt": "2026-04-22T19:55:45.616Z",
       "relatedArticles": [
         {
-          "title": "Opening a crypto wallet for my kids?",
-          "slug": "2026-04-22-opening-a-crypto-wallet-for-my-kids",
-          "category": "Money & Markets"
-        }
-      ]
-    },
-    {
-      "title": "Opening a crypto wallet for my kids?",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ssg9b6/opening_a_crypto_wallet_for_my_kids/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about the best way to set my kids up for the future, and honestly, a traditional savings account feels like it's going nowhere with current interest rates. I’m considering opening a separate wallet for them and throwing in a set amount every month, mostly BTC and ETH, maybe some SOL, and just letting it sit there until they turn 18. It feels lik",
-      "pubDate": "2026-04-22T09:16:53.000Z",
-      "source": "r/cryptocurrency",
-      "redditScore": 0,
-      "category": "Money & Markets",
-      "score": 3,
-      "sources": [
-        "r/cryptocurrency"
-      ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been thinking about the best way to set my kids up for the future, and honestly, a traditional savings account feels like it's going nowhere with current interest rates. I’m considering opening a separate wallet for them and throwing in a set amount every month, mostly BTC and ETH, maybe some SOL, and just letting it sit there until they turn 18. It feels lik",
-      "keywords": [
-        "money-&-markets news",
-        "opening",
-        "wallet",
-        "kids",
-        "feels",
-        "crypto",
-        "been",
-        "thinking"
-      ],
-      "hashtags": [
-        "#money-&-marketsnews",
-        "#opening",
-        "#wallet",
-        "#kids",
-        "#feels",
-        "#crypto",
-        "#been",
-        "#thinking"
-      ],
-      "slug": "2026-04-22-opening-a-crypto-wallet-for-my-kids",
-      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1ssg9b6/opening_a_crypto_wallet_for_my_kids/",
-      "generatedAt": "2026-04-22T14:00:48.733Z",
-      "relatedArticles": [
-        {
-          "title": "Trump's \"Sock Puppet\"",
-          "slug": "2026-04-22-trumps-sock-puppet",
+          "title": "US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing",
+          "slug": "2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing",
           "category": "Money & Markets"
         }
       ]
