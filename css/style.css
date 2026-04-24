@@ -572,8 +572,8 @@ img { max-width: 100%; height: auto; display: block; }
   position: sticky;
   top: 80px;
   align-self: start;
-  max-height: calc(100vh - 100px);
-  overflow-y: auto;
+  /* max-height: removed */
+  /* overflow-y: removed */
 }
 
 .sidebar-widget {
