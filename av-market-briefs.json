@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-04-23T20:09:52.375Z",
+  "source": "alpha-vantage",
+  "fetchedAt": "2026-04-23T19:38:03.870Z",
+  "totalArticles": 24,
+  "aggregate": {
+    "score": 2.2,
+    "rawScore": 0.216,
+    "label": "SOMEWHAT_BULLISH",
+    "count": 24,
+    "distribution": {
+      "bullish": 20,
+      "bearish": 0,
+      "neutral": 4
+    }
+  },
+  "categories": [
+    {
+      "category": "Money & Markets",
+      "articleCount": 3,
+      "headlines": [
+        {
+          "title": "EXCLUSIVE: SEGG Media Unveils $300 Million Web3 Strategy To Tokenize Sports And Entertainment - Lottery.com  ( NASDAQ:SEGG ) ",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 3.1,
+          "emoji": "📈",
+          "tickers": [
+            "AAPL",
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "$650B Moved On Solana In February as Stablecoin Activity Explodes",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 2.9,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "ORCL, GME, QMMM, UNH, AAPL: 5 Trending Stocks Today - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) ",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 2.1,
+          "emoji": "📈",
+          "tickers": [
+            "AAPL",
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        }
+      ],
+      "avgSentiment": 2.6999999999999997
+    },
+    {
+      "category": "Technology",
+      "articleCount": 5,
+      "headlines": [
+        {
+          "title": "Solana Is A Stronger Investment Than Bitcoin, Ethereum, Crypto Asset Management Firm States",
+          "source": "Benzinga",
+          "sentiment": "Bullish",
+          "score": 4.3,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "Why Are Public Companies Ammassing ETH, XRP, SOL, BNB Instead Of Just Bitcoin?",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 3.4,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "SOL",
+            "XRP",
+            "ETH",
+            "ADA"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "SWIFT Tests A Blockchain Ledger With 30+ Banks -- What It Means For XRP",
+          "source": "Motley Fool",
+          "sentiment": "Somewhat-Bullish",
+          "score": 3.3,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "ETH",
+            "SOL",
+            "XRP"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "Ethereum Explodes 25% Higher To $2,400",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 2.5,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        },
+        {
+          "title": "Grant Cardone To Tokenize $5B Of Real Estate, But XRP Is Not On His Partner Shortlist",
+          "source": "Benzinga",
+          "sentiment": "Somewhat-Bullish",
+          "score": 2.4,
+          "emoji": "📈",
+          "tickers": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ],
+          "url": "",
+          "publishedAt": ""
+        }
+      ],
+      "avgSentiment": 3.18
+    }
+  ],
+  "tickerHighlights": [
+    {
+      "ticker": "TSLA",
+      "sentiment": 4.9,
+      "label": "BULLISH",
+      "mentions": 1,
+      "topHeadline": "Bitcoin Could Replace Tesla In 'Magnificent 7' To Boost Returns, Reduce Volatility: Standard Chartered"
+    },
+    {
+      "ticker": "XRP",
+      "sentiment": 2.1,
+      "label": "SOMEWHAT_BULLISH",
+      "mentions": 7,
+      "topHeadline": "SWIFT Tests A Blockchain Ledger With 30+ Banks -- What It Means For XRP"
+    },
+    {
+      "ticker": "ADA",
+      "sentiment": 2,
+      "label": "SOMEWHAT_BULLISH",
+      "mentions": 3,
+      "topHeadline": "Why Are Public Companies Ammassing ETH, XRP, SOL, BNB Instead Of Just Bitcoin?"
+    },
+    {
+      "ticker": "BTC",
+      "sentiment": 1.7,
+      "label": "SOMEWHAT_BULLISH",
+      "mentions": 24,
+      "topHeadline": "$650B Moved On Solana In February as Stablecoin Activity Explodes"
+    },
+    {
+      "ticker": "ETH",
+      "sentiment": 1.7,
+      "label": "SOMEWHAT_BULLISH",
+      "mentions": 24,
+      "topHeadline": "$650B Moved On Solana In February as Stablecoin Activity Explodes"
+    },
+    {
+      "ticker": "NVDA",
+      "sentiment": 1.6,
+      "label": "SOMEWHAT_BULLISH",
+      "mentions": 2,
+      "topHeadline": "Bitcoin Holds Steady While Ethereum, Dogecoin, Solana Climb: Analyst Says Altcoins Could Rally 20%-30% If ETH Does This - Grayscale Bitcoin Mini Trust  ( BTC )  Common units of fractional undivided beneficial interest  ( ARCA:BTC ) "
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 1.3,
+      "label": "NEUTRAL",
+      "mentions": 2,
+      "topHeadline": "EXCLUSIVE: SEGG Media Unveils $300 Million Web3 Strategy To Tokenize Sports And Entertainment - Lottery.com  ( NASDAQ:SEGG ) "
+    },
+    {
+      "ticker": "SOL",
+      "sentiment": 0.9,
+      "label": "NEUTRAL",
+      "mentions": 24,
+      "topHeadline": "$650B Moved On Solana In February as Stablecoin Activity Explodes"
+    }
+  ]
+}
