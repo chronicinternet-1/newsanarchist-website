@@ -1,0 +1,32 @@
+{
+  "2026-04-22-why-do-most-countries-that-implement-age-verification-rules-never-reflect-on-hac": {
+    "postedAt": "2026-05-01T03:11:23.893Z",
+    "platforms": [
+      {
+        "platform": "twitter",
+        "ok": false,
+        "error": "Twitter media upload failed: {\"errors\":[{\"message\":\"Could not authenticate you\",\"code\":32}]}"
+      },
+      {
+        "platform": "facebook",
+        "ok": false,
+        "error": "{\"message\":\"Unsupported post request. Object with ID '...' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\",\"type\":\"GraphMethodException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"AuIcuZWHnB-zlfGFHXRrJOX\"}"
+      },
+      {
+        "platform": "instagram",
+        "ok": false,
+        "error": "Container error: {\"message\":\"Unsupported post request. Object with ID '...' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\",\"type\":\"GraphMethodException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"ApNQFg2JSyrVQ_YVvmNRYxD\"}"
+      },
+      {
+        "platform": "linkedin",
+        "ok": false,
+        "error": "{\"status\":401,\"serviceErrorCode\":65600,\"code\":\"INVALID_ACCESS_TOKEN\",\"message\":\"Invalid access token\"}"
+      },
+      {
+        "platform": "threads",
+        "ok": false,
+        "error": "Container error: {\"message\":\"Invalid OAuth 2.0 Access Token\",\"type\":\"THApiException\",\"code\":190,\"error_data\":{},\"fbtrace_id\":\"AZO78XCuwvDMbbxWmpSd8GY\"}"
+      }
+    ]
+  }
+}
