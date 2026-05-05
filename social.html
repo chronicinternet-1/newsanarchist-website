@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find NewsAnarchist On Social Media</title>
+  <meta name="description" content="Follow NewsAnarchist on social media — uncensored journalism on Twitter/X, Facebook, Instagram, Threads, YouTube & Substack.">
+  <meta property="og:title" content="NewsAnarchist — Follow Us">
+  <meta property="og:description" content="The stories they spiked. Follow us on every platform they haven't banned us from yet.">
+  <meta property="og:image" content="https://newsanarchist.com/images/og-card.png">
+  <meta property="og:url" content="https://newsanarchist.com/social.html">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://newsanarchist.com/social.html">
+  <style>
+    :root {
+      --red: #e8000d;
+      --red-glow: rgba(232,0,13,0.15);
+      --black: #080808;
+      --surface: #111;
+      --surface-2: #191919;
+      --border: #252525;
+      --text: #e5e3e0;
+      --muted: #777;
+      --soft: #aaa;
+      --font-head: 'Georgia', 'Times New Roman', serif;
+      --font-body: -apple-system, 'Segoe UI', system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--black);
+      color: var(--text);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      border-bottom: 2px solid var(--red);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: white;
+    }
+    .logo-n {
+      width: 2rem; height: 2rem;
+      background: var(--red);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-head);
+      font-weight: 900; font-size: 1.1rem;
+      color: white; border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .logo-text { font-family: var(--font-head); font-size: 1.3rem; font-weight: 700; }
+    .back-link {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 0.3rem 0.75rem;
+      border-radius: 3px;
+      transition: all 0.15s;
+    }
+    .back-link:hover { color: white; border-color: #444; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(160deg, #0d0000 0%, #0a0a0a 50%, #0d0004 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--red-glow), transparent);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: var(--red);
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 700;
+      color: white;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .hero h1 em { font-style: italic; color: var(--red); }
+    .hero-sub {
+      font-size: 1rem;
+      color: var(--soft);
+      max-width: 520px;
+      margin: 0 auto 2rem;
+      line-height: 1.65;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-num {
+      font-family: var(--font-head);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: white;
+      display: block;
+    }
+    .stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+
+    /* ── MAIN ── */
+    .main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    /* ── PLATFORM CARDS ── */
+    .section-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .platform-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 3rem;
+    }
+
+    .platform-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color 0.2s, background 0.2s, transform 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+    .platform-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--platform-color, var(--border));
+      transition: width 0.2s;
+    }
+    .platform-card:hover {
+      border-color: #333;
+      background: var(--surface-2);
+      transform: translateX(3px);
+    }
+    .platform-card:hover::before { width: 4px; }
+
+    .platform-icon {
+      width: 44px; height: 44px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      background: var(--platform-color, #222);
+      flex-shrink: 0;
+      filter: brightness(0.9);
+    }
+    .platform-info { flex: 1; min-width: 0; }
+    .platform-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .platform-handle {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .platform-desc {
+      font-size: 0.82rem;
+      color: var(--soft);
+      margin-top: 0.2rem;
+    }
+    .platform-cta {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: white;
+      background: var(--platform-color, var(--border));
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      opacity: 0.85;
+      transition: opacity 0.15s;
+    }
+    .platform-card:hover .platform-cta { opacity: 1; }
+    .badge-new {
+      font-size: 0.58rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: var(--red);
+      color: white;
+      padding: 0.1rem 0.35rem;
+      border-radius: 2px;
+    }
+
+    /* ── CONTENT STRATEGY BOX ── */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 520px) { .strategy-grid { grid-template-columns: 1fr; } }
+
+    .strategy-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.1rem;
+    }
+    .strategy-card h3 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--red);
+      margin-bottom: 0.6rem;
+    }
+    .strategy-card p, .strategy-card li {
+      font-size: 0.82rem;
+      color: var(--soft);
+      line-height: 1.55;
+    }
+    .strategy-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; }
+    .strategy-card li::before { content: '→ '; color: var(--muted); }
+
+    /* ── NEWSLETTER BAND ── */
+    .newsletter-band {
+      background: linear-gradient(135deg, #140000 0%, #0d0000 100%);
+      border: 1px solid rgba(232,0,13,0.25);
+      border-radius: 8px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .newsletter-band h2 {
+      font-family: var(--font-head);
+      font-size: 1.4rem;
+      color: white;
+      margin-bottom: 0.5rem;
+    }
+    .newsletter-band p {
+      font-size: 0.88rem;
+      color: var(--soft);
+      margin-bottom: 1.25rem;
+    }
+    .newsletter-band a {
+      display: inline-block;
+      background: var(--red);
+      color: white;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.75rem 2rem;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .newsletter-band a:hover { background: #c0000b; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 2rem;
+    }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: white; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="https://newsanarchist.com/">
+    <span class="logo-n">N</span>
+    <span class="logo-text">NewsAnarchist</span>
+  </a>
+  <a class="back-link" href="https://newsanarchist.com/">← Back to Site</a>
+</header>
+
+<section class="hero">
+  <p class="hero-eyebrow">Find us everywhere</p>
+  <h1>Follow the <em>Underground</em> Feed</h1>
+  <p class="hero-sub">
+    The stories they spiked. The documents they buried.
+    Follow NewsAnarchist on every platform they haven't banned us from yet.
+  </p>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">651+</span>
+      <span class="stat-label">Articles Published</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">4×</span>
+      <span class="stat-label">Daily Updates</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">8</span>
+      <span class="stat-label">Categories Covered</span>
+    </div>
+  </div>
+</section>
+
+<main class="main">
+
+  <p class="section-label">Primary Platforms</p>
+
+  <div class="platform-list">
+
+    <!-- Twitter / X -->
+    <a class="platform-card"
+       href="https://x.com/newsAnarchis"
+       target="_blank" rel="noopener"
+       style="--platform-color: #1d9bf0;">
+      <div class="platform-icon" style="background:#1d9bf0;">𝕏</div>
+      <div class="platform-info">
+        <div class="platform-name">Twitter / X <span class="badge-new">Primary</span></div>
+        <div class="platform-handle">@newsAnarchis</div>
+        <div class="platform-desc">Breaking stories, thread deep-dives & live coverage.</div>
+      </div>
+      <span class="platform-cta">Follow</span>
+    </a>
+
+    <!-- Facebook -->
+    <a class="platform-card"
+       href="https://facebook.com/NewsAnarchist"
+       target="_blank" rel="noopener"
+       style="--platform-color: #1877f2;">
+      <div class="platform-icon" style="background:#1877f2; font-size:1.5rem;">f</div>
+      <div class="platform-info">
+        <div class="platform-name">Facebook</div>
+        <div class="platform-handle">facebook.com/NewsAnarchist</div>
+        <div class="platform-desc">Daily article shares + community discussion.</div>
+      </div>
+      <span class="platform-cta">Like Page</span>
+    </a>
+
+    <!-- Instagram -->
+    <a class="platform-card"
+       href="https://instagram.com/NewsAnarchist"
+       target="_blank" rel="noopener"
+       style="--platform-color: #e1306c;">
+      <div class="platform-icon" style="background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); font-size:1.2rem;">📷</div>
+      <div class="platform-info">
+        <div class="platform-name">Instagram</div>
+        <div class="platform-handle">@newsAnarchis</div>
+        <div class="platform-desc">Visual stories, infographics & quote cards.</div>
+      </div>
+      <span class="platform-cta">Follow</span>
+    </a>
+
+    <!-- Threads -->
+    <a class="platform-card"
+       href="https://threads.net/@newsAnarchis"
+       target="_blank" rel="noopener"
+       style="--platform-color: #000;">
+      <div class="platform-icon" style="background:#0a0a0a; border:1px solid #333; font-size:1.3rem;">@</div>
+      <div class="platform-info">
+        <div class="platform-name">Threads <span class="badge-new">New</span></div>
+        <div class="platform-handle">@newsAnarchis</div>
+        <div class="platform-desc">Short takes, hot opinions & real-time reactions.</div>
+      </div>
+      <span class="platform-cta" style="background:#333;">Follow</span>
+    </a>
+
+    <!-- LinkedIn -->
+    <a class="platform-card"
+       href="https://linkedin.com/company/newsanarchist"
+       target="_blank" rel="noopener"
+       style="--platform-color: #0a66c2;">
+      <div class="platform-icon" style="background:#0a66c2; font-size:1rem; font-weight:900; font-family:sans-serif;">in</div>
+      <div class="platform-info">
+        <div class="platform-name">LinkedIn</div>
+        <div class="platform-handle">linkedin.com/company/newsanarchist</div>
+        <div class="platform-desc">Corporate watchdog stories & professional deep-dives.</div>
+      </div>
+      <span class="platform-cta">Follow</span>
+    </a>
+
+  </div>
+
+  <p class="section-label">Content & Community</p>
+
+  <div class="platform-list">
+
+    <!-- YouTube -->
+    <a class="platform-card"
+       href="https://youtube.com/@newsAnarchis"
+       target="_blank" rel="noopener"
+       style="--platform-color: #ff0000;">
+      <div class="platform-icon" style="background:#ff0000; font-size:1rem;">▶</div>
+      <div class="platform-info">
+        <div class="platform-name">YouTube <span class="badge-new">Coming Soon</span></div>
+        <div class="platform-handle">@newsAnarchis</div>
+        <div class="platform-desc">Video breakdowns of the stories mainstream media buried.</div>
+      </div>
+      <span class="platform-cta">Subscribe</span>
+    </a>
+
+    <!-- Substack / Newsletter -->
+    <a class="platform-card"
+       href="https://newsanarchist.substack.com"
+       target="_blank" rel="noopener"
+       style="--platform-color: #ff6719;">
+      <div class="platform-icon" style="background:#ff6719; font-size:1rem;">📬</div>
+      <div class="platform-info">
+        <div class="platform-name">Substack Newsletter</div>
+        <div class="platform-handle">newsanarchist.substack.com</div>
+        <div class="platform-desc">The weekly deep dive — straight to your inbox, no algorithm.</div>
+      </div>
+      <span class="platform-cta">Subscribe Free</span>
+    </a>
+
+    <!-- Telegram -->
+    <a class="platform-card"
+       href="https://t.me/NewsAnarchist"
+       target="_blank" rel="noopener"
+       style="--platform-color: #2aabee;">
+      <div class="platform-icon" style="background:#2aabee; font-size:1.2rem;">✈️</div>
+      <div class="platform-info">
+        <div class="platform-name">Telegram Channel</div>
+        <div class="platform-handle">t.me/NewsAnarchist</div>
+        <div class="platform-desc">Instant alerts when big stories drop. No noise.</div>
+      </div>
+      <span class="platform-cta">Join</span>
+    </a>
+
+    <!-- RSS -->
+    <a class="platform-card"
+       href="https://newsanarchist.com/feed.xml"
+       target="_blank" rel="noopener"
+       style="--platform-color: #f26522;">
+      <div class="platform-icon" style="background:#f26522; font-size:1.1rem;">📡</div>
+      <div class="platform-info">
+        <div class="platform-name">RSS Feed</div>
+        <div class="platform-handle">newsanarchist.com/feed.xml</div>
+        <div class="platform-desc">For people who remember what the internet used to be.</div>
+      </div>
+      <span class="platform-cta">Subscribe</span>
+    </a>
+
+  </div>
+
+  <!-- Content Strategy -->
+  <p class="section-label">What We Post & When</p>
+
+  <div class="strategy-grid">
+    <div class="strategy-card">
+      <h3>Twitter / X</h3>
+      <ul>
+        <li>Breaking headlines — immediate</li>
+        <li>Thread deep-dives — 2x weekly</li>
+        <li>Stat shots & quote cards</li>
+        <li>Retweet citizen journalism</li>
+        <li>Hashtag: #NewsAnarchist</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>Facebook</h3>
+      <ul>
+        <li>Article shares — 4x daily</li>
+        <li>Discussion questions on big stories</li>
+        <li>Weekly "buried story" roundup</li>
+        <li>Live video potential (future)</li>
+        <li>Event coverage when relevant</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>Instagram</h3>
+      <ul>
+        <li>Infographic quote cards</li>
+        <li>Story polls on hot topics</li>
+        <li>Reels: 30s story summaries</li>
+        <li>Behind-the-headline carousels</li>
+        <li>Link in bio → latest article</li>
+      </ul>
+    </div>
+    <div class="strategy-card">
+      <h3>LinkedIn</h3>
+      <ul>
+        <li>Corporate watchdog focus</li>
+        <li>Data-backed analysis posts</li>
+        <li>1x daily — curated & professional</li>
+        <li>Industry accountability stories</li>
+        <li>Target: journalists & researchers</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Newsletter CTA -->
+  <div class="newsletter-band">
+    <h2>🔥 Never Miss a Buried Story</h2>
+    <p>Join 10,000+ readers who get the daily briefing — no paywalls, no algorithm, no spin.</p>
+    <a href="https://newsanarchist.com/#subscribe">Subscribe Free — It's Daily</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="https://newsanarchist.com/">NewsAnarchist.com</a> — The stories they spiked. The documents they buried.
+  <br>Contrarian journalism with receipts. AI-assisted. Human-edited.</p>
+</footer>
+
+</body>
+</html>
