@@ -1,19 +1,6 @@
-/* NewsAnarchist — MINIMAL layout fix ONLY
-   Fixes broken card grid on trending/category pages.
-   Does NOT change any colors, fonts, backgrounds, or existing design. */
+/* NewsAnarchist — TRULY MINIMAL fix
+   ONLY fixes card title/excerpt overflow. Nothing else touched. */
 
-/* Fix article grid on category/trending pages */
-.article-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 1.25rem !important;
-}
-@media(max-width:900px){ .article-grid { grid-template-columns: repeat(2,1fr) !important; } }
-@media(max-width:560px){ .article-grid { grid-template-columns: 1fr !important; } }
-
-/* Fix card internal layout so title/excerpt/meta stack correctly */
-.article-card { display: flex !important; flex-direction: column !important; }
-.card-body { display: flex !important; flex-direction: column !important; flex: 1 !important; }
 .card-title {
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
@@ -25,6 +12,6 @@
   -webkit-line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
-  flex: 1 !important;
 }
+.card-body { display: flex !important; flex-direction: column !important; flex: 1 !important; }
 .card-meta { margin-top: auto !important; }
