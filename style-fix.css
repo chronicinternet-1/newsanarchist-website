@@ -3,7 +3,7 @@
    container max-width, horizontal bleed, sidebar alignment (S4).
    ============================================================= */
 
-/* ── 1. CARD TITLE / EXCERPT CLAMP (from S3 — kept) ───────── */
+/* 1. CARD TITLE / EXCERPT CLAMP (from S3 - kept) */
 .card-title {
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
@@ -19,8 +19,7 @@
 .card-body { display: flex !important; flex-direction: column !important; flex: 1 !important; }
 .card-meta { margin-top: auto !important; }
 
-/* ── 2. CONTAINER MAX-WIDTH (S4 — root cause of "too wide") ── */
-/* .container has no max-width in original CSS — 1fr expands infinitely */
+/* 2. CONTAINER MAX-WIDTH (S4 - root cause of too-wide layout) */
 .container {
   max-width: 1320px !important;
   margin-left: auto !important;
@@ -31,25 +30,29 @@
   width: 100% !important;
 }
 
-/* ── 3. PREVENT HORIZONTAL OVERFLOW (S4) ─────────────────── */
-/* Stops ticker / any wide child from creating horizontal scroll */
+/* 3. PREVENT HORIZONTAL OVERFLOW (S4) */
 body { overflow-x: hidden !important; }
 .main-content { overflow-x: hidden !important; }
 .article-grid { overflow: hidden !important; }
 
-/* ── 4. SIDEBAR ALIGNMENT (S4) ──────────────────────────── */
-/* Ensure sidebar stays in its grid column at mid-widths */
+/* 4. SIDEBAR ALIGNMENT (S4) */
 @media (min-width: 769px) {
-  .page-layout {
-    align-items: start !important;
-  }
-  .sidebar {
-    min-width: 0 !important;
-    width: 100% !important;
-  }
+  .page-layout { align-items: start !important; }
+  .sidebar { min-width: 0 !important; width: 100% !important; }
 }
 
-/* ── 5. SECTION HEADER DOESN'T BLEED (S4) ───────────────── */
+/* 5. SECTION HEADER ALIGNMENT (S4) */
+.section-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-c
+/* 4. SIDEBAR ALIGNMENT (S4) */
+@media (min-width: 769px) {
+  .page-layout { align-items: start !important; }
+  .sidebar { min-width: 0 !important; width: 100% !important; }
+}
+
+/* 5. SECTION HEADER ALIGNMENT (S4) */
 .section-header {
   display: flex !important;
   align-items: center !important;
