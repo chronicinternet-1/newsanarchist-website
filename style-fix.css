@@ -1,62 +1,25 @@
-/* NewsAnarchist — style-fix.css — S4 LAYOUT UPDATE (2026-05-06)
-   Replaces the minimal S3 version. Fixes: card overflow (S3) +
-   container max-width, horizontal bleed, sidebar alignment (S4).
-   ============================================================= */
+/* NewsAnarchist style-fix.css — S4 FINAL (2026-05-06) */
 
-/* 1. CARD TITLE / EXCERPT CLAMP (from S3 - kept) */
-.card-title {
-  display: -webkit-box !important;
-  -webkit-line-clamp: 3 !important;
-  -webkit-box-orient: vertical !important;
-  overflow: hidden !important;
-}
-.card-excerpt {
-  display: -webkit-box !important;
-  -webkit-line-clamp: 3 !important;
-  -webkit-box-orient: vertical !important;
-  overflow: hidden !important;
-}
-.card-body { display: flex !important; flex-direction: column !important; flex: 1 !important; }
-.card-meta { margin-top: auto !important; }
+/* 1. CARD CLAMP */
+.card-title{display:-webkit-box!important;-webkit-line-clamp:3!important;-webkit-box-orient:vertical!important;overflow:hidden!important;}
+.card-excerpt{display:-webkit-box!important;-webkit-line-clamp:3!important;-webkit-box-orient:vertical!important;overflow:hidden!important;}
+.card-body{display:flex!important;flex-direction:column!important;flex:1!important;}
+.card-meta{margin-top:auto!important;}
 
-/* 2. CONTAINER MAX-WIDTH (S4 - root cause of too-wide layout) */
-.container {
-  max-width: 1320px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 24px !important;
-  padding-right: 24px !important;
-  box-sizing: border-box !important;
-  width: 100% !important;
-}
+/* 2. CONTAINER MAX-WIDTH */
+.container{max-width:1320px!important;margin-left:auto!important;margin-right:auto!important;padding-left:24px!important;padding-right:24px!important;box-sizing:border-box!important;width:100%!important;}
 
-/* 3. PREVENT HORIZONTAL OVERFLOW (S4) */
-body { overflow-x: hidden !important; }
-.main-content { overflow-x: hidden !important; }
-.article-grid { overflow: hidden !important; }
+/* 3. FORCE TWO-COLUMN GRID */
+.page-layout{display:grid!important;grid-template-columns:1fr 300px!important;gap:32px!important;align-items:start!important;}
+.main-content{min-width:0!important;overflow-x:hidden!important;}
+.sidebar{min-width:0!important;width:100%!important;position:sticky!important;top:80px!important;align-self:start!important;}
 
-/* 4. SIDEBAR ALIGNMENT (S4) */
-@media (min-width: 769px) {
-  .page-layout { align-items: start !important; }
-  .sidebar { min-width: 0 !important; width: 100% !important; }
-}
+/* 4. OVERFLOW */
+body{overflow-x:hidden!important;}
+.article-grid{overflow:hidden!important;}
 
-/* 5. SECTION HEADER ALIGNMENT (S4) */
-.section-header {
-  display: flex !important;
-  align-items: center !important;
-  justify-c
-/* 4. SIDEBAR ALIGNMENT (S4) */
-@media (min-width: 769px) {
-  .page-layout { align-items: start !important; }
-  .sidebar { min-width: 0 !important; width: 100% !important; }
-}
+/* 5. SECTION HEADER */
+.section-header{display:flex!important;align-items:center!important;justify-content:space-between!important;overflow:hidden!important;}
 
-/* 5. SECTION HEADER ALIGNMENT (S4) */
-.section-header {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  overflow: hidden !important;
-  flex-wrap: nowrap !important;
-}
+/* 6. MOBILE - single column */
+@media (max-width:768px){.page-layout{grid-template-columns:1fr!important;}.sidebar{position:static!important;}}
