@@ -1,7 +1,56 @@
 {
-  "scrapedAt": "2026-05-09T15:01:48.099Z",
-  "topicsCount": 6,
+  "scrapedAt": "2026-05-09T21:02:12.093Z",
+  "topicsCount": 21,
   "topics": [
+    {
+      "title": "GM just paid a record penalty for breaking California privacy law",
+      "url": "https://www.reddit.com/r/privacy/comments/1t8c25x/gm_just_paid_a_record_penalty_for_breaking/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>General Motors agreed to pay $12.75 million in civil penalties for selling driving data of hundreds of thousands of California motorists to data brokers, allegedly without their consent. General Motors misled drivers who paid for the emergency roadside and navigation service OnStar and made approximately $20 million from the unlawful sale of their data between 202",
+      "pubDate": "2026-05-09T17:59:17.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 12,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>General Motors agreed to pay $12.75 million in civil penalties for selling driving data of hundreds of thousands of California motorists to data brokers, allegedly without their consent. General Motors misled drivers who paid for the emergency roadside and navigation service OnStar and made approximately $20 million from the unlawful sale of their data between 202",
+      "keywords": [
+        "corporate-watchdog news",
+        "data",
+        "paid",
+        "california",
+        "general",
+        "motors",
+        "million",
+        "their"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#data",
+        "#paid",
+        "#california",
+        "#general",
+        "#motors",
+        "#million",
+        "#their"
+      ],
+      "slug": "2026-05-09-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t8c25x/gm_just_paid_a_record_penalty_for_breaking/",
+      "generatedAt": "2026-05-09T21:01:33.422Z",
+      "relatedArticles": [
+        {
+          "title": "\"Doesn't Look Good\": Explosion Rocks Major New Orleans-Area Refinery As Fuel Markets Tighten",
+          "slug": "2026-05-09-doesnt-look-good-explosion-rocks-major-new-orleans-area-refinery-as-fuel-markets",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Frontier Jet Hits Person On Takeoff, Engine Erupts In Flames At Denver",
+          "slug": "2026-05-09-frontier-jet-hits-person-on-takeoff-engine-erupts-in-flames-at-denver",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
     {
       "title": "\"Doesn't Look Good\": Explosion Rocks Major New Orleans-Area Refinery As Fuel Markets Tighten",
       "url": "https://www.zerohedge.com/energy/doesnt-look-good-explosion-rocks-major-new-orleans-area-refinery-fuel-markets-tighten",
@@ -36,8 +85,19 @@
       ],
       "slug": "2026-05-09-doesnt-look-good-explosion-rocks-major-new-orleans-area-refinery-as-fuel-markets",
       "sourceUrl": "https://www.zerohedge.com/energy/doesnt-look-good-explosion-rocks-major-new-orleans-area-refinery-fuel-markets-tighten",
-      "generatedAt": "2026-05-09T15:01:36.125Z",
-      "relatedArticles": []
+      "generatedAt": "2026-05-09T21:01:35.348Z",
+      "relatedArticles": [
+        {
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-09-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Frontier Jet Hits Person On Takeoff, Engine Erupts In Flames At Denver",
+          "slug": "2026-05-09-frontier-jet-hits-person-on-takeoff-engine-erupts-in-flames-at-denver",
+          "category": "Corporate Watchdog"
+        }
+      ]
     },
     {
       "title": "Europe Sees 'Hyper-Concentration' Of Crypto 'Wrench Attacks' As Losses Hit $101 Million",
@@ -73,8 +133,317 @@
       ],
       "slug": "2026-05-09-europe-sees-hyper-concentration-of-crypto-wrench-attacks-as-losses-hit-101-milli",
       "sourceUrl": "https://www.zerohedge.com/crypto/europe-sees-hyper-concentration-crypto-wrench-attacks-losses-hit-101-million",
-      "generatedAt": "2026-05-09T15:01:37.640Z",
+      "generatedAt": "2026-05-09T21:01:38.146Z",
+      "relatedArticles": [
+        {
+          "title": "Wall Street Keeps Testing AI Traders, But Most Are Still Underperforming",
+          "slug": "2026-05-09-wall-street-keeps-testing-ai-traders-but-most-are-still-underperforming",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "De-Extinct Dire Wolves Ready To Breed; Bioscience Company Pushes Forward Multiple Projects",
+          "slug": "2026-05-09-de-extinct-dire-wolves-ready-to-breed-bioscience-company-pushes-forward-multiple",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "VICTORY! Federal Court (Finally) Rules Backdoor Searches of 702 Data Unconstitutional",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3dRME5BakpKVGw5SXpUR1VGeWdFZTBjWi1xbENkTlFhQ1cxX2lkVHVhRkZ5UmNiNWwyalRFQjFhRkZOU19LT0JEMmFhY2pUY29JQXZRclVXckRHRG5xNzhtRnZvalNmdElHQl9td2FKTDVsbUtHNTY3aUlxYUVmVUIyYnJJNVczXy1Kck9qRUJ0QVB6QzZFSExTcDhKZno0d2hYSV96UjZwaGNqdmR4N0oyQlp4QzRW?oc=5",
+      "description": "VICTORY! Federal Court (Finally) Rules Backdoor Searches of 702 Data Unconstitutional Electronic Frontier Foundation",
+      "pubDate": "2025-01-22T08:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Tech & Privacy",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "VICTORY! Federal Court (Finally) Rules Backdoor Searches of 702 Data Unconstitutional Electronic Frontier Foundation",
+      "keywords": [
+        "tech-&-privacy news",
+        "victory",
+        "federal",
+        "court",
+        "finally",
+        "rules",
+        "backdoor",
+        "searches"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#victory",
+        "#federal",
+        "#court",
+        "#finally",
+        "#rules",
+        "#backdoor",
+        "#searches"
+      ],
+      "slug": "2026-05-09-victory-federal-court-finally-rules-backdoor-searches-of-702-data-unconstitution",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3dRME5BakpKVGw5SXpUR1VGeWdFZTBjWi1xbENkTlFhQ1cxX2lkVHVhRkZ5UmNiNWwyalRFQjFhRkZOU19LT0JEMmFhY2pUY29JQXZRclVXckRHRG5xNzhtRnZvalNmdElHQl9td2FKTDVsbUtHNTY3aUlxYUVmVUIyYnJJNVczXy1Kck9qRUJ0QVB6QzZFSExTcDhKZno0d2hYSV96UjZwaGNqdmR4N0oyQlp4QzRW?oc=5",
+      "generatedAt": "2026-05-09T21:01:39.870Z",
       "relatedArticles": []
+    },
+    {
+      "title": "GM agrees to pay $12.75M to resolve a California investigation into claims that it illegally sold the location and driving data of OnStar subscribers to brokers",
+      "url": "https://www.reddit.com/r/privacy/comments/1t8mkka/gm_agrees_to_pay_1275m_to_resolve_a_california/",
+      "description": "&#32; submitted by &#32; <a href=\" /u/mkbt </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-05-09T20:53:16.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "True Crime",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a href=\" /u/mkbt </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "keywords": [
+        "true-crime news",
+        "agrees",
+        "resolve",
+        "california",
+        "investigation",
+        "claims",
+        "illegally",
+        "sold"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#agrees",
+        "#resolve",
+        "#california",
+        "#investigation",
+        "#claims",
+        "#illegally",
+        "#sold"
+      ],
+      "slug": "2026-05-09-gm-agrees-to-pay-1275m-to-resolve-a-california-investigation-into-claims-that-it",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t8mkka/gm_agrees_to_pay_1275m_to_resolve_a_california/",
+      "generatedAt": "2026-05-09T21:01:41.137Z",
+      "relatedArticles": [
+        {
+          "title": "Enforced age verification theory",
+          "slug": "2026-05-09-enforced-age-verification-theory",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "Enforced age verification theory",
+      "url": "https://www.reddit.com/r/privacy/comments/1t89430/enforced_age_verification_theory/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>I’m not sure if this has been discussed before so here’s my theory about the apparent upcoming worldwide enforced age verification.</p> <p>I’m starting to see more and more indirect correlations between shifts in tech and the push for age verification. </p> <p>Claude Mythos from Anthropic is going to hurt companies like Zerodium, NSO and forensic tools like Celleb",
+      "pubDate": "2026-05-09T16:09:23.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "True Crime",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m not sure if this has been discussed before so here’s my theory about the apparent upcoming worldwide enforced age verification.</p> <p>I’m starting to see more and more indirect correlations between shifts in tech and the push for age verification. </p> <p>Claude Mythos from Anthropic is going to hurt companies like Zerodium, NSO and forensic tools like Celleb",
+      "keywords": [
+        "true-crime news",
+        "verification",
+        "enforced",
+        "theory",
+        "like",
+        "sure",
+        "been",
+        "discussed"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#verification",
+        "#enforced",
+        "#theory",
+        "#like",
+        "#sure",
+        "#been",
+        "#discussed"
+      ],
+      "slug": "2026-05-09-enforced-age-verification-theory",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t89430/enforced_age_verification_theory/",
+      "generatedAt": "2026-05-09T21:01:42.462Z",
+      "relatedArticles": [
+        {
+          "title": "GM agrees to pay $12.75M to resolve a California investigation into claims that it illegally sold the location and driving data of OnStar subscribers to brokers",
+          "slug": "2026-05-09-gm-agrees-to-pay-1275m-to-resolve-a-california-investigation-into-claims-that-it",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "More \"Love Taps\"? US Reportedly Struck 4 Iranian Tankers As Qatari LNG Tanker Traverses Strait",
+      "url": "https://www.zerohedge.com/geopolitical/qatari-lng-tanker-transits-hormuz-us-awaits-irans-response-peace-deal",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">More \"Love Taps\"? US Reportedly Struck 4 Iranian Tankers As Qatari LNG Tanker Traverses Strait</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><h2>Summary</h2> <ul><li> <p><strong>US reportedly struck 4 Iranian oil tankers</strong> attempting to traverse the Strait</p> </li> <li> <p>Qatari <stro",
+      "pubDate": "Sat, 09 May 2026 17:30:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Summary US reportedly struck 4 Iranian oil tankers attempting to traverse the Strait Qatari LNG Tanker entered the Strait for first time since start of war US continues to await a formal response from Tehran on a proposal aimed at ending the war The odds of a permanent peace deal by the end of May have faded notably (now just 25%)... Multiple accounts across social media are reporting that four tankers were apparently struck or disabled by the U.S. forces near Iran’s Jask area . @EGYOSINT notes that satellite imagery shows one tanker on fire and extensive oil spills, including leaks from two tankers, with another spill detected about 7.4 kilometers from the anchorage site. @Merrux confirmed that US forces hit an Iranian oil tanker near the port city of Bandar Jask last night. The vessel is currently on fire. It remains unclear if other tankers were also hit, though smoke is rising from them. The tanker is visibly ablaze, there has been no response from Iran. Presumably these are just more \"love taps\" and do not represent any threat to the so-called &#x27;ceasefire&#x27;. A state of relative calm prevailed around the Strait of Hormuz on Saturday, after days of sporadic flareups, as the Trump administration continues to await a formal response from Tehran on a U.S. proposal aimed at ending the war and reopening the Hormuz chokepoint , following last week&#x27;s clashes between Iranian and U.S. naval forces in the world&#x27;s most critical waterway. As Times of Israel reports, US Secretary of State Marco Rubio said on Friday that Washington expected a response within hours and President Donald Trump later said it would likely be submitted “tonight.” But a day later, there was no sign of movement from Iran on the proposal, which would formally end the war before talks on more contentious issues, including the Iranian nuclear program. With US President Donald Trump due to begin a long-awaited visit to China next week, there has been mounting pressure to draw a line under the conflict, which has thrown energy markets into turmoil and posed a growing threat to the world economy. As Tehran kept Washington waiting for its response after saying Friday it was not paying attention to “deadlines,” the Islamic Republic’s Foreign Minister Abbas Araghchi called into question the reliability of the US leadership in a call with his Turkish counterpart. “The recent escalation of tensions by American forces in the Persian Gulf and their numerous actions in violating the ceasefire have added to suspicions about the motivation and seriousness of the American side in the path of diplomacy,” he said, according to an Iranian account of the call published by the ISNA news agency. While there were no official signs of a breakthrough in negotiations as of early Saturday morning, new ship data from the Hormuz area may suggest that positive developments are ahead. Bloomberg reporter Stephen Stapczynski wrote on X that an LNG tanker from Qatar is \" attempting \" to transit the Hormuz. \"If successful, this would be the first time Qatar has exported LNG out of the region since the Iran war began in late-Feb,\" Stapczynski noted, adding, \"The tanker says it is destined for Pakistan.\" BREAKING: Qatar is attempting to send an LNG shipment through the Strait of Hormuz 🇶🇦⚠️ If successful, this would be the first time Qatar has exported LNG out of the region since the Iran war began in late-Feb The tanker says it is destined for Pakistan pic.twitter.com/JBHMq2RWpi The tanker is fully loaded with LNG and is currently transiting the Hormuz chokepoint. We must point out that the ship did not sail through the Hormuz Island route. There is no word on whether Iran charged the vessel a transit fee, but Tehran allows ships from \"friendly\" nations, primarily China, India, and the UAE, to pass.",
+      "keywords": [
+        "global-power news",
+        "tanker",
+        "field",
+        "iranian",
+        "tankers",
+        "strait",
+        "hormuz",
+        "iran"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#tanker",
+        "#field",
+        "#iranian",
+        "#tankers",
+        "#strait",
+        "#hormuz",
+        "#iran"
+      ],
+      "slug": "2026-05-09-more-love-taps-us-reportedly-struck-4-iranian-tankers-as-qatari-lng-tanker-trave",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/qatari-lng-tanker-transits-hormuz-us-awaits-irans-response-peace-deal",
+      "generatedAt": "2026-05-09T21:01:44.206Z",
+      "relatedArticles": [
+        {
+          "title": "Putin Rips NATO Aggression At Scaled-Down Victory Day Parade As Ceasefire Holds",
+          "slug": "2026-05-09-putin-rips-nato-aggression-at-scaled-down-victory-day-parade-as-ceasefire-holds",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "Putin Rips NATO Aggression At Scaled-Down Victory Day Parade As Ceasefire Holds",
+      "url": "https://www.zerohedge.com/geopolitical/putin-rips-nato-aggression-scaled-down-victory-day-parade-ceasefire-holds",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Putin Rips NATO Aggression At Scaled-Down Victory Day Parade As Ceasefire Holds</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>By many accounts Russia's Saturday Victory Day parade and memorial observances in Moscow's Red Square were once again muted and somewhat scaled down compared to the ",
+      "pubDate": "Sat, 09 May 2026 16:15:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "By many accounts Russia&#x27;s Saturday Victory Day parade and memorial observances in Moscow&#x27;s Red Square were once again muted and somewhat scaled down compared to the immense pageantry which marked the pre-Ukraine war years. President Putin used the occasion while speaking in front of thousands of military personnel and flanked by a handful of world leaders to take swipes at NATO and the West, saying he&#x27;s fighting \"just\" war and called Ukraine an \"aggressive force\" that is being \"armed and supported by the whole bloc of NATO\" . Pool Photo via AP \"The great feat of the generation of victors inspires the soldiers carrying out the goals of the special military operation today,\" Putin said . \"They are confronting an aggressive force armed and supported by the entire NATO bloc. And despite this, our heroes move forward .\" He added: \"I firmly believe that our cause is just . \" The three-day Ukraine ceasefire announced and backed by President Trump appears to be holding, as no drone attacks have been registered on Moscow or other parts of the country. Large-scale drone waves were coming on a daily basis throughout last week. Massive bombardment of Ukraine has also ceased. Ukraine&#x27;s Zelensky had reportedly ordered his armed forces to adhere to the short ceasefire : Meanwhile, Ukrainian President Volodymyr Zelensky issued a decree on Friday (May 8) ordering the Ukrainian military not to attack the parade . He also confirmed that his government would adhere to the ceasefire and the prisoner swap of 1,000 detainees from each side. \"Red Square is less important to us than the lives of Ukrainian prisoners who can be returned home,\" Zelensky said, referring to the historic site in Moscow where the annual event is held. The Kremlin has over the past days repeatedly warned that Kiev would come under immense bombing if the parade did get attacked, and went so far as to tell foreign diplomats they should evacuate the Ukrainian capital in such a scenario. via AP Among the foreign leaders that attended Saturday V-Day included Slovak Prime Minister Robert Fico, President of Belarus Alexander Lukashenko, President of Laos Thongloun Sisoulith, Malaysia Supreme Leader Sultan Ibrahim, President of Kazakhstan Kassym-Jomart Tokayev and President of Uzbekistan Shavkat Mirziyoyev. The NY Times (and a lot of other Western media outlets) is reading all of this as a &#x27;loss&#x27; and reputational hit for Putin, again given the scaled-down and lower key nature of everything. Happy Great Victory Day! pic.twitter.com/trYNYEz1K2 \"President Vladimir V. Putin has cultivated the annual Victory Day parade commemorating the Soviet triumph over Nazi Germany into a cornerstone of Russian patriotic ritual,\" NYT wrote. \"Tanks and nuclear launchers roll across Red Square in a showcase of military prowess and righteous pride that the Kremlin has used to justify the country’s great-power posture toward the West.\" But then the report underscores that \"Moscow is under a heavy security presence as Ukraine rattles Russia with long-range drone and missile strikes. The Russian authorities have appeared exposed as they acknowledged that the beefed-up security was intended to protect Mr. Putin .\" Face-to-face on Red Square! - Putin speaks with DPRK commander after V-Day parade pic.twitter.com/7Ica2VaaRM It further highlighted: \" The parade on Saturday included none of the usual muscle-flexing missiles and armor . Personnel from Russian military academies and other servicemen made their way through Russia’s most famous square.\" Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "global-power news",
+        "parade",
+        "field",
+        "putin",
+        "president",
+        "victory",
+        "square",
+        "ukraine"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#parade",
+        "#field",
+        "#putin",
+        "#president",
+        "#victory",
+        "#square",
+        "#ukraine"
+      ],
+      "slug": "2026-05-09-putin-rips-nato-aggression-at-scaled-down-victory-day-parade-as-ceasefire-holds",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/putin-rips-nato-aggression-scaled-down-victory-day-parade-ceasefire-holds",
+      "generatedAt": "2026-05-09T21:01:46.333Z",
+      "relatedArticles": [
+        {
+          "title": "More \"Love Taps\"? US Reportedly Struck 4 Iranian Tankers As Qatari LNG Tanker Traverses Strait",
+          "slug": "2026-05-09-more-love-taps-us-reportedly-struck-4-iranian-tankers-as-qatari-lng-tanker-trave",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "US Government releases first batch of UAP documents and videos",
+      "url": "https://www.war.gov/UFO/",
+      "description": "https:&#x2F;&#x2F;apnews.com&#x2F;article&#x2F;trump-ufos-uap-aliens-pentagon-re... https:&#x2F;&#x2F;www.war.gov&#x2F;UFO&#x2F;#release",
+      "pubDate": "2026-05-08T12:10:25.000Z",
+      "source": "Hacker News",
+      "hnScore": 323,
+      "hnComments": 495,
+      "category": "Unexplained",
+      "score": 5,
+      "sources": [
+        "Hacker News"
+      ],
+      "content": "https:&#x2F;&#x2F;apnews.com&#x2F;article&#x2F;trump-ufos-uap-aliens-pentagon-re... https:&#x2F;&#x2F;www.war.gov&#x2F;UFO&#x2F;#release",
+      "keywords": [
+        "unexplained news",
+        "government",
+        "releases",
+        "first",
+        "batch",
+        "documents",
+        "videos",
+        "apnews"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#government",
+        "#releases",
+        "#first",
+        "#batch",
+        "#documents",
+        "#videos",
+        "#apnews"
+      ],
+      "slug": "2026-05-09-us-government-releases-first-batch-of-uap-documents-and-videos",
+      "sourceUrl": "https://www.war.gov/UFO/",
+      "generatedAt": "2026-05-09T21:01:48.191Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "description": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "pubDate": "2026-05-08T18:18:23.000Z",
+      "source": "Google News (Unexplained)",
+      "category": "Government Secrets",
+      "score": 9,
+      "sources": [
+        "Google News (Unexplained)"
+      ],
+      "content": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "keywords": [
+        "government-secrets news",
+        "pentagon",
+        "releases",
+        "declassified",
+        "files",
+        "including",
+        "videos",
+        "photos"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#pentagon",
+        "#releases",
+        "#declassified",
+        "#files",
+        "#including",
+        "#videos",
+        "#photos"
+      ],
+      "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "generatedAt": "2026-05-09T21:01:49.550Z",
+      "relatedArticles": [
+        {
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Hantavirus: Stop The Spread Is Back",
+          "slug": "2026-05-09-hantavirus-stop-the-spread-is-back",
+          "category": "Government Secrets"
+        }
+      ]
     },
     {
       "title": "Why do privacy-respecting professional platforms never seem to win?",
@@ -111,149 +480,484 @@
       ],
       "slug": "2026-05-09-why-do-privacy-respecting-professional-platforms-never-seem-to-win",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t80jtm/why_do_privacyrespecting_professional_platforms/",
-      "generatedAt": "2026-05-09T15:01:40.004Z",
-      "relatedArticles": []
+      "generatedAt": "2026-05-09T21:01:51.222Z",
+      "relatedArticles": [
+        {
+          "title": "Iran Publicly Discloses Supreme Leader's Status For First Time: 'Marginally Injured'",
+          "slug": "2026-05-09-iran-publicly-discloses-supreme-leaders-status-for-first-time-marginally-injured",
+          "category": "Surveillance State"
+        }
+      ]
     },
     {
-      "title": "Intel Leak: Russia Mulled Giving Iran Un-Jammable Drones To Fight US Forces",
-      "url": "https://www.zerohedge.com/geopolitical/intel-leak-russia-mulled-giving-iran-un-jammable-drones-fight-us-forces",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Intel Leak: Russia Mulled Giving Iran Un-Jammable Drones To Fight US Forces</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Russia offered Iran thousands of advanced drones built to bypass electronic jamming systems, along with training for attacks on US troops in the Middle East, according t",
-      "pubDate": "Sat, 09 May 2026 11:35:00 +0000",
-      "source": "ZeroHedge",
+      "title": "I’ve banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "description": "Related: https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html",
+      "pubDate": "2026-05-09T16:28:36.000Z",
+      "source": "Hacker News",
+      "hnScore": 132,
+      "hnComments": 60,
       "category": "Government Secrets",
-      "score": 7,
+      "score": 8,
       "sources": [
-        "ZeroHedge"
+        "Hacker News"
       ],
-      "content": "Russia offered Iran thousands of advanced drones built to bypass electronic jamming systems, along with training for attacks on US troops in the Middle East, according to a confidential intelligence document obtained and reviewed by The Economist . Already the two countries have deepened their defense ties in the context of the years-long Ukraine war, with Tehran providing tens of thousands of Shahed suicide drones, but this fresh allegation points to potential increasing Russian involvement against the United States in the Persian Gulf region . Illustrative file image, source: Dragonfly Pictures Inc. Moscow has been previously accused of supplying the Iranians with targeting intelligence related to Operation Epic Fury, and some analysts have said this could explain how Iranian ballistic missiles and drones were able in many cases to score precision hits on US radar and military outposts in the region, as far away as Jordan for example. The Economist report accuses Russian intelligence of preparing a plan to offer Tehran what are essentially &#x27;un-jammable drones&#x27;, describing that teh GRU military intelligence agency drafted a 10-page proposal offering Iran 5,000 short-range fiber-optic drones , as well as an undisclosed number of longer-range satellite-guided drones, and a full drone operator training program. The document is said the be full of diagrams and maps of strategic Iranian coastal zones and islands near the Strait of Hormuz , which is precisely where sporadic fighting between US and Iranian forces is taking place currently . Neither Tehran nor Moscow has publicly acknowledged any such plan or document, and they are not expected to comment. But to some degree the &#x27;planning&#x27; seems consistent with what Russia has learned amid the &#x27;drone wars&#x27; over Ukraine. Unlike conventional drones controlled by radio signals, fiber-optic drones operate through trailing cables , making them extremely difficult, if not impossible, to jam electronically - but also highly responsive and maneuverable . Hezbollah in Lebanon is said to be increasingly reliant on tethered drones for attacks on IDF convoys in South Lebanon as well as northern Israel. As for the Iran war context, the GRU assessed that US amphibious forces and landing craft would be especially vulnerable to drone swarm attacks because of their slow speed, according to The Economist . The Kremlin has broadly sought to bat down such reports alleging a deepened Russian military or intelligence role in helping Iran amid its war with the US and Israel. Also, most every country has intelligence &#x27;plans&#x27; on the shelves as &#x27;options&#x27; - but it doesn&#x27;t mean any follow through actually results, or that decisions were even close to being made. Lyman, in the Donetsk region of Ukraine If you’re not aware, wireless drones can be “jammed” so the operator can no longer control it. In response, they’re using tiny fiber optic cables attached to the drone to circumvent jamming These videos speak to the volume of drone… pic.twitter.com/HTbvaWJSj1 It should also be noted that The Economist in particular is among the more establishment and national security state-friendly magazines and news sources. Some pundits have accused the publication of tending to always reflect a CIA and military-industrial complex mainstream perspective on global events and &#x27;official enemies&#x27;. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Related: https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html",
       "keywords": [
         "government-secrets news",
-        "drones",
-        "field",
-        "iran",
-        "intelligence",
-        "russia",
-        "drone",
-        "forces"
+        "query",
+        "strings",
+        "banned",
+        "related",
+        "susam"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#drones",
-        "#field",
-        "#iran",
-        "#intelligence",
-        "#russia",
-        "#drone",
-        "#forces"
+        "#query",
+        "#strings",
+        "#banned",
+        "#related",
+        "#susam"
       ],
-      "slug": "2026-05-09-intel-leak-russia-mulled-giving-iran-un-jammable-drones-to-fight-us-forces",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/intel-leak-russia-mulled-giving-iran-un-jammable-drones-fight-us-forces",
-      "generatedAt": "2026-05-09T15:01:42.009Z",
+      "slug": "2026-05-09-ive-banned-query-strings",
+      "sourceUrl": "https://chrismorgan.info/no-query-strings",
+      "generatedAt": "2026-05-09T21:01:53.871Z",
       "relatedArticles": [
         {
-          "title": "Germany's AfD On Verge Of Absolute Majority In Eastern Saxony-Anhalt Just Months Before Election",
-          "slug": "2026-05-09-germanys-afd-on-verge-of-absolute-majority-in-eastern-saxony-anhalt-just-months",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         },
         {
-          "title": "The Day Civilization Runs Out Of Bread Will Not Feel Like Fiction",
-          "slug": "2026-05-09-the-day-civilization-runs-out-of-bread-will-not-feel-like-fiction",
+          "title": "Hantavirus: Stop The Spread Is Back",
+          "slug": "2026-05-09-hantavirus-stop-the-spread-is-back",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "Germany's AfD On Verge Of Absolute Majority In Eastern Saxony-Anhalt Just Months Before Election",
-      "url": "https://www.zerohedge.com/political/germanys-afd-verge-absolute-majority-eastern-saxony-anhalt-just-months-election",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Germany's AfD On Verge Of Absolute Majority In Eastern Saxony-Anhalt Just Months Before Election</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" Remix News,</em></a></p> <p><strong>With just one more point on election day, the Alternative for Germany (AfD) is closing in on producing",
-      "pubDate": "Sat, 09 May 2026 11:00:00 +0000",
+      "title": "Hantavirus: Stop The Spread Is Back",
+      "url": "https://www.zerohedge.com/medical/hantavirus-stop-spread-back",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Hantavirus: Stop The Spread Is Back</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" the Brownstone Institute</a>,</em></p> <p>Hollywood loves a good sequel and so does politics and pharmaceutical development. </p> <p><strong>Since Covid, there have been several attempted disease",
+      "pubDate": "Sat, 09 May 2026 20:20:00 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "With just one more point on election day, the Alternative for Germany (AfD) is closing in on producing a political earthquake. According to a recent poll by Infratest dimap, the AfD in Saxony-Anhalt is pushing its lead even further, now at 41 percent. The poll also shows that for the CDU, establishing a government is becoming more difficult, especially since any realistic option besides the AfD appears to be a minority government. There are just four months until election day, and much could change until then, but the AfD appears to be only gaining momentum, not only in the state, but also nationwide, where it just hit a record of 28 percent in the latest Insa survey. SACHSEN-ANHALT | Sonntagsfrage Landtagswahl Infratest dimap/MDR, MZ, Volksstimme AfD: 41% (+2) CDU: 26% (-1) LINKE: 12% (-1) SPD: 7% GRÜNE: 4% (+1) BSW: 4% (-2) Sonstige: 6% (+1) Änderungen zur letzten Umfrage vom 04. September 2025 Verlauf: #ltwst … pic.twitter.com/1T1SnGSDuF In the “Sachsen-AnhaltTREND” survey, which was conducted by Infratest dimap on behalf of the Magdeburger Volksstimme, the Mitteldeutsche Zeitung, and Mitteldeutscher Rundfunk, the AfD hit 41 percent. Meanwhile, its closest rival, the CDU, lost 1 percentage point compared to the previous week and sits at 26 percent. Compared to an Infratest poll from last September, the AfD has increased its support by 2 percentage points. Following the CDU are Die Linke at 12 percent and the SPD at 7 percent. 🇩🇪🎄The German Christmas market in Magdeburg has been suspended over security concerns, sparking a nationwide debate. The question: Why are Christmas markets in Germany being canceled while countries like 🇵🇱Poland and the 🇨🇿Czech Republic have no serious terror threats at their… pic.twitter.com/MUW5fofh5w Both the Greens and the BSW are polling at 4 percent. These two parties, along with the FDP, would currently fail to enter the state parliament. The FDP, a current member of the state government with the CDU and SPD, was not listed individually in the results because of its low figures. All other parties combined represent 6 percent of the total. If all the current values of the other parties held, then just one point more for the AfD would allow the party to rule with an absolute majority. However, if other parties, such as the Greens, were to pass the 5 percent threshold on election day, this would complicate the math for the AfD. In addition, a majority of respondents are unhappy with the state government, with 62 percent stating they are only slightly or not at all satisfied. Only 33 percent expressed that they are very satisfied or satisfied with the government’s performance. Furthermore, 82 percent of people have little to no confidence that the state is generally fulfilling its duties, and the same number, 82 percent, assess the current economic situation as “less than good” or “poor.” Only 14 percent rate the economy as “very good” or “good.” Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Hollywood loves a good sequel and so does politics and pharmaceutical development. Since Covid, there have been several attempted disease scares – Mpox, Swine flu, Bird flu, Chikungunya, Measles – but nothing has really caught the attention of audiences like the new Hantavirus frenzy. Today’s evidence comes from DRUDGE REPORT : global effort to stop the spread. Is “flatten the curve” next? Let’s remember how this began last year, with of course, a hantavirus death in the family of one of America’s most beloved Hollywood actors . It was Betsy Arakawa, Gene Hackman’s wife, who died February 12, 2025, from apparent hantavirus infection from rodents in the home. Terrifying image. At that point, no regular person had ever heard of such a disease. There is a reason. It’s rare and human-to-human spread is nearly unknown. Strange that it would hit the wife of the appropriately named Gene Hackman (get it?), leading man of the prescient 1998 movie Enemy of the State . Next up we have a reprise of the Plague Ship motif. Like the Diamond Princess, it is a cruise ship, the MV Hondius operated by Oceanwide Expeditions with 147 passengers, departing from Argentina and now anchored off Cape Verde, West Africa. It was headed to the Canary Islands when three people died, two with lab-confirmed hantavirus. No port would allow the ship to dock. With the assistance of rescue boats, the dead have been carefully removed by workers in hazmats and masks. A flight attendant who came in contact with a dead body is now hospitalized and in rough condition, suggesting that even coming close to a person with hantavirus is risky stuff. No one can figure out how this is even possible. So mysterious, so unusual, so terrifying, just like the movie Contagion . This fits with the theory of Drs. Fauci and Morens that we need not worry about lab-created pathogens when animal-to-human spillover is becoming more common. This is why, they wrote in August 2020, that we must commence to “rebuilding the infrastructures of human existence, from cities to homes to workplaces, to water and sewer systems, to recreational and gatherings venues.” Ready to opine for the press is the World Health Organization’s Dr. Maria Van Kerkhove, she of Stanford University pedigree, now widely quoted as the go-to authority. You might remember Dr. Kerkhove from the original cast of the Covid production. It was she who wrote the WHO’s report to the world following the February 2020 junket to Wuhan . (We know this from the metadata of the report, which she failed to cleanse in the rush to publication.) “Achieving China’s exceptional coverage with and adherence to these containment measures,” she wrote of the CCP’s extreme lockdowns, “ has only been possible due to the deep commitment of the Chinese people to collective action in the face of this common threat. At a community level this is reflected in the remarkable solidarity of provinces and cities in support of the most vulnerable populations and communities.” Many close observers credit Kerkhove’s report with inspiring the worldwide lockdown of all nations but four in the following weeks. She still works at the WHO. Hardly anyone remembers any of this. There is no mechanism in place for her to be held to account for her role. There is no known cure but a vaccine is in development by Moderna based on the mRNA platform. As a result, Moderna’s stock, down dramatically from its highs, is now starting to recover. It is now up 100 percent year over year. The buy signal is strong with this one. Looking back at the Covid prequel, there was always a flaw in the coronavirus caper, namely its short period of latency, roughly that of a cold or flu. You are infectious for a few days without symptoms while you pass it on. A genuine disease panic needs a longer period of latency. You need to be infected for weeks while spreading it far and wide. Why is this? Because every infectious disease confronts the logic of survival. A smart virus does not kill its hosts – it needs them to infect others – but a dumb one does, which is why dumb viruses are not good candidates for pandemics. This persistent trade-off between severity and prevalence can only be gamed by a long period of latency. That’s extremely rare and not even lab-created viruses manage this balancing act well. As it turns out, this hantavirus does have a very long period of latency, we are assured by the Harvard School of Public Health. It has issued a pronouncement : “The incubation period – the time between when a person is infected and when they begin to experience symptoms – is usually in the range of two to three weeks, but may be as long as eight weeks.” Two months! Imagine that. Here we might finally have our candidate for the silent killer about which Deborah Birx fantasized during the last iteration of this story.",
       "keywords": [
         "government-secrets news",
-        "percent",
         "field",
-        "just",
-        "election",
-        "germany",
-        "government",
-        "only"
+        "hantavirus",
+        "there",
+        "does",
+        "disease",
+        "period",
+        "spread"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#percent",
         "#field",
-        "#just",
-        "#election",
-        "#germany",
-        "#government",
-        "#only"
+        "#hantavirus",
+        "#there",
+        "#does",
+        "#disease",
+        "#period",
+        "#spread"
       ],
-      "slug": "2026-05-09-germanys-afd-on-verge-of-absolute-majority-in-eastern-saxony-anhalt-just-months",
-      "sourceUrl": "https://www.zerohedge.com/political/germanys-afd-verge-absolute-majority-eastern-saxony-anhalt-just-months-election",
-      "generatedAt": "2026-05-09T15:01:43.626Z",
+      "slug": "2026-05-09-hantavirus-stop-the-spread-is-back",
+      "sourceUrl": "https://www.zerohedge.com/medical/hantavirus-stop-spread-back",
+      "generatedAt": "2026-05-09T21:01:56.105Z",
       "relatedArticles": [
         {
-          "title": "Intel Leak: Russia Mulled Giving Iran Un-Jammable Drones To Fight US Forces",
-          "slug": "2026-05-09-intel-leak-russia-mulled-giving-iran-un-jammable-drones-to-fight-us-forces",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         },
         {
-          "title": "The Day Civilization Runs Out Of Bread Will Not Feel Like Fiction",
-          "slug": "2026-05-09-the-day-civilization-runs-out-of-bread-will-not-feel-like-fiction",
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
           "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "The Day Civilization Runs Out Of Bread Will Not Feel Like Fiction",
-      "url": "https://www.zerohedge.com/geopolitical/day-civilization-runs-out-bread-will-not-feel-fiction",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">The Day Civilization Runs Out Of Bread Will Not Feel Like Fiction</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Madge Waggy,</em></a></p> <p><strong>For nearly three decades, much of the modern world behaved as though the nuclear age had quietly expired sometime in the early 19",
-      "pubDate": "Sat, 09 May 2026 03:25:00 +0000",
+      "title": "Wall Street Keeps Testing AI Traders, But Most Are Still Underperforming",
+      "url": "https://www.zerohedge.com/markets/wall-street-keeps-testing-ai-traders-most-are-still-underperforming",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Wall Street Keeps Testing AI Traders, But Most Are Still Underperforming</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Recent trading competitions suggest large language models are still unreliable portfolio managers, according to <a href=\" <p>Tests involving models from OpenAI, Anthropic, ",
+      "pubDate": "Sat, 09 May 2026 19:45:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Recent trading competitions suggest large language models are still unreliable portfolio managers, according to Bloomberg . Tests involving models from OpenAI, Anthropic, Google, and xAI have often delivered underwhelming results: many lost money, traded excessively, and made erratic decisions despite receiving identical prompts. In several cases, models appeared unable to stick to coherent strategies for more than a few trading sessions. Bloomberg writes that one of the clearest examples came from Alpha Arena, a competition created by startup Nof1. Eight models were each given $10,000 and asked to trade U.S. tech stocks over a two-week period using different strategies, including defensive approaches and leveraged bets. Across four competitions, the models collectively lost roughly a third of their capital, and only six of 32 outcomes ended in profit. The gap in behavior was striking: xAI’s Grok 4.20 made just 158 trades in one contest, while Alibaba Group’s Qwen executed 1,418 under the exact same prompt. The experiments reflect growing interest in whether generative AI can eventually outperform traditional fund managers. Wall Street firms including JPMorgan Chase and Balyasny Asset Management already rely on AI for research, fraud detection, and internal analysis, but they have largely stopped short of handing over actual investment decisions. As Nof1 founder Jay Azhang put it, current models still struggle with basics like “position sizing, timing, signal weighting and overtrading.” That broader pattern has shown up elsewhere too. Research blog Flat Circle tracked 11 public AI trading competitions and found that while every event produced at least one profitable model, only two generated a profitable median return — suggesting most bots still underperform more often than not. Azhang was even more blunt about the state of autonomous trading: giving an LLM money and letting it invest independently “isn’t a thing yet.” Some firms are still betting that the technology improves with better tools and tighter guardrails. Intelligent Alpha, for example, runs an AI-driven fund that combines LLMs with earnings transcripts, analyst forecasts, corporate filings, macroeconomic indicators, and web searches to make predictions. In late 2025, OpenAI’s ChatGPT correctly predicted the direction of earnings estimate revisions 68% of the time — its strongest showing so far. Evaluating these systems remains difficult because traditional backtesting methods can be misleading: models may already have embedded knowledge of past market events, creating look-ahead bias. That has pushed more firms toward live-market experiments, where results so far suggest AI may be useful as an assistant — but not a replacement — for human traders. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-&-markets news",
+        "field",
+        "models",
+        "still",
+        "trading",
+        "competitions",
+        "wall",
+        "street"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#field",
+        "#models",
+        "#still",
+        "#trading",
+        "#competitions",
+        "#wall",
+        "#street"
+      ],
+      "slug": "2026-05-09-wall-street-keeps-testing-ai-traders-but-most-are-still-underperforming",
+      "sourceUrl": "https://www.zerohedge.com/markets/wall-street-keeps-testing-ai-traders-most-are-still-underperforming",
+      "generatedAt": "2026-05-09T21:01:58.095Z",
+      "relatedArticles": [
+        {
+          "title": "Europe Sees 'Hyper-Concentration' Of Crypto 'Wrench Attacks' As Losses Hit $101 Million",
+          "slug": "2026-05-09-europe-sees-hyper-concentration-of-crypto-wrench-attacks-as-losses-hit-101-milli",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "De-Extinct Dire Wolves Ready To Breed; Bioscience Company Pushes Forward Multiple Projects",
+          "slug": "2026-05-09-de-extinct-dire-wolves-ready-to-breed-bioscience-company-pushes-forward-multiple",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Trump Says He's Not Replacing FDA Chief Makary",
+      "url": "https://www.zerohedge.com/political/trump-says-hes-not-replacing-fda-chief-makary",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Trump Says He's Not Replacing FDA Chief Makary</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Aldgra Fredly via The Epoch Times,</em></a></p> <p>President Donald Trump said on May 8 that he has no plans to replace Marty Makary as commissioner of the U.S. Food and Drug Administra",
+      "pubDate": "Sat, 09 May 2026 19:10:00 +0000",
       "source": "ZeroHedge",
       "category": "Government Secrets",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "For nearly three decades, much of the modern world behaved as though the nuclear age had quietly expired sometime in the early 1990s. The collapse of the Soviet Union created the comforting illusion that humanity had stepped away from the edge permanently, as if the terrifying balance that defined the Cold War had dissolved together with old political maps. Younger generations grew up hearing about nuclear drills, fallout shelters, and atomic panic the same way they heard about trench warfare or medieval plagues: as distant historical experiences disconnected from ordinary life. Governments gradually shifted public attention toward terrorism, economic globalization, artificial intelligence, and climate policy, while nuclear annihilation faded into the background of public consciousness. Yet history has a dangerous habit of returning precisely when societies become convinced they have outgrown it. Throughout 2025 and the opening months of 2026, the international system entered one of its most unstable periods since the twentieth century. Military analysts began warning openly about simultaneous geopolitical flashpoints involving several nuclear powers at once. Russian officials intensified references to strategic deterrence during ongoing confrontations connected to Eastern Europe, while NATO expanded military exercises across regions Moscow considers existentially sensitive. At the same time, China accelerated modernization of its nuclear arsenal and long-range missile systems at a pace that alarmed Western intelligence agencies. North Korea continued demonstrating increasingly advanced delivery capabilities, and tensions surrounding Taiwan, cyber warfare, and contested maritime territories pushed diplomatic relations into progressively uncertain territory. Most citizens observed these developments from a psychological distance shaped by modern media exhaustion. Continuous exposure to crisis has transformed public attention into something fragmented and temporary. Economic anxiety, inflation, political polarization, housing instability, technological disruption, and endless digital noise have conditioned people to process existential threats as short-lived headlines rather than historical warnings. This emotional fatigue may partially explain why recent discussions surrounding nuclear risk have failed to produce widespread public alarm despite the seriousness of the underlying situation. What many people still fail to understand is that contemporary fears surrounding nuclear war extend far beyond the immediate destruction caused by the weapons themselves. The dominant concern among climate scientists, food security experts, and strategic analysts is no longer limited to blast zones or radiation exposure. The larger fear involves what happens afterward, when the environmental consequences of large-scale firestorms begin altering the planet’s atmosphere and destabilizing the systems that sustain modern civilization. During the Cold War, researchers studying atmospheric science reached conclusions that many policymakers initially struggled to accept. Their models suggested that nuclear detonations targeting cities and industrial infrastructure would ignite massive firestorms capable of releasing extraordinary amounts of soot and smoke into the upper atmosphere. Unlike ordinary pollution, these particles could remain suspended in the stratosphere for extended periods, blocking significant portions of sunlight from reaching the Earth’s surface. The phenomenon eventually became known as “nuclear winter,” though the phrase itself almost sounds too simple for the scale of devastation being described. The consequences outlined in scientific simulations were extraordinary. Temperatures across major agricultural regions could fall dramatically within weeks. Growing seasons would shorten or disappear entirely in some parts of the world. Rainfall patterns could become severely disrupted, while frost conditions might appear during periods traditionally associated with crop growth. Wheat, corn, rice, and soy production would decline simultaneously across multiple continents, creating a synchronized collapse unlike anything modern economies were designed to survive. What makes this possibility especially catastrophic in 2026 is the structure of contemporary civilization itself. Modern societies are built upon tightly interconnected supply chains operating with remarkable efficiency but very little redundancy. Large urban populations depend on continuous transportation networks, imported food, fuel distribution systems, refrigeration infrastructure, and stable international trade routes to maintain ordinary daily life. The abundance visible inside supermarkets creates the illusion of permanent security, yet many cities possess only limited food reserves capable of supporting their populations for short periods without resupply. Once agricultural output begins failing internationally, governments would almost certainly prioritize domestic survival over global cooperation. Export restrictions would emerge rapidly. Shipping routes could become militarized or inaccessible. Financial systems would destabilize under panic conditions, while fuel shortages would further damage transportation and farming operations. Nations heavily dependent on food imports would face immediate humanitarian crises, but even agricultural powers would struggle once climate disruption and supply chain fragmentation intensified simultaneously. Several modern studies examining nuclear famine scenarios estimate that billions of people could face starvation following a large-scale nuclear exchange . Some projections, revisited in light of newer climate data and current population levels, suggest mortality rates so extreme that they challenge the imagination. This is partly why historical American government assessments discussing potential death tolls approaching ninety percent of humanity continue attracting renewed attention today. The figure sounds almost impossible to comprehend until one begins analyzing how dependent modern civilization truly is on environmental stability and uninterrupted agricultural production. There is also a psychological dimension to these discussions that experts rarely address publicly in direct terms. Human beings often assume technological sophistication automatically guarantees resilience. The modern world appears powerful because it possesses satellites, artificial intelligence, advanced medicine, digital communication, and industrial automation. However, none of those systems can function normally without stable energy networks, functioning governments, predictable climates, and access to food. Civilization may appear technologically invincible while remaining biologically fragile underneath. Historical examples repeatedly demonstrate that famine destabilizes societies faster than almost any other force. Political institutions that appear permanent during periods of abundance can deteriorate with astonishing speed once populations begin competing for survival. Social trust erodes rapidly under conditions of scarcity, and governments facing mass hunger frequently resort to emergency powers, censorship, militarized distribution systems, or violent repression in attempts to preserve order. The concern among researchers is not merely that people would suffer physically after a nuclear conflict, but that the organizational foundations of civilization itself could begin disintegrating under sustained environmental pressure. Perhaps the most unsettling aspect of the modern nuclear dilemma is the persistence of a belief that rational actors will always prevent ultimate catastrophe. Nuclear deterrence theory has long depended upon the assumption that political leaders understand the unacceptable consequences of escalation. For decades, this logic arguably prevented direct conflict between major powers. However, contemporary geopolitical conditions have introduced forms of instability far more unpredictable than those defining much of the Cold War. Cyberattacks, artificial intelligence-assisted military systems, disinformation campaigns, autonomous weapons development, regional proxy wars, and instantaneous digital propaganda have dramatically accelerated the speed at which crises evolve. Decision-making environments have become saturated with uncertainty, misinformation, and political pressure. Under such conditions, the possibility of miscalculation increases substantially. Many historical catastrophes did not emerge because leaders consciously desired apocalypse; they unfolded because governments believed escalation remained controllable until events moved beyond anyone’s ability to contain them. This fear now shapes many contemporary security discussions behind closed doors. Analysts increasingly worry less about intentional world-ending war and more about uncontrolled escalation arising from regional conflict, technological failure, accidental launch detection, or political desperation during moments of extreme instability. The existence of thousands of nuclear warheads means humanity continues living inside a system where a relatively small number of decisions made within minutes could alter the trajectory of civilization permanently. The deeper tragedy is that modern society possesses enough scientific knowledge to understand these risks with remarkable clarity while simultaneously lacking the political unity necessary to eliminate them completely. Humanity has mapped the environmental consequences, modeled agricultural collapse scenarios, studied historical famines, and analyzed strategic escalation pathways extensively. The danger is not hidden ignorance. The danger is collective normalization. For years, nuclear weapons survived in public imagination mostly as symbols rather than active threats. In 2026, that perception has begun changing again. What once felt theoretical now appears uncomfortably plausible to many researchers observing the deterioration of international stability. The silence surrounding these fears should not be mistaken for safety. In many ways, silence may simply reflect how accustomed humanity has become to living beside mechanisms capable of ending the modern world. For most people living in industrialized nations, hunger exists as an abstract concept rather than an immediate fear. Supermarkets remain illuminated throughout the night, delivery systems function with mechanical precision, and food arrives so consistently that modern consumers rarely consider the extraordinary infrastructure required to sustain this daily normality. Entire generations have grown up inside societies where scarcity feels temporary and manageable , something associated with distant humanitarian crises rather than a condition capable of consuming advanced civilizations. This psychological distance from famine may explain why discussions surrounding nuclear conflict still focus overwhelmingly on explosions instead of agriculture.",
+      "content": "Authored by Aldgra Fredly via The Epoch Times, President Donald Trump said on May 8 that he has no plans to replace Marty Makary as commissioner of the U.S. Food and Drug Administration (FDA). When asked by reporters outside the White House about Makary, Trump responded: “Nothing much, he’s doing fine,” without elaborating further. Trump said he had seen reports suggesting the administration was planning to remove Makary from his role leading the FDA, but added that he knows “nothing about it.” The president also rejected the notion that he would hire someone new to replace Makary. Amid the media speculation, White House spokesman Kush Desai said in a statement to multiple news outlets that Trump “has assembled the most experienced and talented administration in history.” Several media outlets, citing unnamed sources, on May 8 stated that the president intends to remove Makary after controversies surrounding abortion drug mifepristone. A federal appeals court on May 1 blocked the mailing of mifepristone until the FDA can ensure the abortion drug is “safe and effective” for use in the United States. The Supreme Court later put the ruling on hold after pill maker Danco Laboratories requested an emergency stay. Mifepristone has long been available to women after consulting with doctors. In 2023, federal authorities enabled access via mail and at pharmacies. In its May 1 ruling, the U.S. Court of Appeals for the Fifth Circuit said mifepristone could not be shipped because the FDA “conceded it had failed to adequately study whether remotely prescribing mifepristone is safe.” Susan B. Anthony (SBA) Pro-Life America had previously called for Makary’s removal, accusing him of being indifferent toward calls for stricter regulations on abortion drugs. “FDA Commissioner Makary should be fired immediately. Indifference is completely unacceptable to millions of pro-life voters expecting the administration to act to save lives,” SBA Pro-Life America President Marjorie Dannenfelser said in a May 4 statement . “More than 90,000 abortions occur each year just in states that protect babies in the law throughout all nine months of pregnancy—a direct result of Biden’s COVID-era mail-order abortion drug rule, which the Trump administration inexplicably allows to continue.” The Epoch Times has reached out to the U.S. Department of Health and Human Services, ​which oversees the FDA, for comment. Meanwhile, Dr. Vinay Prasad, the top vaccine official at the FDA, left the agency for a second time on April 30. Prasad served as head of the FDA’s Center for Biologics Evaluation and Research (CBER) before resigning from the role in July 2025. He subsequently rejoined the agency two weeks later at the FDA’s request. Katherine Szarama, who had been CBER’s deputy director, has been elevated to acting director of the center following Prasad’s departure, according to the Department of Health and Human Services. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "government-secrets news",
-        "nuclear",
-        "modern",
+        "makary",
         "field",
-        "civilization",
-        "systems",
-        "political",
-        "many"
+        "trump",
+        "president",
+        "drug",
+        "administration",
+        "mifepristone"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#nuclear",
-        "#modern",
+        "#makary",
         "#field",
-        "#civilization",
-        "#systems",
-        "#political",
-        "#many"
+        "#trump",
+        "#president",
+        "#drug",
+        "#administration",
+        "#mifepristone"
       ],
-      "slug": "2026-05-09-the-day-civilization-runs-out-of-bread-will-not-feel-like-fiction",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/day-civilization-runs-out-bread-will-not-feel-fiction",
-      "generatedAt": "2026-05-09T15:01:45.598Z",
+      "slug": "2026-05-09-trump-says-hes-not-replacing-fda-chief-makary",
+      "sourceUrl": "https://www.zerohedge.com/political/trump-says-hes-not-replacing-fda-chief-makary",
+      "generatedAt": "2026-05-09T21:01:59.646Z",
       "relatedArticles": [
         {
-          "title": "Intel Leak: Russia Mulled Giving Iran Un-Jammable Drones To Fight US Forces",
-          "slug": "2026-05-09-intel-leak-russia-mulled-giving-iran-un-jammable-drones-to-fight-us-forces",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         },
         {
-          "title": "Germany's AfD On Verge Of Absolute Majority In Eastern Saxony-Anhalt Just Months Before Election",
-          "slug": "2026-05-09-germanys-afd-on-verge-of-absolute-majority-in-eastern-saxony-anhalt-just-months",
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Legendary Candy Company Killed After 141 Years By Soaring Costs",
+      "url": "https://www.zerohedge.com/economics/legendary-candy-company-killed-after-141-years-soaring-costs",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Legendary Candy Company Killed After 141 Years By Soaring Costs</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Soaring expenses for raw materials and labor have delivered a blow to yet another longtime business, claiming <strong>Lammes Candies, a family-owned confectioner that has operated i",
+      "pubDate": "Sat, 09 May 2026 18:35:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Soaring expenses for raw materials and labor have delivered a blow to yet another longtime business, claiming Lammes Candies, a family-owned confectioner that has operated in the South for more than a century , FOX 7 Austin reports. The Austin, Texas,-based company recently announced that it will begin an \"orderly wind-down of operations\" after 141 years of family ownership , according to a statement posted to its Facebook page. \"This was not an easy decision,\" the candy company wrote. \"Lammes Candies has been more than a business – it has been a family legacy spanning generations.\" \" We’ve been so honored to be part of your celebrations and your sweetest moments ,\" the company wrote in a separate post. \"Now we’re asking one last thing: savor every bite.\" Lana Schmidt, the company’s vice president, cited intensifying economic pressures for the closure in an interview with FOX 7 Austin . \" The economy, you know, with the raw materials going up, labor is going – it’s just everything is escalating ,\" a disheartened Schmidt said. \"There’s not a huge margin in confections.\" Founded in 1885 after the Lamme family reacquired the business, the company built its reputation on pecan pralines and other handcrafted sweets. \"Throughout the years, my father bought it in its entirety, I think, in 1972. And so, he was in the fourth generation,\" Schmidt said . \"My brother and sister and I are the fifth generation. And back in that time, we had just like one, two retail stores. And then they grew it throughout Austin.\" \" I think we&#x27;ve built a legacy for the community. I mean we had the first neon sign. I mean there are a lot of firsts with lamps in Austin. I know people are gonna miss this sweet treat, this tradition of theirs. And so we will miss the community ,\" she added. Speaking to FOX 7 Austin, some longtime customers are heartbroken by the news. \"I first came here when I first moved to Austin. This was one of the first places I came to. I moved here about five years ago. And I came in because I saw that it was one of the oldest places in Austin. And I was like, I want to get in on that,\" one customer told the local news outlet. \" I&#x27;ve never been here before. My mom told me when we moved over here about how, when she was a kid, she used to go here a lot, \" another customer said . Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "field",
+        "austin",
+        "company",
+        "here",
+        "years",
+        "family",
+        "soaring"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#field",
+        "#austin",
+        "#company",
+        "#here",
+        "#years",
+        "#family",
+        "#soaring"
+      ],
+      "slug": "2026-05-09-legendary-candy-company-killed-after-141-years-by-soaring-costs",
+      "sourceUrl": "https://www.zerohedge.com/economics/legendary-candy-company-killed-after-141-years-soaring-costs",
+      "generatedAt": "2026-05-09T21:02:00.915Z",
+      "relatedArticles": [
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Iran Publicly Discloses Supreme Leader's Status For First Time: 'Marginally Injured'",
+      "url": "https://www.zerohedge.com/geopolitical/iran-publicly-discloses-supreme-leaders-injuries-first-time-marginally-injured",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Iran Publicly Discloses Supreme Leader's Status For First Time: 'Marginally Injured'</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>The Iranian government has for the first time officially weighed in on the health of new supreme leader, Ayatollah Mojtaba Khamenei, who was injured in the open",
+      "pubDate": "Sat, 09 May 2026 17:25:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "The Iranian government has for the first time officially weighed in on the health of new supreme leader, Ayatollah Mojtaba Khamenei, who was injured in the opening strikes of Trump&#x27;s Operation Epic Fury, which killed the younger Khamenei&#x27;s father and wife. \"A government official claimed Khamenei, who hasn&#x27;t been seen in public since that attack, is now in good health ,\" The Wall Street Journal writes Saturday. via AFP He hasn&#x27;t been seen in public since the war began, and even official statements have been read aloud on state media broadcasts. There have since been conflict reports. However, according to the latest : Yet the chief of protocol for the supreme leader’s office, Mozaher Hosseini, said on Friday that Khamenei is in “complete health,” stressing that he has only been “marginally injured” on his foot and lower back and hit by “a small piece of shrapnel had hit him behind the ear.” “ The enemy is spreading all kinds of rumors and false claims . They want to see him and find him, but people should be patient and not rush. He will speak to you when the time is right,” Hosseini told a crowd in Tehran. Prior international reports suggested he was being treated for severe burns and that he could undergo surgery, and resorts to communicating commands to lower officials via low-tech means, including written and hand delivered messages, in order to avoid Israeli or US intelligence intercepting signals related to his whereabouts. Regional and Gulf media have also summarized of the latest official Iranian description of the Ayatollah&#x27;s health, that \"there were no indications of a serious deterioration in his condition.\" And, \"According to Iranian media reports, the official stated that medical examinations confirmed Mojtaba Khamenei’s condition was completely stable . He added that the injury did not require complex surgery. Furthermore, he is undergoing only routine medical monitoring to ensure his well-being.\" Iranian President Masoud Pezeshkian revealed on Thursday that he for the first time recently held a meeting with Mojtaba Khamenei, at an undisclosed location, and that the encounter was a long and productive one . State media said it was two-and-a-half hours. US intelligence assesses that Iran’s new supreme leader is playing a critical role in shaping war strategy alongside senior Iranian officials, according to multiple sources. pic.twitter.com/c4nfMMR25r \"What stood out more than any other topic in the meeting was the way of dealing, the type of outlook, and the humble and deeply friendly manner of conduct by the leader of the revolution ,\" Pezeshkian described . He characterized the new Ayatollah&#x27;s approach as \"a model based on taking responsibility, being close to the people, and truly listening to issues and problems.\" Western officials and intelligence have all the while been seeking to assess just who is ultimately in charge of running the country. There have been reports of a growing split between the IRGC military apparatus and the Islamic Republic&#x27;s civilian leadership. However, none of these reports are confirmable, but it&#x27;s largely only guesswork by those far outside the country. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "surveillance-state news",
+        "field",
+        "leader",
+        "khamenei",
+        "been",
+        "supreme",
+        "time",
+        "iranian"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#field",
+        "#leader",
+        "#khamenei",
+        "#been",
+        "#supreme",
+        "#time",
+        "#iranian"
+      ],
+      "slug": "2026-05-09-iran-publicly-discloses-supreme-leaders-status-for-first-time-marginally-injured",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-publicly-discloses-supreme-leaders-injuries-first-time-marginally-injured",
+      "generatedAt": "2026-05-09T21:02:02.824Z",
+      "relatedArticles": [
+        {
+          "title": "Why do privacy-respecting professional platforms never seem to win?",
+          "slug": "2026-05-09-why-do-privacy-respecting-professional-platforms-never-seem-to-win",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "5 Highlights From The Pentagon's UFO Files",
+      "url": "https://www.zerohedge.com/political/5-highlights-pentagons-ufo-files",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">5 Highlights From The Pentagon's UFO Files</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Jacob Burg & Jacki Thrapp via The Epoch Times</a> (emphasis ours - the ALFstein files),</em></p> <p>Apollo 11 astronauts reported seeing a “sizeable” object close to the moon with a “fa",
+      "pubDate": "Sat, 09 May 2026 16:50:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Jacob Burg & Jacki Thrapp via The Epoch Times (emphasis ours - the ALFstein files), Apollo 11 astronauts reported seeing a “sizeable” object close to the moon with a “fairly bright light source” that they described as a “possible laser,” in a newly released post-mission crew debriefing from NASA. The U.S. Indo-Pacific Command reported a UAP that resembled a football-shaped body near Japan in 2024. The image was released on May 8, 2026. Department of War That document, along with videos and images of unknown objects in airspace from nearly all corners of the globe, was included in newly released files from the Pentagon related to the U.S. government’s investigations into unidentified flying objects (UFOs) and unidentified anomalous phenomena (UAP). The first tranche of files was released on May 8. “As for my promise to you, the Department of War has released the first tranche of the UFO/UAP files to the Public for their review and study,” President Donald Trump wrote on social media Friday morning. “ With these new Documents and Videos, the people can decide for themselves, ‘WHAT THE HELL IS GOING ON?’ Have Fun and Enjoy!” While the Pentagon had been increasingly declassifying various UFO and UAP files throughout the past decade, Trump threw the topic back into public focus when he suggested in February that a document release could be coming soon. The first batch of released files includes FBI interviews and internal communications, State Department cables, NASA crew transcripts, and videos of potential UFOs. Here are five highlights from a partial review of the new file release. The newly released documents reveal that NASA astronauts encountered a series of unexplained phenomena during multiple Apollo missions. Astronaut Buzz Aldrin reported witnessing a “fairly bright light source” which he described as a “possible laser” while in lunar orbit, according to a previously confidential crew debriefing of Apollo 11 taken on July 31, 1969. The Apollo 12 flight crew observed two separate incidents of an “unidentified phenomenon” in November 1969. Apollo 12 astronaut Alan L. Bean described observing particles of light “sailing off in space,” that looked as if they were “escaping the Moon.” Charles “Pete” Conrad made a separate observation of seeing floating debris outside the lunar module. Apollo 17 astronauts reported three different unexplained events on three separate days of their 1972 mission. Harrison “Jack” Schmitt said he observed a flash on the lunar surface north of the Grimaldi crater. He described it as a “thin streak of light.” Schmitt experienced another unexplained event with Command Module Pilot Ronald Evans, as they observed “very bright particles or fragments” drifting and “tumbling” near the spacecraft. “There’s a whole bunce (sic) of big ones on my window down there—just bright,” Schmitt said. “It looks like the Fourth of July out of Ron’s window.” In a separate incident on the same Apollo 17 mission, Mission Commander Eugene A. Cernan said he experienced an intense, “imposing” light flashing between his eyes like it was a train headlight. Amid those sightings, the astronauts took a photo of what appeared to be three dots in a triangular formation in the sky above the moon. NASA noted that while the image has been released previously, “there is no consensus about the nature of the anomaly.” A NASA file photo from the Apollo 17 Mission, taken in December 1972, shows an unidentified anomalous phenomenon in the sky above the moon. Courtesy of the Pentagon ‘Eight-Pointed Star’ The Epoch Times reviewed all the videos included in the Pentagon’s initial UFO file release. Potentially the most striking video came from U.S. Central Command in 2013, which shows an aerial object that was described as “an eight-pointed star with arms of alternating length.” The object appears to be hovering in the one-minute forty-six-second video.",
+      "keywords": [
+        "government-secrets news",
+        "files",
+        "field",
+        "apollo",
+        "released",
+        "pentagon",
+        "astronauts",
+        "reported"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#files",
+        "#field",
+        "#apollo",
+        "#released",
+        "#pentagon",
+        "#astronauts",
+        "#reported"
+      ],
+      "slug": "2026-05-09-5-highlights-from-the-pentagons-ufo-files",
+      "sourceUrl": "https://www.zerohedge.com/political/5-highlights-pentagons-ufo-files",
+      "generatedAt": "2026-05-09T21:02:04.543Z",
+      "relatedArticles": [
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "De-Extinct Dire Wolves Ready To Breed; Bioscience Company Pushes Forward Multiple Projects",
+      "url": "https://www.zerohedge.com/technology/de-extinct-dire-wolves-ready-breed-bioscience-company-pushes-forward-multiple-projects",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">De-Extinct Dire Wolves Ready To Breed; Bioscience Company Pushes Forward Multiple Projects</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Steve Watson via Modernity.news,</em></a></p> <p><strong>Colossal Biosciences has announced that its de-extinct dire wolves—Romulus, Remus, a",
+      "pubDate": "Sat, 09 May 2026 15:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Steve Watson via Modernity.news, Colossal Biosciences has announced that its de-extinct dire wolves—Romulus, Remus, and Khaleesi—are now breeding-aged and the firm plans to expand the pack later this year. The development marks a significant step for the Texas-based company in its mission to restore extinct species through genetic engineering. The dire wolf pups, born in late 2024 and early 2025, represent the world’s first de-extinct animals. They have thrived in a secure 2,000-acre preserve, reaching milestones like learning to process whole deer carcasses and now showing readiness for natural breeding behaviors. “The dire wolf pack is actually breeding-aged at this point,” Matt James, Colossal’s chief animal officer, said, adding “But we will initially grow the pack through assisted reproduction while we create new, genetically diverse individuals.” The company intends to engineer two to four additional pups to boost genetic diversity before allowing full natural breeding. “The plan is to create an inter-breedable population of dire wolves in which they would eventually breed naturally to create a sustainable population of the world’s first de-extinct species,” James continued. He further added, “We will grow the population through assisted reproduction initially and then eventually only rely on natural breeding.” “The dire wolves are doing great,” Ben Lamm, Colossal’s CEO and co-founder, stated., adding “The three dire wolves live on a 2,000-acre secure, expansive ecological preserve that allows us to monitor and manage them while providing them a semi-wild habitat to thrive in. We hope to have more dire wolf pups by the end of the year.” Colossal reconstructed the dire wolf genome from ancient DNA fragments in bone samples, including a 72,000-year-old skull. Scientists then edited gray wolf embryos to incorporate key traits: a white coat, larger teeth, more muscular build, and distinctive howl. Embryos were implanted in surrogate dogs, with births by caesarean section. See the pups’ early development and first howls in over 10,000 years: Colossal is running several parallel de-extinction projects: In April, Colossal announced the bluebuck antelope ( Hippotragus leucophaeus ) as its sixth de-extinction target—the first large African mammal driven to extinction in modern history around 1800. The striking silvery-blue antelope once roamed South Africa’s grasslands as a grazer and seed disperser. Habitat loss, farming, and overhunting by European settlers led to its disappearance. “We don’t love that ending. So we’re rewriting it,” the company states. Using high-quality reference genomes and editing roan antelope cells (its closest relative) as surrogates. The project advances reproductive technologies like ovum pick-up, IVF, and embryo transfer for antelopes, with broader benefits for conservation. Critics note these animals are genetically edited proxies rather than identical clones, and question ecological reintroduction risks in changed environments. Colossal emphasizes ethical animal welfare, semi-wild habitats, and using de-extinction tech to aid living endangered species. The projects continue to draw global attention, blending advanced biotechnology with conservation goals. For those clamouring for Jurassic Park style de-extinction of dinosaurs, however, it’s bad news. Colossal addresses common misconceptions in the video below, noting dinosaurs cannot be revived due to DNA degradation, but more recent species are feasible. Colossal’s official dire wolf page: colossal.com/direwolf . Your support is crucial in helping us defeat mass censorship. Please consider donating via Locals or check out our unique merch . Follow us on X @ModernityNews . Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-&-markets news",
+        "dire",
+        "colossal",
+        "field",
+        "extinct",
+        "wolves",
+        "wolf",
+        "company"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#dire",
+        "#colossal",
+        "#field",
+        "#extinct",
+        "#wolves",
+        "#wolf",
+        "#company"
+      ],
+      "slug": "2026-05-09-de-extinct-dire-wolves-ready-to-breed-bioscience-company-pushes-forward-multiple",
+      "sourceUrl": "https://www.zerohedge.com/technology/de-extinct-dire-wolves-ready-breed-bioscience-company-pushes-forward-multiple-projects",
+      "generatedAt": "2026-05-09T21:02:06.384Z",
+      "relatedArticles": [
+        {
+          "title": "Europe Sees 'Hyper-Concentration' Of Crypto 'Wrench Attacks' As Losses Hit $101 Million",
+          "slug": "2026-05-09-europe-sees-hyper-concentration-of-crypto-wrench-attacks-as-losses-hit-101-milli",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "Wall Street Keeps Testing AI Traders, But Most Are Still Underperforming",
+          "slug": "2026-05-09-wall-street-keeps-testing-ai-traders-but-most-are-still-underperforming",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Frontier Jet Hits Person On Takeoff, Engine Erupts In Flames At Denver",
+      "url": "https://www.zerohedge.com/political/frontier-jet-hits-person-takeoff-engine-erupts-flame-denver",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Frontier Jet Hits Person On Takeoff, Engine Erupts In Flames At Denver</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>A shocking runway security incident unfolded late Friday at Denver International Airport after Frontier Flight 4345, an Airbus A321 bound for Los Angeles, struck an individua",
+      "pubDate": "Sat, 09 May 2026 13:55:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Corporate Watchdog",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "A shocking runway security incident unfolded late Friday at Denver International Airport after Frontier Flight 4345, an Airbus A321 bound for Los Angeles, struck an individual during its takeoff roll, forcing the crew to abort. Frontier 4345 (pilot): Tower, Frontier 4345, we&#x27;re stopping on the runway. We just hit somebody and have an engine fire. DEN Tower (to Frontier 4345): Frontier 4345, I&#x27;m going to be rolling the trucks now. Do you know if there are souls on board and fuel remaining? Frontier 4345 (pilot) : Alright, 4345 we have 231 souls on board. We have 21,320 pounds of fuel onboard. There was an individual walking across the runway. In our view , a commercial jet at a major international airport does not simply \"hit someone\" on an active runway during takeoff, particularly near the point of rotation. This suggests a potentially serious breakdown in perimeter, airfield, or runway security controls. The incident appears to represent a major security breach at DEN. One working theory is that the individual intentionally entered the aircraft&#x27;s path, potentially committing suicide by entering the right turbine intake. This is the right-wing view of Frontier Flight 4345 on its takeoff roll at Denver Airport Runway 17L when the Airbus A321-271NX (N646FR) hit a pedestrian. pic.twitter.com/xWCpUkcYrC The extent of damage to Frontier Flight 4345&#x27;s right engine. pic.twitter.com/heZC5RaS0v That said, investigators will need to determine how the person accessed the active runway, whether DEN&#x27;s perimeter controls failed, and whether the individual was struck by the aircraft and drawn into the engine or simply jumped into the turbine intake. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "corporate-watchdog news",
+        "frontier",
+        "field",
+        "runway",
+        "takeoff",
+        "engine",
+        "denver",
+        "security"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#frontier",
+        "#field",
+        "#runway",
+        "#takeoff",
+        "#engine",
+        "#denver",
+        "#security"
+      ],
+      "slug": "2026-05-09-frontier-jet-hits-person-on-takeoff-engine-erupts-in-flames-at-denver",
+      "sourceUrl": "https://www.zerohedge.com/political/frontier-jet-hits-person-takeoff-engine-erupts-flame-denver",
+      "generatedAt": "2026-05-09T21:02:08.423Z",
+      "relatedArticles": [
+        {
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-09-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "\"Doesn't Look Good\": Explosion Rocks Major New Orleans-Area Refinery As Fuel Markets Tighten",
+          "slug": "2026-05-09-doesnt-look-good-explosion-rocks-major-new-orleans-area-refinery-as-fuel-markets",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Austrian Hotel Defends Burkini Pool Ban As Hygiene Dispute With Muslim Guests Heads To Court",
+      "url": "https://www.zerohedge.com/geopolitical/austrian-hotel-defends-burkini-pool-ban-hygiene-dispute-muslim-guests-heads-court",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Austrian Hotel Defends Burkini Pool Ban As Hygiene Dispute With Muslim Guests Heads To Court</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Thomas Brooke via Remix News,</em></a></p> <p><strong>A hotel in the Austrian city of Salzburg is defending its refusal to allow two women ",
+      "pubDate": "Sat, 09 May 2026 13:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Thomas Brooke via Remix News, A hotel in the Austrian city of Salzburg is defending its refusal to allow two women to use its pool while wearing burkinis, arguing that the decision was based on hygiene concerns rather than discrimination. The case is now before the Salzburg Administrative Court after the operators of the hotel in Pongau appealed fines imposed by the district authority, according to Salzburger Nachrichten . Boshra and Jasmina Amasha, two sisters from Upper Austria, had booked a short wellness break at the hotel on Oct. 25 last year. They arrived early with the intention of using the swimming pool before going hiking. The dispute started at reception when one of the women mentioned that she was going to retrieve her burkini from the car. Staff told her that burkinis were not allowed in the hotel pool, a decision that was upheld after a phone call with the hotel manager. The hotel manager later confirmed in court that women wearing burkinis were not welcome in the pool. She said the policy was linked to hygiene, arguing that longer fabric could carry bacteria into the water. She acknowledged that she did not have scientific evidence to support that concern, but said the hotel also operated as a spa and had to place particular emphasis on cleanliness, especially because many older guests used the facilities. The hotel’s co-manager also told the court that there was no formal written swimwear policy, but said long swimwear could have a negative effect on water hygiene. He added that the hotel had also previously asked guests wearing long swimming shorts to change. The sisters reject the hygiene explanation. Jasmina Amasha said the phone conversation was not presented to them as a technical discussion about pool standards, but instead included remarks such as, “Here in Austria, we have to adapt,” and, “We could go swimming in Saudi Arabia wearing a burkini.” She also claimed they were told other guests did not like seeing women in burkinis. Their lawyer argued that burkinis are made from similar material to standard swimwear and are not less hygienic than bikinis. She also cited a parliamentary inquiry to the Ministry of Health and said the garment could reduce the amount of hair and skin flakes entering the water. After the confrontation, the sisters left and booked another hotel. The court heard that the original hotel covered the additional costs, but Jasmina Amasha said the experience had been “extremely humiliating and discriminatory.” The hotel operators are appealing the penalty imposed against them, and the court is expected to issue a written ruling in the coming weeks. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "hotel",
+        "field",
+        "pool",
+        "court",
+        "hygiene",
+        "guests",
+        "women"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#hotel",
+        "#field",
+        "#pool",
+        "#court",
+        "#hygiene",
+        "#guests",
+        "#women"
+      ],
+      "slug": "2026-05-09-austrian-hotel-defends-burkini-pool-ban-as-hygiene-dispute-with-muslim-guests-he",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/austrian-hotel-defends-burkini-pool-ban-hygiene-dispute-muslim-guests-heads-court",
+      "generatedAt": "2026-05-09T21:02:10.284Z",
+      "relatedArticles": [
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-09-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "I’ve banned query strings",
+          "slug": "2026-05-09-ive-banned-query-strings",
           "category": "Government Secrets"
         }
       ]
