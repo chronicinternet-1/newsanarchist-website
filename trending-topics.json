@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-05-10T21:02:09.730Z",
-  "topicsCount": 20,
+  "scrapedAt": "2026-05-11T03:02:41.526Z",
+  "topicsCount": 40,
   "topics": [
     {
       "title": "Currently in the process of e-mail aliasing and deleting accounts, wow some of these companies",
@@ -35,13 +35,18 @@
         "#aliasing",
         "#deleting"
       ],
-      "slug": "2026-05-10-currently-in-the-process-of-e-mail-aliasing-and-deleting-accounts-wow-some-of-th",
+      "slug": "2026-05-11-currently-in-the-process-of-e-mail-aliasing-and-deleting-accounts-wow-some-of-th",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t97yhf/currently_in_the_process_of_email_aliasing_and/",
-      "generatedAt": "2026-05-10T21:01:32.673Z",
+      "generatedAt": "2026-05-11T03:01:33.579Z",
       "relatedArticles": [
         {
           "title": "Any privacy friendly AI for basic research?",
-          "slug": "2026-05-10-any-privacy-friendly-ai-for-basic-research",
+          "slug": "2026-05-11-any-privacy-friendly-ai-for-basic-research",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Meta is killing E2E encryption on Instagram DMs",
+          "slug": "2026-05-11-meta-is-killing-e2e-encryption-on-instagram-dms",
           "category": "Tech & Privacy"
         }
       ]
@@ -79,14 +84,68 @@
         "#things",
         "#much"
       ],
-      "slug": "2026-05-10-any-privacy-friendly-ai-for-basic-research",
+      "slug": "2026-05-11-any-privacy-friendly-ai-for-basic-research",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t9cprw/any_privacy_friendly_ai_for_basic_research/",
-      "generatedAt": "2026-05-10T21:01:34.520Z",
+      "generatedAt": "2026-05-11T03:01:35.566Z",
       "relatedArticles": [
         {
           "title": "Currently in the process of e-mail aliasing and deleting accounts, wow some of these companies",
-          "slug": "2026-05-10-currently-in-the-process-of-e-mail-aliasing-and-deleting-accounts-wow-some-of-th",
+          "slug": "2026-05-11-currently-in-the-process-of-e-mail-aliasing-and-deleting-accounts-wow-some-of-th",
           "category": "Tech & Privacy"
+        },
+        {
+          "title": "Meta is killing E2E encryption on Instagram DMs",
+          "slug": "2026-05-11-meta-is-killing-e2e-encryption-on-instagram-dms",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "GM just paid a record penalty for breaking California privacy law",
+      "url": "https://www.reddit.com/r/privacy/comments/1t8c25x/gm_just_paid_a_record_penalty_for_breaking/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>General Motors agreed to pay $12.75 million in civil penalties for selling driving data of hundreds of thousands of California motorists to data brokers, allegedly without their consent. General Motors misled drivers who paid for the emergency roadside and navigation service OnStar and made approximately $20 million from the unlawful sale of their data between 202",
+      "pubDate": "2026-05-09T17:59:17.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 12,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>General Motors agreed to pay $12.75 million in civil penalties for selling driving data of hundreds of thousands of California motorists to data brokers, allegedly without their consent. General Motors misled drivers who paid for the emergency roadside and navigation service OnStar and made approximately $20 million from the unlawful sale of their data between 202",
+      "keywords": [
+        "corporate-watchdog news",
+        "data",
+        "paid",
+        "california",
+        "general",
+        "motors",
+        "million",
+        "their"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#data",
+        "#paid",
+        "#california",
+        "#general",
+        "#motors",
+        "#million",
+        "#their"
+      ],
+      "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t8c25x/gm_just_paid_a_record_penalty_for_breaking/",
+      "generatedAt": "2026-05-11T03:01:36.925Z",
+      "relatedArticles": [
+        {
+          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
+          "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Mr. Cooper Group (COOP) Securities Class Action Lawsuit Investigation",
+          "slug": "2026-05-11-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
+          "category": "Corporate Watchdog"
         }
       ]
     },
@@ -122,19 +181,535 @@
         "#forces",
         "#secret"
       ],
-      "slug": "2026-05-10-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
+      "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/secret-israeli-base-hidden-iraqi-desert-backed-operations-inside-iran",
-      "generatedAt": "2026-05-10T21:01:36.697Z",
+      "generatedAt": "2026-05-11T03:01:38.840Z",
       "relatedArticles": [
         {
-          "title": "Mr. Cooper Group (COOP) Securities Class Action Lawsuit Investigation",
-          "slug": "2026-05-10-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
           "category": "Corporate Watchdog"
         },
         {
-          "title": "Hardware Attestation as Monopoly Enabler",
-          "slug": "2026-05-10-hardware-attestation-as-monopoly-enabler",
+          "title": "Mr. Cooper Group (COOP) Securities Class Action Lawsuit Investigation",
+          "slug": "2026-05-11-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
           "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+      "url": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
+      "description": "FOIA request to 80: $10,000,000 Grant to AIDS Healthcare Foundation. Status: processed.",
+      "pubDate": "2026-05-11T03:01:27.376Z",
+      "source": "MuckRock FOIA",
+      "category": "Government Secrets",
+      "score": 12,
+      "sources": [
+        "MuckRock FOIA"
+      ],
+      "content": "MuckRock users can file, duplicate, track, and share public records requests like this one. Learn more. Subject: Freedom of Information Act Request: $10,000,000 Grant to AIDS Healthcare Foundation Pursuant to the Freedom of Information Act, I hereby request the following records: All agreements with AIDS Healthcare Foundation (AHF) for any HUD funds or grants, including but not limited to the TEO grant for $10,000,000. All communications HUD had with ANYONE concerning or about the grant of TEO monies to AHF, whether the communication occurred before or after the grant of funds. This request includes but is not limited to, any HUD communications reconsidering or HUD’s decision to award $10,000,000 to AHF due to AHF’s actions as a landlord. The requested documents will be made available to the general public, and this request is not being made for commercial purposes. In the event that there are fees, I would be grateful if you would inform me of the total charges in advance of fulfilling my request. I would prefer the request filled electronically, by e-mail attachment if available or CD-ROM if not. Thank you in advance for your anticipated cooperation in this matter. I look forward to receiving your response to this request within 20 business days, as the statute requires. Subject: Status Update for Request #25-FI-HQ-03478 Dear Annette Harings, The status of your FOIA request #25-FI-HQ-03478 has been updated to the following status &#x27;Received&#x27;. To log into the HUD FOIA Public Access Website click on the Application URL below. Sincerely, U.S. Department of Housing and Urban Development Subject: Request Acknowledgement by U.S. Department of Housing and Urban Development Dear Annette Harings, Request number 25-FI-HQ-03478 has been assigned to the request you submitted via the HUD FOIA Public Access Website. In all future correspondence regarding this request please reference case number 25-FI-HQ-03478. Regards, U.S. Department of Housing and Urban Development Subject: Acknowledgement Letter for FOIA Request No. 25-FI-HQ-03478 Please review the attached Acknowledgement Letter. Thank you. Toyinka Taylor Government Information Specialist Acknowledgement Letter for FOIA 25-FI-HQ-03478 View Embed Opening and closing brackets with a diagonal slash through the middle. Embed Download An arrow pointing down Download Subject: RE: Freedom of Information Act Request #25-FI-HQ-03478 I wanted to follow up on the following Freedom of Information Act request, copied below, and originally submitted on July 27, 2025. Please let me know when I can expect to receive a response. You had assigned it reference number #25-FI-HQ-03478. Thanks for your help, and let me know if further clarification is needed.",
+      "keywords": [
+        "government-secrets news",
+        "request",
+        "foia",
+        "grant",
+        "subject",
+        "information",
+        "aids",
+        "healthcare"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#request",
+        "#foia",
+        "#grant",
+        "#subject",
+        "#information",
+        "#aids",
+        "#healthcare"
+      ],
+      "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+      "sourceUrl": "https://www.muckrock.com/foi/united-states-of-america-10/10000000-grant-to-aids-healthcare-foundation-190233/",
+      "generatedAt": "2026-05-11T03:01:40.772Z",
+      "relatedArticles": [
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
+          "slug": "2026-05-11-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "description": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "pubDate": "2026-05-08T18:18:23.000Z",
+      "source": "Google News (Unexplained)",
+      "category": "Government Secrets",
+      "score": 10,
+      "sources": [
+        "Google News (Unexplained)"
+      ],
+      "content": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "keywords": [
+        "government-secrets news",
+        "pentagon",
+        "releases",
+        "declassified",
+        "files",
+        "including",
+        "videos",
+        "photos"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#pentagon",
+        "#releases",
+        "#declassified",
+        "#files",
+        "#including",
+        "#videos",
+        "#photos"
+      ],
+      "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "generatedAt": "2026-05-11T03:01:42.525Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
+          "slug": "2026-05-11-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Shut Down Turnkey Totalitarianism",
+      "url": "https://www.eff.org/deeplinks/2026/04/claw-back",
+      "description": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p>William Binney, the NSA surveillance architect-turned-whistleblower, called it the \"<a href=\" target=\"_blank\" rel=\"noopener noreferrer\">turnkey totalitarian state</a>.\" Whoever sits in power gains access to a boundless surveillance empire that scorns privacy and crushes dissent. Politicians will come and go, but you can help us claw the tools of oppress",
+      "pubDate": "Tue, 05 May 2026 07:11:54 +0000",
+      "source": "EFF",
+      "category": "Surveillance State",
+      "score": 12,
+      "sources": [
+        "EFF"
+      ],
+      "content": "William Binney, the NSA surveillance architect-turned-whistleblower, called it the \" turnkey totalitarian state .\" Whoever sits in power gains access to a boundless surveillance empire that scorns privacy and crushes dissent. Politicians will come and go, but you can help us claw the tools of oppression out of government hands. We must stand strong to uphold your privacy and free expression as democratic principles. With members around the world, EFF is empowered to use its trusted voice and formidable advocacy to protect your rights online. Whether giving monthly or one-time donations , members have helped EFF: Sue to stop warrantless searches of Automated License Plate Reader (ALPR) records , which reveal millions of drivers’ private habits, movements, and associations. Launch Rayhunter , an open source tool that empowers you to help search out cell-site simulators capable of tracking the movements of protestors, journalists, and more. Help journalists see through the spin of \"copaganda\" by breaking down how policing technology companies often market their tools with misleading claims with our Selling Safety report . Right now, U.S. Congress is on the edge of renewing the international mass spying program known as Section 702 , affecting millions. EFF is rallying to cut through the politics and give ordinary people a chance to stop this oppressive surveillance. It’s only possible with help from supporters like you, so join EFF today . Get this year’s new member t-shirt when you join EFF. Aptly titled \"Claw Back,\" the design features an orange boy swatting at the street-level surveillance equipment multiplying in our communities. You might empathize with him, but there’s a better way. Let’s end the law enforcement contracts, harmful practices, and twisted logic that enable mass spying in the first place. You can also get brand new set of eleven soft and supple polyglot puffy stickers as a token of thanks. Whether you're a kid or a kid at heart, these nostalgic stickers are perfect for digital devices, lunchboxes, and notebooks alike. Our little Ghostie protects privacy in six languages : Arabic, English, Japanese, Persian, Russian, and Spanish. And for a limited time, get a Privacy Badger Crewneck sweater to help you browse the web with confidence. The embroidered Privacy Badger mascot appears above Traditional Chinese for \"privacy” because human rights are universal. Millions of people around the world use Privacy Badger , EFF's free browser extention that blocks hidden trackers that twist your web browsing into a commodity for Big Tech, advertisers, scammers, and data brokers. Privacy is a human right because it gives you a fundamental measure of security and freedom. We owe it to ourselves to fight the mass surveillance used to control and intimidate people. Let’s do this. Join EFF today with a monthly donation or one-time donation and help claw back your privacy. EFF is a member-supported U.S. 501(c)(3) organization. We've received top rati ngs from the nonprofit watchdog Charity Navigator since 2013! Your donation is tax-deductible as allowed by law. Check out our 4-star rating on Charity Navigator .",
+      "keywords": [
+        "surveillance-state news",
+        "privacy",
+        "surveillance",
+        "help",
+        "field",
+        "your",
+        "claw",
+        "turnkey"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#privacy",
+        "#surveillance",
+        "#help",
+        "#field",
+        "#your",
+        "#claw",
+        "#turnkey"
+      ],
+      "slug": "2026-05-11-shut-down-turnkey-totalitarianism",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/04/claw-back",
+      "generatedAt": "2026-05-11T03:01:44.503Z",
+      "relatedArticles": [
+        {
+          "title": "Sharing photos privately but practically",
+          "slug": "2026-05-11-sharing-photos-privately-but-practically",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Why do privacy-respecting professional platforms never seem to win?",
+          "slug": "2026-05-11-why-do-privacy-respecting-professional-platforms-never-seem-to-win",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Sharing photos privately but practically",
+      "url": "https://www.reddit.com/r/privacy/comments/1t90qme/sharing_photos_privately_but_practically/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>My whole life I have tried to avoid sending photos of myself and my people over regular social media apps for privacy reasons.</p> <p>What would be the best and most practical way to share regular everyday photos with friends (day at the beach, dinner etc) and family that isn't using these platforms? Currently I'm thinking something like a Linux box hosted in some",
+      "pubDate": "2026-05-10T08:01:27.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>My whole life I have tried to avoid sending photos of myself and my people over regular social media apps for privacy reasons.</p> <p>What would be the best and most practical way to share regular everyday photos with friends (day at the beach, dinner etc) and family that isn't using these platforms? Currently I'm thinking something like a Linux box hosted in some",
+      "keywords": [
+        "surveillance-state news",
+        "photos",
+        "regular",
+        "sharing",
+        "privately",
+        "practically",
+        "whole",
+        "life"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#photos",
+        "#regular",
+        "#sharing",
+        "#privately",
+        "#practically",
+        "#whole",
+        "#life"
+      ],
+      "slug": "2026-05-11-sharing-photos-privately-but-practically",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t90qme/sharing_photos_privately_but_practically/",
+      "generatedAt": "2026-05-11T03:01:45.945Z",
+      "relatedArticles": [
+        {
+          "title": "Shut Down Turnkey Totalitarianism",
+          "slug": "2026-05-11-shut-down-turnkey-totalitarianism",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Why do privacy-respecting professional platforms never seem to win?",
+          "slug": "2026-05-11-why-do-privacy-respecting-professional-platforms-never-seem-to-win",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWnp5b3c1SnB2U2RPYTVscWtVWHJHNGZNbVpQeHRDWUxLZjhOZVBtYnI0UkMxYXoxY2x2dnNpclBPekNkalMzeTg3RHFrT2dXcS10NFF3SmJvaDg3bGJ4bENXQmIxVkk5cE9La0xHSlFhTUFJRUFQMFhNSm8tTDZDNEV6eG1MS2hmcTR4b3d1bXJCeTMyOFI0aTF6WmtwTUFQRnBzbnNlLTJRYlVKZk1rUktGMGhId1hnTzA1YjFqOTdwNVdkZVZ1WEdiUG1BRVNacHFjSkhXa05TZ3AyUl96TzhoXzJwSnVkRVZr?oc=5",
+      "description": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC Federal Trade Commission (.gov)",
+      "pubDate": "2023-10-12T07:00:00.000Z",
+      "source": "Google News (Corporate Watchdog)",
+      "category": "Money & Markets",
+      "score": 9,
+      "sources": [
+        "Google News (Corporate Watchdog)"
+      ],
+      "content": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC Federal Trade Commission (.gov)",
+      "keywords": [
+        "money-&-markets news",
+        "reaches",
+        "settlement",
+        "crypto",
+        "company",
+        "voyager",
+        "digital",
+        "charges"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#reaches",
+        "#settlement",
+        "#crypto",
+        "#company",
+        "#voyager",
+        "#digital",
+        "#charges"
+      ],
+      "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWnp5b3c1SnB2U2RPYTVscWtVWHJHNGZNbVpQeHRDWUxLZjhOZVBtYnI0UkMxYXoxY2x2dnNpclBPekNkalMzeTg3RHFrT2dXcS10NFF3SmJvaDg3bGJ4bENXQmIxVkk5cE9La0xHSlFhTUFJRUFQMFhNSm8tTDZDNEV6eG1MS2hmcTR4b3d1bXJCeTMyOFI0aTF6WmtwTUFQRnBzbnNlLTJRYlVKZk1rUktGMGhId1hnTzA1YjFqOTdwNVdkZVZ1WEdiUG1BRVNacHFjSkhXa05TZ3AyUl96TzhoXzJwSnVkRVZr?oc=5",
+      "generatedAt": "2026-05-11T03:01:48.010Z",
+      "relatedArticles": [
+        {
+          "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+          "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "Kraft Heinz CEO: \"Consumers Are Literally Running Out Of Money Toward The End Of The Month\"",
+          "slug": "2026-05-11-kraft-heinz-ceo-consumers-are-literally-running-out-of-money-toward-the-end-of-t",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+      "url": "https://www.zerohedge.com/geopolitical/global-fertilizer-shortage-means-spring-planting-season-disaster-northern-hemisphere",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Michael Snyder via The Economic Collapse blog,</em></a></p> <p><strong>Nobody is going to be able to save the spring planting season in the ",
+      "pubDate": "Mon, 11 May 2026 02:45:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Michael Snyder via The Economic Collapse blog, Nobody is going to be able to save the spring planting season in the northern hemisphere now, and that is really bad news because according to the UN the number of people in the world experiencing acute hunger was already at an all-time high even before the war began. A historic global food crisis has been escalating for years, and now farmers all over the northern hemisphere either can’t get the nitrogen fertilizer that they desperately need or they are paying much more for it. As a result, global food prices will start rising dramatically once harvest season rolls around, and in many impoverished nations there simply won’t be enough food for everyone. During normal times, approximately one-third of all globally-traded nitrogen fertilizer travels through the Strait of Hormuz, but right now it can’t get out of the Persian Gulf thanks to the Iranians. Unfortunately, if that nitrogen fertilizer doesn’t get into the hands of farmers in the northern hemisphere within a certain period of time they will completely miss the application window … The Hormuz Strait carries roughly one-third of global fertilizer trade. If farmers miss the application window, no amount of catch-up planting can recover the loss. The International Grains Council estimates cumulative global wheat and coarse grain output could fall 53 million tons below last season, a shortfall larger than Ukraine’s entire annual grain export volume in a typical year. According to a former co-chair of the White House’s Supply Chain Disruptions Task Force, the spring fertilizer application window in the northern hemisphere ends next month … Spring fertilizer application in the Northern Hemisphere runs through June. Parts of Africa are entering the primary planting season now — a critical window for the continent’s most food-insecure populations. A missed window doesn’t delay a harvest — it eliminates it. The shortfall will be invisible until it materializes in spiking prices and empty shelves next fall. This is the story the Hormuz blockade coverage is missing. The crisis isn’t just raising energy prices — it is breaking food supply chains. The world is facing a slow-motion catastrophe that will not announce itself until it is too late. We really are facing a slow-motion catastrophe. For example, we are being told that fertilizer shortages and high fuel costs have created a “critical threat” to global rice supplies… Global rice supplies are facing a critical threat this year as farmers across Asia have been forced to reduce planting due to fertilizer shortages and soaring fuel costs, issues exacerbated by the ongoing Iran war. This situation is compounded by the emerging El Nino effect, which is anticipated to further tighten global rice output. Rice is central to global food security, and even slight disruptions in supply can have wide-ranging effects. Experts warn that rising prices could pressure household budgets, especially in price-sensitive regions like Asia and Africa. A lot less rice is going to be grown this year. Meanwhile, the global population continues to grow. So who is going to have enough rice to eat? The wealthy will buy up whatever is available, and it will be at significantly higher prices. There are close to 1.6 billion people living in Africa, and we are being warned that they will soon be facing soaring prices and food shortages … The Iran war could have “dramatic consequences”, causing food shortages and price rises in some of Africa’s poorest and most vulnerable communities, the head of the world’s largest fertiliser company has said. Svein Tore Holsether, the chief executive of Yara International, said world leaders needed to guard against soaring prices and shortages of fertiliser causing a de facto global auction that would leave the poorest countries, particularly in Africa, scrambling for supplies they could ill afford. Here in the United States, food will still be available. But it will cost a lot more than it once did , because farmers will be forced to pass along much higher costs for fertilizer and fuel …",
+      "keywords": [
+        "money-&-markets news",
+        "global",
+        "fertilizer",
+        "field",
+        "food",
+        "planting",
+        "season",
+        "northern"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#global",
+        "#fertilizer",
+        "#field",
+        "#food",
+        "#planting",
+        "#season",
+        "#northern"
+      ],
+      "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/global-fertilizer-shortage-means-spring-planting-season-disaster-northern-hemisphere",
+      "generatedAt": "2026-05-11T03:01:49.835Z",
+      "relatedArticles": [
+        {
+          "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+          "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "Kraft Heinz CEO: \"Consumers Are Literally Running Out Of Money Toward The End Of The Month\"",
+          "slug": "2026-05-11-kraft-heinz-ceo-consumers-are-literally-running-out-of-money-toward-the-end-of-t",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "GM agrees to pay $12.75M to resolve a California investigation into claims that it illegally sold the location and driving data of OnStar subscribers to brokers",
+      "url": "https://www.reddit.com/r/privacy/comments/1t8mkka/gm_agrees_to_pay_1275m_to_resolve_a_california/",
+      "description": "&#32; submitted by &#32; <a href=\" /u/mkbt </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "pubDate": "2026-05-09T20:53:16.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "True Crime",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a href=\" /u/mkbt </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "keywords": [
+        "true-crime news",
+        "agrees",
+        "resolve",
+        "california",
+        "investigation",
+        "claims",
+        "illegally",
+        "sold"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#agrees",
+        "#resolve",
+        "#california",
+        "#investigation",
+        "#claims",
+        "#illegally",
+        "#sold"
+      ],
+      "slug": "2026-05-11-gm-agrees-to-pay-1275m-to-resolve-a-california-investigation-into-claims-that-it",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t8mkka/gm_agrees_to_pay_1275m_to_resolve_a_california/",
+      "generatedAt": "2026-05-11T03:01:51.482Z",
+      "relatedArticles": [
+        {
+          "title": "Enforced age verification theory",
+          "slug": "2026-05-11-enforced-age-verification-theory",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "Enforced age verification theory",
+      "url": "https://www.reddit.com/r/privacy/comments/1t89430/enforced_age_verification_theory/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>I’m not sure if this has been discussed before so here’s my theory about the apparent upcoming worldwide enforced age verification.</p> <p>I’m starting to see more and more indirect correlations between shifts in tech and the push for age verification. </p> <p>Claude Mythos from Anthropic is going to hurt companies like Zerodium, NSO and forensic tools like Celleb",
+      "pubDate": "2026-05-09T16:09:23.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "True Crime",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I’m not sure if this has been discussed before so here’s my theory about the apparent upcoming worldwide enforced age verification.</p> <p>I’m starting to see more and more indirect correlations between shifts in tech and the push for age verification. </p> <p>Claude Mythos from Anthropic is going to hurt companies like Zerodium, NSO and forensic tools like Celleb",
+      "keywords": [
+        "true-crime news",
+        "verification",
+        "enforced",
+        "theory",
+        "like",
+        "sure",
+        "been",
+        "discussed"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#verification",
+        "#enforced",
+        "#theory",
+        "#like",
+        "#sure",
+        "#been",
+        "#discussed"
+      ],
+      "slug": "2026-05-11-enforced-age-verification-theory",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t89430/enforced_age_verification_theory/",
+      "generatedAt": "2026-05-11T03:01:52.927Z",
+      "relatedArticles": [
+        {
+          "title": "GM agrees to pay $12.75M to resolve a California investigation into claims that it illegally sold the location and driving data of OnStar subscribers to brokers",
+          "slug": "2026-05-11-gm-agrees-to-pay-1275m-to-resolve-a-california-investigation-into-claims-that-it",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "More States Enact New Laws Curbing Teachers Unions",
+      "url": "https://www.zerohedge.com/political/more-states-enact-new-laws-curbing-teachers-unions",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">More States Enact New Laws Curbing Teachers Unions</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Aaron Gifford via The Epoch Times</a> (emphasis ours),</em></p> <p>New organized labor reforms signed into law by Florida Gov. Ron DeSantis last week<strong> require a majority ",
+      "pubDate": "Mon, 11 May 2026 00:25:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Unexplained",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Aaron Gifford via The Epoch Times (emphasis ours), New organized labor reforms signed into law by Florida Gov. Ron DeSantis last week require a majority of members to be present for teachers union certification or recertification votes, increase fines for illegal strikes, and establish merit-based pay for educators. Students join striking teachers as they demand higher pay and smaller class sizes outside Oakland Technical High School in Oakland, Calif., on Feb. 21, 2019. Justin Sullivan/Getty Images In Idaho, after July 1, teachers unions will be prohibited from collecting dues directly from members’ paychecks, using paid time off for union activities, or recruiting new members during school hours. A similar law in Arizona, which also bans teacher strikes and prohibits organized labor members from using any school property—even email addresses—for union activities, will be decided on by voters in the November election. “They can’t consume taxpayer-funded resources during the school day,” said Rusty Brown, special projects director for the Freedom Foundation policy organization, which assisted state legislators with those measures and helps teachers opt out of union membership. These ideas are expected to gain ground throughout the nation in the months and years ahead, Brown told The Epoch Times. Individually, the Freedom Foundation’s Teacher Freedom Alliance has so far helped more than 272,535 teachers opt out of union membership, including more than 50,000 in 2025 alone, according to data provided to The Epoch Times. This includes educators in red and blue states. At the state level, Oklahoma lawmakers have advanced legislation that would allow teachers to withdraw from a union at any time and would terminate “closed shop” provisions that prevent teachers from accessing alternative labor or professional organizations, such as the Teacher Freedom Alliance. Brown calls this an “equal access and an end to a monopoly and captive audience bill.” Alternative organizations can offer teacher liability insurance and other benefits at a fraction of the price that traditional unions charge, he said. Brown said he believes that the legislation could pass before Oklahoma’s session ends later this month, but the member withdrawal proposal probably won’t go through this session . Alabama state lawmakers will consider legislation similar to Oklahoma’s next session, he said. Maxford Nelsen, Freedom Foundation’s director of research and government affairs, said several factors prompted growing interest in pushing back against teachers unions. Members do not like that dues are automatically deducted from their paychecks. There is increasing animosity toward “zombie unions,” in which a limited number of members are informed or allowed to vote on matters. Labor organizations also engage in practices that create very narrow windows and bureaucratic hurdles for terminating membership. “That’s the last thing they want to think about during their summer vacation,” Nelsen told The Epoch Times, citing one union’s requirement in which opt-outs were limited to the last 10 days of July. Perhaps the most contentious issue, Nelson said, is how teachers union dues are spent. A review of the National Education Association and American Federation of Teachers unions’ websites shows that both heavily favor Democrats and promote transgender ideology; diversity, equity, and inclusion practices; special protections for illegal immigrants; anti-school choice measures; and other left-leaning policies. “ Hundreds of millions of dollars are flowing into this progressive apparatus ,” Nelson said. A recent report from Defending Education, a conservative policy center, states that teachers unions at the local, state, and national levels have spent more than $1 billion on “far-left political causes” unrelated to collective bargaining since 2015. This includes school board races, political action committees, and campaigns against school choice. “Given the outsized role that unions have played in the education system over the past 50 years, greater transparency on union spending is absolutely critical so that policymakers and teachers themselves can make informed decisions about the role that these entities should—or should not—play in the future,” Defending Education President Nicole Neily said in an April 27 statement. The Epoch Times reached out to the National Education Association and the American Federation of Teachers unions for comment. In response to prior Florida legislation that prohibited teachers unions from deducting dues directly from paychecks, the Florida Education Association contracted with a company to withdraw dues from members’ bank accounts after their paychecks are deposited. “This type of ‘paycheck deception’ legislation is nothing new and has been wielded across the country to weaken unions and roll back working conditions,” the Florida Education Association stated on its website. “It’s no secret that this legislation is designed to diminish our collective voice.”",
+      "keywords": [
+        "unexplained news",
+        "teachers",
+        "unions",
+        "field",
+        "union",
+        "members",
+        "school",
+        "education"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#teachers",
+        "#unions",
+        "#field",
+        "#union",
+        "#members",
+        "#school",
+        "#education"
+      ],
+      "slug": "2026-05-11-more-states-enact-new-laws-curbing-teachers-unions",
+      "sourceUrl": "https://www.zerohedge.com/political/more-states-enact-new-laws-curbing-teachers-unions",
+      "generatedAt": "2026-05-11T03:01:54.713Z",
+      "relatedArticles": [
+        {
+          "title": "The Gerrymander Debacle In Virginia Leaves The Democratic Party With A Dangerous Agenda",
+          "slug": "2026-05-11-the-gerrymander-debacle-in-virginia-leaves-the-democratic-party-with-a-dangerous",
+          "category": "Unexplained"
+        },
+        {
+          "title": "Iran-Linked Media Floats Data Tax On Hormuz Undersea Internet Cables",
+          "slug": "2026-05-11-iran-linked-media-floats-data-tax-on-hormuz-undersea-internet-cables",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "The Gerrymander Debacle In Virginia Leaves The Democratic Party With A Dangerous Agenda",
+      "url": "https://www.zerohedge.com/political/gerrymander-debacle-virginia-leaves-democratic-party-dangerous-agenda",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">The Gerrymander Debacle In Virginia Leaves The Democratic Party With A Dangerous Agenda</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Jonathan Turley via jonathanturley.org</a>,</em></p> <p><strong>“Eff around and find out”: That taunt from Hakeem Jeffries celebrating Virgi",
+      "pubDate": "Sun, 10 May 2026 23:15:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Unexplained",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Jonathan Turley via jonathanturley.org , “Eff around and find out”: That taunt from Hakeem Jeffries celebrating Virginia’s gerrymander did not age well. On Friday, the House minority leader found out that Virginia’s Supreme Court was not quite as gleeful as he about Democrats’ attempt to virtually eliminate Republican representation in the purple state. The court just cooked the party’s infamous lobster , a district over 100 miles long that was designed to help devour the GOP’s slender majority in the House of Representatives. It also cooked the ambitions of Gov. Abigail Spanberger and the Democratic establishment, which tossed aside any pretense of principle in a raw political gambit. The resulting faceplant is nothing short of legendary: Spanberger’s Democrats have succeeded in alienating half of the state. For the governor, the court’s decision was particularly embarrassing. Before assuming power, Spanberger denounced gerrymandering as “detrimental to our democracy and weakens the individual voices that form our electorates.” She ran as a moderate, but Spanberger immediately turned sharply left once in office and called for the most extreme gerrymander in the nation. The court found that effort was not only unconstitutional, but “wholly unprecedented in Virginia’s history.” It characterized the state’s position as “a story of the tail wagging the dog that has no tail.” While some of us had previously expressed skepticism over the rushed effort to circumvent the state constitution, the media almost exclusively relied on liberal experts who predicted the new districts would be upheld. It was a calculated risk for Democrats, who have now burned their bridges with Virginia conservative and Republican voters. As Winston Churchill said, “Nothing in life is so exhilarating as to be shot at without result.” Exhilarating and unforgettable: In a purple state where politicians often require crossover votes to prevail, the redistricting push was not just partisan but personal for voters. National Democrats will soon “find out” whether Jeffries was right to prematurely celebrate a victory that seemed to secure his anticipated elevation to Speaker of the House. The party is facing a potentially catastrophic reversal of fortune. When Democrats declared a gerrymandering war, some of us warned that the party, with its already heavily gerrymandered blue states, had far more to lose than the GOP did. It was particularly comical when Massachusetts Gov. Maura Healey pledged to join the redistricting fray, even though her state is so badly gerrymandered that it’s elected zero Republicans to the House since the 1990s. Virginia, a state long opposed to gerrymandering, has been considered the fairest state in the country, with a distribution of congressional seats that closely matches its partisan divide.",
+      "keywords": [
+        "unexplained news",
+        "field",
+        "state",
+        "virginia",
+        "party",
+        "democrats",
+        "gerrymander",
+        "house"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#field",
+        "#state",
+        "#virginia",
+        "#party",
+        "#democrats",
+        "#gerrymander",
+        "#house"
+      ],
+      "slug": "2026-05-11-the-gerrymander-debacle-in-virginia-leaves-the-democratic-party-with-a-dangerous",
+      "sourceUrl": "https://www.zerohedge.com/political/gerrymander-debacle-virginia-leaves-democratic-party-dangerous-agenda",
+      "generatedAt": "2026-05-11T03:01:56.059Z",
+      "relatedArticles": [
+        {
+          "title": "More States Enact New Laws Curbing Teachers Unions",
+          "slug": "2026-05-11-more-states-enact-new-laws-curbing-teachers-unions",
+          "category": "Unexplained"
+        },
+        {
+          "title": "Iran-Linked Media Floats Data Tax On Hormuz Undersea Internet Cables",
+          "slug": "2026-05-11-iran-linked-media-floats-data-tax-on-hormuz-undersea-internet-cables",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "Traders Puzzled As Physical Oil Prices Tumble Amid Surging Chinese Crude Sales, Plunging Imports",
+      "url": "https://www.zerohedge.com/markets/traders-puzzled-physical-oil-prices-tumble-amid-surging-chinese-crude-sales-plunging",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Traders Puzzled As Physical Oil Prices Tumble Amid Surging Chinese Crude Sales, Plunging Imports</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Yesterday when <a href=\" China's unexpected flip-flopping </a>on its decision to order local banks to ignore the latest US sanctions on Chinese, fol",
+      "pubDate": "Sun, 10 May 2026 19:55:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Yesterday when discussing China&#x27;s unexpected flip-flopping on its decision to order local banks to ignore the latest US sanctions on Chinese, followed days later by a demand that they pause loans to sanctions refiners, we highlighted something remarkable: in the aftermath of the Strait of Hormuz blockade, which throttled the transit of ~10% of global oil and sent physical prices soaring to record highs (especially for Dubai crude), resulting in a windfall for European refiners thanks to soaring gasoline premiums... ... the reaction in China was a mirror image, as already razor-thin independent refiner (teapot) margins plunged to record negative. The reason for the margin collapse was China’s domestic fuel policy: it has long been Beijing&#x27;s policy to soften price hikes to help shield consumers and avoid social unrest; which while beneficial to end consumers is catastrophic to refiners and processors who are prohibited from passing on rising costs. In other words, Chna’s \"energy security\" was the dominant theme, and if it meant an entire industry has to suffer huge losses if it continues to purchase oil and process it into various product grades. Ordered to process as much available inventory as possible, that&#x27;s what the refiners have done, and refining rates in Shandong province, China&#x27;s hub for smaller refineries known as teapots, ramped up over April to the highest level in almost two years, as processing margins cratered to record negative levels meaning refiners are losing record amounts on every barrel they process . “I would not be surprised if the teapots are prioritizing politics over economics with an eye to their long-term survival,” said Erica Downs, a senior research scholar at Columbia University’s Center on Global Energy Policy. “They may be calculating that if they do their part to help China weather the energy crisis, then maybe they will build up some goodwill in Beijing.” While Downs is right, and teapots are prioritizing politics, they are also certainly keeping an eye on economics to the extent they can avoid Beijing&#x27;s wrath, and predictably the logical consequence of this centrally-planned policy to force \"independent\" refiners (who are not really independent if they have to do whatever Beijing instructs them) to make fuel at record losses to ensure energy security, is for them to slash purchases of Iranian crude. Sure enough, Chinese crude oil imports have plunged: according to Vortexa, China&#x27;s April imports plunged to a multi-year low of just 8.2 million barrels a day, down by about a quarter from a prewar level of around 11.7 million. The 3.5-million barrels a day swing almost matches the total consumption of Japan and is double the amount supplied by the United Arab Emirates pipeline that circumvents Hormuz. As Bloomberg&#x27;s Javier Blas writes overnight , \" simply put, it’s huge, perhaps the second- or third-largest factor rebalancing the oil market today, behind only Saudi Arabia’s own pipeline bypassing the strait and the use of the strategic petroleum reserves of the US and Japan.\" The import drop might make sense if Chinese commercial inventories were falling sharply, or if Beijing had tapped its strategic petroleum reserves. But neither appears to be happening. Instead, commercial stockpiles have continued to increase in recent weeks, according to satellite data (of course, China is well known to manipulate all data and with the bulk of its 1.4 billion in strategic oil reserves located underground, it is impossible to trace flows definitively) Meanwhile, as imports have collapsed, inventories at sea have piled up: Kpler reports that there are now about 16 million barrels on ships anchored in the Yellow Sea off the Chinese coast, almost 40% higher than the level prior to a US blockade of Iran’s ports in mid-April as oil that was ordered previously remains unused. There has been another complication: after the Iran war broke out, Beijing banned exports of refined products, effectively allowing refineries to process less crude to meet domestic demand. But the policy has now been reversed, suggesting the country sees enough fuel availability. In any case, in recent weeks, Blas writes that amid this collapse in Chinese imports, industry executives have noticed something odd: Chinese state-owned oil companies have been reselling some of their oil cargoes to European and Asian rivals. The behavior suggests surpluses, which is \"odd\" to say the least during a supply shortage. Where is this excess oil coming from (for the answer, see below). The shift has not only capped benchmark oil prices, but also helped to trigger a collapse in the premia that traders pay above them to secure physical crude. The immediate outcome has been a very beneficial one: physical barrels that in early April went for $30 above benchmark prices are now changing hands at premiums as low as $1. Talk of discounts has even started to emerge. Underscoring this point, North Sea oil traders don’t appear as desperate for crude for immediate delivery anymore, compared to the panic buying of late March and early April While the collapse in refining margins is a clear clue to the plunging oil imports, other questions remain: chief among them how is China importing far less crude than before without running down stocks? In the past, the country clearly bought more oil than it needed, building a huge emergency stockpile. Today, China has nearly 1.4 billion barrels in its reserves according to media reports, well above the 400 million of the US and Japan’s 260 million. As we reported in late 2025, China probably bought one million barrels a day more than it needed last year. By simply stopping beefing up the reserve, China can cut imports a lot without affecting its underlying oil needs. The shift can explain, perhaps, a third of the import cut. But the rest? Here’s where oil traders speculate with different theories. One argument says that Chinese economic activity is weaker than previously thought, and thus oil consumption growth is also lower. What’s the catalyst for that slowdown? Perhaps the impact of the war on several of China’s clients in the region, including the Philippines, Vietnam and Thailand (just don&#x27;t look for validation in Chinese economic \"data\" - like everything else, it took is centrally planned and Beijing would never confirm its economy is being hit due to the Iran war as that would mean reduced political leverage). Separately, the increase of electric vehicles, improved public transportation and the option of working from home have made Chinese households better able to cope with higher oil prices. Unlike most other nations in the region, China hasn’t announced any emergency action to rein in demand, like adopting a four-day work week for government employees or promoting carpooling. The IEA estimates that Chinese oil demand slipped into a modest year-on-year contraction in both March and April, down by about 110,000 barrels a day to about 17 million barrels. While the drop is impressive when compared with the exuberant growth of the country’s consumption in the past, it isn’t nearly enough to explain why imports have fallen so much. It is certainly possible that Chinese oil demand has been contracting far more sharply than currently thought, The key, Blas reckons, is the inscrutable petrochemical industry - the sector that has contributed the majority of oil consumption growth over the last five years. In petrochemicals, China is unique. On top of its traditional industry that uses oil and natural gas as feedstock, it has parallel production that relies on coal.",
+      "keywords": [
+        "global-power news",
+        "china",
+        "chinese",
+        "crude",
+        "imports",
+        "field",
+        "they",
+        "million"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#china",
+        "#chinese",
+        "#crude",
+        "#imports",
+        "#field",
+        "#they",
+        "#million"
+      ],
+      "slug": "2026-05-11-traders-puzzled-as-physical-oil-prices-tumble-amid-surging-chinese-crude-sales-p",
+      "sourceUrl": "https://www.zerohedge.com/markets/traders-puzzled-physical-oil-prices-tumble-amid-surging-chinese-crude-sales-plunging",
+      "generatedAt": "2026-05-11T03:01:57.948Z",
+      "relatedArticles": [
+        {
+          "title": "Maersk CEO Warns Iran War Is A \"New Wake-Up Call\" For Global Trade",
+          "slug": "2026-05-11-maersk-ceo-warns-iran-war-is-a-new-wake-up-call-for-global-trade",
+          "category": "Global Power"
         }
       ]
     },
@@ -170,57 +745,64 @@
         "#trade",
         "#energy"
       ],
-      "slug": "2026-05-10-maersk-ceo-warns-iran-war-is-a-new-wake-up-call-for-global-trade",
+      "slug": "2026-05-11-maersk-ceo-warns-iran-war-is-a-new-wake-up-call-for-global-trade",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/maersk-ceo-warns-iran-war-new-wake-call-global-trade",
-      "generatedAt": "2026-05-10T21:01:39.953Z",
+      "generatedAt": "2026-05-11T03:01:59.631Z",
       "relatedArticles": [
         {
-          "title": "Geopolitics Weekly (Trump and Venezuela, Syria Assassinations, China’s Treasury Dump)",
-          "slug": "2026-05-10-geopolitics-weekly-trump-and-venezuela-syria-assassinations-chinas-treasury-dump",
+          "title": "Traders Puzzled As Physical Oil Prices Tumble Amid Surging Chinese Crude Sales, Plunging Imports",
+          "slug": "2026-05-11-traders-puzzled-as-physical-oil-prices-tumble-amid-surging-chinese-crude-sales-p",
           "category": "Global Power"
         }
       ]
     },
     {
-      "title": "Geopolitics Weekly (Trump and Venezuela, Syria Assassinations, China’s Treasury Dump)",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU0RfZExfUmVIeVJoRzBIZm42Y05DVDUwZkVsYXhKWm93bC1TMnVnMUZHbko1U05EYi1GdTlPM0FLamFIbFhUNjAyUUFncy1Ba2VzSlBBd1lWUlZzM2dkcThKRGx0MDVwVVB1enNGcFBxWjY0MkJOcnVRUmJGUElicnprajlyNENWdUc2YWlYaWtmdXJ0QVIxSlpESlFWb2VoVlVQSGl1dWtEOVFENjI5Y1B4bDY5cjVQ?oc=5",
-      "description": "Geopolitics Weekly (Trump and Venezuela, Syria Assassinations, China’s Treasury Dump) Geopolitical Monitor",
-      "pubDate": "2026-02-16T08:00:00.000Z",
-      "source": "Google News (Global Power)",
-      "category": "Global Power",
-      "score": 3,
+      "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
+      "url": "https://www.zerohedge.com/geopolitical/iran-responds-us-peace-proposal-ayatollah-meets-top-general-discuss-readiness",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><h2>Summary</h2> <ul><li> <p><em>Trump calls <strong>Iran's peace proposal response \"totally unacceptable\"</strong></em></p> </li> <li> <p><em><strong",
+      "pubDate": "Sun, 10 May 2026 20:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 10,
       "sources": [
-        "Google News (Global Power)"
+        "ZeroHedge",
+        "r/worldnews",
+        "r/conspiracy"
       ],
-      "content": "Geopolitics Weekly (Trump and Venezuela, Syria Assassinations, China’s Treasury Dump) Geopolitical Monitor",
+      "content": "Summary Trump calls Iran&#x27;s peace proposal response \"totally unacceptable\" Iran warns of &#x27;decisive, immediate&#x27; response to British or French warships approaching Hormuz Strait. Iran responds Sunday to US peace proposal , finally submitting something official to Pakistan. Details not initially disclosed. Trump TS: Iran \"playing games with the United States.\" IRGC new warning: will unleash \"heavy attack\" on US bases in region if more Hormuz aggression persists . President Trump has just issued a statement on his TruthSocial feed rejecting &#x27;unacceptable&#x27; Iranian proposal for ending war. \"I have just read the response from Iran’s so-called “Representatives.” Thank you for your attention to this matter.\" Iran offered to transfer some of its stockpile of highly enriched uranium to a third country, but rejected the idea of dismantling its nuclear facilities, the Wall Street Journal reported. Iran disputed the report, according to Iran’s semi-official news agency Tasnim. And with the fragile ceasefire still holding for now, the odds of a peace deal by the end of May have plummeted. Iran has newly warned of \"a decisive and immediate response\" to any deployment of European military vessels in the Strait of Hormuz, and has further declared that the Islamic Republic alone controls security in the strategic waterway. Deputy Foreign Minister Kazem Gharibabadi issued the warning Sunday in a post on X after France and Britain announced plans to deploy warships to the region. \"Whether in times of war or peace, only the Islamic Republic of Iran can establish security in this strait and will not allow any country to interfere in such matters,\" he said . Gharibabadi said France plans to deploy its flagship aircraft carrier, the Charles de Gaulle, to the Red Sea and Gulf of Aden, while Britain plans to send a warship to the area under the stated goal of protecting freedom of navigation. Already these Western allied assets are moving through the Suez Canal as of days ago. \"Any deployment and stationing of extra-regional destroyers around the Strait of Hormuz, under the pretext of protecting shipping, is nothing but an escalation of the crisis, the militarization of a vital waterway, and an attempt to cover up the true root of insecurity in the region,\" he stated. Iranian lawmaker Ebrahim Rezaei says Tehran’s “restraint is over” and any aggression against Iranian vessels will be met with a heavy and decisive Iranian response against American vessels and bases. 🔴LIVE updates: pic.twitter.com/QckEP0allp But France and Britain have previously sought to clarify that their warships will remain largely in a background support role when compared to the US naval blockade in the Gulf of Oman region. Their ships would only directly join Persian Gulf operations only once the war ended, according to reports. New Sunday Truth Social statement soon on the heels of Tehran submitting its response to the US peace proposal, via Pakistan: Trump said Iran had been \"playing games with the United States, and the rest of the world, for 47 years,\" adding that it had been \"laughing at our new GREAT AGAIN country,\" but stressed that \"they will be laughing no longer!\" After days of waiting, Iran has submitted its response to the latest US peace proposal to mediator Pakistan, despite the recent flare-up in renewed exchanges of fire in the contested Strait of Hormuz this past week. \" Iran has submitted its response to the latest US proposal to end 10 weeks of war , the state-run Islamic Republic News Agency reported on Sunday, without providing any further details,\" Bloomberg confirms in a fresh headline. \"Tehran hasn&#x27;t yet given any public indication it would accept President Donald Trump’s plan that stipulates Iran permits passage through the Strait of Hormuz and Washington ends its blockade on Iranian ports in the next month.\"",
       "keywords": [
-        "global-power news",
-        "geopolitics",
-        "weekly",
+        "government-secrets news",
+        "iran",
+        "response",
+        "peace",
+        "field",
         "trump",
-        "venezuela",
-        "syria",
-        "assassinations",
-        "china"
+        "proposal",
+        "hormuz"
       ],
       "hashtags": [
-        "#global-powernews",
-        "#geopolitics",
-        "#weekly",
+        "#government-secretsnews",
+        "#iran",
+        "#response",
+        "#peace",
+        "#field",
         "#trump",
-        "#venezuela",
-        "#syria",
-        "#assassinations",
-        "#china"
+        "#proposal",
+        "#hormuz"
       ],
-      "slug": "2026-05-10-geopolitics-weekly-trump-and-venezuela-syria-assassinations-chinas-treasury-dump",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU0RfZExfUmVIeVJoRzBIZm42Y05DVDUwZkVsYXhKWm93bC1TMnVnMUZHbko1U05EYi1GdTlPM0FLamFIbFhUNjAyUUFncy1Ba2VzSlBBd1lWUlZzM2dkcThKRGx0MDVwVVB1enNGcFBxWjY0MkJOcnVRUmJGUElicnprajlyNENWdUc2YWlYaWtmdXJ0QVIxSlpESlFWb2VoVlVQSGl1dWtEOVFENjI5Y1B4bDY5cjVQ?oc=5",
-      "generatedAt": "2026-05-10T21:01:41.933Z",
+      "slug": "2026-05-11-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-responds-us-peace-proposal-ayatollah-meets-top-general-discuss-readiness",
+      "generatedAt": "2026-05-11T03:02:00.828Z",
       "relatedArticles": [
         {
-          "title": "Maersk CEO Warns Iran War Is A \"New Wake-Up Call\" For Global Trade",
-          "slug": "2026-05-10-maersk-ceo-warns-iran-war-is-a-new-wake-up-call-for-global-trade",
-          "category": "Global Power"
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
         }
       ]
     },
@@ -256,117 +838,213 @@
         "#lawsuit",
         "#investigation"
       ],
-      "slug": "2026-05-10-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
+      "slug": "2026-05-11-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdDN3b2hqSHB1SXJsWXZxRDZobDV3eHNlUHdNaDd3dm83Z1cwVElXQnVGU1B1M2NWdXZrY3RLcElNb19NcnJfZmR4TC1wTTE0SUJtX3RNQzBkYlAyMTF0QldTcUNwRU1RTF9OeHdiZllsLU0yOXVRSmU4eG1XRnFpeWxmNA?oc=5",
-      "generatedAt": "2026-05-10T21:01:43.974Z",
+      "generatedAt": "2026-05-11T03:02:02.992Z",
       "relatedArticles": [
+        {
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+          "category": "Corporate Watchdog"
+        },
         {
           "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
-          "slug": "2026-05-10-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
-          "category": "Corporate Watchdog"
-        },
-        {
-          "title": "Hardware Attestation as Monopoly Enabler",
-          "slug": "2026-05-10-hardware-attestation-as-monopoly-enabler",
+          "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "[ News ] \"Session is shutting down in 90 days\"- Due to lack of funding",
-      "url": "https://www.reddit.com/r/privacy/comments/1t95c8m/news_session_is_shutting_down_in_90_days_due_to/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Further information here : <a href=\" Article</a></p> <p>This sounds really bad in my opinion, I thought if not many people knew it I should share.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/alarmclocksarewatery </a> <br/> <span><a href=\" &#32; <span><a href=\"",
-      "pubDate": "2026-05-10T12:14:41.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Money & Markets",
+      "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RPNXVQaGptSmk5cFplYi0zeUdVbGNad0Q0Z3hoYjlwLTE3Ny1aa2s4S1lmclVZV3JYUTItSmlqTGUwampzYno5V08tLVdNQ2k2RVFEMWtGSFVLSXVMY090LVBjRHF5ZTRVYy13VVRnOXpXNXFHVWdaNU9DT0lGbHBRTVdXVmk2OXFBd3k4bEtJaGlMckRBUU40NVZZZkZ3TTNOQ1c5SzFVX2JiN0VhT1ZlS0ZjVlRLYmxpY3gwMlZSd01mYXc?oc=5",
+      "description": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016 unredacted.com",
+      "pubDate": "2016-09-23T07:00:00.000Z",
+      "source": "Google News (Government Secrets)",
+      "category": "Government Secrets",
       "score": 9,
       "sources": [
-        "r/privacy"
+        "Google News (Government Secrets)"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Further information here : <a href=\" Article</a></p> <p>This sounds really bad in my opinion, I thought if not many people knew it I should share.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\" /u/alarmclocksarewatery </a> <br/> <span><a href=\" &#32; <span><a href=\"",
+      "content": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016 unredacted.com",
       "keywords": [
-        "money-&-markets news",
-        "news",
-        "session",
-        "shutting",
-        "down",
-        "days",
-        "lack",
-        "funding"
+        "government-secrets news",
+        "declassified",
+        "damage",
+        "assessments",
+        "shed",
+        "light",
+        "snowden",
+        "assessment"
       ],
       "hashtags": [
-        "#money-&-marketsnews",
-        "#news",
-        "#session",
-        "#shutting",
-        "#down",
-        "#days",
-        "#lack",
-        "#funding"
+        "#government-secretsnews",
+        "#declassified",
+        "#damage",
+        "#assessments",
+        "#shed",
+        "#light",
+        "#snowden",
+        "#assessment"
       ],
-      "slug": "2026-05-10-news-session-is-shutting-down-in-90-days-due-to-lack-of-funding",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t95c8m/news_session_is_shutting_down_in_90_days_due_to/",
-      "generatedAt": "2026-05-10T21:01:45.623Z",
+      "slug": "2026-05-11-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RPNXVQaGptSmk5cFplYi0zeUdVbGNad0Q0Z3hoYjlwLTE3Ny1aa2s4S1lmclVZV3JYUTItSmlqTGUwampzYno5V08tLVdNQ2k2RVFEMWtGSFVLSXVMY090LVBjRHF5ZTRVYy13VVRnOXpXNXFHVWdaNU9DT0lGbHBRTVdXVmk2OXFBd3k4bEtJaGlMckRBUU40NVZZZkZ3TTNOQ1c5SzFVX2JiN0VhT1ZlS0ZjVlRLYmxpY3gwMlZSd01mYXc?oc=5",
+      "generatedAt": "2026-05-11T03:02:04.541Z",
       "relatedArticles": [
         {
-          "title": "I am losing my head over choosing the best way to go about emails",
-          "slug": "2026-05-10-i-am-losing-my-head-over-choosing-the-best-way-to-go-about-emails",
-          "category": "Money & Markets"
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
         },
         {
-          "title": "Earnings Estimate Revisions Are Very Optimistic",
-          "slug": "2026-05-10-earnings-estimate-revisions-are-very-optimistic",
-          "category": "Money & Markets"
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
         }
       ]
     },
     {
-      "title": "I am losing my head over choosing the best way to go about emails",
-      "url": "https://www.reddit.com/r/privacy/comments/1t9bp3g/i_am_losing_my_head_over_choosing_the_best_way_to/",
-      "description": "<!-- SC_OFF --><div class=\"md\"><p>Long story short:</p> <p>I want to move from Gmail where I currently have two accounts, one for personal (work, finance, shopping) and one for socials (social media, gaming). With my move, I want to organise everything better and try my best to increase privacy as much as possible.</p> <p>What I wanted to do is the following: Create a respective account for</p> <p",
-      "pubDate": "2026-05-10T16:33:41.000Z",
+      "title": "Why do privacy-respecting professional platforms never seem to win?",
+      "url": "https://www.reddit.com/r/privacy/comments/1t80jtm/why_do_privacyrespecting_professional_platforms/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Most professional networking platforms today depend heavily on engagement optimisation, tracking and advertising models.</p> <p>At the same time, many people say they care about privacy, GDPR and digital sovereignty.</p> <p>Yet privacy-focused alternatives almost never gain meaningful traction compared to large US platforms.</p> <p>Do you think this is mainly beca",
+      "pubDate": "2026-05-09T09:53:05.000Z",
       "source": "r/privacy",
       "redditScore": 0,
-      "category": "Money & Markets",
+      "category": "Surveillance State",
       "score": 9,
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Long story short:</p> <p>I want to move from Gmail where I currently have two accounts, one for personal (work, finance, shopping) and one for socials (social media, gaming). With my move, I want to organise everything better and try my best to increase privacy as much as possible.</p> <p>What I wanted to do is the following: Create a respective account for</p> <p",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Most professional networking platforms today depend heavily on engagement optimisation, tracking and advertising models.</p> <p>At the same time, many people say they care about privacy, GDPR and digital sovereignty.</p> <p>Yet privacy-focused alternatives almost never gain meaningful traction compared to large US platforms.</p> <p>Do you think this is mainly beca",
       "keywords": [
-        "money-&-markets news",
-        "best",
-        "want",
-        "move",
-        "losing",
-        "head",
-        "choosing",
-        "emails"
+        "surveillance-state news",
+        "privacy",
+        "platforms",
+        "professional",
+        "never",
+        "respecting",
+        "seem",
+        "networking"
       ],
       "hashtags": [
-        "#money-&-marketsnews",
-        "#best",
-        "#want",
-        "#move",
-        "#losing",
-        "#head",
-        "#choosing",
-        "#emails"
+        "#surveillance-statenews",
+        "#privacy",
+        "#platforms",
+        "#professional",
+        "#never",
+        "#respecting",
+        "#seem",
+        "#networking"
       ],
-      "slug": "2026-05-10-i-am-losing-my-head-over-choosing-the-best-way-to-go-about-emails",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t9bp3g/i_am_losing_my_head_over_choosing_the_best_way_to/",
-      "generatedAt": "2026-05-10T21:01:47.233Z",
+      "slug": "2026-05-11-why-do-privacy-respecting-professional-platforms-never-seem-to-win",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t80jtm/why_do_privacyrespecting_professional_platforms/",
+      "generatedAt": "2026-05-11T03:02:05.737Z",
       "relatedArticles": [
         {
-          "title": "[ News ] \"Session is shutting down in 90 days\"- Due to lack of funding",
-          "slug": "2026-05-10-news-session-is-shutting-down-in-90-days-due-to-lack-of-funding",
-          "category": "Money & Markets"
+          "title": "Shut Down Turnkey Totalitarianism",
+          "slug": "2026-05-11-shut-down-turnkey-totalitarianism",
+          "category": "Surveillance State"
         },
         {
-          "title": "Earnings Estimate Revisions Are Very Optimistic",
-          "slug": "2026-05-10-earnings-estimate-revisions-are-very-optimistic",
-          "category": "Money & Markets"
+          "title": "Sharing photos privately but practically",
+          "slug": "2026-05-11-sharing-photos-privately-but-practically",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Meta is killing E2E encryption on Instagram DMs",
+      "url": "https://www.reddit.com/r/privacy/comments/1t7ppl7/meta_is_killing_e2e_encryption_on_instagram_dms/",
+      "description": "<!-- SC_OFF --><div class=\"md\"><p>Meta announced they're shutting down end-to-end encryption on Instagram Messaging.</p> <p>Their stated reason: few users opted in, and they need the ability to respond to scams, harassment, and law enforcement requests.</p> <p>Translation: encrypted messages can't be scanned for CSAM detection, trust and safety pipelines, or subpoena response. So encryption goes b",
+      "pubDate": "2026-05-09T00:33:39.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Meta announced they're shutting down end-to-end encryption on Instagram Messaging.</p> <p>Their stated reason: few users opted in, and they need the ability to respond to scams, harassment, and law enforcement requests.</p> <p>Translation: encrypted messages can't be scanned for CSAM detection, trust and safety pipelines, or subpoena response. So encryption goes b",
+      "keywords": [
+        "tech-&-privacy news",
+        "encryption",
+        "meta",
+        "instagram",
+        "they",
+        "killing",
+        "announced",
+        "shutting"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#encryption",
+        "#meta",
+        "#instagram",
+        "#they",
+        "#killing",
+        "#announced",
+        "#shutting"
+      ],
+      "slug": "2026-05-11-meta-is-killing-e2e-encryption-on-instagram-dms",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1t7ppl7/meta_is_killing_e2e_encryption_on_instagram_dms/",
+      "generatedAt": "2026-05-11T03:02:07.493Z",
+      "relatedArticles": [
+        {
+          "title": "Currently in the process of e-mail aliasing and deleting accounts, wow some of these companies",
+          "slug": "2026-05-11-currently-in-the-process-of-e-mail-aliasing-and-deleting-accounts-wow-some-of-th",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Any privacy friendly AI for basic research?",
+          "slug": "2026-05-11-any-privacy-friendly-ai-for-basic-research",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Digital Hopes, Real Power: From Connection to Collective Action",
+      "url": "https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-connection-collective-action",
+      "description": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><em>This is <i><span>the fifth and final installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the rest of the series <a href=\" <p><span>If the Arab Spring was defined by optimism about what the internet could do, the years since have been marked by a more sober understanding of what it takes to de",
+      "pubDate": "Thu, 30 Apr 2026 07:56:37 +0000",
+      "source": "EFF",
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "EFF"
+      ],
+      "content": "This is the fifth and final installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the rest of the series here . If the Arab Spring was defined by optimism about what the internet could do, the years since have been marked by a more sober understanding of what it takes to defend it. Back in 2011, the term “digital rights” was still fairly new. While in the decades prior, open source and hacker communities—as well as a handful of organizations including EFF—had advocated for digital freedoms, it was through the merging of disparate communities from around the world in the 2000s that digital rights came to be more clearly understood as an extension of fundamental human rights. In 2011, we observed that there were only a few organizations focused on digital rights in the region. Groups like Nawaat , which emerged from the Tunisian diaspora under the Ben Ali regime; the Arab Digital Expression Foundation , formed to promote the creative use of technology; and SMEX , which was initially created to teach journalists and others about social media but has grown to become a powerful force in the region, led the way. Since that time, dozens of organizations have emerged throughout the region to promote freedom of expression, innovation, privacy, and digital security. Understanding how the digital rights movement evolved in the Middle East and North Africa requires a closer look at the communities that shaped it, and the organizations that are carrying on the fight today. Perspectives from people and organizations that were key to these efforts offer critical insight into how the movement has grown and what challenges lie ahead. Reem Almasri , a senior researcher and digital sovereignty consultant, says that: ‘Digital rights’ emerged as a term around the Arab Spring, when the internet was still a fairly unregulated space, we were still trying to figure out the tech companies’ policies, and force governments to look at the internet as a fundamental right like water and electricity. But then the need to converge digital rights to everyday rights—economic, political, social rights—and to connect it to geopolitics has started to be thought about, and to be in discussion as well. And to not look at digital rights as a separate field from everything else that’s affecting it, from the geopolitical context. Mohamad Najem, who co-founded SMEX in 2008 and has led it to become the largest organization in the region, told me that, at the time, “Nobody gave [social media] a lot of attention in our region.” Their work was “a positive approach to social media, how we can democratize sharing information, how we can share more from civil society, change people’s minds, et cetera.” “After that phase,” he continues, “we can think about 2012-2013—after the Arab Spring, as an organization we started looking at the infrastructure of the internet, and how freedom of expression and privacy are affected. That’s when we started looking more at what we call digital rights.” In the aftermath of the Arab Spring, social media companies moved from a largely hands-off approach to governance toward more formalized—and often opaque—content moderation systems. Platforms expanded their trust and safety teams and began working more closely with civil society through trusted partnerships in the region and globally. But, Mohamad Najem says: After the expansion of tech accountability itself and the adaptation of tech companies, we’ve noticed that it’s not taking us anywhere. Gradually we’ve come to a new phase where it feels like tech accountability is an economy by itself that is not leading to real results. So the next phase for us at least and maybe for others in global majority communities is how we can focus on digital public good, how we can push more governments, private and public institutions to adopt more open source software, to look at the ecosystem and understand the US threats happening now, et cetera. Another group that has played a key role in the fight for digital rights and tech accountability in the region is 7amleh , a Palestinian organization that was founded in 2013. At the time, says Jalal Abukhater : [I]t was unique and interesting in Palestinian society to have a human rights organization dedicated fully to the topic of digital rights, you know, human rights in a digital format. However, with the years, we saw various milestones, we saw progress of policy decisions and movements through the Israeli government to influence content moderation in Big Tech companies. We saw problems there as an organization. 7amleh took a leading stance in fighting to preserve the digital rights of Palestinians during a period where there was a very strong influence through the Israeli government. There was actually quite important reporting coming through 7amleh on the situation of online content moderation at a time when it wasn’t really a topic being discussed but it was very clearly a situation where there was major influence by government and political suppression happening as a result. While in the early days, the digital rights movement attracted specialists, today, people from other fields have recognized how digital rights intersect with their work, and the digital rights community has embraced them. Because the digital rights movement has been decentralizing and has stopped being a speciality, it stopped being an exclusive thing for digital rights specialists, since of course the internet not only in the Arab region but all over the world has become a fundamental infrastructure for running any kind of sensitive operations, or operations in general…all types of organizations, and companies, and initiatives are thinking about their digital security, about how internet laws are affecting the use of the internet, or putting them at risk, and how surveillance technologies are affecting their operations. Abukhater credits the collaborative work that emerged within the region over the years in building the movement’s strength: [Today], civil society and digital civil society have many forums, many coalitions and networks, but it’s always important to remember that this is work that builds over many years of experience, and relationships, and networks—that it’s different parties coming to support each other at different phases to ensure that this kind of work succeeds and that this ecosystem is sustained globally with support from partner organizations which were very crucial in ensuring that this ecosystem is sustained, especially in Palestine. Conferences like Bread and Net , first held in Beirut in 2018, and the Palestine Digital Activism Forum (PDAF), first held in Ramallah in 2017, bring activists, academics, journalists, and other practitioners together to network and learn about each other’s work. The pandemic, conflict, and other barriers haven’t stopped either conference from carrying on: PDAF has become an annual virtual event that draws big-name speakers, while Bread & Net has spaced out its meetings but continues to draw bigger crowds each time.",
+      "keywords": [
+        "corporate-watchdog news",
+        "digital",
+        "rights",
+        "arab",
+        "region",
+        "internet",
+        "field",
+        "organizations"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#digital",
+        "#rights",
+        "#arab",
+        "#region",
+        "#internet",
+        "#field",
+        "#organizations"
+      ],
+      "slug": "2026-05-11-digital-hopes-real-power-from-connection-to-collective-action",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-connection-collective-action",
+      "generatedAt": "2026-05-11T03:02:09.087Z",
+      "relatedArticles": [
+        {
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
+          "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
+          "category": "Corporate Watchdog"
         }
       ]
     },
@@ -376,8 +1054,8 @@
       "description": "",
       "pubDate": "2026-05-10T17:54:02.000Z",
       "source": "Hacker News",
-      "hnScore": 475,
-      "hnComments": 150,
+      "hnScore": 970,
+      "hnComments": 353,
       "category": "Corporate Watchdog",
       "score": 8,
       "sources": [
@@ -398,68 +1076,352 @@
         "#monopoly",
         "#enabler"
       ],
-      "slug": "2026-05-10-hardware-attestation-as-monopoly-enabler",
+      "slug": "2026-05-11-hardware-attestation-as-monopoly-enabler",
       "sourceUrl": "https://grapheneos.social/@GrapheneOS/116550899908879585",
-      "generatedAt": "2026-05-10T21:01:49.617Z",
+      "generatedAt": "2026-05-11T03:02:10.938Z",
       "relatedArticles": [
         {
-          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
-          "slug": "2026-05-10-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
           "category": "Corporate Watchdog"
         },
         {
-          "title": "Mr. Cooper Group (COOP) Securities Class Action Lawsuit Investigation",
-          "slug": "2026-05-10-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
+          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
+          "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-      "url": "https://www.neowin.net/news/looks-like-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it-already/",
-      "description": "",
-      "pubDate": "2026-05-10T20:46:31.000Z",
+      "title": "I’ve banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "description": "Related: https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html",
+      "pubDate": "2026-05-09T16:28:36.000Z",
       "source": "Hacker News",
-      "hnScore": 2,
-      "hnComments": 1,
+      "hnScore": 547,
+      "hnComments": 279,
       "category": "Government Secrets",
       "score": 8,
       "sources": [
         "Hacker News"
       ],
-      "content": "",
+      "content": "Related: https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html",
       "keywords": [
         "government-secrets news",
-        "forza",
-        "horizon",
-        "just",
-        "leaked",
-        "steam",
-        "letting",
-        "pirates"
+        "query",
+        "strings",
+        "banned",
+        "related",
+        "susam"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#forza",
-        "#horizon",
-        "#just",
-        "#leaked",
-        "#steam",
-        "#letting",
-        "#pirates"
+        "#query",
+        "#strings",
+        "#banned",
+        "#related",
+        "#susam"
       ],
-      "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
-      "sourceUrl": "https://www.neowin.net/news/looks-like-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it-already/",
-      "generatedAt": "2026-05-10T21:01:51.362Z",
+      "slug": "2026-05-11-ive-banned-query-strings",
+      "sourceUrl": "https://chrismorgan.info/no-query-strings",
+      "generatedAt": "2026-05-11T03:02:12.616Z",
       "relatedArticles": [
         {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
-          "slug": "2026-05-10-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "US Surveillance of Americans Must Stop",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTExJRm9qSDRKeGJsYTEyTTltNndRYlY5aEpFRnhXdDM2Z05adlh5aHNxLXhTRlp4SElacVpzU1FjVkZibTBCMDdUZE9xcXZLdGtaMzVfTXJoY0xhREJqN0hhVlRIUUxERGpwS2RoUkxmU0JvZzZLQ2w0Z3F3ZjRITmJGQXRjSXNLS1BaOXpSOEREWWp4UUE?oc=5",
+      "description": "US Surveillance of Americans Must Stop Brennan Center for Justice",
+      "pubDate": "2022-05-20T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 7,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "US Surveillance of Americans Must Stop Brennan Center for Justice",
+      "keywords": [
+        "surveillance-state news",
+        "surveillance",
+        "americans",
+        "must",
+        "stop",
+        "brennan",
+        "center",
+        "justice"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#surveillance",
+        "#americans",
+        "#must",
+        "#stop",
+        "#brennan",
+        "#center",
+        "#justice"
+      ],
+      "slug": "2026-05-11-us-surveillance-of-americans-must-stop",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTExJRm9qSDRKeGJsYTEyTTltNndRYlY5aEpFRnhXdDM2Z05adlh5aHNxLXhTRlp4SElacVpzU1FjVkZibTBCMDdUZE9xcXZLdGtaMzVfTXJoY0xhREJqN0hhVlRIUUxERGpwS2RoUkxmU0JvZzZLQ2w0Z3F3ZjRITmJGQXRjSXNLS1BaOXpSOEREWWp4UUE?oc=5",
+      "generatedAt": "2026-05-11T03:02:14.091Z",
+      "relatedArticles": [
+        {
+          "title": "Shut Down Turnkey Totalitarianism",
+          "slug": "2026-05-11-shut-down-turnkey-totalitarianism",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Sharing photos privately but practically",
+          "slug": "2026-05-11-sharing-photos-privately-but-practically",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Why Socialism Fails",
+      "url": "https://www.zerohedge.com/political/why-socialism-fails",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Why Socialism Fails</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Deborah Palma via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>Economics is not a zero-sum game in which one person’s gain comes at another’s expense; nor is it just about numbers or purposeless s",
+      "pubDate": "Mon, 11 May 2026 01:35:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Deborah Palma via The Epoch Times (emphasis ours), Economics is not a zero-sum game in which one person’s gain comes at another’s expense; nor is it just about numbers or purposeless statistical aggregates, but conscious human action. Custom image by FEE Ludwig von Mises, in his work “ Human Action ,” explains that individuals act to replace a less satisfactory state of affairs with a more satisfactory one. This process is inherently subjective and teleological, meaning that the values guiding economic activity are rooted in individual choices, and not in physical objects themselves. Economic calculation serves as the bridge between the subjectivity of human desires and the objective reality of scarce resources. Consider a quantity of steel that could be used to build either a hospital or a factory. Without a system of prices reflecting society’s preferences and the relative scarcity of resources, there would be no way to determine which of these projects creates greater value . Economic calculation, expressed through prices, allows for the comparison of alternatives, whilst directing resources toward their most-valued uses. Similarly, consider an entrepreneur evaluating whether they should open a bakery. They must decide how much to invest in equipment, rent, labor, and so on. By comparing the costs of these factors with the expected revenue from sales, our entrepreneur can estimate whether the business will create value. If revenues are expected to exceed total costs and taxes, there will be profit. Profit, therefore, is not merely a financial gain, but evidence that scarce resources have been allocated in ways that better satisfy societal needs, because society has, in an undirected way, decided its needs are satisfied this way. Conversely, losses would indicate that those resources should have been allocated to more valuable uses. Without prices, profits, and losses, the entrepreneur would have no way of knowing whether resources are being used efficiently. In a complex economy with an advanced division of labor, individuals cannot rely solely on their own direct knowledge to decide how to allocate resources among many possible combinations. They require a common denominator that allows for the comparison of costs and benefits. This denominator is the price, which emerges from voluntary exchanges in the market. Prices are not arbitrary numbers; they are determined by exchange values arising from the competitive interaction between consumers and producers. Price reflects the relative scarcity of a good in relation to all other possible uses of the same factors of production. When an entrepreneur invests in new technology or capital infrastructure, they rely on monetary calculation to assess whether the value of the final product will exceed the total value of the inputs consumed . This “surplus” is profit, an unmistakable signal that value has been created by, and for, society. The opposite—loss—signals the waste of scarce resources. The importance of prices becomes even more evident when we examine historical attempts to artificially control them. Throughout history, governments have sought to replace the market price system with centrally-directed mechanisms, and the results have been consistently disastrous. One of the earliest examples dates back to the reign of Diocletian in the Roman Empire. In 301 AD, the emperor issued the Edict on Maximum Prices, imposing price ceilings on thousands of goods and services, including basic items such as wheat, meat, and clothing, as well as wages for various professions such as farmers, bakers, craftsmen, and teachers. By fixing prices below their market-clearing levels, the policy reduced the incentive for producers to supply these goods, since many could no longer cover their costs or earn a profit. At the same time, artificially low prices increased consumer demand. This imbalance between reduced supply and increased demand led to widespread shortages . As a result, many goods disappeared from official markets and were instead traded illegally at higher prices, contributing to the expansion of black markets and the disruption of normal productive activity. The policy ultimately proved unsustainable and was abandoned due to its failure. More recently, similar policies were implemented in Brazil under the government of José Sarney, particularly during the Cruzado Plan of 1986. The freezing of prices, initially celebrated as a solution to inflation, quickly resulted in widespread shortages, empty shelves, and the emergence of parallel markets. Unable to adjust prices, producers reduced supply, exposing the inability of such measures to coordinate a complex economy. More recent cases reinforce this pattern. In Venezuela, strict price controls implemented over the past decades have contributed to chronic shortages, the collapse of domestic production, and increasing dependence on imports. Basic goods disappeared from store shelves, while informal markets became central to the population’s survival. These episodes produce the same outcome: scarcity. Prices emerge from decentralized interactions between individuals, reflecting their preferences and the relative scarcity of goods. Once formed, however, they also serve to coordinate economic activity by conveying information that guides producers and consumers in their decisions. When prices cease to reflect the relationship between supply and demand, they lose this informational and coordinating function. Instead of promoting order, price controls generate disorganization, shortages, and waste. Mises’s thesis was challenged by economists such as Oskar Lange, who proposed a form of “market socialism.” Lange argued that a planning board could simulate the market through a process of trial and error, adjusting prices as surpluses or shortages emerged. However, Mises and his student Friedrich Hayek refuted this view, emphasizing that the problem is not merely one of data processing. The crucial point is that the data required for economic calculation, such as subjective preferences and local knowledge, only come into existence through real market exchanges. Attempts to treat the economy as a system of simultaneous equations, in which equilibrium can be mathematically determined, ignore the dynamic nature of reality. The market is a continuous process of discovery, not a static state of rest. The economy cannot be managed like a problem of engineering or mechanical physics, because it involves constant change, subjective expectations, and genuine uncertainty, elements that no fixed equation can fully capture. Under socialism, the abolition of private property in the means of production destroys the very concept of capital as a calculable value. When the state owns all higher-order goods (machines, land, and raw materials), there are no exchanges between private owners for these items. Consequently, there are no market prices for capital goods. Without these prices, the central planner, no matter how well-intentioned, lacks the necessary information to determine whether they are creating wealth or merely consuming the nation’s capital. From the Foundation for Economic Education (FEE) Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "surveillance-state news",
+        "prices",
+        "field",
+        "resources",
+        "they",
+        "market",
+        "goods",
+        "economic"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#prices",
+        "#field",
+        "#resources",
+        "#they",
+        "#market",
+        "#goods",
+        "#economic"
+      ],
+      "slug": "2026-05-11-why-socialism-fails",
+      "sourceUrl": "https://www.zerohedge.com/political/why-socialism-fails",
+      "generatedAt": "2026-05-11T03:02:16.450Z",
+      "relatedArticles": [
+        {
+          "title": "Shut Down Turnkey Totalitarianism",
+          "slug": "2026-05-11-shut-down-turnkey-totalitarianism",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "Sharing photos privately but practically",
+          "slug": "2026-05-11-sharing-photos-privately-but-practically",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "US Firm Unveils Ground Bot With Enough Power To Fire Laser Guns",
+      "url": "https://www.zerohedge.com/military/us-firm-unveils-ground-bot-enough-power-fire-laser-guns",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">US Firm Unveils Ground Bot With Enough Power To Fire Laser Guns</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Utah-based defense tech firm Hypercraft has unveiled a 300 hp diesel-hybrid-electric unmanned ground vehicle (UGV) that can power directed-energy weapons, charge drones, and sustain",
+      "pubDate": "Mon, 11 May 2026 01:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Utah-based defense tech firm Hypercraft has unveiled a 300 hp diesel-hybrid-electric unmanned ground vehicle (UGV) that can power directed-energy weapons, charge drones, and sustain a forward command post, all autonomously. Defense Blog’s Dylan Malyasov reports that Hypercraft’s Razorback UGV can travel 280 miles on a single charge, reach speeds of 60 mph, and export 38 kilowatts of power, which is enough to power laser weapons and recharge drones. Razorback is being positioned as a critical energy source for forward operating units that need power for drones, electronic warfare, ISR, counter-UAS systems, and communications. The UGV is also designed to move supplies and support infrastructure on the modern battlefield. The role of UGVs on the battlefield is still being shaped in real time by the Russia-Ukraine war , where robots, whether ground bots or drones, are increasingly removing infantrymen from harm&#x27;s way as the grinding fight evolves into a war of attrition fought by machines. The wars across Eurasia, from Ukraine-Russia to the U.S.-Iran conflict, have validated a new style of warfare in which cheap ground robots and drones increasingly operate in ‘no man&#x27;s land’ (front lines). The next phase is already coming: humanoid systems entering the battlespace as militaries look to push more machines, not infantrymen, into the kill zone. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "field",
+        "power",
+        "ground",
+        "drones",
+        "firm",
+        "enough",
+        "laser"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#field",
+        "#power",
+        "#ground",
+        "#drones",
+        "#firm",
+        "#enough",
+        "#laser"
+      ],
+      "slug": "2026-05-11-us-firm-unveils-ground-bot-with-enough-power-to-fire-laser-guns",
+      "sourceUrl": "https://www.zerohedge.com/military/us-firm-unveils-ground-bot-enough-power-fire-laser-guns",
+      "generatedAt": "2026-05-11T03:02:18.391Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Kraft Heinz CEO: \"Consumers Are Literally Running Out Of Money Toward The End Of The Month\"",
+      "url": "https://www.zerohedge.com/economics/kraft-heinz-ceo-consumers-are-literally-running-out-money-toward-end-month",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Kraft Heinz CEO: \"Consumers Are Literally Running Out Of Money Toward The End Of The Month\"</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>While the digital US economy, if proxied through the earnings growth and stock prices of AI companies and their \"picks and shovels\" support ecosystem, ha",
+      "pubDate": "Sun, 10 May 2026 23:50:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "While the digital US economy, if proxied through the earnings growth and stock prices of AI companies and their \"picks and shovels\" support ecosystem, has never been stronger, the traditional US consumer, responsible for 70% of US GDP, has rarely been more depressed than right now (and according to the latest University of Michigan sentiment survey, Americans have literally never been more pessimistic). That was the take home message from the latest earnings week, when various executives across retail, restaurants and packaged goods indicated they are increasingly worried about US shoppers - especially those from the\" lower half\" of the K-shaped economy - with tighter budgets amid surging gas prices caused by the Iran war, and consumer electronics prices through the roof thanks to record memory chip prices. “ They’re literally running out of money at the end of the month ,” Kraft Heinz CEO Steve Cahillane said in an interview with the WSJ . “We’re seeing negative cash flows in the lower-income brackets where they’re dipping into savings.” Sure enough, last week we showed that as a result of personal spending growth far outpacing personal income... ... the personal savings rate has collapsed to a 3 year low. This underscores a remarkable trend: since the pandemic, Americans have continued to spend at surprising levels despite high inflation, keeping the US economy growing and thwarting recession fears, with much of the spending growth fueled by credit card debt, with February&#x27;s $10BN+ increase in credit card debt the highest since February 2024. But soaring fuel costs might be the straw that breaks the overlevered camel&#x27;s back: “ The war in Iran amplified consumer concerns about the cost of living ,” Whirlpool . CEO Marc Bitzer said Thursday on a call with analysts. The maker of washers and dryers said it’s counting on purchases picking up after a harsh US winter slowed shopping, but the war caused a collapse in consumer sentiment. The company described the resulting 15% hit to industry demand as similar to the global financial crisis in the aughts. In other words a depression . In fast food, McDonald’s CEO Chris Kempczinski said confidence among shoppers isn’t improving and may be getting worse. The company cited “heightened anxiety” and gas prices that disproportionately impact low-income consumers. Sit-down dining is also taking a hit. “Our price-sensitive, more value-oriented guests seem to be staying home a bit more,” Dine Brands CEO John Peyton said on an earnings call this week. The company, which owns the Applebee’s and IHOP chains, said it hasn’t seen a similar pullback in other income levels. Meanwhile, eyewear retailer Warby Parker said younger shoppers are feeling the pinch from higher-than-usual unemployment and student debt bills. Gas prices, now at $4.56 a gallon on average, are at their highest levels since July 2022, according to data from the American Automobile Association. As shoppers put more of their income toward fuel, they have less money for discretionary spending like eating out. Enlarged tax refunds helped blunt some of the impact, but sentiment has still soured to a record low . Americans are putting less away as they try to keep up, with the savings rate dropping in March to the lowest in three years. Meanwhile, economists warn the disruptions from the war in Iran could lead to higher prices for a range of goods over time, including groceries, putting even more pressure on low-income households and draining what little savings are left. Low-income consumers have already cut back on real gasoline consumption to try to limit costs , according to recent research published by the Federal Reserve Bank of New York. In the near term, Americans can draw down savings or tap credit cards, but the longer gas prices stay high, the more consumers will change their spending patterns to balance their budgets, said Bill Adams, chief economist at Comerica Bank. Planet Fitness on Thursday fell the most on record after cutting its full-year outlook on weaker-than-expected member signups during the typically busy New Year period. The gym chain also said it paused the national rollout of a price increase to its top-tier membership, with CEO Colleen Keating making it clear why that decision was made. “The consumer and economic backdrop have shifted,” she said. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-&-markets news",
+        "field",
+        "prices",
+        "income",
+        "their",
+        "consumers",
+        "consumer",
+        "they"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#field",
+        "#prices",
+        "#income",
+        "#their",
+        "#consumers",
+        "#consumer",
+        "#they"
+      ],
+      "slug": "2026-05-11-kraft-heinz-ceo-consumers-are-literally-running-out-of-money-toward-the-end-of-t",
+      "sourceUrl": "https://www.zerohedge.com/economics/kraft-heinz-ceo-consumers-are-literally-running-out-money-toward-end-month",
+      "generatedAt": "2026-05-11T03:02:20.062Z",
+      "relatedArticles": [
+        {
+          "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+          "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+          "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "SPLC Leader Pleads Not Guilty To Charges Of Funneling Millions To Neo-Nazis",
+      "url": "https://www.zerohedge.com/political/splc-leader-pleads-not-guilty-charges-funneling-millions-neo-nazis",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">SPLC Leader Pleads Not Guilty To Charges Of Funneling Millions To Neo-Nazis</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Steve Watson via Modernity.news,</em></a></p> <p><strong>The Southern Poverty Law Center’s leader entered a not guilty plea in federal court this week, desp",
+      "pubDate": "Sun, 10 May 2026 22:05:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Steve Watson via Modernity.news, The Southern Poverty Law Center’s leader entered a not guilty plea in federal court this week, desperately fighting charges that the organization defrauded its donors by secretly funneling more than $3 million to the very white supremacist and neo-Nazi groups it claimed to oppose. The SPLC was forced to respond to an 11-count indictment from the Trump DOJ, including six counts of wire fraud, four counts of bank fraud and false statements, and one count of conspiracy to commit money laundering. Commentators are labelling the case one of the biggest scams ever to be exposed. 🚨 UPDATE: The Southern Poverty Law Center leader frantically pleads NOT GUILTY after they were exposed funding millions to white supremacists and neo-nazis SHUT IT DOWN! - 6 counts of wire fraud - 4 counts of bank fraud and false statements - 1 count of conspiracy to commit… pic.twitter.com/bfHORfLgTG The SPLC is accused of making payments amounting to over $1 million to a National Alliance affiliate, more than $300,000 to an Aryan Nations affiliate, $270,000 to a “Unite the Right” member, $140,000 to a former National Alliance chairman, $73,000 to former KKK members, and $19,000 to an American Front president and felon. The court appearance comes just weeks after the Trump DOJ’s indictment exposed the scheme. The DOJ alleges the SPLC used a now-defunct informant program as cover. Donors were never told their money was going to actual extremists through shell companies, sham accounts, and prepaid cards between 2014 and 2023. Instead of dismantling hate groups, the organization allegedly propped them up—manufacturing the very threats it used to justify its existence and fundraising. SPLC interim president and CEO Bryan Fair issued a statement after the arraignment: “The charges against the SPLC are provably wrong; they are based on inaccurate facts and a misapplication of law. Our informant program was successful in accomplishing its purposes: Threats and attacks were prevented, criminal activity was stopped, and information was gathered to dismantle the efforts of hate and extremist groups.” The statement continued, “There is no question that the information the SPLC shared with law enforcement saved lives. The SPLC will continue to fight white supremacy and various forms of injustice in our mission to build a democracy where we can all live and thrive. We will continue that mission no matter what.”20 Fair’s team also filed court documents claiming the indictment “seeks to criminalize some of the very investigative tools and programs that the SPLC has used for decades.” Yet the numbers don’t lie. Over $3 million allegedly flowed directly to leaders and organizers of the racist groups the SPLC publicly condemned. Trial is set to begin in October. This plea comes as no surprise to those who have watched the SPLC’s pattern. Long accused of inflating “hate group” lists to smear mainstream conservatives, the organization now stands accused in federal court of the very extremism it claims to fight. The Trump administration’s Justice Department has made clear it will not tolerate the scam. Acting Attorney General Todd Blanche previously stated at the indictment announcement: “The SPLC is manufacturing racism to justify its existence. Using donor money to allegedly profit off Klansmen cannot go unchecked. This Department of Justice will hold the SPLC and every other fraudulent organization operating with the same deceptive playbook accountable. No entity is above the law.” FBI Director Kash Patel added: “The SPLC allegedly engaged in a massive fraud operation to deceive their donors, enrich themselves, and hide their deceptive operations from the public. They lied to their donors, vowing to dismantle violent extremist groups, and actually turned around and paid the leaders of these very extremist groups—even utilizing the funds to have these groups facilitate the commission of state and federal crimes. That is illegal—and this is an ongoing investigation against all individuals involved.” GOP representative Andy Ogles has also declared the SPLC “absolutely culpable” in the assassination of Charlie Kirk, linking the group’s inflammatory labeling of conservatives to real-world violence: The SPLC’s frantic not-guilty plea changes nothing. The evidence is in the indictment, the payment records, and now the courtroom itself. While the organization vows to fight on and continue its “mission,” Americans can see the truth: a so-called watchdog that funded the wolves it claimed to hunt. Your support is crucial in helping us defeat mass censorship. Please consider donating via Locals or check out our unique merch . Follow us on X @ModernityNews . Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide",
+      "keywords": [
+        "money-&-markets news",
+        "splc",
+        "field",
+        "groups",
+        "guilty",
+        "leader",
+        "court",
+        "organization"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#splc",
+        "#field",
+        "#groups",
+        "#guilty",
+        "#leader",
+        "#court",
+        "#organization"
+      ],
+      "slug": "2026-05-11-splc-leader-pleads-not-guilty-to-charges-of-funneling-millions-to-neo-nazis",
+      "sourceUrl": "https://www.zerohedge.com/political/splc-leader-pleads-not-guilty-charges-funneling-millions-neo-nazis",
+      "generatedAt": "2026-05-11T03:02:21.945Z",
+      "relatedArticles": [
+        {
+          "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+          "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
+          "category": "Money & Markets"
+        },
+        {
+          "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+          "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Kim Jong Un Creates Ultimate Deadman Switch: North Korea To Auto-Launch Nukes If Assassinated",
+      "url": "https://www.zerohedge.com/geopolitical/kim-jong-un-creates-ultimate-deadman-switch-north-korea-auto-launch-nukes-if",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Kim Jong Un Creates Ultimate Deadman Switch: North Korea To Auto-Launch Nukes If Assassinated</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><strong>North Korea just casually revised its constitution to automatically launch a nuclear strike if leader Kim Jong Un is assassinated</strong>, or ",
+      "pubDate": "Sun, 10 May 2026 21:30:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "North Korea just casually revised its constitution to automatically launch a nuclear strike if leader Kim Jong Un is assassinated , or if the country’s nuclear command-and-control system is placed in danger by hostile forces’ attacks. The change was adopted during the first session of the 15th Supreme People’s Assembly in Pyongyang on March 22 and was disclosed this week by South Korea’s National Intelligence Service, which briefed senior officials on the details. The updated Article 3 of North Korea’s nuclear policy law states: “ If the command-and-control system over the state’s nuclear forces is placed in danger by hostile forces’ attacks … a nuclear strike shall be launched automatically and immediately. ” South Korean intelligence officials said the revision codifies procedures for retaliatory nuclear attacks in the event that Kim is killed or incapacitated during an attack, Reuters reports. The policy update comes months after the assassination of Iran’s Supreme Leader Ayatollah Ali Khamenei and other senior Iranian officials in U.S.-backed Israeli strikes in February 2026. Analysts have described those operations as a “wake-up call” for Pyongyang, highlighting the effectiveness of leadership-targeted strikes. Professor Andrei Lankov of Kookmin University in Seoul told The Telegraph that the constitutional emphasis gives added weight to what may have been existing policy: “This may have been policy before, but it has added emphasis now it has been enshrined in the constitution . Iran was the wake-up call.” The nuclear policy revision was adopted alongside broader changes to North Korea’s constitution, also passed in March and revealed earlier this week. Those amendments remove all references to unification with South Korea, add an explicit territorial clause defining the country’s borders (including with the Republic of Korea to the south), and formally state that command authority over nuclear forces rests with Kim Jong Un as chairman of the State Affairs Commission. North Korea has not issued an official response to the reports. South Korea’s government has said it remains committed to its policy of peaceful coexistence on the Korean Peninsula and will review the implications of the changes. The moves come as North Korea continues to expand its nuclear and missile capabilities, including plans to deploy new long-range artillery systems near the border with South Korea. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "korea",
+        "nuclear",
+        "field",
+        "policy",
+        "north",
+        "south",
+        "jong"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#korea",
+        "#nuclear",
+        "#field",
+        "#policy",
+        "#north",
+        "#south",
+        "#jong"
+      ],
+      "slug": "2026-05-11-kim-jong-un-creates-ultimate-deadman-switch-north-korea-to-auto-launch-nukes-if",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/kim-jong-un-creates-ultimate-deadman-switch-north-korea-auto-launch-nukes-if",
+      "generatedAt": "2026-05-11T03:02:24.000Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -496,66 +1458,18 @@
         "#personal",
         "#liberty"
       ],
-      "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+      "slug": "2026-05-11-how-the-american-system-reshaped-the-world",
       "sourceUrl": "https://www.zerohedge.com/political/how-american-system-reshaped-world",
-      "generatedAt": "2026-05-10T21:01:52.915Z",
+      "generatedAt": "2026-05-11T03:02:26.103Z",
       "relatedArticles": [
         {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
-          "slug": "2026-05-10-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"",
-      "url": "https://www.zerohedge.com/geopolitical/iran-responds-us-peace-proposal-ayatollah-meets-top-general-discuss-readiness",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"They'll Be Laughing No Longer\": Trump Rejects Iran Peace Deal Response As \"Totally Unacceptable\"</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><h2>Summary</h2> <ul><li> <p><em>Trump calls <strong>Iran's peace proposal response \"totally unacceptable\"</strong></em></p> </li> <li> <p><em><strong",
-      "pubDate": "Sun, 10 May 2026 20:20:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Government Secrets",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Summary Trump calls Iran&#x27;s peace proposal response \"totally unacceptable\" Iran warns of &#x27;decisive, immediate&#x27; response to British or French warships approaching Hormuz Strait. Iran responds Sunday to US peace proposal , finally submitting something official to Pakistan. Details not initially disclosed. Trump TS: Iran \"playing games with the United States.\" IRGC new warning: will unleash \"heavy attack\" on US bases in region if more Hormuz aggression persists . President Trump has just issued a statement on his TruthSocial feed rejecting &#x27;unacceptable&#x27; Iranian proposal for ending war. \"I have just read the response from Iran’s so-called “Representatives.” Thank you for your attention to this matter.\" Iran offered to transfer some of its stockpile of highly enriched uranium to a third country, but rejected the idea of dismantling its nuclear facilities, the Wall Street Journal reported. Iran disputed the report, according to Iran’s semi-official news agency Tasnim. And with the fragile ceasefire still holding for now, the odds of a peace deal by the end of May have plummeted. Iran has newly warned of \"a decisive and immediate response\" to any deployment of European military vessels in the Strait of Hormuz, and has further declared that the Islamic Republic alone controls security in the strategic waterway. Deputy Foreign Minister Kazem Gharibabadi issued the warning Sunday in a post on X after France and Britain announced plans to deploy warships to the region. \"Whether in times of war or peace, only the Islamic Republic of Iran can establish security in this strait and will not allow any country to interfere in such matters,\" he said . Gharibabadi said France plans to deploy its flagship aircraft carrier, the Charles de Gaulle, to the Red Sea and Gulf of Aden, while Britain plans to send a warship to the area under the stated goal of protecting freedom of navigation. Already these Western allied assets are moving through the Suez Canal as of days ago. \"Any deployment and stationing of extra-regional destroyers around the Strait of Hormuz, under the pretext of protecting shipping, is nothing but an escalation of the crisis, the militarization of a vital waterway, and an attempt to cover up the true root of insecurity in the region,\" he stated. Iranian lawmaker Ebrahim Rezaei says Tehran’s “restraint is over” and any aggression against Iranian vessels will be met with a heavy and decisive Iranian response against American vessels and bases. 🔴LIVE updates: pic.twitter.com/QckEP0allp But France and Britain have previously sought to clarify that their warships will remain largely in a background support role when compared to the US naval blockade in the Gulf of Oman region. Their ships would only directly join Persian Gulf operations only once the war ended, according to reports. New Sunday Truth Social statement soon on the heels of Tehran submitting its response to the US peace proposal, via Pakistan: Trump said Iran had been \"playing games with the United States, and the rest of the world, for 47 years,\" adding that it had been \"laughing at our new GREAT AGAIN country,\" but stressed that \"they will be laughing no longer!\" After days of waiting, Iran has submitted its response to the latest US peace proposal to mediator Pakistan, despite the recent flare-up in renewed exchanges of fire in the contested Strait of Hormuz this past week. \" Iran has submitted its response to the latest US proposal to end 10 weeks of war , the state-run Islamic Republic News Agency reported on Sunday, without providing any further details,\" Bloomberg confirms in a fresh headline. \"Tehran hasn&#x27;t yet given any public indication it would accept President Donald Trump’s plan that stipulates Iran permits passage through the Strait of Hormuz and Washington ends its blockade on Iranian ports in the next month.\"",
-      "keywords": [
-        "government-secrets news",
-        "iran",
-        "response",
-        "peace",
-        "field",
-        "trump",
-        "proposal",
-        "hormuz"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#iran",
-        "#response",
-        "#peace",
-        "#field",
-        "#trump",
-        "#proposal",
-        "#hormuz"
-      ],
-      "slug": "2026-05-10-theyll-be-laughing-no-longer-trump-rejects-iran-peace-deal-response-as-totally-u",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-responds-us-peace-proposal-ayatollah-meets-top-general-discuss-readiness",
-      "generatedAt": "2026-05-10T21:01:54.463Z",
-      "relatedArticles": [
-        {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
-          "category": "Government Secrets"
-        },
-        {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -592,18 +1506,18 @@
         "#revisions",
         "#field"
       ],
-      "slug": "2026-05-10-earnings-estimate-revisions-are-very-optimistic",
+      "slug": "2026-05-11-earnings-estimate-revisions-are-very-optimistic",
       "sourceUrl": "https://www.zerohedge.com/markets/earnings-estimate-revisions-are-very-optimistic",
-      "generatedAt": "2026-05-10T21:01:56.215Z",
+      "generatedAt": "2026-05-11T03:02:27.664Z",
       "relatedArticles": [
         {
-          "title": "[ News ] \"Session is shutting down in 90 days\"- Due to lack of funding",
-          "slug": "2026-05-10-news-session-is-shutting-down-in-90-days-due-to-lack-of-funding",
+          "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+          "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
           "category": "Money & Markets"
         },
         {
-          "title": "I am losing my head over choosing the best way to go about emails",
-          "slug": "2026-05-10-i-am-losing-my-head-over-choosing-the-best-way-to-go-about-emails",
+          "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+          "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
           "category": "Money & Markets"
         }
       ]
@@ -640,18 +1554,18 @@
         "#arrests",
         "#religious"
       ],
-      "slug": "2026-05-10-bahrain-intensifies-crackdown-on-shia-communities-arrests-dozens-over-alleged-ir",
+      "slug": "2026-05-11-bahrain-intensifies-crackdown-on-shia-communities-arrests-dozens-over-alleged-ir",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/bahrain-intensifies-crackdown-shia-communities-arrests-dozens-over-alleged-irgc-links",
-      "generatedAt": "2026-05-10T21:01:57.941Z",
+      "generatedAt": "2026-05-11T03:02:29.078Z",
       "relatedArticles": [
         {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -688,18 +1602,18 @@
         "#twitter",
         "#angeles"
       ],
-      "slug": "2026-05-10-spencer-pratt-surges-in-la-mayoral-race-as-democrats-grow-nervous",
+      "slug": "2026-05-11-spencer-pratt-surges-in-la-mayoral-race-as-democrats-grow-nervous",
       "sourceUrl": "https://www.zerohedge.com/political/spencer-pratt-surges-la-mayoral-race-democrats-grow-nervous",
-      "generatedAt": "2026-05-10T21:01:59.837Z",
+      "generatedAt": "2026-05-11T03:02:30.561Z",
       "relatedArticles": [
         {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -736,18 +1650,18 @@
         "#health",
         "#hondius"
       ],
-      "slug": "2026-05-10-hantavirus-plagued-cruise-ship-begins-evacuations",
+      "slug": "2026-05-11-hantavirus-plagued-cruise-ship-begins-evacuations",
       "sourceUrl": "https://www.zerohedge.com/medical/hantavirus-plagued-cruise-ship-begins-evacuations",
-      "generatedAt": "2026-05-10T21:02:01.074Z",
+      "generatedAt": "2026-05-11T03:02:32.037Z",
       "relatedArticles": [
         {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -784,18 +1698,18 @@
         "#spring",
         "#year"
       ],
-      "slug": "2026-05-10-housing-markets-crucial-spring-selling-season-is-in-tatters",
+      "slug": "2026-05-11-housing-markets-crucial-spring-selling-season-is-in-tatters",
       "sourceUrl": "https://www.zerohedge.com/economics/housing-markets-crucial-spring-selling-season-tatters",
-      "generatedAt": "2026-05-10T21:02:02.515Z",
+      "generatedAt": "2026-05-11T03:02:33.477Z",
       "relatedArticles": [
         {
-          "title": "[ News ] \"Session is shutting down in 90 days\"- Due to lack of funding",
-          "slug": "2026-05-10-news-session-is-shutting-down-in-90-days-due-to-lack-of-funding",
+          "title": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC",
+          "slug": "2026-05-11-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
           "category": "Money & Markets"
         },
         {
-          "title": "I am losing my head over choosing the best way to go about emails",
-          "slug": "2026-05-10-i-am-losing-my-head-over-choosing-the-best-way-to-go-about-emails",
+          "title": "Global Fertilizer Shortage Means Spring Planting Season Disaster In The Northern Hemisphere",
+          "slug": "2026-05-11-global-fertilizer-shortage-means-spring-planting-season-disaster-in-the-northern",
           "category": "Money & Markets"
         }
       ]
@@ -832,18 +1746,18 @@
         "#hezbollah",
         "#lebanese"
       ],
-      "slug": "2026-05-10-soaring-death-toll-in-lebanon-as-full-fledged-israel-hezbollah-fighting-returns",
+      "slug": "2026-05-11-soaring-death-toll-in-lebanon-as-full-fledged-israel-hezbollah-fighting-returns",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/soaring-death-lebanon-toll-full-fledged-israel-hezbollah-fighting-returns",
-      "generatedAt": "2026-05-10T21:02:03.836Z",
+      "generatedAt": "2026-05-11T03:02:35.638Z",
       "relatedArticles": [
         {
-          "title": "Forza Horizon 6 just leaked on Steam, letting pirates play it",
-          "slug": "2026-05-10-forza-horizon-6-just-leaked-on-steam-letting-pirates-play-it",
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
           "category": "Government Secrets"
         },
         {
-          "title": "How The American System Reshaped The World",
-          "slug": "2026-05-10-how-the-american-system-reshaped-the-world",
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "Government Secrets"
         }
       ]
@@ -880,67 +1794,115 @@
         "#there",
         "#been"
       ],
-      "slug": "2026-05-10-winning-do-we-need-to-understand-ubi",
+      "slug": "2026-05-11-winning-do-we-need-to-understand-ubi",
       "sourceUrl": "https://www.zerohedge.com/markets/winning-do-we-need-understand-ubi",
-      "generatedAt": "2026-05-10T21:02:05.775Z",
+      "generatedAt": "2026-05-11T03:02:37.008Z",
       "relatedArticles": [
         {
-          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
-          "slug": "2026-05-10-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
+          "title": "GM just paid a record penalty for breaking California privacy law",
+          "slug": "2026-05-11-gm-just-paid-a-record-penalty-for-breaking-california-privacy-law",
           "category": "Corporate Watchdog"
         },
         {
-          "title": "Mr. Cooper Group (COOP) Securities Class Action Lawsuit Investigation",
-          "slug": "2026-05-10-mr-cooper-group-coop-securities-class-action-lawsuit-investigation",
+          "title": "Secret Israeli Base Hidden In Iraqi Desert Backed Operations Inside Iran",
+          "slug": "2026-05-11-secret-israeli-base-hidden-in-iraqi-desert-backed-operations-inside-iran",
           "category": "Corporate Watchdog"
         }
       ]
     },
     {
-      "title": "The Return Of History: Deutsche On Gold, The Dollar, &amp; The Monetary Future",
-      "url": "https://www.zerohedge.com/markets/return-history-deutsche-gold-dollar-monetary-future",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">The Return Of History: Deutsche On Gold, The Dollar, & The Monetary Future</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><a href=\" by Malika Sachdeva and Michael Hsueh via Deutsche Bank Research Institute,</em></a></p> <p><em><strong>In 1989, Francis Fukuyama argued that humanity had reache",
-      "pubDate": "Sun, 10 May 2026 10:33:00 +0000",
+      "title": "Iran-Linked Media Floats Data Tax On Hormuz Undersea Internet Cables",
+      "url": "https://www.zerohedge.com/geopolitical/iran-linked-media-floats-data-tax-hormuz-undersea-internet-cables",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Iran-Linked Media Floats Data Tax On Hormuz Undersea Internet Cables</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>An Islamic Revolutionary Guard Corps-linked media outlet has signaled that submarine fiber-optic cables running through the Strait of Hormuz remain in Tehran’s crosshairs.</p> ",
+      "pubDate": "Sun, 10 May 2026 13:55:00 +0000",
       "source": "ZeroHedge",
-      "category": "Money & Markets",
+      "category": "Unexplained",
       "score": 7,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "Authored by Malika Sachdeva and Michael Hsueh via Deutsche Bank Research Institute, In 1989, Francis Fukuyama argued that humanity had reached “the end of history”. In the years that followed, the US became the uncontested hegemon, global trade exploded in a US-defined liberal order, developed market central banks sold gold, while emerging markets accumulated vast amounts of US dollar FX reserves. We argue that the end of history has come to an end. The world is back in a superpower struggle; the US is retreating from free trade, alliances, and security provision; the Great Economic Moderation is behind us; and the dollar banking system has been weaponized. The “return of history” has big implications for gold and the dollar. Contrary to conventional thinking, we argue that the share of gold in central bank reserves is not driven by the global monetary system, but by the global geopolitical environment. Gold’s decline as a share of reserves did not happen with the fall of Bretton Woods in the 1970s, but the fall of the Berlin Wall and the assertion of US hegemony in the 1990s. As tectonic geopolitical plates shift again, the share of US dollars in central bank reserves is once more in decline. It has fallen from over 60% to just 40%, while gold’s share has tripled from its lows to 30% today. We create a framework for the share of gold in central bank reserves as a function of: (1) the volume of gold held by central banks; (2) the price of gold; and (3) the amount of global FX reserves. We see all three pillars on the move, driven by EM. EM central banks have been actively buying gold and driving upward pressure on prices; crucially - their FX reserves may also now begin to structurally decline. A “return of history\" would be consistent with gold getting to at least a 40% share of global reserves. There is significant scope for EM to add towards this. We find that EM countries with closer non-Western defence ties hold more gold. If the world diversifies trade and security dependence away from the US, this would be consistent with less USD and more gold in reserves. We simulate a range of different outcomes for gold prices depending on the level of FX reserves EM central banks end up with, and the share of gold they target. Even in an environment where EM FX reserves decline to USD5tn, gold prices could still rise to $8000 over the next five years, if EM countries all target a 40% gold share. For now, EM central bank gold buying likely has to do with preserving the value and accessibility of foreign savings in a changing geopolitical climate. But in the long-run, we consider how gold may one day play a role in anchoring a monetary order that builds independence from the dollar. The reserves baton is passing back to gold from the dollar The share of the USD in global central bank reserves has dropped sharply from around 60% at its peak to just 40% today, with attrition accelerating in the past few years. As Figure 1 illustrates, the USD&#x27;s share of reserves peaked at the start of this century and sustained those levels for the next two decades before recent losses Importantly, the dollar&#x27;s losses as a share of central bank reserves have not gone to other fiat currencies, but to gold. Gold&#x27;s share in global central bank reserves has doubled in the past four years to nearly 30% today. The fact that the gap between the dollar and gold as a share of reserves is now just 10% is extremely notable. As Figure 1 shows, there appears to be a marked reversal underway of the 1990s trend when central banks moved away from gold and towards the USD in their reserves. Before the 1990s, gold had consistently been a larger share of central bank reserves than the fiat dollar. But by the end of the 1990s, the dollar was over four times the share of gold. This seems to now be going in reverse with gold clawing back its share rapidly. What happened in the 1990s and why is this unwinding today? How far can it go and to what end? These are the questions which motivate this paper. The 1990s began with a declaration by historian Francis Fukuyama that humanity had reached \"The End of History.\" We argue in this paper that history has returned, but the contest and its leaders will be different. This is the lens through which we think about the resurgence of gold, the decline of the dollar, and the international monetary architecture that may await us this century. Let&#x27;s address the skepticism. Skeptics may say the rising share of gold in central bank reserves is simply reflective of gold price increases. Indeed, around 80% of the rise in gold&#x27;s share has been on account of prices. But there is a genuine volume driver underlying this: central bank purchases have arguably themselves been behind significant price momentum. There is indeed a close relationship between official purchases and sales of gold and the change in the real gold price (Figure 2). Volume and prices are thus endogenously related and are both doing the legwork of gold&#x27;s rising share. Crucially, all central bank purchases are occurring in emerging markets. As Figure 3 illustrates, it is EM central banks that have been steadily purchasing gold since the 2008 GFC, adding over 225mn troy oz over the past 17 years. Importantly, this is more than advanced economy central banks sold in the 1990s. As we discuss in depth in this paper, we think there could be a long way to go in the trend of EM central bank buying of gold. EM central banks still only hold half the amount of physical gold of developed markets. In stock terms, EM central banks held 367mn troy oz at the end of 2025 compared to 712mn troy oz by Advanced Economy central banks, according to IMF classification. This has however been on a steadily rising trend. The ratio of EM/DM central bank gold holding is at around 52%, having risen from just 20% before the 2008 GFC (Figure 4). As a share of total reserves (including foreign exchange holdings), which is where our focus in this paper lies, EM central banks had just 16% of total reserves in gold compared to 34% for DM central banks by end-2025. There thus remains a significant gap to close, if not ultimately exceed. This is not just about the BRICS. Almost half of EM central bank holdings are accounted for by just China, Russia and India. But many middle powers like Turkiye, Kazakhstan, and Saudi Arabia are also significant holders (Figure 6). Perhaps most notable in recent years is the momentum of purchases in certain regions. Strikingly, in Eastern Europe, more than half of the gold holdings of Czechia and Poland have been acquired in the past four years alone, after Russia&#x27;s invasion of Ukraine (Figure 7). Many MENA states like Qatar, Egypt and the UAE have acquired between 25- 50% of their total gold holdings in the last few years alone. We will be exploring the motivations for these purchases in more detail later in the paper. Gold was the heart of Bretton Woods but did not fall with it The US had over 70% of the world&#x27;s central bank gold reserves after World War 2, and in constructing the Bretton Woods monetary architecture, it used gold to back a system that centered on the dollar.",
+      "content": "An Islamic Revolutionary Guard Corps-linked media outlet has signaled that submarine fiber-optic cables running through the Strait of Hormuz remain in Tehran’s crosshairs. Tehran views Hormuz not only as an energy chokepoint but also as a digital chokepoint, with undersea cables beaming internet across the Gulf and into the global network. Source: Retuers Tasnim published an article titled “Three Practical Steps for Generating Revenue from Strait of Hormuz Internet Cables,” pointing out that Tehran must reassess how it exercises sovereignty over the strategic maritime chokepoint. Source: Retuers The IRGC-linked outlet said that submarine fiber-optic cables in the critical waterway facilitate more than $10 trillion in financial transactions each day, and claimed that Iran has been deprived of the economic and sovereign benefits tied to the digital economy. Source: Retuers Tasnim warned that any disruption, cut, or damage to these cables, whether from natural causes or ship anchors, could impose heavy losses on the world&#x27;s economy. \"These cables, which are laid on the seabed using advanced technologies such as DWDM and double-armored standards, carry the bulk of international internet traffic, cloud synchronization, enterprise virtual private networks, voice traffic, and financial-payment networks. From the perspective of the digital economy, any disruption, outage, or damage to these communications highways, whether from natural incidents or ship anchors, can cause irreparable losses,\" the outlet stated. Tasnim lists three steps for how Iran should begin imposing fees on internet traffic routed through Hormuz: Licensing and tolls: Iran should require telecom consortia and cable operators to obtain permits for laying and operating cables through the strait, with initial licensing fees and annual renewal payments. Iranian legal jurisdiction over tech firms: Major technology companies using the cables, including Google, Microsoft, Amazon, and Meta, should be required to operate officially under Iranian law and cooperate with Iranian technology firms, knowledge-based companies, and media entities. Iranian control over maintenance and repair: Iran should develop the technical infrastructure to control or participate in the maintenance and repair of the cables, turning cable servicing into both a revenue stream and a sovereignty tool. Beyond the quest to charge data fees, Tehran has already imposed fees or tolls on vessels passing through the strait. Last week, Iran&#x27;s newly created Persian Gulf Strait Authority pushed forward with a new protocol for commercial vessels transiting the strait. It’s unclear whether the protocol will incur a fee. However, Iranians have made \"demands for payments, payments for toll fees, as we say, for those vessels to be granted permission to sail,\" Dimitris Maniatis, CEO of maritime risk consultancy Marisks, told CNN. The direct result of Tehran’s attempt to position itself as the gatekeeper of the Hormuz chokepoint, across energy, freight, and potentially digital traffic, will be to accelerate global efforts to bypass the strait. That means rerouting pipelines, tanker traffic, commercial shipping, and eventually undersea cable infrastructure away from Iran’s strait. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
-        "money-&-markets news",
-        "gold",
-        "central",
-        "reserves",
-        "share",
-        "bank",
-        "dollar",
-        "banks"
+        "unexplained news",
+        "cables",
+        "field",
+        "strait",
+        "iran",
+        "hormuz",
+        "internet",
+        "tehran"
       ],
       "hashtags": [
-        "#money-&-marketsnews",
-        "#gold",
-        "#central",
-        "#reserves",
-        "#share",
-        "#bank",
-        "#dollar",
-        "#banks"
+        "#unexplainednews",
+        "#cables",
+        "#field",
+        "#strait",
+        "#iran",
+        "#hormuz",
+        "#internet",
+        "#tehran"
       ],
-      "slug": "2026-05-10-the-return-of-history-deutsche-on-gold-the-dollar-amp-the-monetary-future",
-      "sourceUrl": "https://www.zerohedge.com/markets/return-history-deutsche-gold-dollar-monetary-future",
-      "generatedAt": "2026-05-10T21:02:07.978Z",
+      "slug": "2026-05-11-iran-linked-media-floats-data-tax-on-hormuz-undersea-internet-cables",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-linked-media-floats-data-tax-hormuz-undersea-internet-cables",
+      "generatedAt": "2026-05-11T03:02:38.647Z",
       "relatedArticles": [
         {
-          "title": "[ News ] \"Session is shutting down in 90 days\"- Due to lack of funding",
-          "slug": "2026-05-10-news-session-is-shutting-down-in-90-days-due-to-lack-of-funding",
-          "category": "Money & Markets"
+          "title": "More States Enact New Laws Curbing Teachers Unions",
+          "slug": "2026-05-11-more-states-enact-new-laws-curbing-teachers-unions",
+          "category": "Unexplained"
         },
         {
-          "title": "I am losing my head over choosing the best way to go about emails",
-          "slug": "2026-05-10-i-am-losing-my-head-over-choosing-the-best-way-to-go-about-emails",
-          "category": "Money & Markets"
+          "title": "The Gerrymander Debacle In Virginia Leaves The Democratic Party With A Dangerous Agenda",
+          "slug": "2026-05-11-the-gerrymander-debacle-in-virginia-leaves-the-democratic-party-with-a-dangerous",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "What Would Be Truly Bullish? Actually Fixing What's Broken",
+      "url": "https://www.zerohedge.com/political/what-would-be-truly-bullish-actually-fixing-whats-broken",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">What Would Be Truly Bullish? Actually Fixing What's Broken</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p><em><a href=\" by Charles Hugh Smith via Of Two Minds</a>,</em></p> <p><strong>We've come to an <em>interesting</em> juncture in history,</strong> <em>interesting</em> because while we're",
+      "pubDate": "Sun, 10 May 2026 13:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Charles Hugh Smith via Of Two Minds , We&#x27;ve come to an interesting juncture in history, interesting because while we&#x27;re being assured that AI will solve all problems, including any it creates, back in the real world, AI is incapable of fixing what&#x27;s broken because too many people are getting rich off the status quo, and since the status quo is the problem, those who own / control AI will use it to maintain the status quo, guaranteeing that what&#x27;s broken spirals into irreversible breakdown. Richard Bonugli and I discuss what&#x27;s fatally broken in a new podcast on what it will take to become Bullish (32 min). Let&#x27;s start with what&#x27;s \"obvious\": letting what&#x27;s broken fester until it implodes the status quo is not bullish , and neither is substituting delusion and denial for a realistic appraisal of what&#x27;s actually broken--the essential observe and orient steps in the OODA loop ( observe, orient, decide, act ). I&#x27;ve often described the two dynamics that are broken that AI can&#x27;t fix because those who own / control AI are using it to increase the asymmetrical distribution of wealth and income that are the source of breakdown. Consider healthcare. Everyone except the managers / owners / shareholders of healthcare / pharma cartels agrees healthcare is fundamentally broken and is bankrupting households, employers and the government / nation. Those profiteering off the status quo healthcare system claim AI is going to reduce costs. They fail to mention this won&#x27;t reduce the price , it will only serve to increase their profits. Cut costs by replacing human labor with AI tools, yea, we reap even higher profits. Nobody is claiming healthcare will magically become affordable because a truly affordable healthcare system wouldn&#x27;t be as profitable because it wouldn&#x27;t be as open to exploitation, fraud, profiteering, extraction and parasitic pricing. In the same way, AI can&#x27;t solve the other fatal dynamic--widening wealth and income asymmetry--because it&#x27;s widening the asymmetry to new extremes. The owners of AI are reaping vast fortunes while stripmining resources to run their AI data centers and laying off wage earners. Rather than fixing what&#x27;s broken in America, AI is accelerating the endgame of what&#x27;s broken. Let&#x27;s run through why increasing numbers of online comments suggest burning the whole rotten healthcare system down and starting over. Healthcare insurance--which often turn out to be a profitable facsimile of actual insurance--has more than doubled beyond the official rate of inflation. If healthcare insurance had tracked inflation, it would cost $10,000 a year for family coverage in 2026. Instead, it costs $25,000+ annually. Regardless of how you toy with statistics, the reality is administrative costs / bloat / profiteering have soared. Diagnosis: broken. Meanwhile, back in reality, rapidly aging populations are far from their peak demand for healthcare services. Check out the white line on this chart (courtesy of @econimica) of those aged 65+. While births collapse and the workforce is pressured by AI and the soaring cost of living, millions of elderly retirees are being added to the Medicare beneficiary pool. Diagnosis: broken. Here is the chart of Medicare costs: parabolic. It&#x27;s nice we can borrow a few trillion every year, but can we borrow $5 trillion or more every year with no consequence? Diagnosis: broken. Here is the chart of Medicaid costs: parabolic. Diagnosis: broken. As for the health of the general populace: it&#x27;s been declining for two generations as our diet has shifted from real food made at home to ultra-processed goo and fitness has bifurcated into a thin layer of extreme fitness and a majority of the populace burdened with the complex ill health of poor diets, poor fitness and metabolic disorders. Weight of the populace in 1985: Yes, now we have GLP-1 drugs that reduce weight and the diseases related to weight, but these drugs have side effects in many patients and they must be taken for life. Once the patient stops taking them, the weight returns. Drugs that must be taken for life are not a substitute for being healthy. Healthy = not needing any medications. Diagnosis of the healthcare system: broken. Prognosis: bifurcation: the rich will get \"the finest care in the world,\" and everyone else will be in a queue or denied care--basically the same result--or offered extraordinarily profitable meds and a spectrum of side effects. What&#x27;s broken is the entire financial-economic system that distributes the pain and the gain : the pain of sharply higher costs of living and increasing financial precarity is distributed to the bottom 80% while the gains are distributed to the top 10%, with a dribble going to the cohort between 81% and 90% who own enough capital to support their claim to being \"middle class.\" Note to America&#x27;s elites: when only the top 15% just below the top 5% qualifies as \"middle class,\" that&#x27;s not a middle class. I know, you don&#x27;t concern yourselves with such trivia: there are trillions of dollars to be reaped \"solving problems\" with AI. The \"problem\" you can&#x27;t solve with AI is AI only \"solves\" the \"problem\" you see, which is how to increase your wealth and income before the bottom 80% awaken from the 24/7-hyped delusion that credit-asset bubbles (AI!) raise all boats and will continue to do so forever and ever. Real life has diverged from that delusion, and the radioactive power of AI to extend that delusion has a short half-life. Refusing to recognize, much less actually fix, what&#x27;s broken hurries our collective rendezvous with consequences.",
+      "keywords": [
+        "government-secrets news",
+        "broken",
+        "healthcare",
+        "field",
+        "because",
+        "costs",
+        "while",
+        "status"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#broken",
+        "#healthcare",
+        "#field",
+        "#because",
+        "#costs",
+        "#while",
+        "#status"
+      ],
+      "slug": "2026-05-11-what-would-be-truly-bullish-actually-fixing-whats-broken",
+      "sourceUrl": "https://www.zerohedge.com/political/what-would-be-truly-bullish-actually-fixing-whats-broken",
+      "generatedAt": "2026-05-11T03:02:40.109Z",
+      "relatedArticles": [
+        {
+          "title": "[FOIA] $10,000,000 Grant to AIDS Healthcare Foundation",
+          "slug": "2026-05-11-foia-10000000-grant-to-aids-healthcare-foundation",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-05-11-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
         }
       ]
     }

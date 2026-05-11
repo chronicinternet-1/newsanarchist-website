@@ -8,10 +8,11 @@
   <channel>
     <title>NewsAnarchist</title>
     <link>https://newsanarchist.com</link>
-    <atom:link href="https://newsanarchist.com/feed/rss.xml" rel="self" type="application/rss+xml"/>
-    <description>Independent journalism. The stories mainstream media won't cover.</description>
+    <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
+    <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 May 2026 21:11:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 03:22:09 GMT</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 03:22:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -27,8 +28,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-30-china-loses-monopoly-over-the-rarest-of-rare-earths</guid>
       <pubDate>Wed, 29 Apr 2026 23:40:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;China Loses Monopoly Over The Rarest Of Rare Earths&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;With less than three weeks to go the Trump-Xi summit in China, the scramble for leverage and superiority - whether in terms of the Iran war or the just as important supply chain of rare earths </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;China Loses Monopoly Over The Rarest Of Rare Earths&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;With less than three weeks to go the Trump-Xi summit in China, the scramble for leverage and superiority - whether in terms of the Iran war or the just as important supply chain of rare earths </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-china-loses-monopoly-over-the-rarest-of-rare-earths.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">China Loses Monopoly Over The Rarest Of Rare Earths</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>With less than three weeks to go the Trump-Xi summit in China, the scramble for leverage and superiority - whether in terms of the Iran war or the just as important supply chain of rare earths ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-china-loses-monopoly-over-the-rarest-of-rare-earths.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -39,8 +40,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-30-kpmg-ends-us-govt-audit-business-after-losing-army-contract</guid>
       <pubDate>Wed, 29 Apr 2026 22:50:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;KPMG Ends U.S. Gov't Audit Business After Losing Army Contract&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;KPMG, one of the Big Four accounting firms, is winding down its federal government audit business after losing a $64 million-a-year U.S. Army audit contract, a major setback as the D</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;KPMG Ends U.S. Gov't Audit Business After Losing Army Contract&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;KPMG, one of the Big Four accounting firms, is winding down its federal government audit business after losing a $64 million-a-year U.S. Army audit contract, a major setback as the D</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-kpmg-ends-us-govt-audit-business-after-losing-army-contract.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">KPMG Ends U.S. Gov't Audit Business After Losing Army Contract</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>KPMG, one of the Big Four accounting firms, is winding down its federal government audit business after losing a $64 million-a-year U.S. Army audit contract, a major setback as the D]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-kpmg-ends-us-govt-audit-business-after-losing-army-contract.png"/>
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -51,8 +52,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-30-powells-final-fomc-sees-most-dissents-in-34-years-as-fed-keeps-rate-unch-as-expe</guid>
       <pubDate>Wed, 29 Apr 2026 19:45:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Powell's Final FOMC Sees Most Dissents In 34 Years As Fed Keeps Rate Unch (As Expected)&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Since the last FOMC meeting (on March 18), gold has been clubbed like a baby seal ("EM piggy bank") while stocks and oil have surged (with the former ignorin</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Powell's Final FOMC Sees Most Dissents In 34 Years As Fed Keeps Rate Unch (As Expected)&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Since the last FOMC meeting (on March 18), gold has been clubbed like a baby seal ("EM piggy bank") while stocks and oil have surged (with the former ignorin</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-powells-final-fomc-sees-most-dissents-in-34-years-as-fed-keeps-rate-unch-as-expe.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Powell's Final FOMC Sees Most Dissents In 34 Years As Fed Keeps Rate Unch (As Expected)</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Since the last FOMC meeting (on March 18), gold has been clubbed like a baby seal ("EM piggy bank") while stocks and oil have surged (with the former ignorin]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-30-powells-final-fomc-sees-most-dissents-in-34-years-as-fed-keeps-rate-unch-as-expe.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -63,8 +64,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-gop-lawmakers-vent-frustration-over-trump-administrations-lack-of-info-on-iran-w</guid>
       <pubDate>Wed, 25 Mar 2026 23:51:35 GMT</pubDate>
       <description>GOP lawmakers vent frustration over Trump administration’s lack of info on Iran war - CNN</description>
-      <content:encoded><![CDATA[<p>GOP lawmakers vent frustration over Trump administration’s lack of info on Iran war - CNN</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-gop-lawmakers-vent-frustration-over-trump-administrations-lack-of-info-on-iran-w.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-gop-lawmakers-vent-frustration-over-trump-administrations-lack-of-info-on-iran-w.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -75,8 +76,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-republicans-in-congress-fret-over-trump-administrations-handling-of-iran-war-the</guid>
       <pubDate>Wed, 25 Mar 2026 23:47:54 GMT</pubDate>
       <description>Republicans in Congress Fret Over Trump Administration’s Handling of Iran War - The New York Times</description>
-      <content:encoded><![CDATA[<p>Republicans in Congress Fret Over Trump Administration’s Handling of Iran War - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-republicans-in-congress-fret-over-trump-administrations-handling-of-iran-war-the.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-republicans-in-congress-fret-over-trump-administrations-handling-of-iran-war-the.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -87,8 +88,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-houston-airport-has-become-a-symbol-for-the-shutdowns-impacts-on-air-travel-ap-n</guid>
       <pubDate>Wed, 25 Mar 2026 23:33:00 GMT</pubDate>
       <description>Houston airport has become a symbol for the shutdown’s impacts on air travel - AP News</description>
-      <content:encoded><![CDATA[<p>Houston airport has become a symbol for the shutdown’s impacts on air travel - AP News</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-houston-airport-has-become-a-symbol-for-the-shutdowns-impacts-on-air-travel-ap-n.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-houston-airport-has-become-a-symbol-for-the-shutdowns-impacts-on-air-travel-ap-n.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -99,8 +100,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-judge-orders-arrest-of-matt-bevin-former-kentucky-governor-for-contempt-the-new</guid>
       <pubDate>Wed, 25 Mar 2026 23:27:24 GMT</pubDate>
       <description>Judge Orders Arrest of Matt Bevin, Former Kentucky Governor, for Contempt - The New York Times</description>
-      <content:encoded><![CDATA[<p>Judge Orders Arrest of Matt Bevin, Former Kentucky Governor, for Contempt - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-judge-orders-arrest-of-matt-bevin-former-kentucky-governor-for-contempt-the-new.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-judge-orders-arrest-of-matt-bevin-former-kentucky-governor-for-contempt-the-new.png"/>
       <category>Tech</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -111,8 +112,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-meta-and-google-just-lost-a-landmark-social-media-addiction-case-a-tech-law-expe</guid>
       <pubDate>Wed, 25 Mar 2026 23:14:42 GMT</pubDate>
       <description>Meta and Google just lost a landmark social media addiction case. A tech law expert explains the fallout - The Conversation</description>
-      <content:encoded><![CDATA[<p>Meta and Google just lost a landmark social media addiction case. A tech law expert explains the fallout - The Conversation</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-meta-and-google-just-lost-a-landmark-social-media-addiction-case-a-tech-law-expe.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-meta-and-google-just-lost-a-landmark-social-media-addiction-case-a-tech-law-expe.png"/>
       <category>Tech</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -123,8 +124,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-top-trump-housing-official-issues-new-criminal-referral-for-new-york-ag-letitia</guid>
       <pubDate>Wed, 25 Mar 2026 23:01:40 GMT</pubDate>
       <description>Top Trump housing official issues new criminal referral for New York AG Letitia James - CNN</description>
-      <content:encoded><![CDATA[<p>Top Trump housing official issues new criminal referral for New York AG Letitia James - CNN</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-top-trump-housing-official-issues-new-criminal-referral-for-new-york-ag-letitia.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-top-trump-housing-official-issues-new-criminal-referral-for-new-york-ag-letitia.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -135,8 +136,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-trump-official-refers-new-york-ag-letitia-james-for-prosecution-after-a-previous</guid>
       <pubDate>Wed, 25 Mar 2026 23:00:00 GMT</pubDate>
       <description>Trump official refers New York AG Letitia James for prosecution after a previous case was dismissed - CBS News</description>
-      <content:encoded><![CDATA[<p>Trump official refers New York AG Letitia James for prosecution after a previous case was dismissed - CBS News</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-trump-official-refers-new-york-ag-letitia-james-for-prosecution-after-a-previous.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-trump-official-refers-new-york-ag-letitia-james-for-prosecution-after-a-previous.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -147,8 +148,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-tsa-boss-warns-of-airport-shutdowns-but-no-deal-yet-on-day-40-of-homeland-securi</guid>
       <pubDate>Wed, 25 Mar 2026 22:44:00 GMT</pubDate>
       <description>TSA boss warns of airport shutdowns, but no deal yet on day 40 of Homeland Security funding fight - AP News</description>
-      <content:encoded><![CDATA[<p>TSA boss warns of airport shutdowns, but no deal yet on day 40 of Homeland Security funding fight - AP News</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-tsa-boss-warns-of-airport-shutdowns-but-no-deal-yet-on-day-40-of-homeland-securi.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-tsa-boss-warns-of-airport-shutdowns-but-no-deal-yet-on-day-40-of-homeland-securi.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -159,8 +160,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-starmer-gives-green-light-for-uk-forces-to-intercept-putins-shadow-fleet-politic</guid>
       <pubDate>Wed, 25 Mar 2026 22:30:00 GMT</pubDate>
       <description>Starmer gives green light for UK forces to intercept Putin’s shadow fleet - politico.eu</description>
-      <content:encoded><![CDATA[<p>Starmer gives green light for UK forces to intercept Putin’s shadow fleet - politico.eu</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-starmer-gives-green-light-for-uk-forces-to-intercept-putins-shadow-fleet-politic.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-starmer-gives-green-light-for-uk-forces-to-intercept-putins-shadow-fleet-politic.png"/>
       <category>World</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -171,8 +172,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-us-circulates-iran-peace-plan-while-sending-troops-to-the-middle-east-the-new-yo</guid>
       <pubDate>Wed, 25 Mar 2026 22:05:17 GMT</pubDate>
       <description>U.S. Circulates Iran Peace Plan While Sending Troops to the Middle East - The New York Times</description>
-      <content:encoded><![CDATA[<p>U.S. Circulates Iran Peace Plan While Sending Troops to the Middle East - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-us-circulates-iran-peace-plan-while-sending-troops-to-the-middle-east-the-new-yo.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-us-circulates-iran-peace-plan-while-sending-troops-to-the-middle-east-the-new-yo.png"/>
       <category>World</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -183,8 +184,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-the-narrow-path-to-a-usiran-deal-wsj</guid>
       <pubDate>Wed, 25 Mar 2026 21:17:00 GMT</pubDate>
       <description>The Narrow Path to a U.S.‑Iran Deal - WSJ</description>
-      <content:encoded><![CDATA[<p>The Narrow Path to a U.S.‑Iran Deal - WSJ</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-the-narrow-path-to-a-usiran-deal-wsj.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-the-narrow-path-to-a-usiran-deal-wsj.png"/>
       <category>World</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -195,8 +196,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-greenland-independence-party-wins-seat-in-danish-parliament-at-key-moment-reuter</guid>
       <pubDate>Wed, 25 Mar 2026 16:12:28 GMT</pubDate>
       <description>Greenland independence party wins seat in Danish parliament at key moment - Reuters</description>
-      <content:encoded><![CDATA[<p>Greenland independence party wins seat in Danish parliament at key moment - Reuters</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-greenland-independence-party-wins-seat-in-danish-parliament-at-key-moment-reuter.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-greenland-independence-party-wins-seat-in-danish-parliament-at-key-moment-reuter.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -207,8 +208,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-26-why-this-citys-reckoning-with-cesar-chavez-is-so-complicated-the-new-york-times</guid>
       <pubDate>Wed, 25 Mar 2026 15:24:50 GMT</pubDate>
       <description>Why This City’s Reckoning With Cesar Chavez Is So Complicated - The New York Times</description>
-      <content:encoded><![CDATA[<p>Why This City’s Reckoning With Cesar Chavez Is So Complicated - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-why-this-citys-reckoning-with-cesar-chavez-is-so-complicated-the-new-york-times.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-26-why-this-citys-reckoning-with-cesar-chavez-is-so-complicated-the-new-york-times.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -219,8 +220,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-deal-to-fund-dhs-falters-amid-bipartisan-pushback-axios</guid>
       <pubDate>Wed, 25 Mar 2026 08:28:38 GMT</pubDate>
       <description>Deal to fund DHS falters amid bipartisan pushback - Axios</description>
-      <content:encoded><![CDATA[<p>Deal to fund DHS falters amid bipartisan pushback - Axios</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-deal-to-fund-dhs-falters-amid-bipartisan-pushback-axios.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-deal-to-fund-dhs-falters-amid-bipartisan-pushback-axios.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -231,8 +232,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-iran-war-live-updates-mediators-aim-for-us-iran-meeting-by-thursday-wsj</guid>
       <pubDate>Wed, 25 Mar 2026 06:39:13 GMT</pubDate>
       <description>Iran War Live Updates: Mediators Aim for U.S.-Iran Meeting by Thursday - WSJ</description>
-      <content:encoded><![CDATA[<p>Iran War Live Updates: Mediators Aim for U.S.-Iran Meeting by Thursday - WSJ</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-iran-war-live-updates-mediators-aim-for-us-iran-meeting-by-thursday-wsj.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-iran-war-live-updates-mediators-aim-for-us-iran-meeting-by-thursday-wsj.png"/>
       <category>World</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -243,8 +244,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-army-paratroopers-ordered-to-middle-east-as-us-weighs-next-move-in-iran-conflict</guid>
       <pubDate>Wed, 25 Mar 2026 04:20:00 GMT</pubDate>
       <description>Army paratroopers ordered to Middle East as U.S. weighs next move in Iran conflict - The Washington Post</description>
-      <content:encoded><![CDATA[<p>Army paratroopers ordered to Middle East as U.S. weighs next move in Iran conflict - The Washington Post</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-army-paratroopers-ordered-to-middle-east-as-us-weighs-next-move-in-iran-conflict.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-army-paratroopers-ordered-to-middle-east-as-us-weighs-next-move-in-iran-conflict.png"/>
       <category>World</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -255,8 +256,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-democrats-flip-florida-state-seat-that-includes-trumps-mar-a-lago-home-bbc</guid>
       <pubDate>Wed, 25 Mar 2026 03:36:08 GMT</pubDate>
       <description>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home - BBC</description>
-      <content:encoded><![CDATA[<p>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home - BBC</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-democrats-flip-florida-state-seat-that-includes-trumps-mar-a-lago-home-bbc.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-democrats-flip-florida-state-seat-that-includes-trumps-mar-a-lago-home-bbc.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -267,8 +268,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-salt-lake-city-initiates-process-to-rename-street-honoring-cesar-chavez-kslcom</guid>
       <pubDate>Wed, 25 Mar 2026 02:36:50 GMT</pubDate>
       <description>Salt Lake City initiates process to rename street honoring Cesar Chavez - KSL.com</description>
-      <content:encoded><![CDATA[<p>Salt Lake City initiates process to rename street honoring Cesar Chavez - KSL.com</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-salt-lake-city-initiates-process-to-rename-street-honoring-cesar-chavez-kslcom.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-salt-lake-city-initiates-process-to-rename-street-honoring-cesar-chavez-kslcom.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -279,8 +280,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-iran-says-non-hostile-ships-can-sail-through-the-strait-of-hormuz-the-new-york-t</guid>
       <pubDate>Wed, 25 Mar 2026 02:25:47 GMT</pubDate>
       <description>Iran Says ‘Non-Hostile’ Ships Can Sail Through the Strait of Hormuz - The New York Times</description>
-      <content:encoded><![CDATA[<p>Iran Says ‘Non-Hostile’ Ships Can Sail Through the Strait of Hormuz - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-iran-says-non-hostile-ships-can-sail-through-the-strait-of-hormuz-the-new-york-t.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-iran-says-non-hostile-ships-can-sail-through-the-strait-of-hormuz-the-new-york-t.png"/>
       <category>Tech</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -291,8 +292,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-survivor-denmark-mette-frederiksen-clings-on-offering-lessons-for-europes-left-p</guid>
       <pubDate>Wed, 25 Mar 2026 01:34:00 GMT</pubDate>
       <description>Survivor, Denmark: Mette Frederiksen clings on — offering lessons for Europe’s left - politico.eu</description>
-      <content:encoded><![CDATA[<p>Survivor, Denmark: Mette Frederiksen clings on — offering lessons for Europe’s left - politico.eu</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-survivor-denmark-mette-frederiksen-clings-on-offering-lessons-for-europes-left-p.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-survivor-denmark-mette-frederiksen-clings-on-offering-lessons-for-europes-left-p.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -303,8 +304,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-03-25-tsa-tipped-off-ice-agents-before-arrests-at-san-francisco-airport-the-new-york-t</guid>
       <pubDate>Wed, 25 Mar 2026 00:19:13 GMT</pubDate>
       <description>T.S.A. Tipped Off ICE Agents Before Arrests at San Francisco Airport - The New York Times</description>
-      <content:encoded><![CDATA[<p>T.S.A. Tipped Off ICE Agents Before Arrests at San Francisco Airport - The New York Times</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-tsa-tipped-off-ice-agents-before-arrests-at-san-francisco-airport-the-new-york-t.html.png"/>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-03-25-tsa-tipped-off-ice-agents-before-arrests-at-san-francisco-airport-the-new-york-t.png"/>
       <category>Politics</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -315,8 +316,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map</guid>
       <pubDate>Wed, 22 Apr 2026 21:20:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Here's How Trump Can Nuke Virginia's New Gerrymandered Map...&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Matt Margolis via PJMedia.com,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Virginia used to be a model of fair redistricting. That reputation is now gone.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a data-image-exter</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Here's How Trump Can Nuke Virginia's New Gerrymandered Map...&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Matt Margolis via PJMedia.com,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Virginia used to be a model of fair redistricting. That reputation is now gone.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a data-image-exter</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Here's How Trump Can Nuke Virginia's New Gerrymandered Map...</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by Matt Margolis via PJMedia.com,</em></a></p> <p><strong>Virginia used to be a model of fair redistricting. That reputation is now gone.</strong></p> <p><a data-image-exter]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map.png"/>
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -327,8 +328,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-alligator-alcatraz-can-continue-operating-appeals-court-says</guid>
       <pubDate>Wed, 22 Apr 2026 19:50:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;'Alligator Alcatraz' Can Continue Operating, Appeals Court Says&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Troy Myers via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;A federal appeals court on Tuesday pulled a judge’s previous order to dismantle the high-profile detention cente</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;'Alligator Alcatraz' Can Continue Operating, Appeals Court Says&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Troy Myers via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;A federal appeals court on Tuesday pulled a judge’s previous order to dismantle the high-profile detention cente</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-alligator-alcatraz-can-continue-operating-appeals-court-says.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">'Alligator Alcatraz' Can Continue Operating, Appeals Court Says</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by Troy Myers via The Epoch Times,</em></a></p> <p><strong>A federal appeals court on Tuesday pulled a judge’s previous order to dismantle the high-profile detention cente]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-alligator-alcatraz-can-continue-operating-appeals-court-says.png"/>
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -339,8 +340,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-duffy-seeking-10-billion-from-congress-to-revamp-air-traffic-control-system</guid>
       <pubDate>Wed, 22 Apr 2026 19:20:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Duffy Seeking $10 Billion From Congress To Revamp Air Traffic Control System&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Aldgra Fredly via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;U.S. Transportation Secretary Sean Duffy said on April 21 the department requires $10 billion in</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Duffy Seeking $10 Billion From Congress To Revamp Air Traffic Control System&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Aldgra Fredly via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;U.S. Transportation Secretary Sean Duffy said on April 21 the department requires $10 billion in</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-duffy-seeking-10-billion-from-congress-to-revamp-air-traffic-control-system.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Duffy Seeking $10 Billion From Congress To Revamp Air Traffic Control System</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by Aldgra Fredly via The Epoch Times,</em></a></p> <p><strong>U.S. Transportation Secretary Sean Duffy said on April 21 the department requires $10 billion in]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-duffy-seeking-10-billion-from-congress-to-revamp-air-traffic-control-system.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -351,8 +352,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif</guid>
       <pubDate>Wed, 22 Apr 2026 18:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by 'sundance' via The Last Refuge,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Steve Baker and The Blaze are being sued by former Capitol Hill police off</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by 'sundance' via The Last Refuge,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Steve Baker and The Blaze are being sued by former Capitol Hill police off</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">CIA Security Officer Files Lawsuit Against Steve Baker And The Blaze For Identifying Her As J6 Bomber</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by 'sundance' via The Last Refuge,</em></a></p> <p><strong>Steve Baker and The Blaze are being sued by former Capitol Hill police off]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-cia-security-officer-files-lawsuit-against-steve-baker-and-the-blaze-for-identif.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -363,8 +364,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand</guid>
       <pubDate>Wed, 22 Apr 2026 17:31:05 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Solid 20Y Auction Stops Through With Above Average Foreign Demand&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;The week's lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction.&lt;/p&gt; &lt;p&gt;The auction stopped at a high yield of 4.883%, u</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Solid 20Y Auction Stops Through With Above Average Foreign Demand&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;The week's lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction.&lt;/p&gt; &lt;p&gt;The auction stopped at a high yield of 4.883%, u</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Solid 20Y Auction Stops Through With Above Average Foreign Demand</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The week's lone coupon auction priced at 1pm when the Treasury sold $13 BN in 20Y paper, in a solid if not stellar auction.</p> <p>The auction stopped at a high yield of 4.883%, u]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-solid-20y-auction-stops-through-with-above-average-foreign-demand.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -375,8 +376,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-irans-covert-oil-trade-persists-as-tankers-breach-us-blockade</guid>
       <pubDate>Wed, 22 Apr 2026 17:20:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Iran's Covert Oil Trade Persists As Tankers Breach US Blockade&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Tsvetana Paraskova of &lt;a href=" &lt;p&gt;Iran continues to export its oil out of the Persian Gulf via the Strait of Hormuz using dark mode on tankers to move past the US blockade ou</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Iran's Covert Oil Trade Persists As Tankers Breach US Blockade&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Tsvetana Paraskova of &lt;a href=" &lt;p&gt;Iran continues to export its oil out of the Persian Gulf via the Strait of Hormuz using dark mode on tankers to move past the US blockade ou</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-irans-covert-oil-trade-persists-as-tankers-breach-us-blockade.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Iran's Covert Oil Trade Persists As Tankers Breach US Blockade</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em>By Tsvetana Paraskova of <a href=" <p>Iran continues to export its oil out of the Persian Gulf via the Strait of Hormuz using dark mode on tankers to move past the US blockade ou]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-irans-covert-oil-trade-persists-as-tankers-breach-us-blockade.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -387,8 +388,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da</guid>
       <pubDate>Wed, 22 Apr 2026 16:20:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;strong&gt;Anthropic's 'Mythos' model is extraordinarily dangerous.&lt;/strong&gt; The company itself warned that it could autonomously identify and exploit zero-day</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;strong&gt;Anthropic's 'Mythos' model is extraordinarily dangerous.&lt;/strong&gt; The company itself warned that it could autonomously identify and exploit zero-day</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Anthropic's 'Too Dangerous To Release' AI Model Was Accessed By Discord Group On Day One</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>Anthropic's 'Mythos' model is extraordinarily dangerous.</strong> The company itself warned that it could autonomously identify and exploit zero-day]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-anthropics-too-dangerous-to-release-ai-model-was-accessed-by-discord-group-on-da.png"/>
       <category>Tech &amp; Privacy</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -399,8 +400,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing</guid>
       <pubDate>Wed, 22 Apr 2026 16:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Brayden Lindrea via CoinTelegraph.com,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Wall Street law firm Sullivan &amp; Cromwell has apologized to a federal judge after submitting a court filing</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Brayden Lindrea via CoinTelegraph.com,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Wall Street law firm Sullivan &amp; Cromwell has apologized to a federal judge after submitting a court filing</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">US Law Firm Apologizes After AI Hallucinations Made It To Legal Filing</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by Brayden Lindrea via CoinTelegraph.com,</em></a></p> <p>Wall Street law firm Sullivan & Cromwell has apologized to a federal judge after submitting a court filing]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-us-law-firm-apologizes-after-ai-hallucinations-made-it-to-legal-filing.png"/>
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -411,8 +412,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-a-new-iran-military-base-case</guid>
       <pubDate>Wed, 22 Apr 2026 14:45:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;A New Iran (Military?) Base Case&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Michael Every of Rabobank&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Our central assumption for the Iran war had been that by end the third week of April at latest, the Iranian regime faction willing to make a deal in line with Trump’s </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;A New Iran (Military?) Base Case&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Michael Every of Rabobank&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Our central assumption for the Iran war had been that by end the third week of April at latest, the Iranian regime faction willing to make a deal in line with Trump’s </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-a-new-iran-military-base-case.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">A New Iran (Military?) Base Case</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em>By Michael Every of Rabobank</em></p> <p>Our central assumption for the Iran war had been that by end the third week of April at latest, the Iranian regime faction willing to make a deal in line with Trump’s ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-a-new-iran-military-base-case.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -423,8 +424,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr</guid>
       <pubDate>Wed, 22 Apr 2026 14:40:17 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Oil prices are modestly higher this morning, erasing overnight losses on Trump's 'ceasefire extension' after Iran attacked three ships in the Strait </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Oil prices are modestly higher this morning, erasing overnight losses on Trump's 'ceasefire extension' after Iran attacked three ships in the Strait </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">WTI Extends Gains As US Oil Product Exports Hit Record Highs, Huge SPR Release, Production Dips</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Oil prices are modestly higher this morning, erasing overnight losses on Trump's 'ceasefire extension' after Iran attacked three ships in the Strait ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-wti-extends-gains-as-us-oil-product-exports-hit-record-highs-huge-spr-release-pr.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -435,8 +436,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-democrats-lose-a-vital-propaganda-machine-with-the-fall-of-the-splc</guid>
       <pubDate>Wed, 22 Apr 2026 14:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC &lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;When creating a short list of nefarious NGOs that manipulate government policy and socially engineer public opinion, the Southern Poverty Law Center is usually near the top. Th</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC &lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;When creating a short list of nefarious NGOs that manipulate government policy and socially engineer public opinion, the Southern Poverty Law Center is usually near the top. Th</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-democrats-lose-a-vital-propaganda-machine-with-the-fall-of-the-splc.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Democrats Lose A Vital Propaganda Machine With The Fall Of The SPLC </span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>When creating a short list of nefarious NGOs that manipulate government policy and socially engineer public opinion, the Southern Poverty Law Center is usually near the top. Th]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-democrats-lose-a-vital-propaganda-machine-with-the-fall-of-the-splc.png"/>
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -447,8 +448,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era</guid>
       <pubDate>Wed, 22 Apr 2026 13:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;In a blog post titled &lt;strong&gt;&lt;em&gt;"Our Eighth Generation TPUs: Two Chips for the Agentic Era,"&lt;/em&gt;&lt;/strong&gt; Google Senior Vice President and Chief Technologist for AI and In</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;In a blog post titled &lt;strong&gt;&lt;em&gt;"Our Eighth Generation TPUs: Two Chips for the Agentic Era,"&lt;/em&gt;&lt;/strong&gt; Google Senior Vice President and Chief Technologist for AI and In</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">In Latest Shot At Nvidia, Google Unveils Two Chips For The Agentic Era</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>In a blog post titled <strong><em>"Our Eighth Generation TPUs: Two Chips for the Agentic Era,"</em></strong> Google Senior Vice President and Chief Technologist for AI and In]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-in-latest-shot-at-nvidia-google-unveils-two-chips-for-the-agentic-era.png"/>
       <category>Tech &amp; Privacy</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -459,8 +460,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-psychedelic-stocks-just-went-mainstream</guid>
       <pubDate>Wed, 22 Apr 2026 12:35:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Psychedelic Stocks Just Went Mainstream&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;Submitted by &lt;a href=" Fringe Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Psychedelic Stocks Just Went Mainstream&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;Submitted by &lt;a href=" Fringe Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;p data-pm-slice="1 1 []"&gt;Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-psychedelic-stocks-just-went-mainstream.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Psychedelic Stocks Just Went Mainstream</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em>Submitted by <a href=" Fringe Finance</a></em></p> <p data-pm-slice="1 1 []">Donald Trump just did something that would have sounded borderline impossible a couple of years ago: he signed an executive ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-psychedelic-stocks-just-went-mainstream.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -471,8 +472,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-trumps-sock-puppet</guid>
       <pubDate>Wed, 22 Apr 2026 12:05:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Trump's "Sock Puppet"&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Philip Marey of Rabobank&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;ul&gt;&lt;li&gt;The confirmation hearing of Fed Chair nominee Kevin Warsh by the Senate Banking Committee was a very partisan affair.&lt;/li&gt; &lt;li&gt;In his</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Trump's "Sock Puppet"&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;By Philip Marey of Rabobank&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;ul&gt;&lt;li&gt;The confirmation hearing of Fed Chair nominee Kevin Warsh by the Senate Banking Committee was a very partisan affair.&lt;/li&gt; &lt;li&gt;In his</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-trumps-sock-puppet.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Trump's "Sock Puppet"</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em>By Philip Marey of Rabobank</em></p> <p><em><strong>Summary</strong></em></p> <ul><li>The confirmation hearing of Fed Chair nominee Kevin Warsh by the Senate Banking Committee was a very partisan affair.</li> <li>In his]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-trumps-sock-puppet.png"/>
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -483,8 +484,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-china-aggressively-selling-oil-in-recent-weeks</guid>
       <pubDate>Wed, 22 Apr 2026 10:55:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;China "Aggressively" Selling Oil In Recent Weeks&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;We knew there was a &lt;a href=" why China had accumulated a cool 1.5 billion barrels &lt;/a&gt;in its strategic petroleum reserve: the reason, to become the world's strategist petroleum reserve when the t</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;China "Aggressively" Selling Oil In Recent Weeks&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;We knew there was a &lt;a href=" why China had accumulated a cool 1.5 billion barrels &lt;/a&gt;in its strategic petroleum reserve: the reason, to become the world's strategist petroleum reserve when the t</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-china-aggressively-selling-oil-in-recent-weeks.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">China "Aggressively" Selling Oil In Recent Weeks</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>We knew there was a <a href=" why China had accumulated a cool 1.5 billion barrels </a>in its strategic petroleum reserve: the reason, to become the world's strategist petroleum reserve when the t]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-china-aggressively-selling-oil-in-recent-weeks.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -495,8 +496,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-22-us-treasury-sanctions-14-targets-for-helping-iran-obtain-weapons</guid>
       <pubDate>Wed, 22 Apr 2026 00:55:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Joseph Lord via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The U.S. Treasury Department on April 21 announced that it is imposing sanctions on 14 targets “for their involvement </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href=" by Joseph Lord via The Epoch Times,&lt;/em&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The U.S. Treasury Department on April 21 announced that it is imposing sanctions on 14 targets “for their involvement </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-us-treasury-sanctions-14-targets-for-helping-iran-obtain-weapons.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">US Treasury Sanctions 14 Targets For Helping Iran Obtain Weapons</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href=" by Joseph Lord via The Epoch Times,</em></a></p> <p>The U.S. Treasury Department on April 21 announced that it is imposing sanctions on 14 targets “for their involvement ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-22-us-treasury-sanctions-14-targets-for-helping-iran-obtain-weapons.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -507,8 +508,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process</guid>
       <pubDate>Wed, 15 Apr 2026 21:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Jack Phillips via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Treasury Secretary Scott Bessent on Monday confirmed that an executive ord</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Jack Phillips via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Treasury Secretary Scott Bessent on Monday confirmed that an executive ord</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em><a href=" by Jack Phillips via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>Treasury Secretary Scott Bessent on Monday confirmed that an executive ord]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -519,8 +520,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-16-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process</guid>
       <pubDate>Wed, 15 Apr 2026 21:00:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Jack Phillips via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Treasury Secretary Scott Bessent on Monday confirmed that an executive ord</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Jack Phillips via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Treasury Secretary Scott Bessent on Monday confirmed that an executive ord</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-16-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Treasury Secretary Says Order On Citizenship Proof For Banking Is 'In Process'</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em><a href=" by Jack Phillips via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>Treasury Secretary Scott Bessent on Monday confirmed that an executive ord]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-16-treasury-secretary-says-order-on-citizenship-proof-for-banking-is-in-process.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -531,8 +532,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-good-riddance-pattern-day-trade-rule</guid>
       <pubDate>Wed, 15 Apr 2026 14:25:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Good Riddance, Pattern Day Trade Rule&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt; Submitted by &lt;a href=" Fringe Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Pattern Day Trader rule was one of those regulations that managed to sound official, responsible, and protective while being, in practice, deepl</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Good Riddance, Pattern Day Trade Rule&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt; Submitted by &lt;a href=" Fringe Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Pattern Day Trader rule was one of those regulations that managed to sound official, responsible, and protective while being, in practice, deepl</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-good-riddance-pattern-day-trade-rule.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Good Riddance, Pattern Day Trade Rule</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em> Submitted by <a href=" Fringe Finance</a></em></p> <p>The Pattern Day Trader rule was one of those regulations that managed to sound official, responsible, and protective while being, in practice, deepl]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-good-riddance-pattern-day-trade-rule.png"/>
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -543,8 +544,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-roblox-rolls-out-restricted-accounts-for-under-16-users-amid-lawsuit-social-medi</guid>
       <pubDate>Wed, 15 Apr 2026 10:30:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Roblox Rolls Out Restricted Accounts For Under-16 Users Amid Lawsuit, Social Media Ban&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Rex Widerstrom via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;While managing to avoid Australia’s under-16 social media ban, &lt;strong&gt;th</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Roblox Rolls Out Restricted Accounts For Under-16 Users Amid Lawsuit, Social Media Ban&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Rex Widerstrom via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;While managing to avoid Australia’s under-16 social media ban, &lt;strong&gt;th</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-roblox-rolls-out-restricted-accounts-for-under-16-users-amid-lawsuit-social-medi.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Roblox Rolls Out Restricted Accounts For Under-16 Users Amid Lawsuit, Social Media Ban</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em><a href=" by Rex Widerstrom via The Epoch Times</a> (emphasis ours),</em></p> <p>While managing to avoid Australia’s under-16 social media ban, <strong>th]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-roblox-rolls-out-restricted-accounts-for-under-16-users-amid-lawsuit-social-medi.png"/>
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -555,8 +556,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product</guid>
       <pubDate>Wed, 15 Apr 2026 00:30:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Tesla China CEO Says Shanghai Gigafactory Is "Golden Key" To Optimus Robot Production &lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Tesla's China president was quoted by local media on Tuesday as saying the Shanghai Gigafactory could eventually play a major role in mass-producing humanoid </description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Tesla China CEO Says Shanghai Gigafactory Is "Golden Key" To Optimus Robot Production &lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Tesla's China president was quoted by local media on Tuesday as saying the Shanghai Gigafactory could eventually play a major role in mass-producing humanoid </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Tesla China CEO Says Shanghai Gigafactory Is "Golden Key" To Optimus Robot Production </span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Tesla's China president was quoted by local media on Tuesday as saying the Shanghai Gigafactory could eventually play a major role in mass-producing humanoid ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-tesla-china-ceo-says-shanghai-gigafactory-is-golden-key-to-optimus-robot-product.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -567,8 +568,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails</guid>
       <pubDate>Wed, 15 Apr 2026 00:05:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Zachary Stieber via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;A top government doctor who declined to receive a COVID-19 vaccine in 2021 was wor</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Zachary Stieber via The Epoch Times&lt;/a&gt; (emphasis ours),&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;A top government doctor who declined to receive a COVID-19 vaccine in 2021 was wor</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Fauci Deputy Who Refused COVID-19 Vaccine Feared Retaliation: Emails</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em><a href=" by Zachary Stieber via The Epoch Times</a> (emphasis ours),</em></p> <p><strong>A top government doctor who declined to receive a COVID-19 vaccine in 2021 was wor]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-fauci-deputy-who-refused-covid-19-vaccine-feared-retaliation-emails.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -579,8 +580,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law</guid>
       <pubDate>Wed, 08 Apr 2026 18:13:58 GMT</pubDate>
       <description>&lt;div class="field field--name-body field--type-text-with-summary field--label-hidden"&gt;&lt;div class="field__items"&gt;&lt;div class="field__item even"&gt;&lt;p&gt;Another court has &lt;a href=" title="Third Circuit Opinion in ASTM v Upcodes"&gt;ruled&lt;/a&gt; that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though </description>
-      <content:encoded><![CDATA[<p>&lt;div class="field field--name-body field--type-text-with-summary field--label-hidden"&gt;&lt;div class="field__items"&gt;&lt;div class="field__item even"&gt;&lt;p&gt;Another court has &lt;a href=" title="Third Circuit Opinion in ASTM v Upcodes"&gt;ruled&lt;/a&gt; that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law.html.png"/>
+      <content:encoded><![CDATA[<div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even"><p>Another court has <a href=" title="Third Circuit Opinion in ASTM v Upcodes">ruled</a> that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-15-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -591,8 +592,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-04-16-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law</guid>
       <pubDate>Wed, 08 Apr 2026 18:13:58 GMT</pubDate>
       <description>&lt;div class="field field--name-body field--type-text-with-summary field--label-hidden"&gt;&lt;div class="field__items"&gt;&lt;div class="field__item even"&gt;&lt;p&gt;Another court has &lt;a href=" title="Third Circuit Opinion in ASTM v Upcodes"&gt;ruled&lt;/a&gt; that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though </description>
-      <content:encoded><![CDATA[<p>&lt;div class="field field--name-body field--type-text-with-summary field--label-hidden"&gt;&lt;div class="field__items"&gt;&lt;div class="field__item even"&gt;&lt;p&gt;Another court has &lt;a href=" title="Third Circuit Opinion in ASTM v Upcodes"&gt;ruled&lt;/a&gt; that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though </p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-16-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law.html.png"/>
+      <content:encoded><![CDATA[<div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even"><p>Another court has <a href=" title="Third Circuit Opinion in ASTM v Upcodes">ruled</a> that copyright can’t be used to keep our laws behind a paywall. The U.S. Court of Appeals for the Third Circuit upheld a lower court’s ruling that it is fair use to copy and disseminate building codes that have been incorporated into federal and state law, even though ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-04-16-another-court-rules-copyright-cant-stop-people-from-reading-and-speaking-the-law.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -603,8 +604,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-05-07-jeffrey-epstein-suicide-note-emerges</guid>
       <pubDate>Wed, 06 May 2026 23:40:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Jeffrey Epstein 'Suicide Note' Emerges&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;strong&gt;A federal judge on Wednesday &lt;a href=" a purported suicide note attributed to Jeffrey Epstein,&lt;/strong&gt; written before his first reported incident in July 2019 and discovered by his then-cellmate, N</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;Jeffrey Epstein 'Suicide Note' Emerges&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;strong&gt;A federal judge on Wednesday &lt;a href=" a purported suicide note attributed to Jeffrey Epstein,&lt;/strong&gt; written before his first reported incident in July 2019 and discovered by his then-cellmate, N</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-05-07-jeffrey-epstein-suicide-note-emerges.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Jeffrey Epstein 'Suicide Note' Emerges</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>A federal judge on Wednesday <a href=" a purported suicide note attributed to Jeffrey Epstein,</strong> written before his first reported incident in July 2019 and discovered by his then-cellmate, N]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-05-07-jeffrey-epstein-suicide-note-emerges.png"/>
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
@@ -615,8 +616,8 @@
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-05-07-the-supreme-court-needs-a-clock</guid>
       <pubDate>Wed, 06 May 2026 23:15:00 GMT</pubDate>
       <description>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;The Supreme Court Needs A Clock&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Frank Miele via RealClearPolitics&lt;/a&gt;,&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Supreme Court decides cases. But it also decides when to decide them – and that timing can be just as consequential as the ruling itself.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>&lt;span property="schema:name" class="field field--name-title field--type-string field--label-hidden"&gt;The Supreme Court Needs A Clock&lt;/span&gt; &lt;div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;a href=" by Frank Miele via RealClearPolitics&lt;/a&gt;,&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Supreme Court decides cases. But it also decides when to decide them – and that timing can be just as consequential as the ruling itself.&lt;/p&gt;</p>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-05-07-the-supreme-court-needs-a-clock.html.png"/>
+      <content:encoded><![CDATA[<span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Supreme Court Needs A Clock</span> <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><em><a href=" by Frank Miele via RealClearPolitics</a>,</em></p> <p>The Supreme Court decides cases. But it also decides when to decide them – and that timing can be just as consequential as the ruling itself.</p>]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-05-07-the-supreme-court-needs-a-clock.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
