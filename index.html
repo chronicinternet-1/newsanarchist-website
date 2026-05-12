@@ -628,84 +628,106 @@
         </section>
 
       </main>
-
-      <!-- SIDEBAR -->
       <aside class="sidebar">
         <div class="sidebar-widget email-widget">
           <h3 class="widget-title">📬 Daily Briefing</h3>
-          <p>Get the top 10 stories delivered to your inbox every morning. No spam. No paywalls.</p>
-          <form class="email-form" action="/subscribe" method="POST">
-            <input type="email" name="email" placeholder="your@email.com" required class="email-input">
-            <button type="submit" class="email-btn">Subscribe Free</button>
+          <p class="widget-desc">Get the top 10 stories delivered to your inbox every morning. No spam. No paywalls.</p>
+          <form class="email-form" onsubmit="return false;">
+            <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
+            <button class="btn-subscribe" type="submit">Subscribe Free</button>
           </form>
-          <p class="email-disclaimer">Unsubscribe anytime. We respect your privacy.</p>
+          <p style="font-size:11px;color:#888;margin-top:4px">Unsubscribe anytime. We respect your privacy.</p>
         </div>
         <div class="sidebar-widget">
           <h3 class="widget-title">🔥 Trending Now</h3>
           <div class="trending-list">
-              <a href="/articles/2026-05-12-spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit.html" class="trending-item">
+            <a href="/articles/2026-05-12-spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit.html" class="trending-item">
                 <span class="trending-num">1</span>
                 <div>
                   <div class="trending-title">SpaceX backs Anthropic with data centre deal amidst Musk's …</div>
-                  <div class="trending-count">7.5K reads</div>
+                  <div class="trending-count">28.7K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-new-york-senate-takes-on-junk-fees-digital-subscriptions-surveillance-pricing.html" class="trending-item">
                 <span class="trending-num">2</span>
                 <div>
                   <div class="trending-title">New York Senate takes on junk fees, digital subscriptions, …</div>
-                  <div class="trending-count">12.2K reads</div>
+                  <div class="trending-count">7.8K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-millions-of-student-borrowers-are-defaulting-they-are-40-years-old-on-average.html" class="trending-item">
                 <span class="trending-num">3</span>
                 <div>
                   <div class="trending-title">Millions Of Student Borrowers Are Defaulting: They Are 40 Y…</div>
-                  <div class="trending-count">7.0K reads</div>
+                  <div class="trending-count">21.3K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-illinois-sued-over-allegedly-using-race-as-a-factor-in-congressional-map.html" class="trending-item">
                 <span class="trending-num">4</span>
                 <div>
                   <div class="trending-title">Illinois Sued Over Allegedly Using Race As A Factor In Cong…</div>
-                  <div class="trending-count">32.2K reads</div>
+                  <div class="trending-count">5.7K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-cme-launching-futures-market-for-ai-compute.html" class="trending-item">
                 <span class="trending-num">5</span>
                 <div>
                   <div class="trending-title">CME Launching Futures Market For AI Compute</div>
-                  <div class="trending-count">6.8K reads</div>
+                  <div class="trending-count">10.0K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-labor-unions-join-banking-industry-in-opposition-to-senate-crypto-bill-the-clari.html" class="trending-item">
                 <span class="trending-num">6</span>
                 <div>
                   <div class="trending-title">Labor Unions Join Banking Industry In Opposition To Senate …</div>
-                  <div class="trending-count">22.5K reads</div>
+                  <div class="trending-count">24.5K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-crestfallen-commie-mamdani-abandons-planned-property-tax-hike-on-new-yorkers.html" class="trending-item">
                 <span class="trending-num">7</span>
                 <div>
                   <div class="trending-title">Crestfallen Commie Mamdani Abandons Planned Property Tax Hi…</div>
-                  <div class="trending-count">14.4K reads</div>
+                  <div class="trending-count">11.7K reads</div>
                 </div>
               </a>
-            </div>
+          </div>
         </div>
         <div class="sidebar-widget">
           <h3 class="widget-title">📂 Browse Categories</h3>
-          <ul class="category-list">
-            <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-            <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-            <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-            <li><a href="/category/tech-privacy.html">Tech &amp; Privacy</a></li>
-            <li><a href="/category/global-power.html">Global Power</a></li>
-            <li><a href="/category/money-markets.html">Money &amp; Markets</a></li>
-            <li><a href="/category/unexplained.html">Unexplained</a></li>
-            <li><a href="/category/true-crime.html">True Crime</a></li>
-          </ul>
+          <div class="trending-list">
+            <a href="/category/surveillance-state.html" class="trending-item">
+                <span class="trending-num">1</span>
+                <div><div class="trending-title">Surveillance State</div></div>
+              </a>
+<a href="/category/corporate-watchdog.html" class="trending-item">
+                <span class="trending-num">2</span>
+                <div><div class="trending-title">Corporate Watchdog</div></div>
+              </a>
+<a href="/category/government-secrets.html" class="trending-item">
+                <span class="trending-num">3</span>
+                <div><div class="trending-title">Government Secrets</div></div>
+              </a>
+<a href="/category/tech-privacy.html" class="trending-item">
+                <span class="trending-num">4</span>
+                <div><div class="trending-title">Tech & Privacy</div></div>
+              </a>
+<a href="/category/global-power.html" class="trending-item">
+                <span class="trending-num">5</span>
+                <div><div class="trending-title">Global Power</div></div>
+              </a>
+<a href="/category/money-markets.html" class="trending-item">
+                <span class="trending-num">6</span>
+                <div><div class="trending-title">Money & Markets</div></div>
+              </a>
+<a href="/category/unexplained.html" class="trending-item">
+                <span class="trending-num">7</span>
+                <div><div class="trending-title">Unexplained</div></div>
+              </a>
+<a href="/category/true-crime.html" class="trending-item">
+                <span class="trending-num">8</span>
+                <div><div class="trending-title">True Crime</div></div>
+              </a>
+          </div>
         </div>
       </aside>
     </div>
