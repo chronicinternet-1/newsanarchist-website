@@ -631,94 +631,82 @@
 
       <!-- SIDEBAR -->
       <aside class="sidebar">
-
-        <!-- Email Signup Widget -->
         <div class="sidebar-widget email-widget">
-          <div class="widget-header">📬 Daily Briefing</div>
-          <div class="widget-body">
-            <div class="email-widget-text">Get the top 10 stories delivered to your inbox every morning. No spam. No paywalls.</div>
-            <form class="email-form" onsubmit="return false;">
-              <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
-              <button type="submit" class="btn-email">Subscribe Free</button>
-              <div class="email-disclaimer">Unsubscribe anytime. We respect your privacy.</div>
-            </form>
-          </div>
+          <h3 class="widget-title">📬 Daily Briefing</h3>
+          <p>Get the top 10 stories delivered to your inbox every morning. No spam. No paywalls.</p>
+          <form class="email-form" action="/subscribe" method="POST">
+            <input type="email" name="email" placeholder="your@email.com" required class="email-input">
+            <button type="submit" class="email-btn">Subscribe Free</button>
+          </form>
+          <p class="email-disclaimer">Unsubscribe anytime. We respect your privacy.</p>
         </div>
-
-        <!-- Trending Widget -->
         <div class="sidebar-widget">
-          <div class="widget-header">🔥 Trending Now</div>
-          <div class="widget-body">
-            <div class="trending-list">
+          <h3 class="widget-title">🔥 Trending Now</h3>
+          <div class="trending-list">
               <a href="/articles/2026-05-12-as-hantavirus-cases-rise-us-officials-say-risk-to-public-very-very-low.html" class="trending-item">
                 <span class="trending-num">1</span>
                 <div>
                   <div class="trending-title">As Hantavirus Cases Rise, US Officials Say Risk To Public "…</div>
-                  <div class="trending-count">19.4K reads</div>
+                  <div class="trending-count">25.8K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-massive-life-support.html" class="trending-item">
                 <span class="trending-num">2</span>
                 <div>
                   <div class="trending-title">Massive Life Support</div>
-                  <div class="trending-count">21.8K reads</div>
+                  <div class="trending-count">7.8K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-anthropic-voids-unauthorized-share-transfers-triggering-bloodbath-in-tokenized-m.html" class="trending-item">
                 <span class="trending-num">3</span>
                 <div>
                   <div class="trending-title">Anthropic Voids Unauthorized Share Transfers, Triggering Bl…</div>
-                  <div class="trending-count">19.5K reads</div>
+                  <div class="trending-count">8.8K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-cia-document-sparks-wild-theories-of-ancient-knowledge-hidden-under-egypts-sphin.html" class="trending-item">
                 <span class="trending-num">4</span>
                 <div>
                   <div class="trending-title">CIA Document Sparks Wild Theories Of Ancient Knowledge Hidd…</div>
-                  <div class="trending-count">11.2K reads</div>
+                  <div class="trending-count">34.2K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-cyber-crime-increasingly-coming-with-threats-of-physical-violence-internet-users.html" class="trending-item">
                 <span class="trending-num">5</span>
                 <div>
                   <div class="trending-title">Cyber-crime increasingly coming with threats of physical vi…</div>
-                  <div class="trending-count">32.0K reads</div>
+                  <div class="trending-count">5.0K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-shadow-wars-irgc-operatives-tried-to-infiltrate-kuwait-firefight-ensues.html" class="trending-item">
                 <span class="trending-num">6</span>
                 <div>
                   <div class="trending-title">Shadow Wars: IRGC Operatives Tried To Infiltrate Kuwait, Fi…</div>
-                  <div class="trending-count">8.2K reads</div>
+                  <div class="trending-count">26.4K reads</div>
                 </div>
               </a>
 <a href="/articles/2026-05-12-first-houthi-drones-sent-on-israel-since-iran-ceasefire-took-effect.html" class="trending-item">
                 <span class="trending-num">7</span>
                 <div>
                   <div class="trending-title">First Houthi Drones Sent On Israel Since Iran Ceasefire Too…</div>
-                  <div class="trending-count">28.2K reads</div>
+                  <div class="trending-count">27.2K reads</div>
                 </div>
               </a>
             </div>
-          </div>
         </div>
-        <!-- Categories Widget -->
         <div class="sidebar-widget">
-          <div class="widget-header">📂 Browse Categories</div>
-          <div class="widget-body">
-            <ul class="footer-links">
-          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-          <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-          <li><a href="/category/global-power.html">Global Power</a></li>
-          <li><a href="/category/money-markets.html">Money & Markets</a></li>
-          <li><a href="/category/unexplained.html">Unexplained</a></li>
-          <li><a href="/category/true-crime.html">True Crime</a></li>
-        </ul>
-          </div>
+          <h3 class="widget-title">📂 Browse Categories</h3>
+          <ul class="category-list">
+            <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
+            <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
+            <li><a href="/category/government-secrets.html">Government Secrets</a></li>
+            <li><a href="/category/tech-privacy.html">Tech &amp; Privacy</a></li>
+            <li><a href="/category/global-power.html">Global Power</a></li>
+            <li><a href="/category/money-markets.html">Money &amp; Markets</a></li>
+            <li><a href="/category/unexplained.html">Unexplained</a></li>
+            <li><a href="/category/true-crime.html">True Crime</a></li>
+          </ul>
         </div>
-
       </aside>
     </div>
   </div>
