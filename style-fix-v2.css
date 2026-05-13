@@ -23,3 +23,10 @@ body{overflow-x:hidden!important;}
 
 /* 6. MOBILE - single column */
 @media (max-width:768px){.page-layout{grid-template-columns:1fr!important;}.sidebar{position:static!important;}}
+
+/* 7. SIDEBAR WIDGET — missing class aliases */
+.widget-title{background:var(--accent)!important;display:block!important;padding:10px 16px!important;font-size:11px!important;font-weight:800!important;text-transform:uppercase!important;letter-spacing:1.2px!important;color:#fff!important;font-family:var(--font-headline)!important;margin:0!important;border-radius:0!important;}
+.widget-desc{padding:12px 16px!important;font-size:13px!important;color:var(--text-secondary)!important;line-height:1.55!important;margin:0!important;}
+.email-input{width:100%!important;padding:9px 12px!important;border:1px solid var(--border-color)!important;border-radius:var(--radius)!important;font-size:13px!important;margin-bottom:8px!important;background:var(--bg-primary)!important;color:var(--text-primary)!important;box-sizing:border-box!important;}
+.email-form{padding:0 16px 16px!important;display:flex!important;flex-direction:column!important;gap:8px!important;}
+.sidebar-widget .btn-subscribe{width:100%!important;padding:9px!important;font-size:13px!important;}
