@@ -1,4 +1,4 @@
-/* NewsAnarchist style-fix.css — S4 FINAL (2026-05-06) */
+/* NewsAnarchist style-fix-v2.css — S47 final */
 
 /* 1. CARD CLAMP */
 .card-title{display:-webkit-box!important;-webkit-line-clamp:3!important;-webkit-box-orient:vertical!important;overflow:hidden!important;}
@@ -6,13 +6,13 @@
 .card-body{display:flex!important;flex-direction:column!important;flex:1!important;}
 .card-meta{margin-top:auto!important;}
 
-/* 2. CONTAINER MAX-WIDTH */
+/* 2. CONTAINER */
 .container{max-width:1320px!important;margin-left:auto!important;margin-right:auto!important;padding-left:24px!important;padding-right:24px!important;box-sizing:border-box!important;width:100%!important;}
 
-/* 3. FORCE TWO-COLUMN GRID */
-.page-layout{display:grid!important;grid-template-columns:1fr 300px!important;gap:32px!important;align-items:start!important;}
+/* 3. TWO-COLUMN GRID — force sidebar column to hold open */
+.page-layout{display:grid!important;grid-template-columns:minmax(0,1fr) 300px!important;gap:32px!important;align-items:start!important;}
 .main-content{min-width:0!important;overflow-x:hidden!important;}
-.sidebar{min-width:0!important;width:100%!important;position:sticky!important;top:80px!important;align-self:start!important;}
+.sidebar{min-width:0!important;width:100%!important;position:sticky!important;top:80px!important;align-self:start!important;display:block!important;visibility:visible!important;}
 
 /* 4. OVERFLOW */
 body{overflow-x:hidden!important;}
@@ -21,12 +21,23 @@ body{overflow-x:hidden!important;}
 /* 5. SECTION HEADER */
 .section-header{display:flex!important;align-items:center!important;justify-content:space-between!important;overflow:hidden!important;}
 
-/* 6. MOBILE - single column */
-@media (max-width:768px){.page-layout{grid-template-columns:1fr!important;}.sidebar{position:static!important;}}
-
-/* 7. SIDEBAR WIDGET — missing class aliases */
-.widget-title{background:var(--accent)!important;display:block!important;padding:10px 16px!important;font-size:11px!important;font-weight:800!important;text-transform:uppercase!important;letter-spacing:1.2px!important;color:#fff!important;font-family:var(--font-headline)!important;margin:0!important;border-radius:0!important;}
-.widget-desc{padding:12px 16px!important;font-size:13px!important;color:var(--text-secondary)!important;line-height:1.55!important;margin:0!important;}
-.email-input{width:100%!important;padding:9px 12px!important;border:1px solid var(--border-color)!important;border-radius:var(--radius)!important;font-size:13px!important;margin-bottom:8px!important;background:var(--bg-primary)!important;color:var(--text-primary)!important;box-sizing:border-box!important;}
+/* 6. SIDEBAR WIDGETS — literal colors, no var() */
+.sidebar-widget{background:#F5F1EC!important;border:1px solid #E8E8E8!important;border-radius:10px!important;overflow:hidden!important;margin-bottom:24px!important;display:block!important;}
+.widget-title{background:#2B2D42!important;display:block!important;padding:12px 16px!important;font-size:12px!important;font-weight:800!important;text-transform:uppercase!important;letter-spacing:1.2px!important;color:#fff!important;margin:0!important;border-radius:0!important;}
+.widget-desc{padding:14px 16px 10px!important;font-size:13px!important;color:#5A5B6E!important;line-height:1.55!important;margin:0!important;}
 .email-form{padding:0 16px 16px!important;display:flex!important;flex-direction:column!important;gap:8px!important;}
-.sidebar-widget .btn-subscribe{width:100%!important;padding:9px!important;font-size:13px!important;}
+.email-input{width:100%!important;padding:9px 12px!important;border:1px solid #E8E8E8!important;border-radius:6px!important;font-size:13px!important;background:#fff!important;color:#1A1B2E!important;box-sizing:border-box!important;}
+.sidebar-widget .btn-subscribe{width:100%!important;padding:10px!important;font-size:13px!important;background:#E63946!important;color:#fff!important;border:none!important;border-radius:6px!important;cursor:pointer!important;font-weight:600!important;}
+.trending-list{display:flex!important;flex-direction:column!important;padding:8px 0!important;}
+.trending-item{display:flex!important;align-items:flex-start!important;gap:10px!important;padding:10px 16px!important;border-bottom:1px solid #E8E8E8!important;color:#1A1B2E!important;text-decoration:none!important;}
+.trending-item:last-child{border-bottom:none!important;}
+.trending-item:hover{background:#E8E4DF!important;}
+.trending-num{display:inline-block!important;min-width:20px!important;font-weight:800!important;color:#2B2D42!important;font-size:14px!important;}
+.trending-title{font-size:13px!important;line-height:1.4!important;color:#1A1B2E!important;}
+.trending-count{font-size:11px!important;color:#888!important;margin-top:2px!important;}
+
+/* 7. FOOTER — clear the grid */
+.newsletter-section,.site-footer{clear:both!important;width:100%!important;}
+
+/* 8. MOBILE */
+@media (max-width:768px){.page-layout{grid-template-columns:1fr!important;}.sidebar{position:static!important;}}
