@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="2026-05-08T07:00:00.000Z">
-  <meta property="article:modified_time" content="2026-05-17T00:51:35.296Z">
+  <meta property="article:modified_time" content="2026-05-17T01:14:57.431Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Government Secrets">
   <meta property="article:tag" content="government-secrets news, pentagon, releases, declassified, files">
@@ -60,7 +60,7 @@
     "description": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News — NewsAnarchist covers the stories mainstream media won't.",
     "url": "https://newsanarchist.com/articles/2026-05-17-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
     "datePublished": "2026-05-08T07:00:00.000Z",
-    "dateModified": "2026-05-17T00:51:35.296Z",
+    "dateModified": "2026-05-17T01:14:57.431Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,13 +166,17 @@
           <header class="article-header">
             <span class="article-category-tag">Government Secrets</span>
             <h1 class="article-headline">Pentagon releases declassified UFO files including videos and photos held by the government for decades</h1>
-            <p class="article-subhead">Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 7, 2026</span>
               <span class="dot"></span>
-              <span>3 min read</span>
+              <span>2 min read</span>
             </div>
           </header>
 
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # <strong>Pentagon</strong> Declassifies UFO Files: What The Government Actually Admitted To The declassified UFO documents released by the Pentagon confirm the U.S. military has possessed video and photographic evidence of unidentified aerial phenomena for decades without public disclosure. According to NBC News coverage of the Pentagon release, the government held these materials—including videos and photos—in classified archives, raising immediate questions about why documentation of unexplained objects in restricted airspace remained hidden from elected representatives and the public for so long.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # <strong>Pentagon</strong> <strong>Releases</strong> Declassified UFO Files—Here's What They Actually Reveal Declassified UFO documents recently released by the Pentagon confirm the U.S. government has systematically collected and withheld visual evidence of unexplained aerial phenomena for decades, raising questions about what triggered the shift toward transparency and what remains classified. The Pentagon's release of videos and photographs previously held under secrecy marks a significant departure from the government's historical posture on UFO documentation.</p>
 
 <h2>What the Documents Show</h2>
-<p>The declassified files themselves constitute the core revelation. Rather than vague statements or redacted summaries, the <strong>Pentagon</strong> released actual visual evidence: videos and photographs of incidents that military personnel observed directly. The decision to release these materials now, rather than decades ago, underscores a deliberate classification choice that persisted across multiple administrations. This wasn't accidental secrecy or bureaucratic oversight—it was sustained institutional policy to compartmentalize information about phenomena documented by trained military observers with access to advanced detection systems. What mainstream coverage often glosses over is the temporal dimension: these materials have been held "for decades," meaning the government possessed this documentation during periods when official policy denied the existence of such phenomena entirely.</p>
+<p>The mainstream narrative has largely framed this as a straightforward transparency win—the government finally admitting what some already suspected. What's missing from most coverage is the critical question of *why now*. The timing coincides with increased congressional scrutiny and public pressure following high-profile military encounters, suggesting the release may be damage control rather than genuine openness. By selectively declassifying certain materials, the <strong>Pentagon</strong> controls which evidence enters public discourse while maintaining classification over potentially more significant findings. The actual content of the declassified files—videos and photographs of unidentified objects—presents its own complications that mainstream outlets have largely glossed over.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>Through the 1990s and 2000s, <strong>Pentagon</strong> spokespersons dismissed UFO sightings as misidentifications or weather balloons while simultaneously maintaining classified archives containing photographic and video evidence contradicting those public statements. This creates a documented record of conscious information asymmetry between what the government told the public and what it actually possessed. The classified status itself warrants scrutiny. The Pentagon's decision to hold visual evidence of unexplained aerial activity in restricted airspace under security classification suggests military or intelligence officials assessed these materials as sensitive to national defense interests. Yet the rationale for that classification remains opaque. Were officials protecting technological capabilities used to observe the phenomena?</p>
+<p>NBC News and other outlets reported on the materials without emphasizing a crucial limitation: declassified does not mean explained. The <strong>Pentagon</strong> releasing footage of objects it cannot identify is notably different from the Pentagon explaining what those objects are. This distinction matters enormously. The government is essentially saying "we don't know what this is"—which confirms a capability gap in either identification or documentation, but not necessarily anything extraordinary. Yet the framing of "government secrets finally revealed" has created an impression of disclosure that may exceed what the documents actually demonstrate. The selective nature of declassification deserves scrutiny.</p>
 
 <h3>What Else We Know</h3>
-<p>Concealing gaps in air defense systems? Withholding information that contradicted official explanations? The declassification release answers "what" but leaves "why" largely unaddressed—a pattern consistent with partial transparency designed to manage narrative rather than enable genuine public understanding. The broader implication extends beyond UFO speculation. This case demonstrates the government's capacity and willingness to maintain compartmentalized knowledge about events occurring in U.S. airspace, observable by military personnel and captured on recording equipment, while maintaining contradictory public narratives.</p>
+<p>The <strong>Pentagon</strong> hasn't released all UFO-related materials—only some videos and photos. The criteria for what gets released versus what remains classified has not been transparently explained. This selective approach allows the government to shape the narrative while maintaining plausible deniability about the scope of its documentation. How many files remain classified? What characteristics do the unreleased materials share that warrant continued secrecy? These questions go largely unasked in mainstream coverage, which has accepted the Pentagon's framing of a gradual transparency process rather than interrogating whether meaningful disclosure is actually occurring.</p>
 
 <h2>Primary Sources</h2>
 <ul>

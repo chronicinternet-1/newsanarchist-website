@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="2023-10-12T07:00:00.000Z">
-  <meta property="article:modified_time" content="2026-05-17T00:47:48.148Z">
+  <meta property="article:modified_time" content="2026-05-17T01:11:07.615Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Money & Markets">
   <meta property="article:tag" content="money-&-markets news, reaches, settlement, crypto, company">
@@ -60,7 +60,7 @@
     "description": "FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC Federal Trade Commission (.go…",
     "url": "https://newsanarchist.com/articles/2026-05-17-ftc-reaches-settlement-with-crypto-company-voyager-digital-charges-former-execut",
     "datePublished": "2023-10-12T07:00:00.000Z",
-    "dateModified": "2026-05-17T00:47:48.148Z",
+    "dateModified": "2026-05-17T01:11:07.615Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">Money & Markets</span>
             <h1 class="article-headline">FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC</h1>
-            <p class="article-subhead">FTC Reaches Settlement with Crypto Company Voyager Digital; Charges Former Executive with Falsely Claiming Consumers’ Deposits Were Insured by FDIC Federal Trade Commission (.gov)</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # FTC <strong>Settlement</strong> with Voyager Digital Exposes How Crypto Firms Weaponize FDIC Claims to Deceive Retail Investors The Federal Trade Commission has reached a settlement with cryptocurrency platform Voyager Digital while simultaneously charging a former executive for falsely marketing consumer deposits as FDIC-insured—a regulatory action that reveals how mainstream financial institutions exploit regulatory ambiguity to capture retail wealth without accountability. The case centers on material misrepresentation: Voyager Digital marketed itself as offering FDIC protection for customer deposits, a claim patently false since crypto assets fall entirely outside FDIC insurance schemes designed for traditional banking. The FTC's action against the former executive indicates individual criminal liability, yet the structural conditions enabling such deception remain largely unexamined in mainstream coverage.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # FTC <strong>Settlement</strong> Exposes How Crypto Companies Weaponized FDIC Trust to Deceive Millions The Federal Trade Commission has charged that Voyager Digital falsely claimed consumer deposits were protected by FDIC insurance—a deception that wiped out customers' savings when the company collapsed, revealing a critical gap in how regulators police the crypto industry's marketing claims. The FTC's enforcement action against Voyager Digital and individual charges against a former executive underscore a pattern regulators have struggled to contain: crypto platforms systematically misrepresenting the safety of consumer funds. By invoking the FDIC label—a trust signal built over decades through legitimate banking protections—Voyager capitalized on consumer confusion about which financial institutions actually qualify for federal deposit insurance.</p>
 
 <h2>What the Documents Show</h2>
-<p>Crypto platforms occupy a regulatory grey zone where they can adopt banking-adjacent marketing language while operating under cryptocurrency frameworks that bypass traditional deposit protections. This isn't a rogue actor problem—it's an industry-wide playbook that has captured billions in retail capital. What the mainstream narrative typically downplays is the timing and scale. Voyager Digital filed for bankruptcy in 2022 following the Three Arrows Capital collapse, leaving approximately 3.5 million customers unable to access $5 billion in digital assets. The FTC <strong>settlement</strong> arrives years after customers experienced total loss, illustrating a fundamental enforcement gap: regulatory action moves at geological pace while consumer capital evaporates in real-time.</p>
+<p>The FDIC explicitly does not insure cryptocurrency assets, yet Voyager's marketing materials created the false impression that customer deposits held equivalent protection. When Voyager filed for bankruptcy in 2022, customers discovered their digital assets existed in a legal and financial gray zone where traditional protections did not apply. What the mainstream coverage often overlooks is how this case exposes the enforcement lag between crypto innovation and regulatory capacity. The FTC <strong>settlement</strong> indicates the agency pursued action only after significant consumer harm had already occurred—a pattern that suggests regulators are perpetually chasing rather than preventing deception in this sector. The charges against the former executive acknowledge individual culpability, but Voyager's business model itself relied on misleading consumers about asset safety.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>By the time the FTC <strong>reaches</strong> settlements, the wealth transfer is complete. Voyager's bankruptcy proceeding itself became a contested matter where creditors—institutional players and sophisticated investors—negotiated recoveries while retail customers competed for pennies on the dollar. The <strong>settlement</strong> addresses marketing practices, but it cannot resurrect lost savings. The executive charged represents selective accountability. Individual prosecution creates the appearance of consequence while leaving corporate structures, incentive systems, and regulatory loopholes intact. Voyager Digital itself faced no criminal charges, only civil settlement obligations.</p>
+<p>The <strong>settlement</strong> requires the company to establish a claims process for harmed consumers, yet this restitution mechanism arrives after bankruptcy has already liquidated most assets. For customers who invested life savings believing they carried FDIC protection, the settlement offer represents partial accountability at best. The broader implication <strong>reaches</strong> beyond Voyager. The company operated openly, with a substantial user base and media presence, yet maintained these false insurance claims across its marketing materials for an extended period. This suggests either that regulators lacked visibility into crypto platforms' advertising practices, or that enforcement priorities placed crypto oversight lower than other financial fraud categories. Other platforms have made similar claims about asset safety and insurance-like protections without facing equivalent FTC action, raising questions about whether Voyager's case represents systematic enforcement or selective targeting.</p>
 
 <h3>What Else We Know</h3>
-<p>This pattern—corporate <strong>settlement</strong>, individual scapegoating—has become standard regulatory theater in financial crime, where fines amount to business expenses and executives face prosecution only when politically convenient. Crucially, the FDIC insurance claim exploited a credibility gap. Traditional savers understand FDIC protection as government-backed guarantee; Voyager leveraged this trust architecture while operating in an entirely different risk category. The regulatory framework never forced crypto platforms to clearly delineate non-insurance status until after billions migrated into unprotected accounts. Current regulations still permit platforms to market crypto products using language deliberately calculated to invoke banking legitimacy, a distinction lost in mainstream coverage that treats this as individual fraud rather than systemic design. For ordinary people, the implication is stark: retail investors cannot rely on marketing language, brand reputation, or apparent regulatory proximity as deposit safety signals in cryptocurrency.</p>
+<p>For ordinary investors, the <strong>settlement</strong> illuminates a fundamental vulnerability: crypto platforms operate in jurisdictions and under frameworks where consumer protection mechanisms that govern traditional finance remain absent or unenforced. While the FDIC protects bank deposits up to $250,000, and securities holdings qualify for SIPC coverage, cryptocurrency assets occupy a regulatory void. Platforms can market themselves aggressively to unsophisticated investors without facing immediate consequences. The FTC's action against Voyager sets a precedent, but the timeline—enforcement arriving after company collapse—suggests the regulatory response remains reactive. Consumers considering cryptocurrency platforms must recognize that trust signals borrowed from traditional finance, including insurance language, often lack legal backing in the crypto space. The Voyager settlement confirms what industry critics have long argued: robust consumer protection in cryptocurrency requires either platforms' voluntary compliance with genuine safety standards, or regulators equipped to police advertising claims in real time rather than after losses accumulate.</p>
 
 <h2>Primary Sources</h2>
 <ul>

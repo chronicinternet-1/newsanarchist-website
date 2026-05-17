@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="2025-12-01T08:00:00.000Z">
-  <meta property="article:modified_time" content="2026-05-17T00:53:36.315Z">
+  <meta property="article:modified_time" content="2026-05-17T01:17:03.828Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="True Crime">
   <meta property="article:tag" content="true-crime news, forensic, issued, flawed, report">
@@ -60,7 +60,7 @@
     "description": "After FBI Issued Flawed Forensic Report, Police ID Original Suspect in 1974 Murder Forensic Magazine — NewsAnarchist covers the stories mainstream media won't.",
     "url": "https://newsanarchist.com/articles/2026-05-17-after-fbi-issued-flawed-forensic-report-police-id-original-suspect-in-1974-murde",
     "datePublished": "2025-12-01T08:00:00.000Z",
-    "dateModified": "2026-05-17T00:53:36.315Z",
+    "dateModified": "2026-05-17T01:17:03.828Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">True Crime</span>
             <h1 class="article-headline">After FBI Issued Flawed Forensic Report, Police ID Original Suspect in 1974 Murder</h1>
-            <p class="article-subhead">After FBI Issued Flawed Forensic Report, Police ID Original Suspect in 1974 Murder Forensic Magazine</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # After FBI <strong>Issued</strong> Flawed <strong>Forensic</strong> Report, Police ID Original Suspect in 1974 Murder Decades-old cold cases increasingly reveal that FBI forensic failures—not investigative incompetence—have allowed suspects to evade justice while innocent people faced prosecution, a pattern the criminal justice system has largely failed to address systematically. The 1974 murder case exemplifies how a single flawed FBI forensic report derailed an investigation that had initially identified the correct suspect. Police departments, relying on the FBI's institutional credibility, abandoned their original lead based on faulty evidence analysis.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # After FBI <strong>Issued</strong> Flawed <strong>Forensic</strong> Report, Police ID Original Suspect in 1974 Murder Cybercriminals increasingly weaponize physical threats and identity theft to coerce victims into silence, a 2026 trend that mirrors decades-old investigative failures where institutional credibility—not evidence—determined guilt. A newly reopened 1974 murder case demonstrates how forensic authority, when flawed, can derail investigations for fifty years while the original suspect remains publicly exonerated. The case centers on an FBI forensic report that failed to withstand scrutiny.</p>
 
 <h2>What the Documents Show</h2>
-<p>For fifty years, the case languished in obscurity while the suspect remained free. Only recently, with the reopening of the investigation, did authorities recognize the FBI's analytical error and return focus to the original suspect. This delay represents not merely an administrative failure but a profound breach of the investigative process—one that consumed decades while a potential killer remained at large and public records grew cold. What makes this case noteworthy is not its uniqueness but rather its typicality. The FBI's <strong>forensic</strong> units have faced recurring scandals involving hair microscopy, bite-mark analysis, and other subjective methodologies later discredited by modern science.</p>
+<p>According to <strong>Forensic</strong> Magazine, law enforcement agencies recently identified the original suspect after the FBI's analysis was determined to contain significant errors. The specifics of those errors—whether mishandled evidence, misinterpreted findings, or procedural negligence—underscore a critical institutional problem: once the FBI stamps a case with scientific legitimacy, local police often abandon alternative investigative threads. The original suspect, apparently dismissed based on the flawed report, vanished from public consideration while investigators chased leads the federal analysis had supposedly closed. The suspect lived under the assumption they were cleared. Then the forensic conclusions collapsed under examination.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>Yet individual cases rarely trigger institutional reform. When errors surface, they're typically framed as isolated incidents rather than symptoms of systemic problems within federal crime labs. Police agencies, especially smaller jurisdictions with limited resources, often lack the expertise to second-guess FBI conclusions. The FBI's authority operates as a brake on skepticism—a department challenging federal <strong>forensic</strong> findings risks political and professional consequences, so they don't. The mainstream narrative around cold case breakthroughs typically celebrates technological advances like DNA analysis, presenting the justice system as self-correcting. What this framing obscures is that many cold cases remain cold not because evidence was insufficient but because institutional failures created false dead ends.</p>
+<p>What mainstream coverage typically emphasizes is the "cold case solved" angle: justice delayed but ultimately delivered. Missing from that narrative is the machinery of how an innocent person (or wrongly cleared person) experiences fifty years of institutional failure. The original suspect in this case was presumably investigated thoroughly enough to be considered primary—meaning someone at the 1974 police department found sufficient cause to focus on them. Yet a single FBI report apparently overrode that investigative judgment with such authority that no one revisited the question for half a century. This reveals how <strong>forensic</strong> credentialism functions as a firewall against further inquiry. Once federal experts render judgment, local investigators often view contradictory evidence not as reason to reconsider, but as reason to doubt their own initial instincts.</p>
 
 <h3>What Else We Know</h3>
-<p>The original suspect in this 1974 case was likely identified through sound detective work. The FBI's subsequent report didn't supplement that work—it contradicted it, and contradiction from a federal agency carried weight that local evidence could not overcome. For five decades, institutional hierarchy trumped investigative instinct. This case also underscores a problem with accountability mechanisms. When FBI <strong>forensic</strong> errors emerge, the institution itself rarely faces consequences proportionate to the damage inflicted on cases and lives. Corrections happen quietly through case reinvestigation, not through public reckonings with the lab procedures that failed.</p>
+<p>The case also highlights how institutional errors compound across time. By 2024-2026, witnesses are dead or their memories degraded. Biological evidence degrades. Crime scenes no longer exist as active locations of investigation—they exist only in reports and photographs. The original suspect has aged five decades; if innocent, they've lived under a cloud of suspicion even while cleared on paper. If guilty, they've had fifty years to obscure evidence or establish alibis that newer investigation cannot unravel with the same precision possible in 1974.</p>
 
 <h2>Primary Sources</h2>
 <ul>

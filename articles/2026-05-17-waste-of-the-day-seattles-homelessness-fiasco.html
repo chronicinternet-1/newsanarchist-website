@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="Sat, 16 May 2026 02:35:00 +0000">
-  <meta property="article:modified_time" content="2026-05-17T00:47:18.906Z">
+  <meta property="article:modified_time" content="2026-05-17T01:10:31.073Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Money & Markets">
   <meta property="article:tag" content="money-&-markets news, homelessness, field, county, million">
@@ -60,7 +60,7 @@
     "description": "Waste Of The Day: Seattle's Homelessness Fiasco , Topline: The homelessness agency in King County, Wash., has a $45 million deficit, but auditors can’t fully…",
     "url": "https://newsanarchist.com/articles/2026-05-17-waste-of-the-day-seattles-homelessness-fiasco",
     "datePublished": "Sat, 16 May 2026 02:35:00 +0000",
-    "dateModified": "2026-05-17T00:47:18.907Z",
+    "dateModified": "2026-05-17T01:10:31.073Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">Money & Markets</span>
             <h1 class="article-headline">Waste Of The Day: Seattle's Homelessness Fiasco</h1>
-            <p class="article-subhead">Waste Of The Day: Seattle's Homelessness Fiasco , Topline: The homelessness agency in King County, Wash., has a $45 million deficit, but auditors can’t fully</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # Waste Of The Day: Seattle's <strong>Homelessness</strong> Fiasco **Wall Street does not want you to know that public agencies can burn through hundreds of millions in taxpayer dollars while auditors remain unable to trace where the money actually went.** The King County Regional Homelessness Authority—a $534 million experiment in outsourced governance—has created a $45 million deficit so opaque that state auditors literally cannot explain what happened to portions of the funding, according to an April audit publicly released this year. The Authority, formed in December 2019 to coordinate homeless services across 39 cities in the Seattle area, represents exactly the kind of public-private hybrid that mainstream media treats as innovative governance. What the coverage misses is systemic rot.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # Waste Of The Day: Seattle's <strong>Homelessness</strong> Fiasco Wall Street doesn't want you to know that public agencies tasked with solving social crises routinely hemorrhage hundreds of millions in taxpayer dollars with virtually no accountability—a preview of what happens when government outsources core functions to consulting firms and contractors rather than maintaining institutional competence. The King County Regional Homelessness Authority, created in December 2019 to coordinate shelter operations and outreach across 39 cities in Washington State, sits atop a $45 million deficit that auditors literally cannot explain. According to a state audit released in April, the agency's accounting records are so poorly maintained that investigators could not track where portions of its money disappeared.</p>
 
 <h2>What the Documents Show</h2>
-<p>The agency's accounting records are so deficient that it cannot track where millions disappeared. Financial records claim the city and county owe the Authority $49.8 million for services rendered, yet the Authority could not explain what $8 million of that invoice was for—meaning they billed taxpayers for unidentifiable work. Simultaneously, the Authority overspent its administrative budget by $4.3 million, a shortfall that auditors directly traced to decision-making failures. The specifics reveal how accountability vanishes in layered bureaucracies. Officials purchased Salesforce, an expensive business analytics platform, in 2024 without county approval.</p>
+<p>This isn't sloppy bookkeeping—it's financial opacity on a scale that would trigger SEC investigations if a publicly traded company tried it. The Authority claims the city and county owe it $49.8 million for services rendered, yet it cannot document what $8 million of that alleged debt covers. Since its creation, the organization has received $534 million in total funding, making the unaccounted-for portions financially significant. The mainstream narrative treats this as a bureaucratic embarrassment, a cautionary tale about management incompetence. What's underplayed is the deliberate structural choice to funnel money through expensive contractors rather than build permanent institutional capacity.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>The county later rubber-stamped a budget amendment allowing $563,000—but the actual cost exceeded $2 million, a nearly 300 percent overrun. More revealing was the contractor strategy: rather than hire permanent staff, the Authority engaged expensive consulting firms like Robert Half. One consultant served as chief financial officer for 11 months at $449,000; when that contract ended, the same person became a full-time employee at $285,000 annually. The math is damning: taxpayers paid a premium for temporary labor while the agency claimed budget constraints. This reliance on contractors also fragmented institutional knowledge. Auditors noted that constant staff turnover made accounting harder because new leadership repeatedly altered financial systems, creating an environment where losing track of money became almost inevitable.</p>
+<p>The Authority overspent its administrative budget by $4.3 million, but the real scandal involves *how* that overspending occurred. Officials purchased Salesforce, an enterprise analytics platform, without county approval in 2024, then later secured a budget amendment for $563,000—except the platform actually cost over $2 million. More egregiously, they hired contractors from firms like Robert Half, paying one temporary staffer $449,000 annually to serve as chief financial officer for eleven months. When his contract expired, the Authority rehired him as a salaried employee for $285,000 per year—a 37 percent discount that reveals the contractor model was never about getting specialized expertise. This pattern of hiring reflects a broader dysfunction: the reliance on expensive temporary labor increased staff turnover so severely that employees told auditors it undermined their ability to maintain financial systems. Each new contractor brought different processes and priorities, constantly destabilizing the accounting infrastructure.</p>
 
 <h3>What Else We Know</h3>
-<p>Local political leadership has noticed. Seattle Mayor Katie Wilson and King County Council member Rod Dembowski have both suggested dissolving the Authority entirely, with Dembowski calling it "a failed experiment." Yet even dissolution conversations tend to avoid the deeper issue: the Authority received over half a billion dollars and somehow managed to create a deficit while remaining unable to explain its spending. This is not incompetence that can be fixed with better management—it suggests structural incentives that actively reward opacity. For ordinary citizens, the implications are stark. When public funds flow through specialized agencies designed to escape traditional government budgeting, accountability collapses. The homeless population in King County got no additional benefit from the $2 million Salesforce overage or the contractor markup schemes.</p>
+<p>The irony is vicious—the Authority's inability to track spending stems directly from choosing flexibility over stability, yet that flexibility cost vastly more money while producing worse results. What matters for ordinary people is the implication: if a regional agency dedicated solely to addressing <strong>homelessness</strong> cannot account for half a billion dollars in five years, what does that suggest about the likelihood that government funding actually reaches the homeless population? Seattle Mayor Katie Wilson and King County Council member Rod Dembowski have openly discussed dissolving the Authority, but dissolution doesn't recover the missing money or the years of failed coordination. The deeper issue is that elected officials created a creature designed to shift accountability away from themselves, staffed it with transient consultants who bear no long-term responsibility, and then expressed shock when the outcome was financial chaos. Taxpayers funded an experiment in contracting out government responsibility—and got exactly what outsourcing always produces: expensive mediocrity.</p>
 
 <h2>Primary Sources</h2>
 <ul>

@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="Sat, 16 May 2026 18:00:00 +0000">
-  <meta property="article:modified_time" content="2026-05-17T01:03:01.360Z">
+  <meta property="article:modified_time" content="2026-05-17T01:26:06.418Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Money & Markets">
   <meta property="article:tag" content="money-&-markets news, warsh, field, inflation, just">
@@ -60,7 +60,7 @@
     "description": "New Fed Chair Kevin Warsh's Job Is Impossible Submitted by Congratulations to Kevin Warsh on officially becoming the next Federal Reserve chair. Unfortunately for him, he may ha…",
     "url": "https://newsanarchist.com/articles/2026-05-17-new-fed-chair-kevin-warshs-job-is-impossible",
     "datePublished": "Sat, 16 May 2026 18:00:00 +0000",
-    "dateModified": "2026-05-17T01:03:01.360Z",
+    "dateModified": "2026-05-17T01:26:06.418Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,13 +166,17 @@
           <header class="article-header">
             <span class="article-category-tag">Money & Markets</span>
             <h1 class="article-headline">New Fed Chair Kevin Warsh's Job Is Impossible</h1>
-            <p class="article-subhead">New Fed Chair Kevin Warsh's Job Is Impossible Unfortunately for him, he may have just accepted the wo</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 16, 2026</span>
               <span class="dot"></span>
-              <span>2 min read</span>
+              <span>3 min read</span>
             </div>
           </header>
 
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # New Fed Chair Kevin <strong>Warsh</strong>'s Job Is Impossible Wall Street doesn't want you to know that the Federal Reserve's new chair has been handed an economic scenario where interest rates must stay punishingly high while the consumer is already breaking under debt strain—a contradiction that makes conventional policy solutions obsolete. Kevin Warsh was narrowly confirmed this week in the most partisan Federal Reserve chair vote in modern history, inheriting a central bank that has spent years under political attack while stepping directly into a macroeconomic minefield. The mainstream narrative portrays his confirmation as a routine leadership transition, but the economic conditions awaiting him tell a different story.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # New Fed Chair Kevin <strong>Warsh</strong>'s Job Is Impossible Wall Street doesn't want you to know that the Federal Reserve's new chair has inherited a central bank boxed into a corner by inflation the system failed to control while facing political pressure it cannot satisfy. Kevin Warsh was confirmed this week in the most partisan Federal Reserve chair vote in modern history, a narrow approval that itself signals the institutional stress now consuming the central bank. But the political turbulence pales beside the economic minefield awaiting him.</p>
 
 <h2>What the Documents Show</h2>
-<p>Inflation just accelerated to a three-year high with CPI running at 3.8% and PPI at 6%. Oil prices are climbing amid Middle East tensions. President Trump is openly demanding lower rates. The bond market appears to be losing patience, pushing yields dramatically higher. Friday's market action revealed the true danger lurking beneath surface-level stock movements.</p>
+<p>Inflation just accelerated to a three-year high with CPI running at 3.8% and PPI at 6%—figures the Fed failed to contain through years of rate hikes. Oil prices are climbing amid Middle East tensions. Most dangerously, President Trump is openly demanding lower rates, placing <strong>Warsh</strong> in the position of having to either capitulate to political pressure or defend independence that Congress has already shown it questions. The real warning came Friday when the bond market revealed what most financial coverage missed. While mainstream outlets focused on stock declines—the S&P 500 dropping 1.24% and Nasdaq falling 1.54%—the actual crisis was unfolding in Treasuries, where the 30-year yield ripped above 5.1% as investors digested hotter inflation data and absorbed a growing realization: rates may need to stay higher for longer than Wall Street has been pricing in.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>Most financial media fixated on falling tech stocks—the S&P 500 dropped 1.24% and the Nasdaq fell 1.54%—but the real story unfolded in Treasury markets. The 30-year yield ripped above 5.1% as investors digested hotter inflation data and faced a growing realization that rates may need to stay higher longer than Wall Street has priced in. When bond yields rise this rapidly, they tighten financial conditions everywhere simultaneously. Mortgage rates remain elevated. Corporate borrowing costs climb. Commercial real estate refinancing becomes uglier.</p>
+<p>This matters because bond markets operate differently than equities. Stocks can correct 5% and CNBC fills airtime with cheerful "buy the dip" segments. Rising yields tighten financial conditions everywhere simultaneously. Mortgage rates stay elevated, corporate borrowing costs rise, commercial real estate refinancing becomes impossible, and the federal government's own interest expense balloons. This tightening is hitting a consumer already showing visible cracks. Auto loan delinquencies are sitting near 2008 levels.</p>
 
 <h3>What Else We Know</h3>
-<p>The federal government's own interest expense starts ballooning. This isn't a stock market correction that CNBC can spin as a buying opportunity. Bond market stress cascades through the entire financial system. The consumer is already showing critical stress fractures that make <strong>Warsh</strong>'s task genuinely impossible. Auto loan delinquencies are sitting near 2008 levels. Credit card delinquencies are hovering around financial crisis highs.</p>
+<p>Credit card delinquencies hover around financial crisis highs. Ordinary Americans are increasingly relying on high-interest debt just as inflation continues squeezing real wages, meaning the traditional safety valve of consumer spending—which has kept the economy afloat—is weakening at the exact moment the Fed needs it most. <strong>Warsh</strong> faces a trilemma with no good options. He cannot lower rates significantly without validating Trump's pressure and reigniting inflation. He cannot keep rates elevated without accelerating the financial deterioration already visible in consumer and real estate markets. And he cannot maintain Fed independence while facing a president who openly demands rate cuts and a Congress that confirmed him through the most partisan vote in modern history.</p>
 
 <h2>Primary Sources</h2>
 <ul>

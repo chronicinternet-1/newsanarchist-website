@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="2026-05-16T13:31:40.000Z">
-  <meta property="article:modified_time" content="2026-05-17T00:54:59.814Z">
+  <meta property="article:modified_time" content="2026-05-17T01:18:33.532Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Surveillance State">
   <meta property="article:tag" content="surveillance-state news, there, cameras, marching, blindly">
@@ -60,7 +60,7 @@
     "description": "Why is there no resistance to all these mass surveillance programs being implemented, like if you told me 10 years ago there would be license plate reading cameras on every corn…",
     "url": "https://newsanarchist.com/articles/2026-05-17-we-a-marching-blindly-to-dystopia",
     "datePublished": "2026-05-16T13:31:40.000Z",
-    "dateModified": "2026-05-17T00:54:59.814Z",
+    "dateModified": "2026-05-17T01:18:33.532Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">Surveillance State</span>
             <h1 class="article-headline">We a marching blindly to dystopia</h1>
-            <p class="article-subhead">Why is there no resistance to all these mass surveillance programs being implemented, like if you told me 10 years ago there would be license plate reading cameras on every corner with microphones and door bell cameras that capture your Face I’d call you crazy. What’s worst at this point our politicians don’t serve us and do what’s financially best for the</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # We're Marching Blindly Into Dystopia Mass surveillance operates without warrants through a legal loophole: data collected by private companies—license plate readers, doorbell <strong>cameras</strong>, smart home devices—falls outside Fourth Amendment protections because it's corporate surveillance rather than government surveillance, allowing law enforcement to purchase this data directly from vendors without judicial oversight. The infrastructure is already here. License plate reading cameras operate on nearly every corner in major American cities, capturing millions of vehicle movements daily.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # We're Marching Blindly Into Dystopia Mass surveillance programs operate without traditional warrants by exploiting the Third Party Doctrine, which allows law enforcement and private companies to collect data on citizens through intermediaries—your phone carrier, your ISP, your smart doorbell manufacturer—without needing court approval for the initial collection. The infrastructure for total surveillance is already woven into American neighborhoods, yet the public response has been remarkably muted. License plate readers now blanket city streets, cataloging every vehicle movement.</p>
 
 <h2>What the Documents Show</h2>
-<p>Doorbell <strong>cameras</strong> with facial recognition technology blanket suburban neighborhoods. Microphones embedded in these devices continuously record audio from public and semi-public spaces. Yet the mainstream tech press frames this as consumer choice—celebrating innovation and convenience—while almost entirely ignoring that these devices create permanent, searchable records of our movements, associations, and daily patterns. A Reddit user in r/privacy articulated what most Americans sense but cannot quite name: a decade ago, this scenario sounded like paranoid fiction. Today it's infrastructure.</p>
+<p>Microphones embedded in these systems and in doorbell <strong>cameras</strong> capture audio from public spaces. Facial recognition technology feeds these streams into databases that can identify individuals in real time. What's striking is how quickly this became normalized. A decade ago, such surveillance would have seemed like science fiction to most Americans. Today, it's installed on apartment buildings and street corners with minimal public debate.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>What makes this dystopian shift possible isn't technological inevitability—it's political capture. Our politicians, as the source material notes, no longer serve constituents. Instead, they facilitate what's financially optimal for the corporations deploying this surveillance apparatus. Doorbell camera manufacturers, license plate reader companies, and smart home device makers have powerful lobbying interests. The regulatory framework that should constrain this expansion simply doesn't exist. <strong>There</strong>'s no meaningful federal privacy law.</p>
+<p>The mainstream narrative frames surveillance as a necessary trade-off for safety and convenience. But the source material from privacy advocates raises a critical question being ignored: who actually benefits from this infrastructure? When politicians green-light these programs, they're not responding to constituent demand. The financial incentives flow from tech companies and security contractors who profit from every camera installed, every database query, every data sale. These corporations have spent heavily lobbying for permissive surveillance policies while funding campaigns of politicians who rubber-stamp their expansion. The public interest in privacy protection rarely appears on the balance sheet.</p>
 
 <h3>What Else We Know</h3>
-<p>No warrant requirement for corporate data sales. No real penalty for violations. The political resistance that should materialize—that *would* materialize if citizens understood the scope—remains fragmented and ineffective. The mainstream framing obscures this structural reality. Tech coverage celebrates each new camera, each new "smart" device, as isolated consumer products. Local news reports focus on individual crimes solved through surveillance footage rather than the totalizing architecture being constructed.</p>
+<p>The lack of organized resistance is itself noteworthy. Americans generally claim to value privacy, yet acceptance of surveillance has grown as the technology became ubiquitous. This reveals a critical failure: most people don't understand the scope of what's being collected or how it's being used. Your face, your movements, your vehicle, your home's exterior—all are catalogued by systems you didn't consent to and can't audit. The data isn't just stored; it's shared between government agencies and private companies with minimal oversight. A traffic stop can be informed by facial recognition data collected without your knowledge.</p>
 
 <h2>Primary Sources</h2>
 <ul>

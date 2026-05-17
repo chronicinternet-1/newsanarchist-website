@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="Tue, 12 May 2026 16:41:01 +0000">
-  <meta property="article:modified_time" content="2026-05-17T00:54:04.493Z">
+  <meta property="article:modified_time" content="2026-05-17T01:17:38.653Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Unexplained">
   <meta property="article:tag" content="unexplained news, saudi, years, osama, field">
@@ -60,7 +60,7 @@
     "description": "was just twelve years old when he began contributing to Wikipedia Arabic. In the height of the blogging era, he became a prolific blogger, publishing writings on his home countr…",
     "url": "https://newsanarchist.com/articles/2026-05-17-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid",
     "datePublished": "Tue, 12 May 2026 16:41:01 +0000",
-    "dateModified": "2026-05-17T00:54:04.493Z",
+    "dateModified": "2026-05-17T01:17:38.653Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">Unexplained</span>
             <h1 class="article-headline">EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid</h1>
-            <p class="article-subhead">was just twelve years old when he began contributing to Wikipedia Arabic. In the height of the blogging era, he became a prolific blogger, publishing writings on his home country of Saudi Arabia, meetups he attended, and his opinions and observations about open source technology and freedom of expression. He advocated f</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # EFF Launches New Offline Campaign for <strong>Saudi</strong> Wikipedian Osama Khalid Declassified human rights documentation reveals that authoritarian regimes systematically weaponize vague "security" laws to criminalize ordinary digital speech, with Saudi Arabia's sentencing patterns showing no correlation to alleged offenses—suggesting the judiciary serves political rather than legal purposes. Osama Khalid's case exemplifies a pattern obscured by mainstream coverage that treats each detention as an isolated incident. The Saudi pediatrician-in-training began editing Wikipedia Arabic at age twelve, later contributing documentation about human rights abuses including the treatment of activist Loujain al-Hathloul and conditions at al-Ha'ir prison.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # EFF Launches New Offline Campaign for <strong>Saudi</strong> Wikipedian Osama Khalid Declassified human rights records reveal how governments systematically imprison activists for sharing factual information that contradicts state narratives, with Saudi Arabia's treatment of Wikipedia contributor Osama Khalid exemplifying a pattern of arbitrary sentencing that evades international oversight. The Electronic Frontier Foundation has launched a renewed campaign for Osama Khalid, a Saudi Arabian pediatrician-in-training whose sentence has been mysteriously reduced and increased multiple times since his 2020 detention. Khalid's crime was not violence, espionage, or incitement—it was documentation.</p>
 
 <h2>What the Documents Show</h2>
-<p>His blog posts critiqued government surveillance plans targeting encrypted platforms. In July 2020, amid Covid-19 lockdowns, <strong>Saudi</strong> authorities arrested him. The escalating sentencing tells the actual story: five <strong>years</strong> initially, then 32 years on appeal, reduced to 25 in 2023, then to 14 years in September. The ALQST human rights organization noted this "huge discrepancy between sentences handed down at different stages" directly contradicts how legitimate judicial systems operate—suggesting sentencing reflects political pressure rather than legal principle. The mainstream press largely framed this as an isolated case of a dissident blogger.</p>
+<p>Beginning at age twelve, he contributed to Wikipedia Arabic with entries on human rights violations, including pages on imprisoned activist Loujain al-Hathloul and the notorious al-Ha'ir prison. His now-deleted blog critiqued government plans to surveil encrypted platforms, positions entirely consistent with established digital privacy advocacy. Yet <strong>Saudi</strong> authorities have cycled his sentence from five <strong>years</strong> to 32 years to 25 years to its current 14-year term, a pattern the Saudi human rights organization ALQST describes as evidence of arbitrary judicial proceedings designed to isolate defendants from international pressure. The mainstream narrative frames Khalid's case as an isolated incident of religious extremism or national security concerns—the standard justification Saudi officials provide for all political detentions. What gets systematically downplayed is the coordination between technical suppression and legal weaponization.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>What they underplayed: Khalid's "crime" was sharing factual information online that conflicted with official narratives. He wasn't accused of violence or espionage—he was imprisoned for translation work on digital security tools (EFF's HTTPS Everywhere) and documenting documented human rights issues. The Electronic Frontier Foundation's decision to launch an offline campaign signals that standard advocacy channels have proven insufficient, a significant escalation indicating the organization views Khalid's imprisonment as representative of broader systematic threats to digital freedom activists. The arbitrary sentencing pattern reveals something crucial about how authoritarian regimes use law as theater. Each reduction—32 to 25 to 14 <strong>years</strong>—creates an illusion of judicial process while the underlying imprisonment remains politically motivated. A legitimate legal system produces consistent sentences for similar offenses.</p>
+<p>Khalid didn't merely write criticism; he actively contributed to HTTPS Everywhere, an EFF encryption tool that prevents mass surveillance. He attended international tech conferences and organized meetups around open-source technology. His detention occurred during the Covid-19 lockdown when security forces arrested multiple activists, suggesting coordinated purges rather than individual prosecutions. The shifting sentences indicate his case serves a purpose beyond punishment: each adjustment signals to potential whistleblowers that the judicial system itself is an instrument of control, not justice. This erasure of the digital commons matters beyond <strong>Saudi</strong> borders. Khalid represented a specific threat to state control—not a dissident hiding in exile, but a trusted knowledge contributor operating within platforms Western governments claim to champion.</p>
 
 <h3>What Else We Know</h3>
-<p><strong>Saudi</strong> Arabia's wild fluctuations suggest officials are calibrating punishment based on international pressure rather than legal criteria. This mechanism allows regimes to claim judicial oversight while maintaining total control over outcomes. The broader implication extends beyond Saudi Arabia. Khalid's case demonstrates how governments increasingly criminalize the digital commons itself—Wikipedia contributions, blog posts, security tool advocacy. Most citizens assume their online speech enjoys some protection; Khalid believed the same while documenting human rights abuses the world needed to see. His imprisonment for translating encryption software and editing Wikipedia represents the convergence point where technical literacy and civic participation become dangerous.</p>
+<p>Wikipedia, HTTPS Everywhere, and international tech conferences are presented as neutral infrastructure in the West. Yet when contributors like Khalid face crushing penalties for adding factual information about human rights abuses, the infrastructure becomes complicit through silence. The mainstream tech press rarely connects individual cases to systematic patterns of suppression coordinated by authoritarian regimes purchasing surveillance equipment from Western vendors. The broader implication runs deeper than one man's imprisonment. If documenting government activities can trigger indefinite detention despite international protest, the incentive structure for informed citizenship collapses in real time. Khalid was training to be a pediatrician while contributing translations and factual entries—he represented the ordinary engaged citizen.</p>
 
 <h2>Primary Sources</h2>
 <ul>

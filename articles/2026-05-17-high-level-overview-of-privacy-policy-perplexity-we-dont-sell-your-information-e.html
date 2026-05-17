@@ -40,7 +40,7 @@
   <meta property="og:image" content="https://newsanarchist.com/images/og-default.webp">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="2026-05-16T18:52:05.000Z">
-  <meta property="article:modified_time" content="2026-05-17T00:55:32.708Z">
+  <meta property="article:modified_time" content="2026-05-17T01:19:01.836Z">
   <meta property="article:author" content="NewsAnarchist Desk">
   <meta property="article:section" content="Tech & Privacy">
   <meta property="article:tag" content="tech-&-privacy news, privacy, perplexity, your, information">
@@ -60,7 +60,7 @@
     "description": "While using perplexity at the end of our conversation, it called me by my first name. I replied letting it know I was unhappy and what else did it know about me.. This led me to…",
     "url": "https://newsanarchist.com/articles/2026-05-17-high-level-overview-of-privacy-policy-perplexity-we-dont-sell-your-information-e",
     "datePublished": "2026-05-16T18:52:05.000Z",
-    "dateModified": "2026-05-17T00:55:32.708Z",
+    "dateModified": "2026-05-17T01:19:01.837Z",
     "author": {
       "@type": "Organization",
       "name": "NewsAnarchist Desk"
@@ -166,7 +166,11 @@
           <header class="article-header">
             <span class="article-category-tag">Tech & Privacy</span>
             <h1 class="article-headline">High-level overview of privacy policy perplexity. We don't sell your information equals we share your information with third parties semantics...</h1>
-            <p class="article-subhead">While using perplexity at the end of our conversation, it called me by my first name. I replied letting it know I was unhappy and what else did it know about me.. This led me to dig further into their privacy policies. &#32;</p>
+            ${(() => {
+              const raw = stripHtml(description || '').replace(/s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.s]*$/i,'').replace(/s*Submitted by[^.]+.?/i,'').replace(/s*By [A-Z][a-z]+ [A-Z][a-z]+s+ofs+w+/,'').replace(/^[s-–—:,.]+/,'').trim();
+              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
+              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
+            })()}
             <div class="article-meta-bar">
               <span class="author">NewsAnarchist Desk</span>
               <span class="ai-tag">AI-Assisted</span>
@@ -192,20 +196,20 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> # The <strong>Privacy</strong> Policy Shell Game: How AI Companies Define "Not Selling" Your Data In 2026, you don't own your data—AI companies do, and their privacy policies are engineered to obscure exactly how they're profiting from it. A Reddit user's unsettling discovery that <strong>Perplexity</strong> AI called them by their first name during a conversation sparked an investigation into the company's privacy practices. The user, dissatisfied with vague assurances, dug into Perplexity's actual policy language and found what privacy advocates have long suspected: companies claiming they "don't sell your data" use that phrase as a legal shield while simultaneously sharing, licensing, and leveraging user information with third parties in ways the average user would reasonably interpret as selling.</p>
+            <p class="article-lede"><strong>What they're not telling you:</strong> # WHO OWNS YOUR DATA IN 2026? THE <strong>PERPLEXITY</strong> CASE SHOWS HOW COMPANIES HIDE IN PLAIN SIGHT Your data belongs to the companies you use, not to you—and their <strong>privacy</strong> policies are deliberately written to obscure this reality through semantic tricks that regulators and mainstream tech coverage routinely ignore. A Reddit user recently discovered that Perplexity, an AI chatbot platform, called them by their first name during a conversation.</p>
 
 <h2>What the Documents Show</h2>
-<p>The distinction between "not selling" and "sharing with partners for commercial purposes" is a semantic smokescreen that regulators and mainstream tech coverage have largely allowed to persist unchallenged. <strong>Perplexity</strong>'s ability to identify and address users by name raises immediate questions about data aggregation and linkage. The company must have connected conversation data to identifying information from somewhere—either directly from user accounts, through IP tracking, email verification, or through data brokers and third-party integrations that most users never knowingly consent to. Yet their public messaging emphasizes user <strong>privacy</strong>. This gap between operational reality and marketing language represents a systemic problem across the AI industry.</p>
+<p>When questioned about what information the platform retained, the user decided to examine <strong>Perplexity</strong>'s <strong>privacy</strong> policy. What they found illustrates a pattern embedded across the AI and tech industry: companies claiming they "don't sell your data" while simultaneously describing extensive data sharing arrangements with third parties. The distinction between "selling" data and "sharing" it represents corporate doublespeak that allows companies to monetize user information while maintaining plausible deniability in marketing materials. The mainstream tech press typically reports these privacy disclosures as discrete incidents—a single company's policy flaw, a temporary controversy that fades once the company issues a statement. This framing misses the systematic nature of the problem.</p>
 
 <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 
 <h2>Follow the Money</h2>
-<p>When companies state they don't "sell" data while explicitly partnering with data enrichment services, ad networks, and research firms, they're exploiting regulatory ambiguity. The FTC's definition of "sale" hasn't kept pace with how modern data flows actually work. What the mainstream tech press largely misses is that <strong>privacy</strong> policies themselves have become a form of corporate camouflage. Major outlets report on privacy commitments at face value, rarely subjecting policy language to forensic analysis. When <strong>Perplexity</strong> or similar companies revise their policies—burying new permissions in dense legal text—the revelation typically comes from individual users rather than investigative reporting. This puts the burden of data protection on people least equipped to decode corporate legal language, effectively making privacy an opt-in luxury for the technically sophisticated rather than a baseline right.</p>
+<p>When <strong>Perplexity</strong>'s user encountered the platform calling them by name, it raised a fundamental question: how did the system identify them? The answer lies in how data flows invisibly through modern tech stacks. Whether through login credentials, device fingerprinting, IP tracking, or data broker purchases, platforms accumulate identity information while maintaining policies that technically comply with "don't sell your data" commitments by redefining what "selling" means. The semantic distinction matters legally and financially. A company can claim it doesn't sell data while simultaneously sharing user information with AI training partners, analytics firms, marketing platforms, and data brokers. Each "share" generates revenue or business value—the functional equivalent of a sale—yet falls outside most legal definitions of data sales.</p>
 
 <h3>What Else We Know</h3>
-<p>The Reddit community has become a de facto watchdog where mainstream journalism has abdicated responsibility. The broader implication is that data ownership in 2026 is entirely illusory for ordinary users. You retain no meaningful control over information you generate—whether through conversations, searches, or account creation. Companies use <strong>privacy</strong> policies not as commitments but as liability shields, defining terms narrowly enough to claim compliance while extracting maximum commercial value. As long as regulators treat "not selling" and "sharing with business partners" as legally distinct concepts, corporations will continue exploiting that gap. Users believe they're protected by privacy policies; in reality, they're reading corporate permission slips written in deliberately obscure language designed to survive legal scrutiny rather than inform consent.</p>
+<p>Regulators focus on explicit transactions, not the murkier ecosystem of "partnerships" and "service providers" that actually monetize personal information at scale. <strong>Perplexity</strong>'s case is notable only because a user noticed the personal identification and looked deeper. Most users never question why a platform knows their name or how it acquired that information. The broader implication extends beyond any single company. In 2026, data ownership remains legally and practically concentrated among corporations, not individuals. Users grant consent through terms of service that most never read and couldn't meaningfully negotiate.</p>
 
 <h2>Primary Sources</h2>
 <ul>
