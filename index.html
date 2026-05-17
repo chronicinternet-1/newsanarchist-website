@@ -120,10 +120,11 @@
         <div class="email-hero-title">🔥 Get the stories they don't want you to read.</div>
         <div class="email-hero-sub">Join 10,000+ readers who get NewsAnarchist's daily briefing — no paywalls, no spin, straight to your inbox.</div>
       </div>
-      <form class="email-hero-form" onsubmit="return false;">
-        <input type="email" class="email-hero-input" placeholder="your@email.com" aria-label="Email address">
-        <button class="btn-subscribe" type="submit">Join Free →</button>
+      <form class="email-hero-form" id="heroEmailForm" onsubmit="submitHeroEmail(event);">
+        <input type="email" id="heroEmailInput" class="email-hero-input" placeholder="your@email.com" aria-label="Email address" required>
+        <button class="btn-subscribe" type="submit" id="heroEmailBtn">Join Free →</button>
       </form>
+      <div id="heroEmailMsg" style="margin-top:10px;font-size:14px;display:none;"></div>
     </div>
   </div>
 
@@ -738,21 +739,14 @@
   <div style="max-width: 600px; margin: 0 auto;">
     <h2>Stay Informed. No Spin.</h2>
     <p>Get the stories that matter, unfiltered. Straight to your inbox.</p>
-    <div class="sib-form">
-      <div id="sib-form-container" class="sib-form-container">
-        <div id="sib-container" class="sib-container--large sib-container--vertical">
-          <form id="sib-form" method="POST" action="https://6ecf8c9f.sibforms.com/serve/MUIFABzwhUlqB2TN-K0vPR7rQYvKc8kq5ZLEqVvxmxfLK8Ng_wpOi2eL8x7vT8mK3FWmJ0i0AeWCyqN8jK_7gvhM8qMxY6tQwrZNPyE8jM7kQ9vRxN3mK8jQwYvRxN3mK" data-type="subscription">
-            <div style="padding: 8px 0;">
-              <input type="email" name="EMAIL" placeholder="Your email address" required />
-            </div>
-            <div style="padding: 8px 0;">
-              <button type="submit">Subscribe</button>
-            </div>
-            <input type="hidden" name="locale" value="en" />
-          </form>
-        </div>
+    <form id="footerEmailForm" onsubmit="submitHeroEmail(event);" style="margin-top:12px;">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <input type="email" id="footerEmailInput" placeholder="Your email address" required
+          style="flex:1;min-width:200px;padding:10px 14px;border:1px solid #ddd;border-radius:4px;font-size:14px;">
+        <button type="submit" style="padding:10px 20px;background:#dc2626;color:#fff;border:none;border-radius:4px;font-size:14px;cursor:pointer;font-weight:600;">Subscribe</button>
       </div>
-    </div>
+      <div id="footerEmailMsg" style="margin-top:8px;font-size:13px;display:none;"></div>
+    </form>
     <p class="disclaimer">No spam. Unsubscribe anytime.</p>
   </div>
 </section>
@@ -812,5 +806,48 @@
   <script src="js/main.js"></script>
 
 
+<script>
+async function submitHeroEmail(e) {
+  e.preventDefault();
+  const isHero = e.target.id === 'heroEmailForm';
+  const emailEl = isHero ? document.getElementById('heroEmailInput') : document.getElementById('footerEmailInput');
+  const msgEl  = isHero ? document.getElementById('heroEmailMsg')  : document.getElementById('footerEmailMsg');
+  const btnEl  = isHero ? document.getElementById('heroEmailBtn')  : null;
+  const email  = emailEl.value.trim();
+  if (!email) return;
+  if (btnEl) btnEl.disabled = true;
+  if (btnEl) btnEl.textContent = 'Joining...';
+  msgEl.style.display = 'none';
+  try {
+    const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, source: 'newsanarchist-hero' })
+    });
+    if (res.ok || res.status === 204) {
+      msgEl.textContent = '✅ You're in! Check your inbox for the first briefing.';
+      msgEl.style.color = '#16a34a';
+      emailEl.value = '';
+    } else if (res.status === 400) {
+      const data = await res.json();
+      if (data.code === 'duplicate_parameter') {
+        msgEl.textContent = '✅ You're already subscribed — thank you!';
+        msgEl.style.color = '#16a34a';
+      } else {
+        msgEl.textContent = '⚠️ Something went wrong. Try again.';
+        msgEl.style.color = '#dc2626';
+      }
+    } else {
+      msgEl.textContent = '⚠️ Something went wrong. Try again.';
+      msgEl.style.color = '#dc2626';
+    }
+  } catch(err) {
+    msgEl.textContent = '⚠️ Network error. Try again.';
+    msgEl.style.color = '#dc2626';
+  }
+  msgEl.style.display = 'block';
+  if (btnEl) { btnEl.disabled = false; btnEl.textContent = 'Join Free →'; }
+}
+</script>
 </body>
 </html>
