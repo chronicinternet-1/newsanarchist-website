@@ -3,83 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewsAnarchist — News Without the Noise</title>
-  <meta name="description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
-  <meta name="keywords" content="breaking news, politics news, world news, tech news, trending news 2026, news without bias">
+  <title>Unexplained — NewsAnarchist</title>
+  <meta name="description" content="The latest Unexplained stories — uncensored, unfiltered. NewsAnarchist covers what mainstream media won't.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://newsanarchist.com/">
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="NewsAnarchist — News Without the Noise">
-  <meta property="og:description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
-  <meta property="og:url" content="https://newsanarchist.com/">
-  <meta property="og:image" content="https://newsanarchist.com/images/og-card.png">
-  <meta property="og:site_name" content="NewsAnarchist">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NewsAnarchist — News Without the Noise">
-  <meta name="twitter:description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
-  <meta name="twitter:image" content="https://newsanarchist.com/images/og-card.png">
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "NewsAnarchist",
-    "url": "https://newsanarchist.com",
-    "description": "Breaking news, politics, tech, world affairs, and culture without the noise.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://newsanarchist.com/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "NewsAnarchist",
-    "url": "https://newsanarchist.com",
-    "logo": "https://newsanarchist.com/images/logo.png",
-    "sameAs": [
-      "https://x.com/newsanarchis",
-      "https://www.reddit.com/r/worldnews/"
-    ]
-  }
-  </script>
-
-  <!-- GA4 -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://newsanarchist.com/category/unexplained.html">
+  <link rel="stylesheet" href="../css/style.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-7N6W04M3XW');
-  </script>  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
-<script async src="https://fundingchoicesmessages.google.com/i/pub-8570942144538499?ers=1"></script>
-<script>(function() {function signalGooglefcPresent() {if (!window.frames["googlefcPresent"]) {if (document.body) {const iframe = document.createElement("iframe"); iframe.style = "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;"; iframe.style.display = "none"; iframe.name = "googlefcPresent"; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
-  <link rel="stylesheet" href="/style-fix-v2.css">
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
 </head>
 <body>
-
-  <!-- HEADER -->
   <header class="site-header">
     <div class="header-inner">
-      <a href="/" class="site-logo">
-        <div class="logo-icon">N</div>
-        <span class="logo-text">News<span>Anarchist</span></span>
-      </a>
+      <a href="/" class="site-logo"><div class="logo-icon">N</div><span class="logo-text">News<span>Anarchist</span></span></a>
       <nav class="main-nav" id="mainNav">
         <a href="/category/surveillance-state.html">Surveillance State</a>
         <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
@@ -87,161 +23,791 @@
         <a href="/category/tech-privacy.html">Tech & Privacy</a>
         <a href="/category/global-power.html">Global Power</a>
         <a href="/category/money-markets.html">Money & Markets</a>
-        <a href="/category/unexplained.html">Unexplained</a>
+        <a href="/category/unexplained.html" class="active">Unexplained</a>
         <a href="/category/true-crime.html">True Crime</a>
+        
         <a href="/trending.html">Trending</a>
       </nav>
       <div class="header-cta">
-        <button class="btn-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
+        <button class="btn-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+        <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
       </div>
     </div>
   </header>
 
-  <main class="main-content" style="max-width:900px;margin:0 auto;padding:24px 16px;">
-    <h1 style="font-size:2rem;margin-bottom:8px;">📰 👽 Unexplained</h1>
-    <p style="color:#888;margin-bottom:32px;">UFOs, government cover-ups, paranormal phenomena, and mysteries they can't debunk.</p>
-    <div class="article-grid">
-
-            <a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;"></div>
-              </div>
-              <div class="card-body">
-                <span class="card-tag">Unexplained</span>
-                <h3 class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</h3>
-                <p class="card-excerpt">PBS...</p>
-                <div class="card-meta">
-                  <span>NewsAnarchist Desk</span>
-                  <span class="dot"></span>
-                  <span>May 4, 2026</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.html" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.webp);background-size:cover;background-position:center;"></div>
-              </div>
-              <div class="card-body">
-                <span class="card-tag">Unexplained</span>
-                <h3 class="card-title">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea</h3>
-                <p class="card-excerpt">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea There's been yet another ma…...</p>
-                <div class="card-meta">
-                  <span>NewsAnarchist Desk</span>
-                  <span class="dot"></span>
-                  <span>April 20, 2026</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.html" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.webp);background-size:cover;background-position:center;"></div>
-              </div>
-              <div class="card-body">
-                <span class="card-tag">Unexplained</span>
-                <h3 class="card-title">Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space</h3>
-                <p class="card-excerpt">Russia and Ukraine have …...</p>
-                <div class="card-meta">
-                  <span>NewsAnarchist Desk</span>
-                  <span class="dot"></span>
-                  <span>April 16, 2026</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="/articles/2026-04-16-speculation-explodes-following-disappearance-of-10th-expert-with-ufo-and-nuclear.html" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-16-speculation-explodes-following-disappearance-of-10th-expert-with-ufo-and-nuclear.webp);background-size:cover;background-position:center;"></div>
-              </div>
-              <div class="card-body">
-                <span class="card-tag">Unexplained</span>
-                <h3 class="card-title">Speculation Explodes Following Disappearance Of 10th Expert With UFO And Nuclear Secrets</h3>
-                <p class="card-excerpt">Following the revelation that …...</p>
-                <div class="card-meta">
-                  <span>NewsAnarchist Desk</span>
-                  <span class="dot"></span>
-                  <span>April 16, 2026</span>
-                </div>
-              </div>
-            </a>
-
-            <a href="/articles/2026-05-01-opinion-ive-reported-on-ufo-sightings-for-decades-and-come-to-this-conclusion.html" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-01-opinion-ive-reported-on-ufo-sightings-for-decades-and-come-to-this-conclusion.webp);background-size:cover;background-position:center;"></div>
-              </div>
-              <div class="card-body">
-                <span class="card-tag">Unexplained</span>
-                <h3 class="card-title">Opinion | I’ve reported on UFO sightings for decades — and come to this conclusion</h3>
-                <p class="card-excerpt">The Washington Post...</p>
-                <div class="card-meta">
-                  <span>NewsAnarchist Desk</span>
-                  <span class="dot"></span>
-                  <span>January 29, 2026</span>
-                </div>
-              </div>
-            </a>
-    </div>
-  </main>
-
-<footer class="site-footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="logo-text">News<span>Anarchist</span></span>
-        <p class="footer-tagline">News Without the Noise. AI-powered, human-curated news covering politics, tech, world affairs, and culture — without the spin.</p>
-        <div class="footer-social">
-          <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
-          <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-          <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-          <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
-          <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
+  <div class="container" style="padding-top:40px;">
+    <div class="page-layout">
+      <main class="main-content">
+        <div class="section-header" style="margin-bottom:32px;">
+          <h1 class="section-title" style="font-size:2rem;font-weight:800;">Unexplained</h1>
+          <p style="color:#666;margin-top:8px;">66 stories — the ones they don't want you reading.</p>
         </div>
+        <div class="article-grid">
+          
+    <a href="/articles/2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-22-heres-how-trump-can-nuke-virginias-new-gerrymandered-map.webp);background-size:cover;background-position:center;min-height:180px;"></div>
       </div>
-      <div class="footer-col">
-        <h4>Categories</h4>
-        <ul class="footer-links">
-          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-          <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-          <li><a href="/category/global-power.html">Global Power</a></li>
-        </ul>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Here's How Trump Can Nuke Virginia's New Gerrymandered Map...</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Here's How Trump Can</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 22 Apr 2026</span></div>
       </div>
-      <div class="footer-col">
-        <h4>Site</h4>
-        <ul class="footer-links">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/subscribe.html">Subscribe</a></li>
-          <li><a href="/trending.html">Trending</a></li>
-          <li><a href="/sitemap.xml">Sitemap</a></li>
-          <li><a href="/rss">RSS Feed</a></li>
-        </ul>
+    </a>
+    <a href="/articles/2026-05-14-the-liberal-media-is-finally-noticing-democrats-are-willing-to-shred-the-rule-of.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-the-liberal-media-is-finally-noticing-democrats-are-willing-to-shred-the-rule-of.webp);background-size:cover;background-position:center;min-height:180px;"></div>
       </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul class="footer-links">
-          <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
-          <li><a href="/corrections.html">Corrections</a></li>
-          <li><a href="/about.html#editorial">Editorial Standards</a></li>
-        </ul>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">The Liberal Media Is Finally Noticing Democrats Are Willing To Shred The Rule Of Law</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Liberal Media Is</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 13 May 2026</span></div>
       </div>
+    </a>
+    <a href="/articles/2026-05-13-the-overhyped-nuclear-hazard-america-has-mastered.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-13-the-overhyped-nuclear-hazard-america-has-mastered.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">The Overhyped Nuclear Hazard America Has Mastered</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Overhyped Nuclea</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 13 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-13-israel-sent-iron-dome-amp-troops-to-uae-during-iran-war-amb-huckabee-confirms.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-13-israel-sent-iron-dome-amp-troops-to-uae-during-iran-war-amb-huckabee-confirms.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Israel Sent Iron Dome &amp; Troops To UAE During Iran War: Amb. Huckabee Confirms</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Israel Sent Iron Dom</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 13 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-13-chicom-among-us-maryland-gop-lawmakers-sound-alarm-over-chinese-born-delegates-a.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-13-chicom-among-us-maryland-gop-lawmakers-sound-alarm-over-chinese-born-delegates-a.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">"Chicom Among Us": Maryland GOP Lawmakers Sound Alarm Over Chinese-Born Delegate's AI Disclosure Bill</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">"Chicom Among Us": M</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 13 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-07-will-ai-make-us-wonderfully-prosperous.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-07-will-ai-make-us-wonderfully-prosperous.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Will AI Make Us Wonderfully Prosperous?</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Will AI Make Us Wond</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 06 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-06-it-just-keeps-happening-over-and-over-again.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-06-it-just-keeps-happening-over-and-over-again.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">It Just Keeps Happening Over And Over Again...</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">It Just Keeps Happen</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 06 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-06-abc-reporter-fabricated-trump-call-made-himself-the-focus-after-assassination-at.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-06-abc-reporter-fabricated-trump-call-made-himself-the-focus-after-assassination-at.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">ABC Reporter Fabricated Trump Call, Made Himself The Focus After Assassination Attempt</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">ABC Reporter Fabrica</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Wed, 06 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-03-31-project-hail-mary-writer-credits-not-going-woke-for-films-success.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-03-31-project-hail-mary-writer-credits-not-going-woke-for-films-success.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">'Project Hail Mary' Writer Credits Not Going Woke For Film's Success</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">'Project Hail Mary' </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 31 Mar 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-22-israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-22-israel-says-hezbollah-fired-rockets-breaching-lebanon-ceasefire.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Israel Says Hezbollah Fired Rockets, Breaching Lebanon Ceasefire</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Israel Says Hezbolla</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 21 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-22-a-reckoning-is-underway-at-the-fda.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-22-a-reckoning-is-underway-at-the-fda.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">A Reckoning Is Underway At The FDA</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">A Reckoning Is Under</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 21 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-21-ukraine-seeks-to-import-african-migrants-to-fill-labor-shortage-after-100s-of-10.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-ukraine-seeks-to-import-african-migrants-to-fill-labor-shortage-after-100s-of-10.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Ukraine Seeks To Import African Migrants To Fill Labor Shortage After 100s Of 1000s Dead Or Wounded At The Front</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Ukraine Seeks To Imp</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 21 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-16-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid</h3>
+        <p class="card-excerpt"><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div cla</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 12 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-17-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid</h3>
+        <p class="card-excerpt"><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div cla</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 12 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-12-what-decades-of-academic-literature-military-doctrine-says-about-effectiveness-o.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-12-what-decades-of-academic-literature-military-doctrine-says-about-effectiveness-o.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">What Decades Of Academic Literature, Military Doctrine Says About Effectiveness Of 'Decapitation Strikes'</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">What Decades Of Acad</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 12 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-05-southern-co-electricity-sales-soar-on-42-data-center-growth.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-05-southern-co-electricity-sales-soar-on-42-data-center-growth.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Southern Co. Electricity Sales Soar On 42% Data Center Growth</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Southern Co. Electri</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Tue, 05 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-23-9th-circuit-kills-californias-ice-unmasking-law.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-23-9th-circuit-kills-californias-ice-unmasking-law.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">9th Circuit Kills California's ICE Unmasking Law</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">9th Circuit Kills Ca</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 23 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-23-mo-hire-no-fire-economy-emerges-as-adp-surges-with-jobless-claims-flat.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-23-mo-hire-no-fire-economy-emerges-as-adp-surges-with-jobless-claims-flat.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">"Mo Hire, No Fire" Economy Emerges As ADP Surges With Jobless Claims Flat</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">"Mo Hire, No Fire" E</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 23 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-14-with-gop-help-house-dems-force-vote-to-give-another-13-billion-to-ukraine.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-with-gop-help-house-dems-force-vote-to-give-another-13-billion-to-ukraine.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">With GOP Help, House Dems Force Vote To Give Another $1.3 Billion To Ukraine</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">With GOP Help, House</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 14 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-14-cable-crashes-as-burnham-signals-challenge-to-uk-pm-starmer.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-cable-crashes-as-burnham-signals-challenge-to-uk-pm-starmer.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Cable Crashes As Burnham Signals Challenge To UK PM Starmer</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Cable Crashes As Bur</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 14 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-14-cuba-depletes-fuel-as-blackouts-worsen-putting-havanas-communists-under-pressure.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-cuba-depletes-fuel-as-blackouts-worsen-putting-havanas-communists-under-pressure.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Cuba Depletes Fuel As Blackouts Worsen, Putting Havana's Communists Under Pressure Ahead Of U.S. Talks</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Cuba Depletes Fuel A</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 14 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-14-europes-dependence-on-us-lng-set-to-surge.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-europes-dependence-on-us-lng-set-to-surge.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Europe's Dependence On US LNG Set To Surge</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Europe's Dependence </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 14 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-14-charitable-giving-how-to-manage-donations-with-new-tax-laws.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-14-charitable-giving-how-to-manage-donations-with-new-tax-laws.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Charitable Giving: How To Manage Donations With New Tax Laws</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Charitable Giving: H</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 14 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-08-us-conducts-new-iran-strikes-along-hormuz-corridor-trump-says-warships-came-unde.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-08-us-conducts-new-iran-strikes-along-hormuz-corridor-trump-says-warships-came-unde.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">US Conducts New Iran Strikes Along Hormuz Corridor - Trump Says Warships Came Under Fire By 'Lunatics'</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">US Conducts New Iran</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 07 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-07-canadian-prime-minister-is-playing-a-very-dangerous-game.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-07-canadian-prime-minister-is-playing-a-very-dangerous-game.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Canadian Prime Minister Is Playing A Very Dangerous Game</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Canadian Prime Minis</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Thu, 07 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-03-30-this-is-what-you-get-when-commies-are-running-nyc.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-03-30-this-is-what-you-get-when-commies-are-running-nyc.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">This Is What You Get When Commies Are Running NYC...</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">This Is What You Get</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 29 Mar 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-27-you-can-buy-a-tennessee-cave-and-turn-it-into-a-doomsday-bunker.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-27-you-can-buy-a-tennessee-cave-and-turn-it-into-a-doomsday-bunker.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">You Can Buy A Tennessee Cave And Turn It Into A Doomsday Bunker</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">You Can Buy A Tennes</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 26 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-26-hungarys-going-gay-tv-channel-dedicated-to-24-hour-lgbtqi-programs-will-soon-lau.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-26-hungarys-going-gay-tv-channel-dedicated-to-24-hour-lgbtqi-programs-will-soon-lau.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Hungary's Going Gay? TV Channel Dedicated To 24-hour LGBTQI Programs Will Soon Launch</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Hungary's Going Gay?</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 26 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-26-we-have-all-the-cards-trump-cancels-witkoff-kushner-trip-to-pakistan-for-iran-ta.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-26-we-have-all-the-cards-trump-cancels-witkoff-kushner-trip-to-pakistan-for-iran-ta.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">"We Have All The Cards": Trump Cancels Witkoff-Kushner Trip To Pakistan For Iran Talks</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">"We Have All The Car</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 26 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-26-cole-tomas-allen-idd-as-suspect-in-white-house-correspondents-dinner-shooting.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-26-cole-tomas-allen-idd-as-suspect-in-white-house-correspondents-dinner-shooting.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Cole Tomas Allen ID'd As Suspect In White House Correspondents' Dinner Shooting</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Cole Tomas Allen ID'</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 26 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-26-malaria-is-still-endemic-in-80-countries.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-26-malaria-is-still-endemic-in-80-countries.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Malaria Is Still Endemic In 80 Countries</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Malaria Is Still End</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 26 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-11-the-gerrymander-debacle-in-virginia-leaves-the-democratic-party-with-a-dangerous.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-11-the-gerrymander-debacle-in-virginia-leaves-the-democratic-party-with-a-dangerous.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">The Gerrymander Debacle In Virginia Leaves The Democratic Party With A Dangerous Agenda</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Gerrymander Deba</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 10 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-10-iran-linked-media-floats-data-tax-on-hormuz-undersea-internet-cables.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-10-iran-linked-media-floats-data-tax-on-hormuz-undersea-internet-cables.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Iran-Linked Media Floats Data Tax On Hormuz Undersea Internet Cables</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Iran-Linked Media Fl</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 10 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-10-chinese-evs-absent-from-us-roads-but-parts-under-the-hood-are-alarming.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-10-chinese-evs-absent-from-us-roads-but-parts-under-the-hood-are-alarming.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Chinese EVs Absent From U.S. Roads, But Parts Under The Hood Are Alarming</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Chinese EVs Absent F</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 10 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-democrats-melt-down-after-supreme-court-restricts-race-based-gerrymandering.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-democrats-melt-down-after-supreme-court-restricts-race-based-gerrymandering.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Democrats Melt Down After Supreme Court Restricts Race Based Gerrymandering</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Democrats Melt Down </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 03 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-congrats-elizabeth-warren-on-the-death-of-spirit-airlines.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-congrats-elizabeth-warren-on-the-death-of-spirit-airlines.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Congrats, Elizabeth Warren, On The Death Of Spirit Airlines</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Congrats, Elizabeth </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sun, 03 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-09-nick-shirley-went-to-cuba-he-almost-didnt-make-it-home.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-09-nick-shirley-went-to-cuba-he-almost-didnt-make-it-home.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Nick Shirley Went To Cuba... He Almost Didn't Make It Home</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Nick Shirley Went To</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sat, 09 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-03-berkshire-cash-hits-a-record-397-billion-after-selling-most-stocks-in-2-years.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-03-berkshire-cash-hits-a-record-397-billion-after-selling-most-stocks-in-2-years.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Berkshire Cash Hits A Record $397 Billion After Selling Most Stocks In 2 Years</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Berkshire Cash Hits </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Sat, 02 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-11-judge-who-oversaw-utah-gerrymander-resigns-for-affair-with-plaintiffs-attorney.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-11-judge-who-oversaw-utah-gerrymander-resigns-for-affair-with-plaintiffs-attorney.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Judge Who Oversaw Utah Gerrymander Resigns For Affair With Plaintiff's Attorney</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Judge Who Oversaw Ut</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 11 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-11-asp-isotopes-subsidiary-signs-mou-with-european-nuclear-technology-company-for-f.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-11-asp-isotopes-subsidiary-signs-mou-with-european-nuclear-technology-company-for-f.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">ASP Isotopes Subsidiary Signs MOU With European Nuclear Technology Company For Fuel Supply</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">ASP Isotopes Subsidi</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 11 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-11-more-states-enact-new-laws-curbing-teachers-unions.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-11-more-states-enact-new-laws-curbing-teachers-unions.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">More States Enact New Laws Curbing Teachers Unions</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">More States Enact Ne</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 11 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-05-a-property-tax-rebellion-is-emerging-in-america.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-05-a-property-tax-rebellion-is-emerging-in-america.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">A Property Tax Rebellion Is Emerging In America</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">A Property Tax Rebel</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 04 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-market-correction-risk-why-summer-2026-looks-risky.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-market-correction-risk-why-summer-2026-looks-risky.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Market Correction Risk: Why Summer 2026 Looks Risky</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Market Correction Ri</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 04 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-can-the-gop-oust-thune-to-get-the-save-america-act-passed.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-can-the-gop-oust-thune-to-get-the-save-america-act-passed.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Can The GOP Oust Thune To Get The SAVE America Act Passed?</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Can The GOP Oust Thu</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 04 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-tens-of-millions-of-taxpayers-may-be-owed-irs-refunds-from-pandemic-era-watchdog.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-tens-of-millions-of-taxpayers-may-be-owed-irs-refunds-from-pandemic-era-watchdog.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Tens Of Millions Of Taxpayers May Be Owed IRS Refunds From Pandemic Era: Watchdog</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Tens Of Millions Of </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 04 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-04-trump-disapproval-rate-hits-career-high-war-and-rising-costs-take-toll.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-04-trump-disapproval-rate-hits-career-high-war-and-rising-costs-take-toll.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Trump Disapproval Rate Hits Career-High - War And Rising Costs Take Toll</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Trump Disapproval Ra</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Mon, 04 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-24-fewer-universities-require-dei-pledges-from-faculty-candidates-report.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-24-fewer-universities-require-dei-pledges-from-faculty-candidates-report.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Fewer Universities Require DEI Pledges From Faculty Candidates: Report</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Fewer Universities R</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Fri, 24 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-24-trump-extends-jones-act-waiver-for-90-days-to-counter-fuel-price-pressures.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-24-trump-extends-jones-act-waiver-for-90-days-to-counter-fuel-price-pressures.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Trump Extends Jones Act Waiver For 90 Days To Counter Fuel Price Pressures</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Trump Extends Jones </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Fri, 24 Apr 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-16-energy-is-the-issue-nano-nuclear-highlights-reactor-and-enrichment-opportunity.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-energy-is-the-issue-nano-nuclear-highlights-reactor-and-enrichment-opportunity.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">"Energy Is The Issue" - NANO Nuclear Highlights Reactor And Enrichment Opportunity</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">"Energy Is The Issue</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Fri, 15 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-15-41-people-in-us-under-monitoring-for-hantavirus-cdc.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-15-41-people-in-us-under-monitoring-for-hantavirus-cdc.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">41 People In US Under Monitoring For Hantavirus: CDC</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">41 People In US Unde</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Fri, 15 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-01-as-anthropic-entertains-offers-at-900-billion-valuation-openai-cfo-swears-theres.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-01-as-anthropic-entertains-offers-at-900-billion-valuation-openai-cfo-swears-theres.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">As Anthropic Entertains Offers At $900 Billion Valuation, OpenAI CFO Swears There's A 'Vertical Wall Of Demand'</h3>
+        <p class="card-excerpt"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">As Anthropic Enterta</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>Fri, 01 May 2026</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-15-anonymous-forum-posted-my-personal-info-and-possibly-intimate-contenthow-do-i-re.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-15-anonymous-forum-posted-my-personal-info-and-possibly-intimate-contenthow-do-i-re.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Anonymous forum posted my personal info and possibly intimate content—how do I remove it and figure out how they got it?</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>Hi everyone, I’m really overwhelmed and hoping someone can help me understand what to </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-14T08:47</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-12-is-pi-hole-on-a-raspberry-pi-worth-it-for-whole-network-protection.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-12-is-pi-hole-on-a-raspberry-pi-worth-it-for-whole-network-protection.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Is Pi-hole on a Raspberry Pi worth it for whole-network protection?</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>Hey there, does anyone here have experience with Pi-hole?<br/> So far I’ve set it up l</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-12T08:10</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-12-why-discord-never-requested-me-for-age-verification.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-12-why-discord-never-requested-me-for-age-verification.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Why Discord never requested me for age verification?</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>Hello everyone. A few months ago, there was news that Discord was going to request age</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-11T21:13</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-09-60-of-md5-password-hashes-are-crackable-in-under-an-hour.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-09-60-of-md5-password-hashes-are-crackable-in-under-an-hour.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">60% of MD5 password hashes are crackable in under an hour</h3>
+        <p class="card-excerpt">&#32; submitted by &#32; <a href=" /u/wewewawa </a> <br/> <span><a href=" &#32; <span><a href="</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-08T15:43</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-08-us-government-releases-first-batch-of-uap-documents-and-videos.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-08-us-government-releases-first-batch-of-uap-documents-and-videos.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">US Government releases first batch of UAP documents and videos</h3>
+        <p class="card-excerpt">https:&#x2F;&#x2F;apnews.com&#x2F;article&#x2F;trump-ufos-uap-aliens-pentagon-re... https:&#x2F;&#x2F;www.war.gov&#x2F;U</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-08T12:10</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-08-is-there-any-yoti-bypass-out-there.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-08-is-there-any-yoti-bypass-out-there.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Is there any yoti bypass out there?</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>My claude account got banned for being underage and now I just wanna get it back but y</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-07T21:54</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-05-ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-un.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-05-ufo-whistleblowers-fear-being-called-crazy-as-officials-admit-encounters-with-un.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites</h3>
+        <p class="card-excerpt">UFO Whistleblowers Fear Being Called Crazy As Officials Admit Encounters With Unknown Craft Near Critical US Sites Inter</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-05T06:04</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</h3>
+        <p class="card-excerpt">Trump drops hints of what's coming in new batch of UFO files set for release PBS</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-04T19:16</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-17-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</h3>
+        <p class="card-excerpt">Trump drops hints of what's coming in new batch of UFO files set for release PBS</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-05-04T07:00</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-26-anyone-tell-me-where-this-age-verification-push-came-from.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-26-anyone-tell-me-where-this-age-verification-push-came-from.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Anyone tell me where this age verification push came from?</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>It seems that a lot of independent places around the world, have arrived at trying to </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-04-24T17:26</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-22-hr-8250-parents-decide-act-would-require-age-verification-at-the-os-level.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-22-hr-8250-parents-decide-act-would-require-age-verification-at-the-os-level.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">H.R. 8250 (Parents Decide Act) would require age verification at the OS level</h3>
+        <p class="card-excerpt"><!-- SC_OFF --><div class="md"><p>A bill currently in Congress — H.R. 8250, the Parents Decide Act — proposes requiring </p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-04-22T12:24</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-21-so-there-wasnt-an-urgency-or-imminent-threat-that-necessitated-the-february-2026.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-so-there-wasnt-an-urgency-or-imminent-threat-that-necessitated-the-february-2026.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">So, there wasn't an urgency or imminent threat that necessitated the February 2026 strikes?</h3>
+        <p class="card-excerpt"><table> <tr><td> <a href=" <img src=" alt="So, there wasn't an urgency or imminent threat that necessitated the February</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-04-21T04:32</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-21-2-southwest-planes-came-within-500-feet-in-close-call-near-nashville-airport.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-2-southwest-planes-came-within-500-feet-in-close-call-near-nashville-airport.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">2 Southwest planes came within 500 feet in close call near Nashville airport</h3>
+        <p class="card-excerpt">2 Southwest planes came within 500 feet in close call near Nashville airport CBS News FAA investigation underway after p</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-04-21T00:51</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-04-21-timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-timmy-the-whale-stranded-off-germanys-coast-swims-off-and-gets-stuckagain.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Timmy, the whale stranded off Germany's coast, swims off and gets stuck...again</h3>
+        <p class="card-excerpt">Timmy, the whale stranded off Germany's coast, swims off and gets stuck...again Euronews.com Germany news: Timmy the str</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-04-20T17:47</span></div>
+      </div>
+    </a>
+    <a href="/articles/2026-05-01-opinion-ive-reported-on-ufo-sightings-for-decades-and-come-to-this-conclusion.html" class="article-card">
+      <div class="card-image-wrap">
+        <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-01-opinion-ive-reported-on-ufo-sightings-for-decades-and-come-to-this-conclusion.webp);background-size:cover;background-position:center;min-height:180px;"></div>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Unexplained</span>
+        <h3 class="card-title">Opinion | I’ve reported on UFO sightings for decades — and come to this conclusion</h3>
+        <p class="card-excerpt">Opinion | I’ve reported on UFO sightings for decades — and come to this conclusion The Washington Post</p>
+        <div class="card-meta"><span>NewsAnarchist Desk</span><span class="dot"></span><span>2026-01-29T15:12</span></div>
+      </div>
+    </a>
+        </div>
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar-widget email-widget">
+          <div class="widget-header">📬 Daily Briefing</div>
+          <div class="widget-body">
+            <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
+            <form class="email-form" onsubmit="return false;">
+              <input type="email" class="email-input" placeholder="your@email.com">
+              <button type="submit" class="btn-email">Subscribe Free</button>
+            </form>
+          </div>
+        </div>
+        <div class="sidebar-widget">
+          <div class="widget-header">📂 Categories</div>
+          <div class="widget-body">
+            <ul style="list-style:none;padding:0;margin:0;">
+              <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
+<li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
+<li><a href="/category/government-secrets.html">Government Secrets</a></li>
+<li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
+<li><a href="/category/global-power.html">Global Power</a></li>
+<li><a href="/category/money-markets.html">Money & Markets</a></li>
+<li><a href="/category/unexplained.html">Unexplained</a></li>
+<li><a href="/category/true-crime.html">True Crime</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 NewsAnarchist. AI-assisted content disclosed in bylines. Facts first.</span>
-      <div class="footer-legal">
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/about.html">About</a>
-      </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><a href="/" class="site-logo"><div class="logo-icon">N</div><span class="logo-text">News<span>Anarchist</span></span></a></div>
+      <p style="color:#888;font-size:0.85rem;margin-top:16px;">© 2026 NewsAnarchist. The stories they don't want you reading.</p>
     </div>
   </footer>
-
-  <script src="js/main.js"></script>
-
-
+  <script src="/js/main.js"></script>
 </body>
 </html>
