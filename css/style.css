@@ -4,34 +4,34 @@
 /* ============================================
    GOOGLE FONTS
    ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap');
 
 /* ============================================
    DESIGN TOKENS
    ============================================ */
 :root {
   /* Backgrounds */
-  --bg-primary: #E8E4DF;
-  --bg-secondary: #D9D4CE;
-  --bg-card: #F5F1EC;
-  --bg-hover: #EDE9E4;
+  --bg-primary: #FAF8F3;
+  --bg-secondary: #EDE9E1;
+  --bg-card: #FFFFFF;
+  --bg-hover: #F3EFE8;
 
   /* Text */
   --text-primary: #1A1B2E;
   --text-secondary: #3D3F54;
   --text-muted: #888888;
 
-  /* NewsAnarchist accent — bold orange: confident, disruptive, but clean */
-  --accent: #2B2D42;
-  --accent-dark: #1A1B2E;
-  --accent-light: #E8E4DF;
+  /* NewsAnarchist accent — red: bold, contrarian */
+  --accent: #DC2626;
+  --accent-dark: #B91C1C;
+  --accent-light: #FEF2F2;
 
   /* Structure */
   --border-color: #E8E8E8;
   --border-dark: #D0D0D0;
 
   /* Typography */
-  --font-headline: 'DM Sans', 'Inter', sans-serif;
+  --font-headline: 'Fraunces', Georgia, serif;
   --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 
   /* Layout */
@@ -814,7 +814,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* ============================================
    ARTICLE PAGE
    ============================================ */
-.article-page { max-width: 800px; }
+.article-page { max-width: 680px; }
 
 .article-header { margin-bottom: 28px; }
 
@@ -915,8 +915,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Article Body */
 .article-body {
-  font-size: 17px;
-  line-height: 1.8;
+  font-size: 19px;
+  line-height: 1.65;
   color: #333;
 }
 
@@ -1334,9 +1334,9 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* === OVERRIDES: Red accents === */
-.nav-logo .logo-icon { background: #C41E24 !important; }
-.btn-subscribe, .email-hero-form .btn-subscribe, .btn-email { background: #C41E24 !important; border-color: #C41E24 !important; }
-.btn-subscribe:hover, .btn-email:hover { background: #A01820 !important; }
-.badge-live { background: #C41E24 !important; animation: blink-live 1.5s infinite; }
+.nav-logo .logo-icon { background: #DC2626 !important; }
+.btn-subscribe, .email-hero-form .btn-subscribe, .btn-email { background: #DC2626 !important; border-color: #DC2626 !important; }
+.btn-subscribe:hover, .btn-email:hover { background: #B91C1C !important; }
+.badge-live { background: #DC2626 !important; animation: blink-live 1.5s infinite; }
 @keyframes blink-live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
-.breaking-label { color: #C41E24 !important; }
+.breaking-label { color: #DC2626 !important; }
