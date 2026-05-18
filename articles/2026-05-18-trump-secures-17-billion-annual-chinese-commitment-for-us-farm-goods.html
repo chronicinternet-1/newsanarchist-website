@@ -168,11 +168,7 @@
           <header class="article-header">
             <span class="article-category-tag">Corporate Watchdog</span>
             <h1 class="article-headline">Trump Secures $17 Billion Annual Chinese Commitment For U.S. Farm Goods</h1>
-            ${(() => {
-              const raw = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim();
-              const isSameAsTitle = !raw || raw.toLowerCase().startsWith(title.toLowerCase().slice(0,40));
-              return isSameAsTitle ? '' : '<p class="article-subhead">' + raw + '</p>';
-            })()}
+            
             <div class="article-meta-bar">
               <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/diana-reeves.webp" alt="Diana Reeves" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;font-weight:600;">Diana Reeves</a></span>
               <span class="ai-tag">AI-Assisted</span>
