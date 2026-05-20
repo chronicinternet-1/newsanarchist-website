@@ -148,7 +148,7 @@
             <h1 class="article-headline">thoughts on 1browser and built-in proxy browsers for privacy?</h1>
             <p class="article-subhead">i’ve been digging into different <a href="/articles/2026-05-05-thoughts-on-1browser-and-built-in-proxy-browsers-for-<a href="/articles/2026-05-01-the-guard-act-isnt-targeting-dangerous-aiits-blocking-everyday-internet-use.html" title="The GUARD Act Isn’t Targeting Dangerous AI—It’s Blocking Everyday Internet Use" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;"><a href="/articles/2026-05-06-combating-age-verification-open-source-av-app.html" title="Combating Age-Verification: Open Source AV app?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a></a>.html" title="thoughts on 1browser and built-in proxy browsers for privacy?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a> setups lately, and most guides still recommend combining a regular browser with external proxy tools or configs. recently saw 1browser mentioned as an example of a browser trying to handle proxies natively, which got me wondering, does bundling that kind of functionality actually improve privacy, or just shift where</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/jordan-calloway.webp" alt="Jordan Calloway" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/jordan-calloway.html" style="color:inherit;text-decoration:none;font-weight:600;">Jordan Calloway</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 3, 2026</span>
               <span class="dot"></span>
@@ -173,6 +173,19 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # The <strong>Privacy</strong> Paradox: Why Built-In <strong>Browser</strong> Proxies May Create New Security Vulnerabilities Privacy-conscious internet users face an uncomfortable truth that tech companies and mainstream security guides consistently downplay: consolidating privacy tools into a single application may actually expand the attack surface rather than protect it. The conventional wisdom, repeated across mainstream tech publications and security forums alike, frames the solution simply: combine a regular browser with external proxy tools or custom configurations. Yet emerging discussion in privacy communities reveals this approach itself reflects an underlying assumption that goes largely unexamined—that separation of concerns is inherently protective.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/jordan-calloway.webp" alt="Jordan Calloway" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Jordan Calloway · Government Secrets & FOIA</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: 1Browser's "Built-In Privacy" Is Theater
+
+Built-in proxy browsers are security theater masquerading as solutions.
+
+1Browser claims integrated proxy = simplified privacy. Bullshit. You're trading transparency for convenience—the oldest privacy trap. Their model requires *you* to trust their infrastructure implicitly. No third-party audits I can find. No published security assessments. Just marketing.
+
+External proxies, despite friction, let you verify what you're actually routing through. You can audit configurations, switch providers, maintain control. Yes, it's harder. That's the point.
+
+1Browser's real problem: single point of failure. Compromise their infrastructure, they've compromised *everyone's* traffic simultaneously. External tools distribute that risk.
+
+Privacy isn't meant to be frictionless. If setup feels too seamless, you're not actually seeing what's happening.
+
+**Skip the "convenience" trap. Build paranoia into your workflow.**</p></div>
 
 <h2>What the Documents Show</h2>
 <p>When companies like 1browser attempt to bundle proxy functionality natively into the <strong>browser</strong> itself, they're marketing what appears to be convenience while introducing a fundamentally different risk calculation. The question <strong>privacy</strong> advocates are beginning to ask, but mainstream coverage hasn't adequately explored, is whether this consolidation actually shifts vulnerabilities rather than eliminating them. The framing problem becomes clear when examining how these solutions are typically discussed. Marketing materials emphasize "seamless integration" and "one-tool simplicity," while security researchers who study these systems remain conspicuously absent from mainstream tech journalism. By bundling proxy handling directly into browser code, any vulnerability in the proxy implementation now threatens the entire browsing engine—something that external tools don't do.</p>

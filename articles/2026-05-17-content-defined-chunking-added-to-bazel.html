@@ -169,7 +169,7 @@
             <h1 class="article-headline">Content-defined chunking added to Bazel</h1>
             
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/diana-reeves.webp" alt="Diana Reeves" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;font-weight:600;">Diana Reeves</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 13, 2026</span>
               <span class="dot"></span>
@@ -194,6 +194,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # BuildBuddy's <a href="/articles/2026-05-13-content-defined-chunking-added-to-bazel.html" title="Content-defined chunking added to Bazel" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Content</a>-Defined Chunking Reveals How Big Tech Optimizes Around <a href="/articles/2026-05-10-college-student-hacks-taiwan-high-speed-rail-line-with-software-defined-radios-s.html" title="College student hacks Taiwan high-speed rail line with software defined radios, stopping four trains" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Infrastructure</a> Inefficiency <a href="/articles/2026-05-04-ukraine-flexes-with-much-deeper-drone-reach-targeting-russias-refineries.html" title="Ukraine Flexes With Much Deeper Drone Reach Targeting Russia's Refineries" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Rather</a> Than Fixing Root Problems BuildBuddy, a remote caching service for software builds, has quietly implemented content-defined chunking in Bazel—a move that exposes how major tech infrastructure companies have normalized massive data waste as a solvable problem rather than addressing systemic design flaws. By uploading only changed portions of files instead of entire artifacts, BuildBuddy reports 40% reductions in data transfer and disk <strong>cache</strong> usage. The feature is now available in Bazel 8.7 and 9.1+ via the --experimental_remote_cache_chunking flag, yet this capability reveals what the mainstream tech press has consistently missed: the build systems powering modern software development have been fundamentally broken for years.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/diana-reeves.webp" alt="Diana Reeves" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Diana Reeves · Corporate Watchdog & Markets</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: Bazel's Content-Defined Chunking Is Corporate Standardization Masquerading as Innovation
+
+Google's latest Bazel move—embedding content-defined chunking—consolidates build-system hegemony under the guise of efficiency. This isn't progress. It's infrastructure lock-in.
+
+Content-defined chunking optimizes deduplication across massive monorepos. Translation: it makes Google's internal architecture—where thousands of engineers share one codebase—the *only* rational choice for scaling. Smaller shops suddenly look inefficient by comparison.
+
+The mechanism is clever: standardize the chunking algorithm, watch adoption follow, then own the optimization layer. AWS, Microsoft, and open-source alternatives become second-rate by design, not capability.
+
+What we're witnessing is the algorithmic enclosure of software development itself. Not through patents or licensing, but through making your alternative architecturally inferior.
+
+The tax on independence grows steeper.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>The problem CDC solves is instructive. Traditional build caching treats file digests as atomic units—when a binary or package changes even slightly, the entire output is re-uploaded and re-downloaded across distributed systems. This happens most acutely in "transitive actions," where build processes combine outputs from many dependencies into a single artifact like a compiled binary or deployment package. A tiny change upstream ripples through the dependency tree, invalidating massive final outputs. BuildBuddy's own benchmark on their codebase showed 40% efficiency gains simply by not moving the unchanged bytes, yet this optimization has been technically feasible for years.</p>

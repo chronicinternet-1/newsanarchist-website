@@ -169,7 +169,7 @@
             <h1 class="article-headline">Instagram tracking web browsing even with privacy settings?</h1>
             
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 15, 2026</span>
               <span class="dot"></span>
@@ -194,6 +194,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # <strong>Instagram</strong> Tracking Web Browsing Even With <strong>Privacy</strong> Settings **Meta collects browsing data across the web even when users enable maximum privacy protections and use private browsing mode, according to user reports corroborated across privacy-focused communities.** Users report a pattern that defies Meta's official privacy framework: searches conducted in Firefox private mode—a browser feature specifically designed to prevent tracking—correlate with targeted advertisements appearing on Instagram within seconds. One user with maximal privacy settings enabled, including uBlock and Privacy Badger extensions, documented receiving ads for a specific tool immediately after searching for that identical tool in private browsing. The temporal proximity suggests real-time data collection rather than delayed algorithmic inference.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE
+
+Meta tracks you regardless of privacy toggles. Those settings are theater.
+
+Here's the mechanism: Instagram's pixel fires on third-party sites whether you're logged in or not. The tracking persists through browser fingerprinting—your device's unique digital signature—which defeats cookie-blocking. Your uBlock and Privacy Badger catch *some* requests, but Meta's infrastructure uses first-party domains and server-side tracking that client-side tools can't intercept.
+
+The ads you're seeing prove the pipeline works. Meta correlates your browsing with behavioral profiles built from Instagram activity, device identifiers, and IP ranges. They don't need cookies when they own the infrastructure.
+
+Your privacy settings control *visibility* to other users, not data collection. This distinction matters legally—Meta complies with "privacy settings" while harvesting everything for their ad network.
+
+The only actual countermeasure: different browser profiles, VPN rotation, or simply accepting you're the product.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>This discovery exposes a gap between Meta's stated <strong>privacy</strong> controls and actual data collection practices. Meta's privacy settings allow users to restrict data sharing and limit ad targeting, creating the false impression of user agency. However, these settings appear to operate within a walled garden—they control how Meta *uses* data it has already collected, not whether collection occurs. The private browsing scenario is particularly revealing because it suggests Meta's tracking infrastructure bypasses the local privacy protections users implement on their devices, indicating collection happens at the network or account level rather than through standard browser cookies. The mainstream tech press typically frames this as a user education problem: "Are your privacy settings correct?" or "Which ad blockers actually work?" This framing implicitly accepts Meta's premise that adequate privacy is achievable through proper configuration.</p>

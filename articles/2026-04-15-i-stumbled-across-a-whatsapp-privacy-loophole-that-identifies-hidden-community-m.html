@@ -147,7 +147,7 @@
             <h1 class="article-headline">I stumbled across a WhatsApp privacy loophole that identifies hidden Community members</h1>
             <p class="article-subhead">I think I’ve accidently found a <a href="/articles/2026-03-31-is-it-safe-to-provide-ssn-and-id-online-when-applying-for-a-volunteer-job.html" title="Is it safe to provide ssn and ID online when applying for a volunteer job?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;"><a href="/articles/2026-04-15-this-is-going-to-sound-weird-but-i-think-my-church-is-selling-my-data-how-do-i-f.html" title="This is going to sound weird, but I think my church is selling my data. How do I find out?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a></a> issue with WhatsApp communities. I’m in a WhatsApp community where the Admin has hidden the member list, so members should not be able to see who else is in it. That part works as expected. However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>April 14, 2026</span>
               <span class="dot"></span>
@@ -172,6 +172,25 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> I think I’ve accidently found a <strong>privacy</strong> issue with <strong>WhatsApp</strong> communities. I’m in a WhatsApp community where the Admin has hidden the member list, so members should not be able to see who else is in it. That part works as expected.</p>
+          <!-- THE TAKE -->
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+              <img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'">
+              <div>
+                <div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div>
+                <div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div>
+              </div>
+            </div>
+            <p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;">WhatsApp's "hidden members" feature is security theater—and anyone claiming surprise at this particular leak hasn't been paying attention to how metadata works.
+
+The vulnerability here isn't accidental. It's architectural. When you hide a member list, you're obfuscating *display*, not *existence*. The protocol still needs to know who's in the group to route messages. That metadata—timestamps, typing indicators, read receipts, delivery confirmations—creates a fingerprint. Extract it systematically, correlate it across sessions, and you've identified hidden members without ever seeing the roster.
+
+This is the same reason Signal's disappearing messages remain vulnerable to screenshots and analog capture. You can't engineer privacy into a system designed for communication. Someone has to know who's talking.
+
+Meta won't fix this because it requires rearchitecting Communities entirely—move to client-side encryption of membership data, accept higher latency, deal with impossible key distribution problems. Easier to issue a statement calling it "edge case behavior" and patch the *most obvious* implementation.
+
+Users should stop treating feature toggles as security controls. They're UI affordances, nothing more.</p>
+          </div>
 
 <h2>What the Documents Show</h2>
 <p>However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro.</p>

@@ -149,7 +149,7 @@
             <h1 class="article-headline">Is Pi-hole on a Raspberry Pi worth it for whole-network protection?</h1>
             <p class="article-subhead">Hey there, does anyone here have experience with Pi-hole? So far I’ve set it up locally on my laptop through docker. But now I’m wondering if it’s worth investing in a Raspberry Pi and connecting it directly to my router to cover my entire <a href="/articles/2026-05-13-is-pi-hole-on-a-raspberry-pi-worth-it-for-whole-network-protection.html" title="Is Pi-hole on a Raspberry Pi worth it for whole-network protection?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">network</a> instead of just one machine. Did you notice any real advantages after moving to a dedicated Pi-hole setup?</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/casey-north.webp" alt="Casey North" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/casey-north.html" style="color:inherit;text-decoration:none;font-weight:600;">Casey North</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 11, 2026</span>
               <span class="dot"></span>
@@ -174,6 +174,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # Is Pi-<strong>hole</strong> on a <strong>Raspberry</strong> Pi worth it for whole-network protection? <a href="/articles/2026-05-03-what-is-the-consensus-on-privacy-with-glinet-routers.html" title="What is the consensus on privacy with GL.iNet routers?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Privacy</a>-conscious users are quietly building their own DNS filtering infrastructure at home—and the mainstream tech press has almost entirely ignored it. A Reddit discussion in r/privacy reveals a growing segment of users testing whether a dedicated Raspberry Pi running Pi-hole—open-source DNS-level ad blocking and tracking prevention software—justifies the investment beyond single-device protection.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/casey-north.webp" alt="Casey North" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Casey North · Unexplained & Emerging Tech</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: Pi-hole's Promise Meets Reality
+
+**Pi-hole evangelists oversell the security theater.** Yes, DNS blocking stops some ad trackers. But it's not "whole-network protection"—it's one layer in a leaky bucket.
+
+Here's what they won't tell you: Pi-hole blocks domains, not behaviors. Sophisticated trackers use first-party cookies and encrypted SNI anyway. Your ISP still sees everything. Your router does too.
+
+**The real win?** It actually works against *naive* tracking. That's genuinely useful for reducing noise.
+
+But dropping £50 on dedicated hardware for ad-blocking? Your laptop Docker setup already does the job. The Raspberry Pi plays into hardware collecting—gear acquisition syndrome dressed as privacy activism.
+
+**Verdict:** If you're already running it, fine. If you're not? Focus on HTTPS everywhere and browser privacy extensions first. Unsexy, but actually effective.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>The original poster had already deployed Pi-<strong>hole</strong> locally on a laptop using Docker containerization but faced a decision point: commit hardware and setup effort to protect an entire household network, or maintain the simpler single-machine approach. This question appears deceptively technical but touches something the consumer tech media routinely downplays: the practical gap between theoretical network privacy and what most people actually implement. The appeal of network-wide Pi-hole deployment lies in its scope. Running Pi-hole on dedicated hardware connected to a router theoretically intercepts DNS requests from every connected device—phones, tablets, smart TVs, IoT devices—before they reach the internet. This differs fundamentally from device-level solutions like browser extensions or VPNs, which require individual configuration and user diligence.</p>

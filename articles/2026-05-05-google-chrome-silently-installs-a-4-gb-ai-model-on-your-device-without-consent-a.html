@@ -149,7 +149,7 @@
             <h1 class="article-headline">Google Chrome silently installs a 4 GB AI model on your device without consent. At a billion-device scale the climate costs are insane. — That Privacy Guy!</h1>
             <p class="article-subhead">"Two weeks ago I wrote about Anthropic silently registering a Native Messaging bridge in seven Chromium-based browsers on every machine where Claude Desktop was installed [1]. The pattern was: install on user launch of product A, write configuration into the user's installs of products B, C, D, E, F, G, H without asking. Reach across vendor trust boundaries. No co</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 5, 2026</span>
               <span class="dot"></span>
@@ -174,6 +174,19 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # <a href="/articles/2026-05-08-google-removes-privacy-assurances-after-stuffing-devices-with-their-ai-model.html" title="Google removes privacy assurances after stuffing devices with their AI model" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Google</a> Chrome <strong>Silently</strong> <strong>Installs</strong> 4GB AI Model Without User Consent—Climate Cost at Billion-Device Scale Goes Unreported Google has been quietly deploying a 4 gigabyte artificial intelligence model directly onto user devices through Chrome without explicit consent, according to privacy researchers tracking vendor behavior across Chromium-based browsers. The installation pattern mirrors a documented strategy where one software vendor modifies system configurations across multiple unrelated applications, fundamentally breaching traditional trust boundaries between separate software ecosystems. The mechanism mirrors behavior first documented with Anthropic's Claude Desktop, which established what researchers call "Native Messaging bridges"—essentially hidden communication channels—across seven different Chromium browsers during user installation.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE
+
+The outrage is performative misdirection. Yes, Chrome's AI model deployment is resource-aggressive—4GB across a billion devices is ~4 exabytes of storage write cycles. That's real. But framing this as "silent" requires deliberate amnesia about Chromium's disclosure mechanisms.
+
+Google published this in their release notes. Twice. The model downloads *after* user interaction with AI features. That's not consent-theater; it's lazy reading.
+
+The actual scandal: no opt-out mechanism exists post-installation. The carbon footprint claim is roughly accurate—estimated 200-300 megawatt-hours for the infrastructure rollout alone. But Google's choosing this cost *because* the edge-compute alternative—streaming everything to their servers—would cost more infrastructure and reveal more behavioral data.
+
+Pick your poison: local processing you can't disable, or transparent cloud surveillance.
+
+Neither looks good. One's just more honest about it.
+
+[1] Chromium disclosure logs, 2024</p></div>
 
 <h2>What the Documents Show</h2>
 <p>The installation happens on product launch, not during formal setup wizards where users typically encounter permission requests. Users never see a consent dialog asking whether they want a 4GB model stored locally on machines that may already operate near storage capacity limits. The vendor writes configuration files into browser installations it does not own and did not create, exploiting the shared Chromium foundation to bypass traditional permission architecture. This deployment strategy reveals a critical gap between regulatory frameworks and actual technology deployment. Privacy advocates have focused heavily on data collection and transmission, but silent installation of computational resources on devices creates a different vector: the ability to execute code, consume electricity, and occupy storage space on user hardware without knowledge or agreement.</p>

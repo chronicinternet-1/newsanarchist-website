@@ -148,7 +148,7 @@
             <h1 class="article-headline">Apple Storing Deleted iMessages?</h1>
             <p class="article-subhead">In light of the recent <a href="/articles/2026-04-19-technical-brief-signal-forensic-artifacts-preventing-os-notification-leaks.html" title="Technical Brief: Signal Forensic Artifacts & Preventing OS Notification Leaks" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;"><a href="/articles/2026-03-30-freakonomics.html" title="Freakonomics" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a></a>-related bug affecting notifications/Signal messages, it reminded me of when Apple released iOS 26 back in September and there were users reporting that years-old iMessages were somehow showing up again on their devices. I can confirm this happened to me as well. I scrolled all the way to the bottom of my Messages app, and old</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>April 25, 2026</span>
               <span class="dot"></span>
@@ -173,6 +173,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> In light of the recent privacy-related bug affecting notifications/Signal messages, it reminded me of when <strong>Apple</strong> released iOS 26 back in September and there were users reporting that years-old <strong>iMessages</strong> were somehow showing up again on their devices. I can confirm this happened to me as well.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: Apple's iMessage Retention Isn't a Bug
+
+Apple isn't storing deleted messages by accident. The architecture doesn't work that way.
+
+When iOS 26 rolled out, users screaming about "recovered" iMessages missed the technical reality: Apple's CloudKit infrastructure maintains shadow copies for synchronization across devices. This isn't negligence—it's intentional design. Messages flagged "deleted" are soft-deleted, not cryptographically destroyed.
+
+The Signal integration hiccup? That exposed the gap between marketing ("end-to-end encrypted") and infrastructure (cloud backups, device sync, law enforcement cooperation protocols). Apple knows exactly where these messages live.
+
+Stop calling it a bug. Call it what it is: architectural choice. Tim Cook's encryption theater requires plausible deniability, and soft-deletion provides exactly that. When the Feds knock, Apple doesn't hand over deleted messages—they hand over *recoverable* ones. Same outcome, different legal framing.
+
+The privacy theater continues.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>This story originates from <a href="https://www.reddit.com/r/privacy/comments/1svwqj3/apple_storing_deleted_imessages/" rel="noopener noreferrer nofollow" target="_blank">r/privacy</a>. The details have received minimal coverage from major outlets — which should tell you something. <strong>tech-&-privacy news</strong> is at the center of what's emerging.</p>

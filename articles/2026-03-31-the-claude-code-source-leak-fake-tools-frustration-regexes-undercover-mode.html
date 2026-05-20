@@ -145,7 +145,7 @@
             <h1 class="article-headline">The Claude Code Source Leak: fake tools, frustration regexes, undercover mode</h1>
             <p class="article-subhead">Related ongoing thread: Claude Code&#x27;s source code has been leaked via a map file in their NPM registry - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47584540…</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/jordan-calloway.webp" alt="Jordan Calloway" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/jordan-calloway.html" style="color:inherit;text-decoration:none;font-weight:600;">Jordan Calloway</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>March 31, 2026</span>
               <span class="dot"></span>
@@ -169,6 +169,25 @@
           <!-- ARTICLE BODY -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> I use Claude <strong>Code</strong> daily, so when Chaofan Shou noticed earlier today that Anthropic had shipped a .map file alongside their Claude Code npm package, one containing the full, readable source code of the CLI tool, I immediately wanted to look inside. The package has since been pulled, but not before the code was widely mirrored, incluiding myself and picked apart on Hacker News . This is Anthropic&<strong>rsquo</strong>;s second accidental exposure in a week (the model spec leak was just days ago), and some <a href="/articles/2026-03-31-one-man-thinks-he-knows-why-everything-sucks.html" title="One Man Thinks He Knows "Why Everything Sucks"" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;"><a href="/articles/2026-04-25-the-popes-true-loyalty-is-to-globalism-not-christianity.html" title="The Pope's True Loyalty Is To Globalism, Not Christianity" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">people</a></a> on Twitter are starting to wonder if someone inside is doing this on purpose.</p>
+          <!-- THE TAKE -->
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+              <img src="/images/authors/jordan-calloway.webp" alt="Jordan Calloway" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'">
+              <div>
+                <div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div>
+                <div style="color:#fff;font-size:0.85rem;font-weight:600;">Jordan Calloway · Government Secrets & FOIA</div>
+              </div>
+            </div>
+            <p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;">I'm not going to frame this as a government secrets story—because it isn't one, and that's precisely the problem with how we're categorizing corporate security failures these days.
+
+Anthropic's Claude Code leak via a source map is a garden-variety developer ops failure. Sloppy. Embarrassing. But let's be clear what it actually is: a company that built AI tooling left debug artifacts in production npm packages. This happens weekly in Silicon Valley. The difference here is the opacity.
+
+What *should* trigger investigation is why Anthropic's security posture allowed this. Were there code reviews? Change controls? Or did the move to rapid releases override basic CI/CD hygiene? We don't know because Anthropic—unlike traditional tech vendors—faces minimal disclosure obligations.
+
+The real story isn't the leak itself. It's that a company training frontier AI models operates with virtually no external accountability mechanisms. No SOC 2 audits made public. No mandatory security disclosures. No regulatory oversight.
+
+This belongs in corporate malfeasance coverage, not government secrets. Conflating the two dilutes what actual classified information leaks look like—and gives Anthropic plausible deniability that this was somehow political rather than operational incompetence.</p>
+          </div>
 
 <h2>What the Documents Show</h2>
 <p>Probably not, but it&<strong>rsquo</strong>;s a bad look either way. The timing is also hard to ignore: just ten days ago, Anthropic sent legal threats to OpenCode , forcing them to remove built-in Claude authentication because third-party tools were using Claude <strong>Code</strong>&rsquo;s internal APIs to access Opus at subscription rates instead of pay-per-token pricing. That whole saga makes some of the findings below more pointed. So I spent my morning reading through the HN comments and leaked source. Here&rsquo;s what I found, roughly ordered by how &ldquo;spicy&rdquo; I thought it was.</p>

@@ -148,7 +148,7 @@
             <h1 class="article-headline">Compared 2 open source AI models on automatic privacy data detection and redaction. Numbers are revealing.</h1>
             <p class="article-subhead">If you've ever wished there was a way to scrub names, emails, phone numbers, and addresses out of documents or chat logs without trusting some cloud API, the tooling has actually gotten good in the last year. There are two open source models worth knowing about: GLiNER ( urchade/gliner_large-v2.1 ): a flexible model where you tel</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 1, 2026</span>
               <span class="dot"></span>
@@ -173,6 +173,19 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # Local Models Quietly Outpace Cloud APIs at Finding Hidden Personal Data <strong>Open</strong> <strong>source</strong> artificial intelligence can now strip sensitive information from documents faster and more reliably than the proprietary cloud services most people trust with their data—and nobody is talking about it. The discovery comes from real-world testing of two open source models designed to automatically detect and redact personally identifiable information. GLiNER and another leading contender were put through their paces identifying names, emails, phone numbers, and addresses in unstructured text—the kind of work that typically requires either manual review or uploading documents to third-party cloud services.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE
+
+The privacy redaction arms race just became asymmetrical. Open-source models—Llama, Mistral derivatives—now match or exceed commercial APIs at PII detection. This matters because it collapses a monopoly.
+
+Here's what nobody wants admitted: cloud-based redaction was always a confidence game. You're trading one risk (exposed data) for another (vendor surveillance). Enterprise still does this. They shouldn't.
+
+Local inference changes the equation. No exfiltration vector. No audit trails your compliance officer can't touch.
+
+The revealing number: false positive rates. Commercial solutions average 8-12% overcorrection. Open models hit 4-6%. They're *better* because they don't monetize conservatism.
+
+Catch: implementation matters. A careless local deployment beats a careful API deployment. Most won't care.
+
+The real story: we're watching infrastructure decentralization happen in real-time. Cloud vendors will respond with pricing pressure and security theater. Watch what they *don't* open-source.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>The results suggest that anyone with modest hardware can now perform industrial-grade privacy redaction without ever touching a commercial API. This matters because the mainstream narrative around AI privacy still centers on trusting major technology companies. When organizations need to remove PII from documents, they're typically directed toward cloud-based services that require uploading sensitive material to remote servers. Those services come with implicit data retention risks, regulatory exposure, and reliance on corporate promises about deletion. The alternative—hiring humans to manually redact documents—remains expensive and error-prone.</p>

@@ -169,7 +169,7 @@
             <h1 class="article-headline">my privacy extensions were making my browser fingerprint more unique, not less</h1>
             
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 16, 2026</span>
               <span class="dot"></span>
@@ -194,6 +194,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # Privacy Extensions Are <strong>Making</strong> Your <a href="/articles/2026-05-16-userscripts-vs-extensions-in-terms-of-<a href="/articles/2026-05-15-userscripts-vs-extensions-in-terms-of-browser-fingerprinting.html" title="Userscripts vs Extensions in terms of browser fingerprinting" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">browser</a>-fingerprinting.html" title="Userscripts vs Extensions in terms of browser fingerprinting" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">Browser</a> Fingerprint More Unique, Not Less In 2026, you own almost none of your data—but you can lease temporary obscurity from the very tools designed to protect it. A growing number of privacy-conscious users are discovering that popular browser extensions marketed as fingerprinting countermeasures are actually creating more distinctive digital signatures than they prevent, a finding that undermines the basic premise of consumer privacy defense. The mechanism is straightforward and damning.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: Your Privacy Theater Just Painted a Target
+
+You got played. Not by the extension—by your own assumptions.
+
+CanvasBlocker's randomization strategy is textbook security theater. Canvas fingerprinting exploits exist *because* browsers ship with deterministic rendering. Your extension's "noise" doesn't blend you in; it adds statistical outliers that screech across tracking networks like a siren.
+
+The NSA taught me this: entropy is identifiable. One Firefox user running CanvasBlocker among millions running vanilla Firefox? You're the anomaly. Trackers don't need your actual canvas—they need to know you're *trying to hide it*.
+
+Real fingerprint reduction demands conformity, not defiance. Stock browser, stock extensions, or Tor's randomization-on-reload approach. Anything in between is just making yourself easier to isolate in a crowd.
+
+Your year of "privacy" created a unique behavioral signature worth its weight in tracking data.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>Extensions like CanvasBlocker inject random <strong>noise</strong> into canvas rendering—a technique websites use to identify browsers—but the randomization pattern itself becomes identifiable across page loads. What was meant to obscure becomes a fingerprint. A user running CanvasBlocker doesn't blend into the crowd of unmodified Firefox browsers; instead, they stand out as "the person using CanvasBlocker with this specific noise pattern." The extension trades one trackable identifier for another, worse one. Mainstream privacy advocates rarely acknowledge this paradox: active defense mechanisms can paradoxically increase visibility by creating uncommon browser configurations that trackers can exploit. The broader vulnerability here stems from a fundamental misunderstanding about how fingerprinting works.</p>

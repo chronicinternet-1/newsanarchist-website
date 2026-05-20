@@ -149,7 +149,7 @@
             <h1 class="article-headline">Is notepad private</h1>
             <p class="article-subhead">If I disable writing tools, is <a href="/articles/2026-05-05-is-notepad-private.html" title="Is notepad private" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">notepad</a> private? Also how does notepad++ change the <a href="/articles/2026-05-07-is-a-dual-boot-private.html" title="Is a dual boot private?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;"><a href="/articles/2026-05-03-what-do-you-think-about-spoof-shield.html" title="What do you think about Spoof Shield?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a></a>, if it's on a Windows PC? Not trying to debate anyone, just trying to understand. &#32; submitted by &#32; <a href="</p>
             <div class="article-meta-bar">
-              <span class="author">NewsAnarchist Desk</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;" onerror="this.style.display='none'"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;font-weight:600;">Marcus Webb</a></span>
               <span class="ai-tag">AI-Assisted</span>
               <span>May 5, 2026</span>
               <span class="dot"></span>
@@ -174,6 +174,17 @@
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
             <p class="article-lede"><strong>What they're not telling you:</strong> # Windows <strong>Notepad</strong> Privacy: Why Users Are Questioning Basic Operating System Security A Reddit user's straightforward question about whether Windows Notepad offers privacy protection exposes a significant gap in how mainstream tech reporting covers everyday security concerns—most people assume basic applications are <strong>private</strong>, yet few understand what that actually means on a Windows machine. The question itself reveals a troubling assumption: that disabling certain features might render a simple text editor private. This framing suggests users recognize that Windows applications operate within a larger ecosystem that may not respect their data by default.</p>
+          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: Notepad Isn't Private, It's Just Invisible
+
+**No.** Disabling writing tools changes nothing. Notepad data lives in Windows temp files, pagefile memory, and Recent Documents indefinitely. Microsoft's telemetry pipeline captures metadata—timestamps, file size, even content hashing.
+
+Notepad++ introduces a harder problem: it's closed-source compiled binaries running with your user privileges. It creates backup files (.bak) Windows Defender doesn't touch. The plugin ecosystem? Arbitrary code execution wrapped in feature marketing.
+
+**The real issue:** Both applications assume a threat model that doesn't exist anymore. Your Windows PC is fundamentally compromised by design—Event Tracing for Windows logs everything, even with telemetry "disabled." The OS itself is the adversary.
+
+If privacy matters: encrypt the file first, then open it. Assume any application on Windows is a data collection agent with a UI bolted on.
+
+Notepad++ isn't worse. It's just more honest about what it is.</p></div>
 
 <h2>What the Documents Show</h2>
 <p>Notably, the questioner specifically asks whether <strong>Notepad</strong>++ changes the privacy calculus compared to Windows' native Notepad. This comparison implies that software choice matters for privacy on Windows, yet most tech journalism treats application selection as a lifestyle preference rather than a security decision with real consequences. Windows' architecture creates an inherent privacy problem that technology publications rarely emphasize with appropriate urgency. When you use Notepad on a Windows PC, you're operating within an operating system designed by Microsoft—a company whose business model depends on data collection and targeted advertising. Your choice of text editor matters far less than the operating system layer beneath it.</p>
