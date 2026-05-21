@@ -1736,12 +1736,12 @@ button[type="submit"] {
 }
 
 .hero-img-placeholder {
-  position: absolute !important;
-  top: 0; left: 0; right: 0; bottom: 0 !important;
   width: 100% !important;
   height: 100% !important;
+  min-height: inherit !important;
   background-size: cover !important;
   background-position: center !important;
+  position: relative !important;
 }
 
 .hero-overlay {
