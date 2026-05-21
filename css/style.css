@@ -4,43 +4,39 @@
 /* ============================================
    GOOGLE FONTS
    ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap');
 
 /* ============================================
    DESIGN TOKENS
    ============================================ */
 :root {
-  /* Backgrounds */
+  /* === NEWSPAPER CHASSIS — NewsAnarchist 2026 === */
   --bg-primary: #FAF8F3;
-  --bg-secondary: #EDE9E1;
+  --bg-secondary: #F0ECE4;
   --bg-card: #FFFFFF;
-  --bg-hover: #F3EFE8;
-
-  /* Text */
-  --text-primary: #1A1B2E;
-  --text-secondary: #3D3F54;
-  --text-muted: #888888;
-
-  /* NewsAnarchist accent — red: bold, contrarian */
-  --accent: #DC2626;
-  --accent-dark: #B91C1C;
+  --bg-hover: #F5F1EB;
+  --bg-dark: #111111;
+  --text-primary: #111111;
+  --text-secondary: #444444;
+  --text-muted: #777777;
+  --text-on-dark: #FAF8F3;
+  --accent: #B91C1C;
+  --accent-dark: #7F1D1D;
   --accent-light: #FEF2F2;
-
-  /* Structure */
-  --border-color: #E8E8E8;
-  --border-dark: #D0D0D0;
-
-  /* Typography */
+  --border-color: #DEDAD2;
+  --border-dark: #111111;
+  --rule-light: #EAE5DB;
   --font-headline: 'Fraunces', Georgia, serif;
   --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-
-  /* Layout */
+  --font-article: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --max-width: 1280px;
-  --radius: 10px;
-  --radius-sm: 6px;
-  --shadow-sm: 0 1px 4px rgba(0,0,0,0.07);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
-  --shadow-hover: 0 8px 24px rgba(0,0,0,0.13);
+  --article-width: 720px;
+  --radius: 2px;
+  --radius-sm: 2px;
+  --radius-card: 3px;
+  --shadow-sm: 0 1px 0 rgba(0,0,0,0.08);
+  --shadow-md: none;
+  --shadow-hover: none;
 }
 
 /* ============================================
@@ -1340,3 +1336,219 @@ img { max-width: 100%; height: auto; display: block; }
 .badge-live { background: #DC2626 !important; animation: blink-live 1.5s infinite; }
 @keyframes blink-live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 .breaking-label { color: #DC2626 !important; }
+
+
+/* ============================================
+   NEWSPAPER ARTICLE BODY — Source Serif 4
+   ============================================ */
+
+/* Reading progress bar */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  width: 0%;
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+/* Article page — newspaper body */
+.article-page .article-body,
+article .article-body {
+  font-family: var(--font-article);
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text-primary);
+  max-width: var(--article-width);
+}
+
+.article-page .article-body p,
+article .article-body p {
+  margin-bottom: 1.4em;
+}
+
+.article-page .article-body h2,
+article .article-body h2 {
+  font-family: var(--font-headline);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 2.5em 0 0.6em;
+  color: var(--text-primary);
+}
+
+.article-page .article-body h3,
+article .article-body h3 {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: 2em 0 0.5em;
+}
+
+/* Flatten cards — border not shadow */
+.article-card,
+.card {
+  border-radius: var(--radius-card) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--border-color) !important;
+  transition: border-color 0.15s ease !important;
+}
+
+.article-card:hover,
+.card:hover {
+  box-shadow: none !important;
+  border-color: var(--border-dark) !important;
+  transform: none !important;
+}
+
+/* Card image — 3:2 ratio */
+.card-img-placeholder,
+.card-image-wrap img {
+  aspect-ratio: 3 / 2 !important;
+  border-radius: 0 !important;
+}
+
+/* Category tags — sharper */
+.card-tag,
+.article-tag,
+.kicker {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Section dividers — strong horizontal rule */
+.content-section {
+  border-top: 2px solid var(--border-dark);
+  padding-top: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.section-title {
+  font-family: var(--font-body) !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--text-primary) !important;
+}
+
+/* Hero section — newspaper front page style */
+.hero-section {
+  border-top: 3px solid var(--border-dark);
+  padding-top: var(--space-5);
+}
+
+.hero-section .section-header {
+  border-bottom: 1px solid var(--rule-light);
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+/* Headline cards — tighter, more text-forward */
+.card-title,
+.hero-title {
+  font-family: var(--font-headline) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* THE TAKE callout — Semaform style */
+.the-take,
+.take-block,
+[class*="take"] {
+  background: #FAF2E8;
+  border-left: 4px solid var(--accent);
+  padding: 1.25em 1.5em;
+  margin: 2em 0;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* Sidebar widgets — newspaper masthead style */
+.sidebar-widget {
+  border-radius: 0 !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: none !important;
+}
+
+.widget-header {
+  font-family: var(--font-body) !important;
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  background: var(--bg-dark) !important;
+  color: var(--text-on-dark) !important;
+  padding: 8px 14px !important;
+  border-radius: 0 !important;
+}
+
+/* Trending items — tight list */
+.trending-item {
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding: 9px 14px !important;
+}
+
+.trending-title {
+  font-size: 0.8rem !important;
+  line-height: 1.35 !important;
+  font-weight: 500 !important;
+}
+
+.trending-num {
+  font-family: var(--font-body) !important;
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  color: var(--accent) !important;
+  min-width: 18px !important;
+}
+
+/* Footer — reduce gap */
+.newsletter-section {
+  margin-top: 0 !important;
+  padding: 32px 20px !important;
+  border-top: 2px solid var(--border-dark) !important;
+  background: var(--bg-secondary) !important;
+}
+
+.site-footer {
+  margin-top: 0 !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+/* Subscribe button — newspaper CTA */
+.btn-subscribe,
+.btn-email,
+button[type="submit"] {
+  background: var(--accent) !important;
+  border-radius: var(--radius-sm) !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.btn-subscribe:hover,
+.btn-email:hover {
+  background: var(--accent-dark) !important;
+}
+
+/* Mobile — readable at 17px */
+@media (max-width: 768px) {
+  .article-page .article-body,
+  article .article-body {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+}
