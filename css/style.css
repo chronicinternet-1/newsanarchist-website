@@ -911,9 +911,11 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Article Body */
 .article-body {
+  font-family: var(--font-article);
   font-size: 19px;
-  line-height: 1.65;
-  color: #333;
+  line-height: 1.75;
+  color: var(--text-primary);
+  max-width: var(--article-width);
 }
 
 .article-body p { margin-bottom: 20px; }
@@ -1551,4 +1553,174 @@ button[type="submit"] {
     font-size: 17px;
     line-height: 1.7;
   }
+}
+
+/* ============================================
+   NEWSPAPER OVERRIDES v2 — hero, sidebar, rules
+   ============================================ */
+
+/* Remove rounded corners from ALL images */
+.card-img-placeholder,
+.hero-main .card-img-placeholder,
+.hero-secondary .card-img-placeholder,
+.article-card img,
+.card-image-wrap,
+.card-image-wrap img,
+.card-image-wrap .card-img-placeholder {
+  border-radius: 0 !important;
+}
+
+/* Hero section — strong top rule, newspaper front page */
+.hero-section {
+  border-top: 3px solid var(--border-dark) !important;
+  padding-top: 16px !important;
+}
+
+.section-header {
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Section title — uppercase sans label, not serif */
+.section-title {
+  font-family: var(--font-body) !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--text-primary) !important;
+}
+
+/* Content section dividers — strong rule */
+.content-section {
+  border-top: 2px solid var(--border-dark) !important;
+  padding-top: 20px !important;
+  margin-top: 32px !important;
+}
+
+/* Sidebar widget headers — no emoji, clean newspaper masthead */
+.widget-header {
+  font-family: var(--font-body) !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.14em !important;
+  background: var(--bg-dark) !important;
+  color: var(--text-on-dark) !important;
+  padding: 8px 14px !important;
+  border-radius: 0 !important;
+}
+
+/* Card titles — tighter leading */
+.card-title {
+  font-family: var(--font-headline) !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--text-primary) !important;
+}
+
+.hero-title {
+  font-family: var(--font-headline) !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Card meta — Inter small caps style */
+.card-meta {
+  font-family: var(--font-body) !important;
+  font-size: 0.72rem !important;
+  color: var(--text-muted) !important;
+  margin-top: 6px !important;
+}
+
+/* Card tag — red uppercase eyebrow */
+.card-tag {
+  font-family: var(--font-body) !important;
+  font-size: 0.65rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--accent) !important;
+  background: none !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Trending items — tighter */
+.trending-item {
+  padding: 8px 14px !important;
+  border-bottom: 1px solid var(--rule-light) !important;
+  gap: 10px !important;
+}
+
+.trending-title {
+  font-size: 0.78rem !important;
+  line-height: 1.3 !important;
+  color: var(--text-primary) !important;
+}
+
+.trending-count {
+  font-size: 0.65rem !important;
+  color: var(--text-muted) !important;
+}
+
+.trending-num {
+  font-size: 0.65rem !important;
+  font-weight: 700 !important;
+  color: var(--accent) !important;
+  min-width: 16px !important;
+}
+
+/* Newsletter section — tighter gap */
+.newsletter-section {
+  margin-top: 0 !important;
+  padding: 28px 20px !important;
+  border-top: 2px solid var(--border-dark) !important;
+  background: var(--bg-secondary) !important;
+}
+
+/* Footer — flush */
+.site-footer {
+  margin-top: 0 !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+/* Article page byline — Inter small */
+.article-meta,
+.author-line,
+.article-byline {
+  font-family: var(--font-body) !important;
+  font-size: 0.8rem !important;
+  color: var(--text-muted) !important;
+  border-bottom: 1px solid var(--rule-light) !important;
+  padding-bottom: 12px !important;
+  margin-bottom: 24px !important;
+}
+
+/* Reading progress bar */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  width: 0%;
+  z-index: 9999;
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+
+/* Badge live — keep red pill */
+.badge-live {
+  background: var(--accent) !important;
+  color: #fff !important;
+  font-size: 0.6rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  border-radius: 2px !important;
+  padding: 2px 6px !important;
 }
