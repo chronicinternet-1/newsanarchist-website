@@ -23,8 +23,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_DIR = path.resolve(__dirname, '..');
-const ARTICLES_DIR = path.join(SITE_DIR, 'articles');
-const DB_PATH = path.join(SITE_DIR, 'generated-articles.json');
+const ARTICLES_DIR = path.resolve(SITE_DIR, 'articles');
+const DB_FILE = path.resolve(SITE_DIR, 'generated-articles.json');
 const SITE_URL = 'https://newsanarchist.com';
 const GA4_ID = 'G-7N6W04M3XW';
 const BATCH_SIZE = 200;
@@ -552,7 +552,7 @@ function gitCommitAndPush(batchNum, count) {
 
 async function main() {
   console.log('Reading generated-articles.json...');
-  const rawDb = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
+  const rawDb = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
   const allArticles = Array.isArray(rawDb) ? rawDb : [];
 
   // De-duplicate by filename, keeping the last entry (most complete data)
