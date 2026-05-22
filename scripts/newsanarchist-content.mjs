@@ -802,20 +802,23 @@ function buildArticleHTML(topic) {
   const articleUrl = `${SITE_URL}/articles/${slug}`;
 
   const seoTitle = buildSeoTitle(title);
-  // Compute subhead at build time — not as browser IIFE
-  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-\u2013\u2014:,\.]+/,'').trim();
-  const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : '<p class="article-subhead">' + rawSubhead + '</p>';
+  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim();
+  const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : `<p class="article-dek">${rawSubhead}</p>`;
   const articleBody = buildArticleBody(topic);
   const readTime = estimateReadTime(articleBody + ' '.repeat(100));
   const metaDesc = buildMetaDescription(title, description);
   const kw = keywords || [];
-  const emoji = categoryEmoji(category);
   const catSlug = CATEGORY_SLUGS[category] || 'government-secrets';
+  const author = getAuthor(category);
+  const hasImage = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
+  const ogImage = hasImage ? `${SITE_URL}/images/articles/${slug}.webp` : `${SITE_URL}/images/og-default.webp`;
+  const heroImageStyle = hasImage
+    ? `background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;`
+    : 'background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);';
 
-  // Sidebar: self-contained, no rebuildHomepage dependency
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
     const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
-    return '<a href="/category/' + cSlug + '.html" class="trending-item"><span class="trending-num">' + (i+1) + '</span><div><div class="trending-title">' + cat + '</div></div></a>';
+    return `<a href="/category/${cSlug}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${cat}</div></div></a>`;
   }).join('');
   let sidebarTrendingHTML = '';
   try {
@@ -825,45 +828,39 @@ function buildArticleHTML(topic) {
       const _sl = a.filename || a.slug || '';
       const _ti = (a.title || 'Article').slice(0, 60);
       const _rd = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
-      return '<a href="/articles/' + _sl + '.html" class="trending-item"><span class="trending-num">' + (i+1) + '</span><div><div class="trending-title">' + _ti + '</div><div class="trending-count">' + _rd + '</div></div></a>';
+      return `<a href="/articles/${_sl}" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${_ti}</div><div class="trending-count">${_rd}</div></div></a>`;
     }).join('');
   } catch(e) { sidebarTrendingHTML = sidebarCategoriesHTML; }
   const keywordsStr = kw.join(', ');
 
-  // Related articles HTML
   let relatedHTML = '';
   const related = (relatedArticles || []).slice(0, 2);
   for (const rel of related) {
     const relSlug = rel.slug || slugify(rel.title || 'article');
     const relCat = rel.category || 'Government Secrets';
-    const relEmoji = categoryEmoji(relCat);
-    relatedHTML += `
-              <a href="/articles/${relSlug}.html" class="card">
-                <div class="card-image" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div>
-                <div class="card-body">
+    relatedHTML += `<a href="/articles/${relSlug}.html" class="card">
+              <div class="card-image" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div>
+              <div class="card-body">
+                <div class="card-meta">
                   <span class="genre-label">${relCat}</span>
-                  <h3 class="card-title">${rel.title || 'Related Story'}</h3>
-                  <div class="card-meta"><span>${dateDisplay}</span></div>
+                  <span class="dot-sep">·</span>
+                  <span class="card-date">${dateDisplay}</span>
                 </div>
-              </a>`;
+                <div class="card-title">${rel.title || 'Related Story'}</div>
+              </div>
+            </a>`;
   }
 
-  const tagPills = kw.slice(0, 7).map(k =>
-    `<a href="/tag/${slugify(k)}" class="tag">${k}</a>`
-  ).join('\n            ');
-
-  // Build nav links for new categories
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     const active = cat === category ? ' class="active"' : '';
     return `<li><a href="/category/${cs}.html"${active}>${cat}</a></li>`;
-  }).join('\n          ');
+  }).join('\n        ');
 
-  // Footer category links
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     return `<a href="/category/${cs}.html">${cat}</a>`;
-  }).join('\n          ');
+  }).join('\n        ');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -876,29 +873,29 @@ function buildArticleHTML(topic) {
   <meta name="robots" content="index, follow">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="canonical" href="${articleUrl}">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:title" content="${seoTitle.replace(/"/g, '&quot;')}">
   <meta property="og:description" content="${metaDesc.replace(/"/g, '&quot;')}">
   <meta property="og:url" content="${articleUrl}">
-  <meta property="og:image" content="${fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp')) ? SITE_URL + '/images/articles/' + slug + '.webp' : SITE_URL + '/images/og-default.webp'}">
+  <meta property="og:image" content="${ogImage}">
   <meta property="og:site_name" content="NewsAnarchist">
   <meta property="article:published_time" content="${dateISO}">
   <meta property="article:modified_time" content="${new Date().toISOString()}">
-  <meta property="article:author" content="${getAuthor(category).name}">
+  <meta property="article:author" content="${author.name}">
   <meta property="article:section" content="${category}">
   <meta property="article:tag" content="${kw.slice(0, 5).join(', ')}">
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${seoTitle.replace(/"/g, '&quot;')}">
   <meta name="twitter:description" content="${truncate(metaDesc, 180).replace(/"/g, '&quot;')}">
-  <meta name="twitter:image" content="${fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp')) ? SITE_URL + '/images/articles/' + slug + '.webp' : SITE_URL + '/images/og-default.webp'}">
+  <meta name="twitter:image" content="${ogImage}">
 
-  <!-- JSON-LD Article Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -910,30 +907,20 @@ function buildArticleHTML(topic) {
     "dateModified": "${new Date().toISOString()}",
     "author": {
       "@type": "Person",
-      "name": "${getAuthor(category).name}",
-      "url": "${getAuthor(category).slug ? 'https://newsanarchist.com/authors/' + getAuthor(category).slug + '.html' : 'https://newsanarchist.com/about.html'}"
+      "name": "${author.name}",
+      "url": "${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"
     },
     "publisher": {
       "@type": "Organization",
       "name": "NewsAnarchist",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "${SITE_URL}/images/logo.png"
-      }
+      "logo": { "@type": "ImageObject", "url": "${SITE_URL}/images/logo.png" }
     },
-    "image": {
-      "@type": "ImageObject",
-      "url": "${SITE_URL}/images/og-default.webp",
-      "width": 1200,
-      "height": 630
-    },
+    "image": { "@type": "ImageObject", "url": "${ogImage}", "width": 1200, "height": 630 },
     "articleSection": "${category}",
     "keywords": ${JSON.stringify(kw)},
     "isAccessibleForFree": true
   }
   </script>
-
-  <!-- JSON-LD Breadcrumb -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -946,234 +933,132 @@ function buildArticleHTML(topic) {
   }
   </script>
 
-  <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${GA4_ID}');
-  </script>
-
-  <!-- AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
-
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="masthead">
-    <div class="masthead-inner">
-      <a href="/" class="masthead-brand">
-        <span class="masthead-wordmark">News<span>Anarchist</span></span>
-      </a>
-      <nav class="nav-bar" id="mainNav">
-        <ul class="nav-list">
-          ${navLinks}
-          <li><a href="/trending.html">Trending</a></li>
-          <li><a href="/buried-week.html">The Buried Week</a></li>
-        </ul>
-      </nav>
-      <div class="header-cta">
-        <button class="masthead-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-top">
+      <div style="width:120px;"></div>
+      <div class="masthead-brand">
+        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
+        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
       </div>
+      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
     </div>
-  </header>
-
-  <!-- BREAKING TICKER -->
-  <div class="breaking-bar">
-    <span class="breaking-label">UNCENSORED</span>
-    <div class="ticker-track" id="tickerTrack">
-      <span class="ticker-item">${seoTitle}</span>
-      <span class="ticker-item">NewsAnarchist — The stories they don't want you reading</span>
-    </div>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        ${navLinks}
+        <li><a href="/trending.html">Trending</a></li>
+        <li><a href="/buried-week.html">The Buried Week</a></li>
+      </ul>
+    </nav>
   </div>
+</header>
 
-  <!-- ARTICLE PAGE -->
-    <div class="page-layout-with-sidebar">
-      <main>
-        <article class="article-wrapper">
-
-          <!-- BREADCRUMB -->
-          <nav class="article-breadcrumb">
-            <a href="/">Home</a> / <a href="/category/${catSlug}.html">${category}</a> / ${truncate(seoTitle, 60)}
-          </nav>
-
-          <!-- ARTICLE HEADER -->
-          <header class="article-header">
-            <span class="article-category-label">${category}</span>
-            <h1 class="article-headline">${title}</h1>
-            ${subheadHTML}
-            <div class="article-byline">
-              ${(() => {
-                const a = getAuthor(category);
-                const photo = a.slug
-                  ? `<div class="byline-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div>`
-                  : '';
-                const link = a.slug
-                  ? `<a href="/authors/${a.slug}.html" class="byline-name">${a.name}</a>`
-                  : `<span class="byline-name">${a.name}</span>`;
-                return `${photo}${link}<span class="byline-role">${a.beat || ''}</span>`;
-              })()}
-              <span class="ai-tag">AI-Assisted</span>
-              <span class="byline-meta">${dateDisplay}</span>
-              <span class="dot-sep"></span>
-              <span class="byline-meta">${readTime}</span>
-            </div>
-          </header>
-
-          <!-- FEATURED IMAGE -->
-          <div class="article-hero-image" style="${fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp')) ? 'background-image:url(../images/articles/' + slug + '.webp)' : 'background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)'}"></div>
-          <p class="article-image-caption">${category} — The stories mainstream media won't cover.</p>
-
-          <!-- SHARE BAR (top) -->
-          <div class="share-bar">
-            <span class="share-label">Share:</span>
-            <button class="share-btn share-x" onclick="window.open('https://x.com/intent/tweet?text='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}')+'&url='+encodeURIComponent('${articleUrl}'),'_blank')">𝕏 Twitter</button>
-            <button class="share-btn share-fb" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('${articleUrl}'),'_blank')">Facebook</button>
-            <button class="share-btn share-reddit" onclick="window.open('https://reddit.com/submit?url='+encodeURIComponent('${articleUrl}')+'&title='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}'),'_blank')">Reddit</button>
-            <button class="share-btn share-email" onclick="window.location='mailto:?subject='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}')+'&body='+encodeURIComponent('${articleUrl}')">📧 Email</button>
-          </div>
-
-          <!-- ARTICLE BODY — AEO optimized -->
-          <!-- AEO: Direct answer for AI search engines -->
-          <div class="article-body">
-            ${articleBody}
-          </div>
-
-          <!-- ARTICLE TAGS -->
-          <div class="article-tags">
-            ${tagPills}
-          </div>
-
-          <!-- SHARE BAR (bottom) -->
-          <div class="share-bar">
-            <span class="share-label">Share this story:</span>
-            <button class="share-btn share-x" onclick="window.open('https://x.com/intent/tweet?text='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}')+'&url='+encodeURIComponent('${articleUrl}'),'_blank')">𝕏 Twitter</button>
-            <button class="share-btn share-fb" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('${articleUrl}'),'_blank')">Facebook</button>
-            <button class="share-btn share-reddit" onclick="window.open('https://reddit.com/submit?url='+encodeURIComponent('${articleUrl}')+'&title='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}'),'_blank')">Reddit</button>
-            <button class="share-btn share-email" onclick="window.location='mailto:?subject='+encodeURIComponent('${seoTitle.replace(/'/g, "\\'")}')+'&body='+encodeURIComponent('${articleUrl}')">📧 Email</button>
-          </div>
-
-          ${renderRelatedProducts(category)}
-          <!-- EMAIL SIGNUP CTA -->
-          <div class="email-hero-banner" style="margin:32px 0;">
-            <div class="email-hero-text">
-              <div class="email-hero-title">The stories they don't want you to find.</div>
-              <div class="email-hero-sub">Join readers who get NewsAnarchist's daily briefing — FOIA releases, court rulings, regulatory filings they buried. Free, no paywall.</div>
-            </div>
-            <form class="email-hero-form" onsubmit="return false;">
-              <input type="email" class="email-hero-input" placeholder="your@email.com" aria-label="Email address">
-              <button class="btn-subscribe" type="submit">Subscribe Free</button>
-            </form>
-          </div>
-
-          <!-- RELATED ARTICLES -->
-          <section class="related-articles">
-            <h2 class="section-label">More They're Not Covering</h2>
-            <div class="card-grid">
-              ${relatedHTML || `
-              <a href="/category/${catSlug}.html" class="card">
-                <div class="card-image" style="background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;"></div>
-                <div class="card-body">
-                  <span class="genre-label">${category}</span>
-                  <h3 class="card-title">More ${category} Coverage</h3>
-                  <div class="card-meta"><span>NewsAnarchist</span></div>
-                </div>
-              </a>`}
-            </div>
-          </section>
-
-        </article>
-      </main>
-
-      <!-- SIDEBAR -->
-      <aside class="sidebar">
-        <div class="sidebar-widget email-widget">
-          <div class="sidebar-widget-header">📬 Daily Briefing</div>
-          <div class="sidebar-widget-body">
-            <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
-            <form class="email-form" onsubmit="return false;">
-              <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
-              <button type="submit" class="btn-email">Subscribe Free</button>
-              <div class="email-disclaimer">Unsubscribe anytime.</div>
-            </form>
-          </div>
+<div class="page-layout-with-sidebar">
+  <main>
+    <article class="article-wrapper">
+      <span class="article-category-label">${category}</span>
+      <h1 class="article-headline">${title}</h1>
+      ${subheadHTML}
+      <div class="article-byline">
+        ${author.slug ? `<div class="byline-avatar" style="background-image:url(/images/authors/${author.slug}.webp);"></div>` : ''}
+        <div>
+          ${author.slug ? `<a href="/authors/${author.slug}.html" class="byline-name">${author.name}</a>` : `<div class="byline-name">${author.name}</div>`}
+          <div class="byline-role">${author.credential || ''}</div>
         </div>
-
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-header">🔥 Trending Now</div>
-          <div class="trending-list">
-            ${sidebarTrendingHTML}
-          </div>
+        <div class="byline-meta">${dateDisplay} · ${readTime} min read</div>
+      </div>
+      <div class="article-hero-image" style="${heroImageStyle}"></div>
+      <div class="article-body">
+        ${articleBody}
+      </div>
+      ${renderRelatedProducts(category)}
+      <section>
+        <div class="section-label">
+          <h2>More They're Not Covering</h2>
         </div>
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-header">📁 Browse Categories</div>
-          <div class="trending-list">
-            ${sidebarCategoriesHTML}
+        <div class="card-grid">
+          ${relatedHTML || `<a href="/category/${catSlug}.html" class="card">
+          <div class="card-image" style="background-color:var(--color-border);"></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="genre-label">${category}</span></div>
+            <div class="card-title">More ${category} Coverage</div>
           </div>
+        </a>`}
         </div>
-        <!-- AdSense Unit — hidden until approved -->
-      </aside>
+      </section>
+    </article>
+  </main>
+  <aside class="sidebar">
+    <div class="sidebar-widget" id="subscribe-anchor">
+      <div class="sidebar-widget-header">Daily Briefing</div>
+      <div class="sidebar-widget-body">
+        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
+        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
+          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
+          <button type="submit" class="btn-subscribe">Subscribe Free</button>
+        </form>
+        <div class="email-disclaimer">Unsubscribe anytime.</div>
+      </div>
     </div>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Trending Now</div>
+      <div class="trending-list">${sidebarTrendingHTML}</div>
+    </div>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Browse Categories</div>
+      <div class="trending-list">${sidebarCategoriesHTML}</div>
+    </div>
+  </aside>
+</div>
 
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-wordmark">News<span>Anarchist</span></div>
+    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
+    <div class="footer-links">
+      ${footerCatLinks}
+    </div>
+    <div class="footer-links">
+      <a href="/about.html">About</a>
+      <a href="/editorial.html">Editorial Standards</a>
+      <a href="/subscribe.html">Subscribe</a>
+      <a href="/trending.html">Trending</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/rss">RSS</a>
+    </div>
+    <div class="footer-legal">&copy; ${new Date().getFullYear()} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
+  </div>
+</footer>
 
-  <section class="newsletter-section" style="text-align:center;padding:40px 20px;background:#f8f8f8;">
-    <div style="max-width:600px;margin:0 auto;">
-      <h2>Stay Informed. No Spin.</h2>
-      <p>Get the stories that matter, unfiltered. Straight to your inbox.</p>
-      <form method="POST" action="https://6ecf8c9f.sibforms.com/serve/MUIFABzwhUlqB2TN-K0vPR7rQYvKc8kq5ZLEqVvxmxfLK8Ng_wpOi2eL8x7vT8mK3FWmJ0i0AeWCyqN8jK_7gvhM8qMxY6tQwrZNPyE8jM7kQ9vRxN3mK8jQwYvRxN3mK" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
-        <input type="email" name="EMAIL" placeholder="Your email address" required style="padding:12px 16px;border:1px solid #ddd;border-radius:6px;font-size:16px;width:300px;">
-        <button type="submit" style="padding:12px 24px;background:#e8491d;color:white;border:none;border-radius:6px;font-size:16px;cursor:pointer;">Subscribe</button>
-        <input type="hidden" name="locale" value="en">
-      </form>
-      <p style="font-size:12px;color:#888;margin-top:8px;">No spam. Unsubscribe anytime.</p>
-    </div>
-  </section>
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-wordmark">News<span>Anarchist</span></div>
-      <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork. AI-assisted, evidence-based, no corporate masters.</p>
-      <div class="footer-social">
-        <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
-        <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-        <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-        <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
-        <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
-      </div>
-      <div class="footer-links">
-        ${footerCatLinks}
-      </div>
-      <div class="footer-links">
-        <a href="/about.html">About</a>
-        <a href="/subscribe.html">Subscribe</a>
-        <a href="/sitemap.xml">Sitemap</a>
-        <a href="/rss">RSS Feed</a>
-      </div>
-      <div class="footer-links">
-        <a href="/privacy.html">Privacy Policy</a>
-        <a href="/terms.html">Terms of Use</a>
-        <a href="/corrections.html">Corrections</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© ${new Date().getFullYear()} NewsAnarchist. Evidence-based contrarian journalism. AI-assisted content disclosed. Cite your sources.</span>
-      <div class="footer-legal">
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/about.html">About</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="../js/main.js"></script>
-</body>
-</html>`;
+<script>
+async function submitSidebarEmail(e) {
+  e.preventDefault();
+  const email = document.getElementById('sidebarEmailInput').value;
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'Subscribing...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
+    });
+    const data = await res.json();
+    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    else { btn.textContent = 'Try again'; btn.disabled = false; }
+  } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
+</script>
+<script src="/js/main.js"></script>
+</body>
+</html>`;}
 
 // ─── SOURCE FETCHERS ──────────────────────────────────────────────────────────
 
@@ -2236,53 +2121,49 @@ async function runGenerate() {
 // ─── PUBLISH MODE ─────────────────────────────────────────────────────────────
 
 function buildArticleCard(article) {
-  const emoji = categoryEmoji(article.category);
+  const author = getAuthor(article.category);
   const dateDisplay = formatDate(article.pubDate);
   const excerpt = cleanExcerpt(truncate(stripHtml(article.description || article.title), 120), article.title);
-  const catSlug = CATEGORY_SLUGS[article.category] || 'government-secrets';
-  return `
-            <a href="/articles/${article.filename}" class="card">
-              <div class="card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              <div class="card-body">
-                <span class="genre-label">${article.category}</span>
-                <h3 class="card-title">${article.title}</h3>
-                <p class="card-excerpt">${excerpt}</p>
-                <div class="card-meta">
-                  <span>${(() => { const a = getAuthor(article.category); return a.slug ? `<img src="/images/authors/${a.slug}.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/${a.slug}.html" style="color:inherit;text-decoration:none;">${a.name}</a>` : a.name; })()}</span>
-                  <span class="dot-sep"></span>
-                  <span>${dateDisplay}</span>
-                </div>
-              </div>
-            </a>`;
+  const imgSlug = (article.filename || article.slug || '').replace('.html', '');
+  const typeClass = (article.articleType || 'news').toLowerCase();
+  const typeLabel = article.articleType ? article.articleType.toUpperCase() : article.category;
+  return `<a href="/articles/${article.filename}" class="card">
+  <div class="card-image" style="background-image:url(/images/articles/${imgSlug}.webp);background-size:cover;background-position:center;"></div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="genre-label ${typeClass}">${typeLabel}</span>
+      <span class="dot-sep">·</span>
+      <span class="card-author">${author.name}</span>
+      <span class="dot-sep">·</span>
+      <span class="card-date">${dateDisplay}</span>
+    </div>
+    <div class="card-title">${article.title}</div>
+    <div class="card-excerpt">${excerpt}</div>
+  </div>
+</a>`;
 }
 
 function buildHeroCard(article, isMain = false) {
-  const emoji = categoryEmoji(article.category);
-  const dateDisplay = formatDate(article.pubDate);
-  if (isMain) {
-    return `
-            <a href="/articles/${article.filename}" class="hero-card hero-main">
-              <div class="hero-card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              <div class="hero-card-overlay">
-                <div class="hero-card-body">
-                  <span class="genre-label">${article.category}</span>
-                  <h1 class="hero-card-title">${article.title}</h1>
-                  <div class="hero-card-author">${(() => { const a = getAuthor(article.category); return a.slug ? `<div class="hero-author-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
-                </div>
-              </div>
-            </a>`;
-  }
-  return `
-            <a href="/articles/${article.filename}" class="hero-card hero-secondary">
-              <div class="hero-card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              <div class="hero-card-overlay">
-                <div class="hero-card-body">
-                  <span class="genre-label">${article.category}</span>
-                  <h2 class="hero-card-title">${truncate(article.title, 80)}</h2>
-                  <div class="hero-card-author">${(() => { const a = getAuthor(article.category); return a.slug ? `<div class="hero-author-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
-                </div>
-              </div>
-            </a>`;
+  const author = getAuthor(article.category);
+  const imgSlug = (article.filename || article.slug || '').replace('.html', '');
+  const avatarStyle = author.slug ? `background-image:url(/images/authors/${author.slug}.webp)` : '';
+  const authorLink = author.slug
+    ? `<a href="/authors/${author.slug}.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">${author.name}</a>`
+    : author.name;
+  return `<a href="/articles/${article.filename}" class="hero-card ${isMain ? 'hero-main' : 'hero-secondary'}">
+  <div class="hero-card-image" style="background-image:url(/images/articles/${imgSlug}.webp);"></div>
+  <div class="hero-card-overlay"></div>
+  <div class="hero-card-body">
+    <div class="hero-card-meta">
+      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">${article.category}</span>
+    </div>
+    <div class="hero-card-title">${isMain ? article.title : truncate(article.title, 80)}</div>
+    <div class="hero-card-author">
+      <div class="hero-author-avatar" style="${avatarStyle}"></div>
+      ${authorLink} · ${article.category}
+    </div>
+  </div>
+</a>`;
 }
 
 // Keyword-based category remapping for articles with generic raw categories
@@ -2335,12 +2216,10 @@ const JUNK_TITLE_PATTERNS = [
 ];
 
 function rebuildIndexHTML(allArticles) {
-  // Filter junk articles
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
   );
 
-  // Remap categories and sort newest-first
   const articles = clean.map(a => ({
     ...a,
     category: remapArticleCategory(a),
@@ -2350,62 +2229,55 @@ function rebuildIndexHTML(allArticles) {
 
   if (!articles.length) return;
 
-  // Hero cards: prefer articles with confirmed images
   const articlesWithImages = articles.filter(a => {
     const imgPath = path.join(SITE_DIR, 'images/articles', (a.filename || '').replace('.html', '.webp'));
     return fs.existsSync(imgPath);
   });
-  const heroMain = articlesWithImages[0] ? buildHeroCard(articlesWithImages[0], true) : (articles[0] ? buildHeroCard(articles[0], true) : '');
+  const heroMain = articlesWithImages[0] ? buildHeroCard(articlesWithImages[0], true)  : (articles[0] ? buildHeroCard(articles[0], true)  : '');
   const heroSec1 = articlesWithImages[1] ? buildHeroCard(articlesWithImages[1], false) : (articles[1] ? buildHeroCard(articles[1], false) : '');
   const heroSec2 = articlesWithImages[2] ? buildHeroCard(articlesWithImages[2], false) : (articles[2] ? buildHeroCard(articles[2], false) : '');
 
-  // Category sections (max 3 articles each, newest-first)
   let categorySections = '';
   for (const cat of CATEGORIES) {
     const catArticles = articles.filter(a => a.category === cat).slice(0, 3);
     if (!catArticles.length) continue;
     const catSlug = CATEGORY_SLUGS[cat];
     categorySections += `
-      <!-- ${cat.toUpperCase().replace(/ /g, '_')} -->
-      <section>
-        <div class="section-label">
-          <h2>${categoryEmoji(cat)} ${cat}</h2>
-          <a href="/category/${catSlug}.html">All ${cat} →</a>
-        </div>
-        <div class="card-grid">
-          ${catArticles.map(a => buildArticleCard(a)).join('\n          ')}
-        </div>
-      </section>`;
+  <section>
+    <div class="section-label">
+      <h2>${cat}</h2>
+      <a href="/category/${catSlug}.html">All ${cat} →</a>
+    </div>
+    <div class="card-grid">
+      ${catArticles.map(a => buildArticleCard(a)).join('\n      ')}
+    </div>
+  </section>`;
   }
 
-  // Sidebar: trending items
   const trendingItems = articles.slice(0, 7).map((a, i) => {
     const reads = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
     return `<a href="/articles/${a.filename}" class="trending-item">
-              <span class="trending-num">${i + 1}</span>
-              <div>
-                <div class="trending-title">${truncate(a.title, 60)}</div>
-                <div class="trending-count">${reads}</div>
-              </div>
-            </a>`;
+          <span class="trending-num">${i + 1}</span>
+          <div>
+            <div class="trending-title">${truncate(a.title, 60)}</div>
+            <div class="trending-count">${reads}</div>
+          </div>
+        </a>`;
   }).join('\n');
 
-  // Sidebar: browse categories
   const browseItems = CATEGORIES.map((cat, i) => {
     const slug = CATEGORY_SLUGS[cat];
     return `<a href="/category/${slug}.html" class="trending-item">
-              <span class="trending-num">${i + 1}</span>
-              <div><div class="trending-title">${cat}</div></div>
-            </a>`;
+          <span class="trending-num">${i + 1}</span>
+          <div><div class="trending-title">${cat}</div></div>
+        </a>`;
   }).join('\n');
 
-  // Nav links
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
-  }).join('\n          ');
+  }).join('\n        ');
 
-  // Footer category links
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     return `<a href="/category/${cs}.html">${cat}</a>`;
@@ -2416,130 +2288,120 @@ function rebuildIndexHTML(allArticles) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewsAnarchist — Uncensored. Evidence-based. No corporate masters.</title>
-  <meta name="description" content="The stories mainstream media won't cover. FOIA releases, court rulings, regulatory filings — evidence-based contrarian journalism.">
-  <meta name="robots" content="index, follow">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="${SITE_URL}/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="NewsAnarchist — Uncensored. Evidence-based.">
-  <meta property="og:description" content="The stories mainstream media won't cover. FOIA releases, court rulings, regulatory filings.">
-  <meta property="og:url" content="${SITE_URL}/">
-  <meta property="og:image" content="${SITE_URL}/images/og-card.webp">
-  <meta property="og:site_name" content="NewsAnarchist">
+  <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
+  <meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
+  <meta property="og:description" content="The stories buried, spiked, or spun.">
+  <meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
+  <meta property="og:url" content="https://newsanarchist.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
   <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${GA4_ID}');
-  </script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "NewsAnarchist",
-    "url": "${SITE_URL}/",
-    "description": "Evidence-based contrarian journalism"
-  }
-  </script>
 </head>
 <body>
 
-  <header class="masthead">
-    <div class="masthead-inner">
-      <div class="masthead-top">
-        <div></div>
-        <a href="/" class="masthead-brand">
-          <div class="masthead-wordmark">News<span>Anarchist</span></div>
-          <div class="masthead-tagline">Uncensored · Evidence-Based · No Corporate Masters</div>
-        </a>
-        <button class="masthead-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-top">
+      <div style="width:120px;"></div>
+      <div class="masthead-brand">
+        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
+        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
       </div>
-      <nav class="nav-bar" id="mainNav">
-        <ul class="nav-list">
-          ${navLinks}
-          <li><a href="/trending.html">Trending</a></li>
-          <li><a href="/buried-week.html">The Buried Week</a></li>
-        </ul>
-      </nav>
+      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
     </div>
-  </header>
-
-  <div class="page-layout-with-sidebar">
-    <main>
-
-      <section class="hero-section">
-        <div class="section-label">
-          <h2>Breaking Now</h2>
-          <span class="live-badge">Live</span>
-        </div>
-        <div class="hero-grid">
-          ${heroMain}
-          ${heroSec1}
-          ${heroSec2}
-        </div>
-      </section>
-
-${categorySections}
-
-    </main>
-
-    <aside class="sidebar">
-      <div class="sidebar-widget email-widget">
-        <div class="sidebar-widget-header">📬 Daily Briefing</div>
-        <div class="sidebar-widget-body">
-          <p class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</p>
-          <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
-          <button class="btn-subscribe">Subscribe Free</button>
-          <p class="email-disclaimer">Unsubscribe anytime.</p>
-        </div>
-      </div>
-      <div class="sidebar-widget">
-        <div class="sidebar-widget-header">🔥 Trending Now</div>
-        <div class="trending-list">
-          ${trendingItems}
-        </div>
-      </div>
-      <div class="sidebar-widget">
-        <div class="sidebar-widget-header">📂 Browse Categories</div>
-        <div class="trending-list">
-          ${browseItems}
-        </div>
-      </div>
-    </aside>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="/" class="active">Home</a></li>
+        ${navLinks}
+        <li><a href="/trending.html">Trending</a></li>
+        <li><a href="/buried-week.html">The Buried Week</a></li>
+      </ul>
+    </nav>
   </div>
+</header>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-wordmark">News<span>Anarchist</span></div>
-      <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork. AI-assisted, evidence-based, no corporate masters.</p>
-      <div class="footer-links">
-        ${footerCatLinks}
+<div class="page-layout-with-sidebar">
+  <main>
+    <section class="hero-section">
+      <div class="section-label">
+        <h2>Buried Stories</h2>
+        <span class="live-badge">Live</span>
       </div>
-      <div class="footer-links">
-        <a href="/about.html">About</a>
-        <a href="/subscribe.html">Subscribe</a>
-        <a href="/trending.html">Trending</a>
-        <a href="/sitemap.xml">Sitemap</a>
-        <a href="/rss">RSS Feed</a>
+      <div class="hero-grid">
+        ${heroMain}
+        ${heroSec1}
+        ${heroSec2}
       </div>
-      <div class="footer-links">
-        <a href="/privacy.html">Privacy Policy</a>
-        <a href="/terms.html">Terms of Use</a>
-        <a href="/corrections.html">Corrections</a>
+    </section>
+    ${categorySections}
+  </main>
+  <aside class="sidebar">
+    <div class="sidebar-widget" id="subscribe-anchor">
+      <div class="sidebar-widget-header">Daily Briefing</div>
+      <div class="sidebar-widget-body">
+        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
+        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
+          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
+          <button type="submit" class="btn-subscribe">Subscribe Free</button>
+        </form>
+        <div class="email-disclaimer">Unsubscribe anytime.</div>
       </div>
-      <div class="footer-legal">© ${new Date().getFullYear()} NewsAnarchist. Evidence-based contrarian journalism. AI-assisted content disclosed.</div>
     </div>
-  </footer>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Trending Now</div>
+      <div class="trending-list">${trendingItems}</div>
+    </div>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Browse Categories</div>
+      <div class="trending-list">${browseItems}</div>
+    </div>
+  </aside>
+</div>
 
-  <script src="/js/main.js"></script>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-wordmark">News<span>Anarchist</span></div>
+    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
+    <div class="footer-links">
+      <a href="/about.html">About</a>
+      <a href="/editorial.html">Editorial Standards</a>
+      <a href="/tip-line.html">Tip Line</a>
+      <a href="/authors/">Our Authors</a>
+      <a href="/subscribe.html">Subscribe</a>
+      <a href="/trending.html">Trending</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/rss">RSS</a>
+    </div>
+    <div class="footer-legal">&copy; ${new Date().getFullYear()} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
+  </div>
+</footer>
+
+<script>
+async function submitSidebarEmail(e) {
+  e.preventDefault();
+  const email = document.getElementById('sidebarEmailInput').value;
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'Subscribing...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
+    });
+    const data = await res.json();
+    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    else { btn.textContent = 'Try again'; btn.disabled = false; }
+  } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
+}
+</script>
+<script src="/js/main.js"></script>
 </body>
 </html>`;
 
@@ -2701,40 +2563,56 @@ function rebuildCategoryPages(allArticles) {
         ? `${SITE_URL}/category/${slug}.html`
         : `${SITE_URL}/category/${slug}-${pageNum}.html`;
 
-      // Article cards
       const cardsHTML = catArticles.length === 0
-        ? '<p style="text-align:center;color:#888;padding:40px;">No articles yet — check back soon.</p>'
+        ? '<p style="text-align:center;color:var(--color-text-muted);padding:40px;font-family:var(--font-ui);">No articles yet — check back soon.</p>'
         : pageArticles.map(a => buildArticleCard(a)).join('\n');
 
-      // Pagination
       let paginationHTML = '';
       if (totalPages > 1) {
-        paginationHTML += '\n<div style="text-align:center;padding:40px 20px;border-top:1px solid #e5e5e5;margin-top:40px;">';
-        paginationHTML += `<p style="margin-bottom:20px;font-size:14px;color:#666;">Page ${pageNum} of ${totalPages}</p>`;
-        paginationHTML += '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">';
+        paginationHTML += `\n<nav style="display:flex;align-items:center;justify-content:center;gap:8px;padding:32px 0;border-top:1px solid var(--color-border);">`;
+        paginationHTML += `<span style="font-family:var(--font-ui);font-size:12px;color:var(--color-text-muted);">Page ${pageNum} of ${totalPages}</span>`;
         if (pageNum > 1) {
           const prevFile = pageNum === 2 ? `${slug}.html` : `${slug}-${pageNum - 1}.html`;
-          paginationHTML += `<a href="/category/${prevFile}" style="padding:10px 15px;border:1px solid #ddd;border-radius:4px;text-decoration:none;color:#333;">&larr; Previous</a>`;
-        } else {
-          paginationHTML += `<span style="padding:10px 15px;border:1px solid #ddd;border-radius:4px;color:#ccc;">&larr; Previous</span>`;
-        }
-        for (let p = 1; p <= totalPages; p++) {
-          const pFile = p === 1 ? `${slug}.html` : `${slug}-${p}.html`;
-          if (p === pageNum) {
-            paginationHTML += `<span style="padding:10px 15px;border:1px solid #333;border-radius:4px;background:#333;color:white;font-weight:bold;">${p}</span>`;
-          } else {
-            paginationHTML += `<a href="/category/${pFile}" style="padding:10px 15px;border:1px solid #ddd;border-radius:4px;text-decoration:none;color:#333;">${p}</a>`;
-          }
+          paginationHTML += `<a href="/category/${prevFile}" style="font-family:var(--font-ui);font-size:12px;padding:6px 12px;border:1px solid var(--color-border);border-radius:var(--radius);">&larr; Prev</a>`;
         }
         if (pageNum < totalPages) {
-          paginationHTML += `<a href="/category/${slug}-${pageNum + 1}.html" style="padding:10px 15px;border:1px solid #ddd;border-radius:4px;text-decoration:none;color:#333;">Next &rarr;</a>`;
-        } else {
-          paginationHTML += `<span style="padding:10px 15px;border:1px solid #ddd;border-radius:4px;color:#ccc;">Next &rarr;</span>`;
+          paginationHTML += `<a href="/category/${slug}-${pageNum + 1}.html" style="font-family:var(--font-ui);font-size:12px;padding:6px 12px;border:1px solid var(--color-border);border-radius:var(--radius);">Next &rarr;</a>`;
         }
-        paginationHTML += '</div></div>';
+        paginationHTML += `</nav>`;
       }
 
-      // Build complete page from scratch — never reads index.html
+      const navLinks = CATEGORIES.map(c => {
+        const cs = CATEGORY_SLUGS[c];
+        const active = c === cat ? ' class="active"' : '';
+        return `<li><a href="/category/${cs}.html"${active}>${c}</a></li>`;
+      }).join('\n        ');
+
+      const footerCatLinks = CATEGORIES.map(c => {
+        const cs = CATEGORY_SLUGS[c];
+        return `<a href="/category/${cs}.html">${c}</a>`;
+      }).join('\n        ');
+
+      let sidebarTrendingHTML = '';
+      try {
+        const _db = JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'generated-articles.json'), 'utf8'));
+        const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
+        sidebarTrendingHTML = _recent.map((a, i) => {
+          const _sl = a.filename || a.slug || '';
+          const _ti = (a.title || 'Article').slice(0, 60);
+          return `<a href="/articles/${_sl}" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${_ti}</div></div></a>`;
+        }).join('');
+      } catch(e) {
+        sidebarTrendingHTML = CATEGORIES.map((c, i) => {
+          const cs = CATEGORY_SLUGS[c];
+          return `<a href="/category/${cs}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${c}</div></div></a>`;
+        }).join('');
+      }
+
+      const sidebarCategoriesHTML = CATEGORIES.map((c, i) => {
+        const cs = CATEGORY_SLUGS[c];
+        return `<a href="/category/${cs}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${c}</div></div></a>`;
+      }).join('');
+
       const pageHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2749,107 +2627,113 @@ function rebuildCategoryPages(allArticles) {
   <meta property="og:description" content="${desc}">
   <meta property="og:url" content="${canonicalUrl}">
   <meta property="og:image" content="${SITE_URL}/images/og-card.webp">
-  <meta property="og:site_name" content="NewsAnarchist">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${label} — NewsAnarchist">
   <meta name="twitter:description" content="${desc}">
-  <meta name="twitter:image" content="${SITE_URL}/images/og-card.webp">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${GA4_ID}');
-  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="masthead">
-    <div class="masthead-inner">
-      <a href="/" class="masthead-brand">
-        <span class="masthead-wordmark">News<span>Anarchist</span></span>
-      </a>
-      <nav class="nav-bar" id="mainNav">
-        <ul class="nav-list">
-          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-          <li><a href="/category/tech-privacy.html">Tech &amp; Privacy</a></li>
-          <li><a href="/category/global-power.html">Global Power</a></li>
-          <li><a href="/category/money-markets.html">Money &amp; Markets</a></li>
-          <li><a href="/category/unexplained.html">Unexplained</a></li>
-          <li><a href="/category/true-crime.html">True Crime</a></li>
-          <li><a href="/trending.html">Trending</a></li>
-          <li><a href="/buried-week.html">The Buried Week</a></li>
-        </ul>
-      </nav>
-      <div class="header-cta">
-        <button class="masthead-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
 
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-top">
+      <div style="width:120px;"></div>
+      <div class="masthead-brand">
+        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
+        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
+      </div>
+      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
+    </div>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        ${navLinks}
+        <li><a href="/trending.html">Trending</a></li>
+        <li><a href="/buried-week.html">The Buried Week</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-layout-with-sidebar">
   <main>
-    <h1 style="font-size:2rem;margin-bottom:8px;">${label}</h1>
-    <p style="color:#888;margin-bottom:32px;">${desc}</p>
+    <div class="section-label">
+      <h2>${label}</h2>
+    </div>
     <div class="card-grid">
-${cardsHTML}
-    </div>${paginationHTML}
+      ${cardsHTML}
+    </div>
+    ${paginationHTML}
   </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-wordmark">News<span>Anarchist</span></div>
-      <p class="footer-tagline">News Without the Noise. AI-powered, human-curated news covering politics, tech, world affairs, and culture — without the spin.</p>
-      <div class="footer-social">
-        <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">&#120143;</a>
-        <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-        <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-        <a href="/rss" class="social-btn" aria-label="RSS Feed">&#9889;</a>
-        <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
-      </div>
-      <div class="footer-links">
-        <a href="/category/surveillance-state.html">Surveillance State</a>
-        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
-        <a href="/category/government-secrets.html">Government Secrets</a>
-        <a href="/category/tech-privacy.html">Tech &amp; Privacy</a>
-        <a href="/category/global-power.html">Global Power</a>
-      </div>
-      <div class="footer-links">
-        <a href="/about.html">About</a>
-        <a href="/subscribe.html">Subscribe</a>
-        <a href="/trending.html">Trending</a>
-        <a href="/buried-week.html">The Buried Week</a>
-        <a href="https://newsanarchist.substack.com" target="_blank" rel="noopener">Substack</a>
-        <a href="/sitemap.xml">Sitemap</a>
-        <a href="/rss">RSS Feed</a>
-      </div>
-      <div class="footer-links">
-        <a href="/privacy.html">Privacy Policy</a>
-        <a href="/terms.html">Terms of Use</a>
-        <a href="/corrections.html">Corrections</a>
-        <a href="/about.html#editorial">Editorial Standards</a>
+  <aside class="sidebar">
+    <div class="sidebar-widget" id="subscribe-anchor">
+      <div class="sidebar-widget-header">Daily Briefing</div>
+      <div class="sidebar-widget-body">
+        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
+        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
+          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
+          <button type="submit" class="btn-subscribe">Subscribe Free</button>
+        </form>
+        <div class="email-disclaimer">Unsubscribe anytime.</div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>&copy; 2026 NewsAnarchist. AI-assisted content disclosed in bylines. Facts first.</span>
-      <div class="footer-legal">
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/about.html">About</a>
-      </div>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Trending Now</div>
+      <div class="trending-list">${sidebarTrendingHTML}</div>
     </div>
-  </footer>
+    <div class="sidebar-widget">
+      <div class="sidebar-widget-header">Browse Categories</div>
+      <div class="trending-list">${sidebarCategoriesHTML}</div>
+    </div>
+  </aside>
+</div>
 
-  <script src="/js/main.js"></script>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-wordmark">News<span>Anarchist</span></div>
+    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
+    <div class="footer-links">
+      ${footerCatLinks}
+    </div>
+    <div class="footer-links">
+      <a href="/about.html">About</a>
+      <a href="/editorial.html">Editorial Standards</a>
+      <a href="/subscribe.html">Subscribe</a>
+      <a href="/trending.html">Trending</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/rss">RSS</a>
+    </div>
+    <div class="footer-legal">&copy; ${new Date().getFullYear()} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines.</div>
+  </div>
+</footer>
+
+<script>
+async function submitSidebarEmail(e) {
+  e.preventDefault();
+  const email = document.getElementById('sidebarEmailInput').value;
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'Subscribing...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
+    });
+    const data = await res.json();
+    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    else { btn.textContent = 'Try again'; btn.disabled = false; }
+  } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
+}
+</script>
+<script src="/js/main.js"></script>
 </body>
 </html>`;
 
