@@ -668,8 +668,9 @@ function buildArticleBody(topic) {
   }
 
   // Mainstream angle callout
-  body += `<div class="callout callout-warning">\n`;
-  body += `  <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.\n`;
+  body += `<div class="the-take">\n`;
+  body += `  <div class="the-take-label">🔎 Mainstream angle</div>\n`;
+  body += `  <div class="the-take-body">The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.</div>\n`;
   body += `</div>\n\n`;
 
   // Section 2: Follow the money / power
@@ -709,8 +710,9 @@ function buildArticleBody(topic) {
   body += `</ul>\n\n`;
 
   // Contrarian closing question
-  body += `<div class="callout callout-anarchist">\n`;
-  body += `  <strong>What are they not saying?</strong> Who benefits from this story staying buried? Follow the regulatory filings, the court dockets, and the FOIA releases. The truth is in the paperwork — it always is.\n`;
+  body += `<div class="the-take">\n`;
+  body += `  <div class="the-take-label">What are they not saying?</div>\n`;
+  body += `  <div class="the-take-body">Who benefits from this story staying buried? Follow the regulatory filings, the court dockets, and the FOIA releases. The truth is in the paperwork — it always is.</div>\n`;
   body += `</div>\n\n`;
 
   body += `<p><em>Disclosure: NewsAnarchist aggregates from public records, API feeds (Federal Register, CourtListener, MuckRock, Hacker News), and independent media. AI-assisted synthesis. Always verify primary sources linked above.</em></p>\n`;
@@ -766,18 +768,18 @@ function renderRelatedProducts(category) {
   return `          <!-- RELATED PRODUCTS -->
           <section class="related-products content-section" style="margin:32px 0;padding:24px;background:#fafafa;border:1px solid #e5e5e5;border-radius:8px;">
             <h3 style="font-size:0.75rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;">Recommended Reading & Tools</h3>
-            <div class="article-grid article-grid-2col" style="gap:16px;">
-              <a href="${primary.url}" target="_blank" rel="noopener nofollow sponsored" class="article-card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
+            <div class="card-grid" style="gap:16px;">
+              <a href="${primary.url}" target="_blank" rel="noopener nofollow sponsored" class="card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
                 <div class="card-body">
-                  <span class="card-tag" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(primary.type)} · Amazon</span>
+                  <span class="genre-label" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(primary.type)} · Amazon</span>
                   <h4 style="font-size:0.95rem;font-weight:700;color:#1a1a1a;margin:8px 0 6px;line-height:1.3;">${primary.title}</h4>
                   <p style="color:#666;font-size:0.85rem;margin:0 0 10px;line-height:1.5;">${primary.tagline}</p>
                   <div style="font-size:0.8rem;color:#dc2626;font-weight:600;">View on Amazon →</div>
                 </div>
               </a>
-              <a href="${secondary.url}" target="_blank" rel="noopener nofollow sponsored" class="article-card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
+              <a href="${secondary.url}" target="_blank" rel="noopener nofollow sponsored" class="card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
                 <div class="card-body">
-                  <span class="card-tag" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(secondary.type)} · Amazon</span>
+                  <span class="genre-label" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(secondary.type)} · Amazon</span>
                   <h4 style="font-size:0.95rem;font-weight:700;color:#1a1a1a;margin:8px 0 6px;line-height:1.3;">${secondary.title}</h4>
                   <p style="color:#666;font-size:0.85rem;margin:0 0 10px;line-height:1.5;">${secondary.tagline}</p>
                   <div style="font-size:0.8rem;color:#dc2626;font-weight:600;">View on Amazon →</div>
@@ -836,10 +838,10 @@ function buildArticleHTML(topic) {
     const relCat = rel.category || 'Government Secrets';
     const relEmoji = categoryEmoji(relCat);
     relatedHTML += `
-              <a href="/articles/${relSlug}.html" class="article-card">
-                <div class="card-image-wrap"><div class="card-img-placeholder" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div></div>
+              <a href="/articles/${relSlug}.html" class="card">
+                <div class="card-image" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div>
                 <div class="card-body">
-                  <span class="card-tag">${relCat}</span>
+                  <span class="genre-label">${relCat}</span>
                   <h3 class="card-title">${rel.title || 'Related Story'}</h3>
                   <div class="card-meta"><span>${dateDisplay}</span></div>
                 </div>
@@ -854,13 +856,13 @@ function buildArticleHTML(topic) {
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     const active = cat === category ? ' class="active"' : '';
-    return `<a href="/category/${cs}.html"${active}>${cat}</a>`;
-  }).join('\n        ');
+    return `<li><a href="/category/${cs}.html"${active}>${cat}</a></li>`;
+  }).join('\n          ');
 
   // Footer category links
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
-    return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
+    return `<a href="/category/${cs}.html">${cat}</a>`;
   }).join('\n          ');
 
   return `<!DOCTYPE html>
@@ -876,26 +878,6 @@ function buildArticleHTML(topic) {
   <link rel="canonical" href="${articleUrl}">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
-  <style>
-    .article-headline{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;color:#111;margin:16px 0 12px;}
-    .article-subhead{font-size:1.1rem;color:#444;line-height:1.6;border-left:4px solid #dc2626;padding-left:16px;margin:0 0 20px;font-style:italic;}
-    .article-meta-bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:0.85rem;color:#666;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #e5e5e5;}
-    .ai-tag{background:#f3f4f6;color:#6b7280;font-size:0.75rem;padding:2px 8px;border-radius:12px;font-weight:600;}
-    .article-body{font-size:1.05rem;line-height:1.8;color:#1a1a1a;max-width:720px;}
-    .article-body p{margin:0 0 1.4em;}
-    .article-body h2{font-size:1.4rem;font-weight:700;margin:2em 0 0.75em;color:#111;}
-    .article-body h3{font-size:1.2rem;font-weight:700;margin:1.6em 0 0.6em;color:#222;}
-    .article-body strong{font-weight:700;color:#111;}
-    .article-body blockquote{border-left:4px solid #dc2626;margin:1.5em 0;padding:12px 20px;background:#fef2f2;color:#333;font-style:italic;border-radius:0 4px 4px 0;}
-    .article-body ul,.article-body ol{margin:0 0 1.4em 1.5em;}
-    .article-body li{margin-bottom:0.5em;}
-    .article-featured-image{margin:0 0 8px;border-radius:8px;overflow:hidden;}
-    .article-featured-image img{width:100%;height:auto;max-height:480px;object-fit:cover;display:block;border-radius:8px;}
-    .article-image-caption{font-size:0.8rem;color:#888;margin-bottom:24px;font-style:italic;}
-    .article-breadcrumb{font-size:0.82rem;color:#888;margin-bottom:20px;}
-    .article-breadcrumb a{color:#dc2626;text-decoration:none;}
-    @media(max-width:768px){.article-headline{font-size:1.6rem;}.article-body{font-size:1rem;}}
-  </style>
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
@@ -976,25 +958,24 @@ function buildArticleHTML(topic) {
   <!-- AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="/style-fix-v2.css">
 </head>
 <body>
 
   <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="site-logo">
-        <div class="logo-icon">N</div>
-        <span class="logo-text">News<span>Anarchist</span></span>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="/" class="masthead-brand">
+        <span class="masthead-wordmark">News<span>Anarchist</span></span>
       </a>
-      <nav class="main-nav" id="mainNav">
-        ${navLinks}
-        <a href="/trending.html">Trending</a>
-        <a href="/buried-week.html">The Buried Week</a>
+      <nav class="nav-bar" id="mainNav">
+        <ul class="nav-list">
+          ${navLinks}
+          <li><a href="/trending.html">Trending</a></li>
+          <li><a href="/buried-week.html">The Buried Week</a></li>
+        </ul>
       </nav>
       <div class="header-cta">
-        <button class="btn-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+        <button class="masthead-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
           <span></span><span></span><span></span>
         </button>
@@ -1012,10 +993,9 @@ function buildArticleHTML(topic) {
   </div>
 
   <!-- ARTICLE PAGE -->
-  <div class="container">
-    <div class="page-layout">
-      <main class="main-content">
-        <article class="article-page">
+    <div class="page-layout-with-sidebar">
+      <main>
+        <article class="article-wrapper">
 
           <!-- BREADCRUMB -->
           <nav class="article-breadcrumb">
@@ -1024,29 +1004,29 @@ function buildArticleHTML(topic) {
 
           <!-- ARTICLE HEADER -->
           <header class="article-header">
-            <span class="article-category-tag">${category}</span>
+            <span class="article-category-label">${category}</span>
             <h1 class="article-headline">${title}</h1>
             ${subheadHTML}
-            <div class="article-meta-bar">
+            <div class="article-byline">
               ${(() => {
                 const a = getAuthor(category);
                 const photo = a.slug
-                  ? `<img src="/images/authors/${a.slug}.webp" alt="${a.name}" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;">`
+                  ? `<div class="byline-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div>`
                   : '';
                 const link = a.slug
-                  ? `<a href="/authors/${a.slug}.html" style="color:inherit;text-decoration:none;font-weight:600;">${a.name}</a>`
-                  : `<span style="font-weight:600;">${a.name}</span>`;
-                return `<span class="author" style="display:inline-flex;align-items:center;">${photo}${link}</span>`;
+                  ? `<a href="/authors/${a.slug}.html" class="byline-name">${a.name}</a>`
+                  : `<span class="byline-name">${a.name}</span>`;
+                return `${photo}${link}<span class="byline-role">${a.beat || ''}</span>`;
               })()}
               <span class="ai-tag">AI-Assisted</span>
-              <span>${dateDisplay}</span>
-              <span class="dot"></span>
-              <span>${readTime}</span>
+              <span class="byline-meta">${dateDisplay}</span>
+              <span class="dot-sep"></span>
+              <span class="byline-meta">${readTime}</span>
             </div>
           </header>
 
           <!-- FEATURED IMAGE -->
-          <div class="article-featured-image">${fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp')) ? '<figure itemscope itemtype="https://schema.org/ImageObject"><img src="../images/articles/' + slug + '.webp" alt="' + seoTitle.replace(/"/g,'&quot;') + ' — ' + category + ' article" title="' + seoTitle.replace(/"/g,'&quot;') + '" style="width:100%;height:auto;width:100%;object-fit:cover;border-radius:8px;display:block;" loading="lazy" itemprop="contentUrl"><meta itemprop="name" content="' + seoTitle.replace(/"/g,'&quot;') + '"><meta itemprop="description" content="' + metaDesc.replace(/"/g,'&quot;') + '"></figure>' : `<div style="width:100%;height:320px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);margin-bottom:8px;"><span style="color:#dc2626;font-size:1rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;border:2px solid #dc2626;padding:12px 28px;border-radius:4px;">${category}</span></div>`}</div>
+          <div class="article-hero-image" style="${fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp')) ? 'background-image:url(../images/articles/' + slug + '.webp)' : 'background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)'}"></div>
           <p class="article-image-caption">${category} — The stories mainstream media won't cover.</p>
 
           <!-- SHARE BAR (top) -->
@@ -1092,16 +1072,14 @@ function buildArticleHTML(topic) {
           </div>
 
           <!-- RELATED ARTICLES -->
-          <section class="related-articles content-section">
-            <div class="section-header">
-              <h2 class="section-title">More They're Not Covering</h2>
-            </div>
-            <div class="article-grid article-grid-2col">
+          <section class="related-articles">
+            <h2 class="section-label">More They're Not Covering</h2>
+            <div class="card-grid">
               ${relatedHTML || `
-              <a href="/category/${catSlug}.html" class="article-card">
-                <div class="card-image-wrap"><div class="card-img-placeholder" style="background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;"></div></div>
+              <a href="/category/${catSlug}.html" class="card">
+                <div class="card-image" style="background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;"></div>
                 <div class="card-body">
-                  <span class="card-tag">${category}</span>
+                  <span class="genre-label">${category}</span>
                   <h3 class="card-title">More ${category} Coverage</h3>
                   <div class="card-meta"><span>NewsAnarchist</span></div>
                 </div>
@@ -1113,10 +1091,10 @@ function buildArticleHTML(topic) {
       </main>
 
       <!-- SIDEBAR -->
-      <aside class="sidebar" style="min-width:0;width:100%;position:sticky;top:80px;align-self:start;display:block;">
+      <aside class="sidebar">
         <div class="sidebar-widget email-widget">
-          <div class="widget-header">📬 Daily Briefing</div>
-          <div class="widget-body">
+          <div class="sidebar-widget-header">📬 Daily Briefing</div>
+          <div class="sidebar-widget-body">
             <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
             <form class="email-form" onsubmit="return false;">
               <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
@@ -1127,13 +1105,13 @@ function buildArticleHTML(topic) {
         </div>
 
         <div class="sidebar-widget">
-          <div class="widget-header">🔥 Trending Now</div>
+          <div class="sidebar-widget-header">🔥 Trending Now</div>
           <div class="trending-list">
             ${sidebarTrendingHTML}
           </div>
         </div>
         <div class="sidebar-widget">
-          <div class="widget-header">📁 Browse Categories</div>
+          <div class="sidebar-widget-header">📁 Browse Categories</div>
           <div class="trending-list">
             ${sidebarCategoriesHTML}
           </div>
@@ -1141,7 +1119,6 @@ function buildArticleHTML(topic) {
         <!-- AdSense Unit — hidden until approved -->
       </aside>
     </div>
-  </div>
 
 
   <section class="newsletter-section" style="text-align:center;padding:40px 20px;background:#f8f8f8;">
@@ -1157,41 +1134,30 @@ function buildArticleHTML(topic) {
     </div>
   </section>
   <!-- FOOTER -->
-  <footer class="site-footer" style="margin-top:0;">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="logo-text">News<span>Anarchist</span></span>
-        <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork. AI-assisted, evidence-based, no corporate masters.</p>
-        <div class="footer-social">
-          <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
-          <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-          <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-          <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
-          <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
-        </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-wordmark">News<span>Anarchist</span></div>
+      <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork. AI-assisted, evidence-based, no corporate masters.</p>
+      <div class="footer-social">
+        <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
+        <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
+        <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
+        <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
+        <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
       </div>
-      <div class="footer-col">
-        <h4>Investigations</h4>
-        <ul class="footer-links">
-          ${footerCatLinks}
-        </ul>
+      <div class="footer-links">
+        ${footerCatLinks}
       </div>
-      <div class="footer-col">
-        <h4>Site</h4>
-        <ul class="footer-links">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/subscribe.html">Subscribe</a></li>
-          <li><a href="/sitemap.xml">Sitemap</a></li>
-          <li><a href="/rss">RSS Feed</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/subscribe.html">Subscribe</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/rss">RSS Feed</a>
       </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul class="footer-links">
-          <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
-          <li><a href="/corrections.html">Corrections</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
+        <a href="/corrections.html">Corrections</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -2275,17 +2241,15 @@ function buildArticleCard(article) {
   const excerpt = cleanExcerpt(truncate(stripHtml(article.description || article.title), 120), article.title);
   const catSlug = CATEGORY_SLUGS[article.category] || 'government-secrets';
   return `
-            <a href="/articles/${article.filename}" class="article-card">
-              <div class="card-image-wrap">
-                <div class="card-img-placeholder" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              </div>
+            <a href="/articles/${article.filename}" class="card">
+              <div class="card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
               <div class="card-body">
-                <span class="card-tag">${article.category}</span>
+                <span class="genre-label">${article.category}</span>
                 <h3 class="card-title">${article.title}</h3>
                 <p class="card-excerpt">${excerpt}</p>
                 <div class="card-meta">
                   <span>${(() => { const a = getAuthor(article.category); return a.slug ? `<img src="/images/authors/${a.slug}.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/${a.slug}.html" style="color:inherit;text-decoration:none;">${a.name}</a>` : a.name; })()}</span>
-                  <span class="dot"></span>
+                  <span class="dot-sep"></span>
                   <span>${dateDisplay}</span>
                 </div>
               </div>
@@ -2297,22 +2261,26 @@ function buildHeroCard(article, isMain = false) {
   const dateDisplay = formatDate(article.pubDate);
   if (isMain) {
     return `
-            <a href="/articles/${article.filename}" class="hero-main">
-              <div class="hero-img-placeholder" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              <div class="hero-overlay">
-                <span class="hero-tag">${article.category}</span>
-                <h1 class="hero-title">${article.title}</h1>
-                <div class="hero-meta">${(() => { const a = getAuthor(article.category); return a.slug ? `<img src="/images/authors/${a.slug}.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
+            <a href="/articles/${article.filename}" class="hero-card hero-main">
+              <div class="hero-card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
+              <div class="hero-card-overlay">
+                <div class="hero-card-body">
+                  <span class="genre-label">${article.category}</span>
+                  <h1 class="hero-card-title">${article.title}</h1>
+                  <div class="hero-card-author">${(() => { const a = getAuthor(article.category); return a.slug ? `<div class="hero-author-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
+                </div>
               </div>
             </a>`;
   }
   return `
-            <a href="/articles/${article.filename}" class="hero-secondary">
-              <div class="hero-img-placeholder" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
-              <div class="hero-overlay">
-                <span class="hero-tag">${article.category}</span>
-                <h2 class="hero-title">${truncate(article.title, 80)}</h2>
-                <div class="hero-meta">${(() => { const a = getAuthor(article.category); return a.slug ? `<img src="/images/authors/${a.slug}.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
+            <a href="/articles/${article.filename}" class="hero-card hero-secondary">
+              <div class="hero-card-image" style="background-image:url(/images/articles/${article.filename.replace('.html','.webp')});background-size:cover;background-position:center;"></div>
+              <div class="hero-card-overlay">
+                <div class="hero-card-body">
+                  <span class="genre-label">${article.category}</span>
+                  <h2 class="hero-card-title">${truncate(article.title, 80)}</h2>
+                  <div class="hero-card-author">${(() => { const a = getAuthor(article.category); return a.slug ? `<div class="hero-author-avatar" style="background-image:url(/images/authors/${a.slug}.webp);"></div><a href="/authors/${a.slug}.html" style="color:#fff;text-decoration:none;font-weight:600;">${a.name}</a>` : a.name; })()} • ${dateDisplay}</div>
+                </div>
               </div>
             </a>`;
 }
@@ -2411,12 +2379,10 @@ function rebuildIndexHTML(allArticles) {
     const catSlug = CATEGORY_SLUGS[cat];
     categorySections += `
         <!-- ${cat.toUpperCase().replace(/ /g, '_')} SECTION -->
-        <section class="content-section">
-          <div class="section-header">
-            <h2 class="section-title">${categoryEmoji(cat)} ${cat}</h2>
-            <a href="/category/${catSlug}.html" class="section-link">All ${cat} →</a>
-          </div>
-          <div class="article-grid">
+        <section>
+          <h2 class="section-label">${categoryEmoji(cat)} ${cat}</h2>
+          <a href="/category/${catSlug}.html">All ${cat} →</a>
+          <div class="card-grid">
             ${catArticles.map(a => buildArticleCard(a)).join('\n')}
           </div>
         </section>`;
@@ -2450,15 +2416,13 @@ function rebuildIndexHTML(allArticles) {
               </a>`;
   }).join('\n');
 
-  const newPageLayout = `<div class="page-layout" style="display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;align-items:start;max-width:1200px;margin:0 auto;padding:0 16px;">
-      <main class="main-content" style="min-width:0;overflow-x:hidden;">
+  const newPageLayout = `<div class="page-layout-with-sidebar">
+      <main>
 
         <!-- HERO SECTION -->
         <section class="hero-section">
-          <div class="section-header">
-            <h2 class="section-title">Buried Stories</h2>
-            <span class="badge-live">Live</span>
-          </div>
+          <h2 class="section-label">Buried Stories</h2>
+          <span class="live-badge">Live</span>
           <div class="hero-grid">
             ${heroMain}
             ${heroSec1}
@@ -2469,24 +2433,24 @@ function rebuildIndexHTML(allArticles) {
 ${categorySections}
 
       </main>
-      <aside class="sidebar" style="min-width:0;width:100%;position:sticky;top:80px;align-self:start;display:block;">
+      <aside class="sidebar">
         <div class="sidebar-widget email-widget">
-          <div class="widget-header">📬 Daily Briefing</div>
-          <div class="widget-body">
+          <div class="sidebar-widget-header">📬 Daily Briefing</div>
+          <div class="sidebar-widget-body">
             <p class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</p>
-            <input type="email" class="email-hero-input" placeholder="your@email.com" style="width:100%;margin-bottom:8px;">
-            <button class="btn-subscribe" style="width:100%;">Subscribe Free</button>
-            <p style="font-size:11px;color:#888;margin-top:6px;text-align:center;">Unsubscribe anytime.</p>
+            <input type="email" class="email-input" placeholder="your@email.com">
+            <button class="btn-subscribe">Subscribe Free</button>
+            <p class="email-disclaimer">Unsubscribe anytime.</p>
           </div>
         </div>
         <div class="sidebar-widget">
-          <div class="widget-header">🔥 Trending Now</div>
+          <div class="sidebar-widget-header">🔥 Trending Now</div>
           <div class="trending-list">
             ${trendingItems}
           </div>
         </div>
         <div class="sidebar-widget">
-          <div class="widget-header">📂 Browse Categories</div>
+          <div class="sidebar-widget-header">📂 Browse Categories</div>
           <div class="trending-list">
             ${browseItems}
           </div>
@@ -2496,7 +2460,7 @@ ${categorySections}
 
   // Replace <div class="page-layout">...</div> atomically
   // Match page-layout div with or without inline style attributes
-  const lStart = (() => { const i1 = html.indexOf('<div class="page-layout">'); const i2 = html.indexOf('<div class="page-layout" '); if (i1 === -1) return i2; if (i2 === -1) return i1; return Math.min(i1, i2); })();
+  const lStart = (() => { const i1 = html.indexOf('<div class="page-layout-with-sidebar">'); const i2 = html.indexOf('<div class="page-layout-with-sidebar" '); if (i1 === -1) return i2; if (i2 === -1) return i1; return Math.min(i1, i2); })();
   if (lStart !== -1) {
     const asideClose = html.indexOf('</aside>', lStart);
     let lEnd;
@@ -2734,29 +2698,29 @@ function rebuildCategoryPages(allArticles) {
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/style-fix-v2.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="site-logo">
-        <div class="logo-icon">N</div>
-        <span class="logo-text">News<span>Anarchist</span></span>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="/" class="masthead-brand">
+        <span class="masthead-wordmark">News<span>Anarchist</span></span>
       </a>
-      <nav class="main-nav" id="mainNav">
-        <a href="/category/surveillance-state.html">Surveillance State</a>
-        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
-        <a href="/category/government-secrets.html">Government Secrets</a>
-        <a href="/category/tech-privacy.html">Tech & Privacy</a>
-        <a href="/category/global-power.html">Global Power</a>
-        <a href="/category/money-markets.html">Money & Markets</a>
-        <a href="/category/unexplained.html">Unexplained</a>
-        <a href="/category/true-crime.html">True Crime</a>
-        <a href="/trending.html">Trending</a>
-        <a href="/buried-week.html">The Buried Week</a>
+      <nav class="nav-bar" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
+          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
+          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
+          <li><a href="/category/tech-privacy.html">Tech &amp; Privacy</a></li>
+          <li><a href="/category/global-power.html">Global Power</a></li>
+          <li><a href="/category/money-markets.html">Money &amp; Markets</a></li>
+          <li><a href="/category/unexplained.html">Unexplained</a></li>
+          <li><a href="/category/true-crime.html">True Crime</a></li>
+          <li><a href="/trending.html">Trending</a></li>
+          <li><a href="/buried-week.html">The Buried Week</a></li>
+        </ul>
       </nav>
       <div class="header-cta">
-        <button class="btn-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
+        <button class="masthead-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
           <span></span><span></span><span></span>
         </button>
@@ -2764,57 +2728,46 @@ function rebuildCategoryPages(allArticles) {
     </div>
   </header>
 
-  <main class="main-content" style="max-width:900px;margin:0 auto;padding:24px 16px;">
+  <main>
     <h1 style="font-size:2rem;margin-bottom:8px;">${label}</h1>
     <p style="color:#888;margin-bottom:32px;">${desc}</p>
-    <div class="article-grid">
+    <div class="card-grid">
 ${cardsHTML}
     </div>${paginationHTML}
   </main>
 
-  <footer class="site-footer" style="margin-top:0;">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="logo-text">News<span>Anarchist</span></span>
-        <p class="footer-tagline">News Without the Noise. AI-powered, human-curated news covering politics, tech, world affairs, and culture — without the spin.</p>
-        <div class="footer-social">
-          <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">&#120143;</a>
-          <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-          <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-          <a href="/rss" class="social-btn" aria-label="RSS Feed">&#9889;</a>
-          <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
-        </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-wordmark">News<span>Anarchist</span></div>
+      <p class="footer-tagline">News Without the Noise. AI-powered, human-curated news covering politics, tech, world affairs, and culture — without the spin.</p>
+      <div class="footer-social">
+        <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">&#120143;</a>
+        <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
+        <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
+        <a href="/rss" class="social-btn" aria-label="RSS Feed">&#9889;</a>
+        <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
       </div>
-      <div class="footer-col">
-        <h4>Categories</h4>
-        <ul class="footer-links">
-          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-          <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-          <li><a href="/category/global-power.html">Global Power</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/category/surveillance-state.html">Surveillance State</a>
+        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
+        <a href="/category/government-secrets.html">Government Secrets</a>
+        <a href="/category/tech-privacy.html">Tech &amp; Privacy</a>
+        <a href="/category/global-power.html">Global Power</a>
       </div>
-      <div class="footer-col">
-        <h4>Site</h4>
-        <ul class="footer-links">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/subscribe.html">Subscribe</a></li>
-          <li><a href="/trending.html">Trending</a></li>
-          <li><a href="/buried-week.html">The Buried Week</a></li>
-          <li><a href="https://newsanarchist.substack.com" target="_blank" rel="noopener">Substack</a></li>
-          <li><a href="/sitemap.xml">Sitemap</a></li>
-          <li><a href="/rss">RSS Feed</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/subscribe.html">Subscribe</a>
+        <a href="/trending.html">Trending</a>
+        <a href="/buried-week.html">The Buried Week</a>
+        <a href="https://newsanarchist.substack.com" target="_blank" rel="noopener">Substack</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/rss">RSS Feed</a>
       </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul class="footer-links">
-          <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
-          <li><a href="/corrections.html">Corrections</a></li>
-          <li><a href="/about.html#editorial">Editorial Standards</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
+        <a href="/corrections.html">Corrections</a>
+        <a href="/about.html#editorial">Editorial Standards</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -2864,12 +2817,12 @@ function rebuildTrendingHTML(allArticles) {
 
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
-    return `<a href="/category/${cs}.html">${cat}</a>`;
-  }).join('\n        ');
+    return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
+  }).join('\n          ');
 
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
-    return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
+    return `<a href="/category/${cs}.html">${cat}</a>`;
   }).join('\n          ');
 
   const html = `<!DOCTYPE html>
@@ -2900,23 +2853,23 @@ function rebuildTrendingHTML(allArticles) {
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/style-fix-v2.css">
 </head>
 <body>
 
   <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="site-logo">
-        <div class="logo-icon">N</div>
-        <span class="logo-text">News<span>Anarchist</span></span>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="/" class="masthead-brand">
+        <span class="masthead-wordmark">News<span>Anarchist</span></span>
       </a>
-      <nav class="main-nav" id="mainNav">
-        ${navLinks}
-        <a href="/trending.html" class="active">Trending</a>
+      <nav class="nav-bar" id="mainNav">
+        <ul class="nav-list">
+          ${navLinks}
+          <li><a href="/trending.html" class="active">Trending</a></li>
+        </ul>
       </nav>
       <div class="header-cta">
-        <button class="btn-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+        <button class="masthead-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
           <span></span><span></span><span></span>
         </button>
@@ -2932,16 +2885,13 @@ function rebuildTrendingHTML(allArticles) {
     </div>
   </div>
 
-  <div class="container">
-    <div class="page-layout">
-      <main class="main-content">
+    <div class="page-layout-with-sidebar">
+      <main>
 
         <!-- PAGE HEADER -->
-        <section class="content-section" style="padding-bottom:0;">
-          <div class="section-header">
-            <h1 class="section-title">🔥 Trending Stories — Last 48 Hours</h1>
-            <span class="badge-live">Live</span>
-          </div>
+        <section>
+          <h1 class="section-label">🔥 Trending Stories — Last 48 Hours</h1>
+          <span class="live-badge">Live</span>
           <p style="color:#888;margin-bottom:24px;">The freshest stories from our contrarian pipeline. ${trending.length} stories in the last 48 hours the mainstream press won't touch.</p>
         </section>
 
@@ -2955,11 +2905,9 @@ function rebuildTrendingHTML(allArticles) {
         </section>
 
         <!-- ALL TRENDING ARTICLES -->
-        <section class="content-section">
-          <div class="section-header">
-            <h2 class="section-title">All Trending Stories</h2>
-          </div>
-          <div class="article-grid">
+        <section>
+          <h2 class="section-label">All Trending Stories</h2>
+          <div class="card-grid">
             ${gridCards}
           </div>
         </section>
@@ -2967,10 +2915,10 @@ function rebuildTrendingHTML(allArticles) {
       </main>
 
       <!-- SIDEBAR -->
-      <aside class="sidebar" style="min-width:0;width:100%;position:sticky;top:80px;align-self:start;display:block;">
+      <aside class="sidebar">
         <div class="sidebar-widget email-widget">
-          <div class="widget-header">📬 Daily Briefing</div>
-          <div class="widget-body">
+          <div class="sidebar-widget-header">📬 Daily Briefing</div>
+          <div class="sidebar-widget-body">
             <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
             <form class="email-form" onsubmit="return false;">
               <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
@@ -2981,8 +2929,8 @@ function rebuildTrendingHTML(allArticles) {
         </div>
 
         <div class="sidebar-widget">
-          <div class="widget-header">📂 Categories</div>
-          <div class="widget-body">
+          <div class="sidebar-widget-header">📂 Categories</div>
+          <div class="sidebar-widget-body">
             <div class="trending-list">
               ${CATEGORIES.map((cat, i) => {
                 const cs = CATEGORY_SLUGS[cat];
@@ -2996,7 +2944,6 @@ function rebuildTrendingHTML(allArticles) {
         </div>
       </aside>
     </div>
-  </div>
 
 
   <section class="newsletter-section" style="text-align:center;padding:40px 20px;background:#f8f8f8;">
@@ -3012,40 +2959,29 @@ function rebuildTrendingHTML(allArticles) {
     </div>
   </section>
   <!-- FOOTER -->
-  <footer class="site-footer" style="margin-top:0;">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="logo-text">News<span>Anarchist</span></span>
-        <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork.</p>
-        <div class="footer-social">
-          <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
-          <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
-          <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
-          <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
-          <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
-        </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-wordmark">News<span>Anarchist</span></div>
+      <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork.</p>
+      <div class="footer-social">
+        <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
+        <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
+        <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
+        <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
+        <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
       </div>
-      <div class="footer-col">
-        <h4>Investigations</h4>
-        <ul class="footer-links">
-          ${footerCatLinks}
-        </ul>
+      <div class="footer-links">
+        ${footerCatLinks}
       </div>
-      <div class="footer-col">
-        <h4>Site</h4>
-        <ul class="footer-links">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/subscribe.html">Subscribe</a></li>
-          <li><a href="/sitemap.xml">Sitemap</a></li>
-          <li><a href="/rss">RSS Feed</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/subscribe.html">Subscribe</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/rss">RSS Feed</a>
       </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul class="footer-links">
-          <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
-        </ul>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
       </div>
     </div>
     <div class="footer-bottom">
