@@ -105,10 +105,10 @@
 
 <div class="page-layout-with-sidebar">
   <main>
-    <article class="article-wrapper">
+    <article data-internal-linked="true" class="article-wrapper">
       <span class="article-category-label">Government Secrets</span>
       <h1 class="article-headline">I stumbled across a WhatsApp privacy loophole that identifies hidden Community members</h1>
-      <p class="article-dek">I think I’ve accidently found a privacy issue with WhatsApp communities. I’m in a WhatsApp community where the Admin has hidden the member list, so members should not be able to see who else is in it. That part works as expected. However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro</p>
+      <p class="article-dek">I think I’ve accidently found a <a href="/articles/2026-05-06-combating-age-verification-open-source-av-app.html" title="Combating Age-Verification: Open Source AV app?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">privacy</a> issue with WhatsApp communities. I’m in a WhatsApp community where the Admin has <a href="/articles/2026-05-09-school-installed-a-hidden-camera-in-our-dorm-bathroom-sink-area-to-stop-clogging.html" title="School installed a hidden camera in our dorm bathroom sink area to stop clogging —how creepy this is?" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">hidden</a> the member list, so members should not be able to see who else is in it. That part works as expected. However, I noticed something odd. If I open a normal private chat with one of my contacts, go to their profile and check the “Gro</p>
       <div class="article-byline">
         <div class="byline-avatar" style="background-image:url(/images/authors/jordan-calloway.webp);"></div>
         <div>
@@ -131,7 +131,7 @@
             </div>
             <p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;">WhatsApp's "hidden members" feature is security theater—and anyone claiming surprise at this particular leak hasn't been paying attention to how metadata works.
 
-The vulnerability here isn't accidental. It's architectural. When you hide a member list, you're obfuscating *display*, not *existence*. The protocol still needs to know who's in the group to route messages. That metadata—timestamps, typing indicators, read receipts, delivery confirmations—creates a fingerprint. Extract it systematically, correlate it across sessions, and you've identified hidden members without ever seeing the roster.
+The vulnerability here isn't accidental. It's architectural. When you hide a member list, you're obfuscating *display*, not *existence*. The protocol still needs to know who's in the group to route messages. That metadata—timestamps, typing indicators, read receipts, delivery confirmations—creates a fingerprint. Extract it systematically, correlate it <a href="/articles/2026-03-25-europe-antisemitic-attacks-investigation.html" title="Investigators Seek Answers in Coordinated Antisemitic Attacks Across Europe — Two Arrested in London" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">across</a> sessions, and you've identified hidden members without ever seeing the roster.
 
 This is the same reason Signal's disappearing messages remain vulnerable to screenshots and analog capture. You can't engineer privacy into a system designed for communication. Someone has to know who's talking.
 
