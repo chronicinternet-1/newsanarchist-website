@@ -490,7 +490,7 @@ function generateArticleImage(topic, outputPath) {
     .filter(w => w.length > 3 && !['that','this','with','from','they','have','been','will','what','when','were','their','about','after','over','into','than','more','also','then','some','such','even','most','just','does','only','said','each','which','there','where','these','those','would','could','should'].includes(w));
   const keyWords = titleWords.slice(0, 6).join(', ');
 
-  const prompt = `Editorial news photograph in Reuters or Associated Press style for article: "${title}". Visual subject: ${keyWords}. Bright, natural lighting. Sharp focus. Clean white or neutral background where possible. Documentary realism, not cinematic drama. No dark filters. No black backgrounds. No vignettes. No human faces, no people, no portraits. No text, no words, no typography anywhere in the image. Wide landscape composition. Photorealistic. Visually specific to this article topic.`;
+  const prompt = `Wide landscape editorial news photograph, Reuters or Associated Press style, for article: "${title}". Visual subject: ${keyWords}. Fill the entire frame edge to edge with content — no black bars, no letterboxing, no empty margins, no borders, no vignettes, no dark edges. Bright natural daylight or clean indoor lighting. Sharp focus. Documentary realism. No people, no faces, no portraits. No text, no words, no typography. Full bleed landscape composition, subject fills entire image. Photorealistic.`;
 
   try {
     const result = execSync(
