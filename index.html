@@ -3,523 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
-  <meta property="og:description" content="The stories buried, spiked, or spun.">
-  <meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
-  <meta property="og:url" content="https://newsanarchist.com">
+  <title>NewsAnarchist — News Without the Noise</title>
+  <meta name="description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
+  <meta name="keywords" content="breaking news, politics news, world news, tech news, trending news 2026, news without bias">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://newsanarchist.com/">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
+  <meta property="og:title" content="NewsAnarchist — News Without the Noise">
+  <meta property="og:description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
+  <meta property="og:url" content="https://newsanarchist.com/">
+  <meta property="og:image" content="https://newsanarchist.com/images/og-card.png">
+  <meta property="og:site_name" content="NewsAnarchist">
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NewsAnarchist — News Without the Noise">
+  <meta name="twitter:description" content="The stories they spiked. The documents they buried. Contrarian journalism with receipts.">
+  <meta name="twitter:image" content="https://newsanarchist.com/images/og-card.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NewsAnarchist",
+    "url": "https://newsanarchist.com",
+    "description": "Breaking news, politics, tech, world affairs, and culture without the noise.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://newsanarchist.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NewsAnarchist",
+    "url": "https://newsanarchist.com",
+    "logo": "https://newsanarchist.com/images/logo.png",
+    "sameAs": [
+      "https://x.com/newsanarchis",
+      "https://www.reddit.com/r/worldnews/"
+    ]
+  }
+  </script>
+
+  <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7N6W04M3XW');
+  </script>  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-8570942144538499?ers=1"></script>
+<script>(function() {function signalGooglefcPresent() {if (!window.frames["googlefcPresent"]) {if (document.body) {const iframe = document.createElement("iframe"); iframe.style = "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;"; iframe.style.display = "none"; iframe.name = "googlefcPresent"; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+  <link rel="stylesheet" href="/style-fix-v2.css">
 </head>
 <body>
 
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="masthead-top">
-      <div style="width:120px;"></div>
-      <div class="masthead-brand">
-        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
-        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
-      </div>
-      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-    </div>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-        <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-        <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-        <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-        <li><a href="/category/global-power.html">Global Power</a></li>
-        <li><a href="/category/money-markets.html">Money & Markets</a></li>
-        <li><a href="/category/unexplained.html">Unexplained</a></li>
-        <li><a href="/category/true-crime.html">True Crime</a></li>
-        <li><a href="/trending.html">Trending</a></li>
-        <li><a href="/buried-week.html">The Buried Week</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="page-layout-with-sidebar">
-  <main>
-    <section class="hero-section">
-      <div class="section-label">
-        <h2>Buried Stories</h2>
-        <span class="live-badge">Live</span>
-      </div>
-      <div class="hero-grid">
-        <a href="/articles/2026-05-21-exit-taxes-wont-save-failing-states.html" class="hero-card hero-main">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-21-exit-taxes-wont-save-failing-states.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Government Secrets</span>
-    </div>
-    <div class="hero-card-title">Exit Taxes Won't Save Failing States</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/jordan-calloway.webp)"></div>
-      <a href="/authors/jordan-calloway.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Jordan Calloway</a> · Government Secrets
-    </div>
-  </div>
-</a>
-        <a href="/articles/2026-05-21-ai-assisted-engineers-are-burning-out-is-this-fine.html" class="hero-card hero-secondary">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-21-ai-assisted-engineers-are-burning-out-is-this-fine.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Government Secrets</span>
-    </div>
-    <div class="hero-card-title">AI-assisted engineers are burning out, is this fine?</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/jordan-calloway.webp)"></div>
-      <a href="/authors/jordan-calloway.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Jordan Calloway</a> · Government Secrets
-    </div>
-  </div>
-</a>
-        <a href="/articles/2026-05-21-no-deal-reached-amid-fabricated-mideast-media-reports-trump-presses-nuclear-issu.html" class="hero-card hero-secondary">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-21-no-deal-reached-amid-fabricated-mideast-media-reports-trump-presses-nuclear-issu.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Global Power</span>
-    </div>
-    <div class="hero-card-title">No Deal Reached, Amid 'Fabricated' Mideast Media Reports; Trump Presses Nuclear …</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/elena-vasquez.webp)"></div>
-      <a href="/authors/elena-vasquez.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Elena Vasquez</a> · Global Power
-    </div>
-  </div>
-</a>
-      </div>
-    </section>
-    
-  <section>
-    <div class="section-label"><h2>Surveillance State</h2><a href="/category/surveillance-state.html">All Surveillance State →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-trump-posts-article-laying-out-heres-how-to-crush-tehran-in-three-moves.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-trump-posts-article-laying-out-heres-how-to-crush-tehran-in-three-moves.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Trump Posts Article Laying Out: "Here's How To Crush Tehran In Three Moves"</div>
-    <div class="card-excerpt">President Trump on Thursday posted to Truth …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-us-targets-hamas-support-networks.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-us-targets-hamas-support-networks.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">US Targets Hamas Support Networks</div>
-    <div class="card-excerpt">(emphasis ours), The Department of the Treasury's Office of Foreign Assets Control (OF…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-is-the-bond-market-about-to-break-washington.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-is-the-bond-market-about-to-break-washington.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Is The Bond Market About To Break Washington</div>
-    <div class="card-excerpt">Submitted by The bond market is beginning to force reality onto Washington,…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Corporate Watchdog</h2><a href="/category/corporate-watchdog.html">All Corporate Watchdog →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Nelnet data breach case ends with final $10M court approval</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-20-google-wants-gemini-ai-on-your-face-so-it-can-sell-you-more-ads-later-privacy-co.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-20-google-wants-gemini-ai-on-your-face-so-it-can-sell-you-more-ads-later-privacy-co.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 20, 2026</span>
-    </div>
-    <div class="card-title">Google wants Gemini AI on your face so it can sell you more ads later, privacy concerns?</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-20-meta-axes-8000-workers-as-zuckerberg-admits-ai-is-watching-replacing-labor.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-20-meta-axes-8000-workers-as-zuckerberg-admits-ai-is-watching-replacing-labor.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 20, 2026</span>
-    </div>
-    <div class="card-title">Meta Axes 8,000 Workers As Zuckerberg Admits AI Is Watching, Replacing Labor</div>
-    <div class="card-excerpt">Welcome to another day of corporate America…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Government Secrets</h2><a href="/category/government-secrets.html">All Government Secrets →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-exit-taxes-wont-save-failing-states.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-exit-taxes-wont-save-failing-states.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Exit Taxes Won't Save Failing States</div>
-    <div class="card-excerpt">When a state starts floating an , it is telling you something more important than a…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-ai-assisted-engineers-are-burning-out-is-this-fine.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-ai-assisted-engineers-are-burning-out-is-this-fine.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">AI-assisted engineers are burning out, is this fine?</div>
-    <div class="card-excerpt">AI-assisted engineers are burning out, is this fine?</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-rickards-investing-in-a-world-in-turmoil.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-rickards-investing-in-a-world-in-turmoil.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Rickards: Investing In A World In Turmoil</div>
-    <div class="card-excerpt">To say that the world is in turmoil to an extent not seen since the 1960s is a…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Tech & Privacy</h2><a href="/category/tech-privacy.html">All Tech & Privacy →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Jane Street Accused Of Using Terra Telegram Backchannel Before UST Crash</div>
-    <div class="card-excerpt">A newly unsealed court filing in the Terraform …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">"Drills Are Intended To Send A Signal": Russia Holds Massive Nuclear Drills On Land, Sea And Air Alongside Belarus</div>
-    <div class="card-excerpt">Truck…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-i-built-a-tool-to-stop-ai-coding-agents-from-leaking-my-secrets.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-i-built-a-tool-to-stop-ai-coding-agents-from-leaking-my-secrets.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">I built a tool to stop AI coding agents from leaking my secrets</div>
-    <div class="card-excerpt">I built a tool to stop AI coding agents from leaking my secrets</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Global Power</h2><a href="/category/global-power.html">All Global Power →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-no-deal-reached-amid-fabricated-mideast-media-reports-trump-presses-nuclear-issu.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-no-deal-reached-amid-fabricated-mideast-media-reports-trump-presses-nuclear-issu.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">No Deal Reached, Amid 'Fabricated' Mideast Media Reports; Trump Presses Nuclear Issue &amp; Iran President Says 'Won't Back Down'</div>
-    <div class="card-excerpt">No Deal Reached, Amid 'Fabricated' Mideast Media Reports; Trump Presses Nuclear Issue & Iran President Says 'Won't Back …</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-rubio-diplomacy-will-be-rendered-impossible-if-iran-enacts-hormuz-toll-system.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-rubio-diplomacy-will-be-rendered-impossible-if-iran-enacts-hormuz-toll-system.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Rubio: Diplomacy Will Be Rendered 'Impossible' If Iran Enacts Hormuz Toll System</div>
-    <div class="card-excerpt">Iran has been seeking to significantly …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-walmart-tumbles-on-disappointing-guidance-warns-low-income-consumers-drowning.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-walmart-tumbles-on-disappointing-guidance-warns-low-income-consumers-drowning.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Walmart Tumbles On Disappointing Guidance, Warns Low-Income Consumers Drowning</div>
-    <div class="card-excerpt">Extending concerns about US consumer weak…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Money & Markets</h2><a href="/category/money-markets.html">All Money & Markets →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">All the more reason to avoid crypto: data breaches give intel to scammers to steal from you</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">The Water Economics Of Data Centers Vs. Almond Farms &amp; Golf Courses</div>
-    <div class="card-excerpt">ecent Gallup poll shows that nearly 70% of Americ…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-the-water-economics-of-data-centers-v-almond-farms-amp-golf-courses.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-the-water-economics-of-data-centers-v-almond-farms-amp-golf-courses.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 20, 2026</span>
-    </div>
-    <div class="card-title">The Water Economics Of Data Centers V. Almond Farms &amp; Golf Courses</div>
-    <div class="card-excerpt">ecent Gallup poll shows that nearly 70% of America…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>Unexplained</h2><a href="/category/unexplained.html">All Unexplained →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 4, 2026</span>
-    </div>
-    <div class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</div>
-    <div class="card-excerpt">PBS...</div>
-  </div>
-</a>
-      <a href="/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">April 21, 2026</span>
-    </div>
-    <div class="card-title">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea</div>
-    <div class="card-excerpt">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea There's been yet another maj…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">April 17, 2026</span>
-    </div>
-    <div class="card-title">Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space</div>
-    <div class="card-excerpt">Russia and Ukraine have c…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label"><h2>True Crime</h2><a href="/category/true-crime.html">All True Crime →</a></div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 14, 2026</span>
-    </div>
-    <div class="card-title">Billionaire Democrat Donor Who Bankrolled Swalwell Breaks Silence After Surprise Arrest</div>
-    <div class="card-excerpt">Billionaire and Democrat donor S…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 14, 2026</span>
-    </div>
-    <div class="card-title">Minnesota 'Culture Of Fraud' Enabled More Than $9 Billion In Misused Taxpayer Funds, Panel Says</div>
-    <div class="card-excerpt">(emphasis ours), A “cult…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-15-zelenskyys-former-right-hand-man-yermak-arrested-in-105-million-money-laundering.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-15-zelenskyys-former-right-hand-man-yermak-arrested-in-105-million-money-laundering.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 14, 2026</span>
-    </div>
-    <div class="card-title">Zelenskyy's Former Right-Hand Man Yermak Arrested In $10.5 Million Money Laundering Scheme</div>
-    <div class="card-excerpt">Ukraine’s High Anti-Corruptio…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  </main>
-  <aside class="sidebar">
-    <div class="sidebar-widget" id="subscribe-anchor">
-      <div class="sidebar-widget-header">Daily Briefing</div>
-      <div class="sidebar-widget-body">
-        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
-        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
-          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
-          <button type="submit" class="btn-subscribe">Subscribe Free</button>
-        </form>
-        <div class="email-disclaimer">Unsubscribe anytime.</div>
-      </div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Trending Now</div>
-      <div class="trending-list"><a href="/articles/2026-05-21-exit-taxes-wont-save-failing-states.html" class="trending-item"><span class="trending-num">1</span><div><div class="trending-title">Exit Taxes Won't Save Failing States</div><div class="trending-count">15.8K reads</div></div></a>
-<a href="/articles/2026-05-21-ai-assisted-engineers-are-burning-out-is-this-fine.html" class="trending-item"><span class="trending-num">2</span><div><div class="trending-title">AI-assisted engineers are burning out, is this fine?</div><div class="trending-count">25.7K reads</div></div></a>
-<a href="/articles/2026-05-21-no-deal-reached-amid-fabricated-mideast-media-reports-trump-presses-nuclear-issu.html" class="trending-item"><span class="trending-num">3</span><div><div class="trending-title">No Deal Reached, Amid 'Fabricated' Mideast Media Reports; Tr…</div><div class="trending-count">16.5K reads</div></div></a>
-<a href="/articles/2026-05-21-trump-posts-article-laying-out-heres-how-to-crush-tehran-in-three-moves.html" class="trending-item"><span class="trending-num">4</span><div><div class="trending-title">Trump Posts Article Laying Out: "Here's How To Crush Tehran …</div><div class="trending-count">29.1K reads</div></div></a>
-<a href="/articles/2026-05-21-rickards-investing-in-a-world-in-turmoil.html" class="trending-item"><span class="trending-num">5</span><div><div class="trending-title">Rickards: Investing In A World In Turmoil</div><div class="trending-count">16.1K reads</div></div></a>
-<a href="/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.html" class="trending-item"><span class="trending-num">6</span><div><div class="trending-title">Nelnet data breach case ends with final $10M court approval</div><div class="trending-count">28.5K reads</div></div></a>
-<a href="/articles/2026-05-21-rubio-diplomacy-will-be-rendered-impossible-if-iran-enacts-hormuz-toll-system.html" class="trending-item"><span class="trending-num">7</span><div><div class="trending-title">Rubio: Diplomacy Will Be Rendered 'Impossible' If Iran Enact…</div><div class="trending-count">9.4K reads</div></div></a></div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Browse Categories</div>
-      <div class="trending-list"><a href="/category/surveillance-state.html" class="trending-item"><span class="trending-num">1</span><div><div class="trending-title">Surveillance State</div></div></a>
-<a href="/category/corporate-watchdog.html" class="trending-item"><span class="trending-num">2</span><div><div class="trending-title">Corporate Watchdog</div></div></a>
-<a href="/category/government-secrets.html" class="trending-item"><span class="trending-num">3</span><div><div class="trending-title">Government Secrets</div></div></a>
-<a href="/category/tech-privacy.html" class="trending-item"><span class="trending-num">4</span><div><div class="trending-title">Tech & Privacy</div></div></a>
-<a href="/category/global-power.html" class="trending-item"><span class="trending-num">5</span><div><div class="trending-title">Global Power</div></div></a>
-<a href="/category/money-markets.html" class="trending-item"><span class="trending-num">6</span><div><div class="trending-title">Money & Markets</div></div></a>
-<a href="/category/unexplained.html" class="trending-item"><span class="trending-num">7</span><div><div class="trending-title">Unexplained</div></div></a>
-<a href="/category/true-crime.html" class="trending-item"><span class="trending-num">8</span><div><div class="trending-title">True Crime</div></div></a></div>
-    </div>
-  </aside>
-</div>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-wordmark">News<span>Anarchist</span></div>
-    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
-    <div class="footer-links">
-      <a href="/category/surveillance-state.html">Surveillance State</a>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="site-logo">
+        <div class="logo-icon">N</div>
+        <span class="logo-text">News<span>Anarchist</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="/category/surveillance-state.html">Surveillance State</a>
         <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
         <a href="/category/government-secrets.html">Government Secrets</a>
         <a href="/category/tech-privacy.html">Tech & Privacy</a>
@@ -527,37 +89,765 @@
         <a href="/category/money-markets.html">Money & Markets</a>
         <a href="/category/unexplained.html">Unexplained</a>
         <a href="/category/true-crime.html">True Crime</a>
+        <a href="/trending.html">Trending</a>
+      </nav>
+      <div class="header-cta">
+        <button class="btn-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
-    <div class="footer-links">
-      <a href="/about.html">About</a>
-      <a href="/editorial.html">Editorial Standards</a>
-      <a href="/subscribe.html">Subscribe</a>
-      <a href="/trending.html">Trending</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/rss">RSS</a>
+  </header>
+
+  <!-- BREAKING NEWS TICKER -->
+  <div class="breaking-bar">
+    <span class="breaking-label">BREAKING</span>
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">Largest Ukrainian Drone Attack On Moscow In Over A Year Leaves Four Dead</span>
+      <span class="ticker-item">YouTube, Snap, And TikTok Settle Kentucky School District's Social Media Addict…</span>
+      <span class="ticker-item">DOJ Probes BlackRock Private Credit Fund Valuations After Dramatic Repricings</span>
+      <span class="ticker-item">Trump Tells Iran 'Clock Is Ticking, Move Fast' After New Peace Proposal As Anal…</span>
+      <span class="ticker-item">Massive Mushroom Cloud 'Test' Blast Rattles Uninformed Residents Outside Jerusa…</span>
+      <span class="ticker-item">AI vs Affordability And Rates</span>
     </div>
-    <div class="footer-legal">&copy; 2026 NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
   </div>
-</footer>
+
+  <!-- EMAIL HERO BANNER -->
+  <div class="container" id="emailSignup">
+    <div class="email-hero-banner">
+      <div class="email-hero-text">
+        <div class="email-hero-title">🔥 Get the stories they don't want you to read.</div>
+        <div class="email-hero-sub">Join 10,000+ readers who get NewsAnarchist's daily briefing — no paywalls, no spin, straight to your inbox.</div>
+      </div>
+      <form class="email-hero-form" id="heroEmailForm" onsubmit="submitHeroEmail(event);">
+        <input type="email" id="heroEmailInput" class="email-hero-input" placeholder="your@email.com" aria-label="Email address" required>
+        <button class="btn-subscribe" type="submit" id="heroEmailBtn">Join Free →</button>
+      </form>
+      <div id="heroEmailMsg" style="margin-top:10px;font-size:14px;display:none;"></div>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="container">
+    <div class="page-layout">
+      <main class="main-content">
+
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+          <div class="section-header">
+            <h2 class="section-title">Buried Stories</h2>
+            <span class="badge-live">Live</span>
+          </div>
+          <div class="hero-grid">
+            
+            <a href="/articles/2026-05-17-largest-ukrainian-drone-attack-on-moscow-in-over-a-year-leaves-four-dead.html" class="hero-main">
+              <div class="hero-img-placeholder" style="background-image:url(/images/articles/2026-05-17-largest-ukrainian-drone-attack-on-moscow-in-over-a-year-leaves-four-dead.webp);background-size:cover;background-position:center;"></div>
+              <div class="hero-overlay">
+                <span class="hero-tag">Global Power</span>
+                <h1 class="hero-title">Largest Ukrainian Drone Attack On Moscow In Over A Year Leaves Four Dead</h1>
+                <div class="hero-meta">NewsAnarchist Desk • May 17, 2026</div>
+              </div>
+            </a>
+            
+            <a href="/articles/2026-05-17-youtube-snap-and-tiktok-settle-kentucky-school-districts-social-media-addiction.html" class="hero-secondary">
+              <div class="hero-img-placeholder" style="background-image:url(/images/articles/2026-05-17-youtube-snap-and-tiktok-settle-kentucky-school-districts-social-media-addiction.webp);background-size:cover;background-position:center;"></div>
+              <div class="hero-overlay">
+                <span class="hero-tag">Surveillance State</span>
+                <h2 class="hero-title">YouTube, Snap, And TikTok Settle Kentucky School District's Social Media Addict…</h2>
+                <div class="hero-meta">NewsAnarchist Desk • May 17, 2026</div>
+              </div>
+            </a>
+            
+            <a href="/articles/2026-05-17-doj-probes-blackrock-private-credit-fund-valuations-after-dramatic-repricings.html" class="hero-secondary">
+              <div class="hero-img-placeholder" style="background-image:url(/images/articles/2026-05-17-doj-probes-blackrock-private-credit-fund-valuations-after-dramatic-repricings.webp);background-size:cover;background-position:center;"></div>
+              <div class="hero-overlay">
+                <span class="hero-tag">Government Secrets</span>
+                <h2 class="hero-title">DOJ Probes BlackRock Private Credit Fund Valuations After Dramatic Repricings</h2>
+                <div class="hero-meta">NewsAnarchist Desk • May 17, 2026</div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+
+        <!-- SURVEILLANCE_STATE SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">👁️ Surveillance State</h2>
+            <a href="/category/surveillance-state.html" class="section-link">All Surveillance State →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-17-youtube-snap-and-tiktok-settle-kentucky-school-districts-social-media-addiction.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-youtube-snap-and-tiktok-settle-kentucky-school-districts-social-media-addiction.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Surveillance State</span>
+                <h3 class="card-title">YouTube, Snap, And TikTok Settle Kentucky School District's Social Media Addiction Claims</h3>
+                <p class="card-excerpt">(emphasis ours), YouTube, Sna…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-americans-face-the-highest-memorial-day-gas-prices-on-record.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-americans-face-the-highest-memorial-day-gas-prices-on-record.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Surveillance State</span>
+                <h3 class="card-title">Americans Face The Highest Memorial Day Gas Prices On Record</h3>
+                <p class="card-excerpt">The nationwide average price of regular gasoline marginall…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-attack-drone-hits-near-uae-nuclear-power-plant.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-attack-drone-hits-near-uae-nuclear-power-plant.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Surveillance State</span>
+                <h3 class="card-title">Attack Drone Hits Near UAE Nuclear Power Plant</h3>
+                <p class="card-excerpt">Abu Dhabi authorities report that a kamikaze drone struck an electrical …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- CORPORATE_WATCHDOG SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">🐕 Corporate Watchdog</h2>
+            <a href="/category/corporate-watchdog.html" class="section-link">All Corporate Watchdog →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-17-remember-in-a-crisis-everyone-will-consider-themselves-the-good-guys.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-remember-in-a-crisis-everyone-will-consider-themselves-the-good-guys.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Corporate Watchdog</span>
+                <h3 class="card-title">Remember: In A Crisis, Everyone Will Consider Themselves 'The Good Guys'</h3>
+                <p class="card-excerpt">The state has two monopolies it must protect w…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-security-researcher-says-microsoft-built-a-bitlocker-backdoor-releases-exploit.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-security-researcher-says-microsoft-built-a-bitlocker-backdoor-releases-exploit.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Corporate Watchdog</span>
+                <h3 class="card-title">Security researcher says Microsoft built a Bitlocker backdoor, releases exploit</h3>
+                <p class="card-excerpt">Security researcher says Microsoft built a Bitlocker backdoor, releases exploit</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-16-microsoft-bitlocker-encryption-bypassed.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-microsoft-bitlocker-encryption-bypassed.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Corporate Watchdog</span>
+                <h3 class="card-title">Microsoft Bitlocker encryption bypassed!</h3>
+                <p class="card-excerpt">I believe this deserves greater attention. Users who rely on BitLocker for privacy should know that its encryption can …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 15, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- GOVERNMENT_SECRETS SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">🔏 Government Secrets</h2>
+            <a href="/category/government-secrets.html" class="section-link">All Government Secrets →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-17-doj-probes-blackrock-private-credit-fund-valuations-after-dramatic-repricings.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-doj-probes-blackrock-private-credit-fund-valuations-after-dramatic-repricings.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Government Secrets</span>
+                <h3 class="card-title">DOJ Probes BlackRock Private Credit Fund Valuations After Dramatic Repricings</h3>
+                <p class="card-excerpt">It all started in late January, just befo…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/jordan-calloway.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/jordan-calloway.html" style="color:inherit;text-decoration:none;">Jordan Calloway</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-axios-warns-cuba-stockpiled-300-attack-drones-with-crosshairs-on-us-homeland.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-axios-warns-cuba-stockpiled-300-attack-drones-with-crosshairs-on-us-homeland.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Government Secrets</span>
+                <h3 class="card-title">Axios Warns Cuba Stockpiled 300 Attack Drones With Crosshairs On U.S. Homeland</h3>
+                <p class="card-excerpt">Well, well, well. On Feb. 3, we first as…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/jordan-calloway.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/jordan-calloway.html" style="color:inherit;text-decoration:none;">Jordan Calloway</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-billionaires-are-actors-playing-a-role-the-richest-men-on-earth-wont-ever-show-t.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-billionaires-are-actors-playing-a-role-the-richest-men-on-earth-wont-ever-show-t.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Government Secrets</span>
+                <h3 class="card-title">Billionaires are actors playing a role. The richest men on earth won't ever show their faces. They give us the illusion of a free market economy. Work hard, persevere and one day you will be one of us" thats what they Say in their scripted books and talks and the average person believes it</h3>
+                <p class="card-excerpt">Occultists are the ones in charge. Signs and symbols rule the world. You SEE it on their apps, You SEE them making hand…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/jordan-calloway.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/jordan-calloway.html" style="color:inherit;text-decoration:none;">Jordan Calloway</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- TECH_&_PRIVACY SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">🔒 Tech & Privacy</h2>
+            <a href="/category/tech-privacy.html" class="section-link">All Tech & Privacy →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-17-ai-vs-affordability-and-rates.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-ai-vs-affordability-and-rates.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Tech & Privacy</span>
+                <h3 class="card-title">AI vs Affordability And Rates</h3>
+                <p class="card-excerpt">By Peter Tchir of Academy Securities Last week, we contemplated, for the first time, that…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Tech & Privacy</span>
+                <h3 class="card-title">Mozilla to UK regulators: VPNs are essential privacy and security tools</h3>
+                <p class="card-excerpt">Mozilla to UK regulators: VPNs are essential privacy and security tools</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 16, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-started-switching-to-privacy-but-have-a-doubt.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-started-switching-to-privacy-but-have-a-doubt.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Tech & Privacy</span>
+                <h3 class="card-title">Started switching to privacy but have a doubt</h3>
+                <p class="card-excerpt">So, I'm beginning to use Tutamail as the privacy oriented Gmail alternative, but i have a doubt about the password mana…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/marcus-webb.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/marcus-webb.html" style="color:inherit;text-decoration:none;">Marcus Webb</a></span>
+                  <span class="dot"></span>
+                  <span>May 16, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- GLOBAL_POWER SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">🌐 Global Power</h2>
+            <a href="/category/global-power.html" class="section-link">All Global Power →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-17-largest-ukrainian-drone-attack-on-moscow-in-over-a-year-leaves-four-dead.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-largest-ukrainian-drone-attack-on-moscow-in-over-a-year-leaves-four-dead.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Global Power</span>
+                <h3 class="card-title">Largest Ukrainian Drone Attack On Moscow In Over A Year Leaves Four Dead</h3>
+                <p class="card-excerpt">The Russian capital has just suffered possibly…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/elena-vasquez.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/elena-vasquez.html" style="color:inherit;text-decoration:none;">Elena Vasquez</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-trump-tells-iran-clock-is-ticking-move-fast-after-new-peace-proposal-as-analysts.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-trump-tells-iran-clock-is-ticking-move-fast-after-new-peace-proposal-as-analysts.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Global Power</span>
+                <h3 class="card-title">Trump Tells Iran 'Clock Is Ticking, Move Fast' After New Peace Proposal As Analysts Predict Likely Return To War</h3>
+                <p class="card-excerpt">Update…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/elena-vasquez.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/elena-vasquez.html" style="color:inherit;text-decoration:none;">Elena Vasquez</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-17-massive-mushroom-cloud-test-blast-rattles-uninformed-residents-outside-jerusalem.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-17-massive-mushroom-cloud-test-blast-rattles-uninformed-residents-outside-jerusalem.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Global Power</span>
+                <h3 class="card-title">Massive Mushroom Cloud 'Test' Blast Rattles Uninformed Residents Outside Jerusalem</h3>
+                <p class="card-excerpt">Late Saturday night, a massive explo…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/elena-vasquez.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/elena-vasquez.html" style="color:inherit;text-decoration:none;">Elena Vasquez</a></span>
+                  <span class="dot"></span>
+                  <span>May 17, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- MONEY_&_MARKETS SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">💸 Money & Markets</h2>
+            <a href="/category/money-markets.html" class="section-link">All Money & Markets →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-16-tehran-claims-us-faces-escalating-economic-fallout-from-war-of-choice-as-hardshi.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-tehran-claims-us-faces-escalating-economic-fallout-from-war-of-choice-as-hardshi.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Money & Markets</span>
+                <h3 class="card-title">Tehran Claims US Faces Escalating Economic Fallout From 'War Of Choice' As Hardship Mounts Inside Iran</h3>
+                <p class="card-excerpt">Iranian Foreign …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 16, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-16-buy-the-trend-not-the-stock.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-buy-the-trend-not-the-stock.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Money & Markets</span>
+                <h3 class="card-title">Buy the trend not the stock</h3>
+                <p class="card-excerpt">It’s understandable the FOMO of wanting to own MU or Sandisk, but why risk it all when you can simply be on the trend? …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 16, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-16-daily-crypto-discussion-may-15-2026-gmt0.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-16-daily-crypto-discussion-may-15-2026-gmt0.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Money & Markets</span>
+                <h3 class="card-title">Daily Crypto Discussion - May 15, 2026 (GMT+0)</h3>
+                <p class="card-excerpt">Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating. Disclaimer: C…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/diana-reeves.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/diana-reeves.html" style="color:inherit;text-decoration:none;">Diana Reeves</a></span>
+                  <span class="dot"></span>
+                  <span>May 15, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- UNEXPLAINED SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">📰 Unexplained</h2>
+            <a href="/category/unexplained.html" class="section-link">All Unexplained →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Unexplained</span>
+                <h3 class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</h3>
+                <p class="card-excerpt">PBS...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/casey-north.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/casey-north.html" style="color:inherit;text-decoration:none;">Casey North</a></span>
+                  <span class="dot"></span>
+                  <span>May 4, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Unexplained</span>
+                <h3 class="card-title">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea</h3>
+                <p class="card-excerpt">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea There's been yet another ma…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/casey-north.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/casey-north.html" style="color:inherit;text-decoration:none;">Casey North</a></span>
+                  <span class="dot"></span>
+                  <span>April 20, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">Unexplained</span>
+                <h3 class="card-title">Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space</h3>
+                <p class="card-excerpt">Russia and Ukraine have …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/casey-north.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/casey-north.html" style="color:inherit;text-decoration:none;">Casey North</a></span>
+                  <span class="dot"></span>
+                  <span>April 16, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- TRUE_CRIME SECTION -->
+        <section class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">📰 True Crime</h2>
+            <a href="/category/true-crime.html" class="section-link">All True Crime →</a>
+          </div>
+          <div class="article-grid">
+            
+            <a href="/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">True Crime</span>
+                <h3 class="card-title">Billionaire Democrat Donor Who Bankrolled Swalwell Breaks Silence After Surprise Arrest</h3>
+                <p class="card-excerpt">Billionaire and Democrat donor …...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/sam-okafor.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/sam-okafor.html" style="color:inherit;text-decoration:none;">Sam Okafor</a></span>
+                  <span class="dot"></span>
+                  <span>May 14, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">True Crime</span>
+                <h3 class="card-title">Minnesota 'Culture Of Fraud' Enabled More Than $9 Billion In Misused Taxpayer Funds, Panel Says</h3>
+                <p class="card-excerpt">(emphasis ours), A “cul…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/sam-okafor.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/sam-okafor.html" style="color:inherit;text-decoration:none;">Sam Okafor</a></span>
+                  <span class="dot"></span>
+                  <span>May 14, 2026</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/articles/2026-05-15-zelenskyys-former-right-hand-man-yermak-arrested-in-105-million-money-laundering.html" class="article-card">
+              <div class="card-image-wrap">
+                <div class="card-img-placeholder" style="background-image:url(/images/articles/2026-05-15-zelenskyys-former-right-hand-man-yermak-arrested-in-105-million-money-laundering.webp);background-size:cover;background-position:center;"></div>
+              </div>
+              <div class="card-body">
+                <span class="card-tag">True Crime</span>
+                <h3 class="card-title">Zelenskyy's Former Right-Hand Man Yermak Arrested In $10.5 Million Money Laundering Scheme</h3>
+                <p class="card-excerpt">Ukraine’s High Anti-Corrupti…...</p>
+                <div class="card-meta">
+                  <span><img src="/images/authors/sam-okafor.webp" style="width:20px;height:20px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:4px;"><a href="/authors/sam-okafor.html" style="color:inherit;text-decoration:none;">Sam Okafor</a></span>
+                  <span class="dot"></span>
+                  <span>May 14, 2026</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar-widget email-widget">
+          <div class="widget-header">📬 Daily Briefing</div>
+          <div class="widget-body">
+            <p class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</p>
+            <input type="email" class="email-hero-input" placeholder="your@email.com" style="width:100%;margin-bottom:8px;">
+            <button class="btn-subscribe" style="width:100%;">Subscribe Free</button>
+            <p style="font-size:11px;color:#888;margin-top:6px;text-align:center;">Unsubscribe anytime.</p>
+          </div>
+        </div>
+        <div class="sidebar-widget">
+          <div class="widget-header">🔥 Trending Now</div>
+          <div class="trending-list">
+            <a href="/articles/2026-05-17-largest-ukrainian-drone-attack-on-moscow-in-over-a-year-leaves-four-dead.html" class="trending-item">
+                <span class="trending-num">1</span>
+                <div>
+                  <div class="trending-title">Largest Ukrainian Drone Attack On Moscow In Over A Year Lea…</div>
+                  <div class="trending-count">22.7K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-youtube-snap-and-tiktok-settle-kentucky-school-districts-social-media-addiction.html" class="trending-item">
+                <span class="trending-num">2</span>
+                <div>
+                  <div class="trending-title">YouTube, Snap, And TikTok Settle Kentucky School District's…</div>
+                  <div class="trending-count">32.5K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-doj-probes-blackrock-private-credit-fund-valuations-after-dramatic-repricings.html" class="trending-item">
+                <span class="trending-num">3</span>
+                <div>
+                  <div class="trending-title">DOJ Probes BlackRock Private Credit Fund Valuations After D…</div>
+                  <div class="trending-count">20.0K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-trump-tells-iran-clock-is-ticking-move-fast-after-new-peace-proposal-as-analysts.html" class="trending-item">
+                <span class="trending-num">4</span>
+                <div>
+                  <div class="trending-title">Trump Tells Iran 'Clock Is Ticking, Move Fast' After New Pe…</div>
+                  <div class="trending-count">21.6K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-massive-mushroom-cloud-test-blast-rattles-uninformed-residents-outside-jerusalem.html" class="trending-item">
+                <span class="trending-num">5</span>
+                <div>
+                  <div class="trending-title">Massive Mushroom Cloud 'Test' Blast Rattles Uninformed Resi…</div>
+                  <div class="trending-count">24.6K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-ai-vs-affordability-and-rates.html" class="trending-item">
+                <span class="trending-num">6</span>
+                <div>
+                  <div class="trending-title">AI vs Affordability And Rates</div>
+                  <div class="trending-count">29.4K reads</div>
+                </div>
+              </a>
+<a href="/articles/2026-05-17-axios-warns-cuba-stockpiled-300-attack-drones-with-crosshairs-on-us-homeland.html" class="trending-item">
+                <span class="trending-num">7</span>
+                <div>
+                  <div class="trending-title">Axios Warns Cuba Stockpiled 300 Attack Drones With Crosshai…</div>
+                  <div class="trending-count">26.7K reads</div>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="sidebar-widget">
+          <div class="widget-header">📂 Browse Categories</div>
+          <div class="trending-list">
+            <a href="/category/surveillance-state.html" class="trending-item">
+                <span class="trending-num">1</span>
+                <div><div class="trending-title">Surveillance State</div></div>
+              </a>
+<a href="/category/corporate-watchdog.html" class="trending-item">
+                <span class="trending-num">2</span>
+                <div><div class="trending-title">Corporate Watchdog</div></div>
+              </a>
+<a href="/category/government-secrets.html" class="trending-item">
+                <span class="trending-num">3</span>
+                <div><div class="trending-title">Government Secrets</div></div>
+              </a>
+<a href="/category/tech-privacy.html" class="trending-item">
+                <span class="trending-num">4</span>
+                <div><div class="trending-title">Tech & Privacy</div></div>
+              </a>
+<a href="/category/global-power.html" class="trending-item">
+                <span class="trending-num">5</span>
+                <div><div class="trending-title">Global Power</div></div>
+              </a>
+<a href="/category/money-markets.html" class="trending-item">
+                <span class="trending-num">6</span>
+                <div><div class="trending-title">Money & Markets</div></div>
+              </a>
+<a href="/category/unexplained.html" class="trending-item">
+                <span class="trending-num">7</span>
+                <div><div class="trending-title">Unexplained</div></div>
+              </a>
+<a href="/category/true-crime.html" class="trending-item">
+                <span class="trending-num">8</span>
+                <div><div class="trending-title">True Crime</div></div>
+              </a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <section class="newsletter-section">
+  <div style="max-width: 600px; margin: 0 auto;">
+    <h2>Stay Informed. No Spin.</h2>
+    <p>Get the stories that matter, unfiltered. Straight to your inbox.</p>
+    <form id="footerEmailForm" onsubmit="submitHeroEmail(event);" style="margin-top:12px;">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <input type="email" id="footerEmailInput" placeholder="Your email address" required
+          style="flex:1;min-width:200px;padding:10px 14px;border:1px solid #ddd;border-radius:4px;font-size:14px;">
+        <button type="submit" style="padding:10px 20px;background:#dc2626;color:#fff;border:none;border-radius:4px;font-size:14px;cursor:pointer;font-weight:600;">Subscribe</button>
+      </div>
+      <div id="footerEmailMsg" style="margin-top:8px;font-size:13px;display:none;"></div>
+    </form>
+    <p class="disclaimer">No spam. Unsubscribe anytime.</p>
+  </div>
+</section>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">News<span>Anarchist</span></span>
+        <p class="footer-tagline">News Without the Noise. AI-powered, human-curated news covering politics, tech, world affairs, and culture — without the spin.</p>
+        <div class="footer-social">
+          <a href="https://x.com/newsAnarchis" class="social-btn" aria-label="X / Twitter">𝕏</a>
+          <a href="https://www.facebook.com/NewsAnarchist" class="social-btn" aria-label="Facebook">f</a>
+          <a href="https://linkedin.com/company/newsanarchist" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="/rss" class="social-btn" aria-label="RSS Feed">⚡</a>
+          <a href="/social.html" class="social-btn" aria-label="All Social Media">+</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul class="footer-links">
+          <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
+          <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
+          <li><a href="/category/government-secrets.html">Government Secrets</a></li>
+          <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
+          <li><a href="/category/global-power.html">Global Power</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul class="footer-links">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/subscribe.html">Subscribe</a></li>
+          <li><a href="/trending.html">Trending</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+          <li><a href="/rss">RSS Feed</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href="/terms.html">Terms of Use</a></li>
+          <li><a href="/corrections.html">Corrections</a></li>
+          <li><a href="/about.html#editorial">Editorial Standards</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NewsAnarchist. AI-assisted content disclosed in bylines. Facts first.</span>
+      <div class="footer-legal">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
 
 <script>
-async function submitSidebarEmail(e) {
+async function submitHeroEmail(e) {
   e.preventDefault();
-  const email = document.getElementById('sidebarEmailInput').value;
-  const btn = e.target.querySelector('button');
-  btn.textContent = 'Subscribing...'; btn.disabled = true;
+  const isHero = e.target.id === 'heroEmailForm';
+  const emailEl = isHero ? document.getElementById('heroEmailInput') : document.getElementById('footerEmailInput');
+  const msgEl  = isHero ? document.getElementById('heroEmailMsg')  : document.getElementById('footerEmailMsg');
+  const btnEl  = isHero ? document.getElementById('heroEmailBtn')  : null;
+  const email  = emailEl.value.trim();
+  if (!email) return;
+  if (btnEl) btnEl.disabled = true;
+  if (btnEl) btnEl.textContent = 'Joining...';
+  msgEl.style.display = 'none';
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({email, source:'newsanarchist-sidebar'})
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, source: 'newsanarchist-hero' })
     });
-    const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
-    else { btn.textContent = 'Try again'; btn.disabled = false; }
-  } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
+    if (res.ok || res.status === 204) {
+      msgEl.textContent = '✅ You're in! Check your inbox for the first briefing.';
+      msgEl.style.color = '#16a34a';
+      emailEl.value = '';
+    } else if (res.status === 400) {
+      const data = await res.json();
+      if (data.code === 'duplicate_parameter') {
+        msgEl.textContent = '✅ You're already subscribed — thank you!';
+        msgEl.style.color = '#16a34a';
+      } else {
+        msgEl.textContent = '⚠️ Something went wrong. Try again.';
+        msgEl.style.color = '#dc2626';
+      }
+    } else {
+      msgEl.textContent = '⚠️ Something went wrong. Try again.';
+      msgEl.style.color = '#dc2626';
+    }
+  } catch(err) {
+    msgEl.textContent = '⚠️ Network error. Try again.';
+    msgEl.style.color = '#dc2626';
+  }
+  msgEl.style.display = 'block';
+  if (btnEl) { btnEl.disabled = false; btnEl.textContent = 'Join Free →'; }
 }
 </script>
-<script src="/js/main.js"></script>
 </body>
 </html>
