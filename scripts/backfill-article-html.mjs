@@ -22,7 +22,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const SITE_DIR = '/home/user/newsanarchist-website';
+const SITE_DIR = path.resolve(__dirname, '..');
 const ARTICLES_DIR = path.join(SITE_DIR, 'articles');
 const DB_PATH = path.join(SITE_DIR, 'generated-articles.json');
 const SITE_URL = 'https://newsanarchist.com';
