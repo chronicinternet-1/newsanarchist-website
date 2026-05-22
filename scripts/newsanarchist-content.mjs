@@ -2335,12 +2335,6 @@ const JUNK_TITLE_PATTERNS = [
 ];
 
 function rebuildIndexHTML(allArticles) {
-  const indexPath = path.join(SITE_DIR, 'index.html');
-  if (!fs.existsSync(indexPath)) {
-    console.warn('⚠ index.html not found, skipping index update.');
-    return;
-  }
-
   // Filter junk articles
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
@@ -2356,13 +2350,7 @@ function rebuildIndexHTML(allArticles) {
 
   if (!articles.length) return;
 
-  // Build ticker (top 6)
-  const tickerItems = articles.slice(0, 6).map(a =>
-    `<span class="ticker-item">${truncate(a.title, 80)}</span>`
-  ).join('\n      ');
-
-  // Build hero (top 3)
-  // Only use articles with confirmed images for hero cards
+  // Hero cards: prefer articles with confirmed images
   const articlesWithImages = articles.filter(a => {
     const imgPath = path.join(SITE_DIR, 'images/articles', (a.filename || '').replace('.html', '.webp'));
     return fs.existsSync(imgPath);
@@ -2371,112 +2359,193 @@ function rebuildIndexHTML(allArticles) {
   const heroSec1 = articlesWithImages[1] ? buildHeroCard(articlesWithImages[1], false) : (articles[1] ? buildHeroCard(articles[1], false) : '');
   const heroSec2 = articlesWithImages[2] ? buildHeroCard(articlesWithImages[2], false) : (articles[2] ? buildHeroCard(articles[2], false) : '');
 
-  // Build ALL category sections from full manifest (max 3 per category, newest first)
+  // Category sections (max 3 articles each, newest-first)
   let categorySections = '';
   for (const cat of CATEGORIES) {
     const catArticles = articles.filter(a => a.category === cat).slice(0, 3);
     if (!catArticles.length) continue;
     const catSlug = CATEGORY_SLUGS[cat];
     categorySections += `
-        <!-- ${cat.toUpperCase().replace(/ /g, '_')} SECTION -->
-        <section>
-          <h2 class="section-label">${categoryEmoji(cat)} ${cat}</h2>
+      <!-- ${cat.toUpperCase().replace(/ /g, '_')} -->
+      <section>
+        <div class="section-label">
+          <h2>${categoryEmoji(cat)} ${cat}</h2>
           <a href="/category/${catSlug}.html">All ${cat} →</a>
-          <div class="card-grid">
-            ${catArticles.map(a => buildArticleCard(a)).join('\n')}
-          </div>
-        </section>`;
+        </div>
+        <div class="card-grid">
+          ${catArticles.map(a => buildArticleCard(a)).join('\n          ')}
+        </div>
+      </section>`;
   }
 
-  let html = fs.readFileSync(indexPath, 'utf-8');
-
-  // 1. Replace ticker
-  html = html.replace(
-    /<div class="ticker-track"[^>]*id="tickerTrack"[^>]*>[\s\S]*?<\/div>/,
-    `<div class="ticker-track" id="tickerTrack">\n      ${tickerItems}\n    </div>`
-  );
-
-  // 2. Rebuild entire page-layout (main + sidebar) atomically
+  // Sidebar: trending items
   const trendingItems = articles.slice(0, 7).map((a, i) => {
     const reads = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
     return `<a href="/articles/${a.filename}" class="trending-item">
-                <span class="trending-num">${i+1}</span>
-                <div>
-                  <div class="trending-title">${truncate(a.title, 60)}</div>
-                  <div class="trending-count">${reads}</div>
-                </div>
-              </a>`;
+              <span class="trending-num">${i + 1}</span>
+              <div>
+                <div class="trending-title">${truncate(a.title, 60)}</div>
+                <div class="trending-count">${reads}</div>
+              </div>
+            </a>`;
   }).join('\n');
 
+  // Sidebar: browse categories
   const browseItems = CATEGORIES.map((cat, i) => {
     const slug = CATEGORY_SLUGS[cat];
     return `<a href="/category/${slug}.html" class="trending-item">
-                <span class="trending-num">${i+1}</span>
-                <div><div class="trending-title">${cat}</div></div>
-              </a>`;
+              <span class="trending-num">${i + 1}</span>
+              <div><div class="trending-title">${cat}</div></div>
+            </a>`;
   }).join('\n');
 
-  const newPageLayout = `<div class="page-layout-with-sidebar">
-      <main>
+  // Nav links
+  const navLinks = CATEGORIES.map(cat => {
+    const cs = CATEGORY_SLUGS[cat];
+    return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
+  }).join('\n          ');
 
-        <!-- HERO SECTION -->
-        <section class="hero-section">
-          <h2 class="section-label">Buried Stories</h2>
+  // Footer category links
+  const footerCatLinks = CATEGORIES.map(cat => {
+    const cs = CATEGORY_SLUGS[cat];
+    return `<a href="/category/${cs}.html">${cat}</a>`;
+  }).join('\n        ');
+
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsAnarchist — Uncensored. Evidence-based. No corporate masters.</title>
+  <meta name="description" content="The stories mainstream media won't cover. FOIA releases, court rulings, regulatory filings — evidence-based contrarian journalism.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="${SITE_URL}/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NewsAnarchist — Uncensored. Evidence-based.">
+  <meta property="og:description" content="The stories mainstream media won't cover. FOIA releases, court rulings, regulatory filings.">
+  <meta property="og:url" content="${SITE_URL}/">
+  <meta property="og:image" content="${SITE_URL}/images/og-card.webp">
+  <meta property="og:site_name" content="NewsAnarchist">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${GA4_ID}');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NewsAnarchist",
+    "url": "${SITE_URL}/",
+    "description": "Evidence-based contrarian journalism"
+  }
+  </script>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-top">
+        <div></div>
+        <a href="/" class="masthead-brand">
+          <div class="masthead-wordmark">News<span>Anarchist</span></div>
+          <div class="masthead-tagline">Uncensored · Evidence-Based · No Corporate Masters</div>
+        </a>
+        <button class="masthead-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+      </div>
+      <nav class="nav-bar" id="mainNav">
+        <ul class="nav-list">
+          ${navLinks}
+          <li><a href="/trending.html">Trending</a></li>
+          <li><a href="/buried-week.html">The Buried Week</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-layout-with-sidebar">
+    <main>
+
+      <section class="hero-section">
+        <div class="section-label">
+          <h2>Breaking Now</h2>
           <span class="live-badge">Live</span>
-          <div class="hero-grid">
-            ${heroMain}
-            ${heroSec1}
-            ${heroSec2}
-          </div>
-        </section>
+        </div>
+        <div class="hero-grid">
+          ${heroMain}
+          ${heroSec1}
+          ${heroSec2}
+        </div>
+      </section>
 
 ${categorySections}
 
-      </main>
-      <aside class="sidebar">
-        <div class="sidebar-widget email-widget">
-          <div class="sidebar-widget-header">📬 Daily Briefing</div>
-          <div class="sidebar-widget-body">
-            <p class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</p>
-            <input type="email" class="email-input" placeholder="your@email.com">
-            <button class="btn-subscribe">Subscribe Free</button>
-            <p class="email-disclaimer">Unsubscribe anytime.</p>
-          </div>
-        </div>
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-header">🔥 Trending Now</div>
-          <div class="trending-list">
-            ${trendingItems}
-          </div>
-        </div>
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-header">📂 Browse Categories</div>
-          <div class="trending-list">
-            ${browseItems}
-          </div>
-        </div>
-      </aside>
-    </div>`;
+    </main>
 
-  // Replace <div class="page-layout">...</div> atomically
-  // Match page-layout div with or without inline style attributes
-  const lStart = (() => { const i1 = html.indexOf('<div class="page-layout-with-sidebar">'); const i2 = html.indexOf('<div class="page-layout-with-sidebar" '); if (i1 === -1) return i2; if (i2 === -1) return i1; return Math.min(i1, i2); })();
-  if (lStart !== -1) {
-    const asideClose = html.indexOf('</aside>', lStart);
-    let lEnd;
-    if (asideClose !== -1) {
-      lEnd = html.indexOf('</div>', asideClose) + '</div>'.length;
-    } else {
-      const mainClose = html.indexOf('</main>', lStart);
-      lEnd = html.indexOf('</div>', mainClose) + '</div>'.length;
-    }
-    html = html.slice(0, lStart) + newPageLayout + html.slice(lEnd);
-  } else {
-    console.warn('WARNING: .page-layout not found in index.html');
-  }
+    <aside class="sidebar">
+      <div class="sidebar-widget email-widget">
+        <div class="sidebar-widget-header">📬 Daily Briefing</div>
+        <div class="sidebar-widget-body">
+          <p class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</p>
+          <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
+          <button class="btn-subscribe">Subscribe Free</button>
+          <p class="email-disclaimer">Unsubscribe anytime.</p>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-header">🔥 Trending Now</div>
+        <div class="trending-list">
+          ${trendingItems}
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-header">📂 Browse Categories</div>
+        <div class="trending-list">
+          ${browseItems}
+        </div>
+      </div>
+    </aside>
+  </div>
 
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-wordmark">News<span>Anarchist</span></div>
+      <p class="footer-tagline">The stories they spiked. The documents they buried. The truth in the paperwork. AI-assisted, evidence-based, no corporate masters.</p>
+      <div class="footer-links">
+        ${footerCatLinks}
+      </div>
+      <div class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/subscribe.html">Subscribe</a>
+        <a href="/trending.html">Trending</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/rss">RSS Feed</a>
+      </div>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
+        <a href="/corrections.html">Corrections</a>
+      </div>
+      <div class="footer-legal">© ${new Date().getFullYear()} NewsAnarchist. Evidence-based contrarian journalism. AI-assisted content disclosed.</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>`;
+
+  const indexPath = path.join(SITE_DIR, 'index.html');
   fs.writeFileSync(indexPath, html);
-  console.log(`  ✅ index.html fully rebuilt (${articles.length} articles, ${CATEGORIES.length} categories)`);
+  console.log(`  ✅ index.html rebuilt from scratch (${articles.length} articles, ${CATEGORIES.length} categories)`);
 }
 
 function updateSitemap(allArticles) {
