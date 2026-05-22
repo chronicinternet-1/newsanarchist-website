@@ -490,7 +490,7 @@ function generateArticleImage(topic, outputPath) {
     .filter(w => w.length > 3 && !['that','this','with','from','they','have','been','will','what','when','were','their','about','after','over','into','than','more','also','then','some','such','even','most','just','does','only','said','each','which','there','where','these','those','would','could','should'].includes(w));
   const keyWords = titleWords.slice(0, 6).join(', ');
 
-  const prompt = `Editorial photograph for news article: "${title}". Key visual concepts: ${keyWords}. Art direction: ${mood}. Style: The Economist or The Atlantic cover photography. No human faces, no people, no portraits. No text, no words, no typography anywhere in the image. Wide landscape composition. High contrast dramatic lighting. Photorealistic. Make this image visually specific to this article topic, not a generic category placeholder.`;
+  const prompt = `Editorial news photograph in Reuters or Associated Press style for article: "${title}". Visual subject: ${keyWords}. Bright, natural lighting. Sharp focus. Clean white or neutral background where possible. Documentary realism, not cinematic drama. No dark filters. No black backgrounds. No vignettes. No human faces, no people, no portraits. No text, no words, no typography anywhere in the image. Wide landscape composition. Photorealistic. Visually specific to this article topic.`;
 
   try {
     const result = execSync(
