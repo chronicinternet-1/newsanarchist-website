@@ -19,7 +19,7 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;font-synthesis:none}
 img{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
 .na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
@@ -34,9 +34,11 @@ a{color:inherit;text-decoration:none}
 .na-nav-inner a{font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#888;padding:10px 12px;white-space:nowrap;flex-shrink:0;flex-grow:0;border-bottom:2px solid transparent}
 .na-nav-inner a.active{color:#fff;background:#E11D48}
 .na-nav-inner a:hover{color:#fff}
-.na-tick{background:#E11D48}.na-tick-inner{max-width:1200px;margin:0 auto;padding:6px 20px;display:flex;gap:14px;align-items:center;overflow:hidden}
-.na-tick-lbl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:2px 7px;flex-shrink:0}
-.na-tick-txt{font-size:10px;color:rgba(255,255,255,.9);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
+.na-tick-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:3px 8px;flex-shrink:0}
+.na-tick-track{overflow:hidden;flex:1}
+.na-tick-txt{display:inline-block;white-space:nowrap;font-size:11px;color:#fff;animation:na-scroll 40s linear infinite}
+@keyframes na-scroll{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
 .na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
 .na-hgrid{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
@@ -48,7 +50,7 @@ a{color:inherit;text-decoration:none}
 .vh-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px}
 .vh-pill{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;background:#111;color:#fff}
 .vh-cat{font-size:10px;color:#999}
-.vh-hed{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;color:#111;line-height:1.1;margin-bottom:8px}
+.vh-hed{font-family:'Syne',sans-serif;font-size:22px;font-weight:700;color:#111;line-height:1.15;margin-bottom:8px}
 .vh-hed a{color:#111}
 .vh-hed a:hover{color:#E11D48}
 .vh-dek{font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px}
@@ -134,7 +136,7 @@ a{color:inherit;text-decoration:none}
 <nav class="na-nav">
 <div class="na-nav-inner"><a href="/" class="active">Home</a><a href="/category/surveillance-state.html">Surveillance State</a><a href="/category/corporate-watchdog.html">Corporate Watchdog</a><a href="/category/government-secrets.html">Government Secrets</a><a href="/category/tech-privacy.html">Tech & Privacy</a><a href="/category/global-power.html">Global Power</a><a href="/category/money-markets.html">Money & Markets</a><a href="/category/unexplained.html">Unexplained</a><a href="/category/true-crime.html">True Crime</a><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a></div>
 </nav>
-<div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-txt">The Coup Abides &nbsp;·&nbsp; Singham Network Mobilizes To Defend Raúl Castro After DOJ I… &nbsp;·&nbsp; Chinese Refining Rates Unexpectedly Plunge To All-Time Lows… &nbsp;·&nbsp; Uber Builds Large Stake In Germany's Delivery Hero As Takeo…</div></div></div>
+<div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">The Coup Abides &nbsp;·&nbsp; Singham Network Mobilizes To Defend Raúl Castro After DOJ I… &nbsp;·&nbsp; Chinese Refining Rates Unexpectedly Plunge To All-Time Lows… &nbsp;·&nbsp; Uber Builds Large Stake In Germany's Delivery Hero As Takeo… &nbsp;&nbsp;&nbsp; The Coup Abides &nbsp;·&nbsp; Singham Network Mobilizes To Defend Raúl Castro After DOJ I… &nbsp;·&nbsp; Chinese Refining Rates Unexpectedly Plunge To All-Time Lows… &nbsp;·&nbsp; Uber Builds Large Stake In Germany's Delivery Hero As Takeo…</span></div></div></div>
 <div class="na-body">
 <main>
 <div class="na-hgrid">
