@@ -1,630 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
-  <meta property="og:description" content="The stories buried, spiked, or spun.">
-  <meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
-  <meta property="og:url" content="https://newsanarchist.com">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NewsAnarchist — The stories buried, spiked, or spun.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico">
+<meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
+<meta property="og:description" content="Independent investigative news. The stories buried, spiked, or spun.">
+<meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
+<meta property="og:url" content="https://newsanarchist.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid #111}
+.na-wm{font-family:'Syne',sans-serif;font-size:30px;font-weight:800;letter-spacing:-1px;color:#111;line-height:1}
+.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-mr{display:flex;align-items:center;gap:12px}
+.na-dt{font-size:10px;color:#999}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111;display:flex;overflow-x:auto;scrollbar-width:none}
+.na-nav::-webkit-scrollbar{display:none}
+.na-nav a{font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#888;padding:10px 12px;white-space:nowrap;flex-shrink:0;border-bottom:2px solid transparent}
+.na-nav a.active{color:#fff;background:#E11D48}
+.na-nav a:hover{color:#fff}
+.na-tick{background:#E11D48;padding:6px 20px;display:flex;gap:14px;align-items:center;overflow:hidden}
+.na-tick-lbl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:2px 7px;flex-shrink:0}
+.na-tick-txt{font-size:10px;color:rgba(255,255,255,.9);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
+@media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
+.na-hgrid{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
+@media(min-width:768px){.na-hgrid{grid-template-columns:3fr 2fr}}
+.vh-main{background:#fff;border:1px solid #E5E3DE}
+.vh-img{width:100%;height:220px;object-fit:cover;display:block}
+.vh-ph{background:#7A8A9A;height:220px}
+.vh-body{padding:16px}
+.vh-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px}
+.vh-pill{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;background:#111;color:#fff}
+.vh-cat{font-size:10px;color:#999}
+.vh-hed{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;color:#111;line-height:1.1;margin-bottom:8px}
+.vh-hed a{color:#111}
+.vh-hed a:hover{color:#E11D48}
+.vh-dek{font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px}
+.vh-by{display:flex;align-items:center;gap:6px;font-size:11px;color:#999;flex-wrap:wrap}
+.vh-av{width:22px;height:22px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.vh-al{font-weight:600;color:#444}
+.vh-dot{color:#ccc}
+.vh-stack{display:flex;flex-direction:column;gap:12px}
+.vh-sec{background:#fff;border:1px solid #E5E3DE;display:grid;grid-template-columns:90px 1fr}
+.vs-img{width:90px;height:110px;object-fit:cover;display:block;flex-shrink:0}
+.vs-ph{background:#9A8A7A;height:110px}
+.vs-body{padding:10px;border-left:1px solid #E5E3DE;overflow:hidden}
+.vs-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:4px}
+.vs-hed{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:5px}
+.vs-hed a{color:#111}
+.vs-hed a:hover{color:#E11D48}
+.vs-by{font-size:10px;color:#999;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.vs-av{width:16px;height:16px;border-radius:50%;object-fit:cover}
+.na-section{margin-bottom:20px}
+.na-section-head{display:flex;align-items:center;justify-content:space-between;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:13px}
+.na-section-all{font-size:9px;font-weight:600;color:#E11D48;letter-spacing:.08em}
+.na-3col{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
+.vc-card{background:#fff;border:1px solid #E5E3DE}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
+.vc-body{padding:11px}
+.vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
+.vc-hed{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:4px}
+.vc-hed a{color:#111}
+.vc-hed a:hover{color:#E11D48}
+.vc-by{font-size:10px;color:#999}
+.na-feat-row{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.na-feat-row{grid-template-columns:repeat(2,1fr)}}
+.vf-feat{background:#fff;border:1px solid #E5E3DE;display:grid;grid-template-columns:90px 1fr}
+.vf-img{width:90px;height:90px;object-fit:cover;display:block}
+.vf-ph{width:90px;height:90px;background:#7A9A8A;display:block}
+.vf-body{padding:10px;border-left:1px solid #E5E3DE;overflow:hidden}
+.vf-hed{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;color:#111;line-height:1.25;margin-bottom:4px}
+.vf-hed a{color:#111}
+.vf-hed a:hover{color:#E11D48}
+.na-widget{background:#fff;border:1px solid #E5E3DE;margin-bottom:14px}
+.na-wh{background:#111;color:#fff;padding:8px 13px;font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.na-wb{padding:13px}
+.na-einput{width:100%;padding:8px 10px;background:#F5F4F0;border:1px solid #E5E3DE;color:#111;font-size:13px;font-family:'DM Sans',sans-serif;margin-bottom:8px}
+.na-ebtn{width:100%;background:#E11D48;color:#fff;border:none;padding:9px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-unsub{font-size:10px;color:#999;text-align:center;margin-top:6px}
+.na-catlink{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:.5px solid #E5E3DE;font-size:12px;font-weight:500;color:#111}
+.na-catlink:last-child{border-bottom:none}
+.na-catlink span:last-child{font-size:11px;color:#E11D48;font-weight:600}
+.na-trend{display:flex;gap:9px;padding:7px 0;border-bottom:.5px solid #E5E3DE;align-items:flex-start;color:#111}
+.na-trend:last-child{border-bottom:none}
+.na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
+.na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}
+.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}
+.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}
+.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}
+.na-fext:hover{color:#fff}
+.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
+.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}
+.na-fchronic{font-size:10px;color:#333}
+.na-fchronic:hover{color:#888}
+.na-fleg{font-size:10px;color:#333;margin-top:8px;line-height:1.5}
+</style>
 </head>
 <body>
-
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="masthead-top">
-      <div style="width:120px;"></div>
-      <div class="masthead-brand">
-        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
-        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
-      </div>
-      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-    </div>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-        <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-        <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-        <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-        <li><a href="/category/global-power.html">Global Power</a></li>
-        <li><a href="/category/money-markets.html">Money & Markets</a></li>
-        <li><a href="/category/unexplained.html">Unexplained</a></li>
-        <li><a href="/category/true-crime.html">True Crime</a></li>
-        <li><a href="/trending.html">Trending</a></li>
-        <li><a href="/buried-week.html">The Buried Week</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="page-layout-with-sidebar">
-  <main>
-    <section class="hero-section">
-      <div class="section-label">
-        <h2>Buried Stories</h2>
-        <span class="live-badge">Live</span>
-      </div>
-      <div class="hero-grid">
-        <a href="/articles/2026-05-22-the-coup-abides.html" class="hero-card hero-main">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-22-the-coup-abides.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Government Secrets</span>
-    </div>
-    <div class="hero-card-title">The Coup Abides</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/jordan-calloway.webp)"></div>
-      <a href="/authors/jordan-calloway.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Jordan Calloway</a> · Government Secrets
-    </div>
-  </div>
-</a>
-        <a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html" class="hero-card hero-secondary">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Government Secrets</span>
-    </div>
-    <div class="hero-card-title">Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/jordan-calloway.webp)"></div>
-      <a href="/authors/jordan-calloway.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Jordan Calloway</a> · Government Secrets
-    </div>
-  </div>
-</a>
-        <a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html" class="hero-card hero-secondary">
-  <div class="hero-card-image" style="background-image:url(/images/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.webp);"></div>
-  <div class="hero-card-overlay"></div>
-  <div class="hero-card-body">
-    <div class="hero-card-meta">
-      <span class="genre-label" style="background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5);color:#fff;">Government Secrets</span>
-    </div>
-    <div class="hero-card-title">Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Of…</div>
-    <div class="hero-card-author">
-      <div class="hero-author-avatar" style="background-image:url(/images/authors/jordan-calloway.webp)"></div>
-      <a href="/authors/jordan-calloway.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">Jordan Calloway</a> · Government Secrets
-    </div>
-  </div>
-</a>
-      </div>
-    </section>
-    
-  <section>
-    <div class="section-label">
-      <h2>Surveillance State</h2>
-      <a href="/category/surveillance-state.html">All Surveillance State →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-trump-sending-5000-additional-troops-to-poland-after-same-number-reduced-from-ge.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-trump-sending-5000-additional-troops-to-poland-after-same-number-reduced-from-ge.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Trump Sending 5,000 Additional Troops To Poland, After Same Number Reduced From Germany</div>
-    <div class="card-excerpt">President Trump announced in a …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-us-removes-un-gaza-rapporteur-francesca-albanese-from-sanctions-list.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-us-removes-un-gaza-rapporteur-francesca-albanese-from-sanctions-list.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">US Removes UN Gaza Rapporteur Francesca Albanese From Sanctions List</div>
-    <div class="card-excerpt">(emphasis ours), The United States has removed U.N…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-finding-leaked-footage.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-finding-leaked-footage.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Surveillance State</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Finding leaked footage</div>
-    <div class="card-excerpt">Hello all - I was curious if any of you could offer advice on how to find leaked footage of abuse of myself that is bei…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Corporate Watchdog</h2>
-      <a href="/category/corporate-watchdog.html">All Corporate Watchdog →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-samsung-messages-will-be-discontinued-on-jul-6-2026-so-now-we-have-to-switch-to.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-samsung-messages-will-be-discontinued-on-jul-6-2026-so-now-we-have-to-switch-to.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Samsung Messages will be discontinued on Jul 6, 2026. So now we have to switch to google messages?</div>
-    <div class="card-excerpt">Why would Samsung end its messages for its phone? Texting is as simple as a program gets. Is google buying every textin…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-texas-sues-meta-over-misleading-whatsapp-privacy-claims.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-texas-sues-meta-over-misleading-whatsapp-privacy-claims.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Texas sues Meta over ‘misleading’ WhatsApp privacy claims</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Corporate Watchdog</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Nelnet data breach case ends with final $10M court approval</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Government Secrets</h2>
-      <a href="/category/government-secrets.html">All Government Secrets →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-the-coup-abides.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-the-coup-abides.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">The Coup Abides</div>
-    <div class="card-excerpt">"Leftists can’t name & blame specific individuals for the 2024 loss because they’re an undifferentiated…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment</div>
-    <div class="card-excerpt">Key organizations and activists tied to the CCP-li…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Government Secrets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Jordan Calloway</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Off A Cliff</div>
-    <div class="card-excerpt">Two weeks ago, when discussing…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Tech & Privacy</h2>
-      <a href="/category/tech-privacy.html">All Tech & Privacy →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-regulators-circle-stanchart-after-ceos-ai-layoff-comments-spark-uproar.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-regulators-circle-stanchart-after-ceos-ai-layoff-comments-spark-uproar.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Regulators Circle StanChart After CEO's AI Layoff Comments Spark Uproar</div>
-    <div class="card-excerpt">It has been a tumultuous week for Standard Char…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Jane Street Accused Of Using Terra Telegram Backchannel Before UST Crash</div>
-    <div class="card-excerpt">A newly unsealed court filing in the Terraform…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Tech & Privacy</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Marcus Webb</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">"Drills Are Intended To Send A Signal": Russia Holds Massive Nuclear Drills On Land, Sea And Air Alongside Belarus</div>
-    <div class="card-excerpt">Truc…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Global Power</h2>
-      <a href="/category/global-power.html">All Global Power →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemns Tolls</div>
-    <div class="card-excerpt">The US blockade of the Iranian blockade is looking i…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Iran Says 'No Deal' Will Materialize If US Insists On Enriched Uranium Handover</div>
-    <div class="card-excerpt">Summary Iran Foreign Ministry says "no …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-22-looking-for-private-free-and-clean-alternatives-email-keyboard-notes-2fa-pw-mana.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-looking-for-private-free-and-clean-alternatives-email-keyboard-notes-2fa-pw-mana.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Global Power</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Elena Vasquez</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">Looking for private, free, and clean alternatives (Email, Keyboard, Notes, 2FA, PW Manager</div>
-    <div class="card-excerpt">I'm looking to upgrade my privacy and find some solid, privacy-friendly alternatives for a few everyday apps. ​My crite…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Money & Markets</h2>
-      <a href="/category/money-markets.html">All Money & Markets →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-us-lawmakers-renew-strategic-bitcoin-reserve-push-with-arma-bill.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-us-lawmakers-renew-strategic-bitcoin-reserve-push-with-arma-bill.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 22, 2026</span>
-    </div>
-    <div class="card-title">US Lawmakers Renew Strategic Bitcoin Reserve Push With ARMA Bill</div>
-    <div class="card-excerpt">US lawmakers have renewed efforts to codify a US strat…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">All the more reason to avoid crypto: data breaches give intel to scammers to steal from you</div>
-    <div class="card-excerpt">&#32; submitted by &#32; <a href="...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Money & Markets</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Diana Reeves</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">The Water Economics Of Data Centers Vs. Almond Farms &amp; Golf Courses</div>
-    <div class="card-excerpt">ecent Gallup poll shows that nearly 70% of Ameri…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>Unexplained</h2>
-      <a href="/category/unexplained.html">All Unexplained →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 4, 2026</span>
-    </div>
-    <div class="card-title">Trump drops hints of what's coming in new batch of UFO files set for release</div>
-    <div class="card-excerpt">PBS...</div>
-  </div>
-</a>
-      <a href="/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">April 20, 2026</span>
-    </div>
-    <div class="card-title">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea</div>
-    <div class="card-excerpt">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea There's been yet another ma…...</div>
-  </div>
-</a>
-      <a href="/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">Unexplained</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Casey North</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">April 16, 2026</span>
-    </div>
-    <div class="card-title">Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space</div>
-    <div class="card-excerpt">Russia and Ukraine have …...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  <section>
-    <div class="section-label">
-      <h2>True Crime</h2>
-      <a href="/category/true-crime.html">All True Crime →</a>
-    </div>
-    <div class="card-grid">
-      <a href="/articles/2026-05-22-trump-admin-targets-states-medicaid-fraud-units.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-22-trump-admin-targets-states-medicaid-fraud-units.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 21, 2026</span>
-    </div>
-    <div class="card-title">Trump Admin Targets States' Medicaid Fraud Units</div>
-    <div class="card-excerpt">Vice President JD Vance said during a recent press conference that he …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 14, 2026</span>
-    </div>
-    <div class="card-title">Billionaire Democrat Donor Who Bankrolled Swalwell Breaks Silence After Surprise Arrest</div>
-    <div class="card-excerpt">Billionaire and Democrat donor …...</div>
-  </div>
-</a>
-      <a href="/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.html" class="card">
-  <div class="card-image" style="background-image:url(/images/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.webp);background-size:cover;background-position:center;"></div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="genre-label news">True Crime</span>
-      <span class="dot-sep">·</span>
-      <span class="card-author">Sam Okafor</span>
-      <span class="dot-sep">·</span>
-      <span class="card-date">May 14, 2026</span>
-    </div>
-    <div class="card-title">Minnesota 'Culture Of Fraud' Enabled More Than $9 Billion In Misused Taxpayer Funds, Panel Says</div>
-    <div class="card-excerpt">(emphasis ours), A “cul…...</div>
-  </div>
-</a>
-    </div>
-  </section>
-  </main>
-  <aside class="sidebar">
-    <div class="sidebar-widget" id="subscribe-anchor">
-      <div class="sidebar-widget-header">Daily Briefing</div>
-      <div class="sidebar-widget-body">
-        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
-        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
-          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
-          <button type="submit" class="btn-subscribe">Subscribe Free</button>
-        </form>
-        <div class="email-disclaimer">Unsubscribe anytime.</div>
-      </div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Trending Now</div>
-      <div class="trending-list"><a href="/articles/2026-05-22-the-coup-abides.html" class="trending-item">
-          <span class="trending-num">1</span>
-          <div>
-            <div class="trending-title">The Coup Abides</div>
-            <div class="trending-count">29.1K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html" class="trending-item">
-          <span class="trending-num">2</span>
-          <div>
-            <div class="trending-title">Singham Network Mobilizes To Defend Raúl Castro After DOJ I…</div>
-            <div class="trending-count">22.1K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html" class="trending-item">
-          <span class="trending-num">3</span>
-          <div>
-            <div class="trending-title">Chinese Refining Rates Unexpectedly Plunge To All-Time Lows…</div>
-            <div class="trending-count">28.8K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-uber-builds-large-stake-in-germanys-delivery-hero-as-takeover-speculation-builds.html" class="trending-item">
-          <span class="trending-num">4</span>
-          <div>
-            <div class="trending-title">Uber Builds Large Stake In Germany's Delivery Hero As Takeo…</div>
-            <div class="trending-count">24.2K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.html" class="trending-item">
-          <span class="trending-num">5</span>
-          <div>
-            <div class="trending-title">Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemn…</div>
-            <div class="trending-count">6.6K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.html" class="trending-item">
-          <span class="trending-num">6</span>
-          <div>
-            <div class="trending-title">Iran Says 'No Deal' Will Materialize If US Insists On Enric…</div>
-            <div class="trending-count">10.3K reads</div>
-          </div>
-        </a>
-<a href="/articles/2026-05-22-indias-power-demand-hits-record-high-as-heat-drives-coal-use.html" class="trending-item">
-          <span class="trending-num">7</span>
-          <div>
-            <div class="trending-title">India's Power Demand Hits Record High As Heat Drives Coal U…</div>
-            <div class="trending-count">10.4K reads</div>
-          </div>
-        </a></div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Browse Categories</div>
-      <div class="trending-list"><a href="/category/surveillance-state.html" class="trending-item">
-          <span class="trending-num">1</span>
-          <div><div class="trending-title">Surveillance State</div></div>
-        </a>
-<a href="/category/corporate-watchdog.html" class="trending-item">
-          <span class="trending-num">2</span>
-          <div><div class="trending-title">Corporate Watchdog</div></div>
-        </a>
-<a href="/category/government-secrets.html" class="trending-item">
-          <span class="trending-num">3</span>
-          <div><div class="trending-title">Government Secrets</div></div>
-        </a>
-<a href="/category/tech-privacy.html" class="trending-item">
-          <span class="trending-num">4</span>
-          <div><div class="trending-title">Tech & Privacy</div></div>
-        </a>
-<a href="/category/global-power.html" class="trending-item">
-          <span class="trending-num">5</span>
-          <div><div class="trending-title">Global Power</div></div>
-        </a>
-<a href="/category/money-markets.html" class="trending-item">
-          <span class="trending-num">6</span>
-          <div><div class="trending-title">Money & Markets</div></div>
-        </a>
-<a href="/category/unexplained.html" class="trending-item">
-          <span class="trending-num">7</span>
-          <div><div class="trending-title">Unexplained</div></div>
-        </a>
-<a href="/category/true-crime.html" class="trending-item">
-          <span class="trending-num">8</span>
-          <div><div class="trending-title">True Crime</div></div>
-        </a></div>
-    </div>
-  </aside>
+<div class="na-mast">
+<div><div class="na-wm">News<em>Anarchist</em></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div class="na-mr"><div class="na-dt">Friday, May 22, 2026</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-wordmark">News<span>Anarchist</span></div>
-    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
-    <div class="footer-links">
-      <a href="/about.html">About</a>
-      <a href="/editorial.html">Editorial Standards</a>
-      <a href="/tip-line.html">Tip Line</a>
-      <a href="/authors/">Our Authors</a>
-      <a href="/subscribe.html">Subscribe</a>
-      <a href="/trending.html">Trending</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/rss">RSS</a>
-    </div>
-    <div class="footer-legal">&copy; 2026 NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
-  </div>
+<nav class="na-nav">
+<a href="/" class="active">Home</a><a href="/category/surveillance-state.html">Surveillance State</a><a href="/category/corporate-watchdog.html">Corporate Watchdog</a><a href="/category/government-secrets.html">Government Secrets</a><a href="/category/tech-privacy.html">Tech & Privacy</a><a href="/category/global-power.html">Global Power</a><a href="/category/money-markets.html">Money & Markets</a><a href="/category/unexplained.html">Unexplained</a><a href="/category/true-crime.html">True Crime</a><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+</nav>
+<div class="na-tick"><div class="na-tick-lbl">Breaking</div><div class="na-tick-txt">The Coup Abides &nbsp;·&nbsp; Singham Network Mobilizes To Defend Raúl Castro After DOJ I… &nbsp;·&nbsp; Chinese Refining Rates Unexpectedly Plunge To All-Time Lows… &nbsp;·&nbsp; Uber Builds Large Stake In Germany's Delivery Hero As Takeo…</div></div>
+<div class="na-body">
+<main>
+<div class="na-hgrid">
+<div class="vh-main"><img src="/images/articles/2026-05-22-the-coup-abides.webp" alt="The Coup Abides" class="vh-img" loading="eager"><div class="vh-body"><div class="vh-meta"><span class="vh-pill">News</span><span class="vh-cat">Government Secrets</span></div><h1 class="vh-hed"><a href="/articles/2026-05-22-the-coup-abides.html">The Coup Abides</a></h1><p class="vh-dek"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The Coup Abides</span> <div property="schema:text" class="clearfix text-formatted field field--name-...</p><div class="vh-by"><span>NewsAnarchist Desk</span><span class="vh-dot">·</span><span>May 22, 2026</span></div></div></div>
+<div class="vh-stack"><div class="vh-sec"><img src="/images/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.webp" alt="Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment" class="vs-img" loading="eager"><div class="vs-body"><div class="vs-cat">Government Secrets</div><h2 class="vs-hed"><a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html">Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment</a></h2><div class="vs-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vh-sec"><img src="/images/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.webp" alt="Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Off A Cliff" class="vs-img" loading="eager"><div class="vs-body"><div class="vs-cat">Government Secrets</div><h2 class="vs-hed"><a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html">Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Off A Cliff</a></h2><div class="vs-by">NewsAnarchist Desk · May 22, 2026</div></div></div></div>
+</div>
+<div class="na-section"><div class="na-section-head"><span>Surveillance State</span><a href="/category/surveillance-state.html" class="na-section-all">All Surveillance State →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-trump-sending-5000-additional-troops-to-poland-after-same-number-reduced-from-ge.webp" alt="Trump Sending 5,000 Additional Troops To Poland, After Same Number Reduced From Germany" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Surveillance State</div><h3 class="vc-hed"><a href="/articles/2026-05-22-trump-sending-5000-additional-troops-to-poland-after-same-number-reduced-from-ge.html">Trump Sending 5,000 Additional Troops To Poland, After Same Number Reduced From Germany</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-us-removes-un-gaza-rapporteur-francesca-albanese-from-sanctions-list.webp" alt="US Removes UN Gaza Rapporteur Francesca Albanese From Sanctions List" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Surveillance State</div><h3 class="vc-hed"><a href="/articles/2026-05-22-us-removes-un-gaza-rapporteur-francesca-albanese-from-sanctions-list.html">US Removes UN Gaza Rapporteur Francesca Albanese From Sanctions List</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-finding-leaked-footage.webp" alt="Finding leaked footage" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Surveillance State</div><h3 class="vc-hed"><a href="/articles/2026-05-22-finding-leaked-footage.html">Finding leaked footage</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Corporate Watchdog</span><a href="/category/corporate-watchdog.html" class="na-section-all">All Corporate Watchdog →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-samsung-messages-will-be-discontinued-on-jul-6-2026-so-now-we-have-to-switch-to.webp" alt="Samsung Messages will be discontinued on Jul 6, 2026. So now we have to switch to google messages?" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Corporate Watchdog</div><h3 class="vc-hed"><a href="/articles/2026-05-22-samsung-messages-will-be-discontinued-on-jul-6-2026-so-now-we-have-to-switch-to.html">Samsung Messages will be discontinued on Jul 6, 2026. So now we have to switch to google messages?</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-texas-sues-meta-over-misleading-whatsapp-privacy-claims.webp" alt="Texas sues Meta over ‘misleading’ WhatsApp privacy claims" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Corporate Watchdog</div><h3 class="vc-hed"><a href="/articles/2026-05-22-texas-sues-meta-over-misleading-whatsapp-privacy-claims.html">Texas sues Meta over ‘misleading’ WhatsApp privacy claims</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.webp" alt="Nelnet data breach case ends with final $10M court approval" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Corporate Watchdog</div><h3 class="vc-hed"><a href="/articles/2026-05-21-nelnet-data-breach-case-ends-with-final-10m-court-approval.html">Nelnet data breach case ends with final $10M court approval</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Government Secrets</span><a href="/category/government-secrets.html" class="na-section-all">All Government Secrets →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-the-coup-abides.webp" alt="The Coup Abides" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Government Secrets</div><h3 class="vc-hed"><a href="/articles/2026-05-22-the-coup-abides.html">The Coup Abides</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.webp" alt="Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Government Secrets</div><h3 class="vc-hed"><a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html">Singham Network Mobilizes To Defend Raúl Castro After DOJ Indictment</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.webp" alt="Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Off A Cliff" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Government Secrets</div><h3 class="vc-hed"><a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html">Chinese Refining Rates Unexpectedly Plunge To All-Time Lows As Economy Falls Off A Cliff</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Tech & Privacy</span><a href="/category/tech-privacy.html" class="na-section-all">All Tech & Privacy →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-regulators-circle-stanchart-after-ceos-ai-layoff-comments-spark-uproar.webp" alt="Regulators Circle StanChart After CEO's AI Layoff Comments Spark Uproar" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Tech & Privacy</div><h3 class="vc-hed"><a href="/articles/2026-05-22-regulators-circle-stanchart-after-ceos-ai-layoff-comments-spark-uproar.html">Regulators Circle StanChart After CEO's AI Layoff Comments Spark Uproar</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.webp" alt="Jane Street Accused Of Using Terra Telegram Backchannel Before UST Crash" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Tech & Privacy</div><h3 class="vc-hed"><a href="/articles/2026-05-21-jane-street-accused-of-using-terra-telegram-backchannel-before-ust-crash.html">Jane Street Accused Of Using Terra Telegram Backchannel Before UST Crash</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.webp" alt="'Drills Are Intended To Send A Signal': Russia Holds Massive Nuclear Drills On Land, Sea And Air Alongside Belarus" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Tech & Privacy</div><h3 class="vc-hed"><a href="/articles/2026-05-21-drills-are-intended-to-send-a-signal-russia-holds-massive-nuclear-drills-on-land.html">"Drills Are Intended To Send A Signal": Russia Holds Massive Nuclear Drills On Land, Sea And Air Alongside Belarus</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Global Power</span><a href="/category/global-power.html" class="na-section-all">All Global Power →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.webp" alt="Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemns Tolls" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Global Power</div><h3 class="vc-hed"><a href="/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.html">Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemns Tolls</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.webp" alt="Iran Says 'No Deal' Will Materialize If US Insists On Enriched Uranium Handover" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Global Power</div><h3 class="vc-hed"><a href="/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.html">Iran Says 'No Deal' Will Materialize If US Insists On Enriched Uranium Handover</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-22-looking-for-private-free-and-clean-alternatives-email-keyboard-notes-2fa-pw-mana.webp" alt="Looking for private, free, and clean alternatives (Email, Keyboard, Notes, 2FA, PW Manager" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Global Power</div><h3 class="vc-hed"><a href="/articles/2026-05-22-looking-for-private-free-and-clean-alternatives-email-keyboard-notes-2fa-pw-mana.html">Looking for private, free, and clean alternatives (Email, Keyboard, Notes, 2FA, PW Manager</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Money & Markets</span><a href="/category/money-markets.html" class="na-section-all">All Money & Markets →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-us-lawmakers-renew-strategic-bitcoin-reserve-push-with-arma-bill.webp" alt="US Lawmakers Renew Strategic Bitcoin Reserve Push With ARMA Bill" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Money & Markets</div><h3 class="vc-hed"><a href="/articles/2026-05-22-us-lawmakers-renew-strategic-bitcoin-reserve-push-with-arma-bill.html">US Lawmakers Renew Strategic Bitcoin Reserve Push With ARMA Bill</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.webp" alt="All the more reason to avoid crypto: data breaches give intel to scammers to steal from you" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Money & Markets</div><h3 class="vc-hed"><a href="/articles/2026-05-21-all-the-more-reason-to-avoid-crypto-data-breaches-give-intel-to-scammers-to-stea.html">All the more reason to avoid crypto: data breaches give intel to scammers to steal from you</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.webp" alt="The Water Economics Of Data Centers Vs. Almond Farms &amp; Golf Courses" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Money & Markets</div><h3 class="vc-hed"><a href="/articles/2026-05-21-the-water-economics-of-data-centers-vs-almond-farms-amp-golf-courses.html">The Water Economics Of Data Centers Vs. Almond Farms &amp; Golf Courses</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>Unexplained</span><a href="/category/unexplained.html" class="na-section-all">All Unexplained →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.webp" alt="Trump drops hints of what's coming in new batch of UFO files set for release" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Unexplained</div><h3 class="vc-hed"><a href="/articles/2026-05-07-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release.html">Trump drops hints of what's coming in new batch of UFO files set for release</a></h3><div class="vc-by">NewsAnarchist Desk · May 4, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.webp" alt="Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Unexplained</div><h3 class="vc-hed"><a href="/articles/2026-04-21-russias-tuapse-refinery-attacked-2nd-time-in-days-while-battling-oil-spill-into.html">Russia's Tuapse Refinery Attacked 2nd Time In Days, While Battling Oil Spill Into Black Sea</a></h3><div class="vc-by">NewsAnarchist Desk · Apr 20, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.webp" alt="Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">Unexplained</div><h3 class="vc-hed"><a href="/articles/2026-04-17-drone-attack-on-russias-tuapse-oil-refinery-unleashes-fire-so-large-it-can-be-se.html">Drone Attack On Russia's Tuapse Oil Refinery Unleashes Fire So Large It Can Be Seen From Space</a></h3><div class="vc-by">NewsAnarchist Desk · Apr 16, 2026</div></div></div></div></div><div class="na-section"><div class="na-section-head"><span>True Crime</span><a href="/category/true-crime.html" class="na-section-all">All True Crime →</a></div><div class="na-3col"><div class="vc-card"><img src="/images/articles/2026-05-22-trump-admin-targets-states-medicaid-fraud-units.webp" alt="Trump Admin Targets States' Medicaid Fraud Units" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">True Crime</div><h3 class="vc-hed"><a href="/articles/2026-05-22-trump-admin-targets-states-medicaid-fraud-units.html">Trump Admin Targets States' Medicaid Fraud Units</a></h3><div class="vc-by">NewsAnarchist Desk · May 21, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.webp" alt="Billionaire Democrat Donor Who Bankrolled Swalwell Breaks Silence After Surprise Arrest" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">True Crime</div><h3 class="vc-hed"><a href="/articles/2026-05-15-billionaire-democrat-donor-who-bankrolled-swalwell-breaks-silence-after-surprise.html">Billionaire Democrat Donor Who Bankrolled Swalwell Breaks Silence After Surprise Arrest</a></h3><div class="vc-by">NewsAnarchist Desk · May 14, 2026</div></div></div><div class="vc-card"><img src="/images/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.webp" alt="Minnesota 'Culture Of Fraud' Enabled More Than $9 Billion In Misused Taxpayer Funds, Panel Says" class="vc-img" loading="lazy"><div class="vc-body"><div class="vc-cat">True Crime</div><h3 class="vc-hed"><a href="/articles/2026-05-15-minnesota-culture-of-fraud-enabled-more-than-9-billion-in-misused-taxpayer-funds.html">Minnesota 'Culture Of Fraud' Enabled More Than $9 Billion In Misused Taxpayer Funds, Panel Says</a></h3><div class="vc-by">NewsAnarchist Desk · May 14, 2026</div></div></div></div></div>
+<div class="na-section"><div class="na-section-head"><span>More Stories</span></div><div class="na-feat-row"><div class="vf-feat"><img src="/images/articles/2026-05-22-uber-builds-large-stake-in-germanys-delivery-hero-as-takeover-speculation-builds.webp" alt="Uber Builds Large Stake In Germany's Delivery Hero As Takeover Speculation Builds" class="vf-img" loading="lazy"><div class="vf-body"><div class="vc-cat">Government Secrets</div><h3 class="vf-hed"><a href="/articles/2026-05-22-uber-builds-large-stake-in-germanys-delivery-hero-as-takeover-speculation-builds.html">Uber Builds Large Stake In Germany's Delivery Hero As Takeover Speculation Builds</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vf-feat"><img src="/images/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.webp" alt="Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemns Tolls" class="vf-img" loading="lazy"><div class="vf-body"><div class="vc-cat">Global Power</div><h3 class="vf-hed"><a href="/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.html">Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Condemns Tolls</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vf-feat"><img src="/images/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.webp" alt="Iran Says 'No Deal' Will Materialize If US Insists On Enriched Uranium Handover" class="vf-img" loading="lazy"><div class="vf-body"><div class="vc-cat">Global Power</div><h3 class="vf-hed"><a href="/articles/2026-05-22-iran-says-no-deal-will-materialize-if-us-insists-on-enriched-uranium-handover.html">Iran Says 'No Deal' Will Materialize If US Insists On Enriched Uranium Handover</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div><div class="vf-feat"><img src="/images/articles/2026-05-22-indias-power-demand-hits-record-high-as-heat-drives-coal-use.webp" alt="India's Power Demand Hits Record High As Heat Drives Coal Use" class="vf-img" loading="lazy"><div class="vf-body"><div class="vc-cat">Government Secrets</div><h3 class="vf-hed"><a href="/articles/2026-05-22-indias-power-demand-hits-record-high-as-heat-drives-coal-use.html">India's Power Demand Hits Record High As Heat Drives Coal Use</a></h3><div class="vc-by">NewsAnarchist Desk · May 22, 2026</div></div></div></div></div>
+</main>
+<aside>
+<div class="na-widget" id="na-brief">
+<div class="na-wh">Daily Briefing</div>
+<div class="na-wb">
+<div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
+<form id="sidebarEmailForm" onsubmit="submitEmail(event)">
+<input type="email" id="sidebarEmailInput" class="na-einput" placeholder="your@email.com" required>
+<button type="submit" class="na-ebtn">Subscribe Free</button>
+</form>
+<div class="na-unsub">Unsubscribe anytime.</div>
+</div>
+</div>
+<div class="na-widget">
+<div class="na-wh">Browse Categories</div>
+<div class="na-wb" style="padding:8px 13px"><a href="/category/surveillance-state.html" class="na-catlink"><span>Surveillance State</span><span>258 →</span></a><a href="/category/corporate-watchdog.html" class="na-catlink"><span>Corporate Watchdog</span><span>91 →</span></a><a href="/category/government-secrets.html" class="na-catlink"><span>Government Secrets</span><span>609 →</span></a><a href="/category/tech-privacy.html" class="na-catlink"><span>Tech & Privacy</span><span>82 →</span></a><a href="/category/global-power.html" class="na-catlink"><span>Global Power</span><span>333 →</span></a><a href="/category/money-markets.html" class="na-catlink"><span>Money & Markets</span><span>95 →</span></a><a href="/category/unexplained.html" class="na-catlink"><span>Unexplained</span><span>5 →</span></a><a href="/category/true-crime.html" class="na-catlink"><span>True Crime</span><span>27 →</span></a></div>
+</div>
+<div class="na-widget">
+<div class="na-wh">Trending Now</div>
+<div class="na-wb" style="padding:8px 13px"><a href="/articles/2026-05-22-the-coup-abides.html" class="na-trend"><span class="na-tnum">1</span><div><div class="na-ttitle">The Coup Abides</div><div class="na-tcat">Government Secrets</div></div></a><a href="/articles/2026-05-22-singham-network-mobilizes-to-defend-ral-castro-after-doj-indictment.html" class="na-trend"><span class="na-tnum">2</span><div><div class="na-ttitle">Singham Network Mobilizes To Defend Raúl Castro After …</div><div class="na-tcat">Government Secrets</div></div></a><a href="/articles/2026-05-22-chinese-refining-rates-unexpectedly-plunge-to-all-time-lows-as-economy-falls-off.html" class="na-trend"><span class="na-tnum">3</span><div><div class="na-ttitle">Chinese Refining Rates Unexpectedly Plunge To All-Time…</div><div class="na-tcat">Government Secrets</div></div></a><a href="/articles/2026-05-22-uber-builds-large-stake-in-germanys-delivery-hero-as-takeover-speculation-builds.html" class="na-trend"><span class="na-tnum">4</span><div><div class="na-ttitle">Uber Builds Large Stake In Germany's Delivery Hero As …</div><div class="na-tcat">Government Secrets</div></div></a><a href="/articles/2026-05-22-iran-says-35-ships-exited-strait-of-hormuz-as-rubio-condemns-tolls.html" class="na-trend"><span class="na-tnum">5</span><div><div class="na-ttitle">Iran Says 35 Ships Exited Strait Of Hormuz As Rubio Co…</div><div class="na-tcat">Global Power</div></div></a></div>
+</div>
+</aside>
+</div>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div>
+<div class="na-fwm">News<em>Anarchist</em></div>
+<div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs. The stories buried, spiked, or spun.</div>
+<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a>
+<a href="/editorial.html" class="na-flink">Editorial Standards</a>
+<a href="/tip-line.html" class="na-flink">Tip Line</a>
+<a href="/about-our-authors.html" class="na-flink">About Our Authors</a>
+</div>
+<div>
+<div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
+<div class="na-fdiv">
+<div class="na-fct">Books</div>
+<a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a>
+</div>
+</div>
+<div>
+<div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
+<div class="na-fdiv">
+<div class="na-fct">Categories</div>
+<a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a><a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a><a href="/category/government-secrets.html" class="na-flink">Government Secrets</a><a href="/category/tech-privacy.html" class="na-flink">Tech & Privacy</a>
+</div>
+</div>
+<div>
+<div class="na-fct">More Categories</div>
+<a href="/category/global-power.html" class="na-flink">Global Power</a><a href="/category/money-markets.html" class="na-flink">Money & Markets</a><a href="/category/unexplained.html" class="na-flink">Unexplained</a><a href="/category/true-crime.html" class="na-flink">True Crime</a>
+<div class="na-fdiv">
+<div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/rss" class="na-flink">RSS Feed</a>
+<div class="na-fleg">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
+</div>
+</div>
+</div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines.</div>
+<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+</div>
 </footer>
-
 <script>
-async function submitSidebarEmail(e) {
+async function submitEmail(e) {
   e.preventDefault();
   const email = document.getElementById('sidebarEmailInput').value;
   const btn = e.target.querySelector('button');
@@ -632,11 +226,11 @@ async function submitSidebarEmail(e) {
   btn.disabled = true;
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
-      method: 'POST', headers: {'Content-Type':'application/json'},
+      method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
     });
     const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    if (data.success) { btn.textContent = 'Subscribed!'; }
     else { btn.textContent = 'Try again'; btn.disabled = false; }
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
