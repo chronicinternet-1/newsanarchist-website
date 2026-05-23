@@ -18,32 +18,25 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
-.na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
-.na-page{max-width:860px;margin:32px auto;padding:0 16px}
-.na-page h1{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:16px}
-.na-page h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin:28px 0 10px}
+.na-nav-inner a:hover{color:#fff}
+.na-page{max-width:860px;margin:32px auto;padding:0 20px 48px}
+.na-page h1{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:8px;line-height:1.1}
+.na-page h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin:28px 0 10px;border-top:1px solid #E5E3DE;padding-top:20px}
 .na-page p{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin-bottom:14px}
-.na-page ul{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin:0 0 14px 20px}
+.na-page ul{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin:0 0 14px 24px}
 .na-page li{margin-bottom:6px}
 .na-page a{color:#E11D48;text-decoration:underline}
-.na-page .meta{font-size:12px;color:#999;margin-bottom:24px}
-.na-footer{background:#111;color:#888;margin-top:48px}
-.na-fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
-.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
-.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
-.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
-.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}.na-flink:hover{color:#fff}
-.na-flink-acc{color:#E11D48;font-weight:600}
-.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}
-.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
-.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
-.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
-.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
+.na-page .meta{font-size:12px;color:#999;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid #E5E3DE}
+.na-footer{background:#111;color:#888;margin-top:0}
+.na-fbot{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;border-top:1px solid #1A1A1A}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333;text-decoration:none}.na-fchronic:hover{color:#888}
+.na-flinks{padding:20px;display:flex;flex-wrap:wrap;gap:16px;max-width:1200px;margin:0 auto;border-bottom:1px solid #1A1A1A}
+.na-flinks a{font-size:11px;color:#555}.na-flinks a:hover{color:#fff}
 </style>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
-<div><div class="na-wm"><a href="/">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div><div class="na-wm"><a href="/" style="text-decoration:none;color:inherit">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
 <div><button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
@@ -61,110 +54,38 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 </div></nav>
 <div class="na-page">
 <h1>Editorial Standards</h1>
-    <p class="page-sub">How we report, source, disclose, and correct. Last updated: May 17, 2026.</p>
-
-    <h2>Our Editorial Commitment</h2>
-    <p>NewsAnarchist is an independent investigative publication. We are not affiliated with any political party, government, or corporate interest. Our only obligation is accuracy, transparency, and the public interest.</p>
-    <p>We cover power. That means we will publish stories that are uncomfortable, that challenge official narratives, and that name names — when we have the documentation to back them up. We do not publish speculation as fact. We do not publish unverified accusations against private individuals. We correct mistakes promptly and publicly.</p>
-
-    <h2>Sourcing Policy</h2>
-    <ul>
-      <li><strong>Primary sources first.</strong> Court filings, government documents, FOIA releases, regulatory filings, and original data are always preferred over secondary reporting.</li>
-      <li><strong>Minimum two independent sources</strong> for any factual claim that is not supported by a primary document.</li>
-      <li><strong>All sources linked.</strong> Every factual claim links to its source. If a source cannot be linked publicly, it is disclosed as such.</li>
-      <li><strong>No anonymous sourcing</strong> without strong editorial justification disclosed to readers. We will state when a source has requested anonymity and briefly explain why we granted it.</li>
-      <li><strong>No republication without attribution.</strong> We always credit and link the original reporting we build upon.</li>
-      <li><strong>Original verbatim quotes</strong> are drawn only from on-record statements, transcripts, documents, or on-the-record interviews. We do not fabricate quotes.</li>
-    </ul>
-
-    <h2>What We Will Not Publish</h2>
-    <ul>
-      <li>Accusations of specific crimes against identifiable private individuals without primary-source documentation.</li>
-      <li>Content that denies or minimizes documented atrocities or mass casualty events.</li>
-      <li>Content designed to harass, threaten, or endanger specific individuals.</li>
-      <li>Fabricated quotes attributed to real people.</li>
-      <li>Content that reproduces more than 50 words verbatim from a copyrighted source without explicit permission.</li>
-    </ul>
-
-    <h2 id="ai-disclosure">AI Disclosure Policy</h2>
-    <p>NewsAnarchist uses AI tools in its editorial process. We believe full transparency about this is non-negotiable. Here is exactly how AI is used:</p>
-    <ul>
-      <li><strong>Research and aggregation:</strong> AI tools monitor RSS feeds, Reddit, Hacker News, FOIA databases, and other public sources to surface stories of interest.</li>
-      <li><strong>Drafting:</strong> AI drafts articles under named editorial personas (see below). These drafts are reviewed for accuracy, sourcing, and editorial voice.</li>
-      <li><strong>Image generation:</strong> Article header images are generated by fal.ai, an AI image generation service. They are illustrative, not photographic.</li>
-      <li><strong>What AI does not do:</strong> AI does not independently verify facts, conduct interviews, or make final editorial decisions. All editorial judgment is exercised by the Publisher.</li>
-    </ul>
-
-    <h2>About Our Author Personas</h2>
-    <p>All NewsAnarchist bylines represent AI-assisted editorial identities — consistent fictional personas each assigned a specific beat, voice, and credential background. This model follows the tradition of fictional editorial personas in publishing (pen names, house pseudonyms, and editorial characters have existed since the 18th century).</p>
-    <p>Each persona is:</p>
-    <ul>
-      <li>Explicitly disclosed as an AI-assisted editorial identity on this page and in site-wide disclosures.</li>
-      <li>Assigned a specific beat and writing voice that is maintained consistently across all articles.</li>
-      <li>Not intended to impersonate any real individual, living or dead.</li>
-    </ul>
-    <p>The six founding NewsAnarchist editorial personas are: Marcus Webb, Elena Vasquez, Jordan Calloway, Diana Reeves, Sam Okafor, and Casey North. Full bios are on our <a href="/about.html">About page</a>.</p>
-    <p>Steve Ysreal Monas serves as Publisher and Editorial Director and is the sole human decision-maker in the editorial process.</p>
-
-    <h2>Corrections Policy</h2>
-    <p>When we get something wrong, we say so — clearly, quickly, and at the top of the affected article.</p>
-    <ul>
-      <li>Corrections are appended to the original article with a timestamp and a plain-language description of what was wrong and what the correct information is.</li>
-      <li>We do not silently delete or alter articles to hide errors.</li>
-      <li>Significant corrections are noted in our next newsletter edition.</li>
-      <li>To submit a correction: <a href="mailto:corrections@newsanarchist.com">corrections@newsanarchist.com</a></li>
-      <li>All published corrections are archived at <a href="/corrections.html">/corrections.html</a>.</li>
-    </ul>
-
-    <h2>Ownership &amp; Independence</h2>
-    <p>NewsAnarchist is independently owned and operated by Steve Ysreal Monas through ChronicInternet LLC, a Hawaii-based media company. There are no outside investors, no corporate owners, and no advertiser influence over editorial decisions.</p>
-    <p>Revenue sources: display advertising (AdSense), premium newsletter subscriptions ($8/month, $80/year), and founding underwriter memberships ($300/year). No revenue source has any influence over editorial content.</p>
-
-    <h2>DMCA Policy</h2>
-    <p>NewsAnarchist respects intellectual property. We honor valid DMCA takedown notices within 24 hours. To submit a DMCA notice: <a href="mailto:editorial@newsanarchist.com">editorial@newsanarchist.com</a>. Our designated DMCA agent is registered with the U.S. Copyright Office.</p>
-
-    <h2>Contact</h2>
-    <p>Editorial questions: <a href="mailto:editorial@newsanarchist.com">editorial@newsanarchist.com</a><br>
-    Corrections: <a href="mailto:corrections@newsanarchist.com">corrections@newsanarchist.com</a><br>
-    Tip line: <a href="/tip-line.html">newsanarchist.com/tip-line</a></p>
-  </div>
+<p class="meta">Last updated: May 2026</p>
+<h2>Sourcing Policy</h2>
+<p>NewsAnarchist links to primary sources — government documents, court filings, FOIA releases, official transcripts, and peer-reviewed research — wherever available. Aggregated stories include attribution and links to the original source. We do not republish content verbatim without transformation.</p>
+<h2>AI Disclosure</h2>
+<p>We use AI language models as research and drafting assistants. Every article generated with AI assistance is labeled in the byline. AI drafts are reviewed by our editorial team before publication. We do not publish unreviewed AI output.</p>
+<h2>Corrections Policy</h2>
+<p>When we get something wrong, we fix it promptly and note the correction at the bottom of the article with a timestamp. We do not silently edit articles after publication. To report an error, email <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a> with "Correction" in the subject line.</p>
+<h2>Independence</h2>
+<p>NewsAnarchist has no corporate parent, no institutional investors, and no editorial board influenced by advertisers. Revenue from advertising does not influence editorial decisions. Our only editorial obligation is to our readers.</p>
+<h2>Ownership Disclosure</h2>
+<p>NewsAnarchist is wholly owned and operated by Steve Ysreal Monas, an individual publisher based in Kapa'a, Hawaii. There are no silent partners, no institutional backers, and no conflicts of interest to disclose.</p>
+<h2>Opinion vs. News</h2>
+<p>We label all content with genre tags: NEWS, INVESTIGATION, ANALYSIS, OPINION, or EXPLAINER. Opinion and analysis pieces represent the views of the named author persona and are clearly distinguished from factual reporting.</p>
+<h2>Contact</h2>
+<p>Editorial questions: <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a></p>
 </div>
 <footer class="na-footer">
-<div class="na-fgrid">
-<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
-<div><div class="na-fct">Steve Ysreal Monas</div>
-<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
-<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
-<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
-<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
-<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
-<div class="na-fdiv"><div class="na-fct">Books</div><a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a></div></div>
-<div><div class="na-fct">Also From Chronic Internet</div>
-<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
-<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
-<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
-<div class="na-fdiv"><div class="na-fct">Categories</div>
-<a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a>
-<a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a>
-<a href="/category/government-secrets.html" class="na-flink">Government Secrets</a>
-<a href="/category/tech-privacy.html" class="na-flink">Tech &amp; Privacy</a>
-</div></div>
-<div><div class="na-fct">More Categories</div>
-<a href="/category/global-power.html" class="na-flink">Global Power</a>
-<a href="/category/money-markets.html" class="na-flink">Money &amp; Markets</a>
-<a href="/category/unexplained.html" class="na-flink">Unexplained</a>
-<a href="/category/true-crime.html" class="na-flink">True Crime</a>
-<div class="na-fdiv"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
-<a href="/rss" class="na-flink">RSS Feed</a>
-<div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
-</div></div>
+<div class="na-flinks">
+<a href="/about.html">About</a>
+<a href="/editorial.html">Editorial Standards</a>
+<a href="/tip-line.html">Tip Line</a>
+<a href="/about-our-authors.html">About Our Authors</a>
+<a href="/privacy.html">Privacy Policy</a>
+<a href="/terms.html">Terms of Service</a>
+<a href="/dmca.html">DMCA</a>
+<a href="/rss">RSS Feed</a>
+<a href="https://newsanarchist.substack.com">Subscribe</a>
 </div>
-<div class="na-fbot"><div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved. As an Amazon Associate, I earn from qualifying purchases.</div>
+<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+</div>
 </footer>
 </body>
 </html>

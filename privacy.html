@@ -18,32 +18,25 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
-.na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
-.na-page{max-width:860px;margin:32px auto;padding:0 16px}
-.na-page h1{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:16px}
-.na-page h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin:28px 0 10px}
+.na-nav-inner a:hover{color:#fff}
+.na-page{max-width:860px;margin:32px auto;padding:0 20px 48px}
+.na-page h1{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:8px;line-height:1.1}
+.na-page h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin:28px 0 10px;border-top:1px solid #E5E3DE;padding-top:20px}
 .na-page p{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin-bottom:14px}
-.na-page ul{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin:0 0 14px 20px}
+.na-page ul{font-family:'Source Serif 4',serif;font-size:16px;color:#333;line-height:1.7;margin:0 0 14px 24px}
 .na-page li{margin-bottom:6px}
 .na-page a{color:#E11D48;text-decoration:underline}
-.na-page .meta{font-size:12px;color:#999;margin-bottom:24px}
-.na-footer{background:#111;color:#888;margin-top:48px}
-.na-fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
-.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
-.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
-.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
-.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}.na-flink:hover{color:#fff}
-.na-flink-acc{color:#E11D48;font-weight:600}
-.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}
-.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
-.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
-.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
-.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
+.na-page .meta{font-size:12px;color:#999;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid #E5E3DE}
+.na-footer{background:#111;color:#888;margin-top:0}
+.na-fbot{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;border-top:1px solid #1A1A1A}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333;text-decoration:none}.na-fchronic:hover{color:#888}
+.na-flinks{padding:20px;display:flex;flex-wrap:wrap;gap:16px;max-width:1200px;margin:0 auto;border-bottom:1px solid #1A1A1A}
+.na-flinks a{font-size:11px;color:#555}.na-flinks a:hover{color:#fff}
 </style>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
-<div><div class="na-wm"><a href="/">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div><div class="na-wm"><a href="/" style="text-decoration:none;color:inherit">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
 <div><button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
@@ -60,89 +53,41 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <a href="/buried-week.html">The Buried Week</a>
 </div></nav>
 <div class="na-page">
-<div class="header-cta">
-        <button class="btn-subscribe" onclick="document.getElementById('emailSignup').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="page-layout">
-      <main class="main-content">
-        <article class="article-page">
-          <header class="article-header">
-            <h1 class="article-headline">Privacy Policy</h1>
-            <div class="article-meta-bar">
-              <span>Last updated: April 15, 2026</span>
-            </div>
-          </header>
-          <div class="article-body">
-            
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: May 2026</p>
 <h2>Our Commitment to Privacy</h2>
 <p>NewsAnarchist is an independent journalism platform. We believe in practicing the privacy principles we report on. This policy explains what data we collect, why, and how we protect it.</p>
 <h2>Information We Collect</h2>
 <p><strong>Analytics:</strong> We use Google Analytics (GA4) to understand aggregate traffic patterns — page views, referral sources, and general geographic regions. GA4 uses first-party cookies and does not sell data to third parties.</p>
 <p><strong>Email Subscriptions:</strong> If you subscribe to our newsletter, we collect your email address solely to deliver editorial briefings. We never sell, trade, or share subscriber email addresses with third parties.</p>
-<p><strong>Advertising:</strong> We use Google AdSense to support our operations. AdSense may use cookies to serve relevant ads. You can opt out via <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google's Ad Settings</a>.</p>
+<p><strong>Advertising:</strong> We use Google AdSense to support our operations. AdSense may use cookies to serve relevant ads. You can opt out via <a href="https://adssettings.google.com">Google's Ad Settings</a>.</p>
 <h2>Information We Do Not Collect</h2>
 <p>We do not collect personal identification information unless voluntarily provided. We do not track individual reading behavior. We do not use fingerprinting. We do not create user profiles.</p>
 <h2>Third-Party Services</h2>
-<p><strong>Google Analytics (GA4)</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>. <strong>Google AdSense</strong> — <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Ad Policies</a>. <strong>Cloudflare</strong> — <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
-<h2>Cookies</h2>
-<p>We use essential cookies for site functionality and analytics cookies via GA4. You can disable cookies in your browser settings. Disabling cookies does not affect your ability to read articles.</p>
+<p>We use Brevo for email delivery, Google Analytics for analytics, and Google AdSense for advertising. Each has its own privacy policy governing data use.</p>
+<h2>Data Retention</h2>
+<p>Email addresses are retained until you unsubscribe. Analytics data is retained per Google's default settings (14 months). We do not sell or transfer your data.</p>
 <h2>Your Rights</h2>
-<p>You may request deletion of any personal data we hold. Contact <strong>privacy@newsanarchist.com</strong> and we will respond within 30 days.</p>
-<h2>Children's Privacy</h2>
-<p>Our content is intended for a general adult audience. We do not knowingly collect information from children under 13.</p>
-<h2>Changes to This Policy</h2>
-<p>Changes will be posted on this page with an updated revision date.</p>
+<p>You may unsubscribe from our newsletter at any time using the link in any email. To request deletion of your data, email <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a>.</p>
 <h2>Contact</h2>
-<p>Privacy inquiries: <strong>privacy@newsanarchist.com</strong></p>
-          </div>
-        </article>
-      </main>
-    </div>
-  </div>
+<p>Privacy questions: <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a></p>
 </div>
 <footer class="na-footer">
-<div class="na-fgrid">
-<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
-<div><div class="na-fct">Steve Ysreal Monas</div>
-<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
-<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
-<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
-<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
-<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
-<div class="na-fdiv"><div class="na-fct">Books</div><a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a></div></div>
-<div><div class="na-fct">Also From Chronic Internet</div>
-<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
-<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
-<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
-<div class="na-fdiv"><div class="na-fct">Categories</div>
-<a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a>
-<a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a>
-<a href="/category/government-secrets.html" class="na-flink">Government Secrets</a>
-<a href="/category/tech-privacy.html" class="na-flink">Tech &amp; Privacy</a>
-</div></div>
-<div><div class="na-fct">More Categories</div>
-<a href="/category/global-power.html" class="na-flink">Global Power</a>
-<a href="/category/money-markets.html" class="na-flink">Money &amp; Markets</a>
-<a href="/category/unexplained.html" class="na-flink">Unexplained</a>
-<a href="/category/true-crime.html" class="na-flink">True Crime</a>
-<div class="na-fdiv"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
-<a href="/rss" class="na-flink">RSS Feed</a>
-<div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
-</div></div>
+<div class="na-flinks">
+<a href="/about.html">About</a>
+<a href="/editorial.html">Editorial Standards</a>
+<a href="/tip-line.html">Tip Line</a>
+<a href="/about-our-authors.html">About Our Authors</a>
+<a href="/privacy.html">Privacy Policy</a>
+<a href="/terms.html">Terms of Service</a>
+<a href="/dmca.html">DMCA</a>
+<a href="/rss">RSS Feed</a>
+<a href="https://newsanarchist.substack.com">Subscribe</a>
 </div>
-<div class="na-fbot"><div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved. As an Amazon Associate, I earn from qualifying purchases.</div>
+<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+</div>
 </footer>
 </body>
 </html>
