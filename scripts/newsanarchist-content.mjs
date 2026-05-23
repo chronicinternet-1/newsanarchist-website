@@ -797,12 +797,15 @@ function buildArticleHTML(topic) {
     pubDate, sourceUrl, relatedArticles,
   } = topic;
 
-  const dateISO = pubDate || new Date().toISOString();
+  const pubDateObj = pubDate ? new Date(pubDate) : null;
+  const genDateObj = topic.generatedAt ? new Date(topic.generatedAt) : new Date();
+  const oneYearAgo = new Date(); oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+  const dateISO = (pubDateObj && pubDateObj > oneYearAgo) ? pubDate : (topic.generatedAt || new Date().toISOString());
   const dateDisplay = formatDate(dateISO);
   const articleUrl = `${SITE_URL}/articles/${slug}`;
 
   const seoTitle = buildSeoTitle(title);
-  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim();
+  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim().replace(/^[#\s]+/,'').replace(/#[\w-]+/g,'').trim();
   const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : `<p class="article-dek">${rawSubhead}</p>`;
   const articleBody = buildArticleBody(topic);
   const readTime = estimateReadTime(articleBody + ' '.repeat(100));
@@ -972,7 +975,7 @@ function buildArticleHTML(topic) {
           ${author.slug ? `<a href="/authors/${author.slug}.html" class="byline-name">${author.name}</a>` : `<div class="byline-name">${author.name}</div>`}
           <div class="byline-role">${author.credential || ''}</div>
         </div>
-        <div class="byline-meta">${dateDisplay} · ${readTime} min read</div>
+        <div class="byline-meta">${dateDisplay} · ${readTime}</div>
       </div>
       <div class="article-hero-image" style="${heroImageStyle}"></div>
       <div class="article-body">
@@ -2219,172 +2222,338 @@ function rebuildIndexHTML(allArticles) {
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
   );
-
   const articles = clean.map(a => ({
     ...a,
     category: remapArticleCategory(a),
   })).sort((a, b) =>
     new Date(b.pubDate || b.generatedAt || 0) - new Date(a.pubDate || a.generatedAt || 0)
   );
-
   if (!articles.length) return;
 
   const articlesWithImages = articles.filter(a => {
     const imgPath = path.join(SITE_DIR, 'images/articles', (a.filename || '').replace('.html', '.webp'));
     return fs.existsSync(imgPath);
   });
-  const heroMain = articlesWithImages[0] ? buildHeroCard(articlesWithImages[0], true)  : (articles[0] ? buildHeroCard(articles[0], true)  : '');
-  const heroSec1 = articlesWithImages[1] ? buildHeroCard(articlesWithImages[1], false) : (articles[1] ? buildHeroCard(articles[1], false) : '');
-  const heroSec2 = articlesWithImages[2] ? buildHeroCard(articlesWithImages[2], false) : (articles[2] ? buildHeroCard(articles[2], false) : '');
 
-  let categorySections = '';
-  for (const cat of CATEGORIES) {
-    const catArticles = articles.filter(a => a.category === cat).slice(0, 3);
-    if (!catArticles.length) continue;
-    const catSlug = CATEGORY_SLUGS[cat];
-    categorySections += `
-  <section>
-    <div class="section-label">
-      <h2>${cat}</h2>
-      <a href="/category/${catSlug}.html">All ${cat} →</a>
-    </div>
-    <div class="card-grid">
-      ${catArticles.map(a => buildArticleCard(a)).join('\n      ')}
-    </div>
-  </section>`;
+  function au(a) { return a.author || 'NewsAnarchist Desk'; }
+  function asl(a) { return a.authorSlug || ''; }
+  function fd(a) {
+    const d = new Date(a.pubDate || a.generatedAt || Date.now());
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  function sg(a) { return (a.filename || '').replace('.html', ''); }
+  function hi(a) { return fs.existsSync(path.join(SITE_DIR, 'images/articles', sg(a) + '.webp')); }
+  function gn(a) {
+    if (a.genre) return a.genre;
+    const t = (a.title || '').toLowerCase();
+    if (t.includes('document') || t.includes('exclusive') || t.includes('investigation')) return 'Investigation';
+    if (t.includes('opinion') || t.includes('analysis')) return 'Analysis';
+    return 'News';
   }
 
-  const trendingItems = articles.slice(0, 7).map((a, i) => {
-    const reads = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
-    return `<a href="/articles/${a.filename}" class="trending-item">
-          <span class="trending-num">${i + 1}</span>
-          <div>
-            <div class="trending-title">${truncate(a.title, 60)}</div>
-            <div class="trending-count">${reads}</div>
-          </div>
-        </a>`;
-  }).join('\n');
+  function heroMain(a) {
+    if (!a) return '';
+    const s = sg(a), sl = asl(a);
+    const img = hi(a)
+      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vh-img" loading="eager">`
+      : `<div class="vh-img vh-ph"></div>`;
+    const byAuth = sl
+      ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}.html" class="vh-al">${au(a)}</a>`
+      : `<span>${au(a)}</span>`;
+    const rawDek = (a.description || a.excerpt || '').trim();
+    const titleWords = (a.title||'').toLowerCase().split(/\s+/).filter(Boolean);
+    const dekWords = rawDek.toLowerCase().split(/\s+/).filter(Boolean);
+    const titleInDek = titleWords.length > 2 && dekWords.slice(0, titleWords.length).join(' ') === titleWords.join(' ');
+    const dekTooShort = dekWords.length <= titleWords.length + 3;
+    const dek = (rawDek && rawDek.length > 30 && !titleInDek && !dekTooShort) ? rawDek.slice(0, 220) : '';
+    return `<div class="vh-main">${img}<div class="vh-body"><div class="vh-meta"><span class="vh-pill">${gn(a)}</span><span class="vh-cat">${a.category||''}</span></div><h1 class="vh-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h1>${dek?`<p class="vh-dek">${dek}${(a.description||'').length>200?'...':''}</p>`:''}<div class="vh-by">${byAuth}<span class="vh-dot">·</span><span>${fd(a)}</span></div></div></div>`;
+  }
 
-  const browseItems = CATEGORIES.map((cat, i) => {
-    const slug = CATEGORY_SLUGS[cat];
-    return `<a href="/category/${slug}.html" class="trending-item">
-          <span class="trending-num">${i + 1}</span>
-          <div><div class="trending-title">${cat}</div></div>
-        </a>`;
-  }).join('\n');
+  function heroSec(a) {
+    if (!a) return '';
+    const s = sg(a), sl = asl(a);
+    const img = hi(a)
+      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vs-img" loading="eager">`
+      : `<div class="vs-img vs-ph"></div>`;
+    return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
+  }
 
-  const navLinks = CATEGORIES.map(cat => {
+  function card(a) {
+    const s = sg(a);
+    const img = hi(a)
+      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`
+      : `<div class="vc-img vc-ph"></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+  }
+
+  function featCard(a) {
+    const s = sg(a);
+    const img = hi(a)
+      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vf-img" loading="lazy">`
+      : `<div class="vf-img vf-ph"></div>`;
+    return `<div class="vf-feat">${img}<div class="vf-body"><div class="vc-cat">${a.category||''}</div><h3 class="vf-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+  }
+
+  const h0 = articlesWithImages[0] || articles[0];
+  const h1 = articlesWithImages[1] || articles[1];
+  const h2 = articlesWithImages[2] || articles[2];
+
+  let catSections = '';
+  for (const cat of CATEGORIES) {
+    const ca = articles.filter(a => a.category === cat).slice(0, 3);
+    if (!ca.length) continue;
     const cs = CATEGORY_SLUGS[cat];
-    return `<li><a href="/category/${cs}.html">${cat}</a></li>`;
-  }).join('\n        ');
+    catSections += `<div class="na-section"><div class="na-section-head"><span>${cat}</span><a href="/category/${cs}.html" class="na-section-all">All ${cat} →</a></div><div class="na-3col">${ca.map(a => card(a)).join('')}</div></div>`;
+  }
 
-  const footerCatLinks = CATEGORIES.map(cat => {
-    const cs = CATEGORY_SLUGS[cat];
-    return `<a href="/category/${cs}.html">${cat}</a>`;
-  }).join('\n        ');
+  const featArts = articlesWithImages.slice(3, 7);
+  const featSection = featArts.length
+    ? `<div class="na-section"><div class="na-section-head"><span>More Stories</span></div><div class="na-feat-row">${featArts.map(a => featCard(a)).join('')}</div></div>`
+    : '';
+
+  const trending = articles.slice(0, 5).map((a, i) =>
+    `<a href="/articles/${a.filename}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${truncate(a.title,55)}</div><div class="na-tcat">${a.category||''}</div></div></a>`
+  ).join('');
+
+  const navLinks = CATEGORIES.map(cat =>
+    `<a href="/category/${CATEGORY_SLUGS[cat]}.html">${cat}</a>`
+  ).join('');
+
+  const catLinks = CATEGORIES.map(cat => {
+    const cnt = articles.filter(a => a.category === cat).length;
+    return `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-catlink"><span>${cat}</span><span>${cnt} →</span></a>`;
+  }).join('');
+
+  const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
+  const fcl2 = CATEGORIES.slice(4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
+
+  const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  const yr = new Date().getFullYear();
+  const tickerTitles = articles.slice(0,4).map(a => truncate(a.title,60)).join(' &nbsp;·&nbsp; ');
 
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
-  <meta property="og:description" content="The stories buried, spiked, or spun.">
-  <meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
-  <meta property="og:url" content="https://newsanarchist.com">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NewsAnarchist — The stories buried, spiked, or spun.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico">
+<meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
+<meta property="og:description" content="Independent investigative news. The stories buried, spiked, or spun.">
+<meta property="og:image" content="https://newsanarchist.com/images/og-card.webp">
+<meta property="og:url" content="https://newsanarchist.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;font-synthesis:none}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}
+.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-mr{display:flex;align-items:center;gap:12px}
+.na-dt{font-size:10px;color:#999}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
+
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a.active{color:#fff;background:#E11D48}
+.na-nav-inner a:hover{color:#fff}
+.na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
+.na-tick-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:3px 8px;flex-shrink:0}
+.na-tick-track{overflow:hidden;flex:1}
+.na-tick-txt{display:inline-block;white-space:nowrap;font-size:11px;color:#fff;animation:na-scroll 40s linear infinite}
+@keyframes na-scroll{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+.na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
+@media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
+.na-hgrid{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
+@media(min-width:768px){.na-hgrid{grid-template-columns:3fr 2fr}}
+.vh-main{background:#fff;border:1px solid #E5E3DE}
+.vh-img{width:100%;height:220px;object-fit:cover;display:block}
+.vh-ph{background:#7A8A9A;height:220px}
+.vh-body{padding:16px}
+.vh-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px}
+.vh-pill{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;background:#111;color:#fff}
+.vh-cat{font-size:10px;color:#999}
+.vh-hed{font-family:'DM Sans',sans-serif;font-size:22px;font-weight:800;color:#111;line-height:1.15;margin-bottom:8px}
+.vh-hed a{color:#111}
+.vh-hed a:hover{color:#E11D48}
+.vh-dek{font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px}
+.vh-by{display:flex;align-items:center;gap:6px;font-size:11px;color:#999;flex-wrap:wrap}
+.vh-av{width:22px;height:22px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.vh-al{font-weight:600;color:#444}
+.vh-dot{color:#ccc}
+.vh-stack{display:flex;flex-direction:column;gap:12px}
+.vh-sec{background:#fff;border:1px solid #E5E3DE;display:grid;grid-template-columns:90px 1fr}
+.vs-img{width:90px;height:110px;object-fit:cover;display:block;flex-shrink:0}
+.vs-ph{background:#9A8A7A;height:110px}
+.vs-body{padding:10px;border-left:1px solid #E5E3DE;overflow:hidden}
+.vs-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:4px}
+.vs-hed{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:5px}
+.vs-hed a{color:#111}
+.vs-hed a:hover{color:#E11D48}
+.vs-by{font-size:10px;color:#999;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.vs-av{width:16px;height:16px;border-radius:50%;object-fit:cover}
+.na-section{margin-bottom:20px}
+.na-section-head{display:flex;align-items:center;justify-content:space-between;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:13px;font-family:'DM Sans',sans-serif}
+.na-section-all{font-size:9px;font-weight:600;color:#E11D48;letter-spacing:.08em}
+.na-3col{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
+.vc-card{background:#fff;border:1px solid #E5E3DE}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
+.vc-body{padding:11px}
+.vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
+.vc-hed{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:4px}
+.vc-hed a{color:#111}
+.vc-hed a:hover{color:#E11D48}
+.vc-by{font-size:10px;color:#999}
+.na-feat-row{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.na-feat-row{grid-template-columns:repeat(2,1fr)}}
+.vf-feat{background:#fff;border:1px solid #E5E3DE;display:grid;grid-template-columns:90px 1fr}
+.vf-img{width:90px;height:90px;object-fit:cover;display:block}
+.vf-ph{width:90px;height:90px;background:#7A9A8A;display:block}
+.vf-body{padding:10px;border-left:1px solid #E5E3DE;overflow:hidden}
+.vf-hed{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;color:#111;line-height:1.25;margin-bottom:4px}
+.vf-hed a{color:#111}
+.vf-hed a:hover{color:#E11D48}
+.na-widget{background:#fff;border:1px solid #E5E3DE;margin-bottom:14px}
+.na-wh{background:#111;color:#fff;padding:8px 13px;font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.na-wb{padding:13px}
+.na-einput{width:100%;padding:8px 10px;background:#F5F4F0;border:1px solid #E5E3DE;color:#111;font-size:13px;font-family:'DM Sans',sans-serif;margin-bottom:8px}
+.na-ebtn{width:100%;background:#E11D48;color:#fff;border:none;padding:9px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-unsub{font-size:10px;color:#999;text-align:center;margin-top:6px}
+.na-catlink{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:.5px solid #E5E3DE;font-size:12px;font-weight:500;color:#111}
+.na-catlink:last-child{border-bottom:none}
+.na-catlink span:last-child{font-size:11px;color:#E11D48;font-weight:600}
+.na-trend{display:flex;gap:9px;padding:7px 0;border-bottom:.5px solid #E5E3DE;align-items:flex-start;color:#111}
+.na-trend:last-child{border-bottom:none}
+.na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
+.na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}
+.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}
+.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}
+.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}
+.na-fext:hover{color:#fff}
+.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
+.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}
+.na-fchronic{font-size:10px;color:#333}
+.na-fchronic:hover{color:#888}
+.na-fleg{font-size:10px;color:#333;margin-top:8px;line-height:1.5}
+</style>
 </head>
 <body>
-
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="masthead-top">
-      <div style="width:120px;"></div>
-      <div class="masthead-brand">
-        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
-        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
-      </div>
-      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-    </div>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="/" class="active">Home</a></li>
-        ${navLinks}
-        <li><a href="/trending.html">Trending</a></li>
-        <li><a href="/buried-week.html">The Buried Week</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="page-layout-with-sidebar">
-  <main>
-    <section class="hero-section">
-      <div class="section-label">
-        <h2>Buried Stories</h2>
-        <span class="live-badge">Live</span>
-      </div>
-      <div class="hero-grid">
-        ${heroMain}
-        ${heroSec1}
-        ${heroSec2}
-      </div>
-    </section>
-    ${categorySections}
-  </main>
-  <aside class="sidebar">
-    <div class="sidebar-widget" id="subscribe-anchor">
-      <div class="sidebar-widget-header">Daily Briefing</div>
-      <div class="sidebar-widget-body">
-        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
-        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
-          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
-          <button type="submit" class="btn-subscribe">Subscribe Free</button>
-        </form>
-        <div class="email-disclaimer">Unsubscribe anytime.</div>
-      </div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Trending Now</div>
-      <div class="trending-list">${trendingItems}</div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Browse Categories</div>
-      <div class="trending-list">${browseItems}</div>
-    </div>
-  </aside>
+<div class="na-mast">
+<div class="na-mast-inner"><div><div class="na-wm">News<em>Anarchist</em></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
+</div></div>
+<nav class="na-nav">
+<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a></div>
+</nav>
+<div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
+<div class="na-body">
+<main>
+<div class="na-hgrid">
+${heroMain(h0)}
+<div class="vh-stack">${heroSec(h1)}${heroSec(h2)}</div>
 </div>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-wordmark">News<span>Anarchist</span></div>
-    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
-    <div class="footer-links">
-      <a href="/about.html">About</a>
-      <a href="/editorial.html">Editorial Standards</a>
-      <a href="/tip-line.html">Tip Line</a>
-      <a href="/authors/">Our Authors</a>
-      <a href="/subscribe.html">Subscribe</a>
-      <a href="/trending.html">Trending</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/rss">RSS</a>
-    </div>
-    <div class="footer-legal">&copy; ${new Date().getFullYear()} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
-  </div>
+${catSections}
+${featSection}
+</main>
+<aside>
+<div class="na-widget" id="na-brief">
+<div class="na-wh">Daily Briefing</div>
+<div class="na-wb">
+<div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
+<form id="sidebarEmailForm" onsubmit="submitEmail(event)">
+<input type="email" id="sidebarEmailInput" class="na-einput" placeholder="your@email.com" required>
+<button type="submit" class="na-ebtn">Subscribe Free</button>
+</form>
+<div class="na-unsub">Unsubscribe anytime.</div>
+</div>
+</div>
+<div class="na-widget">
+<div class="na-wh">Browse Categories</div>
+<div class="na-wb" style="padding:8px 13px">${catLinks}</div>
+</div>
+<div class="na-widget">
+<div class="na-wh">Trending Now</div>
+<div class="na-wb" style="padding:8px 13px">${trending}</div>
+</div>
+</aside>
+</div>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div>
+<div class="na-fwm">News<em>Anarchist</em></div>
+<div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs. The stories buried, spiked, or spun.</div>
+<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a>
+<a href="/editorial.html" class="na-flink">Editorial Standards</a>
+<a href="/tip-line.html" class="na-flink">Tip Line</a>
+<a href="/about-our-authors.html" class="na-flink">About Our Authors</a>
+</div>
+<div>
+<div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
+<div class="na-fdiv">
+<div class="na-fct">Books</div>
+<a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a>
+</div>
+</div>
+<div>
+<div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
+<div class="na-fdiv">
+<div class="na-fct">Categories</div>
+${fcl1}
+</div>
+</div>
+<div>
+<div class="na-fct">More Categories</div>
+${fcl2}
+<div class="na-fdiv">
+<div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/rss" class="na-flink">RSS Feed</a>
+<div class="na-fleg">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
+</div>
+</div>
+</div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; ${yr} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines.</div>
+<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+</div>
 </footer>
-
 <script>
-async function submitSidebarEmail(e) {
+async function submitEmail(e) {
   e.preventDefault();
   const email = document.getElementById('sidebarEmailInput').value;
   const btn = e.target.querySelector('button');
@@ -2392,11 +2561,11 @@ async function submitSidebarEmail(e) {
   btn.disabled = true;
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
-      method: 'POST', headers: {'Content-Type':'application/json'},
+      method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
     });
     const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    if (data.success) { btn.textContent = 'Subscribed!'; }
     else { btn.textContent = 'Try again'; btn.disabled = false; }
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
@@ -2407,7 +2576,7 @@ async function submitSidebarEmail(e) {
 
   const indexPath = path.join(SITE_DIR, 'index.html');
   fs.writeFileSync(indexPath, html);
-  console.log(`  ✅ index.html rebuilt from scratch (${articles.length} articles, ${CATEGORIES.length} categories)`);
+  console.log(`  ✅ index.html rebuilt — Version D design (${articles.length} articles, ${CATEGORIES.length} categories)`);
 }
 
 function updateSitemap(allArticles) {
