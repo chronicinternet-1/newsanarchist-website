@@ -2717,6 +2717,21 @@ function rebuildCategoryPages(allArticles) {
   const ARTICLES_PER_PAGE = 100;
   const categoryDir = path.join(SITE_DIR, 'category');
 
+  function au(a) { return a.author || 'NewsAnarchist Desk'; }
+  function fd(a) {
+    const d = new Date(a.pubDate || a.generatedAt || Date.now());
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  function sg(a) { return (a.filename || '').replace('.html', ''); }
+  function hi(a) { return fs.existsSync(path.join(SITE_DIR, 'images/articles', sg(a) + '.webp')); }
+  function card(a) {
+    const s = sg(a);
+    const img = hi(a)
+      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`
+      : `<div class="vc-img vc-ph"></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+  }
+
   for (const cat of CATEGORIES) {
     const slug  = CATEGORY_SLUGS[cat];
     const label = CATEGORY_LABELS[cat] || cat;
@@ -2732,19 +2747,19 @@ function rebuildCategoryPages(allArticles) {
         : `${SITE_URL}/category/${slug}-${pageNum}.html`;
 
       const cardsHTML = catArticles.length === 0
-        ? '<p style="text-align:center;color:var(--color-text-muted);padding:40px;font-family:var(--font-ui);">No articles yet — check back soon.</p>'
-        : pageArticles.map(a => buildArticleCard(a)).join('\n');
+        ? '<p style="text-align:center;color:#999;padding:40px;">No articles yet — check back soon.</p>'
+        : pageArticles.map(a => card(a)).join('');
 
       let paginationHTML = '';
       if (totalPages > 1) {
-        paginationHTML += `\n<nav style="display:flex;align-items:center;justify-content:center;gap:8px;padding:32px 0;border-top:1px solid var(--color-border);">`;
-        paginationHTML += `<span style="font-family:var(--font-ui);font-size:12px;color:var(--color-text-muted);">Page ${pageNum} of ${totalPages}</span>`;
+        paginationHTML += `<nav style="display:flex;align-items:center;justify-content:center;gap:8px;padding:24px 0;border-top:1px solid #E5E3DE;margin-top:8px;">`;
+        paginationHTML += `<span style="font-size:12px;color:#999;">Page ${pageNum} of ${totalPages}</span>`;
         if (pageNum > 1) {
-          const prevFile = pageNum === 2 ? `${slug}.html` : `${slug}-${pageNum - 1}.html`;
-          paginationHTML += `<a href="/category/${prevFile}" style="font-family:var(--font-ui);font-size:12px;padding:6px 12px;border:1px solid var(--color-border);border-radius:var(--radius);">&larr; Prev</a>`;
+          const prevFile = pageNum === 2 ? `${slug}.html` : `${slug}-${pageNum-1}.html`;
+          paginationHTML += `<a href="/category/${prevFile}" style="font-size:12px;padding:6px 12px;border:1px solid #E5E3DE;background:#fff;">&larr; Prev</a>`;
         }
         if (pageNum < totalPages) {
-          paginationHTML += `<a href="/category/${slug}-${pageNum + 1}.html" style="font-family:var(--font-ui);font-size:12px;padding:6px 12px;border:1px solid var(--color-border);border-radius:var(--radius);">Next &rarr;</a>`;
+          paginationHTML += `<a href="/category/${slug}-${pageNum+1}.html" style="font-size:12px;padding:6px 12px;border:1px solid #E5E3DE;background:#fff;">Next &rarr;</a>`;
         }
         paginationHTML += `</nav>`;
       }
@@ -2752,156 +2767,177 @@ function rebuildCategoryPages(allArticles) {
       const navLinks = CATEGORIES.map(c => {
         const cs = CATEGORY_SLUGS[c];
         const active = c === cat ? ' class="active"' : '';
-        return `<li><a href="/category/${cs}.html"${active}>${c}</a></li>`;
-      }).join('\n        ');
+        return `<a href="/category/${cs}.html"${active}>${c}</a>`;
+      }).join('');
 
-      const footerCatLinks = CATEGORIES.map(c => {
-        const cs = CATEGORY_SLUGS[c];
-        return `<a href="/category/${cs}.html">${c}</a>`;
-      }).join('\n        ');
+      const catLinks = CATEGORIES.map(c => {
+        const cnt = clean.filter(a => a.category === c).length;
+        return `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-catlink"><span>${c}</span><span>${cnt} →</span></a>`;
+      }).join('');
 
-      let sidebarTrendingHTML = '';
+      let trendingHTML = '';
       try {
         const _db = JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'generated-articles.json'), 'utf8'));
         const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
-        sidebarTrendingHTML = _recent.map((a, i) => {
-          const _sl = a.filename || a.slug || '';
-          const _ti = (a.title || 'Article').slice(0, 60);
-          return `<a href="/articles/${_sl}" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${_ti}</div></div></a>`;
+        trendingHTML = _recent.map((a, i) => {
+          const _ti = (a.title || 'Article').slice(0, 55);
+          const _cat = a.category || '';
+          return `<a href="/articles/${a.filename||a.slug||''}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${_ti}</div><div class="na-tcat">${_cat}</div></div></a>`;
         }).join('');
-      } catch(e) {
-        sidebarTrendingHTML = CATEGORIES.map((c, i) => {
-          const cs = CATEGORY_SLUGS[c];
-          return `<a href="/category/${cs}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${c}</div></div></a>`;
-        }).join('');
-      }
+      } catch(e) { trendingHTML = ''; }
 
-      const sidebarCategoriesHTML = CATEGORIES.map((c, i) => {
-        const cs = CATEGORY_SLUGS[c];
-        return `<a href="/category/${cs}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${c}</div></div></a>`;
-      }).join('');
+      const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
+      const yr = new Date().getFullYear();
+      const fcl1 = CATEGORIES.slice(0,4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
+      const fcl2 = CATEGORIES.slice(4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
 
       const pageHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${label} — NewsAnarchist</title>
-  <meta name="description" content="${desc}">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="${canonicalUrl}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="${label} — NewsAnarchist">
-  <meta property="og:description" content="${desc}">
-  <meta property="og:url" content="${canonicalUrl}">
-  <meta property="og:image" content="${SITE_URL}/images/og-card.webp">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${label} — NewsAnarchist">
-  <meta name="twitter:description" content="${desc}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>${label} — NewsAnarchist</title>
+<meta name="description" content="${desc}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="${canonicalUrl}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:title" content="${label} — NewsAnarchist">
+<meta property="og:description" content="${desc}">
+<meta property="og:url" content="${canonicalUrl}">
+<meta property="og:image" content="${SITE_URL}/images/og-card.webp">
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
+.na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
+@media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
+.na-page-head{display:flex;align-items:center;gap:8px;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:16px}
+.na-3col{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
+.vc-card{background:#fff;border:1px solid #E5E3DE}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
+.vc-body{padding:11px}.vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
+.vc-hed{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:4px}
+.vc-hed a{color:#111}.vc-hed a:hover{color:#E11D48}.vc-by{font-size:10px;color:#999}
+.na-widget{background:#fff;border:1px solid #E5E3DE;margin-bottom:14px}
+.na-wh{background:#111;color:#fff;padding:8px 13px;font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.na-wb{padding:13px}
+.na-einput{width:100%;padding:8px 10px;background:#F5F4F0;border:1px solid #E5E3DE;color:#111;font-size:13px;font-family:'DM Sans',sans-serif;margin-bottom:8px}
+.na-ebtn{width:100%;background:#E11D48;color:#fff;border:none;padding:9px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-unsub{font-size:10px;color:#999;text-align:center;margin-top:6px}
+.na-catlink{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:.5px solid #E5E3DE;font-size:12px;font-weight:500;color:#111}
+.na-catlink:last-child{border-bottom:none}.na-catlink span:last-child{font-size:11px;color:#E11D48;font-weight:600}
+.na-trend{display:flex;gap:9px;padding:7px 0;border-bottom:.5px solid #E5E3DE;align-items:flex-start;color:#111}
+.na-trend:last-child{border-bottom:none}
+.na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
+.na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}
+.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
+.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
+</style>
 </head>
 <body>
-
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="masthead-top">
-      <div style="width:120px;"></div>
-      <div class="masthead-brand">
-        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
-        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
-      </div>
-      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
-    </div>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="/">Home</a></li>
-        ${navLinks}
-        <li><a href="/trending.html">Trending</a></li>
-        <li><a href="/buried-week.html">The Buried Week</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="page-layout-with-sidebar">
-  <main>
-    <div class="section-label">
-      <h2>${label}</h2>
-    </div>
-    <div class="card-grid">
-      ${cardsHTML}
-    </div>
-    ${paginationHTML}
-  </main>
-  <aside class="sidebar">
-    <div class="sidebar-widget" id="subscribe-anchor">
-      <div class="sidebar-widget-header">Daily Briefing</div>
-      <div class="sidebar-widget-body">
-        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning — free.</div>
-        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
-          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
-          <button type="submit" class="btn-subscribe">Subscribe Free</button>
-        </form>
-        <div class="email-disclaimer">Unsubscribe anytime.</div>
-      </div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Trending Now</div>
-      <div class="trending-list">${sidebarTrendingHTML}</div>
-    </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Browse Categories</div>
-      <div class="trending-list">${sidebarCategoriesHTML}</div>
-    </div>
-  </aside>
+<div class="na-mast"><div class="na-mast-inner">
+<div><div class="na-wm"><a href="/">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
+</div></div>
+<nav class="na-nav"><div class="na-nav-inner">
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+</div></nav>
+<div class="na-body">
+<main>
+<div class="na-page-head"><span>📂</span> ${label}${pageNum > 1 ? ` — Page ${pageNum}` : ''}</div>
+<div class="na-3col">${cardsHTML}</div>
+${paginationHTML}
+</main>
+<aside>
+<div class="na-widget" id="na-brief">
+<div class="na-wh">Daily Briefing</div>
+<div class="na-wb">
+<div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
+<form onsubmit="submitEmail(event)">
+<input type="email" id="catEmailInput" class="na-einput" placeholder="your@email.com" required>
+<button type="submit" class="na-ebtn">Subscribe Free</button>
+</form>
+<div class="na-unsub">Unsubscribe anytime.</div>
 </div>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-wordmark">News<span>Anarchist</span></div>
-    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
-    <div class="footer-links">
-      ${footerCatLinks}
-    </div>
-    <div class="footer-links">
-      <a href="/about.html">About</a>
-      <a href="/editorial.html">Editorial Standards</a>
-      <a href="/subscribe.html">Subscribe</a>
-      <a href="/trending.html">Trending</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/rss">RSS</a>
-    </div>
-    <div class="footer-legal">&copy; ${new Date().getFullYear()} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines.</div>
-  </div>
+</div>
+<div class="na-widget"><div class="na-wh">Browse Categories</div><div class="na-wb" style="padding:8px 13px">${catLinks}</div></div>
+<div class="na-widget"><div class="na-wh">Trending Now</div><div class="na-wb" style="padding:8px 13px">${trendingHTML}</div></div>
+</aside>
+</div>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
+<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<div><div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
+<div class="na-fdiv"><div class="na-fct">Books</div><a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a></div></div>
+<div><div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
+<div class="na-fdiv"><div class="na-fct">Categories</div>${fcl1}</div></div>
+<div><div class="na-fct">More Categories</div>${fcl2}
+<div class="na-fdiv"><div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/rss" class="na-flink">RSS Feed</a>
+<div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
+</div></div>
+</div>
+<div class="na-fbot"><div class="na-fcopy">&copy; ${yr} NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
 </footer>
-
 <script>
-async function submitSidebarEmail(e) {
+async function submitEmail(e) {
   e.preventDefault();
-  const email = document.getElementById('sidebarEmailInput').value;
+  const email = document.getElementById('catEmailInput').value;
   const btn = e.target.querySelector('button');
-  btn.textContent = 'Subscribing...';
-  btn.disabled = true;
+  btn.textContent = 'Subscribing...'; btn.disabled = true;
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
-      method: 'POST', headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({email, source: 'newsanarchist-category'})
     });
     const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    if (data.success) { btn.textContent = 'Subscribed!'; }
     else { btn.textContent = 'Try again'; btn.disabled = false; }
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
 </script>
-<script src="/js/main.js"></script>
 </body>
 </html>`;
 
