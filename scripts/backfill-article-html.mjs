@@ -179,78 +179,61 @@ function remapArticleCategory(article) {
   return 'Government Secrets';
 }
 
-function renderRelatedProducts(category) {
-  const products = RELATED_PRODUCTS[category] || RELATED_PRODUCTS['Government Secrets'];
-  const { primary, secondary } = products;
-  const typeLabel = (type) => type === 'book' ? 'Book' : type === 'hardware' ? 'Tool' : 'Resource';
-  return `          <!-- RELATED PRODUCTS -->
-          <section class="related-products content-section" style="margin:32px 0;padding:24px;background:#fafafa;border:1px solid #e5e5e5;border-radius:8px;">
-            <h3 style="font-size:0.75rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px;">Recommended Reading &amp; Tools</h3>
-            <div class="card-grid" style="gap:16px;">
-              <a href="${primary.url}" target="_blank" rel="noopener nofollow sponsored" class="card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
-                <div class="card-body">
-                  <span class="genre-label" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(primary.type)} &middot; Amazon</span>
-                  <h4 style="font-size:0.95rem;font-weight:700;color:#1a1a1a;margin:8px 0 6px;line-height:1.3;">${primary.title}</h4>
-                  <p style="color:#666;font-size:0.85rem;margin:0 0 10px;line-height:1.5;">${primary.tagline}</p>
-                  <div style="font-size:0.8rem;color:#dc2626;font-weight:600;">View on Amazon &rarr;</div>
-                </div>
-              </a>
-              <a href="${secondary.url}" target="_blank" rel="noopener nofollow sponsored" class="card" style="border:1px solid #e5e5e5;border-radius:6px;padding:16px;text-decoration:none;display:block;background:#fff;">
-                <div class="card-body">
-                  <span class="genre-label" style="background:#fef2f2;color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;">${typeLabel(secondary.type)} &middot; Amazon</span>
-                  <h4 style="font-size:0.95rem;font-weight:700;color:#1a1a1a;margin:8px 0 6px;line-height:1.3;">${secondary.title}</h4>
-                  <p style="color:#666;font-size:0.85rem;margin:0 0 10px;line-height:1.5;">${secondary.tagline}</p>
-                  <div style="font-size:0.8rem;color:#dc2626;font-weight:600;">View on Amazon &rarr;</div>
-                </div>
-              </a>
-            </div>
-            <p style="margin-top:12px;font-size:0.75rem;color:#aaa;text-align:center;">As an Amazon Associate, NewsAnarchist earns from qualifying purchases.</p>
-          </section>
-`;
-}
-
-// ─── Body extraction ──────────────────────────────────────────────────────────
-
-/**
- * Extracts the inner content of <div class="article-body"> from existing HTML.
- * Uses depth tracking to handle nested divs correctly.
- * Returns the raw inner HTML string, or null if the marker is not found.
- */
 function extractArticleBody(html) {
-  const OPEN_MARKER = '<div class="article-body">';
-  const startIdx = html.indexOf(OPEN_MARKER);
-  if (startIdx === -1) return null;
-
-  const bodyStart = startIdx + OPEN_MARKER.length;
-  let depth = 1;
-  let i = bodyStart;
-
-  while (i < html.length && depth > 0) {
-    if (html[i] === '<') {
-      if (html.startsWith('</div', i)) {
-        depth--;
-        if (depth === 0) break;
-        i += 5;
-        continue;
-      }
-      if (html.startsWith('<div', i)) {
-        depth++;
-      }
-    }
-    i++;
+  // Try new Version D class first, then old class names
+  const patterns = [
+    /class="na-article-body"[^>]*>([\s\S]*?)<\/div>\s*(?:<!--|\s*<div class="na-products|<\/article)/,
+    /class="article-body"[^>]*>([\s\S]*?)<\/div>\s*(?:<!--|\s*<div class="na-products|<div class="related-products|<\/article)/,
+  ];
+  for (const re of patterns) {
+    const m = html.match(re);
+    if (m && m[1] && m[1].trim().length > 50) return m[1].trim();
   }
-
-  return html.slice(bodyStart, i).trim();
+  // Broader fallback: grab everything between the body div open and the products/footer section
+  const start = html.search(/class="(?:na-article-body|article-body)"/);
+  if (start === -1) return null;
+  const openTag = html.indexOf('>', start);
+  if (openTag === -1) return null;
+  // Find closing landmark
+  const landmarks = ['na-products', 'related-products', 'renderRelatedProducts', 'site-footer', 'na-footer'];
+  let end = -1;
+  for (const lm of landmarks) {
+    const idx = html.indexOf(lm, openTag);
+    if (idx !== -1 && (end === -1 || idx < end)) end = idx;
+  }
+  if (end === -1) return null;
+  // Walk back to find the closing </div>
+  const chunk = html.slice(openTag + 1, end);
+  // Remove trailing partial div tags
+  const body = chunk.replace(/<div[^>]*>\s*$/, '').trim();
+  return body.length > 50 ? body : null;
 }
 
-// ─── HTML template ────────────────────────────────────────────────────────────
+function renderRelatedProducts(category) {
+  const prods = RELATED_PRODUCTS[category];
+  if (!prods) return '';
+  const cards = [prods.primary, prods.secondary].filter(Boolean).map(p => `
+    <div class="na-product-card">
+      <a href="${p.url}" target="_blank" rel="noopener nofollow sponsored">
+        <div class="na-product-type">${p.type || 'book'}</div>
+        <div class="na-product-title">${p.title}</div>
+        <div class="na-product-tagline">${p.tagline}</div>
+        <div class="na-product-cta">View on Amazon →</div>
+      </a>
+    </div>`).join('');
+  return `
+  <div class="na-products">
+    <div class="na-products-label">From the Anarchist Reading List</div>
+    <div class="na-product-cards">${cards}</div>
+    <div class="na-affiliate-note">As an Amazon Associate, NewsAnarchist earns from qualifying purchases.</div>
+  </div>`;
+}
 
 function buildShellHTML(article, extractedBody, sidebarTrendingHTML) {
   const category = remapArticleCategory(article);
   const catSlug = CATEGORY_SLUGS[category] || 'government-secrets';
   const author = getAuthor(category);
   const slug = (article.filename || article.slug || '').replace(/\.html$/, '');
-  const filename = article.filename || slug + '.html';
   const dateISO = article.pubDate || new Date().toISOString();
   const dateDisplay = formatDate(dateISO);
   const title = article.title || 'Untitled';
@@ -265,53 +248,35 @@ function buildShellHTML(article, extractedBody, sidebarTrendingHTML) {
     .replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[.\ s]*$/i, '')
     .replace(/\s*Submitted by[^.]+\.?/i, '')
     .replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/, '')
-    .replace(/^[\s\-–—:,.]+/, '')
+    .replace(/^[\s\-\u2013\u2014:,.]+/, '')
     .trim();
   const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0, 40)))
     ? ''
-    : `<p class="article-dek">${rawSubhead}</p>`;
+    : `<p class="na-article-dek">${rawSubhead}</p>`;
 
   const hasImage = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
   const ogImage = hasImage ? `${SITE_URL}/images/articles/${slug}.webp` : `${SITE_URL}/images/og-default.webp`;
   const heroImageStyle = hasImage
     ? `background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;`
-    : 'background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);';
+    : 'background:#1a1a2e;';
 
   const readTime = estimateReadTime(extractedBody);
-
-  const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
-    const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
-    return `<a href="/category/${cSlug}.html" class="trending-item"><span class="trending-num">${i + 1}</span><div><div class="trending-title">${cat}</div></div></a>`;
-  }).join('');
 
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     const active = cat === category ? ' class="active"' : '';
-    return `<li><a href="/category/${cs}.html"${active}>${cat}</a></li>`;
-  }).join('\n        ');
+    return `<a href="/category/${cs}.html"${active}>${cat}</a>`;
+  }).join('');
 
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     return `<a href="/category/${cs}.html">${cat}</a>`;
-  }).join('\n        ');
+  }).join('');
 
-  const relatedArticles = Array.isArray(article.relatedArticles) ? article.relatedArticles.slice(0, 2) : [];
-  let relatedHTML = '';
-  for (const rel of relatedArticles) {
-    const relSlug = (rel.slug || rel.filename || '').replace(/\.html$/, '');
-    const relCat = rel.category || category;
-    relatedHTML += `<a href="/articles/${relSlug}.html" class="card">
-              <div class="card-image" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div>
-              <div class="card-body">
-                <div class="card-meta">
-                  <span class="genre-label">${relCat}</span>
-                  <span class="dot-sep">&middot;</span>
-                  <span class="card-date">${dateDisplay}</span>
-                </div>
-                <div class="card-title">${rel.title || 'Related Story'}</div>
-              </div>
-            </a>`;
-  }
+  const sidebarCatsHTML = CATEGORIES.map((cat, i) => {
+    const cs = CATEGORY_SLUGS[cat];
+    return `<a href="/category/${cs}.html" class="na-trending-item"><span class="na-trending-num">${i + 1}</span><div class="na-trending-title">${cat}</div></a>`;
+  }).join('');
 
   const nowISO = new Date().toISOString();
   const yearNow = new Date().getFullYear();
@@ -319,203 +284,258 @@ function buildShellHTML(article, extractedBody, sidebarTrendingHTML) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${seoTitle} — NewsAnarchist</title>
-  <meta name="description" content="${metaDesc.replace(/"/g, '&quot;')}">
-  <meta name="keywords" content="${keywordsStr}">
-  <meta name="robots" content="index, follow">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="${articleUrl}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
-
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="${seoTitle.replace(/"/g, '&quot;')}">
-  <meta property="og:description" content="${metaDesc.replace(/"/g, '&quot;')}">
-  <meta property="og:url" content="${articleUrl}">
-  <meta property="og:image" content="${ogImage}">
-  <meta property="og:site_name" content="NewsAnarchist">
-  <meta property="article:published_time" content="${dateISO}">
-  <meta property="article:modified_time" content="${nowISO}">
-  <meta property="article:author" content="${author.name}">
-  <meta property="article:section" content="${category}">
-  <meta property="article:tag" content="${kw.slice(0, 5).join(', ')}">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${seoTitle.replace(/"/g, '&quot;')}">
-  <meta name="twitter:description" content="${truncate(metaDesc, 180).replace(/"/g, '&quot;')}">
-  <meta name="twitter:image" content="${ogImage}">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "headline": ${JSON.stringify(seoTitle)},
-    "description": ${JSON.stringify(metaDesc)},
-    "url": "${articleUrl}",
-    "datePublished": "${dateISO}",
-    "dateModified": "${nowISO}",
-    "author": {
-      "@type": "Person",
-      "name": "${author.name}",
-      "url": "${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "NewsAnarchist",
-      "logo": { "@type": "ImageObject", "url": "${SITE_URL}/images/logo.png" }
-    },
-    "image": { "@type": "ImageObject", "url": "${ogImage}", "width": 1200, "height": 630 },
-    "articleSection": "${category}",
-    "keywords": ${JSON.stringify(kw)},
-    "isAccessibleForFree": true
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "${SITE_URL}/" },
-      { "@type": "ListItem", "position": 2, "name": "${category}", "item": "${SITE_URL}/category/${catSlug}.html" },
-      { "@type": "ListItem", "position": 3, "name": ${JSON.stringify(seoTitle)}, "item": "${articleUrl}" }
-    ]
-  }
-  </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${seoTitle} \u2014 NewsAnarchist</title>
+<meta name="description" content="${metaDesc.replace(/"/g, '&quot;')}">
+<meta name="keywords" content="${keywordsStr}">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="${articleUrl}">
+<link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<meta property="og:type" content="article">
+<meta property="og:title" content="${seoTitle.replace(/"/g, '&quot;')}">
+<meta property="og:description" content="${metaDesc.replace(/"/g, '&quot;')}">
+<meta property="og:url" content="${articleUrl}">
+<meta property="og:image" content="${ogImage}">
+<meta property="og:site_name" content="NewsAnarchist">
+<meta property="article:published_time" content="${dateISO}">
+<meta property="article:author" content="${author.name}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${seoTitle.replace(/"/g, '&quot;')}">
+<meta name="twitter:description" content="${metaDesc.replace(/"/g, '&quot;').slice(0, 180)}">
+<meta name="twitter:image" content="${ogImage}">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":${JSON.stringify(seoTitle)},"description":${JSON.stringify(metaDesc)},"url":"${articleUrl}","datePublished":"${dateISO}","dateModified":"${nowISO}","author":{"@type":"Person","name":"${author.name}","url":"${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"},"publisher":{"@type":"Organization","name":"NewsAnarchist","logo":{"@type":"ImageObject","url":"${SITE_URL}/images/logo.png"}},"image":{"@type":"ImageObject","url":"${ogImage}","width":1200,"height":630},"articleSection":"${category}","keywords":${JSON.stringify(kw)}}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#F5F4F0;color:#111111;line-height:1.6;font-size:16px}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.na-mast{background:#F5F4F0;border-bottom:1px solid #E5E3DE;padding:18px 0 0}
+.na-mast-inner{max-width:1200px;margin:0 auto;padding:0 24px}
+.na-mast-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;letter-spacing:-0.5px;color:#111}
+.na-wm span{color:#E11D48}
+.na-tagline{font-size:12px;color:#666;margin-top:2px;letter-spacing:0.02em}
+.na-sub-btn{background:#E11D48;color:#fff;border:none;padding:8px 18px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;cursor:pointer;letter-spacing:0.02em}
+.na-sub-btn:hover{background:#c41230}
+.na-nav{background:#111;overflow:hidden}
+.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none}
+.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav-inner a{color:#fff;font-size:12px;font-weight:500;padding:10px 14px;white-space:nowrap;opacity:0.85;letter-spacing:0.02em;display:block}
+.na-nav-inner a:hover,.na-nav-inner a.active{opacity:1;color:#E11D48}
+.na-ticker{background:#E11D48;color:#fff;overflow:hidden;height:32px;display:flex;align-items:center}
+.na-ticker-label{background:#a00;font-size:10px;font-weight:700;letter-spacing:0.1em;padding:0 14px;white-space:nowrap;height:100%;display:flex;align-items:center}
+.na-ticker-track{display:flex;animation:na-scroll 40s linear infinite;white-space:nowrap}
+.na-ticker-track:hover{animation-play-state:paused}
+.na-ticker-item{font-size:12px;font-weight:500;padding:0 32px}
+@keyframes na-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.na-layout{max-width:1200px;margin:0 auto;padding:32px 24px;display:grid;grid-template-columns:1fr 300px;gap:40px;align-items:start}
+@media(max-width:768px){.na-layout{grid-template-columns:1fr;padding:16px}}
+.na-article{max-width:720px}
+.na-article-cat{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#E11D48;display:block;margin-bottom:12px}
+.na-article-headline{font-family:'DM Sans',sans-serif;font-size:clamp(24px,4vw,40px);font-weight:700;line-height:1.15;letter-spacing:-0.5px;color:#111;margin-bottom:16px}
+.na-article-dek{font-size:18px;color:#444;line-height:1.5;margin-bottom:20px}
+.na-byline{display:flex;align-items:center;gap:12px;padding:16px 0;border-top:1px solid #E5E3DE;border-bottom:1px solid #E5E3DE;margin-bottom:24px}
+.na-byline-avatar{width:44px;height:44px;border-radius:50%;background-size:cover;background-position:center;flex-shrink:0;border:2px solid #E5E3DE}
+.na-byline-name{font-size:14px;font-weight:600;color:#111}
+.na-byline-name a{color:#111}
+.na-byline-name a:hover{color:#E11D48}
+.na-byline-role{font-size:12px;color:#666;margin-top:2px}
+.na-byline-meta{font-size:12px;color:#888;margin-left:auto;white-space:nowrap}
+.na-hero-img{width:100%;height:420px;background:#ccc no-repeat center/cover;margin-bottom:28px}
+@media(max-width:768px){.na-hero-img{height:220px}}
+.na-article-body{font-family:'Source Serif 4',serif;font-size:18px;line-height:1.72;color:#111;max-width:680px}
+.na-article-body p{margin-bottom:1.4em}
+.na-article-body h2{font-family:'DM Sans',sans-serif;font-size:22px;font-weight:700;margin:2em 0 0.7em;color:#111}
+.na-article-body h3{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:600;margin:1.5em 0 0.5em}
+.na-article-body blockquote{border-left:3px solid #E11D48;padding-left:20px;margin:1.5em 0;color:#444;font-style:italic}
+.na-article-body a,.na-ilink{color:#E11D48;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.na-article-body strong{font-weight:600}
+.the-take{background:#111;color:#fff;padding:24px 28px;margin:32px 0;border-left:4px solid #E11D48}
+.the-take-label{font-size:10px;font-weight:700;letter-spacing:0.12em;color:#E11D48;text-transform:uppercase;margin-bottom:10px}
+.the-take-body{font-family:'Source Serif 4',serif;font-size:16px;line-height:1.65;color:#eee}
+.na-products{margin:40px 0 32px;padding-top:24px;border-top:1px solid #E5E3DE}
+.na-products-label{font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#888;margin-bottom:16px}
+.na-product-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:600px){.na-product-cards{grid-template-columns:1fr}}
+.na-product-card{border:1px solid #E5E3DE;padding:16px;background:#fff}
+.na-product-card a{display:block;color:#111}
+.na-product-card a:hover .na-product-title{color:#E11D48}
+.na-product-type{font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#E11D48;margin-bottom:6px}
+.na-product-title{font-size:14px;font-weight:600;line-height:1.3;margin-bottom:6px}
+.na-product-tagline{font-size:12px;color:#666;line-height:1.4;margin-bottom:10px}
+.na-product-cta{font-size:12px;font-weight:600;color:#E11D48}
+.na-affiliate-note{font-size:11px;color:#999;margin-top:12px}
+.na-sidebar{display:flex;flex-direction:column;gap:24px;position:sticky;top:24px}
+@media(max-width:768px){.na-sidebar{position:static}}
+.na-sidebar-widget{border:1px solid #E5E3DE;background:#fff;overflow:hidden}
+.na-widget-header{background:#111;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:10px 16px}
+.na-widget-body{padding:16px}
+.na-email-text{font-size:13px;color:#555;margin-bottom:12px;line-height:1.5}
+.na-email-input{width:100%;padding:9px 12px;border:1px solid #E5E3DE;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;background:#F5F4F0;margin-bottom:8px}
+.na-email-input:focus{border-color:#E11D48}
+.na-btn-subscribe{width:100%;background:#E11D48;color:#fff;border:none;padding:10px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;cursor:pointer}
+.na-btn-subscribe:hover{background:#c41230}
+.na-email-disclaimer{font-size:11px;color:#999;margin-top:8px}
+.na-trending-item,.trending-item{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid #F5F4F0;color:#111;text-decoration:none}
+.na-trending-item:last-child,.trending-item:last-child{border-bottom:none}
+.na-trending-num,.trending-num{font-size:18px;font-weight:700;color:#E5E3DE;flex-shrink:0;line-height:1;min-width:24px}
+.na-trending-title,.trending-title{font-size:13px;font-weight:500;line-height:1.3}
+.na-trending-count,.trending-count{font-size:11px;color:#999;margin-top:3px}
+.na-trending-item:hover .na-trending-title,.trending-item:hover .trending-title{color:#E11D48}
+.na-footer{background:#111;color:#ccc;padding:48px 24px 32px;margin-top:64px}
+.na-footer-inner{max-width:1200px;margin:0 auto}
+.na-footer-wm{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;color:#fff;margin-bottom:8px}
+.na-footer-wm span{color:#E11D48}
+.na-footer-tagline{font-size:13px;color:#888;margin-bottom:32px}
+.na-footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-bottom:32px}
+@media(max-width:768px){.na-footer-grid{grid-template-columns:repeat(2,1fr);gap:20px}}
+.na-footer-col-title{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#fff;margin-bottom:12px}
+.na-footer-col a{display:block;font-size:13px;color:#888;margin-bottom:8px}
+.na-footer-col a:hover{color:#E11D48}
+.na-footer-legal{font-size:12px;color:#555;border-top:1px solid #222;padding-top:24px;line-height:1.6}
+</style>
 </head>
 <body>
-
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="masthead-top">
-      <div style="width:120px;"></div>
-      <div class="masthead-brand">
-        <a href="/" class="masthead-wordmark">News<span>Anarchist</span></a>
-        <div class="masthead-tagline">The stories buried, spiked, or spun.</div>
+<header class="na-mast">
+  <div class="na-mast-inner">
+    <div class="na-mast-top">
+      <div>
+        <a href="/" class="na-wm">News<span>Anarchist</span></a>
+        <div class="na-tagline">The stories buried, spiked, or spun.</div>
       </div>
-      <button class="masthead-subscribe" onclick="document.getElementById('subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
+      <button class="na-sub-btn" onclick="document.getElementById('na-subscribe-anchor').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
     </div>
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="/">Home</a></li>
-        ${navLinks}
-        <li><a href="/trending.html">Trending</a></li>
-        <li><a href="/buried-week.html">The Buried Week</a></li>
-      </ul>
-    </nav>
   </div>
+  <nav class="na-nav">
+    <div class="na-nav-inner">
+      <a href="/">Home</a>
+      ${navLinks}
+      <a href="/trending.html">Trending</a>
+      <a href="/buried-week.html">The Buried Week</a>
+    </div>
+  </nav>
 </header>
-
-<div class="page-layout-with-sidebar">
+<div class="na-ticker">
+  <div class="na-ticker-label">BREAKING</div>
+  <div class="na-ticker-track">
+    <span class="na-ticker-item">Independent investigative news \u2014 unfiltered, unspiked.</span>
+    <span class="na-ticker-item">The Buried Week publishes every Friday.</span>
+    <span class="na-ticker-item">Subscribe free for the daily briefing.</span>
+    <span class="na-ticker-item">Tips: zeno@newsanarchist.com or Signal.</span>
+    <span class="na-ticker-item">Independent investigative news \u2014 unfiltered, unspiked.</span>
+    <span class="na-ticker-item">The Buried Week publishes every Friday.</span>
+    <span class="na-ticker-item">Subscribe free for the daily briefing.</span>
+    <span class="na-ticker-item">Tips: zeno@newsanarchist.com or Signal.</span>
+  </div>
+</div>
+<div class="na-layout">
   <main>
-    <article class="article-wrapper">
-      <span class="article-category-label">${category}</span>
-      <h1 class="article-headline">${title}</h1>
+    <article class="na-article">
+      <span class="na-article-cat">${category}</span>
+      <h1 class="na-article-headline">${title}</h1>
       ${subheadHTML}
-      <div class="article-byline">
-        ${author.slug ? `<div class="byline-avatar" style="background-image:url(/images/authors/${author.slug}.webp);"></div>` : ''}
+      <div class="na-byline">
+        ${author.slug ? '<div class="na-byline-avatar" style="background-image:url(/images/authors/' + author.slug + '.webp);"></div>' : ''}
         <div>
-          ${author.slug ? `<a href="/authors/${author.slug}.html" class="byline-name">${author.name}</a>` : `<div class="byline-name">${author.name}</div>`}
-          <div class="byline-role">${author.credential || ''}</div>
+          ${author.slug ? '<div class="na-byline-name"><a href="/authors/' + author.slug + '.html">' + author.name + '</a></div>' : '<div class="na-byline-name">' + author.name + '</div>'}
+          <div class="na-byline-role">${author.credential || ''}</div>
         </div>
-        <div class="byline-meta">${dateDisplay} &middot; ${readTime}</div>
+        <div class="na-byline-meta">${dateDisplay} &middot; ${readTime}</div>
       </div>
-      <div class="article-hero-image" style="${heroImageStyle}"></div>
-      <div class="article-body">
+      <div class="na-hero-img" style="${heroImageStyle}" role="img" aria-label="${seoTitle}"></div>
+      <div class="na-article-body">
         ${extractedBody}
       </div>
       ${renderRelatedProducts(category)}
-      <section>
-        <div class="section-label">
-          <h2>More They're Not Covering</h2>
-        </div>
-        <div class="card-grid">
-          ${relatedHTML || `<a href="/category/${catSlug}.html" class="card">
-          <div class="card-image" style="background-color:var(--color-border);"></div>
-          <div class="card-body">
-            <div class="card-meta"><span class="genre-label">${category}</span></div>
-            <div class="card-title">More ${category} Coverage</div>
-          </div>
-        </a>`}
-        </div>
-      </section>
     </article>
   </main>
-  <aside class="sidebar">
-    <div class="sidebar-widget" id="subscribe-anchor">
-      <div class="sidebar-widget-header">Daily Briefing</div>
-      <div class="sidebar-widget-body">
-        <div class="email-widget-text">The stories buried, spiked, or spun. Every morning &mdash; free.</div>
-        <form id="sidebarEmailForm" onsubmit="submitSidebarEmail(event)">
-          <input type="email" id="sidebarEmailInput" class="email-input" placeholder="your@email.com" required>
-          <button type="submit" class="btn-subscribe">Subscribe Free</button>
+  <aside class="na-sidebar">
+    <div class="na-sidebar-widget" id="na-subscribe-anchor">
+      <div class="na-widget-header">Daily Briefing</div>
+      <div class="na-widget-body">
+        <div class="na-email-text">The stories buried, spiked, or spun. Every morning &mdash; free.</div>
+        <form onsubmit="naSubmitEmail(event)">
+          <input type="email" id="na-sidebar-email" class="na-email-input" placeholder="your@email.com" required>
+          <button type="submit" id="na-sidebar-btn" class="na-btn-subscribe">Subscribe Free</button>
         </form>
-        <div class="email-disclaimer">Unsubscribe anytime.</div>
+        <div class="na-email-disclaimer">Unsubscribe anytime.</div>
       </div>
     </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Trending Now</div>
-      <div class="trending-list">${sidebarTrendingHTML}</div>
+    <div class="na-sidebar-widget">
+      <div class="na-widget-header">Trending Now</div>
+      <div class="na-widget-body">${sidebarTrendingHTML}</div>
     </div>
-    <div class="sidebar-widget">
-      <div class="sidebar-widget-header">Browse Categories</div>
-      <div class="trending-list">${sidebarCategoriesHTML}</div>
+    <div class="na-sidebar-widget">
+      <div class="na-widget-header">Browse Categories</div>
+      <div class="na-widget-body">${sidebarCatsHTML}</div>
     </div>
   </aside>
 </div>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-wordmark">News<span>Anarchist</span></div>
-    <div class="footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
-    <div class="footer-links">
-      ${footerCatLinks}
+<footer class="na-footer">
+  <div class="na-footer-inner">
+    <div class="na-footer-wm">News<span>Anarchist</span></div>
+    <div class="na-footer-tagline">Independent investigative news. AI-assisted editorial voices. Facts first.</div>
+    <div class="na-footer-grid">
+      <div class="na-footer-col">
+        <div class="na-footer-col-title">Coverage</div>
+        ${footerCatLinks}
+      </div>
+      <div class="na-footer-col">
+        <div class="na-footer-col-title">Site</div>
+        <a href="/about.html">About</a>
+        <a href="/editorial.html">Editorial Standards</a>
+        <a href="/about-our-authors.html">Our Authors</a>
+        <a href="/tip-line.html">Tip Line</a>
+        <a href="/trending.html">Trending</a>
+        <a href="/buried-week.html">The Buried Week</a>
+      </div>
+      <div class="na-footer-col">
+        <div class="na-footer-col-title">Legal</div>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/dmca.html">DMCA</a>
+      </div>
+      <div class="na-footer-col">
+        <div class="na-footer-col-title">Subscribe</div>
+        <a href="/subscribe.html">All Plans</a>
+        <a href="https://newsanarchist.substack.com" target="_blank" rel="noopener">Substack</a>
+        <a href="/rss">RSS Feed</a>
+      </div>
     </div>
-    <div class="footer-links">
-      <a href="/about.html">About</a>
-      <a href="/editorial.html">Editorial Standards</a>
-      <a href="/subscribe.html">Subscribe</a>
-      <a href="/trending.html">Trending</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="/rss">RSS</a>
-    </div>
-    <div class="footer-legal">&copy; ${yearNow} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
+    <div class="na-footer-legal">&copy; ${yearNow} NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines. As an Amazon Associate, we earn from qualifying purchases.</div>
   </div>
 </footer>
-
 <script>
-async function submitSidebarEmail(e) {
+async function naSubmitEmail(e) {
   e.preventDefault();
-  const email = document.getElementById('sidebarEmailInput').value;
-  const btn = e.target.querySelector('button');
+  const email = document.getElementById('na-sidebar-email').value;
+  const btn = document.getElementById('na-sidebar-btn');
   btn.textContent = 'Subscribing...';
   btn.disabled = true;
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
-      method: 'POST', headers: {'Content-Type':'application/json'},
+      method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
     });
     const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
+    if (data.success) { btn.textContent = '\u2713 Subscribed!'; }
     else { btn.textContent = 'Try again'; btn.disabled = false; }
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
 </script>
-<script src="/js/main.js"></script>
 </body>
 </html>`;
 }
 
-// ─── Git helpers ──────────────────────────────────────────────────────────────
+
 
 function gitCommitAndPush(batchNum, count) {
   try {

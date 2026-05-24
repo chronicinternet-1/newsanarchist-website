@@ -960,6 +960,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -994,7 +995,8 @@ ${renderRelatedProducts(category)}
 <div class="na-wb">
 <div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
 <form onsubmit="submitEmail(event)">
-<input type="email" id="artEmailInput" class="na-einput" placeholder="your@email.com" required>
+<div class="cf-turnstile" data-sitekey="0x4AAAAAADVJs0w8w_ZovZgT" data-theme="light" style="margin:8px 0;"></div>
+          <input type="email" id="artEmailInput" class="na-einput" placeholder="your@email.com" required>
 <button type="submit" class="na-ebtn">Subscribe Free</button>
 </form>
 <div class="na-unsub">Unsubscribe anytime.</div>
@@ -1050,7 +1052,8 @@ async function submitEmail(e) {
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({email, source: 'newsanarchist-article'})
+      body: JSON.stringify({email, source: 'newsanarchist-article',
+      turnstileToken: (document.querySelector('[name="cf-turnstile-response"]') || {}).value || ''})
     });
     const data = await res.json();
     if (data.success) { btn.textContent = 'Subscribed!'; }
@@ -2459,6 +2462,7 @@ a{color:inherit;text-decoration:none}
 .na-fchronic:hover{color:#888}
 .na-fleg{font-size:10px;color:#333;margin-top:8px;line-height:1.5}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <div class="na-mast">
@@ -2484,7 +2488,8 @@ ${featSection}
 <div class="na-wb">
 <div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
 <form id="sidebarEmailForm" onsubmit="submitEmail(event)">
-<input type="email" id="sidebarEmailInput" class="na-einput" placeholder="your@email.com" required>
+<div class="cf-turnstile" data-sitekey="0x4AAAAAADVJs0w8w_ZovZgT" data-theme="light" style="margin:8px 0;"></div>
+          <input type="email" id="sidebarEmailInput" class="na-einput" placeholder="your@email.com" required>
 <button type="submit" class="na-ebtn">Subscribe Free</button>
 </form>
 <div class="na-unsub">Unsubscribe anytime.</div>
@@ -2561,7 +2566,8 @@ async function submitEmail(e) {
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({email, source: 'newsanarchist-sidebar'})
+      body: JSON.stringify({email, source: 'newsanarchist-sidebar',
+      turnstileToken: (document.querySelector('[name="cf-turnstile-response"]') || {}).value || ''})
     });
     const data = await res.json();
     if (data.success) { btn.textContent = 'Subscribed!'; }
@@ -2862,6 +2868,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -3065,6 +3072,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
