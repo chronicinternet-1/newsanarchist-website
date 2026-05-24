@@ -1629,8 +1629,49 @@ async function fetchPressReleaseFeeds() {
 }
 
 async function fetchUnexplainedFeeds(){
-  const results=[];const feeds=[{name:'The Debrief',url:'https://thedebrief.org/feed/',cat:'Unexplained'},{name:'The Black Vault',url:'https://www.theblackvault.com/documentarchive/feed/',cat:'Unexplained'},{name:'MUFON News',url:'https://mufon.com/feed/',cat:'Unexplained'},{name:'Dark Reading',url:'https://www.darkreading.com/rss.xml',cat:'Tech & Privacy'}];
-  for(const feed of feeds){try{console.log('  Fetching '+feed.name+'...');const res=await fetchWithTimeout(feed.url,{},12000);if(!res.ok){console.warn('  Warning '+feed.name+': HTTP '+res.status);continue;}const xml=await res.text();const items=xml.match(/<item>[\s\S]*?<\/item>/gi)||[];for(const item of items.slice(0,8)){const t=item.match(/<title[^>]*>([\s\S]*?)<\/title>/i);const d=item.match(/<description[^>]*>([\s\S]*?)<\/description>/i);const l=item.match(/<link[^>]*>([\s\S]*?)<\/link>/i);const p=item.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i);if(!t)continue;const title=t[1].replace(/<[^>]+>/g,'').replace(/<!\[CDATA\[|\]\]>/g,'').trim();const desc=d?d[1].replace(/<[^>]+>/g,'').replace(/<!\[CDATA\[|\]\]>/g,'').trim():'';const link=l?l[1].replace(/<[^>]+>/g,'').trim():'';const pubDate=p?new Date(p[1].replace(/<[^>]+>/g,'').trim()).toISOString():new Date().toISOString();results.push({title,url:link,description:desc.slice(0,400),pubDate,source:feed.name,category:feed.cat});}console.log('  OK '+feed.name+': '+Math.min(items.length,8)+' stories');}catch(e){console.warn('  Warn '+feed.name+': '+e.message);}await new Promise(r=>setTimeout(r,300));}return results;}
+  const results = [];
+  const feeds = [
+    {name:'The Debrief',            url:'https://thedebrief.org/feed/',                                    cat:'Unexplained'},
+    {name:'The Debrief UAP',        url:'https://thedebrief.org/category/uap/feed/',                       cat:'Unexplained'},
+    {name:'The Debrief Science',    url:'https://thedebrief.org/category/science/feed/',          cat:'Unexplained'},
+    {name:'The Black Vault',        url:'https://www.theblackvault.com/documentarchive/feed/',             cat:'Unexplained'},
+    {name:'Liberation Times',       url:'https://www.liberationtimes.com/home?format=rss',                 cat:'Unexplained'},
+    {name:'Open Minds UFO',         url:'https://www.openminds.tv/feed',                                   cat:'Unexplained'},
+    {name:'Anomalien',              url:'https://anomalien.com/feed/',                                     cat:'Unexplained'},
+    {name:'Graham Hancock',          url:'https://grahamhancock.com/feed/',                                cat:'Unexplained'},
+    {name:'New Dawn Magazine',        url:'https://www.newdawnmagazine.com/feed',                           cat:'Unexplained'},
+    {name:'Unknown Country',               url:'https://unknowncountry.com/feed/',                                   cat:'Unexplained'},
+    {name:'Consciousness & IONS',   url:'https://noetic.org/feed/',                                        cat:'Unexplained'},
+    {name:'MUFON News',             url:'https://mufon.com/feed/',                                         cat:'Unexplained'},
+  ];
+  for (const feed of feeds) {
+    try {
+      console.log('  Fetching ' + feed.name + '...');
+      const res = await fetchWithTimeout(feed.url, {}, 10000);
+      if (!res.ok) { console.warn('  Warning ' + feed.name + ': HTTP ' + res.status); continue; }
+      const xml = await res.text();
+      const items = xml.match(/<item>[\s\S]*?<\/item>/gi) ||
+                    xml.match(/<entry>[\s\S]*?<\/entry>/gi) || [];
+      for (const item of items.slice(0, 6)) {
+        const t = item.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+        const d = item.match(/<description[^>]*>([\s\S]*?)<\/description>/i);
+        const l = item.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+        const p = item.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i);
+        if (!t) continue;
+        const title = t[1].replace(/<[^>]+>/g,'').replace(/<!\[CDATA\[|\]\]>/g,'').trim();
+        const desc  = d ? d[1].replace(/<[^>]+>/g,'').replace(/<!\[CDATA\[|\]\]>/g,'').trim() : '';
+        const link  = l ? l[1].replace(/<[^>]+>/g,'').trim() : '';
+        const pubDate = p ? new Date(p[1].replace(/<[^>]+>/g,'').trim()).toISOString() : new Date().toISOString();
+        results.push({title, url:link, description:desc.slice(0,400), pubDate, source:feed.name, category:feed.cat});
+      }
+      console.log('  OK ' + feed.name + ': ' + Math.min(items.length,6) + ' stories');
+    } catch(e) {
+      console.warn('  Warn ' + feed.name + ': ' + e.message);
+    }
+    await new Promise(r => setTimeout(r, 200));
+  }
+  return results;
+}
 
 async function fetchArticleContent(url) {
   try {
@@ -1782,6 +1823,7 @@ async function runScrape() {
 
   // 0. Google News RSS (high-quality mainstream headlines for context + contrarian takes)
   allTopics.push(...await fetchGoogleNewsRSS());
+  allTopics.push(...await fetchUnexplainedFeeds());
   await sleep(500);
 
   // 1. Hacker News (privacy/surveillance/censorship filtered)
@@ -1828,7 +1870,6 @@ async function runScrape() {
   allTopics.push(...await fetchTheMarkup());
   allTopics.push(...await fetchPodcastSignals());
   allTopics.push(...await fetchPressReleaseFeeds());
-  allTopics.push(...await fetchUnexplainedFeeds());
   await sleep(500);
 
   console.log(`\n📊 Raw stories collected: ${allTopics.length}`);
