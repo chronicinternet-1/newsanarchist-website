@@ -2330,6 +2330,21 @@ const JUNK_TITLE_PATTERNS = [
   /^chat control$/i,
   /^\[deleted\]/i,
   /^\[removed\]/i,
+  /^any (non|good|bad|free|cheap|easy|quick|simple|safe)/i,
+  /^any (privacy|secure|open|alternative)/i,
+  /^anyone (know|have|tried|using|recommend)/i,
+  /^can (i|you|we|someone)/i,
+  /^should (i|we|you)/i,
+  /^looking for/i,
+  /^need (help|advice|recommendation)/i,
+  /^psa:/i,
+  /^rant:/i,
+  /^eli5/i,
+  /^til /i,
+  /^update:/i,
+  /^help:/i,
+  /ways to view/i,
+  /destroying ways/i,
   // Low quality / router / self-hosting noise
   /new router setup/i,
   /how to delete/i,
@@ -2424,6 +2439,11 @@ function rebuildIndexHTML(allArticles) {
     /^has anyone/i, /^anyone else/i, /^just (found|got|saw|noticed)/i,
     /^daily (discussion|crypto|thread)/i, /submitted by/i,
     /\?\?\?/, /^chat control$/i,
+    /^any (non|good|bad|free|cheap|easy|quick|simple|safe)/i,
+    /^can (i|you|we|someone)/i, /^should (i|we|you)/i,
+    /^looking for/i, /ways to view/i, /destroying ways/i,
+    /^need (help|advice)/i, /^psa:/i, /^rant:/i, /^til /i,
+    /^any\b/i,
   ];
   const heroPool = articlesWithImages.filter(a => {
     const t = (a.title || '').trim();
