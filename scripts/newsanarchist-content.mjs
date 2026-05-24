@@ -2244,10 +2244,37 @@ async function runGenerate() {
               if (!sharedKws.length) continue;
               const anchor = sharedKws[0];
               const esc = anchor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-              const rx = new RegExp(`(<p[^>]*>(?:[^<]|<(?!\/p>))*?)\\b(${esc})\\b`, 'i');
-              const before = injected;
-              injected = injected.replace(rx, `$1<a href="/articles/${rel.slug}.html" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">$2</a>`);
-              if (injected !== before) linkCount++;
+              // Only inject into plain paragraph text — never inside existing <a> tags
+              const paragraphs = injected.split(/(<p[^>]*>[\s\S]*?<\/p>)/);
+              let didInject = false;
+              for (let pi = 0; pi < paragraphs.length; pi++) {
+                const seg = paragraphs[pi];
+                if (!seg.startsWith('<p')) continue;
+                // Skip if segment already contains a link to this article
+                if (seg.includes(`href="/articles/${rel.slug}.html"`)) continue;
+                // Strip existing anchor tags to find plain text positions
+                const plainText = seg.replace(/<a[^>]*>[\s\S]*?<\/a>/g, m => ' '.repeat(m.length));
+                const rxPlain = new RegExp(`\\b(${esc})\\b`, 'i');
+                const pm = plainText.match(rxPlain);
+                if (pm) {
+                  const idx = pm.index;
+                  // Verify same position in original is not inside an <a> tag
+                  const before80 = seg.slice(0, idx);
+                  const openAs = (before80.match(/<a /g) || []).length;
+                  const closeAs = (before80.match(/<\/a>/g) || []).length;
+                  if (openAs > closeAs) continue; // inside an anchor — skip
+                  paragraphs[pi] = seg.slice(0, idx) +
+                    `<a href="/articles/${rel.slug}.html" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">` +
+                    seg.slice(idx, idx + pm[0].length) + '</a>' +
+                    seg.slice(idx + pm[0].length);
+                  didInject = true;
+                  break;
+                }
+              }
+              if (didInject) {
+                injected = paragraphs.join('');
+                linkCount++;
+              }
             }
             if (linkCount > 0) {
               fs.writeFileSync(filepath, injected);
