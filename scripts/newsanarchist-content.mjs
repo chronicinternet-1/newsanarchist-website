@@ -891,7 +891,6 @@ function buildArticleHTML(topic) {
 <title>${seoTitle} — NewsAnarchist</title>
 <meta name="description" content="${metaDesc.replace(/"/g, '&quot;')}">
 <meta name="keywords" content="${keywordsStr}">
-<meta name="robots" content="index, follow">
 <link rel="icon" href="/images/favicon.ico">
 <link rel="canonical" href="${articleUrl}">
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
