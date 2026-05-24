@@ -2378,9 +2378,25 @@ function rebuildIndexHTML(allArticles) {
     return `<div class="vf-feat">${img}<div class="vf-body"><div class="vc-cat">${a.category||''}</div><h3 class="vf-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
-  const h0 = articlesWithImages[0] || articles[0];
-  const h1 = articlesWithImages[1] || articles[1];
-  const h2 = articlesWithImages[2] || articles[2];
+  // Filter hero candidates — exclude Reddit questions, low-quality titles
+  const HERO_JUNK = [
+    /^to what extent/i, /^what (is|are|do|does|did|should|would|can|could)/i,
+    /^how (do|does|did|can|should|would)/i, /^why (is|are|do|does)/i,
+    /^is (it|this|there|a|the)/i, /^am i/i, /^does anyone/i,
+    /^has anyone/i, /^anyone else/i, /^just (found|got|saw|noticed)/i,
+    /^daily (discussion|crypto|thread)/i, /submitted by/i,
+    /\?\?\?/, /^chat control$/i,
+  ];
+  const heroPool = articlesWithImages.filter(a => {
+    const t = (a.title || '').trim();
+    if (t.length < 20) return false;
+    if (HERO_JUNK.some(p => p.test(t))) return false;
+    if ((a.source || '').toLowerCase().includes('reddit')) return false;
+    return true;
+  });
+  const h0 = heroPool[0] || articlesWithImages[0] || articles[0];
+  const h1 = heroPool[1] || articlesWithImages[1] || articles[1];
+  const h2 = heroPool[2] || articlesWithImages[2] || articles[2];
 
   let catSections = '';
   for (const cat of CATEGORIES) {
