@@ -805,7 +805,7 @@ function buildArticleHTML(topic) {
   const articleUrl = `${SITE_URL}/articles/${slug}`;
 
   const seoTitle = buildSeoTitle(title);
-  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim().replace(/^[#\s]+/,'').replace(/#[\w-]+/g,'').trim();
+  const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim().replace(/^[#\s]+/,'').replace(/#[\w-]*/g,'').replace(/\s+/g,' ').trim();
   const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : `<p class="article-dek">${rawSubhead}</p>`;
   const articleBody = buildArticleBody(topic);
   const readTime = estimateReadTime(articleBody + ' '.repeat(100));
