@@ -1,61 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Buried Week — NewsAnarchist</title>
-  <meta name="description" content="The Buried Week: NewsAnarchist's Friday roundup of the stories the press buried, spiked, or spun.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://newsanarchist.com/buried-week.html">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/style-fix-v2.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>The Buried Week — NewsAnarchist</title>
+<meta name="description" content="NewsAnarchist's weekly Friday roundup of the stories buried, spiked, or spun by the mainstream press.">
+<link rel="canonical" href="https://newsanarchist.com/buried-week.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
+.na-page{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.bw-hero{background:#fff;border:1px solid #E5E3DE;padding:32px;margin-bottom:24px;border-top:3px solid #E11D48}
+.bw-hero-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:8px}
+.bw-hero-title{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:12px;line-height:1.1}
+.bw-hero-desc{font-family:'Source Serif 4',serif;font-size:15px;color:#444;line-height:1.7;margin-bottom:16px}
+.bw-editions-head{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:16px}
+.bw-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:600px){.bw-grid{grid-template-columns:repeat(2,1fr)}}
+.bw-card{background:#fff;border:1px solid #E5E3DE;padding:20px}
+.bw-card-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#E11D48;margin-bottom:6px}
+.bw-card-hed{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;color:#111;margin-bottom:6px;line-height:1.2}
+.bw-card-hed a{color:#111}.bw-card-hed a:hover{color:#E11D48}
+.bw-card-by{font-size:11px;color:#999;margin-bottom:12px}
+.bw-card-btn{font-size:11px;font-weight:700;color:#E11D48;letter-spacing:.04em}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}
+.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
+.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333;text-decoration:none}
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="site-logo">
-        <div class="logo-icon">N</div>
-        <span class="logo-text">News<span>Anarchist</span></span>
-      </a>
-      <nav class="main-nav" id="mainNav">
-        <a href="/category/surveillance-state.html">Surveillance State</a>
-        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
-        <a href="/category/government-secrets.html">Government Secrets</a>
-        <a href="/category/tech-privacy.html">Tech &amp; Privacy</a>
-        <a href="/category/global-power.html">Global Power</a>
-        <a href="/category/money-markets.html">Money &amp; Markets</a>
-        <a href="/category/unexplained.html">Unexplained</a>
-        <a href="/category/true-crime.html">True Crime</a>
-        <a href="/trending.html">Trending</a>
-      </nav>
-      <div class="header-cta">
-        <button class="btn-subscribe" onclick="window.location='/subscribe.html'">Subscribe Free</button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
-  <div style="max-width:720px;margin:0 auto;padding:48px 24px 80px;">
-    <div style="font-size:0.75rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;">&#9656; Franchise</div>
-    <h1 style="font-size:2.4rem;font-weight:800;margin-bottom:8px;">The Buried Week</h1>
-    <p style="color:#666;font-size:1rem;margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid #e5e5e5;">Every Friday. The stories they buried, spiked, or spun — with the deadpan they deserve.</p>
-    <ul style="list-style:none;padding:0;margin:0;">
-      <li><a href="/buried-week/2026-05-23.html" style="color:#dc2626;font-weight:600;">May 22, 2026</a> — The Buried Week</li>
-<li><a href="/buried-week/2026-05-18.html" style="color:#dc2626;font-weight:600;">May 17, 2026</a> — The Buried Week</li>
-    </ul>
-  </div>
-  <footer class="site-footer">
-    <div class="footer-bottom">
-      <span>&copy; 2026 NewsAnarchist. Facts first.</span>
-    </div>
-  </footer>
-  <script src="/js/main.js"></script>
+<div class="na-mast"><div class="na-mast-inner">
+<div><div class="na-wm"><a href="/" style="color:inherit">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<div><button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button></div>
+</div></div>
+<nav class="na-nav"><div class="na-nav-inner">
+<a href="/">Home</a><a href="/category/surveillance-state.html">Surveillance State</a><a href="/category/corporate-watchdog.html">Corporate Watchdog</a><a href="/category/government-secrets.html">Government Secrets</a><a href="/category/tech-privacy.html">Tech & Privacy</a><a href="/category/global-power.html">Global Power</a><a href="/category/money-markets.html">Money & Markets</a><a href="/category/unexplained.html">Unexplained</a><a href="/category/true-crime.html">True Crime</a><a href="/trending.html">Trending</a><a href="/buried-week.html" class="active">The Buried Week</a>
+</div></nav>
+<div class="na-page">
+<div class="bw-hero">
+<div class="bw-hero-label">▶ Weekly Franchise</div>
+<h1 class="bw-hero-title">The Buried Week</h1>
+<p class="bw-hero-desc">Every Friday, a rotating NewsAnarchist correspondent rounds up the stories the mainstream press buried, spiked, or spun — with deadpan commentary, named institutions, and zero hedging.</p>
+<a href="https://newsanarchist.substack.com" style="display:inline-block;background:#E11D48;color:#fff;padding:9px 18px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Subscribe Free →</a>
+</div>
+<div class="bw-editions-head">All Editions</div>
+<div class="bw-grid">
+<div class="bw-card">
+<div class="bw-card-label">The Buried Week</div>
+<h2 class="bw-card-hed"><a href="/buried-week/2026-05-23.html">The Buried Week — 2026-05-23</a></h2>
+<div class="bw-card-by">By NewsAnarchist</div>
+<a href="/buried-week/2026-05-23.html" class="bw-card-btn">Read this edition →</a>
+</div>
+<div class="bw-card">
+<div class="bw-card-label">The Buried Week</div>
+<h2 class="bw-card-hed"><a href="/buried-week/2026-05-18.html">The Buried Week — 2026-05-18</a></h2>
+<div class="bw-card-by">By NewsAnarchist</div>
+<a href="/buried-week/2026-05-18.html" class="bw-card-btn">Read this edition →</a>
+</div></div>
+</div>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news.</div>
+<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe →</a>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a></div>
+<div><div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a></div>
+<div><div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<div class="na-fdiv"><div class="na-fct">Categories</div><a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a><a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a><a href="/category/government-secrets.html" class="na-flink">Government Secrets</a><a href="/category/tech-privacy.html" class="na-flink">Tech & Privacy</a></div></div>
+<div><div class="na-fct">More Categories</div><a href="/category/global-power.html" class="na-flink">Global Power</a><a href="/category/money-markets.html" class="na-flink">Money & Markets</a><a href="/category/unexplained.html" class="na-flink">Unexplained</a><a href="/category/true-crime.html" class="na-flink">True Crime</a>
+<div class="na-fdiv"><div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a></div></div>
+</div>
+<div class="na-fbot"><div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
+</footer>
 </body>
 </html>
