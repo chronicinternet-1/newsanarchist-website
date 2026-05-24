@@ -14,7 +14,7 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
 .na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}.na-wm em{color:#E11D48;font-style:normal}
@@ -22,53 +22,65 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
 .na-nav-inner a:hover{color:#fff}
-.sub-page{max-width:900px;margin:0 auto;padding:40px 16px 64px}
+.sub-page{max-width:940px;margin:0 auto;padding:40px 16px 64px}
 .sub-hero{text-align:center;margin-bottom:40px}
-.sub-hero-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:10px}
-.sub-hero-title{font-family:'Syne',sans-serif;font-size:36px;font-weight:800;color:#111;margin-bottom:12px;line-height:1.1}
-.sub-hero-desc{font-family:'Source Serif 4',serif;font-size:16px;color:#555;line-height:1.7;max-width:600px;margin:0 auto}
-.sub-plans{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:40px}
-@media(min-width:640px){.sub-plans{grid-template-columns:repeat(3,1fr)}}
-.sub-plan{background:#fff;border:1px solid #E5E3DE;padding:24px;position:relative}
-.sub-plan.featured{border:2px solid #E11D48}
-.sub-plan-badge{position:absolute;top:-1px;left:50%;transform:translateX(-50%);background:#E11D48;color:#fff;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 12px;white-space:nowrap}
-.sub-plan-name{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;color:#111;margin-bottom:4px}
-.sub-plan-price{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin:12px 0 4px;line-height:1}
-.sub-plan-price span{font-size:14px;font-weight:400;color:#999}
-.sub-plan-alt{font-size:11px;color:#999;margin-bottom:16px}
-.sub-plan-desc{font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.6;margin-bottom:20px;min-height:60px}
-.sub-plan-features{list-style:none;margin-bottom:24px}
-.sub-plan-features li{font-size:12px;color:#444;padding:5px 0;border-bottom:.5px solid #F0EDE6;display:flex;align-items:flex-start;gap:8px}
-.sub-plan-features li:last-child{border-bottom:none}
-.sub-plan-features li::before{content:'✓';color:#E11D48;font-weight:700;flex-shrink:0}
-.sub-btn{display:block;width:100%;padding:12px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-align:center;cursor:pointer;border:none;font-family:'DM Sans',sans-serif}
-.sub-btn-primary{background:#E11D48;color:#fff}
-.sub-btn-primary:hover{background:#C01535}
-.sub-btn-secondary{background:#111;color:#fff}
-.sub-btn-secondary:hover{background:#333}
-.sub-btn-outline{background:#fff;color:#111;border:2px solid #111}
-.sub-btn-outline:hover{background:#111;color:#fff}
-.sub-free{background:#fff;border:1px solid #E5E3DE;padding:28px;margin-bottom:40px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+.sub-hero-label{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:10px}
+.sub-hero-title{font-family:'Syne',sans-serif;font-size:34px;font-weight:800;color:#111;margin-bottom:12px;line-height:1.1}
+.sub-hero-desc{font-size:15px;color:#555;line-height:1.7;max-width:580px;margin:0 auto;font-family:'Source Serif 4',serif}
+.sub-free{background:#fff;border:1px solid #E5E3DE;border-left:3px solid #111;padding:24px 28px;margin-bottom:32px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
 @media(max-width:600px){.sub-free{grid-template-columns:1fr}}
-.sub-free-title{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin-bottom:6px}
-.sub-free-desc{font-family:'Source Serif 4',serif;font-size:14px;color:#555;line-height:1.6}
+.sub-free-title{font-size:16px;font-weight:700;color:#111;margin-bottom:5px}
+.sub-free-desc{font-size:13px;color:#666;line-height:1.55}
 .sub-free-form{display:flex;gap:8px;flex-shrink:0}
-@media(max-width:600px){.sub-free-form{flex-direction:column}}
-.sub-free-input{padding:10px 14px;border:1px solid #E5E3DE;font-size:13px;font-family:'DM Sans',sans-serif;background:#F5F4F0;color:#111;width:220px}
-@media(max-width:600px){.sub-free-input{width:100%}}
-.sub-free-btn{padding:10px 20px;background:#111;color:#fff;border:none;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap}
-.sub-guarantee{text-align:center;font-size:12px;color:#999;margin-bottom:40px;font-family:'Source Serif 4',serif}
-.sub-faq{max-width:600px;margin:0 auto}
-.sub-faq-title{font-family:'Syne',sans-serif;font-size:18px;font-weight:700;color:#111;margin-bottom:20px;border-top:2px solid #111;padding-top:12px}
-.sub-faq-item{margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid #E5E3DE}
+@media(max-width:600px){.sub-free-form{flex-direction:column;margin-top:12px}}
+.sub-free-input{padding:10px 14px;border:1px solid #E5E3DE;font-size:13px;font-family:'DM Sans',sans-serif;background:#F5F4F0;color:#111}
+.sub-free-btn{padding:10px 20px;background:#111;color:#fff;border:none;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap}
+.sub-plans{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:16px}
+@media(min-width:640px){.sub-plans{grid-template-columns:repeat(3,1fr)}}
+.sub-plan{background:#fff;border:1px solid #E5E3DE;padding:24px;position:relative;display:flex;flex-direction:column}
+.sub-plan.featured{border:2px solid #E11D48}
+.sub-plan-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#E11D48;color:#fff;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 14px;white-space:nowrap}
+.sub-plan-name{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#999;margin-bottom:12px}
+.sub-plan-price{font-family:'Syne',sans-serif;font-size:36px;font-weight:800;color:#111;line-height:1;margin-bottom:4px}
+.sub-plan-price sup{font-size:18px;vertical-align:top;margin-top:6px}
+.sub-plan-price span{font-size:13px;font-weight:400;color:#999}
+.sub-plan-alt{font-size:11px;color:#999;margin-bottom:16px;min-height:16px}
+.sub-plan-desc{font-size:13px;color:#555;line-height:1.6;margin-bottom:16px;font-family:'Source Serif 4',serif;flex:1}
+.sub-plan-features{list-style:none;margin-bottom:20px}
+.sub-plan-features li{font-size:12px;color:#444;padding:5px 0;border-bottom:.5px solid #F0EDE6;display:flex;align-items:flex-start;gap:8px;line-height:1.4}
+.sub-plan-features li:last-child{border-bottom:none}
+.sub-plan-features li::before{content:'✓';color:#E11D48;font-weight:700;flex-shrink:0;font-size:11px;margin-top:1px}
+.sub-btn{display:block;width:100%;padding:12px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-align:center;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;margin-top:auto}
+.sub-btn-red{background:#E11D48;color:#fff}
+.sub-btn-red:hover{background:#C01535}
+.sub-btn-black{background:#111;color:#fff}
+.sub-btn-black:hover{background:#333}
+.sub-btn:disabled{opacity:.6;cursor:not-allowed}
+.sub-guarantee{text-align:center;font-size:11px;color:#999;margin-bottom:36px;padding:12px;border-top:1px solid #E5E3DE;border-bottom:1px solid #E5E3DE;background:#fff}
+.sub-faq{max-width:640px;margin:0 auto}
+.sub-faq-title{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#111;margin-bottom:20px;border-top:2px solid #111;padding-top:12px}
+.sub-faq-item{margin-bottom:0;padding:16px 0;border-bottom:1px solid #E5E3DE}
 .sub-faq-q{font-weight:700;font-size:14px;color:#111;margin-bottom:6px}
-.sub-faq-a{font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.6}
-.na-footer{background:#111;color:#888;margin-top:48px}
-.na-fbot{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
-.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333;text-decoration:none}
+.sub-faq-a{font-size:13px;color:#555;line-height:1.65;font-family:'Source Serif 4',serif}
+.sub-faq-a a{color:#E11D48;text-decoration:underline}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0;line-height:1.5}.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fext{display:flex;align-items:center;gap:6px;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}
+.na-fbadge{font-size:8px;background:#1A1A1A;color:#555;padding:1px 5px;letter-spacing:.06em;text-transform:uppercase}
+.na-fdiv{border-top:1px solid #1A1A1A;margin:12px 0;padding-top:12px}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333;text-decoration:none}.na-fchronic:hover{color:#888}
 </style>
 </head>
 <body>
+
 <div class="na-mast"><div class="na-mast-inner">
 <div><div class="na-wm"><a href="/" style="color:inherit">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
 </div></div>
@@ -90,7 +102,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
   <div class="sub-hero">
     <div class="sub-hero-label">Subscribe to NewsAnarchist</div>
     <h1 class="sub-hero-title">The stories buried, spiked, or spun.</h1>
-    <p class="sub-hero-desc">Independent investigative news with no corporate owners, no political affiliations, and no advertiser influence. Free daily briefing or paid membership for full access.</p>
+    <p class="sub-hero-desc">Independent investigative news. No corporate owners. No political affiliations. No advertiser influence. Free daily briefing or paid membership for full access.</p>
   </div>
 
   <div class="sub-free">
@@ -100,7 +112,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
     </div>
     <div class="sub-free-form">
       <input type="email" id="subFreeEmail" class="sub-free-input" placeholder="your@email.com">
-      <button class="sub-free-btn" onclick="submitFreeEmail()">Subscribe Free</button>
+      <button class="sub-free-btn" onclick="submitFreeEmail(event)">Subscribe Free</button>
     </div>
   </div>
 
@@ -108,113 +120,130 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 
     <div class="sub-plan">
       <div class="sub-plan-name">Member</div>
-      <div class="sub-plan-price">$8<span>/month</span></div>
-      <div class="sub-plan-alt">or $80/year — save 2 months</div>
-      <div class="sub-plan-desc">Full access to all NewsAnarchist investigations, analysis, and archive.</div>
+      <div class="sub-plan-price"><sup>$</sup>5<span>/month</span></div>
+      <div class="sub-plan-alt">or $49/year — save 2 months</div>
+      <p class="sub-plan-desc">Full access to all investigations, analysis, and the complete archive.</p>
       <ul class="sub-plan-features">
         <li>Full article archive — all 1,500+ stories</li>
         <li>Weekend deep-dive investigations</li>
         <li>The Buried Week every Friday</li>
         <li>Ad-free reading experience</li>
-        <li>Subscriber-only comments</li>
         <li>Cancel anytime</li>
       </ul>
-      <a href="https://newsanarchist.substack.com/subscribe" class="sub-btn sub-btn-primary">Subscribe on Substack →</a>
+      <button onclick="stripeCheckout('price_1TMJMuQW2rWjv9GlLMam5dS7', this)" class="sub-btn sub-btn-red">Subscribe $5/month →</button>
     </div>
 
     <div class="sub-plan featured">
-      <div class="sub-plan-badge">Most Popular</div>
+      <div class="sub-plan-badge">Best Value</div>
       <div class="sub-plan-name">Member Annual</div>
-      <div class="sub-plan-price">$80<span>/year</span></div>
-      <div class="sub-plan-alt">$6.67/month — best value</div>
-      <div class="sub-plan-desc">Everything in Member, billed annually. Save two months vs monthly.</div>
+      <div class="sub-plan-price"><sup>$</sup>49<span>/year</span></div>
+      <div class="sub-plan-alt">$4.08/month — save $11 vs monthly</div>
+      <p class="sub-plan-desc">Everything in Member, billed once a year. Locks in the founding price.</p>
       <ul class="sub-plan-features">
         <li>Everything in Member</li>
-        <li>Priority tip line access</li>
+        <li>Locks in founding-era pricing</li>
         <li>Quarterly reader AMA</li>
-        <li>Annual print digest (digital)</li>
+        <li>Priority tip line access</li>
         <li>Cancel anytime</li>
-        <li>Locks in founding price</li>
       </ul>
-      <a href="https://newsanarchist.substack.com/subscribe" class="sub-btn sub-btn-primary">Subscribe on Substack →</a>
+      <button onclick="stripeCheckout('price_1TMJQNQW2rWjv9GlTiwBL89t', this)" class="sub-btn sub-btn-red">Subscribe $49/year →</button>
     </div>
 
     <div class="sub-plan">
       <div class="sub-plan-name">Founding Underwriter</div>
-      <div class="sub-plan-price">$300<span>/year</span></div>
+      <div class="sub-plan-price"><sup>$</sup>300<span>/year</span></div>
       <div class="sub-plan-alt">For those who believe in the mission</div>
-      <div class="sub-plan-desc">For readers who want to sustain independent investigative journalism at the highest level.</div>
+      <p class="sub-plan-desc">Sustain independent investigative journalism at the highest level. For readers who want to make a real difference.</p>
       <ul class="sub-plan-features">
         <li>Everything in Member Annual</li>
         <li>Name in annual credits</li>
         <li>Two virtual roundtables/year</li>
         <li>Direct line to editorial team</li>
         <li>First access to investigations</li>
-        <li>Founding member status forever</li>
+        <li>Founding member status — forever</li>
       </ul>
-      <a href="https://newsanarchist.substack.com/subscribe" class="sub-btn sub-btn-secondary">Become a Founder →</a>
+      <button onclick="stripeCheckout('price_1TaQVlQW2rWjv9GlBY6qJfTg', this)" class="sub-btn sub-btn-black">Become a Founder →</button>
     </div>
 
   </div>
 
   <div class="sub-guarantee">
-    🔒 Secure payment via Substack · Cancel anytime · No questions asked refund within 7 days
+    🔒 &nbsp; Secure payment via Stripe &nbsp;·&nbsp; Cancel anytime &nbsp;·&nbsp; 7-day refund — no questions asked
   </div>
 
   <div class="sub-faq">
     <div class="sub-faq-title">Frequently Asked Questions</div>
     <div class="sub-faq-item">
       <div class="sub-faq-q">What do I get with a free subscription?</div>
-      <div class="sub-faq-a">The daily briefing email, access to all articles on the site for the first 24 hours after publication, and The Buried Week every Friday.</div>
+      <div class="sub-faq-a">The daily briefing email and access to all articles on the site. Free subscribers see everything — no paywalled content.</div>
+    </div>
+    <div class="sub-faq-item">
+      <div class="sub-faq-q">What's the difference between paid and free?</div>
+      <div class="sub-faq-a">Paid members support independent journalism directly, get ad-free reading, access to subscriber AMAs, and lock in founding-era pricing before we raise rates.</div>
     </div>
     <div class="sub-faq-item">
       <div class="sub-faq-q">Who writes NewsAnarchist?</div>
-      <div class="sub-faq-a">Six named editorial personas — Marcus Webb, Elena Vasquez, Jordan Calloway, Diana Reeves, Sam Okafor, and Casey North — each covering a specific beat under human editorial oversight. <a href="/about-our-authors.html" style="color:#E11D48">Read our full disclosure.</a></div>
+      <div class="sub-faq-a">Six named editorial personas — Marcus Webb, Elena Vasquez, Jordan Calloway, Diana Reeves, Sam Okafor, and Casey North — each covering a specific beat under human editorial oversight by publisher Steve Ysreal Monas. <a href="/about-our-authors.html">Read our full disclosure.</a></div>
     </div>
     <div class="sub-faq-item">
       <div class="sub-faq-q">Can I cancel anytime?</div>
-      <div class="sub-faq-a">Yes. Cancel anytime from your Substack account settings. No penalty, no questions asked.</div>
+      <div class="sub-faq-a">Yes. Cancel anytime from your account settings or by emailing <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a>. No penalty, no questions asked. Full refund within 7 days of any charge.</div>
     </div>
     <div class="sub-faq-item">
       <div class="sub-faq-q">Do you offer student or hardship discounts?</div>
-      <div class="sub-faq-a">Yes. Email <a href="mailto:steve@newsanarchist.com" style="color:#E11D48">steve@newsanarchist.com</a> with "Comp Request" in the subject line. We comp students, government accountability workers, and the recently laid off.</div>
+      <div class="sub-faq-a">Yes. Email <a href="mailto:zeno@newsanarchist.com">zeno@newsanarchist.com</a> with "Comp Request" in the subject line. We comp students, government accountability workers, and the recently laid off.</div>
     </div>
     <div class="sub-faq-item">
-      <div class="sub-faq-q">Is there a direct Stripe payment option?</div>
-      <div class="sub-faq-a">Yes — $5/month or $49/year direct via Stripe. <a href="#stripe-direct" style="color:#E11D48">See below.</a></div>
+      <div class="sub-faq-q">How is payment processed?</div>
+      <div class="sub-faq-a">All payments are processed securely by Stripe. NewsAnarchist never sees or stores your credit card details. You can manage your subscription at any time via the Stripe customer portal.</div>
     </div>
-  </div>
-
-  <div id="stripe-direct" style="margin-top:40px;background:#fff;border:1px solid #E5E3DE;padding:28px;max-width:600px;margin-left:auto;margin-right:auto">
-    <div style="font-family:'Syne',sans-serif;font-size:18px;font-weight:700;color:#111;margin-bottom:8px">Direct Stripe Subscription</div>
-    <div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.6;margin-bottom:20px">Pay directly via Stripe. Same access as Substack Member tier.</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-      <button onclick="stripeCheckout('price_1TMJMuQW2rWjv9GlLMam5dS7')" class="sub-btn sub-btn-outline" style="padding:14px">
-        <div style="font-size:18px;font-weight:800;font-family:'Syne',sans-serif">$5<span style="font-size:12px;font-weight:400">/mo</span></div>
-        <div style="font-size:10px;margin-top:4px">Monthly</div>
-      </button>
-      <button onclick="stripeCheckout('price_1TMJQNQW2rWjv9GlTiwBL89t')" class="sub-btn sub-btn-outline" style="padding:14px">
-        <div style="font-size:18px;font-weight:800;font-family:'Syne',sans-serif">$49<span style="font-size:12px;font-weight:400">/yr</span></div>
-        <div style="font-size:10px;margin-top:4px">Annual — save 2 months</div>
-      </button>
-    </div>
-    <div style="font-size:10px;color:#999;margin-top:12px;text-align:center">Secure payment via Stripe · Cancel anytime</div>
   </div>
 
 </div>
 
 <footer class="na-footer">
-<div class="na-fbot">
-<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div>
-<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+<div class="na-fgrid">
+<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/about-our-authors.html" class="na-flink">About Our Authors</a></div>
+<div><div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
+<div class="na-fdiv"><div class="na-fct">Books</div><a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a></div></div>
+<div><div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
+<div class="na-fdiv"><div class="na-fct">Categories</div>
+<a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a>
+<a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a>
+<a href="/category/government-secrets.html" class="na-flink">Government Secrets</a>
+<a href="/category/tech-privacy.html" class="na-flink">Tech &amp; Privacy</a>
+</div></div>
+<div><div class="na-fct">More Categories</div>
+<a href="/category/global-power.html" class="na-flink">Global Power</a>
+<a href="/category/money-markets.html" class="na-flink">Money &amp; Markets</a>
+<a href="/category/unexplained.html" class="na-flink">Unexplained</a>
+<a href="/category/true-crime.html" class="na-flink">True Crime</a>
+<div class="na-fdiv"><div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/rss" class="na-flink">RSS Feed</a>
+<div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
+</div></div>
 </div>
+<div class="na-fbot"><div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
 </footer>
 
 <script>
-async function submitFreeEmail() {
-  const email = document.getElementById('subFreeEmail').value;
+async function submitFreeEmail(e) {
+  const email = document.getElementById('subFreeEmail').value.trim();
   if (!email) return;
-  const btn = event.target;
+  const btn = e.target;
   btn.textContent = 'Subscribing...'; btn.disabled = true;
   try {
     const res = await fetch('https://brevo-subscribe.steve-5cb.workers.dev', {
@@ -222,23 +251,27 @@ async function submitFreeEmail() {
       body: JSON.stringify({email, source: 'newsanarchist-subscribe-page'})
     });
     const data = await res.json();
-    if (data.success) { btn.textContent = '✓ Subscribed!'; }
-    else { btn.textContent = 'Try again'; btn.disabled = false; }
+    btn.textContent = data.success ? '✓ Subscribed!' : 'Try again';
+    if (!data.success) btn.disabled = false;
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
 
-async function stripeCheckout(priceId) {
-  const btn = event.target.closest('button');
+async function stripeCheckout(priceId, btn) {
+  const originalText = btn.textContent;
   btn.textContent = 'Loading...'; btn.disabled = true;
   try {
     const res = await fetch('https://stripe-checkout.steve-5cb.workers.dev', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({priceId, successUrl: 'https://newsanarchist.com/subscribe-success.html', cancelUrl: 'https://newsanarchist.com/subscribe.html'})
+      body: JSON.stringify({
+        priceId,
+        successUrl: 'https://newsanarchist.com/subscribe-success.html',
+        cancelUrl: 'https://newsanarchist.com/subscribe.html'
+      })
     });
     const data = await res.json();
     if (data.url) { window.location.href = data.url; }
-    else { btn.textContent = 'Try again'; btn.disabled = false; }
-  } catch(err) { btn.textContent = 'Error — try again'; btn.disabled = false; }
+    else { btn.textContent = originalText; btn.disabled = false; alert('Payment error — please try again or email zeno@newsanarchist.com'); }
+  } catch(err) { btn.textContent = originalText; btn.disabled = false; }
 }
 </script>
 </body>
