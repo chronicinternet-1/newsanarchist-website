@@ -615,7 +615,14 @@ function buildArticleBody(topic) {
   const storyContent = hasTake ? rawContent.split(takeSeparator)[0].trim() : rawContent;
   const takeContent = hasTake ? rawContent.split(takeSeparator)[1].trim() : '';
 
-  const cleanContent = stripHtml(storyContent).replace(/\s+/g, ' ').trim();
+  const cleanContent = stripHtml(storyContent)
+    .replace(/#\s*\[[^\]]+\]\([^)]+\)/g, '')  // strip # [text](url) markdown links
+    .replace(/^#+\s*/gm, '')                        // strip leading # headers
+    .replace(/#[\w-]+/g, '')                        // strip #hashtags
+    .replace(/\*\*([^*]+)\*\*/g, '$1')           // strip **bold**
+    .replace(/\*([^*]+)\*/g, '$1')                 // strip *italic*
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')   // strip [text](url) → text
+    .replace(/\s+/g, ' ').trim();
   const sentences = cleanContent.split(/(?<=[.!?])\s+/).filter(s => s.length > 20);
 
   const intro = ensureCompleteSentence(sentences.slice(0, 3).join(' '));
@@ -633,7 +640,8 @@ function buildArticleBody(topic) {
     return t;
   }
 
-  const introText = intro || `${title} — a story the mainstream press hasn't given the attention it deserves.`;
+  const rawIntro = intro || `${title} — a story the mainstream press hasn't given the attention it deserves.`;
+  const introText = rawIntro.trimEnd().replace(/([^.!?])$/, '$1.');
   const catSlug = CATEGORY_SLUGS[category] || 'government-secrets';
   // Sidebar variables — self-contained, no dependency on rebuildHomepage scope
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
@@ -908,7 +916,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:24px;padding:24px 16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
@@ -995,8 +1003,7 @@ ${renderRelatedProducts(category)}
 <div class="na-wb">
 <div style="font-family:'Source Serif 4',serif;font-size:13px;color:#555;line-height:1.55;margin-bottom:12px">The stories buried, spiked, or spun. Every morning — free.</div>
 <form onsubmit="submitEmail(event)">
-<div class="cf-turnstile" data-sitekey="0x4AAAAAADVJs0w8w_ZovZgT" data-theme="light" style="margin:8px 0;"></div>
-          <input type="email" id="artEmailInput" class="na-einput" placeholder="your@email.com" required>
+<input type="email" id="artEmailInput" class="na-einput" placeholder="your@email.com" required>
 <button type="submit" class="na-ebtn">Subscribe Free</button>
 </form>
 <div class="na-unsub">Unsubscribe anytime.</div>
@@ -1009,7 +1016,7 @@ ${renderRelatedProducts(category)}
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
 <a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
@@ -2482,7 +2489,7 @@ a{color:inherit;text-decoration:none}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
 
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none}
 .na-nav-inner a.active{color:#fff;background:#E11D48}
 .na-nav-inner a:hover{color:#fff}
 .na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
@@ -2626,7 +2633,7 @@ ${featSection}
 <div>
 <div class="na-fwm">News<em>Anarchist</em></div>
 <div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
 <a href="/about.html" class="na-flink">About Us</a>
 <a href="/editorial.html" class="na-flink">Editorial Standards</a>
 <a href="/tip-line.html" class="na-flink">Tip Line</a>
@@ -2944,7 +2951,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
@@ -3019,7 +3026,7 @@ ${paginationHTML}
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
 <a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
@@ -3143,7 +3150,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
 .na-tick-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:3px 8px;flex-shrink:0}
@@ -3223,7 +3230,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="https://newsanarchist.substack.com" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
 <a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
