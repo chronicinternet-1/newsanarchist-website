@@ -2277,6 +2277,8 @@ async function runGenerate() {
               }
             }
             if (linkCount > 0) {
+              // Add marker so build-internal-links.mjs --inject skips this article
+              injected = injected.replace('class="na-article"', 'class="na-article" data-ilinked="1"');
               fs.writeFileSync(filepath, injected);
               console.log(`  🔗 Internal links: ${linkCount} injected into ${filename}`);
             }
