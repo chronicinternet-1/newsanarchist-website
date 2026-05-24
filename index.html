@@ -29,9 +29,9 @@ a{color:inherit;text-decoration:none}
 .na-mr{display:flex;align-items:center;gap:12px}
 .na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
+.na-nav{background:#111;overflow:hidden}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
 
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}
 .na-nav-inner a:hover{color:#fff}
 .na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
