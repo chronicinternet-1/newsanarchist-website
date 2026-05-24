@@ -1898,8 +1898,16 @@ async function runScrape() {
 
   console.log(`\n📊 Raw stories collected: ${allTopics.length}`);
 
-  // Categorize all topics
+  // Categorize all topics — preserve category from trusted feeds
+  const TRUSTED_CATEGORY_SOURCES = new Set([
+    'The Debrief','The Debrief UAP','The Debrief Science',
+    'The Black Vault','Liberation Times','Open Minds UFO',
+    'Anomalien','Graham Hancock','New Dawn Magazine',
+    'Unknown Country','Consciousness & IONS','MUFON News'
+  ]);
   for (const topic of allTopics) {
+    // If from a trusted feed with a pre-set category, keep it
+    if (topic.category && TRUSTED_CATEGORY_SOURCES.has(topic.source)) continue;
     topic.category = detectCategory(topic.title, topic.description);
   }
 
