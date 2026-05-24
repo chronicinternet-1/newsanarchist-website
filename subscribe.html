@@ -130,7 +130,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
         <li>Ad-free reading experience</li>
         <li>Cancel anytime</li>
       </ul>
-      <button onclick="stripeCheckout('price_1TMJMuQW2rWjv9GlLMam5dS7', this)" class="sub-btn sub-btn-red">Subscribe $5/month →</button>
+      <button onclick="stripeCheckout('na-premium-monthly', this)" class="sub-btn sub-btn-red">Subscribe $5/month →</button>
     </div>
 
     <div class="sub-plan featured">
@@ -146,7 +146,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
         <li>Priority tip line access</li>
         <li>Cancel anytime</li>
       </ul>
-      <button onclick="stripeCheckout('price_1TMJQNQW2rWjv9GlTiwBL89t', this)" class="sub-btn sub-btn-red">Subscribe $49/year →</button>
+      <button onclick="stripeCheckout('na-premium-yearly', this)" class="sub-btn sub-btn-red">Subscribe $49/year →</button>
     </div>
 
     <div class="sub-plan">
@@ -162,7 +162,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
         <li>First access to investigations</li>
         <li>Founding member status — forever</li>
       </ul>
-      <button onclick="stripeCheckout('price_1TaQVlQW2rWjv9GlBY6qJfTg', this)" class="sub-btn sub-btn-black">Become a Founder →</button>
+      <button onclick="stripeCheckout('na-founding', this)" class="sub-btn sub-btn-black">Become a Founder →</button>
     </div>
 
   </div>
@@ -256,17 +256,13 @@ async function submitFreeEmail(e) {
   } catch(err) { btn.textContent = 'Try again'; btn.disabled = false; }
 }
 
-async function stripeCheckout(priceId, btn) {
+async function stripeCheckout(product, btn) {
   const originalText = btn.textContent;
   btn.textContent = 'Loading...'; btn.disabled = true;
   try {
-    const res = await fetch('https://stripe-checkout.steve-5cb.workers.dev', {
+    const res = await fetch('https://stripe-checkout.steve-5cb.workers.dev/checkout', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        priceId,
-        successUrl: 'https://newsanarchist.com/subscribe-success.html',
-        cancelUrl: 'https://newsanarchist.com/subscribe.html'
-      })
+      body: JSON.stringify({ product })
     });
     const data = await res.json();
     if (data.url) { window.location.href = data.url; }
