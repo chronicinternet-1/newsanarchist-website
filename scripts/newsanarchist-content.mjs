@@ -2188,12 +2188,12 @@ function remapArticleCategory(article) {
     return 'Tech & Privacy';
   if (/nyc|new york city|mayor|governor|commie|communist|socialist|marxist|legislation|city council|city hall|executive order|municipal|borough|alderman/.test(text))
     return 'Government Secrets';
-  if (/ufo|uap|unidentified aerial|alien|paranormal|skinwalker|anomalous phenomenon|uap sighting|extraterrestrial|non.human|recovered craft|abduction|roswell|area 51/.test(text))
+  if (/nato|china|russia|iran|middle east|ukraine|israel|gaza|taiwan|north korea|global|geopolit|troops|sanctions|diplomacy|proxy war|refinery|oil supply|energy crisis|pipeline|opec|petrodollar/.test(text))
+    return 'Global Power';
+  if (/ufo|uap|unidentified aerial|non.human intelligence|recovered craft|paranormal|skinwalker|anomalous phenomenon|uap sighting|extraterrestrial|abduction|roswell|area 51|consciousness research|nde |near.death experience/.test(text))
     return 'Unexplained';
   if (/murder|crime|serial killer|fraud|arrest|indicted|convicted|drug cartel|trafficking|corruption|bribery|scandal|embezzle/.test(text))
     return 'True Crime';
-  if (/nato|china|russia|iran|middle east|ukraine|israel|gaza|taiwan|north korea|global|geopolit|troops|sanctions|diplomacy|war/.test(text))
-    return 'Global Power';
 
   // Generic category fallbacks
   if (rawCat.toLowerCase() === 'politics') return 'Government Secrets';
