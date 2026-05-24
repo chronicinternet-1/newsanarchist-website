@@ -2028,8 +2028,49 @@ async function generateAIArticle(topic) {
   };
   const voiceInstruction = authorVoices[author.name] || authorVoices['NewsAnarchist Desk'];
 
+  // Load editorial brief — try local file first, then Cloudflare Worker
+  let briefContext = '';
+  try {
+    let brief = null;
+    const briefPath = process.env.HOME + '/.openclaw/workspace/scripts/editorial-brief.json';
+    if (fs.existsSync(briefPath)) {
+      brief = JSON.parse(fs.readFileSync(briefPath, 'utf8'));
+    } else {
+      // Fetch from Cloudflare Worker KV
+      try {
+        const r = await fetch('https://na-analytics-brief.steve-5cb.workers.dev/brief', {signal: AbortSignal.timeout(5000)});
+        if (r.ok) {
+          brief = await r.json();
+          // Cache locally for this session
+          fs.writeFileSync(briefPath, JSON.stringify(brief));
+        }
+      } catch(fe) { /* Worker unavailable — continue without brief */ }
+    }
+    if (brief) {
+      const authorRec = brief.author_recommendations?.[author.name];
+      const topCountries = brief.summary?.top_countries?.slice(0,3).join(', ') || 'US';
+      const topCat = brief.summary?.top_category || '';
+      const catPerf = brief.category_performance?.find(c => c.category === category);
+      const catViews = catPerf ? catPerf.pageviews : 0;
+      const topStories = (brief.top_stories || []).slice(0,3).map(s => s.title).join(' | ');
+      if (authorRec) {
+        briefContext = `
+EDITORIAL INTELLIGENCE (yesterday's performance data):
+- Top reader countries: ${topCountries}
+- Your beat (${category}) got ${catViews} pageviews yesterday
+- Top performing category yesterday: ${topCat}
+- Yesterday's most-read stories: ${topStories}
+- Geo note: ${authorRec.geo_note || ''}
+- Editorial guidance for your voice:
+${(authorRec.guidance || []).map(g => '  * ' + g).join('\n')}
+Use this data to angle your story toward what's resonating with readers.
+`;
+      }
+    }
+  } catch(e) { /* brief not available — continue without it */ }
+
   const prompt = `You are ${author.name}, ${author.credential}, writing for NewsAnarchist.com.
-${voiceInstruction}
+${voiceInstruction}${briefContext}
 
 HEADLINE: ${title}
 CATEGORY: ${category}
