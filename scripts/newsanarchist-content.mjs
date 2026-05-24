@@ -2196,6 +2196,68 @@ async function runGenerate() {
       const filename = `${topic.slug}.html`;
       const filepath = path.join(ARTICLES_DIR, filename);
       fs.writeFileSync(filepath, html);
+
+      // ── Internal link injection ──────────────────────────────────────────
+      try {
+        const ilIndexPath = path.join(path.dirname(new URL(import.meta.url).pathname), '../scripts/internal-link-index.json');
+        if (fs.existsSync(ilIndexPath)) {
+          const ilIndex = JSON.parse(fs.readFileSync(ilIndexPath, 'utf-8'));
+          const currentSlug = topic.slug;
+          // Use topic keywords directly — new article won't be in index yet
+          const ilStopWords = new Set(['the','a','an','and','or','but','in','on','at','to','for',
+            'of','with','by','from','up','about','into','through','during','is','are','was',
+            'were','be','been','being','have','has','had','do','does','did','will','would',
+            'could','should','may','might','shall','can','that','this','these','those','it',
+            'its','they','them','their','we','our','you','your','he','she','his','her','who',
+            'which','what','when','where','how','why','not','no','said','says','news','year',
+            'years','first','last','also','after','before','during','people','costs','drive',
+            'room','amid','rout','elephant','interest','over','under','just','very','such']);
+          const topicText = [
+            topic.title || '',
+            topic.description || '',
+            (topic.keywords || []).join(' ')
+          ].join(' ').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)
+            .filter(w => w.length > 5 && !ilStopWords.has(w));
+          const currentKws = new Set(ilIndex[currentSlug]?.keywords?.length > 3
+            ? ilIndex[currentSlug].keywords
+            : topicText);
+          if (currentKws.size > 0) {
+            // Score all other articles by keyword overlap
+            const scores = {};
+            for (const [slug, data] of Object.entries(ilIndex)) {
+              if (slug === currentSlug) continue;
+              const overlap = data.keywords.filter(k => currentKws.has(k)).length;
+              if (overlap < 1) continue;
+              scores[slug] = overlap + (data.category === topic.category ? 2 : 0);
+            }
+            const related = Object.entries(scores)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 3)
+              .map(([s]) => ({ slug: s, ...ilIndex[s] }));
+
+            let injected = fs.readFileSync(filepath, 'utf-8');
+            let linkCount = 0;
+            for (const rel of related) {
+              if (linkCount >= 3) break;
+              if (injected.includes(`href="/articles/${rel.slug}.html"`)) continue;
+              const sharedKws = rel.keywords.filter(k => currentKws.has(k) && k.length > 5);
+              if (!sharedKws.length) continue;
+              const anchor = sharedKws[0];
+              const esc = anchor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              const rx = new RegExp(`(<p[^>]*>(?:[^<]|<(?!\/p>))*?)\\b(${esc})\\b`, 'i');
+              const before = injected;
+              injected = injected.replace(rx, `$1<a href="/articles/${rel.slug}.html" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">$2</a>`);
+              if (injected !== before) linkCount++;
+            }
+            if (linkCount > 0) {
+              fs.writeFileSync(filepath, injected);
+              console.log(`  🔗 Internal links: ${linkCount} injected into ${filename}`);
+            }
+          }
+        }
+      } catch(ilErr) { /* non-fatal */ }
+      // ────────────────────────────────────────────────────────────────────
+
       console.log(`  ✅ Generated: articles/${filename} [${topic.category}]`);
       generated.push({ ...topic, filename });
     } catch (e) {

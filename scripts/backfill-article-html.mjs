@@ -289,7 +289,7 @@ function buildShellHTML(article, extractedBody, sidebarTrendingHTML) {
 <title>${seoTitle} \u2014 NewsAnarchist</title>
 <meta name="description" content="${metaDesc.replace(/"/g, '&quot;')}">
 <meta name="keywords" content="${keywordsStr}">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="canonical" href="${articleUrl}">
 <link rel="alternate" type="application/rss+xml" title="NewsAnarchist RSS" href="/rss">
@@ -304,11 +304,14 @@ function buildShellHTML(article, extractedBody, sidebarTrendingHTML) {
 <meta property="og:site_name" content="NewsAnarchist">
 <meta property="article:published_time" content="${dateISO}">
 <meta property="article:author" content="${author.name}">
+<meta property="article:section" content="${category}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${seoTitle.replace(/"/g, '&quot;')}">
 <meta name="twitter:description" content="${metaDesc.replace(/"/g, '&quot;').slice(0, 180)}">
 <meta name="twitter:image" content="${ogImage}">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":${JSON.stringify(seoTitle)},"description":${JSON.stringify(metaDesc)},"url":"${articleUrl}","datePublished":"${dateISO}","dateModified":"${nowISO}","author":{"@type":"Person","name":"${author.name}","url":"${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"},"publisher":{"@type":"Organization","name":"NewsAnarchist","logo":{"@type":"ImageObject","url":"${SITE_URL}/images/logo.png"}},"image":{"@type":"ImageObject","url":"${ogImage}","width":1200,"height":630},"articleSection":"${category}","keywords":${JSON.stringify(kw)}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":${JSON.stringify(seoTitle)},"description":${JSON.stringify(metaDesc)},"url":"${articleUrl}","datePublished":"${dateISO}","dateModified":"${nowISO}","author":{"@type":"Person","name":"${author.name}","url":"${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"},"publisher":{"@type":"Organization","name":"NewsAnarchist","logo":{"@type":"ImageObject","url":"${SITE_URL}/images/logo.png"}},"image":{"@type":"ImageObject","url":"${ogImage}","width":1200,"height":630},"articleSection":"${category}","keywords":${JSON.stringify(kw)},"isAccessibleForFree":true}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"${SITE_URL}/"},{"@type":"ListItem","position":2,"name":"${category}","item":"${SITE_URL}/category/${catSlug}.html"},{"@type":"ListItem","position":3,"name":${JSON.stringify(seoTitle)},"item":"${articleUrl}"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SpeakableSpecification","cssSelector":["h1.na-article-headline",".na-article-lede",".na-take-body"]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>
