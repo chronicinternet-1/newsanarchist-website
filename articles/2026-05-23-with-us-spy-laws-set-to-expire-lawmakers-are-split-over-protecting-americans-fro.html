@@ -40,8 +40,8 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav{background:#111;overflow:hidden}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:24px;padding:24px 16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
@@ -100,14 +100,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a><li><a href="/category/surveillance-state.html" class="active">Surveillance State</a></li>
-        <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-        <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-        <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-        <li><a href="/category/global-power.html">Global Power</a></li>
-        <li><a href="/category/money-markets.html">Money & Markets</a></li>
-        <li><a href="/category/unexplained.html">Unexplained</a></li>
-        <li><a href="/category/true-crime.html">True Crime</a></li><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+<a href="/">Home</a><a href="/category/surveillance-state.html" class="active">Surveillance State</a>
+        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
+        <a href="/category/government-secrets.html">Government Secrets</a>
+        <a href="/category/tech-privacy.html">Tech & Privacy</a>
+        <a href="/category/global-power.html">Global Power</a>
+        <a href="/category/money-markets.html">Money & Markets</a>
+        <a href="/category/unexplained.html">Unexplained</a>
+        <a href="/category/true-crime.html">True Crime</a><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -124,7 +124,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="art-meta">April 20, 2026<br>3 min read</div>
 </div>
 <img src="/images/articles/2026-05-23-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro.webp" alt="With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance" class="art-img" onerror="this.style.display='none'" loading="eager">
-<div class="art-body"><p class="article-lede"><strong>What they're not telling you:</strong> Section 1: The Story Congress is set to allow the primary legal framework authorizing warrantless <a href="https://www.amazon.com/dp/B079MCPJGH?tag=chronicinte02-20" target="_blank" rel="noopener nofollow sponsored" title="CloudValley Webcam Cover Slide on Amazon" style="color:#dc2626;text-decoration:underline;text-decoration-style:dotted;">surveillance</a> of Americans to <strong><a href="/articles/2026-05-18-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro.html" title="With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">expire</a></strong> without meaningful restrictions on how the intelligence community has already conducted collection operations. The Foreign Intelligence Surveillance Act Amendments of 2008, specifically Section 702, permits the National Security Agency and Federal Bureau of Investigation to monitor communications of non-US persons reasonably believed to be located abroad without individualized warrants. The law sunsets on April 19, 2024.</p>
+<div class="art-body"><p class="article-lede"><strong>What they're not telling you:</strong> Section 1: The Story. Congress is set to allow the primary legal framework authorizing warrantless <a href="https://www.amazon.com/dp/B079MCPJGH?tag=chronicinte02-20" target="_blank" rel="noopener nofollow sponsored" title="CloudValley Webcam Cover Slide on Amazon" style="color:#dc2626;text-decoration:underline;text-decoration-style:dotted;">surveillance</a> of Americans to <strong><a href="/articles/2026-05-18-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro.html" title="With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance" style="color:#1a1a1a;text-decoration:underline;text-decoration-style:dotted;font-weight:500;">expire</a></strong> without meaningful restrictions on how the intelligence community has already conducted collection operations. The Foreign Intelligence Surveillance Act Amendments of 2008, specifically Section 702, permits the National Security Agency and Federal Bureau of Investigation to monitor communications of non-US persons reasonably believed to be located abroad without individualized warrants. The law sunsets on April 19, 2024.</p>
 
 <h2>What the Documents Show</h2>
 <p>According to TechCrunch's reporting, lawmakers are fractured on whether reauthorization should include new safeguards limiting how the government queries this collected data when US citizens' communications are incidentally captured during surveillance targeting foreign nationals. The technical mechanics matter here because they reveal what "warrantless" actually means in practice. Under Section 702, NSA analysts can search databases containing billions of communications—emails, text messages, social media traffic—using query terms tied to Americans' identifiers without obtaining a Foreign Intelligence Surveillance Court warrant. According to documents reviewed in the reporting, the government has characterized these "back door" searches as non-targeted collection, meaning they fall outside traditional warrant requirements. The FBI has disclosed that it conducts thousands of such queries monthly across communications involving US persons, yet the Amendments Act contains no explicit ban on this practice.</p>

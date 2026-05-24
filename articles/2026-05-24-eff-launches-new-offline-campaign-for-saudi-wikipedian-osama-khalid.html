@@ -40,8 +40,8 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;width:100%}
-.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav{background:#111;overflow:hidden}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:24px;padding:24px 16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:1fr 260px}}
@@ -100,14 +100,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a><li><a href="/category/surveillance-state.html">Surveillance State</a></li>
-        <li><a href="/category/corporate-watchdog.html">Corporate Watchdog</a></li>
-        <li><a href="/category/government-secrets.html">Government Secrets</a></li>
-        <li><a href="/category/tech-privacy.html">Tech & Privacy</a></li>
-        <li><a href="/category/global-power.html">Global Power</a></li>
-        <li><a href="/category/money-markets.html">Money & Markets</a></li>
-        <li><a href="/category/unexplained.html" class="active">Unexplained</a></li>
-        <li><a href="/category/true-crime.html">True Crime</a></li><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+<a href="/">Home</a><a href="/category/surveillance-state.html">Surveillance State</a>
+        <a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
+        <a href="/category/government-secrets.html">Government Secrets</a>
+        <a href="/category/tech-privacy.html">Tech & Privacy</a>
+        <a href="/category/global-power.html">Global Power</a>
+        <a href="/category/money-markets.html">Money & Markets</a>
+        <a href="/category/unexplained.html" class="active">Unexplained</a>
+        <a href="/category/true-crime.html">True Crime</a><a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -124,7 +124,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="art-meta">May 12, 2026<br>3 min read</div>
 </div>
 <img src="/images/articles/2026-05-24-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.webp" alt="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="art-img" onerror="this.style.display='none'" loading="eager">
-<div class="art-body"><p class="article-lede"><strong>What they're not telling you:</strong> EFF Launches New Offline Campaign for <strong>Saudi</strong> Wikipedian Osama <a href="/articles/2026-05-17-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-<a href="/articles/2026-05-18-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-<a href="/articles/2026-05-20-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">khalid</a>.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">khalid</a>.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">Khalid</a> A pediatrician-in-training detained for sharing information about human rights abuses has had his prison sentence reduced to 14 <strong>years</strong>—but remains imprisoned in Saudi Arabia despite what human rights organizations call arbitrary legal proceedings. Osama Khalid began contributing to Wikipedia Arabic at twelve years old and became known in open internet circles for documenting critical human rights issues in his home country. His Wikipedia contributions included entries on the treatment of women's rights activist Loujain al-Hathloul and al-Ha'ir prison, one of Saudi Arabia's most controversial detention facilities.</p>
+<div class="art-body"><p class="article-lede"><strong>What they're not telling you:</strong> EFF Launches New Offline. Campaign for <strong>Saudi</strong> Wikipedian Osama <a href="/articles/2026-05-17-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-<a href="/articles/2026-05-18-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-<a href="/articles/2026-05-20-eff-launches-new-offline-campaign-for-saudi-wikipedian-osama-khalid.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">khalid</a>.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">khalid</a>.html" title="EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid" class="na-ilink">Khalid</a> A pediatrician-in-training detained for sharing information about human rights abuses has had his prison sentence reduced to 14 <strong>years</strong>—but remains imprisoned in Saudi Arabia despite what human rights organizations call arbitrary legal proceedings. Osama Khalid began contributing to Wikipedia Arabic at twelve years old and became known in open internet circles for documenting critical human rights issues in his home country. His Wikipedia contributions included entries on the treatment of women's rights activist Loujain al-Hathloul and al-Ha'ir prison, one of Saudi Arabia's most controversial detention facilities.</p>
 
 <h2>What the Documents Show</h2>
 <p>Khalid also blogged about <a href="https://www.amazon.com/dp/B079MCPJGH?tag=chronicinte02-20" target="_blank" rel="noopener nofollow sponsored" title="CloudValley Webcam Cover Slide on Amazon" style="color:#dc2626;text-decoration:underline;text-decoration-style:dotted;">surveillance</a> policy, open source technology, and contributed technical work to projects like EFF's HTTPS Everywhere—tools designed to encrypt internet traffic and protect user privacy. In July 2020, during COVID-19 lockdowns, <strong>Saudi</strong> authorities detained Khalid. The initial sentence was five <strong>years</strong>. On appeal, that sentence jumped to 32 years. In 2023, it was reduced to 25 years.</p>
