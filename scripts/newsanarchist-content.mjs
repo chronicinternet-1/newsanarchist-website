@@ -646,7 +646,7 @@ function buildArticleBody(topic) {
   // Sidebar variables — self-contained, no dependency on rebuildHomepage scope
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
     const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
-    return '<a href="/category/' + cSlug + '.html" class="trending-item"><span class="trending-num">' + (i+1) + '</span><div><div class="trending-title">' + cat + '</div></div></a>';
+    return '<a href="/category/' + cSlug + '.html" class="na-cat-link">' + cat + '</a>';
   }).join('');
   let sidebarTrendingHTML = '';
   try {
@@ -829,7 +829,7 @@ function buildArticleHTML(topic) {
 
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
     const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
-    return `<a href="/category/${cSlug}.html" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${cat}</div></div></a>`;
+    return `<a href="/category/${cSlug}.html" class="na-cat-link">${cat}</a>`;
   }).join('');
   let sidebarTrendingHTML = '';
   try {
@@ -953,7 +953,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-trend:last-child{border-bottom:none}
 .na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
 .na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
-.na-footer{background:#111;color:#888}
+.na-cat-link{display:block;font-size:13px;font-weight:500;color:#111;padding:6px 0;border-bottom:1px solid #F5F4F0;text-decoration:none}.na-cat-link:last-child{border-bottom:none}.na-cat-link:hover{color:#E11D48}.na-footer{background:#111;color:#888}
 .na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
 @media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
@@ -2374,7 +2374,10 @@ function rebuildIndexHTML(allArticles) {
     const dekWords = rawDek.toLowerCase().split(/\s+/).filter(Boolean);
     const titleInDek = titleWords.length > 2 && dekWords.slice(0, titleWords.length).join(' ') === titleWords.join(' ');
     const dekTooShort = dekWords.length <= titleWords.length + 3;
-    const dek = (rawDek && rawDek.length > 30 && !titleInDek && !dekTooShort) ? rawDek.slice(0, 220) : '';
+    const titleStr = (a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
+    const dekStr = rawDek.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
+    const dekIsTitleRepeat = dekStr === titleStr || dekStr.includes(titleStr) || titleStr.includes(dekStr);
+    const dek = (rawDek && rawDek.length > 30 && !titleInDek && !dekTooShort && !dekIsTitleRepeat) ? rawDek.slice(0, 220) : '';
     return `<div class="vh-main">${img}<div class="vh-body"><div class="vh-meta"><span class="vh-pill">${gn(a)}</span><span class="vh-cat">${a.category||''}</span></div><h1 class="vh-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h1>${dek?`<p class="vh-dek">${dek}${(a.description||'').length>200?'...':''}</p>`:''}<div class="vh-by">${byAuth}<span class="vh-dot">·</span><span>${fd(a)}</span></div></div></div>`;
   }
 
@@ -2564,7 +2567,7 @@ a{color:inherit;text-decoration:none}
 .na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
 .na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}
 .na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
-.na-footer{background:#111;color:#888}
+.na-cat-link{display:block;font-size:13px;font-weight:500;color:#111;padding:6px 0;border-bottom:1px solid #F5F4F0;text-decoration:none}.na-cat-link:last-child{border-bottom:none}.na-cat-link:hover{color:#E11D48}.na-footer{background:#111;color:#888}
 .na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
 @media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
@@ -2976,7 +2979,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-trend:last-child{border-bottom:none}
 .na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
 .na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
-.na-footer{background:#111;color:#888}
+.na-cat-link{display:block;font-size:13px;font-weight:500;color:#111;padding:6px 0;border-bottom:1px solid #F5F4F0;text-decoration:none}.na-cat-link:last-child{border-bottom:none}.na-cat-link:hover{color:#E11D48}.na-footer{background:#111;color:#888}
 .na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
 @media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
@@ -3180,7 +3183,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-trend:last-child{border-bottom:none}
 .na-tnum{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:#E5E3DE;line-height:1;min-width:18px;flex-shrink:0}
 .na-ttitle{font-size:11px;color:#111;line-height:1.35;font-weight:500}.na-tcat{font-size:9px;color:#E11D48;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
-.na-footer{background:#111;color:#888}
+.na-cat-link{display:block;font-size:13px;font-weight:500;color:#111;padding:6px 0;border-bottom:1px solid #F5F4F0;text-decoration:none}.na-cat-link:last-child{border-bottom:none}.na-cat-link:hover{color:#E11D48}.na-footer{background:#111;color:#888}
 .na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
 @media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
