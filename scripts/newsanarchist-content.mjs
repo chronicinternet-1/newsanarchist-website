@@ -2291,15 +2291,33 @@ function remapArticleCategory(article) {
 
 // Junk patterns to exclude from index
 const JUNK_TITLE_PATTERNS = [
+  // Federal Register / FOIA noise
   /\[Federal Register\]/i,
   /^Federal Register/i,
+  /^\[FOIA\]/i,
+  /^FOIA request to/i,
+  /FOIA.*Status: processed/i,
+  // Reddit discussion questions
+  /^to what extent/i,
+  /^what (is|are|do|does|did|should|would|can|could) /i,
+  /^how (do|does|did|can|should|would) /i,
+  /^why (is|are|do|does) /i,
+  /^is (it|this|there|a|the) /i,
+  /^am i /i,
+  /^does anyone/i,
+  /^has anyone/i,
+  /^anyone else/i,
+  /^just (found|got|saw|noticed|want)/i,
+  /^daily (discussion|crypto|thread|general)/i,
+  /submitted by/i,
+  /^chat control$/i,
+  /^\[deleted\]/i,
+  /^\[removed\]/i,
+  // Low quality / router / self-hosting noise
   /new router setup/i,
   /how to delete/i,
   /self.hosting/i,
   /eero pro/i,
-  /^\[FOIA\]/i,
-  /^FOIA request to/i,
-  /FOIA.*Status: processed/i,
 ];
 
 function rebuildIndexHTML(allArticles) {
