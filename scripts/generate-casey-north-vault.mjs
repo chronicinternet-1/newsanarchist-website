@@ -213,7 +213,7 @@ img{max-width:100%;display:block}
 .na-flink-acc{color:#E11D48;font-weight:600}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
-.na-footer-legal{display:flex;gap:16px}
+.na-footer-legal{display:flex;gap:16px}.na-fext{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#555;padding:3px 0}.na-fext:hover{color:#fff}.na-fbadge{font-size:9px;background:#222;color:#888;padding:2px 6px;letter-spacing:.05em}.na-fdiv{margin-top:12px;padding-top:12px;border-top:1px solid #1A1A1A}
 .na-footer-legal a{font-size:12px;color:#666}
 .na-footer-legal a:hover{color:#fff}
 </style>
