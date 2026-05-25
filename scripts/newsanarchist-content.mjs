@@ -2533,9 +2533,9 @@ function rebuildIndexHTML(allArticles) {
   function featCard(a) {
     const s = sg(a);
     const img = hi(a)
-      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vf-img" loading="lazy">`
-      : `<div class="vf-img vf-ph"></div>`;
-    return `<div class="vf-feat">${img}<div class="vf-body"><div class="vc-cat">${a.category||''}</div><h3 class="vf-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+      ? `<div class="vc-img" style="background-image:url('/images/articles/${s}.webp')"></div>`
+      : `<div class="vc-img vc-ph"></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   // Filter hero candidates — exclude Reddit questions, low-quality titles
