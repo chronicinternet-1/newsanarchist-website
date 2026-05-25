@@ -1027,6 +1027,7 @@ ${renderRelatedProducts(category)}
 </div>
 </div>
 <div class="na-widget"><div class="na-wh">Browse Categories</div><div class="na-wb" style="padding:8px 13px">${sidebarCategoriesHTML}</div></div>
+<div class="na-widget" style="background:#111;border:1px solid #333;margin-top:12px"><div class="na-wh" style="background:#E11D48">NewsAnarchist Files</div><div class="na-wb" style="padding:12px 13px"><p style="font-size:13px;color:#ccc;margin:0 0 10px;line-height:1.5">Document-driven investigations. Primary sources. Named authors.</p><a href="/tip-line.html" style="display:block;background:#E11D48;color:#fff;text-align:center;padding:9px;font-size:12px;font-weight:600;text-decoration:none">Got a Tip? Contact Us →</a></div></div>
 <div class="na-widget"><div class="na-wh">Trending Now</div><div class="na-wb" style="padding:8px 13px">${sidebarTrendingHTML}</div></div>
 </aside>
 </div>
