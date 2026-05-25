@@ -1027,7 +1027,7 @@ ${renderRelatedProducts(category)}
 </div>
 </div>
 <div class="na-widget"><div class="na-wh">Browse Categories</div><div class="na-wb" style="padding:8px 13px">${sidebarCategoriesHTML}</div></div>
-<div class="na-widget" style="background:#111;border:1px solid #333;margin-top:12px"><div class="na-wh" style="background:#E11D48">NewsAnarchist Files</div><div class="na-wb" style="padding:12px 13px"><p style="font-size:13px;color:#ccc;margin:0 0 10px;line-height:1.5">Document-driven investigations. Primary sources. Named authors.</p><a href="/tip-line.html" style="display:block;background:#E11D48;color:#fff;text-align:center;padding:9px;font-size:12px;font-weight:600;text-decoration:none">Got a Tip? Contact Us →</a></div></div>
+<div class="na-widget" style="background:#111;border:1px solid #333;margin-top:12px"><div class="na-wh" style="background:#E11D48">NewsAnarchist Files</div><div class="na-wb" style="padding:12px 13px"><p style="font-size:13px;color:#ccc;margin:0 0 10px;line-height:1.5">Document-driven investigations. Primary sources. Named authors.</p><a href="/newsanarchist-files.html" style="display:block;background:#E11D48;color:#fff;text-align:center;padding:9px;font-size:12px;font-weight:600;text-decoration:none">Read the Investigations →</a></div></div>
 <div class="na-widget"><div class="na-wh">Trending Now</div><div class="na-wb" style="padding:8px 13px">${sidebarTrendingHTML}</div></div>
 </aside>
 </div>
@@ -2977,6 +2977,116 @@ ${items}
   console.log(`  ✅ RSS feed updated (${sorted.length} articles)`);
 }
 
+function rebuildFilesIndex(allArticles) {
+  const investigations = allArticles
+    .filter(a => a.isInvestigation)
+    .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
+  const CAT_SLUGS = {'Surveillance State':'surveillance-state','Corporate Watchdog':'corporate-watchdog','Government Secrets':'government-secrets','Tech & Privacy':'tech-privacy','Global Power':'global-power','Money & Markets':'money-markets','Unexplained':'unexplained','True Crime':'true-crime'};
+  const CATS = ['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime'];
+  const navLinks = CATS.map(c => `<a href="/category/${CAT_SLUGS[c]}.html">${c}</a>`).join('');
+  const fcats = CATS.slice(0,4).map(c => `<a href="/category/${CAT_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
+  const fcats2 = CATS.slice(4).map(c => `<a href="/category/${CAT_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
+  const yr = new Date().getFullYear();
+  function fd(a) {
+    const d = new Date(a.generatedAt || a.pubDate || Date.now());
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  const cards = investigations.map(a => {
+    const slug = (a.filename || '').replace('.html','');
+    const hasImg = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
+    const imgHtml = hasImg ? `<img src="/images/articles/${slug}.webp" alt="${(a.title||'').replace(/"/g,"'")}" style="width:100%;height:160px;object-fit:cover;display:block;margin-bottom:12px">` : '';
+    const authorSlug = (a.authorSlug || a.author || 'newsanarchist-desk').toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'');
+    return `<div class="bw-card">${imgHtml}<div class="bw-card-label">🔍 Investigation · ${a.category||'Unexplained'}</div><div class="bw-card-hed"><a href="/articles/${a.filename}">${a.title||''}</a></div><div class="bw-card-by"><a href="/authors/${authorSlug}.html" style="color:#E11D48">${a.author||'NewsAnarchist Desk'}</a> · ${fd(a)}</div><p style="font-size:12px;color:#666;line-height:1.5;margin-bottom:12px">${(a.description||'').slice(0,140)}${(a.description||'').length>140?'…':''}</p><a href="/articles/${a.filename}" class="bw-card-btn">Read Investigation →</a></div>`;
+  }).join('');
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NewsAnarchist Files — Investigations</title>
+<meta name="description" content="Document-driven investigations. Primary sources. Named authors.">
+<link rel="canonical" href="${SITE_URL}/newsanarchist-files.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7N6W04M3XW');</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;width:100%}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
+.na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
+.na-page{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.bw-hero{background:#fff;border:1px solid #E5E3DE;padding:32px;margin-bottom:24px;border-top:3px solid #E11D48}
+.bw-hero-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:8px}
+.bw-hero-title{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:12px;line-height:1.1}
+.bw-hero-desc{font-family:'Source Serif 4',serif;font-size:15px;color:#444;line-height:1.7;margin-bottom:16px}
+.bw-editions-head{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:16px}
+.bw-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:600px){.bw-grid{grid-template-columns:repeat(2,1fr)}}
+.bw-card{background:#fff;border:1px solid #E5E3DE;padding:20px}
+.bw-card-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#E11D48;margin-bottom:6px}
+.bw-card-hed{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;color:#111;margin-bottom:6px;line-height:1.2}
+.bw-card-hed a{color:#111}.bw-card-hed a:hover{color:#E11D48}
+.bw-card-by{font-size:11px;color:#999;margin-bottom:8px}
+.bw-card-btn{font-size:11px;font-weight:700;color:#E11D48;letter-spacing:.04em}
+.bw-empty{padding:40px;text-align:center;color:#999;font-family:'Source Serif 4',serif;font-size:14px;background:#fff;border:1px solid #E5E3DE}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-fct{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:11px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0}.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48;font-weight:600}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
+</style>
+</head>
+<body>
+<div class="na-mast"><div class="na-mast-inner">
+<div><div class="na-wm"><a href="/" style="color:inherit">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+</div></div>
+<nav class="na-nav"><div class="na-nav-inner">
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/newsanarchist-files.html" class="active">The Files</a>
+</div></nav>
+<div class="na-page">
+<div class="bw-hero">
+<div class="bw-hero-label">🔍 Investigative Series</div>
+<h1 class="bw-hero-title">NewsAnarchist Files</h1>
+<p class="bw-hero-desc">Document-driven investigations from our editorial team. Primary sources. Named authors. The stories that take more than a day to tell.</p>
+<a href="/tip-line.html" style="display:inline-block;background:#E11D48;color:#fff;padding:9px 18px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none">Submit a Tip →</a>
+</div>
+<div class="bw-editions-head">All Investigations</div>
+${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div class="bw-empty">Investigations publish monthly. First edition coming soon.</div>'}
+</div>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news.</div>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<div><div class="na-fct">Categories</div>${fcats}</div>
+<div><div class="na-fct">More Categories</div>${fcats2}</div>
+<div><div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a></div>
+</div>
+<div class="na-fbot"><div class="na-fcopy">&copy; ${yr} NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
+</footer>
+</body>
+</html>`;
+  fs.writeFileSync(path.join(SITE_DIR, 'newsanarchist-files.html'), html);
+  console.log('  ✅ newsanarchist-files.html rebuilt (' + investigations.length + ' investigations)');
+}
+
 function rebuildCategoryPages(allArticles) {
   const VALID_CATS = new Set(['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime']);
   const clean = allArticles.filter(a =>
@@ -3487,6 +3597,7 @@ async function runPublish() {
   rebuildIndexHTML(allArticles);
   fixPlaceholderImages(allArticles);
   rebuildCategoryPages(allArticles);
+  rebuildFilesIndex(allArticles);
   rebuildTrendingHTML(allArticles);
   updateSitemap(allArticles);
 
