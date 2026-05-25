@@ -3021,8 +3021,9 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;width:100%}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
+.na-nav-inner::-webkit-scrollbar{display:none}.na-nav-inner{scrollbar-width:none}
 .na-page{max-width:860px;margin:0 auto;padding:24px 16px 48px}
-.bw-hero{background:#fff;border:1px solid #E5E3DE;padding:32px;margin-bottom:24px;border-top:3px solid #E11D48}
+.bw-hero{background:#fff;border:1px solid #E5E3DE;border-top:4px solid #E11D48;padding:32px;margin-bottom:24px}
 .bw-hero-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:8px}
 .bw-hero-title{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:#111;margin-bottom:12px;line-height:1.1}
 .bw-hero-desc{font-family:'Source Serif 4',serif;font-size:15px;color:#444;line-height:1.7;margin-bottom:16px}
@@ -3069,15 +3070,23 @@ ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div clas
 </div>
 <footer class="na-footer">
 <div class="na-fgrid">
-<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news.</div>
+<div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
 <a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
 <a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
-<div><div class="na-fct">Categories</div>${fcats}</div>
-<div><div class="na-fct">More Categories</div>${fcats2}</div>
-<div><div class="na-fct">Legal</div>
+<div><div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a></div>
+<div><div class="na-fct">Categories</div>${fcats}<div style="margin-top:12px"><div class="na-fct">More Categories</div>${fcats2}</div></div>
+<div><div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-flink">BriefTape — Financial News</a>
+<a href="https://bevoza.com" class="na-flink">Bevoza — Digital Products</a>
+<div style="margin-top:12px"><div class="na-fct">Legal</div>
 <a href="/privacy.html" class="na-flink">Privacy Policy</a>
 <a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a></div>
+<a href="/dmca.html" class="na-flink">DMCA</a></div></div>
 </div>
 <div class="na-fbot"><div class="na-fcopy">&copy; ${yr} NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
 </footer>
