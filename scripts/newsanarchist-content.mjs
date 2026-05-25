@@ -2478,7 +2478,7 @@ function rebuildIndexHTML(allArticles) {
   function au(a) { return a.author || 'NewsAnarchist Desk'; }
   function asl(a) { return a.authorSlug || ''; }
   function fd(a) {
-    const d = new Date(a.pubDate || a.generatedAt || Date.now());
+    const d = new Date(a.generatedAt || a.pubDate || Date.now());
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
   function sg(a) { return (a.filename || '').replace('.html', ''); }
@@ -2977,9 +2977,10 @@ ${items}
 }
 
 function rebuildCategoryPages(allArticles) {
+  const VALID_CATS = new Set(['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime']);
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
-  ).map(a => ({ ...a, category: remapArticleCategory(a) }))
+  ).map(a => ({ ...a, category: VALID_CATS.has(a.category) ? a.category : remapArticleCategory(a) }))
    .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
 
   const ARTICLES_PER_PAGE = 100;
@@ -2987,7 +2988,7 @@ function rebuildCategoryPages(allArticles) {
 
   function au(a) { return a.author || 'NewsAnarchist Desk'; }
   function fd(a) {
-    const d = new Date(a.pubDate || a.generatedAt || Date.now());
+    const d = new Date(a.generatedAt || a.pubDate || Date.now());
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
   function sg(a) { return (a.filename || '').replace('.html', ''); }
@@ -3231,7 +3232,7 @@ function rebuildTrendingHTML(allArticles) {
 
   function au(a) { return a.author || 'NewsAnarchist Desk'; }
   function fd(a) {
-    const d = new Date(a.pubDate || a.generatedAt || Date.now());
+    const d = new Date(a.generatedAt || a.pubDate || Date.now());
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
   function sg(a) { return (a.filename || '').replace('.html', ''); }
