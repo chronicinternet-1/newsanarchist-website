@@ -2636,7 +2636,7 @@ a{color:inherit;text-decoration:none}
 .na-tick-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:3px 8px;flex-shrink:0}
 .na-tick-track{overflow:hidden;flex:1}
 .na-tick-txt{display:inline-block;white-space:nowrap;font-size:11px;color:#fff;animation:na-scroll 40s linear infinite}
-@keyframes na-scroll{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+@keyframes na-scroll{0%{transform:translateX(0%)}100%{transform:translateX(-100%)}}
 .na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:minmax(0,1fr) 260px}}
 .na-hgrid{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
@@ -2673,7 +2673,7 @@ a{color:inherit;text-decoration:none}
 .na-3col{display:grid;grid-template-columns:1fr;gap:10px}
 @media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
 .vc-card{background:#fff;border:1px solid #E5E3DE}
-.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block;background-size:cover;background-position:center}
 .vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
 .vc-body{padding:11px}
 .vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
@@ -3219,7 +3219,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-3col{display:grid;grid-template-columns:1fr;gap:10px}
 @media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
 .vc-card{background:#fff;border:1px solid #E5E3DE}
-.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block;background-size:cover;background-position:center}
 .vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
 .vc-body{padding:11px}.vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
 .vc-hed{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:4px}
@@ -3415,7 +3415,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
 .na-tick-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;white-space:nowrap;border:1px solid rgba(255,255,255,.5);padding:3px 8px;flex-shrink:0}
 .na-tick-track{overflow:hidden;flex:1}.na-tick-txt{display:inline-block;white-space:nowrap;font-size:11px;color:#fff;animation:na-scroll 40s linear infinite}
-@keyframes na-scroll{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+@keyframes na-scroll{0%{transform:translateX(0%)}100%{transform:translateX(-100%)}}
 .na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;max-width:1200px;margin:0 auto}
 @media(min-width:768px){.na-body{grid-template-columns:minmax(0,1fr) 260px}}
 .na-page-head{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#111;border-top:2px solid #111;padding-top:9px;margin-bottom:16px;display:flex;align-items:center;gap:10px}
@@ -3423,7 +3423,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-3col{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:20px}
 @media(min-width:600px){.na-3col{grid-template-columns:repeat(3,1fr)}}
 .vc-card{background:#fff;border:1px solid #E5E3DE}
-.vc-img{width:100%;height:110px;object-fit:cover;display:block}
+.vc-img{width:100%;height:110px;object-fit:cover;display:block;background-size:cover;background-position:center}
 .vc-ph{width:100%;height:110px;background:#8A9A7A;display:block}
 .vc-body{padding:11px}.vc-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:5px}
 .vc-hed{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;color:#111;line-height:1.2;margin-bottom:4px}
