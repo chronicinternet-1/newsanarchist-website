@@ -2910,8 +2910,8 @@ function rebuildRSS(allArticles) {
 
   // Sort by date, take latest 50
   const sorted = [...allArticles]
-    .filter(a => a.pubDate || a.generatedAt)
-    .sort((a, b) => (b.pubDate || b.generatedAt || '').localeCompare(a.pubDate || a.generatedAt || ''))
+    .filter(a => a.generatedAt || a.pubDate)
+    .sort((a, b) => (b.generatedAt || b.pubDate || '').localeCompare(a.generatedAt || a.pubDate || ''))
     .slice(0, 50);
 
   const now = new Date().toUTCString();
@@ -2980,7 +2980,7 @@ function rebuildCategoryPages(allArticles) {
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
   ).map(a => ({ ...a, category: remapArticleCategory(a) }))
-   .sort((a, b) => new Date(b.pubDate || b.generatedAt || 0) - new Date(a.pubDate || a.generatedAt || 0));
+   .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
 
   const ARTICLES_PER_PAGE = 100;
   const categoryDir = path.join(SITE_DIR, 'category');
@@ -3223,10 +3223,10 @@ function rebuildTrendingHTML(allArticles) {
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
   ).map(a => ({ ...a, category: remapArticleCategory(a) }))
-   .sort((a, b) => new Date(b.pubDate || b.generatedAt || 0) - new Date(a.pubDate || a.generatedAt || 0));
+   .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
 
   const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
-  let trending = clean.filter(a => new Date(a.pubDate || a.generatedAt || 0) >= cutoff);
+  let trending = clean.filter(a => new Date(a.generatedAt || a.pubDate || 0) >= cutoff);
   if (trending.length < 10) trending = clean.slice(0, 30);
 
   function au(a) { return a.author || 'NewsAnarchist Desk'; }
