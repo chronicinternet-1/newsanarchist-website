@@ -2608,7 +2608,7 @@ function rebuildIndexHTML(allArticles) {
 <link rel="icon" href="/images/favicon.ico">
 <meta property="og:title" content="NewsAnarchist — The stories buried, spiked, or spun.">
 <meta property="og:description" content="Independent investigative news. The stories buried, spiked, or spun.">
-<meta property="og:image" content="https://newsanarchist.com/images/og-card.png">
+<meta property="og:image" content="https://newsanarchist.com/images/og-card.jpg">
 <meta property="og:url" content="https://newsanarchist.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
