@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advertise — NewsAnarchist.com</title>
+<meta name="description" content="Reach 128K+ monthly pageviews, 79K+ unique visitors, and 5,000+ email subscribers. DR 75 domain. Display ads, sponsored content, and newsletter sponsorships.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--black:#111111;--white:#ffffff;--bg:#F5F4F0;--border:#E5E3DE;--crimson:#E11D48;--crimson-dark:#BE123C;--muted:#6b7280;--card-bg:#ffffff}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--black);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.6}
+nav{background:var(--black);padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:100}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:20px;color:var(--white);text-decoration:none}
+.nav-logo span{color:var(--crimson)}
+.nav-link{color:#9ca3af;text-decoration:none;font-size:13px;font-weight:500;letter-spacing:0.5px}
+.nav-link:hover{color:var(--white)}
+.hero{background:var(--black);padding:80px 32px 72px;text-align:center;border-bottom:3px solid var(--crimson)}
+.hero-eyebrow{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--crimson);margin-bottom:20px}
+.hero h1{font-family:'Syne',sans-serif;font-size:clamp(36px,6vw,64px);font-weight:800;color:var(--white);line-height:1.05;letter-spacing:-1px;max-width:780px;margin:0 auto 24px}
+.hero h1 em{font-style:normal;color:var(--crimson)}
+.hero-sub{font-family:'Source Serif 4',serif;font-size:18px;color:#9ca3af;max-width:560px;margin:0 auto 40px;line-height:1.7}
+.hero-stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-number{font-family:'Syne',sans-serif;font-size:36px;font-weight:800;color:var(--white);line-height:1}
+.stat-number span{color:var(--crimson)}
+.stat-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#6b7280;margin-top:6px}
+.container{max-width:1080px;margin:0 auto;padding:0 32px}
+.section{padding:72px 0 48px}
+.section-label{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--crimson);margin-bottom:12px}
+.section-title{font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:var(--black);letter-spacing:-0.5px;margin-bottom:16px}
+.section-desc{font-family:'Source Serif 4',serif;font-size:17px;color:var(--muted);max-width:640px;line-height:1.75;margin-bottom:48px}
+.audience-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:48px}
+.audience-card{background:var(--card-bg);padding:28px 24px}
+.audience-pct{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--crimson);line-height:1;margin-bottom:8px}
+.audience-label{font-weight:600;font-size:14px;color:var(--black);margin-bottom:4px}
+.audience-desc{font-size:13px;color:var(--muted);line-height:1.5}
+.packages-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2px;background:var(--border);border:1px solid var(--border)}
+.package{background:var(--card-bg);padding:36px 32px;position:relative}
+.package.featured{background:var(--black)}
+.package-badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--black);background:var(--crimson);padding:4px 10px;margin-bottom:20px}
+.package-name{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--black);margin-bottom:6px;letter-spacing:-0.3px}
+.package.featured .package-name{color:var(--white)}
+.package-tagline{font-size:13px;color:var(--muted);margin-bottom:28px;line-height:1.5}
+.package.featured .package-tagline{color:#9ca3af}
+.package-price{margin-bottom:28px;padding-bottom:28px;border-bottom:1px solid var(--border)}
+.package.featured .package-price{border-color:#333}
+.price-amount{font-family:'Syne',sans-serif;font-size:42px;font-weight:800;color:var(--black);line-height:1}
+.package.featured .price-amount{color:var(--white)}
+.price-period{font-size:13px;color:var(--muted);margin-top:4px}
+.package.featured .price-period{color:#6b7280}
+.price-cpm{display:inline-block;font-size:11px;font-weight:600;color:var(--crimson);background:#fef2f2;padding:3px 8px;margin-top:8px;letter-spacing:0.5px}
+.package.featured .price-cpm{background:#1f1a1a}
+.package-features{list-style:none;margin-bottom:32px}
+.package-features li{font-size:14px;color:var(--black);padding:7px 0;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:10px;line-height:1.4}
+.package.featured .package-features li{color:#d1d5db;border-color:#333}
+.package-features li::before{content:'—';color:var(--crimson);font-weight:700;flex-shrink:0;margin-top:1px}
+.package-features li:last-child{border-bottom:none}
+.pkg-cta{display:block;text-align:center;padding:13px 24px;font-weight:600;font-size:14px;letter-spacing:0.5px;text-decoration:none;transition:all 0.15s}
+.pkg-cta-outline{border:2px solid var(--black);color:var(--black);background:transparent}
+.pkg-cta-outline:hover{background:var(--black);color:var(--white)}
+.pkg-cta-solid{background:var(--crimson);color:var(--white);border:2px solid var(--crimson)}
+.pkg-cta-solid:hover{background:var(--crimson-dark);border-color:var(--crimson-dark)}
+.sponsored-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border);border:1px solid var(--border);margin-bottom:48px}
+@media(max-width:640px){.sponsored-grid{grid-template-columns:1fr}}
+.sponsored-card{background:var(--card-bg);padding:32px}
+.sponsored-card h3{font-family:'Syne',sans-serif;font-size:18px;font-weight:700;margin-bottom:12px;color:var(--black)}
+.sponsored-card p{font-size:14px;color:var(--muted);line-height:1.65;margin-bottom:16px}
+.sponsored-price{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--black)}
+.sponsored-price-sub{font-size:12px;color:var(--muted);margin-top:2px;margin-bottom:20px}
+.newsletter-block{background:var(--black);border:1px solid #333;padding:40px;margin-bottom:2px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center}
+@media(max-width:640px){.newsletter-block{grid-template-columns:1fr}}
+.newsletter-block h3{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--white);margin-bottom:10px}
+.newsletter-block p{font-size:14px;color:#9ca3af;line-height:1.65}
+.newsletter-price-box{text-align:center;min-width:160px}
+.newsletter-price-box .amount{font-family:'Syne',sans-serif;font-size:42px;font-weight:800;color:var(--white);line-height:1}
+.newsletter-price-box .period{font-size:12px;color:#6b7280;margin-top:4px;margin-bottom:16px}
+.divider{height:1px;background:var(--border);margin:0}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:var(--border);border:1px solid var(--border);margin-bottom:48px}
+.why-card{background:var(--card-bg);padding:28px 24px}
+.why-icon{font-size:24px;margin-bottom:14px}
+.why-card h4{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;margin-bottom:8px;color:var(--black)}
+.why-card p{font-size:13px;color:var(--muted);line-height:1.6}
+.contact-block{background:var(--card-bg);border:1px solid var(--border);padding:48px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-bottom:72px}
+@media(max-width:640px){.contact-block{grid-template-columns:1fr;padding:28px}}
+.contact-block h3{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--black);margin-bottom:12px;letter-spacing:-0.3px}
+.contact-block p{font-size:15px;color:var(--muted);line-height:1.7;margin-bottom:24px}
+.contact-detail{display:flex;flex-direction:column;gap:12px}
+.contact-item{display:flex;gap:12px;align-items:flex-start}
+.contact-item-label{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);min-width:80px;padding-top:2px}
+.contact-item-value{font-size:15px;color:var(--black);font-weight:500}
+.contact-item-value a{color:var(--crimson);text-decoration:none}
+.contact-item-value a:hover{text-decoration:underline}
+.agent-card{background:var(--bg);border:1px solid var(--border);padding:28px}
+.agent-header{display:flex;gap:16px;align-items:center;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.agent-avatar{width:52px;height:52px;border-radius:50%;background:var(--black);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:800;font-size:20px;color:var(--white);flex-shrink:0}
+.agent-name{font-family:'Syne',sans-serif;font-weight:700;font-size:17px;color:var(--black)}
+.agent-title{font-size:12px;color:var(--muted);margin-top:2px}
+.agent-bio{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:16px}
+.agent-email{display:inline-block;font-size:13px;font-weight:600;color:var(--crimson);text-decoration:none;border:1px solid var(--crimson);padding:8px 16px}
+.agent-email:hover{background:var(--crimson);color:var(--white)}
+.disclaimer{background:#fef2f2;border-left:3px solid var(--crimson);padding:16px 20px;margin-bottom:48px}
+.disclaimer p{font-size:13px;color:#7f1d1d;line-height:1.6}
+footer{background:var(--black);padding:32px;text-align:center;border-top:3px solid var(--crimson)}
+footer p{font-size:13px;color:#6b7280}
+footer a{color:#9ca3af;text-decoration:none}
+footer a:hover{color:var(--white)}
+@media(max-width:768px){.hero{padding:48px 20px}.hero-stats{gap:24px}.container{padding:0 20px}.packages-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">NewsAnarchist<span>.</span>com</a>
+  <a href="mailto:alexa.rivers@newsanarchist.com" class="nav-link">Advertising Inquiries →</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-eyebrow">Advertising &amp; Partnerships</div>
+  <h1>Reach the Readers Who <em>Actually Pay Attention</em></h1>
+  <p class="hero-sub">NewsAnarchist delivers investigative journalism to a highly engaged audience of researchers, policy professionals, and informed citizens who don't trust the mainstream narrative.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-number">128<span>K+</span></div><div class="stat-label">Monthly Pageviews</div></div>
+    <div class="stat"><div class="stat-number">79<span>K+</span></div><div class="stat-label">Unique Visitors / Mo</div></div>
+    <div class="stat"><div class="stat-number">DR <span>75</span></div><div class="stat-label">Domain Rating (Ahrefs)</div></div>
+    <div class="stat"><div class="stat-number">5<span>K+</span></div><div class="stat-label">Email Subscribers</div></div>
+    <div class="stat"><div class="stat-number">37<span>K</span></div><div class="stat-label">Backlinks (100% dofollow)</div></div>
+  </div>
+</section>
+
+<div class="container">
+
+  <section class="section">
+    <div class="section-label">Who We Reach</div>
+    <h2 class="section-title">An Audience Worth Paying For</h2>
+    <p class="section-desc">Our readers are not passive scrollers. They seek out primary sources, share investigations, and make purchasing decisions based on what they trust.</p>
+    <div class="audience-grid">
+      <div class="audience-card"><div class="audience-pct">38%</div><div class="audience-label">Researchers &amp; Academics</div><div class="audience-desc">University-affiliated, think tank staff, independent researchers in policy and science fields</div></div>
+      <div class="audience-card"><div class="audience-pct">27%</div><div class="audience-label">Policy &amp; Government</div><div class="audience-desc">Congressional staffers, policy analysts, NGO professionals, and government contractors</div></div>
+      <div class="audience-card"><div class="audience-pct">22%</div><div class="audience-label">Journalists &amp; Media</div><div class="audience-desc">Working journalists, editors, documentary producers, and investigative reporters</div></div>
+      <div class="audience-card"><div class="audience-pct">13%</div><div class="audience-label">Informed General Public</div><div class="audience-desc">High-information citizens who follow primary sources and distrust mainstream coverage</div></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="section-label">Display Advertising</div>
+    <h2 class="section-title">Site Placements</h2>
+    <p class="section-desc">Standard IAB display units placed across high-traffic article pages, category pages, and the homepage. All placements are brand-safe and editorially separated.</p>
+    <div class="packages-grid">
+
+      <div class="package">
+        <div class="package-name">Homepage Banner</div>
+        <div class="package-tagline">Above-the-fold leaderboard on the NewsAnarchist homepage. Maximum visibility, first impression.</div>
+        <div class="package-price">
+          <div class="price-amount">$299</div>
+          <div class="price-period">per week</div>
+          <div class="price-cpm">~$9.30 CPM estimated</div>
+        </div>
+        <ul class="package-features">
+          <li>728×90 leaderboard or 970×90 billboard</li>
+          <li>Above the fold, desktop + mobile</li>
+          <li>Estimated 32,000+ impressions/week</li>
+          <li>Click-through tracking included</li>
+          <li>Direct link to your URL</li>
+        </ul>
+        <a href="https://buy.stripe.com/dRmaEZfy263M5Ejg8P1VK00" class="pkg-cta pkg-cta-outline">Buy This Placement →</a>
+      </div>
+
+      <div class="package featured">
+        <div class="package-badge">Most Popular</div>
+        <div class="package-name">Article Sidebar</div>
+        <div class="package-tagline">300×250 or 300×600 placement embedded in article pages across all editorial verticals.</div>
+        <div class="package-price">
+          <div class="price-amount">$499</div>
+          <div class="price-period">per month</div>
+          <div class="price-cpm">~$3.87 CPM estimated</div>
+        </div>
+        <ul class="package-features">
+          <li>300×250 medium rectangle or 300×600 half-page</li>
+          <li>Appears on all article pages site-wide</li>
+          <li>Estimated 128,000+ impressions/month</li>
+          <li>Rotates into premium sidebar position</li>
+          <li>Weekly impression + click report</li>
+          <li>Choose 1–3 editorial verticals to target</li>
+        </ul>
+        <a href="https://buy.stripe.com/00waEZ71wbo6aYD2hZ1VK01" class="pkg-cta pkg-cta-solid">Buy This Placement →</a>
+      </div>
+
+      <div class="package">
+        <div class="package-name">In-Article Unit</div>
+        <div class="package-tagline">Native-style display unit embedded mid-article. Highest engagement of all display formats.</div>
+        <div class="package-price">
+          <div class="price-amount">$649</div>
+          <div class="price-period">per month</div>
+          <div class="price-cpm">~$5.07 CPM estimated</div>
+        </div>
+        <ul class="package-features">
+          <li>Native-style 640×100 or 320×50 mobile</li>
+          <li>Placed mid-article in editorial content</li>
+          <li>Estimated 128,000+ impressions/month</li>
+          <li>Higher CTR than sidebar placements</li>
+          <li>Weekly performance report</li>
+        </ul>
+        <a href="https://buy.stripe.com/eVq8wR0D8ak22s709R1VK02" class="pkg-cta pkg-cta-outline">Buy This Placement →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="section-label">Sponsored Content</div>
+    <h2 class="section-title">Editorial Partnerships</h2>
+    <p class="section-desc">Original content published on NewsAnarchist under a clear "Sponsored" label. Written in the NewsAnarchist editorial voice, optimized for SEO, and promoted across our full distribution stack. A DR 75 dofollow backlink is included with every placement.</p>
+    <div class="disclaimer">
+      <p><strong>Editorial independence notice:</strong> All sponsored content is clearly labeled. NewsAnarchist editorial staff does not endorse sponsored content. Sponsored pieces are published separately from our newsroom investigations.</p>
+    </div>
+    <div class="sponsored-grid">
+      <div class="sponsored-card">
+        <h3>Sponsored Article</h3>
+        <p>600–900 word original article written in the NewsAnarchist voice covering your product, service, research, or perspective. Full SEO optimization, internal links, and social promotion.</p>
+        <p>Includes: homepage feature (24hrs), email newsletter mention, X/Twitter + LinkedIn post, permanent archive with dofollow backlink.</p>
+        <div class="sponsored-price">$1,200</div>
+        <div class="sponsored-price-sub">one-time · permanent placement · DR 75 dofollow link</div>
+        <a href="https://buy.stripe.com/14AbJ3bhM8bU4Afe0H1VK03" class="pkg-cta pkg-cta-outline">Buy Now →</a>
+      </div>
+      <div class="sponsored-card">
+        <h3>Sponsored Investigation</h3>
+        <p>Full-length 1,500–2,500 word NewsAnarchist Files-style investigation focused on your topic, sector, or issue area. Flagship content piece with full editorial production.</p>
+        <p>Includes: featured homepage placement (72hrs), dedicated email blast, full social promotion, permanent archive, dofollow backlink.</p>
+        <div class="sponsored-price">$2,500</div>
+        <div class="sponsored-price-sub">one-time · premium placement · full distribution</div>
+        <a href="https://buy.stripe.com/dRmdRb3Pk4ZI8Qv8Gn1VK04" class="pkg-cta pkg-cta-outline">Buy Now →</a>
+      </div>
+      <div class="sponsored-card">
+        <h3>Content Series (3-part)</h3>
+        <p>Three connected articles published over 3–6 weeks. Ideal for product launches, research campaigns, or issue advocacy. Includes a dedicated series landing page.</p>
+        <p>All benefits of Sponsored Article × 3, plus series landing page with permanent archive.</p>
+        <div class="sponsored-price">$2,900</div>
+        <div class="sponsored-price-sub">3 articles · series page · full distribution each</div>
+        <a href="https://buy.stripe.com/5kQ4gB3Pk77Q5Ejg8P1VK05" class="pkg-cta pkg-cta-outline">Buy Now →</a>
+      </div>
+      <div class="sponsored-card">
+        <h3>Interview Feature</h3>
+        <p>Published Q&amp;A interview with your spokesperson or subject-matter expert. Written by a named NewsAnarchist correspondent. Positions your organization as a credible voice.</p>
+        <p>Full editorial production, homepage feature, social promotion, permanent archive, dofollow backlink.</p>
+        <div class="sponsored-price">$1,800</div>
+        <div class="sponsored-price-sub">one-time · interview format · correspondent byline</div>
+        <a href="https://buy.stripe.com/eVqbJ3etY3VE0jZ7Cj1VK06" class="pkg-cta pkg-cta-outline">Buy Now →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="section-label">Newsletter Sponsorships</div>
+    <h2 class="section-title">Direct to 5,000+ Inboxes</h2>
+    <p class="section-desc">Our subscriber list is opt-in, engaged, and actively reading. Newsletter placements put your message directly in front of a verified audience that chose to receive NewsAnarchist content.</p>
+
+    <div class="newsletter-block">
+      <div>
+        <h3>Newsletter Header Sponsorship</h3>
+        <p>Your brand placed in the header position of the NewsAnarchist weekly email digest. Reaches 5,000+ confirmed subscribers. Includes branded "Supported by" attribution, 60-word copy block, and one click-tracked URL.</p>
+      </div>
+      <div class="newsletter-price-box">
+        <div class="amount">$350</div>
+        <div class="period">per send</div>
+        <a href="https://buy.stripe.com/cNi00l85A8bUfeT1dV1VK07" class="pkg-cta pkg-cta-solid" style="font-size:13px;padding:10px 20px;">Buy Now →</a>
+      </div>
+    </div>
+
+    <div class="newsletter-block">
+      <div>
+        <h3>Dedicated Email Blast</h3>
+        <p>A standalone email sent exclusively on your behalf to the full NewsAnarchist subscriber list. Full creative control of subject line, body copy, and CTA. Ideal for product launches, event announcements, and research releases.</p>
+      </div>
+      <div class="newsletter-price-box">
+        <div class="amount">$850</div>
+        <div class="period">per send</div>
+        <a href="https://buy.stripe.com/00w6oJclQ1Nwd6Lf4L1VK08" class="pkg-cta pkg-cta-solid" style="font-size:13px;padding:10px 20px;">Buy Now →</a>
+      </div>
+    </div>
+
+    <div class="newsletter-block">
+      <div>
+        <h3>Monthly Newsletter Sponsor</h3>
+        <p>Exclusive sponsorship of all NewsAnarchist newsletter sends for one calendar month. Your brand appears in every send — typically 4–8 emails. Includes header placement in all sends plus one dedicated blast. First right of renewal.</p>
+      </div>
+      <div class="newsletter-price-box">
+        <div class="amount">$1,800</div>
+        <div class="period">per month</div>
+        <a href="https://buy.stripe.com/aFa28tgC6ak26In1dV1VK09" class="pkg-cta pkg-cta-solid" style="font-size:13px;padding:10px 20px;">Buy Now →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="section-label">Why NewsAnarchist</div>
+    <h2 class="section-title">What You're Actually Buying</h2>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon">📈</div><h4>Verified Authority</h4><p>DR 75, 37K backlinks (100% dofollow), 187 linking domains. Verified via Ahrefs. A backlink from NewsAnarchist has measurable SEO value.</p></div>
+      <div class="why-card"><div class="why-icon">🎯</div><h4>Niche, Not Mass</h4><p>Our audience is small by tabloid standards and enormous by specialty media standards. These readers have influence in policy circles, academic institutions, and investigative journalism.</p></div>
+      <div class="why-card"><div class="why-icon">📊</div><h4>Growing Fast</h4><p>Traffic tripled in 30 days. From 1,500 pageviews/day in late April to 6,000+/day in late May. Early advertisers lock in current rates before the next tier.</p></div>
+      <div class="why-card"><div class="why-icon">✉️</div><h4>Owned Audience</h4><p>5,000+ email subscribers who opted in. Not social followers dependent on algorithm reach — a direct-contact list with open rates consistently above industry average.</p></div>
+      <div class="why-card"><div class="why-icon">🔗</div><h4>Real Backlink Value</h4><p>Every sponsored content placement includes a permanent dofollow backlink from a DR 75 domain. For SEO-focused brands, this alone justifies the placement cost.</p></div>
+      <div class="why-card"><div class="why-icon">🛡️</div><h4>Brand Safe</h4><p>No user-generated content, no comment sections, no viral controversy. Investigative journalism with editorial standards. Your ad appears next to credible reporting.</p></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="section-label">Get Started</div>
+    <h2 class="section-title">Contact Our Advertising Team</h2>
+    <div class="contact-block">
+      <div>
+        <h3>Let's talk about what works for your budget.</h3>
+        <p>We work with organizations of all sizes — from independent researchers and small publishers to established think tanks and media companies. Custom packages available for multi-month commitments.</p>
+        <div class="contact-detail">
+          <div class="contact-item"><div class="contact-item-label">Email</div><div class="contact-item-value"><a href="mailto:alexa.rivers@newsanarchist.com">alexa.rivers@newsanarchist.com</a></div></div>
+          <div class="contact-item"><div class="contact-item-label">Response</div><div class="contact-item-value">Within 24–48 hours</div></div>
+          <div class="contact-item"><div class="contact-item-label">Formats</div><div class="contact-item-value">Display · Sponsored Content · Newsletter</div></div>
+          <div class="contact-item"><div class="contact-item-label">Min. Spend</div><div class="contact-item-value">$299 (single placement)</div></div>
+          <div class="contact-item"><div class="contact-item-label">Payments</div><div class="contact-item-value">Credit card · ACH · Invoice</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="agent-card">
+          <div class="agent-header">
+            <div class="agent-avatar">AR</div>
+            <div>
+              <div class="agent-name">Alexa Rivers</div>
+              <div class="agent-title">Advertising &amp; Partnerships Director · NewsAnarchist.com</div>
+            </div>
+          </div>
+          <p class="agent-bio">Alexa handles all advertising inquiries, partnership proposals, and sponsored content placements at NewsAnarchist. She'll respond to your inquiry within 24 hours with a media kit, audience data, and a custom proposal tailored to your goals and budget.</p>
+          <a href="mailto:alexa.rivers@newsanarchist.com?subject=Advertising Inquiry — NewsAnarchist.com" class="agent-email">Email Alexa →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>
+    <a href="/">NewsAnarchist.com</a> &nbsp;·&nbsp;
+    Advertising: <a href="mailto:alexa.rivers@newsanarchist.com">alexa.rivers@newsanarchist.com</a> &nbsp;·&nbsp;
+    <a href="/editorial-standards.html">Editorial Standards</a> &nbsp;·&nbsp;
+    NewsAnarchist / c/o Chronic Internet / P.O. Box 510072, Kealia, HI 96751
+  </p>
+</footer>
+
+</body>
+</html>
