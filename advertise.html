@@ -108,13 +108,54 @@ footer p{font-size:13px;color:#6b7280}
 footer a{color:#9ca3af;text-decoration:none}
 footer a:hover{color:var(--white)}
 @media(max-width:768px){.hero{padding:48px 20px}.hero-stats{gap:24px}.container{padding:0 20px}.packages-grid{grid-template-columns:1fr}}
+
+/* ── Site nav ── */
+.na-nav{background:#111;position:sticky;top:0;z-index:100;border-bottom:2px solid #E11D48}
+.na-nav-inner{display:flex;align-items:center;gap:0;padding:0 16px;overflow-x:auto;scrollbar-width:none;height:48px}
+.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav-inner a{color:#9ca3af;text-decoration:none;font-size:12px;font-weight:600;letter-spacing:0.3px;white-space:nowrap;padding:0 12px;height:48px;display:flex;align-items:center;transition:color 0.15s}
+.na-nav-inner a:hover,.na-nav-inner a.active{color:#fff}
+.na-logo{font-family:'Syne',sans-serif!important;font-weight:800!important;font-size:17px!important;color:#fff!important;letter-spacing:-0.5px}
+.na-logo em{color:#E11D48;font-style:normal}
+/* ── Footer ── */
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:600px){.na-fgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}
+.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:13px;line-height:1.6;margin-bottom:12px}
+.na-flink{display:block;font-size:13px;color:#9ca3af;text-decoration:none;padding:3px 0;transition:color 0.15s}
+.na-flink:hover{color:#fff}
+.na-flink-acc{color:#E11D48!important;font-weight:600;margin-bottom:8px}
+.na-fct{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#555;margin-bottom:8px}
+.na-fdiv{margin-top:16px;padding-top:16px;border-top:1px solid #1A1A1A}
+.na-fext{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:#9ca3af;text-decoration:none;padding:4px 0}
+.na-fext:hover{color:#fff}
+.na-fbadge{font-size:10px;background:#1A1A1A;color:#555;padding:2px 6px;border-radius:2px}
+.na-fleg{font-size:11px;color:#444;margin-top:12px;line-height:1.5}
+.na-fbot{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;max-width:1200px;margin:0 auto;flex-wrap:wrap;gap:8px}
+.na-fcopy{font-size:12px;color:#444}
+.na-fchronic{font-size:12px;color:#444;text-decoration:none}
+.na-fchronic:hover{color:#fff}
 </style>
 </head>
 <body>
 
-<nav>
-  <a href="/" class="nav-logo">NewsAnarchist<span>.</span>com</a>
-  <a href="mailto:alexa.rivers@newsanarchist.com" class="nav-link">Advertising Inquiries →</a>
+<nav class="na-nav">
+<div class="na-nav-inner">
+<a href="/" class="na-logo">News<em>Anarchist</em></a>
+<a href="/category/surveillance-state.html">Surveillance State</a>
+<a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
+<a href="/category/government-secrets.html">Government Secrets</a>
+<a href="/category/tech-privacy.html">Tech &amp; Privacy</a>
+<a href="/category/global-power.html">Global Power</a>
+<a href="/category/money-markets.html">Money &amp; Markets</a>
+<a href="/category/unexplained.html">Unexplained</a>
+<a href="/category/true-crime.html">True Crime</a>
+<a href="/trending.html">Trending</a>
+<a href="/buried-week.html">The Buried Week</a>
+</div>
 </nav>
 
 <section class="hero">
@@ -335,13 +376,13 @@ footer a:hover{color:var(--white)}
       <div>
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-avatar">AR</div>
+            <img src="/images/staff/alexa-rivers.webp" alt="Alexa Rivers" style="width:52px;height:52px;border-radius:50%;object-fit:cover;flex-shrink:0;">
             <div>
               <div class="agent-name">Alexa Rivers</div>
               <div class="agent-title">Advertising &amp; Partnerships Director · NewsAnarchist.com</div>
             </div>
           </div>
-          <p class="agent-bio">Alexa handles all advertising inquiries, partnership proposals, and sponsored content placements at NewsAnarchist. She'll respond to your inquiry within 24 hours with a media kit, audience data, and a custom proposal tailored to your goals and budget.</p>
+          <p class="agent-bio">Alexa handles all questions about our advertising packages above — pricing, availability, creative specs, and billing. All placements are purchased directly via the Stripe links on this page. Email Alexa if you have questions before purchasing or need a custom package.</p>
           <a href="mailto:alexa.rivers@newsanarchist.com?subject=Advertising Inquiry — NewsAnarchist.com" class="agent-email">Email Alexa →</a>
         </div>
       </div>
@@ -350,13 +391,62 @@ footer a:hover{color:var(--white)}
 
 </div>
 
-<footer>
-  <p>
-    <a href="/">NewsAnarchist.com</a> &nbsp;·&nbsp;
-    Advertising: <a href="mailto:alexa.rivers@newsanarchist.com">alexa.rivers@newsanarchist.com</a> &nbsp;·&nbsp;
-    <a href="/editorial-standards.html">Editorial Standards</a> &nbsp;·&nbsp;
-    NewsAnarchist / c/o Chronic Internet / P.O. Box 510072, Kealia, HI 96751
-  </p>
+<footer class="na-footer">
+<div class="na-fgrid">
+<div>
+<div class="na-fwm">News<em>Anarchist</em></div>
+<div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs. The stories buried, spiked, or spun.</div>
+<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a>
+<a href="/editorial.html" class="na-flink">Editorial Standards</a>
+<a href="/tip-line.html" class="na-flink">Tip Line</a>
+<a href="/about-our-authors.html" class="na-flink">About Our Authors</a>
+</div>
+<div>
+<div class="na-fct">Steve Ysreal Monas</div>
+<a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
+<a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
+<a href="https://www.stevemonas.com/blog#writing" class="na-flink">Writing</a>
+<a href="https://www.stevemonas.com/blog#history" class="na-flink">History &amp; Culture</a>
+<a href="https://www.stevemonas.com/blog#growth" class="na-flink">Personal Growth</a>
+<div class="na-fdiv">
+<div class="na-fct">Books</div>
+<a href="https://amzn.to/4qQAD2U" class="na-flink">Steve Ysreal Monas on Amazon →</a>
+</div>
+</div>
+<div>
+<div class="na-fct">Also From Chronic Internet</div>
+<a href="https://brieftape.com" class="na-fext"><span>BriefTape</span><span class="na-fbadge">Financial News</span></a>
+<a href="https://bevoza.com" class="na-fext" style="margin-top:5px"><span>Bevoza</span><span class="na-fbadge">Digital Products</span></a>
+<a href="https://5minutemiracleapp.com" class="na-fext" style="margin-top:5px"><span>5 Minute Miracle</span><span class="na-fbadge">Mobile App</span></a>
+<div class="na-fdiv">
+<div class="na-fct">Categories</div>
+<a href="/category/surveillance-state.html" class="na-flink">Surveillance State</a>
+<a href="/category/corporate-watchdog.html" class="na-flink">Corporate Watchdog</a>
+<a href="/category/government-secrets.html" class="na-flink">Government Secrets</a>
+<a href="/category/tech-privacy.html" class="na-flink">Tech &amp; Privacy</a>
+</div>
+</div>
+<div>
+<div class="na-fct">More Categories</div>
+<a href="/category/global-power.html" class="na-flink">Global Power</a>
+<a href="/category/money-markets.html" class="na-flink">Money &amp; Markets</a>
+<a href="/category/unexplained.html" class="na-flink">Unexplained</a>
+<a href="/category/true-crime.html" class="na-flink">True Crime</a>
+<div class="na-fdiv">
+<div class="na-fct">Legal</div>
+<a href="/privacy.html" class="na-flink">Privacy Policy</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/rss" class="na-flink">RSS Feed</a>
+<div class="na-fleg">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
+</div>
+</div>
+</div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved. AI-assisted editorial content disclosed in bylines.</div>
+<a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a>
+</div>
 </footer>
 
 </body>

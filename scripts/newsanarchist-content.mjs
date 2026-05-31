@@ -993,7 +993,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -2733,7 +2733,7 @@ a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav">
-<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a></div>
+<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a></div>
 </nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
 <div class="na-body">
@@ -3056,7 +3056,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/newsanarchist-files.html" class="active">The Files</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a><a href="/newsanarchist-files.html" class="active">The Files</a>
 </div></nav>
 <div class="na-page">
 <div class="bw-hero">
@@ -3259,7 +3259,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a>
 </div></nav>
 <div class="na-body">
 <main>
