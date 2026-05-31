@@ -311,6 +311,10 @@ function isMainstreamGarbage(title, description) {
     /weekly thread/i,
     /megathread/i,
     /^(help|question|advice|eli5|psa|rant|vent|update|tldr)/i,
+    /^(should i|should we|should you|would you|do you|does anyone|does anybody|has anyone|have you|can i|can you|am i|is it|is there|are there|what is|what are|what do|what should|what would|how do|how can|how should|why do|why is|why are|anyone else|anybody else)/i,
+    /\?$/,
+    /^(my |i |we |our )(wife|husband|partner|boss|company|employer|job|account|computer|phone|device|friend|family)/i,
+    /(concern me|worry me|bother me|affect me|help me|advice|thoughts\?|opinions\?|experience\?)/i,
   ];
   if (redditJunk.some(p => p.test(title))) return true;
 
