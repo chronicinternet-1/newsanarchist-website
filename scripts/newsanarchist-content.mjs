@@ -80,6 +80,24 @@ const CATEGORY_AUTHORS = {
     beat: 'Unexplained & Emerging Tech',
     credential: 'Science journalist',
   },
+  'Web3 & Blockchain': {
+    name: 'Casey North',
+    slug: 'casey-north',
+    beat: 'Unexplained & Emerging Tech',
+    credential: 'Science journalist',
+  },
+  'Financial Fraud': {
+    name: 'Jordan Ames',
+    slug: 'jordan-ames',
+    beat: 'Government Benefits Fraud & Financial Crime',
+    credential: 'Former federal fraud investigator',
+  },
+  'Conflict & Wars': {
+    name: 'Rafael Reyes',
+    slug: 'rafael-reyes',
+    beat: 'Conflict & Emerging Wars',
+    credential: 'War correspondent',
+  },
 };
 
 function getAuthor(category) {
@@ -102,6 +120,9 @@ const CATEGORIES = [
   'Money & Markets',
   'Unexplained',
   'True Crime',
+  'Financial Fraud',
+  'Conflict & Wars',
+  'Web3 & Blockchain',
 ];
 
 const CATEGORY_SLUGS = {
@@ -113,6 +134,9 @@ const CATEGORY_SLUGS = {
   'Money & Markets': 'money-markets',
   'Unexplained': 'unexplained',
   'True Crime': 'true-crime',
+  'Financial Fraud': 'financial-fraud',
+  'Conflict & Wars': 'conflict-wars',
+  'Web3 & Blockchain': 'web3-blockchain',
 };
 
 const CATEGORY_KEYWORDS = {
@@ -181,6 +205,36 @@ const CATEGORY_KEYWORDS = {
     'prosecutorial misconduct', 'evidence tampering', 'corruption',
     'cover up', 'organized crime', 'cartel', 'trafficking', 'fraud scheme',
     'ponzi', 'cybercrime', 'dark web', 'cold case solved', 'death row',
+  ],
+  'Financial Fraud': [
+    'medicaid fraud', 'medicare fraud', 'snap fraud', 'food stamp fraud',
+    'hospice fraud', 'daycare fraud', 'childcare fraud', 'benefits fraud',
+    'doj indictment', 'wire fraud', 'securities fraud', 'money laundering',
+    'ponzi scheme', 'rico', 'shell company', 'offshore accounts', 'embezzlement',
+    'forfeiture', 'financial crime', 'white collar crime', 'fraud ring',
+    'vance task force', 'cms enforcement', 'hhs oig', 'state ag fraud',
+    'crypto fraud', 'pig butchering', 'romance scam', 'investment fraud',
+    'nick shirley', 'ghost provider', 'billing fraud', 'false claims act',
+  ],
+  'Conflict & Wars': [
+    'china military', 'pla', 'taiwan strait', 'south china sea', 'taiwan',
+    'proxy war', 'arms deal', 'battlefield technology', 'war crimes',
+    'conflict financing', 'sudan', 'myanmar', 'sahel', 'mali', 'niger',
+    'burkina faso', 'somalia', 'ethiopia', 'tigray', 'drone warfare',
+    'unreported war', 'forgotten war', 'siege warfare', 'blockade',
+    'iran conflict', 'israel', 'gaza', 'west bank', 'hezbollah', 'houthi',
+    'ukraine', 'russia', 'nato expansion', 'wagner group', 'mercenary',
+    'arms trafficking', 'child soldiers', 'war correspondent',
+    'international crisis group', 'acled', 'civilian casualties',
+  ],
+  'Web3 & Blockchain': [
+    'defi', 'dao', 'nft', 'stablecoin', 'cbdc', 'crypto enforcement',
+    'on-chain', 'smart contract', 'bridge hack', 'rug pull', 'exploit',
+    'blockchain forensics', 'chainalysis', 'crypto fraud', 'sec crypto',
+    'cftc crypto', 'doj crypto', 'tornado cash', 'mixer', 'sanctions evasion',
+    'crypto money laundering', 'ransomware payment', 'north korea crypto',
+    'web3', 'tokenomics', 'crypto wallet', 'exchange hack', 'defi exploit',
+    'crypto winter', 'stablecoin collapse', 'algorithmic stablecoin',
   ],
 };
 
@@ -781,6 +835,18 @@ const RELATED_PRODUCTS = {
     "primary": { "url": "https://www.amazon.com/dp/0743477154?tag=chronicinte02-20", "title": "Postmortem — Patricia Cornwell", "tagline": "The forensic thriller that launched a genre.", "type": "book" },
     "secondary": { "url": "https://www.amazon.com/dp/B008XZTBMW?tag=chronicinte02-20", "title": "HQRP 365nm Forensic Blacklight Flashlight", "tagline": "See what the naked eye misses.", "type": "hardware" }
   },
+  "Financial Fraud": {
+    "primary": { "url": "https://www.amazon.com/dp/0385537352?tag=chronicinte02-20", "title": "Bad Blood — John Carreyrou", "tagline": "The definitive account of the biggest fraud in Silicon Valley history.", "type": "book" },
+    "secondary": { "url": "https://www.amazon.com/dp/B09N991KVT?tag=chronicinte02-20", "title": "Bonsaii 12-Sheet Cross-Cut Paper Shredder", "tagline": "Destroy documents before they destroy you.", "type": "hardware" }
+  },
+  "Conflict & Wars": {
+    "primary": { "url": "https://www.amazon.com/dp/0385544189?tag=chronicinte02-20", "title": "The Internationalists — Oona Hathaway", "tagline": "How a world of endless war became a world of relative peace — and why it's fragile.", "type": "book" },
+    "secondary": { "url": "https://www.amazon.com/dp/B007H4VT7A?tag=chronicinte02-20", "title": "Baofeng UV-5R Two-Way Radio", "tagline": "When infrastructure fails, communication survives.", "type": "hardware" }
+  },
+  "Web3 & Blockchain": {
+    "primary": { "url": "https://www.amazon.com/dp/B09W66VHFH?tag=chronicinte02-20", "title": "Ledger Nano S Plus Crypto Hardware Wallet", "tagline": "Your crypto. Offline. Unconfiscatable.", "type": "hardware" },
+    "secondary": { "url": "https://www.amazon.com/dp/1119983668?tag=chronicinte02-20", "title": "The Cryptopians — Laura Shin", "tagline": "The idealism, greed, lies, and infighting that broke crypto.", "type": "book" }
+  },
 };
 
 function renderRelatedProducts(category) {
@@ -997,7 +1063,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -2391,6 +2457,12 @@ function remapArticleCategory(article) {
 
   if (/surveillance|nsa|fbi|cia|wiretap|tracking|facial recognition|biometric|spy|stingray|warrantless|bulk collection|metadata collection/.test(text))
     return 'Surveillance State';
+  if (/defi|dao|nft|stablecoin|cbdc|on-chain|smart contract|bridge hack|rug pull|blockchain forensics|chainalysis|crypto fraud|sec crypto|cftc crypto|doj crypto|tornado cash|crypto money laundering|ransomware payment|north korea crypto|web3|blockchain/.test(text))
+    return 'Web3 & Blockchain';
+  if (/medicaid fraud|medicare fraud|snap fraud|food stamp fraud|hospice fraud|daycare fraud|childcare fraud|benefits fraud|doj indictment|wire fraud|securities fraud|money laundering|ponzi scheme|rico|shell company|offshore accounts|embezzlement|forfeiture|financial crime|white collar crime|fraud ring/.test(text))
+    return 'Financial Fraud';
+  if (/proxy war|arms deal|war crimes|conflict financing|drone warfare|unreported war|forgotten war|siege warfare|blockade|china military|pla|taiwan strait|south china sea|sahel|mali|niger|burkina faso|somalia|ethiopia|tigray|myanmar|sudan/.test(text))
+    return 'Conflict & Wars';
   if (/federal reserve|fed rate|inflation|stock market|wall street|crypto|bitcoin|etf|hedge fund|trillion|gdp|tariff|trade war|economic|market crash|nasdaq|dow jones/.test(text))
     return 'Money & Markets';
   if (/pentagon|classified|leaked|dossier|coup|shadow|deep state|whistleblower|cia document|nsa document|foia|muckrock|blacksite|secret operation/.test(text))
@@ -2737,7 +2809,7 @@ a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav">
-<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a></div>
+<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a></div>
 </nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
 <div class="na-body">
@@ -3060,7 +3132,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a><a href="/newsanarchist-files.html" class="active">The Files</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a><a href="/newsanarchist-files.html" class="active">The Files</a>
 </div></nav>
 <div class="na-page">
 <div class="bw-hero">
@@ -3101,7 +3173,7 @@ ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div clas
 }
 
 function rebuildCategoryPages(allArticles) {
-  const VALID_CATS = new Set(['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime']);
+  const VALID_CATS = new Set(['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime','Financial Fraud','Conflict & Wars','Web3 & Blockchain']);
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
   ).map(a => ({ ...a, category: VALID_CATS.has(a.category) ? a.category : remapArticleCategory(a) }))
@@ -3263,7 +3335,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/advertise.html">Advertise</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -3467,7 +3539,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html" class="active">Trending</a><a href="/buried-week.html">The Buried Week</a>
+<a href="/">Home</a>${navLinks}<a href="/trending.html" class="active">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a>
 </div></nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Trending</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
 <div class="na-body">
