@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Search — NewsAnarchist</title>
+<meta name="description" content="Search 1,700+ investigative articles across surveillance, corporate power, government secrets, and more.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}
+.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.na-wm{font-family:'DM Sans',sans-serif;font-size:26px;font-weight:700;color:#111}.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap}
+.na-nav-inner a:hover{color:#fff}
+.search-wrap{max-width:860px;margin:40px auto;padding:0 20px 48px}
+.search-header{margin-bottom:32px}
+.search-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:8px}
+.search-title{font-family:'DM Sans',sans-serif;font-size:2rem;font-weight:700;color:#111;margin-bottom:20px}
+.search-box-wrap{position:relative}
+.search-input{width:100%;padding:14px 50px 14px 18px;font-size:1rem;font-family:'DM Sans',sans-serif;border:2px solid #111;background:#fff;color:#111;outline:none;border-radius:0}
+.search-input:focus{border-color:#E11D48}
+.search-input::placeholder{color:#999}
+.search-clear{position:absolute;right:16px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.2rem;cursor:pointer;color:#999;display:none}
+.search-clear.visible{display:block}
+.search-meta{font-size:12px;color:#888;margin:12px 0 0;min-height:18px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 28px}
+.filter-btn{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border:1px solid #e5e3de;background:#fff;cursor:pointer;color:#666}
+.filter-btn:hover{border-color:#111;color:#111}
+.filter-btn.active{background:#111;color:#fff;border-color:#111}
+.results{display:flex;flex-direction:column;gap:1px}
+.result-item{background:#fff;border:1px solid #e5e3de;padding:16px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .15s}
+.result-item:hover{border-color:#111}
+.result-meta{display:flex;gap:10px;align-items:center;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.result-cat{color:#E11D48}
+.result-date{color:#aaa}
+.result-title{font-family:'DM Sans',sans-serif;font-size:1rem;font-weight:600;color:#111;line-height:1.3}
+.result-title mark{background:#FEF9C3;color:#111;border-radius:2px;padding:0 2px}
+.no-results{text-align:center;padding:60px 20px;color:#888;font-family:'Source Serif 4',serif;font-size:1rem}
+.no-results strong{display:block;font-family:'DM Sans',sans-serif;font-size:1.2rem;font-weight:700;color:#111;margin-bottom:8px}
+.loading{text-align:center;padding:40px;color:#888;font-size:0.9rem}
+.na-footer{background:#111;color:#888;padding:24px 20px;margin-top:48px;text-align:center;font-size:11px}
+.na-footer a{color:#555;margin:0 8px}
+@media(max-width:600px){.search-title{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<div class="na-mast"><div class="na-mast-inner">
+<div><div class="na-wm"><a href="/">News<em>Anarchist</em></a></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button>
+</div></div>
+<nav class="na-nav"><div class="na-nav-inner">
+<a href="/">Home</a>
+<a href="/category/surveillance-state.html">Surveillance State</a>
+<a href="/category/corporate-watchdog.html">Corporate Watchdog</a>
+<a href="/category/government-secrets.html">Gov't Secrets</a>
+<a href="/category/tech-privacy.html">Tech &amp; Privacy</a>
+<a href="/category/global-power.html">Global Power</a>
+<a href="/category/money-markets.html">Money &amp; Markets</a>
+<a href="/category/financial-fraud.html">Financial Fraud</a>
+<a href="/category/conflict-wars.html">Conflict &amp; Wars</a>
+<a href="/category/unexplained.html">Unexplained</a>
+<a href="/category/true-crime.html">True Crime</a>
+<a href="/trending.html">Trending</a>
+</div></nav>
+
+<div class="search-wrap">
+  <div class="search-header">
+    <div class="search-label">Search</div>
+    <h1 class="search-title">Find any story</h1>
+    <div class="search-box-wrap">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search 1,700+ articles — surveillance, fraud, FOIA, UAP..." autocomplete="off" spellcheck="false">
+      <button class="search-clear" id="clearBtn" onclick="clearSearch()">✕</button>
+    </div>
+    <div class="search-meta" id="searchMeta"></div>
+  </div>
+
+  <div class="filter-bar" id="filterBar" style="display:none">
+    <button class="filter-btn active" data-cat="all" onclick="setFilter('all',this)">All</button>
+    <button class="filter-btn" data-cat="Surveillance State" onclick="setFilter('Surveillance State',this)">Surveillance</button>
+    <button class="filter-btn" data-cat="Corporate Watchdog" onclick="setFilter('Corporate Watchdog',this)">Corporate</button>
+    <button class="filter-btn" data-cat="Government Secrets" onclick="setFilter('Government Secrets',this)">Gov't Secrets</button>
+    <button class="filter-btn" data-cat="Tech & Privacy" onclick="setFilter('Tech & Privacy',this)">Tech &amp; Privacy</button>
+    <button class="filter-btn" data-cat="Global Power" onclick="setFilter('Global Power',this)">Global Power</button>
+    <button class="filter-btn" data-cat="Money & Markets" onclick="setFilter('Money & Markets',this)">Markets</button>
+    <button class="filter-btn" data-cat="Financial Fraud" onclick="setFilter('Financial Fraud',this)">Fraud</button>
+    <button class="filter-btn" data-cat="Conflict & Wars" onclick="setFilter('Conflict & Wars',this)">Conflict</button>
+    <button class="filter-btn" data-cat="Unexplained" onclick="setFilter('Unexplained',this)">Unexplained</button>
+    <button class="filter-btn" data-cat="True Crime" onclick="setFilter('True Crime',this)">True Crime</button>
+  </div>
+
+  <div id="results"></div>
+</div>
+
+<footer class="na-footer">
+<a href="/">Home</a><a href="/about.html">About</a><a href="/editorial.html">Editorial Standards</a><a href="/tip-line.html">Tip Line</a><a href="/subscribe.html">Subscribe</a>
+<div style="margin-top:12px">&copy; 2026 NewsAnarchist. A Chronic Internet Company.</div>
+</footer>
+
+<script>
+let articles = [];
+let activeFilter = 'all';
+let searchTimeout = null;
+
+// Format date
+function fmtDate(str) {
+  try {
+    return new Date(str).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch { return ''; }
+}
+
+// Highlight matching text
+function highlight(text, query) {
+  if (!query) return text;
+  const words = query.trim().split(/\s+/).filter(w => w.length > 1);
+  if (!words.length) return text;
+  const re = new RegExp(`(${words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+// Score a result
+function score(article, terms) {
+  let s = 0;
+  const title = article.title.toLowerCase();
+  const cat   = (article.category || '').toLowerCase();
+  for (const t of terms) {
+    if (title.includes(t))    s += title.startsWith(t) ? 10 : 5;
+    if (cat.includes(t))      s += 3;
+    if (article.slug.includes(t)) s += 1;
+  }
+  return s;
+}
+
+// Render results
+function render(items, query) {
+  const resultsEl = document.getElementById('results');
+  const metaEl    = document.getElementById('searchMeta');
+
+  if (!items.length) {
+    resultsEl.innerHTML = `<div class="no-results"><strong>No results found</strong>Try different keywords or browse by category above.</div>`;
+    metaEl.textContent = '';
+    return;
+  }
+
+  metaEl.textContent = `${items.length.toLocaleString()} result${items.length !== 1 ? 's' : ''}`;
+
+  resultsEl.innerHTML = items.slice(0, 50).map(a => `
+    <a href="/articles/${a.filename}" class="result-item">
+      <div class="result-meta">
+        <span class="result-cat">${a.category || 'News'}</span>
+        <span class="result-date">${fmtDate(a.generatedAt || a.pubDate)}</span>
+      </div>
+      <div class="result-title">${highlight(a.title, query)}</div>
+    </a>
+  `).join('');
+}
+
+// Search
+function doSearch() {
+  const query = document.getElementById('searchInput').value.trim();
+  const clearBtn = document.getElementById('clearBtn');
+  const filterBar = document.getElementById('filterBar');
+
+  clearBtn.classList.toggle('visible', query.length > 0);
+
+  if (!query && activeFilter === 'all') {
+    document.getElementById('results').innerHTML = '';
+    document.getElementById('searchMeta').textContent = `${articles.length.toLocaleString()} articles indexed`;
+    filterBar.style.display = 'none';
+    return;
+  }
+
+  filterBar.style.display = 'flex';
+
+  const terms = query.toLowerCase().split(/\s+/).filter(w => w.length > 1);
+
+  let filtered = articles;
+
+  // Category filter
+  if (activeFilter !== 'all') {
+    filtered = filtered.filter(a => (a.category || '') === activeFilter);
+  }
+
+  // Text filter
+  if (terms.length) {
+    filtered = filtered.filter(a => {
+      const haystack = `${a.title} ${a.category} ${a.slug}`.toLowerCase();
+      return terms.every(t => haystack.includes(t));
+    });
+    // Sort by relevance
+    filtered.sort((a, b) => score(b, terms) - score(a, terms));
+  } else {
+    // Category only — sort by date
+    filtered.sort((a, b) => new Date(b.generatedAt || b.pubDate) - new Date(a.generatedAt || a.pubDate));
+  }
+
+  render(filtered, query);
+}
+
+function setFilter(cat, btn) {
+  activeFilter = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  doSearch();
+}
+
+function clearSearch() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('clearBtn').classList.remove('visible');
+  document.getElementById('filterBar').style.display = 'none';
+  document.getElementById('results').innerHTML = '';
+  document.getElementById('searchMeta').textContent = `${articles.length.toLocaleString()} articles indexed`;
+  document.getElementById('searchInput').focus();
+}
+
+// Input handler with debounce
+document.getElementById('searchInput').addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(doSearch, 150);
+});
+
+document.getElementById('searchInput').addEventListener('keydown', e => {
+  if (e.key === 'Escape') clearSearch();
+});
+
+// Load index
+document.getElementById('results').innerHTML = '<div class="loading">Loading article index...</div>';
+fetch('/generated-articles.json')
+  .then(r => r.json())
+  .then(data => {
+    articles = Array.isArray(data) ? data : [];
+    // Sort newest first by default
+    articles.sort((a, b) => new Date(b.generatedAt || b.pubDate) - new Date(a.generatedAt || a.pubDate));
+    document.getElementById('results').innerHTML = '';
+    document.getElementById('searchMeta').textContent = `${articles.length.toLocaleString()} articles indexed`;
+
+    // Auto-focus and handle URL param
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+      document.getElementById('searchInput').value = q;
+      doSearch();
+    } else {
+      document.getElementById('searchInput').focus();
+    }
+  })
+  .catch(() => {
+    document.getElementById('results').innerHTML = '<div class="no-results"><strong>Failed to load index</strong>Please try refreshing the page.</div>';
+  });
+</script>
+</body>
+</html>
