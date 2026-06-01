@@ -2455,14 +2455,14 @@ function remapArticleCategory(article) {
   // Always run keyword remap — raw category from scrape may be wrong
   // (e.g., "Commies Running NYC" was tagged Unexplained by keyword overlap)
 
-  if (/surveillance|nsa|fbi|cia|wiretap|tracking|facial recognition|biometric|spy|stingray|warrantless|bulk collection|metadata collection/.test(text))
-    return 'Surveillance State';
+  if (/medicaid fraud|medicare fraud|snap fraud|food stamp fraud|hospice fraud|daycare fraud|childcare fraud|benefits fraud|wire fraud|securities fraud|ponzi scheme|rico|shell company|offshore accounts|embezzlement|forfeiture|financial crime|white collar crime|fraud ring|money laundering/.test(text))
+    return 'Financial Fraud';
   if (/defi|dao|nft|stablecoin|cbdc|on-chain|smart contract|bridge hack|rug pull|blockchain forensics|chainalysis|crypto fraud|sec crypto|cftc crypto|doj crypto|tornado cash|crypto money laundering|ransomware payment|north korea crypto|web3|blockchain/.test(text))
     return 'Web3 & Blockchain';
-  if (/medicaid fraud|medicare fraud|snap fraud|food stamp fraud|hospice fraud|daycare fraud|childcare fraud|benefits fraud|doj indictment|wire fraud|securities fraud|money laundering|ponzi scheme|rico|shell company|offshore accounts|embezzlement|forfeiture|financial crime|white collar crime|fraud ring/.test(text))
-    return 'Financial Fraud';
   if (/proxy war|arms deal|war crimes|conflict financing|drone warfare|unreported war|forgotten war|siege warfare|blockade|china military|pla|taiwan strait|south china sea|sahel|mali|niger|burkina faso|somalia|ethiopia|tigray|myanmar|sudan/.test(text))
     return 'Conflict & Wars';
+  if (/surveillance|nsa|fbi|cia|wiretap|tracking|facial recognition|biometric|spy|stingray|warrantless|bulk collection|metadata collection/.test(text))
+    return 'Surveillance State';
   if (/federal reserve|fed rate|inflation|stock market|wall street|crypto|bitcoin|etf|hedge fund|trillion|gdp|tariff|trade war|economic|market crash|nasdaq|dow jones/.test(text))
     return 'Money & Markets';
   if (/pentagon|classified|leaked|dossier|coup|shadow|deep state|whistleblower|cia document|nsa document|foia|muckrock|blacksite|secret operation/.test(text))
