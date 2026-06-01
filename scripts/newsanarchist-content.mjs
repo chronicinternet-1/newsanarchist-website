@@ -3176,7 +3176,7 @@ function rebuildCategoryPages(allArticles) {
   const VALID_CATS = new Set(['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime','Financial Fraud','Conflict & Wars','Web3 & Blockchain']);
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
-  ).map(a => ({ ...a, category: VALID_CATS.has(a.category) ? a.category : remapArticleCategory(a) }))
+  ).map(a => ({ ...a, category: remapArticleCategory(a) }))
    .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
 
   const ARTICLES_PER_PAGE = 100;
