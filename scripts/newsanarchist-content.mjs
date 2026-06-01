@@ -287,7 +287,9 @@ function detectCategory(title, description) {
     scores[cat] = keywords.filter(k => text.includes(k)).length;
   }
   const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
-  return sorted[0][1] > 0 ? sorted[0][0] : 'Government Secrets';
+  // Return best keyword match, or null — never default to Government Secrets here
+  // remapArticleCategory() handles the fallback with broader regex rules
+  return sorted[0][1] > 0 ? sorted[0][0] : null;
 }
 
 function categoryEmoji(cat) {
@@ -1979,7 +1981,10 @@ async function runScrape() {
   for (const topic of allTopics) {
     // If from a trusted feed with a pre-set category, keep it
     if (topic.category && TRUSTED_CATEGORY_SOURCES.has(topic.source)) continue;
-    topic.category = detectCategory(topic.title, topic.description);
+    const detected = detectCategory(topic.title, topic.description);
+    // If keyword scoring found a match, use it; otherwise use regex remapper
+    // This bakes the correct category into the article at generation time
+    topic.category = detected || remapArticleCategory(topic);
   }
 
   // Deduplicate and rank by obscurity score
