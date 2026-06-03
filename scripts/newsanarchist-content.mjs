@@ -1058,6 +1058,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<script src="//ezoicanalytics.com/analytics.js"></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -1082,9 +1090,15 @@ ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.na
 <div class="art-meta">${dateDisplay}<br>${readTime}</div>
 </div>
 ${heroImageStyle ? `<img src="/images/articles/${slug}.webp" alt="${title.replace(/"/g,"'")}" class="art-img" onerror="this.style.display='none'" loading="eager">` : ''}
+<div id="ezoic-pub-ad-placeholder-101"></div>
+<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
+<div id="ezoic-pub-ad-placeholder-102"></div>
+<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(102); });</script>
 ${renderRelatedProducts(category)}
 </article>
+<div id="ezoic-pub-ad-placeholder-103"></div>
+<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(103); });</script>
 </main>
 <aside>
 <div class="na-widget" id="na-brief">
@@ -2899,6 +2913,14 @@ a{color:inherit;text-decoration:none}
 .na-fleg{font-size:10px;color:#333;margin-top:8px;line-height:1.5}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<script src="//ezoicanalytics.com/analytics.js"></script>
 </head>
 <body>
 <div class="na-mast">
@@ -3222,6 +3244,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<script src="//ezoicanalytics.com/analytics.js"></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -3425,6 +3455,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<script src="//ezoicanalytics.com/analytics.js"></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -3629,6 +3667,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<script src="//ezoicanalytics.com/analytics.js"></script>
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
