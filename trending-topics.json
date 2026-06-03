@@ -1,351 +1,313 @@
 {
-  "scrapedAt": "2026-06-03T09:02:01.560Z",
+  "scrapedAt": "2026-06-03T15:02:02.019Z",
   "topicsCount": 8,
   "topics": [
     {
-      "title": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekJFdlptWk5vbGhhWkZ6UUtNWW16OHJuSDJtVG10UlhIaGh4OWJBZEQwTjA2Wk1iX3QxU0tFMDBqRm9odzh4SGRIM2FDQTl5MDVWTmt3Y3hPUUpuQXNBSXpEckZab1FlbmpXc0xmcUtnVExBdEE5X01rakhYempOX3ktZ3RZdlNkcG9jd19FUE53QUNRMnBVaTROVWNFNDVydFc3Q1JGYlNxMmN3VTNqNlMwWS0?oc=5",
-      "description": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw Forbes",
-      "pubDate": "2026-01-23T08:00:00.000Z",
-      "source": "Google News (Tech & Privacy)",
+      "title": "Donald Trump is the conspiracy.",
+      "url": "https://www.reddit.com/r/conspiracy/comments/1tvlzeg/donald_trump_is_the_conspiracy/",
+      "description": "<!-- SC_OFF --><div ><p>Forget the distractions. The biggest one is right in front of us.</p> <p>Crypto Empire Built on Foreign Money:Days before his second inauguration, a UAE royal (Sheikh Tahnoon bin Zayed Al Nahyan, the country’s national security adviser) secretly bought a 49% stake in the Trump family’s World Liberty Financial for $500 million. This routed $187 million directly to Trump fami",
+      "pubDate": "2026-06-03T11:03:51.000Z",
+      "source": "r/conspiracy",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 10,
+      "sources": [
+        "r/conspiracy",
+        "ProPublica"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>Forget the distractions. The biggest one is right in front of us.</p> <p>Crypto Empire Built on Foreign Money:Days before his second inauguration, a UAE royal (Sheikh Tahnoon bin Zayed Al Nahyan, the country’s national security adviser) secretly bought a 49% stake in the Trump family’s World Liberty Financial for $500 million. This routed $187 million directly to Trump fami",
+      "keywords": [
+        "money-&-markets news",
+        "trump",
+        "million",
+        "donald",
+        "conspiracy",
+        "forget",
+        "distractions",
+        "biggest"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#trump",
+        "#million",
+        "#donald",
+        "#conspiracy",
+        "#forget",
+        "#distractions",
+        "#biggest"
+      ],
+      "slug": "2026-06-03-donald-trump-is-the-conspiracy",
+      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1tvlzeg/donald_trump_is_the_conspiracy/",
+      "generatedAt": "2026-06-03T15:01:45.706Z",
+      "relatedArticles": [
+        {
+          "title": "DOGE 15m short setup: risk-defined scalp, not a prediction",
+          "slug": "2026-06-03-doge-15m-short-setup-risk-defined-scalp-not-a-prediction",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Quote of the day by Oracle co-founder Larry Ellison: \"Citizens will be on their best behavior, because we’re constantly recording and reporting everything that is going on\" — a dire warning on the erosion of privacy",
+      "url": "https://www.reddit.com/r/privacy/comments/1tve2py/quote_of_the_day_by_oracle_cofounder_larry/",
+      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-03T04:00:03.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
       "category": "Tech & Privacy",
-      "score": 6,
-      "sources": [
-        "Google News (Tech & Privacy)"
-      ],
-      "content": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw Forbes",
-      "keywords": [
-        "tech-&-privacy news",
-        "microsoft",
-        "gave",
-        "bitlocker",
-        "encryption",
-        "keys",
-        "exposing",
-        "privacy"
-      ],
-      "hashtags": [
-        "#tech-&-privacynews",
-        "#microsoft",
-        "#gave",
-        "#bitlocker",
-        "#encryption",
-        "#keys",
-        "#exposing",
-        "#privacy"
-      ],
-      "slug": "2026-06-03-microsoft-gave-fbi-bitlocker-encryption-keys-exposing-privacy-flaw",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekJFdlptWk5vbGhhWkZ6UUtNWW16OHJuSDJtVG10UlhIaGh4OWJBZEQwTjA2Wk1iX3QxU0tFMDBqRm9odzh4SGRIM2FDQTl5MDVWTmt3Y3hPUUpuQXNBSXpEckZab1FlbmpXc0xmcUtnVExBdEE5X01rakhYempOX3ktZ3RZdlNkcG9jd19FUE53QUNRMnBVaTROVWNFNDVydFc3Q1JGYlNxMmN3VTNqNlMwWS0?oc=5",
-      "generatedAt": "2026-06-03T09:01:44.790Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "I built an AI assistant that runs fully offline on a USB stick. No cloud, no account, nothing leaves your machine",
-      "url": "https://www.reddit.com/r/privacy/comments/1tvj7n6/i_built_an_ai_assistant_that_runs_fully_offline/",
-      "description": "<!-- SC_OFF --><div ><p>I got tired of \"private\" AI tools that still route everything through someone else's<br/> server, so over the last year I built the opposite: a self-contained AI assistant that<br/> lives entirely on a USB stick and runs fully offline on Windows.</p> <p>The whole point is that it can't leak what it never sends. Put the machine in airplane<br/> mode, unplug the network — it ",
-      "pubDate": "2026-06-03T08:35:06.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Conflict & Wars",
-      "score": 6,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div ><p>I got tired of \"private\" AI tools that still route everything through someone else's<br/> server, so over the last year I built the opposite: a self-contained AI assistant that<br/> lives entirely on a USB stick and runs fully offline on Windows.</p> <p>The whole point is that it can't leak what it never sends. Put the machine in airplane<br/> mode, unplug the network — it ",
-      "keywords": [
-        "conflict-&-wars news",
-        "built",
-        "assistant",
-        "runs",
-        "fully",
-        "offline",
-        "stick",
-        "machine"
-      ],
-      "hashtags": [
-        "#conflict-&-warsnews",
-        "#built",
-        "#assistant",
-        "#runs",
-        "#fully",
-        "#offline",
-        "#stick",
-        "#machine"
-      ],
-      "slug": "2026-06-03-i-built-an-ai-assistant-that-runs-fully-offline-on-a-usb-stick-no-cloud-no-accou",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tvj7n6/i_built_an_ai_assistant_that_runs_fully_offline/",
-      "generatedAt": "2026-06-03T09:01:48.618Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "Opposite Of Drawdown: US Mulls Expanding Nuclear Weapons Deployments In Europe",
-      "url": "https://www.zerohedge.com/geopolitical/opposite-drawdown-us-mulls-expanding-nuclear-weapons-deployments-europe",
-      "description": "<span >Opposite Of Drawdown: US Mulls Expanding Nuclear Weapons Deployments In Europe</span> <div ><p>The White House has been talking about reducing America's military presence across the European continent, amid long-running Trump complaints over lack of NATO burden-sharing. There are even plans to draw down 5,000 US troops from Germany on a permanent basis (though for now it appears thousands are just being moved to Poland).</p> <p>Such a military 'reduction' would be welcomed by Moscow, howe",
-      "pubDate": "Wed, 03 Jun 2026 08:15:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 4,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "The White House has been talking about reducing America&#x27;s military presence across the European continent, amid long-running Trump complaints over lack of NATO burden-sharing. There are even plans to draw down 5,000 US troops from Germany on a permanent basis (though for now it appears thousands are just being moved to Poland). Such a military &#x27;reduction&#x27; would be welcomed by Moscow, however, as is usual when Washington signals de-escalation in force posture, the result ends up being the opposite . Washington is reportedly preparing to scatter more nuclear tripwires across the European continent, all while claiming a draw down of forces and footprint. DoD file image According to a Financial Times report published Tuesday, the US is actively discussing whether to deploy nuclear weapons in more NATO states . Citing three people briefed on the internal discussions, American officials have signaled distinct openness to additional deployments well beyond the six nations that currently host the Pentagon&#x27;s nuclear-capable bombers. Under NATO’s legacy nuclear sharing program, only six allies including Belgium, Germany, Italy, the Netherlands, Turkey, and the United Kingdom - are approved to host US supplied dual-capable aircraft and \"forward-deployed\" nuclear bombs . And yet that exclusive club may be about to get a lot larger, and even closer to Moscow&#x27;s doorstep. Unsurprisingly, the nations highest on the list are located along NATO&#x27;s eastern flank , with Poland and various Baltic states already aggressively expressing interest in hosting the bases required to house the aircraft. But as even Ukrainian media points out, this violates prior high level agreements between the Western alliance and Moscow : The 1997 NATO-Russia agreement said NATO had no plans to place nuclear weapons in new member states. However, some countries that joined NATO later, including Poland, have since said they would be open to hosting US nuclear weapons, especially after Russia’s invasion of Ukraine . The FT report suggests that while an agreement to expand nuclear hosting is not imminent, high-level discussions are happening at the highest levels of NATO. The proposal seems to be Washington&#x27;s carrot offered alongside the &#x27;stick&#x27; of renewed financial arm-twisting over lack of European defense spending. via London School of Economics and Political Science As we featured last week, some recent reports have dubbed the new vision for European defense as \"NATO 3.0\" - wherein Washington would expect European allies to assume responsibility for the continent’s entire conventional defense, and the nuclear arsenal would be maintained by the United States. Lately France&#x27;s Macron has introduced the possibility of a French nuclear umbrella, apparently as an alterantive. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "global-power news",
-        "nuclear",
-        "nato",
-        "european",
-        "weapons",
-        "military",
-        "continent",
-        "even"
-      ],
-      "hashtags": [
-        "#global-powernews",
-        "#nuclear",
-        "#nato",
-        "#european",
-        "#weapons",
-        "#military",
-        "#continent",
-        "#even"
-      ],
-      "slug": "2026-06-03-opposite-of-drawdown-us-mulls-expanding-nuclear-weapons-deployments-in-europe",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/opposite-drawdown-us-mulls-expanding-nuclear-weapons-deployments-europe",
-      "generatedAt": "2026-06-03T09:01:50.444Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "I can't believe how normalized it is that email providers can just read your emails in full",
-      "url": "https://www.reddit.com/r/privacy/comments/1tviof7/i_cant_believe_how_normalized_it_is_that_email/",
-      "description": "<!-- SC_OFF --><div ><p>I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which <strong><em>will</em></strong> have some vulnerabilities and places for data to leak. Google's always trying out new thin",
-      "pubDate": "2026-06-03T08:04:04.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Corporate Watchdog",
       "score": 9,
       "sources": [
         "r/privacy"
       ],
-      "content": "<!-- SC_OFF --><div ><p>I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which <strong><em>will</em></strong> have some vulnerabilities and places for data to leak. Google's always trying out new thin",
+      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
       "keywords": [
-        "corporate-watchdog news",
-        "just",
-        "data",
-        "read",
-        "your",
-        "emails",
-        "places",
-        "believe"
+        "tech-&-privacy news",
+        "quote",
+        "oracle",
+        "founder",
+        "larry",
+        "ellison",
+        "citizens",
+        "their"
       ],
       "hashtags": [
-        "#corporate-watchdognews",
-        "#just",
-        "#data",
-        "#read",
-        "#your",
-        "#emails",
-        "#places",
-        "#believe"
+        "#tech-&-privacynews",
+        "#quote",
+        "#oracle",
+        "#founder",
+        "#larry",
+        "#ellison",
+        "#citizens",
+        "#their"
       ],
-      "slug": "2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tviof7/i_cant_believe_how_normalized_it_is_that_email/",
-      "generatedAt": "2026-06-03T09:01:52.518Z",
-      "relatedArticles": [
-        {
-          "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
-          "slug": "2026-06-03-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
-          "category": "Corporate Watchdog"
-        },
-        {
-          "title": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025",
-          "slug": "2026-06-03-antitrust-agency-insights-developments-at-the-us-antitrust-enforcement-agencies",
-          "category": "Corporate Watchdog"
-        }
-      ]
+      "slug": "2026-06-03-quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-be",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tve2py/quote_of_the_day_by_oracle_cofounder_larry/",
+      "generatedAt": "2026-06-03T15:01:47.526Z",
+      "relatedArticles": []
     },
     {
-      "title": "Bonsai-JS: zero-dependency expression language for rules, filters, and templates",
-      "url": "https://github.com/danfry1/bonsai-js",
-      "description": "",
-      "pubDate": "2026-06-03T08:38:37.000Z",
-      "source": "Hacker News",
-      "hnScore": 1,
-      "hnComments": 0,
-      "category": "Surveillance State",
-      "score": 8,
+      "title": "Early Returns Show Surprises In California As Other States Wrap Up",
+      "url": "https://www.zerohedge.com/political/california-iowa-4-other-states-hold-primaries-key-races-watch",
+      "description": "<span >Early Returns Show Surprises In California As Other States Wrap Up</span> <div ><p><em>Update (0030ET): </em>Voters in six states went to the polls today for key primaries. While many races followed expectations, <strong>California delivered notable early drama</strong> with slow-counting mail ballots still to come.</p> <h2>California Governor (Top-Two Primary)</h2> <p>The race to replace term-limited Gov. Gavin Newsom remains the biggest story. In a crowded nonpartisan jungle primary, <s",
+      "pubDate": "Wed, 03 Jun 2026 04:29:31 +0000",
+      "source": "ZeroHedge",
+      "category": "Conflict & Wars",
+      "score": 4,
       "sources": [
-        "Hacker News"
+        "ZeroHedge"
       ],
-      "content": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} danfry1 / bonsai-js Public Notifications You must be signed in to change notification settings Fork 1 Star 118 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 84 Commits 84 Commits .github .github benchmarks benchmarks docs docs scripts scripts src src tests tests website website .git-blame-ignore-revs .git-blame-ignore-revs .gitattributes .gitattributes .gitignore .gitignore .oxfmtrc.json .oxfmtrc.json .oxlintrc.json .oxlintrc.json ARCHITECTURE.md ARCHITECTURE.md CHANGELOG.md CHANGELOG.md CONTRIBUTING.md CONTRIBUTING.md LICENSE LICENSE README.md README.md SECURITY.md SECURITY.md bun.lock bun.lock bunfig.toml bunfig.toml knip.jsonc knip.jsonc lefthook.yml lefthook.yml package.json package.json tsconfig.json tsconfig.json tsconfig.typecheck.json tsconfig.typecheck.json tsdown.config.ts tsdown.config.ts vitest.config.ts vitest.config.ts View all files Repository files navigation A safe expression language for rules, filters, templates, and user-authored logic. Runs in any JavaScript runtime. Bonsai gives you a constrained expression language with caching, typed errors, pluggable transforms/functions, and safety controls. It is designed for cases where eval() would be inappropriate: business rules, formula fields, admin-defined filters, template helpers, and product configuration. bun add bonsai-js # or npm install bonsai-js npm · Playground · Docs Evaluate expressions from config, database records, or admin tools. Let users define filters, conditions, or formatting rules without executing arbitrary JavaScript. Build reusable compiled rules for hot paths. Add a small expression language to a product without shipping a large runtime dependency tree. Quick Start import { bonsai } from 'bonsai-js' import { arrays , math , strings } from 'bonsai-js/stdlib' const expr = bonsai ( ) . use ( strings ) . use ( arrays ) . use ( math ) expr . evaluateSync ( '1 + 2 * 3' ) // 7 expr . evaluateSync ( 'user.age >= 18' , { user : { age : 25 } , } ) // true expr . evaluateSync ( 'name |> trim |> upper' , { name : ' dan ' , } ) // 'DAN' expr . evaluateSync ( 'users |> filter(.age >= 18) |> map(.name)' , { users : [ { name : 'Alice' , age : 25 } , { name : 'Bob' , age : 15 } , ] , } ) // ['Alice'] // JS-style method chaining works too expr . evaluateSync ( 'users.filter(.age >= 18).map(.name)' , { users : [ { name : 'Alice' , age : 25 } , { name : 'Bob' , age : 15 } , ] , } ) // ['Alice'] expr . evaluateSync ( '[1, 2, 3, 4].filter(. > 2)' ) // [3, 4] expr . evaluateSync ( 'user?.profile?.avatar ?? \"default.png\"' , { user : null , } ) // 'default.png' Choose the Right API Need API Repeated evaluations with caching, plugins, or safety options bonsai() One-off evaluation with default behavior evaluateExpression() Hot-path reuse of the same expression compile() Syntax checks and reference extraction before execution validate() Async transforms or async functions evaluate() / compiled .evaluate() Sync-only execution evaluateSync() / compiled .evaluateSync() Real-world Patterns Rule engine import { bonsai } from 'bonsai-js' const expr = bonsai ( { timeout : 50 , maxDepth : 50 , allowedProperties : [ 'user' , 'age' , 'country' , 'plan' ] , } ) const isEligible = expr . compile ( 'user.age >= 18 && user.country == \"GB\" && user.plan == \"pro\"' ) isEligible . evaluateSync ( { user : { age : 25 , country : 'GB' , plan : 'pro' } , } ) // true Async enrichment import { bonsai } from 'bonsai-js' const expr = bonsai ( ) expr . addFunction ( 'lookupTier' , async ( userId ) => { const row = await db . users . findById ( String ( userId ) ) return row ?. tier ?? 'free' } ) await expr . evaluate ( 'lookupTier(userId) == \"pro\"' , { userId : 'u_123' } ) Context-aware functions Register functions that read the evaluation context directly. The function receives the evaluation context as its first parameter (typed read-only), so you can keep expressions terse and let the function pull what it needs: import { bonsai } from 'bonsai-js' interface AppContext { currentUserId : string perms : readonly string [ ] } const app = bonsai < AppContext > ( ) app . addContextFunction ( 'lookupCurrentUserTier' , async ( ctx ) => { const row = await db . users . findById ( ctx . currentUserId ) return row ?. tier ?? 'free' } ) app . addContextFunction ( 'hasPermission' , ( ctx , action ) => ctx . perms . includes ( String ( action ) ) ) await app . evaluate ( 'lookupCurrentUserTier() == \"pro\" && hasPermission(\"admin\")' , { currentUserId : 'u_123' , perms : [ 'admin' , 'write' ] } , ) The instance is generic over the context type ( bonsai<AppContext>() ), giving you end-to-end type safety: ctx is typed inside the function, and the call site is type-checked against the same shape. If your context type has required fields, TypeScript also requires you to pass the context argument to evaluate , evaluateSync , and compiled-expression evaluation. The context is passed to your function by reference, not copied or frozen. The Readonly<TCtx> parameter type signals that you should treat it as read-only: TypeScript flags reassigning its top-level fields. Bonsai does not deep-freeze it, so nested mutation and writes from untyped JavaScript reach the object you passed in. If you need isolation between evaluations, pass a fresh context object each time. Pure functions ( addFunction ) and context-aware functions ( addContextFunction ) share a single namespace. Registering the same name with either method overwrites the prior registration, so re-registering a context-aware name with addFunction turns it back into a pure function (check isContextFunction(name) if the kind matters). Functions registered with addFunction never receive the context; reach for addContextFunction when a function needs it. Plugins typed against a minimal context requirement can still be applied to instances with a wider context shape. const result = expr . validate ( 'user.name |> upper' ) if ( result . valid ) { result . references . identifiers // ['user'] result . references . transforms // ['upper'] } else { console . error ( result . errors [ 0 ] ?. formatted ) } Array Methods and Lambdas Bonsai supports two styles for working with arrays: pipe transforms and JS-style method chaining . Both use the same lambda shorthand. Inside array methods, . refers to the current item: Compound predicates work too: .age >= 18 && .active A lambda is built from the accessor plus operators, member access, and methods. The shorthand is itself a function value, so it cannot be passed into another function call: map(myFn(.x)) does not mean map(item => myFn(item.x)) and will throw a BonsaiTypeError . To transform each item through a function, chain instead: items |> map(.x) |> map(myFn) (or items.map(.x).map(myFn) ). import { arrays } from 'bonsai-js/stdlib' const expr = bonsai ( ) . use ( arrays ) expr . evaluateSync ( 'users |> filter(.age >= 18) |> map(.name)' , { users : [ { name : 'Alice' , age : 25 } , { name : 'Bob' , age : 15 } ] , } ) // ['Alice'] expr . evaluateSync ( '[1, 2, 3, 4] |> filter(. > 2)' ) // [3, 4] JS-style method chaining No stdlib import required — filter , map , find , some , and every work as native array methods: const expr = bonsai ( ) expr . evaluateSync ( 'users.filter(.age >= 18).map(.name)' , { users : [ { name : 'Alice' , age : 25 } , { name : 'Bob' , age : 15 } ] , } ) // ['Alice'] expr . evaluateSync ( '[1, 2, 3, 4].filter(. > 2)' ) // [3, 4] expr . evaluateSync ( '[1, 2, 3].map(. * 10)' ) // [10, 20, 30] expr . evaluateSync ( '[1, 2, 3].find(. > 1)' ) // 2 expr . evaluateSync ( '[1, 2, 3].some(. > 2)' ) // true expr . evaluateSync ( '[1, 2, 3].every(. > 0)' ) // true Both styles support async evaluation via evaluate() . These methods work via native .method() syntax without any imports. Mutating methods ( reverse , sort , push , pop , splice , etc.) are blocked to prevent context mutation. Pipe-only transforms (require stdlib import): count , first , last , reverse , flatten , unique , sort , upper , lower , trim , sum , avg , clamp , and more. See Standard Library for the full list. bonsai(options?) Creates a reusable evaluator instance with its own extension registry and caches. import { bonsai } from 'bonsai-js' const expr = bonsai ( options ?: BonsaiOptions ) BonsaiOptions : Runs an expression synchronously and returns its result immediately. const result = expr . evaluateSync < number > ( 'price * quantity' , { price : 9.99 , quantity : 3 , } ) Use this when:",
+      "content": "Update (0030ET): Voters in six states went to the polls today for key primaries. While many races followed expectations, California delivered notable early drama with slow-counting mail ballots still to come. The race to replace term-limited Gov. Gavin Newsom remains the biggest story. In a crowded nonpartisan jungle primary, early returns (approx. 45-50% counted) show: Chad Bianco (R) is further back. If trends hold, Hilton and Becerra are positioned to advance to November - setting up a potentially competitive general election in deep-blue California. Mail ballots could still shift the order. Incumbent Karen Bass (D) leads with ~36.5-38% (46%+ counted), followed by a strong surge from Spencer Pratt (R) at ~30%. Nithya Raman (D) trails at ~20%. Bass and Pratt are heavily favored to advance to the November runoff. Pratt’s performance reflects voter frustration with homelessness, crime, and city governance. Overall Takeaway: A night of outsider energy and tight races, particularly in California. Full results may take days or weeks due to mail-in ballots. These outcomes will shape the November midterms. Authored by Joseph Lord via The Epoch Times (emphasis ours), The California gubernatorial and Los Angeles mayoral primaries are among the most closely watched races today. A voter fills out a ballot at a polling station in Des Moines, Iowa, on Nov. 6, 2018. Joshua Lott/Getty Images Voters in six states will go to the polls today for a series of key races. The biggest item of the night will be the litany of races in California, the nation&#x27;s largest state. Others will be held in Iowa, Montana, New Mexico, New Jersey, and South Dakota. Here are the most important races to watch. The race to replace outgoing Gov. Gavin Newsom is one of the most-watched in the nation. California&#x27;s gubernatorial elections are designed to be nonpartisan. With about six candidates polling with at least 5 percent support, only the top two vote-getters will be on the general gubernatorial election ballot in November, even if both are of the same party. In the final weeks leading into the primary, the election underwent a total shake-up when front-runner Rep. Eric Swalwell (D-Calif.) left the race - and Congress - following multiple allegations of sexual harassment and sexual assault. Swalwell has denied the allegations. Currently, the Democratic front-runners are former U.S. Secretary of Health and Human Services Xavier Becerra and billionaire Tom Steyer. The two are polling close, although Becerra retains a slight advantage. The main Republican candidates in the race are Steve Hilton, a British American TV show host and conservative commentator, and Riverside County Sheriff Chad Bianco. Polling leaves it unclear whether Hilton or Steyer is favored for second place. Residents of Los Angeles will also vote in the nonpartisan mayoral primary. Incumbent Mayor Karen Bass is facing off against 10 other contenders . She is expected to win the top spot in the primary. Meanwhile, the top Democratic contender for the second-place spot - member of the Los Angeles City Council Nithya Raman - is seeking to hold off a challenge from former reality TV star Spencer Pratt, running as a Republican, and make it to the general election. In California&#x27;s 22nd Congressional District, Rep. David Valadao (R-Calif.) will face off in a nonpartisan primary with state Rep. Jasmeet Bains and Randy Villegas, both Democrats.",
       "keywords": [
-        "surveillance-state news",
-        "bonsai",
-        "expr",
-        "name",
-        "evaluatesync",
-        "context",
-        "user",
-        "const"
+        "conflict-&-wars news",
+        "california",
+        "races",
+        "primary",
+        "early",
+        "states",
+        "race",
+        "nonpartisan"
       ],
       "hashtags": [
-        "#surveillance-statenews",
-        "#bonsai",
-        "#expr",
-        "#name",
-        "#evaluatesync",
-        "#context",
-        "#user",
-        "#const"
+        "#conflict-&-warsnews",
+        "#california",
+        "#races",
+        "#primary",
+        "#early",
+        "#states",
+        "#race",
+        "#nonpartisan"
       ],
-      "slug": "2026-06-03-bonsai-js-zero-dependency-expression-language-for-rules-filters-and-templates",
-      "sourceUrl": "https://github.com/danfry1/bonsai-js",
-      "generatedAt": "2026-06-03T09:01:54.395Z",
-      "relatedArticles": [
-        {
-          "title": "Presidential Authority to Conduct Warrantless Electronic Surveillance to Gather Foreign Intelligence Information",
-          "slug": "2026-06-03-presidential-authority-to-conduct-warrantless-electronic-surveillance-to-gather",
-          "category": "Surveillance State"
-        }
-      ]
+      "slug": "2026-06-03-early-returns-show-surprises-in-california-as-other-states-wrap-up",
+      "sourceUrl": "https://www.zerohedge.com/political/california-iowa-4-other-states-hold-primaries-key-races-watch",
+      "generatedAt": "2026-06-03T15:01:50.885Z",
+      "relatedArticles": []
     },
     {
-      "title": "Presidential Authority to Conduct Warrantless Electronic Surveillance to Gather Foreign Intelligence Information",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b1IxSU5pbml4Q3BKZDRNSUlQM19lR204STlJRFhHX2RIYzhsLTZHX0ZHV3dkRWJ1R2lqNnRJb3ZNUk5nOFNMMTUtMURJM1B1Z2dIZGFqb0JGZXJTSklN?oc=5",
-      "description": "Presidential Authority to Conduct Warrantless Electronic Surveillance to Gather Foreign Intelligence Information Every CRS Report",
-      "pubDate": "2016-10-21T10:40:22.000Z",
+      "title": "After the strike: The danger of war in Iran",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNGNFVFVKQUJmYlhkc1RtOHFTQURFQ0Y5WVBhMW5LRHdzUHV3ZllKbm9aZnM1WWowVmt4dUE1T1k0WlBWSVhxelF3OTl1XzNtQUtOZXVXQTB4Tm8wR3NuWjhHckdaSUduT21zZ0hCZFd0UkdpYzA0NnBRMExieXIwdWw2cHg?oc=5",
+      "description": "After the strike: The danger of war in Iran Brookings",
+      "pubDate": "2026-03-02T08:00:00.000Z",
+      "source": "Google News (Global Power)",
+      "category": "Global Power",
+      "score": 4,
+      "sources": [
+        "Google News (Global Power)",
+        "r/worldnews"
+      ],
+      "content": "After the strike: The danger of war in Iran Brookings",
+      "keywords": [
+        "global-power news",
+        "strike",
+        "danger",
+        "iran",
+        "brookings"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#strike",
+        "#danger",
+        "#iran",
+        "#brookings"
+      ],
+      "slug": "2026-06-03-after-the-strike-the-danger-of-war-in-iran",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNGNFVFVKQUJmYlhkc1RtOHFTQURFQ0Y5WVBhMW5LRHdzUHV3ZllKbm9aZnM1WWowVmt4dUE1T1k0WlBWSVhxelF3OTl1XzNtQUtOZXVXQTB4Tm8wR3NuWjhHckdaSUduT21zZ0hCZFd0UkdpYzA0NnBRMExieXIwdWw2cHg?oc=5",
+      "generatedAt": "2026-06-03T15:01:52.658Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "GameStop Discloses First Quarter 2026 Results",
+      "url": "https://www.reddit.com/r/stocks/comments/1tv4t55/gamestop_discloses_first_quarter_2026_results/",
+      "description": "<!-- SC_OFF --><div ><p><a /u/deadcowww </a> <br/> <span><a",
+      "pubDate": "2026-06-02T21:29:14.000Z",
+      "source": "r/stocks",
+      "redditScore": 0,
+      "category": "Financial Fraud",
+      "score": 1,
+      "sources": [
+        "r/stocks",
+        "GlobeNewswire Tech"
+      ],
+      "content": "<!-- SC_OFF --><div ><p><a /u/deadcowww </a> <br/> <span><a",
+      "keywords": [
+        "financial-fraud news",
+        "gamestop",
+        "discloses",
+        "first",
+        "quarter",
+        "results",
+        "deadcowww"
+      ],
+      "hashtags": [
+        "#financial-fraudnews",
+        "#gamestop",
+        "#discloses",
+        "#first",
+        "#quarter",
+        "#results",
+        "#deadcowww"
+      ],
+      "slug": "2026-06-03-gamestop-discloses-first-quarter-2026-results",
+      "sourceUrl": "https://www.reddit.com/r/stocks/comments/1tv4t55/gamestop_discloses_first_quarter_2026_results/",
+      "generatedAt": "2026-06-03T15:01:54.571Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
+      "description": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
+      "pubDate": "2021-09-07T07:00:00.000Z",
       "source": "Google News (Surveillance State)",
       "category": "Surveillance State",
-      "score": 6,
+      "score": 9,
       "sources": [
         "Google News (Surveillance State)"
       ],
-      "content": "Presidential Authority to Conduct Warrantless Electronic Surveillance to Gather Foreign Intelligence Information Every CRS Report",
+      "content": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
       "keywords": [
         "surveillance-state news",
-        "presidential",
-        "authority",
-        "conduct",
-        "warrantless",
-        "electronic",
+        "privacy",
+        "lesson",
+        "mass",
         "surveillance",
-        "gather"
+        "forward",
+        "american",
+        "civil"
       ],
       "hashtags": [
         "#surveillance-statenews",
-        "#presidential",
-        "#authority",
-        "#conduct",
-        "#warrantless",
-        "#electronic",
+        "#privacy",
+        "#lesson",
+        "#mass",
         "#surveillance",
-        "#gather"
+        "#forward",
+        "#american",
+        "#civil"
       ],
-      "slug": "2026-06-03-presidential-authority-to-conduct-warrantless-electronic-surveillance-to-gather",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b1IxSU5pbml4Q3BKZDRNSUlQM19lR204STlJRFhHX2RIYzhsLTZHX0ZHV3dkRWJ1R2lqNnRJb3ZNUk5nOFNMMTUtMURJM1B1Z2dIZGFqb0JGZXJTSklN?oc=5",
-      "generatedAt": "2026-06-03T09:01:56.310Z",
+      "slug": "2026-06-03-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
+      "generatedAt": "2026-06-03T15:01:56.049Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "DOGE 15m short setup: risk-defined scalp, not a prediction",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tvrhlf/doge_15m_short_setup_riskdefined_scalp_not_a/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>This is the kind of crypto setup where I care more about invalidation than direction.</p> <p>The short idea is simple: price rejected near the local high, momentum weakened, and the breakdown candle gave a possible continuation setup. But the grade is not amazing, so I would not treat this like a high-conviction call.</p> <p>What matter",
+      "pubDate": "2026-06-03T14:44:07.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 9,
+      "sources": [
+        "r/cryptocurrency"
+      ],
+      "content": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>This is the kind of crypto setup where I care more about invalidation than direction.</p> <p>The short idea is simple: price rejected near the local high, momentum weakened, and the breakdown candle gave a possible continuation setup. But the grade is not amazing, so I would not treat this like a high-conviction call.</p> <p>What matter",
+      "keywords": [
+        "money-&-markets news",
+        "setup",
+        "short",
+        "high",
+        "doge",
+        "risk",
+        "defined",
+        "scalp"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#setup",
+        "#short",
+        "#high",
+        "#doge",
+        "#risk",
+        "#defined",
+        "#scalp"
+      ],
+      "slug": "2026-06-03-doge-15m-short-setup-risk-defined-scalp-not-a-prediction",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1tvrhlf/doge_15m_short_setup_riskdefined_scalp_not_a/",
+      "generatedAt": "2026-06-03T15:01:57.282Z",
       "relatedArticles": [
         {
-          "title": "Bonsai-JS: zero-dependency expression language for rules, filters, and templates",
-          "slug": "2026-06-03-bonsai-js-zero-dependency-expression-language-for-rules-filters-and-templates",
-          "category": "Surveillance State"
+          "title": "Donald Trump is the conspiracy.",
+          "slug": "2026-06-03-donald-trump-is-the-conspiracy",
+          "category": "Money & Markets"
         }
       ]
     },
     {
-      "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
-      "description": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
-      "pubDate": "2025-09-30T07:00:00.000Z",
+      "title": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02LXlVQ2FjZExhLWU2bnRGUThLc0wycEw5VW9QT216cjRSS3VhSFFPM1NFSjRVaXhfeGlZdFpNNzFFQTlvSTE3c053QldOZHVKelR4LUZoMkFDN01xMXpreVN6dFpuaG5wRkZDajRMVUVlektqcUZsa9IBfkFVX3lxTE9sM1FDenRhMmZCdDJVSEpta21INDN4anVnVzdPdXljd1VQdG9tRVZEY01URUpCWDFITmh4LUtXbWp2b2ZZWkwydjgtMU1fSnBWMTRJQlJaWEV6eG10dnFqS1pCWTNJWUUxeHpqT0hlcDFHVWExcmt3c213cGZUQQ?oc=5",
+      "description": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund LiveNOW from FOX",
+      "pubDate": "2025-11-21T08:00:00.000Z",
       "source": "Google News (Corporate Watchdog)",
       "category": "Corporate Watchdog",
       "score": 6,
       "sources": [
         "Google News (Corporate Watchdog)"
       ],
-      "content": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
+      "content": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund LiveNOW from FOX",
       "keywords": [
         "corporate-watchdog news",
-        "landmark",
-        "billion",
         "amazon",
+        "prime",
+        "billion",
         "settlement",
-        "highlights",
-        "ongoing",
-        "focus"
+        "here",
+        "claim",
+        "refund"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#landmark",
-        "#billion",
         "#amazon",
+        "#prime",
+        "#billion",
         "#settlement",
-        "#highlights",
-        "#ongoing",
-        "#focus"
+        "#here",
+        "#claim",
+        "#refund"
       ],
-      "slug": "2026-06-03-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
-      "generatedAt": "2026-06-03T09:01:58.411Z",
-      "relatedArticles": [
-        {
-          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
-          "slug": "2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
-          "category": "Corporate Watchdog"
-        },
-        {
-          "title": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025",
-          "slug": "2026-06-03-antitrust-agency-insights-developments-at-the-us-antitrust-enforcement-agencies",
-          "category": "Corporate Watchdog"
-        }
-      ]
-    },
-    {
-      "title": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzZaSVZxQ3FJU2ZoOVpwa2s3cmFPUmhEUmR4cDRxWTFuS3U0SWtlVVUyeVdmU1c5VEowcjdSbF9uc05sVVpWb0gwWldsMnVyazRVWlBTSWJMdnZoNGgyb0tCS21nWjF0RmxlaU9NUGstRzFkN1ZJdl90UjNYQ3pWeUp3SUF2Zm9BWkwtSzJCb2k3cURfZXZqWjZ0N3VNWHpScWtKdWJDanIza1Y5VEhv?oc=5",
-      "description": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025 Arnold & Porter",
-      "pubDate": "2025-03-31T07:00:00.000Z",
-      "source": "Google News (Corporate Watchdog)",
-      "category": "Corporate Watchdog",
-      "score": 6,
-      "sources": [
-        "Google News (Corporate Watchdog)"
-      ],
-      "content": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025 Arnold & Porter",
-      "keywords": [
-        "corporate-watchdog news",
-        "antitrust",
-        "agency",
-        "insights",
-        "developments",
-        "enforcement",
-        "agencies",
-        "first"
-      ],
-      "hashtags": [
-        "#corporate-watchdognews",
-        "#antitrust",
-        "#agency",
-        "#insights",
-        "#developments",
-        "#enforcement",
-        "#agencies",
-        "#first"
-      ],
-      "slug": "2026-06-03-antitrust-agency-insights-developments-at-the-us-antitrust-enforcement-agencies",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzZaSVZxQ3FJU2ZoOVpwa2s3cmFPUmhEUmR4cDRxWTFuS3U0SWtlVVUyeVdmU1c5VEowcjdSbF9uc05sVVpWb0gwWldsMnVyazRVWlBTSWJMdnZoNGgyb0tCS21nWjF0RmxlaU9NUGstRzFkN1ZJdl90UjNYQ3pWeUp3SUF2Zm9BWkwtSzJCb2k3cURfZXZqWjZ0N3VNWHpScWtKdWJDanIza1Y5VEhv?oc=5",
-      "generatedAt": "2026-06-03T09:01:59.948Z",
-      "relatedArticles": [
-        {
-          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
-          "slug": "2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
-          "category": "Corporate Watchdog"
-        },
-        {
-          "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
-          "slug": "2026-06-03-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
-          "category": "Corporate Watchdog"
-        }
-      ]
+      "slug": "2026-06-03-amazon-prime-25-billion-settlement-heres-how-to-claim-a-refund",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02LXlVQ2FjZExhLWU2bnRGUThLc0wycEw5VW9QT216cjRSS3VhSFFPM1NFSjRVaXhfeGlZdFpNNzFFQTlvSTE3c053QldOZHVKelR4LUZoMkFDN01xMXpreVN6dFpuaG5wRkZDajRMVUVlektqcUZsa9IBfkFVX3lxTE9sM1FDenRhMmZCdDJVSEpta21INDN4anVnVzdPdXljd1VQdG9tRVZEY01URUpCWDFITmh4LUtXbWp2b2ZZWkwydjgtMU1fSnBWMTRJQlJaWEV6eG10dnFqS1pCWTNJWUUxeHpqT0hlcDFHVWExcmt3c213cGZUQQ?oc=5",
+      "generatedAt": "2026-06-03T15:02:00.269Z",
+      "relatedArticles": []
     }
   ]
 }
