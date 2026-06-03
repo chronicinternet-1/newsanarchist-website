@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 03 Jun 2026 07:01:21 GMT</lastBuildDate>
-    <pubDate>Wed, 03 Jun 2026 07:01:21 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2026 09:06:45 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2026 09:06:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,54 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>I built an AI assistant that runs fully offline on a USB stick. No cloud, no account, nothing leaves your machine</title>
+      <link>https://newsanarchist.com/articles/2026-06-03-i-built-an-ai-assistant-that-runs-fully-offline-on-a-usb-stick-no-cloud-no-accou</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-03-i-built-an-ai-assistant-that-runs-fully-offline-on-a-usb-stick-no-cloud-no-accou</guid>
+      <pubDate>Wed, 03 Jun 2026 08:35:06 GMT</pubDate>
+      <description>&lt;!-- SC_OFF --&gt;&lt;div &gt;&lt;p&gt;I got tired of "private" AI tools that still route everything through someone else's&lt;br/&gt; server, so over the last year I built the opposite: a self-contained AI assistant that&lt;br/&gt; lives entirely on a USB stick and runs fully offline on Windows.&lt;/p&gt; &lt;p&gt;The whole point is that it can't leak what it never sends. Put the machine in airplane&lt;br/&gt; mode, unplug the network — it </description>
+      <content:encoded><![CDATA[<!-- SC_OFF --><div ><p>I got tired of "private" AI tools that still route everything through someone else's<br/> server, so over the last year I built the opposite: a self-contained AI assistant that<br/> lives entirely on a USB stick and runs fully offline on Windows.</p> <p>The whole point is that it can't leak what it never sends. Put the machine in airplane<br/> mode, unplug the network — it ]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-03-i-built-an-ai-assistant-that-runs-fully-offline-on-a-usb-stick-no-cloud-no-accou.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Opposite Of Drawdown: US Mulls Expanding Nuclear Weapons Deployments In Europe</title>
+      <link>https://newsanarchist.com/articles/2026-06-03-opposite-of-drawdown-us-mulls-expanding-nuclear-weapons-deployments-in-europe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-03-opposite-of-drawdown-us-mulls-expanding-nuclear-weapons-deployments-in-europe</guid>
+      <pubDate>Wed, 03 Jun 2026 08:15:00 GMT</pubDate>
+      <description>&lt;span &gt;Opposite Of Drawdown: US Mulls Expanding Nuclear Weapons Deployments In Europe&lt;/span&gt; &lt;div &gt;&lt;p&gt;The White House has been talking about reducing America's military presence across the European continent, amid long-running Trump complaints over lack of NATO burden-sharing. There are even plans to draw down 5,000 US troops from Germany on a permanent basis (though for now it appears thousands are just being moved to Poland).&lt;/p&gt; &lt;p&gt;Such a military 'reduction' would be welcomed by Moscow, howe</description>
+      <content:encoded><![CDATA[<span >Opposite Of Drawdown: US Mulls Expanding Nuclear Weapons Deployments In Europe</span> <div ><p>The White House has been talking about reducing America's military presence across the European continent, amid long-running Trump complaints over lack of NATO burden-sharing. There are even plans to draw down 5,000 US troops from Germany on a permanent basis (though for now it appears thousands are just being moved to Poland).</p> <p>Such a military 'reduction' would be welcomed by Moscow, howe]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-03-opposite-of-drawdown-us-mulls-expanding-nuclear-weapons-deployments-in-europe.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>I can't believe how normalized it is that email providers can just read your emails in full</title>
+      <link>https://newsanarchist.com/articles/2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai</guid>
+      <pubDate>Wed, 03 Jun 2026 08:04:04 GMT</pubDate>
+      <description>&lt;!-- SC_OFF --&gt;&lt;div &gt;&lt;p&gt;I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which &lt;strong&gt;&lt;em&gt;will&lt;/em&gt;&lt;/strong&gt; have some vulnerabilities and places for data to leak. Google's always trying out new thin</description>
+      <content:encoded><![CDATA[<!-- SC_OFF --><div ><p>I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which <strong><em>will</em></strong> have some vulnerabilities and places for data to leak. Google's always trying out new thin]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-03-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Bonsai-JS: zero-dependency expression language for rules, filters, and templates</title>
+      <link>https://newsanarchist.com/articles/2026-06-03-bonsai-js-zero-dependency-expression-language-for-rules-filters-and-templates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-03-bonsai-js-zero-dependency-expression-language-for-rules-filters-and-templates</guid>
+      <pubDate>Wed, 03 Jun 2026 08:38:37 GMT</pubDate>
+      <description>Bonsai-JS: zero-dependency expression language for rules, filters, and templates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-03-bonsai-js-zero-dependency-expression-language-for-rules-filters-and-templates.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Password manager Dashlane says hackers stole some customers' password vaults</title>
       <link>https://newsanarchist.com/articles/2026-06-03-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults</link>
@@ -573,54 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>"Working Better": Saylor Teases BTC Buy After Strategy Sells For First Time Since 2022</title>
-      <link>https://newsanarchist.com/articles/2026-06-01-working-better-saylor-teases-btc-buy-after-strategy-sells-for-first-time-since-2</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-01-working-better-saylor-teases-btc-buy-after-strategy-sells-for-first-time-since-2</guid>
-      <pubDate>Mon, 01 Jun 2026 13:50:00 GMT</pubDate>
-      <description>&lt;span &gt;"Working Better": Saylor Teases BTC Buy After Strategy Sells For First Time Since 2022&lt;/span&gt; &lt;div &gt;&lt;p&gt;Bitcoin is extending its recent weakness overnight (hurt by US-Iran tensions escalating again), trading back below its 100DMA after Strategy&lt;strong&gt; (MSTR) sold 32 bitcoin between May 26 and May 31 at an average net price of $77,135 a coin, totaling $2.5 million&lt;/strong&gt; (&lt;a " data-image- data-link- file" data-entity- data-responsive-image- " /&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Proceeds from the bit</description>
-      <content:encoded><![CDATA[<span >"Working Better": Saylor Teases BTC Buy After Strategy Sells For First Time Since 2022</span> <div ><p>Bitcoin is extending its recent weakness overnight (hurt by US-Iran tensions escalating again), trading back below its 100DMA after Strategy<strong> (MSTR) sold 32 bitcoin between May 26 and May 31 at an average net price of $77,135 a coin, totaling $2.5 million</strong> (<a " data-image- data-link- file" data-entity- data-responsive-image- " /></picture></a></p> <p>Proceeds from the bit]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-01-working-better-saylor-teases-btc-buy-after-strategy-sells-for-first-time-since-2.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>US Adult Cigarette Smoking Rate Hits Another All-Time Low</title>
-      <link>https://newsanarchist.com/articles/2026-06-01-us-adult-cigarette-smoking-rate-hits-another-all-time-low</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-01-us-adult-cigarette-smoking-rate-hits-another-all-time-low</guid>
-      <pubDate>Mon, 01 Jun 2026 09:45:00 GMT</pubDate>
-      <description>&lt;span &gt;US Adult Cigarette Smoking Rate Hits Another All-Time Low&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;em&gt;Via &lt;a " data-image- data-link- &gt;&lt;picture&gt;&lt;img data-entity- data-entity- data-responsive-image- " /&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Cigarette smoking is a risk factor for lung cancer, heart disease and stroke, and it’s long been considered &lt;a findings&lt;/a&gt; from the Centers for Disease Control and Prevention were based on survey responses from more than 24,200 adults. In the survey, CDC officials defined current ci</description>
-      <content:encoded><![CDATA[<span >US Adult Cigarette Smoking Rate Hits Another All-Time Low</span> <div ><p><em>Via <a " data-image- data-link- ><picture><img data-entity- data-entity- data-responsive-image- " /></picture></a></strong></p> <p>Cigarette smoking is a risk factor for lung cancer, heart disease and stroke, and it’s long been considered <a findings</a> from the Centers for Disease Control and Prevention were based on survey responses from more than 24,200 adults. In the survey, CDC officials defined current ci]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-01-us-adult-cigarette-smoking-rate-hits-another-all-time-low.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Hasan Piker and Cenk Uygur banned from entering the UK because of Pressure from the Israel Lobby</title>
-      <link>https://newsanarchist.com/articles/2026-06-01-hasan-piker-and-cenk-uygur-banned-from-entering-the-uk-because-of-pressure-from</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-01-hasan-piker-and-cenk-uygur-banned-from-entering-the-uk-because-of-pressure-from</guid>
-      <pubDate>Mon, 01 Jun 2026 13:24:13 GMT</pubDate>
-      <description>&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a &amp;#32; &lt;span&gt;&lt;a href=" &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-      <content:encoded><![CDATA[<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=" </td></tr></table>]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-01-hasan-piker-and-cenk-uygur-banned-from-entering-the-uk-because-of-pressure-from.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SK Hynix Evacuates Thousands Of Workers At Chip Plant After Fire, Toxic Gas Leak</title>
-      <link>https://newsanarchist.com/articles/2026-06-01-sk-hynix-evacuates-thousands-of-workers-at-chip-plant-after-fire-toxic-gas-leak</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-01-sk-hynix-evacuates-thousands-of-workers-at-chip-plant-after-fire-toxic-gas-leak</guid>
-      <pubDate>Mon, 01 Jun 2026 11:20:00 GMT</pubDate>
-      <description>&lt;span &gt;SK Hynix Evacuates Thousands Of Workers At Chip Plant After Fire, Toxic Gas Leak&lt;/span&gt; &lt;div &gt;&lt;p&gt;One week, unions are threatening &lt;a center buildouts&lt;/a&gt; have already pushed memory chip supply into extraordinarily tight territory.&lt;/p&gt; &lt;p&gt;South Korea&amp;#039;s main national wire service, &lt;a " data-image- data-link- &gt;&lt;picture&gt;&lt;img data-entity- data-entity- data-responsive-image- " /&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The fire erupted Monday mid-morning in a sixth-floor gas room connecting the M15 and M15X </description>
-      <content:encoded><![CDATA[<span >SK Hynix Evacuates Thousands Of Workers At Chip Plant After Fire, Toxic Gas Leak</span> <div ><p>One week, unions are threatening <a center buildouts</a> have already pushed memory chip supply into extraordinarily tight territory.</p> <p>South Korea&#039;s main national wire service, <a " data-image- data-link- ><picture><img data-entity- data-entity- data-responsive-image- " /></picture></a></p> <p>The fire erupted Monday mid-morning in a sixth-floor gas room connecting the M15 and M15X ]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-01-sk-hynix-evacuates-thousands-of-workers-at-chip-plant-after-fire-toxic-gas-leak.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
