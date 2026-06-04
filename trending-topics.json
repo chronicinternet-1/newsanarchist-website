@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-03T21:02:04.641Z",
-  "topicsCount": 11,
+  "scrapedAt": "2026-06-04T03:02:48.817Z",
+  "topicsCount": 40,
   "topics": [
     {
       "title": "Age Verification is a Privacy Nightmare",
@@ -36,19 +36,881 @@
         "#want",
         "#young"
       ],
-      "slug": "2026-06-03-age-verification-is-a-privacy-nightmare",
+      "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tvvhvs/age_verification_is_a_privacy_nightmare/",
-      "generatedAt": "2026-06-03T21:01:42.307Z",
+      "generatedAt": "2026-06-04T03:01:42.813Z",
       "relatedArticles": [
         {
-          "title": "Committee studying lawful access bill urged to protect encryption, balance privacy with police needs",
-          "slug": "2026-06-03-committee-studying-lawful-access-bill-urged-to-protect-encryption-balance-privac",
+          "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+          "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
           "category": "Tech & Privacy"
         },
         {
-          "title": "13 Privacy Tools That Actually Protect Your Data",
-          "slug": "2026-06-03-13-privacy-tools-that-actually-protect-your-data",
+          "title": "Facebook again...",
+          "slug": "2026-06-04-facebook-again",
           "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+      "url": "https://www.reddit.com/r/privacy/comments/1tuzrun/metas_ai_gave_hackers_keys_to_an_obama_instagram/",
+      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-02T18:30:36.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "keywords": [
+        "tech-&-privacy news",
+        "meta",
+        "gave",
+        "hackers",
+        "keys",
+        "obama",
+        "instagram",
+        "account"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#meta",
+        "#gave",
+        "#hackers",
+        "#keys",
+        "#obama",
+        "#instagram",
+        "#account"
+      ],
+      "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tuzrun/metas_ai_gave_hackers_keys_to_an_obama_instagram/",
+      "generatedAt": "2026-06-04T03:01:44.657Z",
+      "relatedArticles": [
+        {
+          "title": "Age Verification is a Privacy Nightmare",
+          "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Facebook again...",
+          "slug": "2026-06-04-facebook-again",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+      "url": "https://www.reddit.com/r/privacy/comments/1tu6ts6/more_license_plate_reader_mission_creep_school/",
+      "description": "<!-- SC_OFF --><div ><p>An analysis of millions of searches of Flock Safety data by police has uncovered a troubling pattern. In the absence of a warrant requirement to search automated license plate reader databases, law enforcement agencies have moved beyond specific investigations, and are using these surveillance networks for virtually any whim. </p> <p>The absence of a warrant requirement has",
+      "pubDate": "2026-06-01T21:43:17.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 13,
+      "sources": [
+        "r/privacy",
+        "EFF"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>An analysis of millions of searches of Flock Safety data by police has uncovered a troubling pattern. In the absence of a warrant requirement to search automated license plate reader databases, law enforcement agencies have moved beyond specific investigations, and are using these surveillance networks for virtually any whim. </p> <p>The absence of a warrant requirement has",
+      "keywords": [
+        "surveillance-state news",
+        "license",
+        "plate",
+        "reader",
+        "absence",
+        "warrant",
+        "requirement",
+        "mission"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#license",
+        "#plate",
+        "#reader",
+        "#absence",
+        "#warrant",
+        "#requirement",
+        "#mission"
+      ],
+      "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tu6ts6/more_license_plate_reader_mission_creep_school/",
+      "generatedAt": "2026-06-04T03:01:46.332Z",
+      "relatedArticles": [
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "North Carolinian under 14 ban that requires age verification (House Bill 301) passes house with bipartisan support and is now under consideration in the senate judiciary committee.",
+          "slug": "2026-06-04-north-carolinian-under-14-ban-that-requires-age-verification-house-bill-301-pass",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
+      "description": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
+      "pubDate": "2021-09-07T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 9,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
+      "keywords": [
+        "surveillance-state news",
+        "privacy",
+        "lesson",
+        "mass",
+        "surveillance",
+        "forward",
+        "american",
+        "civil"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#privacy",
+        "#lesson",
+        "#mass",
+        "#surveillance",
+        "#forward",
+        "#american",
+        "#civil"
+      ],
+      "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
+      "generatedAt": "2026-06-04T03:01:48.283Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "North Carolinian under 14 ban that requires age verification (House Bill 301) passes house with bipartisan support and is now under consideration in the senate judiciary committee.",
+          "slug": "2026-06-04-north-carolinian-under-14-ban-that-requires-age-verification-house-bill-301-pass",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RPNXVQaGptSmk5cFplYi0zeUdVbGNad0Q0Z3hoYjlwLTE3Ny1aa2s4S1lmclVZV3JYUTItSmlqTGUwampzYno5V08tLVdNQ2k2RVFEMWtGSFVLSXVMY090LVBjRHF5ZTRVYy13VVRnOXpXNXFHVWdaNU9DT0lGbHBRTVdXVmk2OXFBd3k4bEtJaGlMckRBUU40NVZZZkZ3TTNOQ1c5SzFVX2JiN0VhT1ZlS0ZjVlRLYmxpY3gwMlZSd01mYXc?oc=5",
+      "description": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016 unredacted.com",
+      "pubDate": "2016-09-23T07:00:00.000Z",
+      "source": "Google News (Government Secrets)",
+      "category": "Government Secrets",
+      "score": 9,
+      "sources": [
+        "Google News (Government Secrets)"
+      ],
+      "content": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016 unredacted.com",
+      "keywords": [
+        "government-secrets news",
+        "declassified",
+        "damage",
+        "assessments",
+        "shed",
+        "light",
+        "snowden",
+        "assessment"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#declassified",
+        "#damage",
+        "#assessments",
+        "#shed",
+        "#light",
+        "#snowden",
+        "#assessment"
+      ],
+      "slug": "2026-06-04-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RPNXVQaGptSmk5cFplYi0zeUdVbGNad0Q0Z3hoYjlwLTE3Ny1aa2s4S1lmclVZV3JYUTItSmlqTGUwampzYno5V08tLVdNQ2k2RVFEMWtGSFVLSXVMY090LVBjRHF5ZTRVYy13VVRnOXpXNXFHVWdaNU9DT0lGbHBRTVdXVmk2OXFBd3k4bEtJaGlMckRBUU40NVZZZkZ3TTNOQ1c5SzFVX2JiN0VhT1ZlS0ZjVlRLYmxpY3gwMlZSd01mYXc?oc=5",
+      "generatedAt": "2026-06-04T03:01:49.480Z",
+      "relatedArticles": [
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-06-04-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "USA - Competition Litigation Laws and Regulations 2026",
+          "slug": "2026-06-04-usa-competition-litigation-laws-and-regulations-2026",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "description": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "pubDate": "2026-05-08T07:00:00.000Z",
+      "source": "Google News (Unexplained)",
+      "category": "Government Secrets",
+      "score": 9,
+      "sources": [
+        "Google News (Unexplained)"
+      ],
+      "content": "Pentagon releases declassified UFO files including videos and photos held by the government for decades NBC News",
+      "keywords": [
+        "government-secrets news",
+        "pentagon",
+        "releases",
+        "declassified",
+        "files",
+        "including",
+        "videos",
+        "photos"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#pentagon",
+        "#releases",
+        "#declassified",
+        "#files",
+        "#including",
+        "#videos",
+        "#photos"
+      ],
+      "slug": "2026-06-04-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
+      "generatedAt": "2026-06-04T03:01:51.367Z",
+      "relatedArticles": [
+        {
+          "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
+          "slug": "2026-06-04-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "USA - Competition Litigation Laws and Regulations 2026",
+          "slug": "2026-06-04-usa-competition-litigation-laws-and-regulations-2026",
+          "category": "Government Secrets"
+        }
+      ]
+    },
+    {
+      "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+      "url": "https://www.reddit.com/r/privacy/comments/1tviof7/i_cant_believe_how_normalized_it_is_that_email/",
+      "description": "<!-- SC_OFF --><div ><p>I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which <strong><em>will</em></strong> have some vulnerabilities and places for data to leak. Google's always trying out new thin",
+      "pubDate": "2026-06-03T08:04:04.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>I might've been stupid but it just never dawned on me that Gmail for example can just read all of your emails. First of all, isn't that a security risk? (Data breaches) The data is extracted from secure places and passed through a changing pipeline which <strong><em>will</em></strong> have some vulnerabilities and places for data to leak. Google's always trying out new thin",
+      "keywords": [
+        "corporate-watchdog news",
+        "just",
+        "data",
+        "read",
+        "your",
+        "emails",
+        "places",
+        "believe"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#just",
+        "#data",
+        "#read",
+        "#your",
+        "#emails",
+        "#places",
+        "#believe"
+      ],
+      "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tviof7/i_cant_believe_how_normalized_it_is_that_email/",
+      "generatedAt": "2026-06-04T03:01:52.437Z",
+      "relatedArticles": [
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Illinois HB 5511 Bill, a bill requiring OS level age verification, passes both houses",
+          "slug": "2026-06-04-illinois-hb-5511-bill-a-bill-requiring-os-level-age-verification-passes-both-hou",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+      "url": "https://www.reddit.com/r/privacy/comments/1tv50id/password_manager_dashlane_says_hackers_stole_some/",
+      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-02T21:36:51.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "keywords": [
+        "corporate-watchdog news",
+        "password",
+        "manager",
+        "dashlane",
+        "hackers",
+        "stole",
+        "some",
+        "customers"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#password",
+        "#manager",
+        "#dashlane",
+        "#hackers",
+        "#stole",
+        "#some",
+        "#customers"
+      ],
+      "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tv50id/password_manager_dashlane_says_hackers_stole_some/",
+      "generatedAt": "2026-06-04T03:01:53.517Z",
+      "relatedArticles": [
+        {
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Illinois HB 5511 Bill, a bill requiring OS level age verification, passes both houses",
+          "slug": "2026-06-04-illinois-hb-5511-bill-a-bill-requiring-os-level-age-verification-passes-both-hou",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin just dropped 6% in a day while ai stocks hit all time highs. Nobody is asking the obvious question.",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tv1ird/bitcoin_just_dropped_6_in_a_day_while_ai_stocks/",
+      "description": "<!-- SC_OFF --><div ><p>Yesterday btc tumbled below $67k, down nearly 6% in a single session which is lowest level since april. Spot bitcoin etfs recorded $1.42 billion in outflows as investor sentiment turned risk off and meanwhile nvidia closed at an ath, microsoft is up 34% this year and the ai infrastructure trade is printing.</p> <p>Which means money rotated,investors are moving out of crypto",
+      "pubDate": "2026-06-02T19:30:39.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 9,
+      "sources": [
+        "r/cryptocurrency"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>Yesterday btc tumbled below $67k, down nearly 6% in a single session which is lowest level since april. Spot bitcoin etfs recorded $1.42 billion in outflows as investor sentiment turned risk off and meanwhile nvidia closed at an ath, microsoft is up 34% this year and the ai infrastructure trade is printing.</p> <p>Which means money rotated,investors are moving out of crypto",
+      "keywords": [
+        "money-&-markets news",
+        "bitcoin",
+        "just",
+        "dropped",
+        "while",
+        "stocks",
+        "time",
+        "highs"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#bitcoin",
+        "#just",
+        "#dropped",
+        "#while",
+        "#stocks",
+        "#time",
+        "#highs"
+      ],
+      "slug": "2026-06-04-bitcoin-just-dropped-6-in-a-day-while-ai-stocks-hit-all-time-highs-nobody-is-ask",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1tv1ird/bitcoin_just_dropped_6_in_a_day_while_ai_stocks/",
+      "generatedAt": "2026-06-04T03:01:54.535Z",
+      "relatedArticles": [
+        {
+          "title": "Daily Crypto Discussion - June 3, 2026 (GMT+0)",
+          "slug": "2026-06-04-daily-crypto-discussion-june-3-2026-gmt0",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Daily Crypto Discussion - June 3, 2026 (GMT+0)",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tw5pml/daily_crypto_discussion_june_3_2026_gmt0/",
+      "description": "<!-- SC_OFF --><div ><p><strong>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</strong></p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be ",
+      "pubDate": "2026-06-03T23:00:44.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "r/cryptocurrency",
+        "r/stocks"
+      ],
+      "content": "<!-- SC_OFF --><div ><p><strong>Welcome to the Daily Crypto Discussion thread. Please read the disclaimer and rules before participating.</strong></p> <p> </p> <h1>Disclaimer:</h1> <p>Consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources. Any trade information posted in this open thread may be ",
+      "keywords": [
+        "money-&-markets news",
+        "thread",
+        "information",
+        "daily",
+        "crypto",
+        "discussion",
+        "read",
+        "disclaimer"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#thread",
+        "#information",
+        "#daily",
+        "#crypto",
+        "#discussion",
+        "#read",
+        "#disclaimer"
+      ],
+      "slug": "2026-06-04-daily-crypto-discussion-june-3-2026-gmt0",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1tw5pml/daily_crypto_discussion_june_3_2026_gmt0/",
+      "generatedAt": "2026-06-04T03:01:55.766Z",
+      "relatedArticles": [
+        {
+          "title": "Bitcoin just dropped 6% in a day while ai stocks hit all time highs. Nobody is asking the obvious question.",
+          "slug": "2026-06-04-bitcoin-just-dropped-6-in-a-day-while-ai-stocks-hit-all-time-highs-nobody-is-ask",
+          "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "Sean Strickland has been BANNED from attending the UFC white house fights, for stating that Donald Trump is owned by Israel",
+      "url": "https://www.reddit.com/r/conspiracy/comments/1tw51le/sean_strickland_has_been_banned_from_attending/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "pubDate": "2026-06-03T22:34:45.000Z",
+      "source": "r/conspiracy",
+      "redditScore": 0,
+      "category": "Conflict & Wars",
+      "score": 7,
+      "sources": [
+        "r/conspiracy",
+        "ProPublica"
+      ],
+      "content": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "keywords": [
+        "conflict-&-wars news",
+        "sean",
+        "strickland",
+        "been",
+        "banned",
+        "attending",
+        "white",
+        "house"
+      ],
+      "hashtags": [
+        "#conflict-&-warsnews",
+        "#sean",
+        "#strickland",
+        "#been",
+        "#banned",
+        "#attending",
+        "#white",
+        "#house"
+      ],
+      "slug": "2026-06-04-sean-strickland-has-been-banned-from-attending-the-ufc-white-house-fights-for-st",
+      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1tw51le/sean_strickland_has_been_banned_from_attending/",
+      "generatedAt": "2026-06-04T03:01:57.600Z",
+      "relatedArticles": [
+        {
+          "title": "Data of 600,000 Gaza households exposed in WFP cyber-attack",
+          "slug": "2026-06-04-data-of-600000-gaza-households-exposed-in-wfp-cyber-attack",
+          "category": "Conflict & Wars"
+        }
+      ]
+    },
+    {
+      "title": "Data of 600,000 Gaza households exposed in WFP cyber-attack",
+      "url": "https://www.reddit.com/r/privacy/comments/1tv7fht/data_of_600000_gaza_households_exposed_in_wfp/",
+      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-02T23:09:48.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Conflict & Wars",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "keywords": [
+        "conflict-&-wars news",
+        "data",
+        "gaza",
+        "households",
+        "exposed",
+        "cyber",
+        "attack",
+        "submitted"
+      ],
+      "hashtags": [
+        "#conflict-&-warsnews",
+        "#data",
+        "#gaza",
+        "#households",
+        "#exposed",
+        "#cyber",
+        "#attack",
+        "#submitted"
+      ],
+      "slug": "2026-06-04-data-of-600000-gaza-households-exposed-in-wfp-cyber-attack",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tv7fht/data_of_600000_gaza_households_exposed_in_wfp/",
+      "generatedAt": "2026-06-04T03:01:59.155Z",
+      "relatedArticles": [
+        {
+          "title": "Sean Strickland has been BANNED from attending the UFC white house fights, for stating that Donald Trump is owned by Israel",
+          "slug": "2026-06-04-sean-strickland-has-been-banned-from-attending-the-ufc-white-house-fights-for-st",
+          "category": "Conflict & Wars"
+        }
+      ]
+    },
+    {
+      "title": "30-Year-Old Murder Solved",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
+      "description": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
+      "pubDate": "2024-11-12T08:00:00.000Z",
+      "source": "Google News (True Crime)",
+      "category": "True Crime",
+      "score": 6,
+      "sources": [
+        "Google News (True Crime)"
+      ],
+      "content": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
+      "keywords": [
+        "true-crime news",
+        "year",
+        "murder",
+        "solved",
+        "federal",
+        "bureau",
+        "investigation"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#year",
+        "#murder",
+        "#solved",
+        "#federal",
+        "#bureau",
+        "#investigation"
+      ],
+      "slug": "2026-06-04-30-year-old-murder-solved",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
+      "generatedAt": "2026-06-04T03:02:01.230Z",
+      "relatedArticles": [
+        {
+          "title": "Samsung Joins Blue-State Exodus, Moves U.S. HQ From New Jersey To Texas",
+          "slug": "2026-06-04-samsung-joins-blue-state-exodus-moves-us-hq-from-new-jersey-to-texas",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "Samsung Joins Blue-State Exodus, Moves U.S. HQ From New Jersey To Texas",
+      "url": "https://www.zerohedge.com/technology/samsung-joins-blue-state-exodus-moves-us-hq-new-jersey-texas",
+      "description": "<span >Samsung Joins Blue-State Exodus, Moves U.S. HQ From New Jersey To Texas</span> <div ><p>We're still trying to settle on a name for the new \"Rust Belt\" for blue states, where high taxes, de-growth climate policies, permitting paralysis, and an obsession with woke governance have sparked a historic outflow of people, businesses, and capital to red states.</p> <p>The old Rust Belt was hollowed out by decades of deindustrialization. This new version in blue states is being hollowed out by sel",
+      "pubDate": "Thu, 04 Jun 2026 02:10:00 +0000",
+      "source": "ZeroHedge",
+      "category": "True Crime",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "We&#x27;re still trying to settle on a name for the new \"Rust Belt\" for blue states, where high taxes, de-growth climate policies, permitting paralysis, and an obsession with woke governance have sparked a historic outflow of people, businesses, and capital to red states. The old Rust Belt was hollowed out by decades of deindustrialization. This new version in blue states is being hollowed out by self-inflicted progressive policy failures after policy failures after policy failures. The latest, and one of the most abrupt examples, is South Korean tech giant Samsung Electronics shifting its U.S. headquarters from lefty-controlled New Jersey to red-state Texas, which is governed by common sense. Samsung is moving its U.S. headquarters to its existing campus in Plano, Texas. Samsung Electronics America is abandoning its brand-new, 270,000 SF North Jersey headquarters after just eight months to consolidate operations in Plano, Texas. The abrupt exit of 1,000 corporate… pic.twitter.com/uz9joDU3Dh \"Samsung Electronics America Inc. is undergoing a business transformation designed to better position our organization for long-term growth and future success. As part of this effort, we are relocating our U.S. headquarters from New Jersey to our existing campus in Plano, Texas, building on our 30-year presence in the state,\" the company said in a statement. \"The transition, which will be completed by the end of the year, is intended to strengthen alignment across teams and offices, and sharpen our focus on the areas that will drive the greatest impact for our customers, partners, and business.\" The statement by the memory chip giant did not explain why they&#x27;re relocating their US headquarters. But we can only guess what it came down to: an unfavorable business environment. New Jersey has one of the highest corporate tax burdens in the US, coming in at 9% for companies with more than $100,000 in total net income. Smaller companies pay lower rates of 7.5% or 6.5%, depending on income. For mega corporations, the rate can be even higher. New Jersey added a 2.5% Corporate Transit Fee on businesses with more than $10 million in taxable net income allocated to the state, bringing the effective top rate to 11.5% for those companies. Samsung&#x27;s decision was most likely rooted in Texas&#x27; long-standing policy of no corporate income tax. \" Imagine turning on the morning news in Texas and watching them celebrate jobs leaving New Jersey ,\" NJ Assembly GOP wrote on X earlier today, adding, \" The numbers are damning: New Jersey has the highest corporate tax rate in the nation. Texas has no corporate income tax. We&#x27;ve introduced the fixes. Democrats blocked everyone. Texas gets the jobs. New Jersey gets to keep old ribbon-cutting photos .\" Imagine turning on the morning news in Texas and watching them celebrate jobs leaving New Jersey. That&#x27;s exactly what @GoodDayFox4 and @FOX4 are doing after Samsung announced it&#x27;s moving its U.S. headquarters from New Jersey to Texas. The numbers are damning: New Jersey has the… pic.twitter.com/nY9F33fZpZ Another X user noted, \" Whether it&#x27;s Samsung, Mercedes-Benz, Hertz, ExxonMobil, or other major employers, the message is becoming impossible to ignore: businesses are voting with their feet. And, the Democrats in the State House are not making it any easier for businesses - the legislation or administrative rules as of late has been so anti-business .\" Woah! I guess the Samsung folks ran into the executives from Mercedes-Benz, Hertz, ExxonMobil, and Budweiser while they were finding the exit door from New Jersey. Whether it’s Samsung, Mercedes-Benz, Hertz, ExxonMobil, or other major employers, the message is becoming… What is significant here is that Samsung opened its headquarters in New Jersey only eight months ago, suggesting that the state&#x27;s political and economic environment has deteriorated since. Samsung didn&#x27;t want to say if New Jersey&#x27;s economics caused them to move to Texas WE ALL KNOW IT WAS, Texas has 0% Corporate Tax vs Jersey&#x27;s worst in the nation 11.5% pic.twitter.com/4GUKLOcnQX Last month, The Economist published an article titled \"Texas Is Becoming America Inc.&#x27;s Center of Gravity,\" pointing out that corporations are voting with their feet and fleeing blue states. Democrats have zero self-awareness that their state-killing policies are only pushing people, companies, and money to red states. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "true-crime news",
+        "jersey",
+        "texas",
+        "samsung",
+        "state",
+        "states",
+        "blue",
+        "policy"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#jersey",
+        "#texas",
+        "#samsung",
+        "#state",
+        "#states",
+        "#blue",
+        "#policy"
+      ],
+      "slug": "2026-06-04-samsung-joins-blue-state-exodus-moves-us-hq-from-new-jersey-to-texas",
+      "sourceUrl": "https://www.zerohedge.com/technology/samsung-joins-blue-state-exodus-moves-us-hq-new-jersey-texas",
+      "generatedAt": "2026-06-04T03:02:03.686Z",
+      "relatedArticles": [
+        {
+          "title": "30-Year-Old Murder Solved",
+          "slug": "2026-06-04-30-year-old-murder-solved",
+          "category": "True Crime"
+        }
+      ]
+    },
+    {
+      "title": "Trump Orders Release of Alien and UFO Files, But There&#8217;s a Catch: Nothing Is Declassified, Yet",
+      "url": "https://thedebrief.org/trump-orders-release-of-alien-and-ufo-files-but-theres-a-catch-nothing-is-declassified-yet/",
+      "description": "",
+      "pubDate": "2026-02-20T13:42:44.000Z",
+      "source": "The Debrief UAP",
+      "category": "Unexplained",
+      "score": 6,
+      "sources": [
+        "The Debrief UAP"
+      ],
+      "content": "When President Trump posted on his Truth Social website Thursday evening that he was directing the government to release records tied to aliens and UFOs , understandably, the reaction was immediate excitement, speculation, and a fresh wave of “disclosure” chatter across social media. However, buried in the adrenaline rush of the government revealing its UFO secrets is a quieter—and far more consequential—detail. President Trump’s statement, as written, does not clearly order the declassification of any such records (if they exist). So, is Trump really set to release all existing alien and UFO files? Not so fast. “Based on the tremendous interest shown, I will be directing the Secretary of War, and other relevant Departments and Agencies, to begin the process of identifying and releasing Government files related to alien and extraterrestrial life, unidentified aerial phenomena (UAP), and unidentified flying objects (UFOs), and any and all information connected to these highly complex, but extremely interesting and important matters. GOD BLESS AMERICA!” President Trump wrote . The President’s statement reads more like a directive to begin a review-and-release effort—an important distinction in a national security system where “release” is often conditional, redacted, delayed, or quietly denied. Similarly, Trump’s phrasing— to begin the process” —matters. It implies bureaucracy and coordination. It does not explicitly say, “These records are now declassified.” President Trump’s post, then, may be less a sudden opening of the vault than a signal that the government is being told to look for material it can safely put out—on a timeline and through a process controlled by the same agencies that have long treated UAP information as sensitive. The gap between the headline-grabbing word “release” and the legal action behind “declassify” is the pivot point in the story, because without an explicit declassification order, any disclosure is likely to arrive slowly, selectively, and heavily shaped by national security concerns. And the timing only heightens the confusion, given that Trump’s directive follows a recent surge of presidential alien talk—first from former President Barack Obama, then from Trump himself. Former President Obama recently went viral after telling podcaster Brian Tyler Cohen, “They’re real, but I haven’t seen them.” The remark, delivered in a speed-round tone, ricocheted online—especially among audiences primed by years of congressional UAP hearing s, leaked military videos , and renewed public debate about what the government may be sitting on. Days later, Obama walked back the remark, clarifying on Instagram, “I saw no evidence during my presidency that extraterrestrials have made contact with us.” The viral moment was also amplified by fresh intrigue within Trump’s orbit. On the New York Post’s Pod Force One podcast , Trump’s daughter-in-law Lara Trump suggested she believes the president has a prepared address he’s saving for later, saying: “There is some speech that he has, that I guess at the right time, I don’t know when the right time is, he’s going to break out and talk about and it has to do with maybe some sort of extraterrestrial life.” ​ Pressed on Wednesday about Lara Trump’s claim, White House spokesperson Karoline Leavitt said she was unaware of any such plans, calling the idea “very exciting” and of “great interest,” but adding that a speech on aliens was “news to me.” Yet, rather than brushing off the new wave of alien talk, President Trump appeared to pour fuel on it. During a Q&A with reporters aboard Air Force One on Thursday, framing Obama’s original quip as if it were an accidental national security leak. “He gave classified information, he’s not supposed to be doing that,” Trump told Fox News’s Peter Doocy, before adding that he might “get him out of trouble by declassifying.” The entire sequence was tailor-made for the modern UFO information ecosystem. A viral soundbite and walk-back by a former President, whispers of a coming “alien speech,” and a sitting President hinting at secrecy. Then, later Thursday, Trump took things even a step further by posting on Truth Social that he was directing the government to begin identifying and releasing UFO- and extraterrestrial-related files. Secretary of War Pete Hegseth then amplified the message on X, sharing a screenshot of Trump’s post alongside an alien emoji and a saluting emoji. Yet even amid this seemingly unprecedented presidential order, the language in Trump’s public directive still falls short of the one step that would instantly change the legal status of any hidden alien or UFO archive: an explicit order declassifying the records. In the United States, the modern classification system is built on presidential executive orders, which means a sitting president has ultimate authority to classify or declassify anything they want at any time. ​ While the Supreme Court has not squarely ruled on how far Congress can constrain the executive branch’s control over secrecy, it has emphasized just how expansive presidential authority can be— describing the president’s power to “classify and control access” to national security information as rooted in the Constitution and existing “quite apart from any explicit congressional grant.”",
+      "keywords": [
+        "unexplained news",
+        "trump",
+        "president",
+        "alien",
+        "release",
+        "government",
+        "information",
+        "files"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#trump",
+        "#president",
+        "#alien",
+        "#release",
+        "#government",
+        "#information",
+        "#files"
+      ],
+      "slug": "2026-06-04-trump-orders-release-of-alien-and-ufo-files-but-there8217s-a-catch-nothing-is-de",
+      "sourceUrl": "https://thedebrief.org/trump-orders-release-of-alien-and-ufo-files-but-theres-a-catch-nothing-is-declassified-yet/",
+      "generatedAt": "2026-06-04T03:02:05.968Z",
+      "relatedArticles": [
+        {
+          "title": "Jon Stewart Alleges Secret Alien Retrieval Sites, Claims of Alien Bodies, Telepathy and Hidden Programs",
+          "slug": "2026-06-04-jon-stewart-alleges-secret-alien-retrieval-sites-claims-of-alien-bodies-telepath",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "Jon Stewart Alleges Secret Alien Retrieval Sites, Claims of Alien Bodies, Telepathy and Hidden Programs",
+      "url": "https://unknowncountry.com/headline-news/jon-stewart-alleges-secret-alien-retrieval-sites-claims-of-alien-bodies-telepathy-and-hidden-programs/",
+      "description": "UFO researcher and filmmaker Jon Stewart urged President Trump to take a leading role in disclosure while discussing alleged alien retrieval programs, telepathic communication with nonhuman beings and claims that advanced aerospace companies have reverse-engineered extraterrestrial technology. The extraordinary allegations remain unverified but reflect the increasingly expansive scope of today&#82",
+      "pubDate": "2026-05-29T07:04:23.000Z",
+      "source": "Unknown Country",
+      "category": "Unexplained",
+      "score": 6,
+      "sources": [
+        "Unknown Country"
+      ],
+      "content": "A recent FOX 32 Chicago livestream interview with UFO researcher and filmmaker Jon Stewart ventured into some of the most controversial territory in the modern disclosure debate, including alleged government possession of nonhuman remains, telepathic communication with extraterrestrial beings, and claims that advanced aerospace programs may have successfully reverse-engineered alien technology. During the interview with FOX 32 Chicago&#8217;s Anita Blanton, Stewart repeatedly appealed directly to President Donald Trump to take a leading role in what advocates call UFO or UAP disclosure. Stewart argued that the public deserves greater transparency regarding government knowledge of unidentified anomalous phenomena and any related recovery programs. Stewart is a former professional wrestler and Deerfield, Illinois, car dealership owner who has also launched multiple political campaigns over the years, including runs for Congress and governor of Illinois. In recent years, he has become increasingly visible in UFO research circles, conducting interviews and promoting claims from individuals who say they have knowledge of classified retrieval and reverse-engineering programs. Among the interview&#8217;s most striking assertions was Stewart&#8217;s claim that the Dugway Proving Ground in Utah is one of several facilities allegedly connected to the storage of nonhuman remains. Stewart suggested that the site houses alien beings under the auspices of the American Institute of Pathology and claimed that additional facilities exist elsewhere in the United States. He did not provide publicly verifiable evidence during the interview to support those allegations. Stewart also stated that Los Alamos was allegedly the destination of the first living extraterrestrial being captured by the United States government. He further claimed that Stanford University possesses alien bodies. These assertions mirror long-standing rumors within portions of the UFO community but remain unverified and have not been substantiated by publicly available evidence. The interview also touched on claims involving telepathy and consciousness. Stewart said he had interviewed individuals who claimed firsthand knowledge of telepathic communication with nonhuman entities. According to Stewart, certain captured beings were allegedly interrogated through telepathic means by specially gifted individuals working in cooperation with government agencies, including the National Security Agency. Those accounts led into a broader discussion of what Stewart described as the interdimensional nature of at least some nonhuman intelligences. He emphasized that this conclusion was based on information relayed to him by interview subjects rather than on direct personal knowledge. Another topic discussed was &#8220;psionics,&#8221; a concept that has appeared frequently in UFO lore and alleged black-program testimony. Stewart described psionics as a system in which a pilot and craft function as a unified consciousness interface, allowing direct mental control of advanced vehicles. He further claimed that at least one aerospace company has successfully replicated this capability within a reverse-engineered craft program. Perhaps the most far-reaching claims involved human origins. Stewart suggested that extraterrestrial intelligences may have genetically influenced humanity. He argued that widespread acceptance of such a possibility could trigger profound ontological shock, challenging deeply held assumptions about human history, identity, and religious belief. The interview reflects a growing trend within the disclosure movement, where discussions increasingly extend beyond sightings and recovered materials into questions of consciousness, human evolution, and the nature of reality itself. Yet many of the claims presented remain extraordinary and unverified. While disclosure advocates argue that testimony from insiders deserves serious investigation, critics maintain that extraordinary claims require equally extraordinary evidence. For now, the interview serves as another example of the widening gap between what some researchers say they have been told and what has been publicly demonstrated. Whether future disclosures narrow that gap remains one of the central questions facing the UFO conversation today. Subscribe to Unknowncountry today. Keep the truth coming! Click here to learn more.",
+      "keywords": [
+        "unexplained news",
+        "stewart",
+        "claims",
+        "interview",
+        "alien",
+        "programs",
+        "disclosure",
+        "nonhuman"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#stewart",
+        "#claims",
+        "#interview",
+        "#alien",
+        "#programs",
+        "#disclosure",
+        "#nonhuman"
+      ],
+      "slug": "2026-06-04-jon-stewart-alleges-secret-alien-retrieval-sites-claims-of-alien-bodies-telepath",
+      "sourceUrl": "https://unknowncountry.com/headline-news/jon-stewart-alleges-secret-alien-retrieval-sites-claims-of-alien-bodies-telepathy-and-hidden-programs/",
+      "generatedAt": "2026-06-04T03:02:07.835Z",
+      "relatedArticles": [
+        {
+          "title": "Trump Orders Release of Alien and UFO Files, But There&#8217;s a Catch: Nothing Is Declassified, Yet",
+          "slug": "2026-06-04-trump-orders-release-of-alien-and-ufo-files-but-there8217s-a-catch-nothing-is-de",
+          "category": "Unexplained"
+        }
+      ]
+    },
+    {
+      "title": "House Passes Dem Resolution to Block U.S. Military Action Against Iran In Narrow Vote",
+      "url": "https://www.zerohedge.com/political/house-passes-dem-resolution-block-us-military-action-against-iran-narrow-vote",
+      "description": "<span >House Passes Dem Resolution to Block U.S. Military Action Against Iran In Narrow Vote</span> <div ><p><strong>The U.S. House of Representatives passed a resolution on June 3 directing the withdrawal of U.S. troops from armed hostilities with Iran, in a closely divided 215–208 vote.</strong></p> <p><a data-image-external- data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>Four Republicans joined Democrats in supporting the measure,</strong> w",
+      "pubDate": "Wed, 03 Jun 2026 22:25:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 5,
+      "sources": [
+        "ZeroHedge",
+        "r/worldnews"
+      ],
+      "content": "The U.S. House of Representatives passed a resolution on June 3 directing the withdrawal of U.S. troops from armed hostilities with Iran, in a closely divided 215–208 vote. Four Republicans joined Democrats in supporting the measure, which invokes the 1973 War Powers Resolution to require President Donald Trump to either end the operations or seek explicit congressional approval to continue them. The resolution comes amid ongoing tensions in the region. Although Washington and Tehran announced a ceasefire on April 7, U.S. forces have enforced an armed blockade of Iranian ports, leading to several exchanges of fire. On June 2, U.S. forces struck an oil tanker, prompting Iranian missile and drone attacks on U.S. positions in Kuwait and Bahrain. House Speaker Mike Johnson (R-La.) argued that the timing of the resolution was problematic, as it could interfere with President Trump’s ongoing efforts to negotiate a lasting peace agreement with Iran. “The president is now in the process of concluding a peace agreement, and we have to allow him the latitude to do that,” Johnson said. “ I think a war powers resolution right now is very untimely .” In contrast, Rep. Rosa DeLauro (D-Conn.) said Congress should have acted sooner to pull back U.S. forces. She expressed hope that more Republicans would support the measure, stating, “I’m hoping that they will see the light.” This marks the second attempt in recent weeks. A similar resolution failed on May 14 in a 212–212 tie. Republican leadership had previously postponed a scheduled May 21 vote. The measure now moves to the Senate, where passage is uncertain, and it would likely face a veto from President Trump if approved. The vote reflects deepening divisions in Congress over the scope and authorization of U.S. military involvement in the Iran conflict, which began escalating in late February. Supporters of the resolution argue it upholds congressional authority under the War Powers Resolution, which generally requires presidents to withdraw forces from unauthorized hostilities within 60 days (with a possible 30-day extension for safe withdrawal). Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "global-power news",
+        "resolution",
+        "iran",
+        "vote",
+        "house",
+        "data",
+        "measure",
+        "president"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#resolution",
+        "#iran",
+        "#vote",
+        "#house",
+        "#data",
+        "#measure",
+        "#president"
+      ],
+      "slug": "2026-06-04-house-passes-dem-resolution-to-block-us-military-action-against-iran-in-narrow-v",
+      "sourceUrl": "https://www.zerohedge.com/political/house-passes-dem-resolution-block-us-military-action-against-iran-narrow-vote",
+      "generatedAt": "2026-06-04T03:02:09.394Z",
+      "relatedArticles": [
+        {
+          "title": "Iran Issues 4-Stage Proposal For Deal With US, After Most Intense Overnight Clashes Since April",
+          "slug": "2026-06-04-iran-issues-4-stage-proposal-for-deal-with-us-after-most-intense-overnight-clash",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "Iran Issues 4-Stage Proposal For Deal With US, After Most Intense Overnight Clashes Since April",
+      "url": "https://www.zerohedge.com/geopolitical/major-iranian-attack-kuwait-international-airport-leaves-one-dead-63-injured",
+      "description": "<span >Iran Issues 4-Stage Proposal For Deal With US, After Most Intense Overnight Clashes Since April</span> <div ><h2>Summary</h2> <ul><li><em>State media issues <strong>four-stage proposal for deal with US</strong>, says <strong>indirect talks are 'ongoing'</strong>.</em></li> <li><em>GCC blasts 'cowardly attacks' after <strong>Kuwait International Airport rocked by Iranian missiles</strong>: one dead, 63 injured.</em></li> <li><em><strong>Overnight saw US-Iran exchange fire in Strait of Horm",
+      "pubDate": "Wed, 03 Jun 2026 17:50:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Summary State media issues four-stage proposal for deal with US , says indirect talks are &#x27;ongoing&#x27; . GCC blasts &#x27;cowardly attacks&#x27; after Kuwait International Airport rocked by Iranian missiles : one dead, 63 injured. Overnight saw US-Iran exchange fire in Strait of Hormuz - as US attacked Qeshm Island - and Iran unleashed more projectiles on Gulf states. Most intense fighting since April . IRGC via state media: Tehran has frozen all back-channel communication with Washington over Israeli operations in Lebanon, calls Trump narrative a fantasy. Trump says Iran has agreed not to pursue a nuclear weapon , while saying talks are still ongoing. Tells NYP he believes the crisis in the Strait of Hormuz will \"resolve itself fairly quickly . \" US x Iran permanent peace deal by June 30, 2026? Yes 24% · No 77% View full market & trade on Polymarket * * * The two sides don&#x27;t actually appear to be any closer to a deal or so much as a MOU to get back to the table, but President Trump is still signaling optimism: Trump on Iran: In theory, they are pretty close to signing the paper. On what you saw for the last few nights: it takes two to tango. pic.twitter.com/j6z0PjP8ve Fars Politics on Telegram has issued the following outline on Wednesday (machine translated). Also, somewhat contradicting reports from other state media outlets, Fars has stated that indirect talks with Washington are still ongoing , but that no final decision on a MOU has yet been made. Phase 1: Ending war and halting military actions. Phase 2: Tangible measures, including: The issue of the strait and the mechanisms related to it, Lifting the blockade, Removing restrictions and oil sanctions, Releasing part of Iran&#x27;s frozen assets and blocked financial resources. Phase 3: Dedicated to discussions on sanctions and the nuclear file. Phase 4: Involves establishing a supervisory committee to oversee implementation of the understanding and monitor the commitments of all parties. Saeed Ajorlou, a member of the media team of the negotiating delegation provided the following commentary via Fars: Phase One is ending the war and achieving a complete halt to military actions. This must encompass all parties and all fronts—whether Iran and the United States or the so-called Resistance Axis. After Phase One is stabilized, the focus shifts to practical and tangible measures. In this phase, four key issues must be addressed: Phase Three is dedicated to discussions on sanctions and the nuclear file. At this stage, after concrete and verifiable measures have been implemented, negotiations will begin on broader sanctions relief as well as issues related to the nuclear program. Phase Four involves establishing a supervisory committee to oversee implementation of the understanding and monitor the commitments of all parties. The members of this committee have not yet been finalized, but Iran is seeking to include friendly and aligned countries in the mechanism so that the implementation process has sufficient backing and support. By the looks of the above proposal, the warring sides seem very much still at square one . IRGC-linked Tasnim claims Tehran has frozen all back-channel communication with Washington over Israeli operations in Lebanon, directly contradicting Trump&#x27;s assertion that messages are arriving daily from Iran. Tasnim: \"Trump&#x27;s claim that Iran is confirming the issue is completely different from reality.\" Iran&#x27;s Foreign Minister is meanwhile articulating that Iran will lay down some new red lines via military strikes, which he has dubbed &#x27;self-defense&#x27; in nature... Our Armed Forces are conducting self-defense strikes on sites the U.S. is permitted to use to attack civilian shipping and violate the ceasefire. Any hostile act will be met with an immediate, decisive response. What sanctions and war failed to achieve won&#x27;t be won with more war pic.twitter.com/CwjULJ6PeI President Donald Trump is still trying to present some bright spots, telling NY Post he believes the situation in the Strait of Hormuz will \"resolve itself fairly quickly\" and went so far to say he expects to meet with Iran&#x27;s supreme leader \"at some point.\" Kuwait International Airport has come under Iranian missile and drone attack on Wednesday, in a significant strike that killed one person and left 63 people injured - according to the country&#x27;s health ministry, with several of the victims being seriously wounded. A passenger terminal was directly struck, damaging facilities including diplomatic missions at the airport, Kuwaiti authorities have said. Area hospitals conducted seven major emergency surgeries following the incident, underscoring that it was a mass casualty event.",
+      "keywords": [
+        "global-power news",
+        "iran",
+        "phase",
+        "trump",
+        "issues",
+        "deal",
+        "stage",
+        "proposal"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#iran",
+        "#phase",
+        "#trump",
+        "#issues",
+        "#deal",
+        "#stage",
+        "#proposal"
+      ],
+      "slug": "2026-06-04-iran-issues-4-stage-proposal-for-deal-with-us-after-most-intense-overnight-clash",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/major-iranian-attack-kuwait-international-airport-leaves-one-dead-63-injured",
+      "generatedAt": "2026-06-04T03:02:11.374Z",
+      "relatedArticles": [
+        {
+          "title": "House Passes Dem Resolution to Block U.S. Military Action Against Iran In Narrow Vote",
+          "slug": "2026-06-04-house-passes-dem-resolution-to-block-us-military-action-against-iran-in-narrow-v",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds",
+      "url": "https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report",
+      "description": "The post More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds appeared first on ProPublica .",
+      "pubDate": "Fri, 29 May 2026 10:00:00 +0000",
+      "source": "ProPublica",
+      "category": "Financial Fraud",
+      "score": 3,
+      "sources": [
+        "ProPublica"
+      ],
+      "content": "Caret Close Search ProPublica Search Close ProPublica is a nonprofit, investigative newsroom that exposes corruption. We report in all 50 states and partner with local newsrooms . Our work spurs real-world impact and has received numerous awards, including nine Pulitzer Prizes. How Abortion Bans Lead to Preventable Deaths How Recent Arrivals at the Border Have Changed the Country and Its Attitudes SCOTUS Justices&#8217; Beneficial Relationships With Billionaire Donors ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they’re published. Dozens of doctors are routinely performing risky vascular procedures in medical offices, generating tens of millions of dollars in Medicare payments for potentially unnecessary procedures, according to a federal report released earlier this month. The review, completed by the Office of the Inspector General at the Department of Health and Human Services, flagged nearly 140 doctors across the country as having &#8220;concerning&#8221; billing patterns. The analysis parallels a 2023 ProPublica investigation that revealed how high Medicare reimbursements for office-based vascular treatments had fueled a surge of unnecessary procedures , putting patients at risk of amputation or even death. The inspector general&#8217;s study, which began in April 2024 , cited ProPublica’s reporting and broadly confirmed its findings. Millions of Americans have peripheral artery disease, a vascular disorder in which the buildup of plaque narrows arteries and blocks blood flow in the legs. While most treatments are safe , ProPublica&#8217;s investigation found that there has been widespread concern among medical experts that some doctors are overusing procedures on patients who may not need them. The Centers for Medicare & Medicaid Services laid the foundation for the problem nearly 20 years ago, when it tried to rein in growing hospital costs by diverting certain common, minimally invasive procedures to outpatient facilities. These treatments may include the placement of stents in blood vessels or the removal of plaque with a bladed catheter, also known as an atherectomy. But instead of saving taxpayers money, it created a boom . For years, even as researchers challenged the long-term safety and efficacy of these expensive procedures, the federal government did little to stop potential abuse. ProPublica&#8217;s reporting chronicled the rise of the procedures after the introduction of the government&#8217;s financial incentive, along with horror stories of patients who lost their legs or died from complications . Our investigation examined years of federal Medicare claims data to identify and name the doctors who were making the most money off of these controversial procedures , and found that several of them had also racked up allegations of patient harm and even fraud . Doctors identified in our reporting objected to being portrayed as part of the problem , with some defending their use of the procedures, saying they could save the government money by preventing more serious complications down the road. ProPublica&#8217;s analysis also found that many procedures were being performed on patients with only mild disease , against best practices. Working with data journalists from the health analytics group CareSet , and in consultation with experts, we found that nearly 1 in 4 patients underwent the invasive procedure in the early stages of vascular disease, amounting to nearly 30,000 patients who may have endured procedures too soon or even unnecessarily. The inspector general’s analysis, which focused on data from 2019 through 2023, found that while overall payments for vascular procedures have decreased in recent years, the procedures have shifted from hospitals to physicians’ offices. The report flagged $105 million, about a fifth of all office-based vascular payments in 2023, as suspicious for medically unnecessary procedures. About 140 doctors accounted for these &#8220;concerning&#8221; payments, with 26 physicians responsible for the majority of them. This small group of specialists each received about $3 million in medical payments on average, and treated more than four times the average number of Medicare patients compared with similar physicians, conducting double the average number of procedures per patient. About half of these flagged doctors, which include interventional radiologists, vascular surgeons and cardiologists, practiced in California and Texas. Since 2019, CMS has investigated and identified 15 providers who received overpayments for vascular procedures, according to the report. The agency has also initiated a &#8220;claims analysis project&#8221; to detect physicians who are excessively billing for certain procedures, including atherectomies. The inspector general recommended that CMS monitor billing records to identify medically unnecessary procedures that pose a risk to Medicare enrollees and take appropriate actions. The inspector general also provided information on the outlier physicians to CMS and encouraged the agency to work with its program integrity team to review their billing patterns. &#8220;Although determining whether these physicians engaged in abusive or fraudulent practices was not within the scope of this study, their billing patterns warrant further scrutiny,&#8221; stated the report. CMS agreed with the inspector general&#8217;s recommendations and said it would consider the report’s findings to determine next steps.",
+      "keywords": [
+        "financial-fraud news",
+        "procedures",
+        "vascular",
+        "propublica",
+        "doctors",
+        "patients",
+        "report",
+        "medicare"
+      ],
+      "hashtags": [
+        "#financial-fraudnews",
+        "#procedures",
+        "#vascular",
+        "#propublica",
+        "#doctors",
+        "#patients",
+        "#report",
+        "#medicare"
+      ],
+      "slug": "2026-06-04-more-than-100-million-was-billed-for-medically-questionable-vascular-procedures",
+      "sourceUrl": "https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report",
+      "generatedAt": "2026-06-04T03:02:12.677Z",
+      "relatedArticles": [
+        {
+          "title": "GameStop Discloses First Quarter 2026 Results",
+          "slug": "2026-06-04-gamestop-discloses-first-quarter-2026-results",
+          "category": "Financial Fraud"
+        }
+      ]
+    },
+    {
+      "title": "GameStop Discloses First Quarter 2026 Results",
+      "url": "https://www.reddit.com/r/stocks/comments/1tv4t55/gamestop_discloses_first_quarter_2026_results/",
+      "description": "<!-- SC_OFF --><div ><p><a /u/deadcowww </a> <br/> <span><a",
+      "pubDate": "2026-06-02T21:29:14.000Z",
+      "source": "r/stocks",
+      "redditScore": 0,
+      "category": "Financial Fraud",
+      "score": 1,
+      "sources": [
+        "r/stocks",
+        "GlobeNewswire Tech"
+      ],
+      "content": "<!-- SC_OFF --><div ><p><a /u/deadcowww </a> <br/> <span><a",
+      "keywords": [
+        "financial-fraud news",
+        "gamestop",
+        "discloses",
+        "first",
+        "quarter",
+        "results",
+        "deadcowww"
+      ],
+      "hashtags": [
+        "#financial-fraudnews",
+        "#gamestop",
+        "#discloses",
+        "#first",
+        "#quarter",
+        "#results",
+        "#deadcowww"
+      ],
+      "slug": "2026-06-04-gamestop-discloses-first-quarter-2026-results",
+      "sourceUrl": "https://www.reddit.com/r/stocks/comments/1tv4t55/gamestop_discloses_first_quarter_2026_results/",
+      "generatedAt": "2026-06-04T03:02:14.083Z",
+      "relatedArticles": [
+        {
+          "title": "More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds",
+          "slug": "2026-06-04-more-than-100-million-was-billed-for-medically-questionable-vascular-procedures",
+          "category": "Financial Fraud"
         }
       ]
     },
@@ -85,78 +947,649 @@
         "#requires",
         "#verification"
       ],
-      "slug": "2026-06-03-north-carolinian-under-14-ban-that-requires-age-verification-house-bill-301-pass",
+      "slug": "2026-06-04-north-carolinian-under-14-ban-that-requires-age-verification-house-bill-301-pass",
       "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tvyftz/north_carolinian_under_14_ban_that_requires_age/",
-      "generatedAt": "2026-06-03T21:01:44.011Z",
-      "relatedArticles": []
+      "generatedAt": "2026-06-04T03:02:15.278Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
     },
     {
-      "title": "It’s easier for Californians to escape data brokers following a Markup investigation",
-      "url": "https://themarkup.org/privacy/2026/05/22/its-easier-for-californians-to-escape-data-brokers-following-a-markup-investigation",
-      "description": "The Markup and CalMatters showed how website code could make it harder for Californians to exercise their right to remove personal data. Now much of that code has disappeared.",
-      "pubDate": "Fri, 22 May 2026 08:00:00 -0400",
-      "source": "The Markup",
-      "category": "True Crime",
-      "score": 4,
+      "title": "Illinois HB 5511 Bill, a bill requiring OS level age verification, passes both houses",
+      "url": "https://www.reddit.com/r/privacy/comments/1tuuoiy/illinois_hb_5511_bill_a_bill_requiring_os_level/",
+      "description": "<!-- SC_OFF --><div ><p>The bill, to see for yourself: <a <p>I have not seen news that the governor has signed it yet, so if you are an Illinois resident concerned about this, then contact him stating your opposition, but be prepared for this to pass and be in effect in January 1st of next year. If it does pass demand a repeal to your lawmakers, protest, and fund lawsuits towards it. Maybe even tr",
+      "pubDate": "2026-06-02T15:39:13.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 9,
       "sources": [
-        "The Markup"
+        "r/privacy"
       ],
-      "content": "Skip navigation It’s easier for Californians to escape data brokers following a Markup investigation By Colin Lecher May 22, 2026 8:00 a.m. UTC Viewable online at Share This Article Copy Link Republish The Markup, now a part of CalMatters, uses investigative reporting, data analysis, and software engineering to challenge technology to serve the public good. Sign up for Klaxon , a newsletter that delivers our stories and tools directly to your inbox. More data brokers have changed their practices in response to reporting from The Markup and CalMatters as well as a subsequent Senate investigation. Data brokers — companies that collect and sell access to often-sensitive information on consumers — are required to register in the state of California and provide a way for consumers to request their data be deleted. Dozens of companies are hiding how you can delete your personal data, The Markup and CalMatters found. After our reporters reached out for comment, multiple companies have stopped the practice. Last year, an investigation by The Markup and CalMatters , published in collaboration with WIRED, showed that many of those companies placed code on the web pages for making those requests that prevented them from appearing in search results. The “no-index” code tells search engines like Google not to catalog those pages, making it less likely that anyone would see them. Experts said that’s a hurdle for Californians looking to exercise their legal rights. Last year’s investigation found 35 data brokers were using the code, 12 of whom soon removed it and allowed their pages to appear in search results. Today, only eight of those 35 brokers are still hiding their deletion pages, according to another review done by The Markup and CalMatters this week. That includes five major data brokers who came under Senate investigation. After The Markup and CalMatters published their report, the top Democrat on the Senate Joint Economic Committee minority, New Hampshire Democratic Sen. Maggie Hassan, sent letters to five data brokers questioning them about their practices. Four of the companies — IQVIA Digital, Comscore, Telesign Corporation and 6sense Insights — engaged with the Senate committee about their practices and agreed to make their pages visible in search, according to a report the committee later released . The report also estimated that consumers have lost more than $20 billion from fraud and identity theft related to broker data breaches. In an addendum to their initial findings released last week, the committee said that the fifth company facing questioning, Findem, also belatedly removed its “no-index” code, making its deletion pages visible in search engines. One of the data brokers no longer hiding its opt-out page, BrightCheck, has a broken opt-out page and no longer appears on California’s broker registry. Of the eight brokers still hiding their deletion pages, only one, a company called Fideo, responded to a request for comment about whether they would continue using the code on their pages. Jason Soni, a spokesperson for Fideo, which uses data for crime and fraud prevention purposes, said the company intentionally “chose not to display the application page itself in Google search results for technical and consumer experience reasons.” Consumers, he said, can make requests starting “from our homepage and public privacy resources, which provide the right context, routing, and instructions for privacy requests,” instead of starting at the application page. “Americans deserve a choice over whether their personal data is collected, used, and sold for profit or not,” Hassan said in a statement released alongside the amended report. “Data brokers like Findem have a responsibility to provide that choice with clear, user-friendly opt-out functions and straightforward privacy policies. Your donations power our award-winning reporting and our tools. Together we can do more. Give now. We’re happy to make this story available to republish for free under the conditions of an Attribution–NonCommercial–No Derivatives Creative Commons license. Please adhere to the following: Dark patterns force patients to share their data with big healthcare networks, even when the privacy form they’re signing explicitly says they can opt-out. Tech companies like Google, Facebook and Microsoft are ignoring data controls mandated under California law, researchers say. Bill addresses an issue investigated by The Markup last year.",
+      "content": "<!-- SC_OFF --><div ><p>The bill, to see for yourself: <a <p>I have not seen news that the governor has signed it yet, so if you are an Illinois resident concerned about this, then contact him stating your opposition, but be prepared for this to pass and be in effect in January 1st of next year. If it does pass demand a repeal to your lawmakers, protest, and fund lawsuits towards it. Maybe even tr",
       "keywords": [
-        "true-crime news",
+        "corporate-watchdog news",
+        "bill",
+        "illinois",
+        "your",
+        "pass",
+        "requiring",
+        "level",
+        "verification"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#bill",
+        "#illinois",
+        "#your",
+        "#pass",
+        "#requiring",
+        "#level",
+        "#verification"
+      ],
+      "slug": "2026-06-04-illinois-hb-5511-bill-a-bill-requiring-os-level-age-verification-passes-both-hou",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tuuoiy/illinois_hb_5511_bill_a_bill_requiring_os_level/",
+      "generatedAt": "2026-06-04T03:02:16.470Z",
+      "relatedArticles": [
+        {
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Tiktok just age restricted me for nothing and I don't want to verify my id",
+      "url": "https://www.reddit.com/r/privacy/comments/1tv1dn0/tiktok_just_age_restricted_me_for_nothing_and_i/",
+      "description": "<!-- SC_OFF --><div ><p>I can't even appeal also, the age verification thing is deadass everywhere. Im afraid if I do they gone upload my stuff to some secret dark web service.</p> <p>Tiktok itself is already very unsecured</p> <p>I just use that app to slide into females dms and I can't do this because of this</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-02T19:25:43.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Corporate Watchdog",
+      "score": 9,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>I can't even appeal also, the age verification thing is deadass everywhere. Im afraid if I do they gone upload my stuff to some secret dark web service.</p> <p>Tiktok itself is already very unsecured</p> <p>I just use that app to slide into females dms and I can't do this because of this</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "keywords": [
+        "corporate-watchdog news",
+        "tiktok",
+        "just",
+        "restricted",
+        "nothing",
+        "want",
+        "verify",
+        "even"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#tiktok",
+        "#just",
+        "#restricted",
+        "#nothing",
+        "#want",
+        "#verify",
+        "#even"
+      ],
+      "slug": "2026-06-04-tiktok-just-age-restricted-me-for-nothing-and-i-dont-want-to-verify-my-id",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tv1dn0/tiktok_just_age_restricted_me_for_nothing_and_i/",
+      "generatedAt": "2026-06-04T03:02:18.448Z",
+      "relatedArticles": [
+        {
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Help EFF Solve an Issue That&#039;s Bigger than Creepy Ads",
+      "url": "https://www.eff.org/deeplinks/2026/05/online-tracking-isnt-just-unethical-its-dangerous",
+      "description": "<div ><div ><div ><p>Millions of people around the world use EFF&#039;s <a _blank\" >Privacy Badger</a>. This browser extension blocks the hidden trackers that twist your web browsing into a commodity for Big Tech, advertisers, scammers, and data brokers. But did you know that we’re trying to solve an issue that’s even bigger than creepy ads and user profiling? <a take-action\"><a commercial surveillance</a> and weak privacy laws allow data brokers to harvest your data and <a your location over ti",
+      "pubDate": "Wed, 13 May 2026 17:10:44 +0000",
+      "source": "EFF",
+      "category": "Surveillance State",
+      "score": 9,
+      "sources": [
+        "EFF"
+      ],
+      "content": "Millions of people around the world use EFF's Privacy Badger . This browser extension blocks the hidden trackers that twist your web browsing into a commodity for Big Tech, advertisers, scammers, and data brokers. But did you know that we’re trying to solve an issue that’s even bigger than creepy ads and user profiling? You can help. Online tracking isn't just creepy and unethical. It also enables government surveillance. Widespread commercial surveillance and weak privacy laws allow data brokers to harvest your data and sell it to law enforcement agencies including the FBI, CBP, and ICE. The government exploits this system to buy sensitive information about you that they would ordinarily need a warrant to collect, like your location over time . With your help, EFF is fighting back. Our team is working to enact stronger laws to uphold your privacy. We’re advocating for consumer rights in the courts. We’re investigating how these technologies affect our communities . And we’re cutting off surveillance advertising at the source with tools like Privacy Badger for everyone. You can support this work as an EFF member. Privacy is a human right because it gives you a fundamental measure of security and freedom. That is why we at EFF focus on your ability to have private conversations and interact with the world using technologies that you choose. But when tools that many of us must rely on serve corporate surveillance, they also feed government surveillance. We owe it to ourselves to fight the mass spying used to control and intimidate people. Let’s do this. For a limited time, you can join EFF as a monthly or one-time donor and pick up a new Privacy Badger Crewneck sweatshirt . The embroidered Privacy Badger mascot appears above Traditional Chinese for \" privacy ” because human rights are universal. You can also get a set of puffy stickers as a token of thanks. Our little Ghostie protects privacy in Arabic, English, Japanese, Persian, Russian, and Spanish. Claw Back! This year’s member t-shirt is hot off the press featuring an orange cat swatting at the street-level surveillance equipment multiplying in our communities. You might empathize with him, but there’s a better way. Let’s end the law enforcement contracts, harmful practices, and twisted logic that enable mass spying in the first place. You can support our mission for technology in the public interest today. Join the movement and become an EFF member. EFF is a member-supported U.S. 501(c)(3) organization. We've received top rati ngs from the nonprofit watchdog Charity Navigator since 2013! Your donation is tax-deductible as allowed by law. For years, civil society organizations, workers, journalists, and human rights experts have warned that major technology companies risk enabling grave human rights abuses when they provide cloud computing, AI, and surveillance infrastructure to governments implicated in violations of international and humanitarian law. While many companies pay lip service to evaluating... Poor accountability, feeble control mechanisms, and insufficient legal frameworks have led to systematic human rights violations in the Americas, with no consistent remedy or reparation to victims. What's needed is to materialize essential guarantees and measures to combat repeated surveillance abuses in the region. To help build a path... Last week, Instagram ended its opt-in, and therefore rarely used, end-to-end encryption feature . Years after publicly promising to provide the privacy protections of end-to-end encryption across its platforms by default, it instead gave up on that technical challenge. Now, we've all lost an option for safer... EFF friend Guy Kawasaki* has written a book: Everybody Has Something to Hide: Why and How to Use Signal to Preserve Your Privacy, Security, and Well-Being. This guide is now available in Spanish and English as an ebook in the EPUB format that you can download here. Take a look... Check out our 4-star rating on Charity Navigator .",
+      "keywords": [
+        "surveillance-state news",
+        "privacy",
+        "your",
+        "surveillance",
         "data",
-        "their",
-        "brokers",
-        "markup",
-        "pages",
-        "calmatters",
-        "code"
+        "badger",
+        "rights",
+        "human"
       ],
       "hashtags": [
-        "#true-crimenews",
+        "#surveillance-statenews",
+        "#privacy",
+        "#your",
+        "#surveillance",
         "#data",
-        "#their",
-        "#brokers",
-        "#markup",
-        "#pages",
-        "#calmatters",
-        "#code"
+        "#badger",
+        "#rights",
+        "#human"
       ],
-      "slug": "2026-06-03-its-easier-for-californians-to-escape-data-brokers-following-a-markup-investigat",
-      "sourceUrl": "https://themarkup.org/privacy/2026/05/22/its-easier-for-californians-to-escape-data-brokers-following-a-markup-investigation",
-      "generatedAt": "2026-06-03T21:01:46.120Z",
-      "relatedArticles": []
+      "slug": "2026-06-04-help-eff-solve-an-issue-that039s-bigger-than-creepy-ads",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/05/online-tracking-isnt-just-unethical-its-dangerous",
+      "generatedAt": "2026-06-04T03:02:21.475Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
     },
     {
-      "title": "Top Ten Global Risks for 2026",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yQW8yeTZvYTduM0FfVXdTZF9JS0Y1X1NOb19jTmJ1cDh6S2RWblhrTmMydllEazRlVXF2UVR2bWstLVBtYTZLQl9tQ0J2YmYyRkZXMWNYSGtZalNtdU1SaWprR0Q5TWN3SEVz?oc=5",
-      "description": "Top Ten Global Risks for 2026 Stimson Center",
-      "pubDate": "2026-01-05T16:12:52.000Z",
-      "source": "Google News (Global Power)",
-      "category": "Global Power",
-      "score": 3,
+      "title": "Facebook again...",
+      "url": "https://www.reddit.com/r/privacy/comments/1tvq7cq/facebook_again/",
+      "description": "<!-- SC_OFF --><div ><p>Ok, I know I should not use FB but unfortunately I have to. So, I have installed it on a factory reset burner, dedicated proton mail, nothing else on the device. I have given false information to FB regarding myself, all locations are off, the device stays at home in a filing cabinet. So imagine my surprise when I receive a VERY targeted ad from a heating oil company includ",
+      "pubDate": "2026-06-03T13:59:25.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 8,
       "sources": [
-        "Google News (Global Power)"
+        "r/privacy",
+        "r/conspiracy"
       ],
-      "content": "Top Ten Global Risks for 2026 Stimson Center",
+      "content": "<!-- SC_OFF --><div ><p>Ok, I know I should not use FB but unfortunately I have to. So, I have installed it on a factory reset burner, dedicated proton mail, nothing else on the device. I have given false information to FB regarding myself, all locations are off, the device stays at home in a filing cabinet. So imagine my surprise when I receive a VERY targeted ad from a heating oil company includ",
       "keywords": [
-        "global-power news",
-        "global",
-        "risks",
-        "stimson",
-        "center"
+        "tech-&-privacy news",
+        "device",
+        "facebook",
+        "again",
+        "know",
+        "unfortunately",
+        "installed",
+        "factory"
       ],
       "hashtags": [
-        "#global-powernews",
-        "#global",
-        "#risks",
-        "#stimson",
-        "#center"
+        "#tech-&-privacynews",
+        "#device",
+        "#facebook",
+        "#again",
+        "#know",
+        "#unfortunately",
+        "#installed",
+        "#factory"
       ],
-      "slug": "2026-06-03-top-ten-global-risks-for-2026",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yQW8yeTZvYTduM0FfVXdTZF9JS0Y1X1NOb19jTmJ1cDh6S2RWblhrTmMydllEazRlVXF2UVR2bWstLVBtYTZLQl9tQ0J2YmYyRkZXMWNYSGtZalNtdU1SaWprR0Q5TWN3SEVz?oc=5",
-      "generatedAt": "2026-06-03T21:01:51.023Z",
-      "relatedArticles": []
+      "slug": "2026-06-04-facebook-again",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tvq7cq/facebook_again/",
+      "generatedAt": "2026-06-04T03:02:22.745Z",
+      "relatedArticles": [
+        {
+          "title": "Age Verification is a Privacy Nightmare",
+          "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+          "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Federal Inspection Reportedly Finds Delaney Hall In Compliance On Virtually All Standards",
+      "url": "https://www.zerohedge.com/political/federal-inspection-reportedly-finds-delaney-hall-compliance-virtually-all-standards",
+      "description": "<span >Federal Inspection Reportedly Finds Delaney Hall In Compliance On Virtually All Standards</span> <div ><article><p><em><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p>As is often the case, there is a closed loop of information fueling such claims. The media ran allegations from advocacy groups, politicians repeated the media reports as fact, and then lawyers cited both as the basis for a lawsuit to shut down the <strong>site. The problem is ",
+      "pubDate": "Wed, 03 Jun 2026 21:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Jonathan Turley via JonathanTurley.org , Democratic Governor Mikie Sherrill has repeatedly claimed that conditions in the Delaney Hall ICE facility are abhorrent, inhuman, and intolerable. Democratic leaders claimed that the conditions were so horrific that there was a hunger strike going on. As is often the case, there is a closed loop of information fueling such claims. The media ran allegations from advocacy groups, politicians repeated the media reports as fact, and then lawyers cited both as the basis for a lawsuit to shut down the site. The problem is an actual federal inspection that found the facility to be in compliance with virtually every standard. The most recent investigative report conducted by the DHS Office of Professional Responsibility (OPR) found compliance with 17 out of 22 standards. The errors were comparatively minor to the sweeping claims made by Sherrill and others. The investigation, performed by six OPR officers and four outside contractors, found only 5 areas of violation, including ice buildup in the freezers, fingerprinting omissions, and improper labeling of cleaning equipment. Moreover, ICE has supplied records showing that state officials have been allowed into the facility for their own inspections , releasing proof from a May 28 visit. Despite such access, Democratic politicians and activists continued to spread the false claim that there have been no such inspections, rotting food, and disgusting conditions. In support of the state lawsuit, Sherrill proclaimed \"If the GEO Group - with a $1 billion government contract - has nothing to hide and the conditions inside Delaney Hall are as safe and as sanitary as this private corporation and the Trump Administration claim, then there is no legitimate reason why my health inspectors are being kept from full access throughout the building. The people of New Jersey deserve transparency and accountability, and I will continue using all the power of this office to advocate for the detainees and their families.\" The complaint generally refers to public reports as the basis for the action: \"Since then, public reporting has raised significant concerns about public health conditions in the facility, including overcrowding and lack of ventilation; lack of or inadequate medical care or hygiene practices; unsanitary food and drink preparation and storage; and the unchecked spread of communicable diseases like COVID-19 and Influenza.\" That will make for an interesting hearing on the new lawsuit, where the court may question the good-faith accounts made in filings or public statements. The complaint is notably framed in vague terms about the underlying claims and the sources for those allegations. It notably only asks for access, avoiding a direct demand for a finding of violations. In the meantime, Sherrill continues to claim that local police are present to protect protesters from the ICE violence and repeats these claims about conditions at the facility. DHS has continued to rebut claims made by politicians and pundits. However, few of those facts are penetrating the coverage of the protests or changing the sweeping claims being made by elected officials. This lawsuit could allow for a full consideration of the claims and the facts surrounding the facility. Here is the complaint: Washington v. The GEO Group Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "surveillance-state news",
+        "claims",
+        "conditions",
+        "facility",
+        "there",
+        "lawsuit",
+        "delaney",
+        "hall"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#claims",
+        "#conditions",
+        "#facility",
+        "#there",
+        "#lawsuit",
+        "#delaney",
+        "#hall"
+      ],
+      "slug": "2026-06-04-federal-inspection-reportedly-finds-delaney-hall-in-compliance-on-virtually-all",
+      "sourceUrl": "https://www.zerohedge.com/political/federal-inspection-reportedly-finds-delaney-hall-compliance-virtually-all-standards",
+      "generatedAt": "2026-06-04T03:02:24.197Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "The Science is Not Settled: How Weak Evidence is Fueling a National Push to Ban Social Media for Youth",
+      "url": "https://www.reddit.com/r/privacy/comments/1tu6umf/the_science_is_not_settled_how_weak_evidence_is/",
+      "description": "<!-- SC_OFF --><div ><p>Independent researchers, including developmental psychologists from institutions like the University of California, Irvine, and Brown University, have repeatedly found that the evidence for such claims is mixed, blurry, and often contradictory. Large-scale meta-analyses covering dozens of countries have failed to show a consistent, measurable association between the rollout",
+      "pubDate": "2026-06-01T21:44:08.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 7,
+      "sources": [
+        "r/privacy",
+        "EFF"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>Independent researchers, including developmental psychologists from institutions like the University of California, Irvine, and Brown University, have repeatedly found that the evidence for such claims is mixed, blurry, and often contradictory. Large-scale meta-analyses covering dozens of countries have failed to show a consistent, measurable association between the rollout",
+      "keywords": [
+        "surveillance-state news",
+        "evidence",
+        "university",
+        "science",
+        "settled",
+        "weak",
+        "fueling",
+        "national"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#evidence",
+        "#university",
+        "#science",
+        "#settled",
+        "#weak",
+        "#fueling",
+        "#national"
+      ],
+      "slug": "2026-06-04-the-science-is-not-settled-how-weak-evidence-is-fueling-a-national-push-to-ban-s",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tu6umf/the_science_is_not_settled_how_weak_evidence_is/",
+      "generatedAt": "2026-06-04T03:02:25.201Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Fisa surveillance vote sparks fierce debate as Congress splits on warrantless monitoring",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUUJwaGR2eVdSaDQwT0VNVmFMNl9FWFdhcEl4c000REQtNjFXSFlaVkRaSk90LTNWM3pCcjBNenJjOTFxaWpVMXRYY0xHUHducDItTWJ6VndUTEdDUGllSkkyT0ZmNnBkWnBzbzFpd1RsbDFnX1E4U2FYYkE2WkRvUGs2OWJpRXpHbnRR?oc=5",
+      "description": "Fisa surveillance vote sparks fierce debate as Congress splits on warrantless monitoring The Guardian",
+      "pubDate": "2026-04-15T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "Fisa surveillance vote sparks fierce debate as Congress splits on warrantless monitoring The Guardian",
+      "keywords": [
+        "surveillance-state news",
+        "fisa",
+        "surveillance",
+        "vote",
+        "sparks",
+        "fierce",
+        "debate",
+        "congress"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#fisa",
+        "#surveillance",
+        "#vote",
+        "#sparks",
+        "#fierce",
+        "#debate",
+        "#congress"
+      ],
+      "slug": "2026-06-04-fisa-surveillance-vote-sparks-fierce-debate-as-congress-splits-on-warrantless-mo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUUJwaGR2eVdSaDQwT0VNVmFMNl9FWFdhcEl4c000REQtNjFXSFlaVkRaSk90LTNWM3pCcjBNenJjOTFxaWpVMXRYY0xHUHducDItTWJ6VndUTEdDUGllSkkyT0ZmNnBkWnBzbzFpd1RsbDFnX1E4U2FYYkE2WkRvUGs2OWJpRXpHbnRR?oc=5",
+      "generatedAt": "2026-06-04T03:02:27.043Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Five Things to Know About NSA Mass Surveillance and the Coming Fight in Congress",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVm1faVRFbHZjYkFQWHRSMzFYVy1iaFZxWlEwRmpQUTlBaHNWZTRWYUxJeFZGcXBxbzItSXE1UlctOVU2d29lc0xCdnB3OVl1bGI1YnQzSVdidEY4TU9Kd29tb0tOSF9ucThJZnFpRlZvQk5xWVJxSFB0bWZRdGdfYlJ5ZzkzRWNEYnMxZnc4SlJoWU01QTA3bXU2VGdhWlpXZldFS0tBXzVGOWN5djk5QmRzdzBIQm5TRjFsczRnUlRkQQ?oc=5",
+      "description": "Five Things to Know About NSA Mass Surveillance and the Coming Fight in Congress American Civil Liberties Union",
+      "pubDate": "2023-04-11T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "Five Things to Know About NSA Mass Surveillance and the Coming Fight in Congress American Civil Liberties Union",
+      "keywords": [
+        "surveillance-state news",
+        "five",
+        "things",
+        "know",
+        "mass",
+        "surveillance",
+        "coming",
+        "fight"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#five",
+        "#things",
+        "#know",
+        "#mass",
+        "#surveillance",
+        "#coming",
+        "#fight"
+      ],
+      "slug": "2026-06-04-five-things-to-know-about-nsa-mass-surveillance-and-the-coming-fight-in-congress",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVm1faVRFbHZjYkFQWHRSMzFYVy1iaFZxWlEwRmpQUTlBaHNWZTRWYUxJeFZGcXBxbzItSXE1UlctOVU2d29lc0xCdnB3OVl1bGI1YnQzSVdidEY4TU9Kd29tb0tOSF9ucThJZnFpRlZvQk5xWVJxSFB0bWZRdGdfYlJ5ZzkzRWNEYnMxZnc4SlJoWU01QTA3bXU2VGdhWlpXZldFS0tBXzVGOWN5djk5QmRzdzBIQm5TRjFsczRnUlRkQQ?oc=5",
+      "generatedAt": "2026-06-04T03:02:28.778Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Protecting Americans from Warrantless Surveillance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVh4ejU4UkQwbEJzN2M3YUZXQ3dFV2diOFowS2wtUkRJMlc2TFF2X09WTGtoLUZScUp6Q0ZpbnZGQUtvNThNQ2tGdlFWXzRqOUJMZTh4cl85Ulo1T0p4VzdkbnRKOFM0R0twbW56RXc0MnRpcktNT1VZbVRsajI0b0NCRi1vSGoxd0JDc0JJR2ViQzFuRF8tMEhwaVhyQlYtczBF?oc=5",
+      "description": "Protecting Americans from Warrantless Surveillance Brennan Center for Justice",
+      "pubDate": "2023-12-06T08:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "Protecting Americans from Warrantless Surveillance Brennan Center for Justice",
+      "keywords": [
+        "surveillance-state news",
+        "protecting",
+        "americans",
+        "warrantless",
+        "surveillance",
+        "brennan",
+        "center",
+        "justice"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#protecting",
+        "#americans",
+        "#warrantless",
+        "#surveillance",
+        "#brennan",
+        "#center",
+        "#justice"
+      ],
+      "slug": "2026-06-04-protecting-americans-from-warrantless-surveillance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVh4ejU4UkQwbEJzN2M3YUZXQ3dFV2diOFowS2wtUkRJMlc2TFF2X09WTGtoLUZScUp6Q0ZpbnZGQUtvNThNQ2tGdlFWXzRqOUJMZTh4cl85Ulo1T0p4VzdkbnRKOFM0R0twbW56RXc0MnRpcktNT1VZbVRsajI0b0NCRi1vSGoxd0JDc0JJR2ViQzFuRF8tMEhwaVhyQlYtczBF?oc=5",
+      "generatedAt": "2026-06-04T03:02:30.630Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Warrantless Spying Report Signals Expansion of Domestic Surveillance",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM1ZpdC0yb0NuQUMybHVjWHloNGpOem1pakYwNWpqSFd3bGxfSzdYdE83MFBxdFhvNmstUXc5dFk5Um1QQTZISDM0S0JnTXRRV1l1cWtFZDJDQS1WNldBRl9rRDVOdEtEZFcxWHE3NTNUZVdOZWVLTzZpWFJlYmtRZEhHdS0wYTg5RTJNYS1OZTM1WlA0eWFlTEJDdlVpVzAzM1ZGbmxsZWQxMk44QVlpSElR?oc=5",
+      "description": "Warrantless Spying Report Signals Expansion of Domestic Surveillance The American Prospect",
+      "pubDate": "2025-05-12T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "Warrantless Spying Report Signals Expansion of Domestic Surveillance The American Prospect",
+      "keywords": [
+        "surveillance-state news",
+        "warrantless",
+        "spying",
+        "report",
+        "signals",
+        "expansion",
+        "domestic",
+        "surveillance"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#warrantless",
+        "#spying",
+        "#report",
+        "#signals",
+        "#expansion",
+        "#domestic",
+        "#surveillance"
+      ],
+      "slug": "2026-06-04-warrantless-spying-report-signals-expansion-of-domestic-surveillance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM1ZpdC0yb0NuQUMybHVjWHloNGpOem1pakYwNWpqSFd3bGxfSzdYdE83MFBxdFhvNmstUXc5dFk5Um1QQTZISDM0S0JnTXRRV1l1cWtFZDJDQS1WNldBRl9rRDVOdEtEZFcxWHE3NTNUZVdOZWVLTzZpWFJlYmtRZEhHdS0wYTg5RTJNYS1OZTM1WlA0eWFlTEJDdlVpVzAzM1ZGbmxsZWQxMk44QVlpSElR?oc=5",
+      "generatedAt": "2026-06-04T03:02:32.240Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "The NSA Wants Carte Blanche for Warrantless Surveillance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96R3l0UTB4bWxyWkxoaGJwcU5VVjZ0Wnp4RFFiU05wS21XUWZGejU1eWxROXdKZDk5WlJ6TkVrSW85NzhmWVQzSTdQVVlWdDViLXlkMEd6bjEtaVJFQmpPYVcxQzQ1REplNkE5Nm8xWUYzZDFEU1J2S9IBgAFBVV95cUxQeWpOVlhWemxzZnk0UmU5cy1rVWRkZW9pN19MTlkwWG5vdk5DdnNJeWR6cXJycHF4bFllT21oNXh2azFyR3ZGamt6NW9NUVNHcm1XZTZaSzctY0lIUzZJcldaMUdxekFkYkl4VXB6R2QxNlNralhReUZqcXZfWURFUA?oc=5",
+      "description": "The NSA Wants Carte Blanche for Warrantless Surveillance The Nation",
+      "pubDate": "2024-04-18T07:00:00.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "Google News (Surveillance State)"
+      ],
+      "content": "The NSA Wants Carte Blanche for Warrantless Surveillance The Nation",
+      "keywords": [
+        "surveillance-state news",
+        "wants",
+        "carte",
+        "blanche",
+        "warrantless",
+        "surveillance",
+        "nation"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#wants",
+        "#carte",
+        "#blanche",
+        "#warrantless",
+        "#surveillance",
+        "#nation"
+      ],
+      "slug": "2026-06-04-the-nsa-wants-carte-blanche-for-warrantless-surveillance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96R3l0UTB4bWxyWkxoaGJwcU5VVjZ0Wnp4RFFiU05wS21XUWZGejU1eWxROXdKZDk5WlJ6TkVrSW85NzhmWVQzSTdQVVlWdDViLXlkMEd6bjEtaVJFQmpPYVcxQzQ1REplNkE5Nm8xWUYzZDFEU1J2S9IBgAFBVV95cUxQeWpOVlhWemxzZnk0UmU5cy1rVWRkZW9pN19MTlkwWG5vdk5DdnNJeWR6cXJycHF4bFllT21oNXh2azFyR3ZGamt6NW9NUVNHcm1XZTZaSzctY0lIUzZJcldaMUdxekFkYkl4VXB6R2QxNlNralhReUZqcXZfWURFUA?oc=5",
+      "generatedAt": "2026-06-04T03:02:33.622Z",
+      "relatedArticles": [
+        {
+          "title": "More License Plate Reader Mission Creep: School Residency Verification, Background Checks, and Noise Complaints",
+          "slug": "2026-06-04-more-license-plate-reader-mission-creep-school-residency-verification-background",
+          "category": "Surveillance State"
+        },
+        {
+          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
+          "slug": "2026-06-04-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
+      "description": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
+      "pubDate": "2025-09-30T07:00:00.000Z",
+      "source": "Google News (Corporate Watchdog)",
+      "category": "Corporate Watchdog",
+      "score": 6,
+      "sources": [
+        "Google News (Corporate Watchdog)"
+      ],
+      "content": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
+      "keywords": [
+        "corporate-watchdog news",
+        "landmark",
+        "billion",
+        "amazon",
+        "settlement",
+        "highlights",
+        "ongoing",
+        "focus"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#landmark",
+        "#billion",
+        "#amazon",
+        "#settlement",
+        "#highlights",
+        "#ongoing",
+        "#focus"
+      ],
+      "slug": "2026-06-04-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
+      "generatedAt": "2026-06-04T03:02:34.896Z",
+      "relatedArticles": [
+        {
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Amazon Reaches $2.5 Billion Settlement Over Allegations It Misled Prime Users",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLNE5rM01tbWVJLUtTOUYzQVJPMDc5bmdwTmZBZXE2ZTBEVEZpUVlzY1R3Vlhfb1djdUhVY3ZMVzlkM3g3LWdnMEwxZFZvNXI4LXBCYWVHc25NbXFoMWtla0xkRFpscHYz?oc=5",
+      "description": "Amazon Reaches $2.5 Billion Settlement Over Allegations It Misled Prime Users WSJ",
+      "pubDate": "2025-09-25T07:00:00.000Z",
+      "source": "Google News (Corporate Watchdog)",
+      "category": "Corporate Watchdog",
+      "score": 6,
+      "sources": [
+        "Google News (Corporate Watchdog)"
+      ],
+      "content": "Amazon Reaches $2.5 Billion Settlement Over Allegations It Misled Prime Users WSJ",
+      "keywords": [
+        "corporate-watchdog news",
+        "amazon",
+        "reaches",
+        "billion",
+        "settlement",
+        "allegations",
+        "misled",
+        "prime"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#amazon",
+        "#reaches",
+        "#billion",
+        "#settlement",
+        "#allegations",
+        "#misled",
+        "#prime"
+      ],
+      "slug": "2026-06-04-amazon-reaches-25-billion-settlement-over-allegations-it-misled-prime-users",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLNE5rM01tbWVJLUtTOUYzQVJPMDc5bmdwTmZBZXE2ZTBEVEZpUVlzY1R3Vlhfb1djdUhVY3ZMVzlkM3g3LWdnMEwxZFZvNXI4LXBCYWVHc25NbXFoMWtla0xkRFpscHYz?oc=5",
+      "generatedAt": "2026-06-04T03:02:36.842Z",
+      "relatedArticles": [
+        {
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        }
+      ]
     },
     {
       "title": "USA - Competition Litigation Laws and Regulations 2026",
@@ -186,50 +1619,66 @@
         "#regulations",
         "#iclg"
       ],
-      "slug": "2026-06-03-usa-competition-litigation-laws-and-regulations-2026",
+      "slug": "2026-06-04-usa-competition-litigation-laws-and-regulations-2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNmQ2ZC1Qbk52VzZYbG9DVWZrSlZpNVlrLTd6UmppbTRPbVFsb0ZWY0IzNzMxU2JmbmU1SjRIcWNJQVNkbkQtWE5qSE1RQWNqWlRVZHUxX2ptOUhaVjJqM2dwT1ZlZXVIMWFDYnZja2psZDN4SG5EZDhCZTlkeExEejl2ZTJxT0U?oc=5",
-      "generatedAt": "2026-06-03T21:01:53.738Z",
-      "relatedArticles": []
+      "generatedAt": "2026-06-04T03:02:38.735Z",
+      "relatedArticles": [
+        {
+          "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
+          "slug": "2026-06-04-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
+          "category": "Government Secrets"
+        },
+        {
+          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
+          "slug": "2026-06-04-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
+          "category": "Government Secrets"
+        }
+      ]
     },
     {
-      "title": "Landmark antitrust trial could force Zuckerberg to sell Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YVExMQ1BEVUc2SUlEM0RPai1FZGs4eGxBSWJxbHY4MDBBQjhNT1VJT0tqcl9ScFBNbk1wcEFZd18zSWUxLVVLN21Obm50dG1aZVNsdlptUURQdw?oc=5",
-      "description": "Landmark antitrust trial could force Zuckerberg to sell Instagram BBC",
-      "pubDate": "2025-04-14T07:00:00.000Z",
+      "title": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzZaSVZxQ3FJU2ZoOVpwa2s3cmFPUmhEUmR4cDRxWTFuS3U0SWtlVVUyeVdmU1c5VEowcjdSbF9uc05sVVpWb0gwWldsMnVyazRVWlBTSWJMdnZoNGgyb0tCS21nWjF0RmxlaU9NUGstRzFkN1ZJdl90UjNYQ3pWeUp3SUF2Zm9BWkwtSzJCb2k3cURfZXZqWjZ0N3VNWHpScWtKdWJDanIza1Y5VEhv?oc=5",
+      "description": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025 Arnold & Porter",
+      "pubDate": "2025-03-31T07:00:00.000Z",
       "source": "Google News (Corporate Watchdog)",
       "category": "Corporate Watchdog",
       "score": 6,
       "sources": [
         "Google News (Corporate Watchdog)"
       ],
-      "content": "Landmark antitrust trial could force Zuckerberg to sell Instagram BBC",
+      "content": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025 Arnold & Porter",
       "keywords": [
         "corporate-watchdog news",
-        "landmark",
         "antitrust",
-        "trial",
-        "force",
-        "zuckerberg",
-        "sell",
-        "instagram"
+        "agency",
+        "insights",
+        "developments",
+        "enforcement",
+        "agencies",
+        "first"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#landmark",
         "#antitrust",
-        "#trial",
-        "#force",
-        "#zuckerberg",
-        "#sell",
-        "#instagram"
+        "#agency",
+        "#insights",
+        "#developments",
+        "#enforcement",
+        "#agencies",
+        "#first"
       ],
-      "slug": "2026-06-03-landmark-antitrust-trial-could-force-zuckerberg-to-sell-instagram",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YVExMQ1BEVUc2SUlEM0RPai1FZGs4eGxBSWJxbHY4MDBBQjhNT1VJT0tqcl9ScFBNbk1wcEFZd18zSWUxLVVLN21Obm50dG1aZVNsdlptUURQdw?oc=5",
-      "generatedAt": "2026-06-03T21:01:55.167Z",
+      "slug": "2026-06-04-antitrust-agency-insights-developments-at-the-us-antitrust-enforcement-agencies",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzZaSVZxQ3FJU2ZoOVpwa2s3cmFPUmhEUmR4cDRxWTFuS3U0SWtlVVUyeVdmU1c5VEowcjdSbF9uc05sVVpWb0gwWldsMnVyazRVWlBTSWJMdnZoNGgyb0tCS21nWjF0RmxlaU9NUGstRzFkN1ZJdl90UjNYQ3pWeUp3SUF2Zm9BWkwtSzJCb2k3cURfZXZqWjZ0N3VNWHpScWtKdWJDanIza1Y5VEhv?oc=5",
+      "generatedAt": "2026-06-04T03:02:39.850Z",
       "relatedArticles": [
         {
-          "title": "New Schiff leak claim from whistleblower echoes years of similar accusations",
-          "slug": "2026-06-03-new-schiff-leak-claim-from-whistleblower-echoes-years-of-similar-accusations",
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
+          "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
           "category": "Corporate Watchdog"
         }
       ]
@@ -266,14 +1715,67 @@
         "#years",
         "#similar"
       ],
-      "slug": "2026-06-03-new-schiff-leak-claim-from-whistleblower-echoes-years-of-similar-accusations",
+      "slug": "2026-06-04-new-schiff-leak-claim-from-whistleblower-echoes-years-of-similar-accusations",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHV0ZGNjc01RbjZqbDBWNnN5ZHp5eE5ZZ20yc2kxUXJvZWZWZXB0Z08zQmk2VjljaUlzU1JSQ1YxblB0NWtETVRGamdaZXVIZlgwY1VEV2xXTTVOT21PMkV6Yl9CNEJqMFBVZVhva01EUHh6bUdNaWQtSkZEbkkzUTIyVXpmTXJfSVVPZlRoY213TTdRY0xUcTFwVGhHV1NPQVU3cXdnd251QdIBrwFBVV95cUxOLWRqSWhOenpZZXJHMFVqdUo4ZnBKeGVPTlE5QmdvUno4UkJ2OUY3RV9Jd0dFZWVNQ2M4UG9IUGpPUTBjWUxxa1pUSERObjhvUUFER0tLcEVOblVvdlBSTnZfSjZoRG1qMURiZ2Y5WVNFRGgxd2hRNTBXUnltTEhpd3ViY1E2U1dQMDFKOFJETUNRWFR0Q216b3oxWnVoMXhOM0ozNGZ6SUR1bTBNb2Iw?oc=5",
-      "generatedAt": "2026-06-03T21:01:57.188Z",
+      "generatedAt": "2026-06-04T03:02:41.740Z",
       "relatedArticles": [
         {
-          "title": "Landmark antitrust trial could force Zuckerberg to sell Instagram",
-          "slug": "2026-06-03-landmark-antitrust-trial-could-force-zuckerberg-to-sell-instagram",
+          "title": "I can't believe how normalized it is that email providers can just read your emails in full",
+          "slug": "2026-06-04-i-cant-believe-how-normalized-it-is-that-email-providers-can-just-read-your-emai",
           "category": "Corporate Watchdog"
+        },
+        {
+          "title": "Password manager Dashlane says hackers stole some customers' password vaults",
+          "slug": "2026-06-04-password-manager-dashlane-says-hackers-stole-some-customers-password-vaults",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekJFdlptWk5vbGhhWkZ6UUtNWW16OHJuSDJtVG10UlhIaGh4OWJBZEQwTjA2Wk1iX3QxU0tFMDBqRm9odzh4SGRIM2FDQTl5MDVWTmt3Y3hPUUpuQXNBSXpEckZab1FlbmpXc0xmcUtnVExBdEE5X01rakhYempOX3ktZ3RZdlNkcG9jd19FUE53QUNRMnBVaTROVWNFNDVydFc3Q1JGYlNxMmN3VTNqNlMwWS0?oc=5",
+      "description": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw Forbes",
+      "pubDate": "2026-01-23T08:00:00.000Z",
+      "source": "Google News (Tech & Privacy)",
+      "category": "Tech & Privacy",
+      "score": 6,
+      "sources": [
+        "Google News (Tech & Privacy)"
+      ],
+      "content": "Microsoft Gave FBI BitLocker Encryption Keys, Exposing Privacy Flaw Forbes",
+      "keywords": [
+        "tech-&-privacy news",
+        "microsoft",
+        "gave",
+        "bitlocker",
+        "encryption",
+        "keys",
+        "exposing",
+        "privacy"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#microsoft",
+        "#gave",
+        "#bitlocker",
+        "#encryption",
+        "#keys",
+        "#exposing",
+        "#privacy"
+      ],
+      "slug": "2026-06-04-microsoft-gave-fbi-bitlocker-encryption-keys-exposing-privacy-flaw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekJFdlptWk5vbGhhWkZ6UUtNWW16OHJuSDJtVG10UlhIaGh4OWJBZEQwTjA2Wk1iX3QxU0tFMDBqRm9odzh4SGRIM2FDQTl5MDVWTmt3Y3hPUUpuQXNBSXpEckZab1FlbmpXc0xmcUtnVExBdEE5X01rakhYempOX3ktZ3RZdlNkcG9jd19FUE53QUNRMnBVaTROVWNFNDVydFc3Q1JGYlNxMmN3VTNqNlMwWS0?oc=5",
+      "generatedAt": "2026-06-04T03:02:43.503Z",
+      "relatedArticles": [
+        {
+          "title": "Age Verification is a Privacy Nightmare",
+          "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
+          "category": "Tech & Privacy"
+        },
+        {
+          "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+          "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
+          "category": "Tech & Privacy"
         }
       ]
     },
@@ -309,18 +1811,18 @@
         "#urged",
         "#protect"
       ],
-      "slug": "2026-06-03-committee-studying-lawful-access-bill-urged-to-protect-encryption-balance-privac",
+      "slug": "2026-06-04-committee-studying-lawful-access-bill-urged-to-protect-encryption-balance-privac",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TWVFHNWdYcEdjSE1zXzJ4OThvLVhOVlJ0Mmhyb182M2JJRTFWQ3Fmd1o0OUVjdnRaeU5jN3o1SkcxNUN6aUlDUUlmTGVCRmo4bUxES1ZYTEhsLWI2YmVPamlmMy0zLUotVzVBVGN5VUZPejZRRUlUZVVlOA?oc=5",
-      "generatedAt": "2026-06-03T21:01:58.604Z",
+      "generatedAt": "2026-06-04T03:02:45.180Z",
       "relatedArticles": [
         {
           "title": "Age Verification is a Privacy Nightmare",
-          "slug": "2026-06-03-age-verification-is-a-privacy-nightmare",
+          "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
           "category": "Tech & Privacy"
         },
         {
-          "title": "13 Privacy Tools That Actually Protect Your Data",
-          "slug": "2026-06-03-13-privacy-tools-that-actually-protect-your-data",
+          "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+          "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
           "category": "Tech & Privacy"
         }
       ]
@@ -357,105 +1859,19 @@
         "#data",
         "#gadget"
       ],
-      "slug": "2026-06-03-13-privacy-tools-that-actually-protect-your-data",
+      "slug": "2026-06-04-13-privacy-tools-that-actually-protect-your-data",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUHY3ZEZCd1U3ejEtUWhQdkxiVUJ0OWVObkxmbzJ2TkpEUkQyQ0E0eXlWNFo1R1o2cnBRa0JsVmV5LVVHV2pOZ1YyUTd1RmhmTHd2T0JDOEdRM2JfSHVtUmo4QXJobkw4ZDN2QWJHaDlkcUR3NXd0OWlhZ2piLWs?oc=5",
-      "generatedAt": "2026-06-03T21:01:59.851Z",
+      "generatedAt": "2026-06-04T03:02:47.121Z",
       "relatedArticles": [
         {
           "title": "Age Verification is a Privacy Nightmare",
-          "slug": "2026-06-03-age-verification-is-a-privacy-nightmare",
+          "slug": "2026-06-04-age-verification-is-a-privacy-nightmare",
           "category": "Tech & Privacy"
         },
         {
-          "title": "Committee studying lawful access bill urged to protect encryption, balance privacy with police needs",
-          "slug": "2026-06-03-committee-studying-lawful-access-bill-urged-to-protect-encryption-balance-privac",
+          "title": "Meta’s AI Gave Hackers Keys To An Obama Instagram Account",
+          "slug": "2026-06-04-metas-ai-gave-hackers-keys-to-an-obama-instagram-account",
           "category": "Tech & Privacy"
-        }
-      ]
-    },
-    {
-      "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
-      "description": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
-      "pubDate": "2026-05-23T07:00:00.000Z",
-      "source": "Google News (Money & Markets)",
-      "category": "Money & Markets",
-      "score": 6,
-      "sources": [
-        "Google News (Money & Markets)"
-      ],
-      "content": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
-      "keywords": [
-        "money-&-markets news",
-        "debt",
-        "elephant",
-        "room",
-        "amid",
-        "bond",
-        "rout",
-        "interest"
-      ],
-      "hashtags": [
-        "#money-&-marketsnews",
-        "#debt",
-        "#elephant",
-        "#room",
-        "#amid",
-        "#bond",
-        "#rout",
-        "#interest"
-      ],
-      "slug": "2026-06-03-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
-      "generatedAt": "2026-06-03T21:02:01.643Z",
-      "relatedArticles": [
-        {
-          "title": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records",
-          "slug": "2026-06-03-nasa-chief-pulls-back-curtain-on-trump-ufo-files-after-bizarre-finds-surface-in",
-          "category": "Money & Markets"
-        }
-      ]
-    },
-    {
-      "title": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1YtN1JwVFdzUERPZGtoYWhsRGZzNG9RNG1XdEktNzc0ZzJ4MEtnbHVER0E3cGxweVN4Yzdjbm53dVdiaURRc3NsTVVNTmkwcEtpbk9fY0NLZHZISGJ3Y1JNWGdRMDNheEF0WWt4ZGZub2k5ZTREX1hiMzVkazlKeE5SYV9Rby1VRDMzWmJQUlZuUWs3VGloSi0yRGh2c2toYkRZZElFRnJrVk9XYWFybHhuZDR3R3dqY0lCMl9FZlNLQjjSAcgBQVVfeXFMT3duNEtkRHJma3AtYVE3RzNwQ1hsZU1KaWdoUFZybmtoRy01TzExVUt5MTdUc2M4S25mdkFWRHg1OUdpTWljeHduVVJ4R1JjcHFrVEl4bklUNHlHejNMbGtQQXhSUWdObWpINFlfamZhdHExc2hrSFNhczJyTlkyX0hrZnk5bktwcEJrOVZ3M0M4Vm9IWmdGVE5zOFpDU0NqQlBXOHZZSDhJNHc0MHIxWk9ZVnpSN0Z5MXJBWmg2UWxGbmpVRm9VYTg?oc=5",
-      "description": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records Fox News",
-      "pubDate": "2026-05-27T16:20:24.000Z",
-      "source": "Google News (Unexplained)",
-      "category": "Money & Markets",
-      "score": 6,
-      "sources": [
-        "Google News (Unexplained)"
-      ],
-      "content": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records Fox News",
-      "keywords": [
-        "money-&-markets news",
-        "nasa",
-        "chief",
-        "pulls",
-        "back",
-        "curtain",
-        "trump",
-        "files"
-      ],
-      "hashtags": [
-        "#money-&-marketsnews",
-        "#nasa",
-        "#chief",
-        "#pulls",
-        "#back",
-        "#curtain",
-        "#trump",
-        "#files"
-      ],
-      "slug": "2026-06-03-nasa-chief-pulls-back-curtain-on-trump-ufo-files-after-bizarre-finds-surface-in",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1YtN1JwVFdzUERPZGtoYWhsRGZzNG9RNG1XdEktNzc0ZzJ4MEtnbHVER0E3cGxweVN4Yzdjbm53dVdiaURRc3NsTVVNTmkwcEtpbk9fY0NLZHZISGJ3Y1JNWGdRMDNheEF0WWt4ZGZub2k5ZTREX1hiMzVkazlKeE5SYV9Rby1VRDMzWmJQUlZuUWs3VGloSi0yRGh2c2toYkRZZElFRnJrVk9XYWFybHhuZDR3R3dqY0lCMl9FZlNLQjjSAcgBQVVfeXFMT3duNEtkRHJma3AtYVE3RzNwQ1hsZU1KaWdoUFZybmtoRy01TzExVUt5MTdUc2M4S25mdkFWRHg1OUdpTWljeHduVVJ4R1JjcHFrVEl4bklUNHlHejNMbGtQQXhSUWdObWpINFlfamZhdHExc2hrSFNhczJyTlkyX0hrZnk5bktwcEJrOVZ3M0M4Vm9IWmdGVE5zOFpDU0NqQlBXOHZZSDhJNHc0MHIxWk9ZVnpSN0Z5MXJBWmg2UWxGbmpVRm9VYTg?oc=5",
-      "generatedAt": "2026-06-03T21:02:02.894Z",
-      "relatedArticles": [
-        {
-          "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
-          "slug": "2026-06-03-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
-          "category": "Money & Markets"
         }
       ]
     }
