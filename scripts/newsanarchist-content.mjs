@@ -28,6 +28,9 @@ const SITE_DIR = path.resolve(__dirname, '../newsanarchist-website');
 const TRENDING_JSON = path.join(SITE_DIR, 'trending-topics.json');
 const ARTICLES_DIR = path.join(SITE_DIR, 'articles');
 const SITE_URL = 'https://newsanarchist.com';
+// Load Anthropic API key from credentials file
+const _creds = fs.readFileSync(process.env.HOME + '/.openclaw/secrets/credentials.env', 'utf8');
+const ANTHROPIC_API_KEY = _creds.match(/ANTHROPIC_API_KEY=(.+)/m)?.[1]?.trim();
 const GA4_ID = 'G-7N6W04M3XW';
 const AUTHOR = 'NewsAnarchist Desk';
 
@@ -539,7 +542,72 @@ function estimateReadTime(text) {
 
 function ensureCompleteSentence(t) { if (!t||!t.trim()) return ""; t=t.trim(); if (/[.!?]$/.test(t)) return t; const lp=Math.max(t.lastIndexOf("."),t.lastIndexOf("!"),t.lastIndexOf("?")); if (lp>t.length*0.5) return t.slice(0,lp+1); return t+"."; }
 // ─── Image generation with category + title-specific prompts ───────────────
-function generateArticleImage(topic, outputPath) {
+async function generateImagePrompt(topic) {
+  const { title, category, description } = topic;
+  const categoryGuidance = {
+    'Surveillance State': 'surveillance infrastructure, government monitoring technology, CCTV cameras, data collection equipment, federal agency buildings, biometric scanners',
+    'Corporate Watchdog': 'corporate office buildings, financial documents, boardrooms, legal proceedings, regulatory agencies, executive suites, Wall Street',
+    'Government Secrets': 'federal courthouses, classified document handling, congressional hearings, intelligence agency buildings, diplomatic settings, official proceedings',
+    'Tech & Privacy': 'technology infrastructure, cybersecurity operations, data centers, digital communications, software development, tech campuses',
+    'Global Power': 'military installations, diplomatic summits, international relations, geopolitical flashpoints, naval operations, defense systems',
+    'Money & Markets': 'financial markets, banking institutions, trading floors, economic indicators, currency, investment firms, commodities',
+    'Unexplained': 'remote landscapes, atmospheric phenomena, scientific research facilities, radar installations, night skies, anomalous environments',
+    'True Crime': 'law enforcement operations, courtrooms, crime scenes, investigative procedures, prison facilities, evidence handling',
+    'Financial Fraud': 'financial crimes investigation, forensic accounting, wire transfer records, nonprofit offices, government fraud units, audit trails',
+    'Conflict & Wars': 'military operations, weapons systems, war zones, defense technology, troops in the field, naval and air power',
+    'Web3 & Blockchain': 'cryptocurrency infrastructure, blockchain technology, digital asset trading, crypto exchanges, fintech operations',
+  };
+  const guidance = categoryGuidance[category] || 'investigative journalism, government accountability, public interest reporting';
+  
+  const systemPrompt = `You are an expert editorial photo director for Reuters and AP wire service. Write precise, evocative prompts for a photorealistic AI image generator. Images must look like real news photographs.
+
+Rules:
+- NEVER include recognizable public figures, celebrities, politicians, or named individuals
+- People ARE allowed and encouraged — attractive, diverse, professional-looking non-famous people in relevant contexts
+- Scenes must be SPECIFIC to this article — not a generic category image
+- NEVER describe visible text, words, signs, stamps, labels, or typography in the scene — the image generator will render them and it looks bad
+- Reuters/AP style: natural lighting, sharp focus, documentary realism, wide landscape composition
+- Return ONLY the raw prompt text — no headers, no bullets, no preamble, no explanation`;
+
+  const userPrompt = `Write a specific, vivid image prompt for this news article:
+
+Title: ${title}
+Category: ${category}
+${description ? 'Summary: ' + description.slice(0, 200) : ''}
+
+The image should relate to: ${guidance}
+
+Make it specific to THIS article's situation — not a generic category image. Describe a real scene with specific visual details: lighting, setting, objects, atmosphere, any people (attractive, diverse, non-famous). 80-120 words.`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 200,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: userPrompt }],
+      }),
+    });
+    const data = await res.json();
+    const prompt = data.content?.[0]?.text?.trim();
+    if (prompt && prompt.length > 20) {
+      console.log(`  ↳ Image prompt: ${prompt.slice(0, 80)}...`);
+      return prompt;
+    }
+  } catch (e) {
+    console.error(`  ⚠️  Prompt generation failed: ${e.message}`);
+  }
+  // Fallback to category-based prompt
+  return null;
+}
+
+async function generateArticleImage(topic, outputPath) {
   const { title, category } = topic;
   
   // Category-specific visual prompts aligned with NewsAnarchist themes
@@ -554,13 +622,40 @@ function generateArticleImage(topic, outputPath) {
     'True Crime': 'forensic investigation aesthetic, case files, evidence, empty courtrooms, procedural and cold',
   };
   const mood = categoryMood[category] || 'investigative journalism aesthetic, serious and consequential';
+  // Strip proper nouns from title to avoid generating faces/people
+  const properNouns = new Set(
+    title.split(/\s+/)
+      .filter(w => w.length > 1 && /^[A-Z]/.test(w) && !/^(The|A|An|In|On|At|To|Of|For|And|But|Or|As|By|Is|It|He|She|We|US|UK|EU|UN|FBI|CIA|NSA|DOJ|GOP|CEO|CFO|DHS|IRS|SEC|TSA|ICE)$/.test(w))
+      .map(w => w.toLowerCase().replace(/[^a-z]/g, ''))
+  );
   const titleWords = title.toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .split(/\s+/)
-    .filter(w => w.length > 3 && !['that','this','with','from','they','have','been','will','what','when','were','their','about','after','over','into','than','more','also','then','some','such','even','most','just','does','only','said','each','which','there','where','these','those','would','could','should'].includes(w));
-  const keyWords = titleWords.slice(0, 6).join(', ');
-
-  const prompt = `Wide landscape editorial news photograph, Reuters or Associated Press style, for article: "${title}". Visual subject: ${keyWords}. Fill the entire frame edge to edge with content — no black bars, no letterboxing, no empty margins, no borders, no vignettes, no dark edges. Bright natural daylight or clean indoor lighting. Sharp focus. Documentary realism. No people, no faces, no portraits. No text, no words, no typography. Full bleed landscape composition, subject fills entire image. Photorealistic.`;
+    .filter(w =>
+      w.length > 3 &&
+      !properNouns.has(w) &&
+      !['that','this','with','from','they','have','been','will','what','when','were','their','about','after','over','into','than','more','also','then','some','such','even','most','just','does','only','said','each','which','there','where','these','those','would','could','should','plead','pleads','guilty','charges','charged','indicted','arrested','convicted','lawsuit','probe','report','says','claim','claims','official','officials'].includes(w)
+    );
+  // Category scene anchors — keeps image away from people and toward environments
+  const categoryScene = {
+    'Surveillance State': 'surveillance cameras on building, government data center exterior, monitoring equipment installation',
+    'Corporate Watchdog': 'corporate headquarters exterior, financial documents on desk, empty boardroom, legal filing cabinet',
+    'Government Secrets': 'federal courthouse exterior, legal documents spread on table, government archive room, redacted papers',
+    'Tech & Privacy': 'data center server rows, fiber optic cables glowing, digital screens with code, cloud infrastructure',
+    'Global Power': 'military base aerial view, international flags at diplomatic building, naval vessels at sea, empty command room',
+    'Money & Markets': 'stock exchange trading floor empty, financial charts on screens, stacked currency, bank vault door',
+    'Unexplained': 'night sky with strange lights over desert, remote radar installation, atmospheric anomaly above mountains',
+    'True Crime': 'empty courtroom with wooden benches, evidence table with folders, forensic laboratory equipment',
+    'Financial Fraud': 'financial documents scattered on floor, court filing papers, government accounting office, audit records',
+    'Conflict & Wars': 'military drone on tarmac, empty battlefield landscape, defense installation, weapons depot exterior',
+    'Web3 & Blockchain': 'cryptocurrency mining hardware, computer screens with blockchain data, server room with blinking lights',
+  };
+  const sceneAnchor = categoryScene[category] || 'government building exterior, institutional architecture, official documents on desk';
+  const keyWords = titleWords.slice(0, 4).join(', ');
+  const subjectDesc = keyWords ? `${sceneAnchor}, ${keyWords}` : sceneAnchor;
+  // Use Claude-generated prompt if available, else fall back to scene descriptor
+  const claudePrompt = await generateImagePrompt(topic);
+  const prompt = claudePrompt || `Wide landscape editorial news photograph, Reuters or AP wire service style. Scene: ${subjectDesc}. Mood: ${mood}. Attractive diverse non-famous people in relevant professional context are welcome. Fill the entire frame edge to edge — no black bars, no letterboxing, no empty margins, no borders, no vignettes. Natural daylight or clean institutional lighting. Sharp documentary focus. No recognizable public figures, no celebrities, no politicians. No text, no words, no signs, no typography, no logos, no watermarks. Full bleed landscape composition. Photorealistic.`;
 
   try {
     const result = execSync(
