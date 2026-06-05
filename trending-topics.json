@@ -1,232 +1,330 @@
 {
-  "scrapedAt": "2026-06-05T09:01:57.106Z",
-  "topicsCount": 6,
+  "scrapedAt": "2026-06-05T15:02:00.842Z",
+  "topicsCount": 8,
   "topics": [
     {
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm/",
-      "description": "",
-      "pubDate": "2026-06-05T05:46:06.000Z",
-      "source": "Hacker News",
-      "hnScore": 49,
-      "hnComments": 14,
-      "category": "Corporate Watchdog",
-      "score": 8,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "In my predictions for 2030 I wrote that tech writers would be using specialized LLMs, running locally on powerful hardware. I see hints of this move to “local first” among engineering pundits, but we’re not there yet, in part because of how much more powerful connected frontier models are. That doesn’t mean we can’t experiment, though. That’s precisely what I did last week, trying to fine-tune an instruct model to write like a software technical writer from the 80s and 90s. To train a personal, local model to write like a technical writer from the 90s, one needs tons of written sources. If I wanted to fine-tune a model to write like myself, for example, this blog would not be enough, as it&rsquo;s barely 100k words at the time of this post. You would need more samples for thorough training, and those are not easy to come by, nor simple to produce. The only quick way is to use an existing corpus. Where could I get one? Meet Bitsavers : it&rsquo;s a website that collects and scans old computer manuals and brochures. It’s an incredibly valuable repository of computer history and ancient tech writing, with mirrors available everywhere. As I’m fond of Microsoft manuals from the 90s, I chose the Microsoft collection as the source of training materials. The collection contains out-of-print docs published between 1977 and 2005: more than 37 million words, covering old systems and SDKs. I downloaded the OCR’d text files and cleaned the content from artifacts and clutter (like indices and frontmatter) using good old Python scripts. I then used a cheap and fast model through OpenRouter , gemma-4-26b, to classify each paragraph as either “keep” or “drop” based on its intelligibility. This second pass cost around 8 dollars. Even with this two-pass cleaning, though, training data retained noise that I discovered only later, but that was largely OK for my tests. I split the sanitized text into training examples on paragraph and section boundaries, breaking at headings and keeping code blocks whole, with each chunk capped at around 512 tokens as per Claude advice. Each chunk was paired with a synthetic instruction drawn from templates. I ended up with 192,456 examples in JSONL format (one JSON object per line). I could have used a small model to also come up with better instructions and questions, but I’m an impatient person. In an ideal world, I would have several millions of dollars lying around, ready to be burned creating my own LLM, Fabrice . Since I&rsquo;m far from rich (I wouldn’t be writing this otherwise), the alternative to Fabrice is fine-tuning, which involves tweaking the “weights” of a model so that each token generated is conditioned by the training materials. I like to picture fine-tuning as slightly steering the trajectory of a massive iceberg using tugs; just a little, just to get the intended effect. Why fine-tuning and not, say, retrieval-augmented generation (RAG)? Because in this experiment I was not so much interested in retrieving facts, a scenario where RAG excels, as in getting an LLM to behave and write in a specific style, whatever its knowledge of the context. Compared to full training, fine-tuning doesn’t require a massive amount of data, so it&rsquo;s cheaper. Also, just because: I always wanted to try fine-tuning as a technique and see how feasible it could be. To avoid spending days or weeks fine-tuning a model on my computer, which has a rather old graphic card, I relied on Runpod , an online service for AI developers that provides on-demand pods with pre-configured GPUs and tools for a (relatively) small price. For less than $6 per hour, for example, you can lease a beast of a card, the Nvidia B200 (192gb of memory). The service has a convenient API with configurable auto-recharge and cost control mechanisms. After deciding to fine-tune a model, I consulted with Claude on the sanest methods to achieve that. We settled on QLoRA (Quantized Low-Rank Adaptation), which achieves fine-tuning not by altering each weight of an LLM, but by “freezing” them and putting an adapter on top, which is a small file that reshapes the model behavior (a bit like a mask, if you will). The Q in QLoRA means that the result is quantized, that is, compressed, reducing memory requirements. Are you still with me? Good. If you think this is dense, it’s because it is. Doing anything with LLMs at home these days is an exercise in compromises: you either sacrifice time, spend money, or curb your ambitious goals. I tried to strike a balance to get something meaningful in less than a weekend. I chose to try fine-tuning on two models, Llama 3.1 8B Instruct and Qwen 2.5 7B Instruct. At their size (around 8B) they run comfortably on a Macbook Air. I also tested a Llama base model (which is not trained to answer questions). I tested fine-tuning under several different conditions: varying the volume of training materials (a subset vs. the full corpus), the number of epochs (training rounds), and structural parameters like the rank. I only hold a superficial knowledge of all this, but I trusted my agent to make the right choices, which I happily questioned at every step. For example, 3 epochs can result in “overfitting” in some cases; in the world of LLMs, that translates to excessive training. Fun times. Adapters can only be applied to the target model you fine-tuned for. After training each adapter, I exported them to my laptop and converted and quantized them to a GGUF LoRA file, and then registered it as a local Ollama model I could run in my laptop for benchmarking purposes. The local-conversion approach is faster and requires no GPU, though inference is somewhat slower than a fully merged model. For the test at hand, I did not care about speed that much. Training the adapters for all conditions took perhaps an entire day, including breaks, for a total cost of $50. Along the journey, I lost two adapters: Runpod is unforgiving of budget and deletes pods immediately if funding is zero (there’s a lesson learned, yes). Claude took care of setting up each run and following up with Runpod’s API. The /goal command of Claude Code was quite helpful to loop through each phase (in retrospect, I would have run it in YOLO mode ). This table shows all the models I compared and their conditions: I subjected each model to the same prompts: You can see all the questions and answers in this gist . For the malloc() test, the unmodified models generated modern Markdown docs in the style of a README, while the fine-tuned models used a period correct structure, with a Synopsis block, a Return Value section, and so on. For the fictitious ConnectWifi() function, only the 3 epochs model maintained the fiction and documented it as if it was real, while the others broke the fourth wall to adhere to internal knowledge and resist the training. The REST API exercise was quite interesting, too: Llama Instruct 40k failed, producing bland marketing prose. Claude attributed this to the heavy reinforcement training (RLHF) that Llama goes through to make it friendly and accessible. Qwen fine-tunes held the register way better, producing period-structured docs, using HTTP method names as verbs and formal headings. Qwen 192k was the strongest, opening like a chapter of the Windows 2000 Resource Kit. Let me repeat that: a 7B model, trained on 1990s documentation and tested on a 2000s concept, produced a convincing chapter opening that could be mistaken for genuine period material. Style transferred. Wow. On the other hand, the base model, which is not trained to answer questions, but to autocomplete text, failed miserably, spurting raw corpus almost at random, hundreds of lines of garbage. Base models have no notion of “answer this question” or “complete this\".",
-      "keywords": [
-        "corporate-watchdog news",
-        "model",
-        "fine",
-        "training",
-        "tuning",
-        "like",
-        "each",
-        "models"
-      ],
-      "hashtags": [
-        "#corporate-watchdognews",
-        "#model",
-        "#fine",
-        "#training",
-        "#tuning",
-        "#like",
-        "#each",
-        "#models"
-      ],
-      "slug": "2026-06-05-fine-tuning-an-llm-to-write-docs-like-its-1995",
-      "sourceUrl": "https://passo.uno/fine-tuning-docs-llm/",
-      "generatedAt": "2026-06-05T09:01:44.227Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "Here Announces Unaudited Financial Results for the Third Quarter of Fiscal Year 2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/05/3307250/0/en/Here-Announces-Unaudited-Financial-Results-for-the-Third-Quarter-of-Fiscal-Year-2026.html",
-      "description": "BEIJING, June  05, 2026  (GLOBE NEWSWIRE) -- Here Group Limited (NASDAQ: HERE) (“Here” or the “Company”), an IP1-based pop toy company dedicated to creating beloved collectibles and trend-defining experiences, today announced its unaudited financial results for the third quarter of the fiscal year ending June 30, 2026 (the “third quarter of FY 2026”, which refers to the quarter from January 1, 202",
-      "pubDate": "2026-06-05T09:00:00.000Z",
-      "source": "GlobeNewswire Tech",
+      "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
+      "description": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
+      "pubDate": "2026-05-23T07:00:00.000Z",
+      "source": "Google News (Money & Markets)",
       "category": "Money & Markets",
-      "score": 9,
+      "score": 6,
       "sources": [
-        "GlobeNewswire Tech"
+        "Google News (Money & Markets)"
       ],
-      "content": "June 05, 2026 05:00 ET | Source: Here Group Limited Here Group Limited BEIJING, June 05, 2026 (GLOBE NEWSWIRE) -- Here Group Limited (NASDAQ: HERE) (“Here” or the “Company”), an IP 1 -based pop toy company dedicated to creating beloved collectibles and trend-defining experiences, today announced its unaudited financial results for the third quarter of the fiscal year ending June 30, 2026 (the “third quarter of FY 2026”, which refers to the quarter from January 1, 2026 to March 31, 2026). Financial Highlights for the Third Quarter of FY 2026 2 Mr. Peng Li, Chairman and Chief Executive Officer of Here, commented, \"We delivered revenues of RMB164.7 million with improved gross margin this quarter, exceeding expectations despite seasonally softer conditions. Our strategic focus remains on IP momentum and user engagement as the fundamental drivers of sustainable growth. We have adjusted our product launch cadence and sales approach to align with market demand. Through disciplined execution, we are rolling out new IP products at a measured pace and opening additional self-operated stores to build the foundation for the planned accelerated expansion. We remain confident in our long-term competitive positioning and value creation for shareholders.” Mr. Dong Xie, Chief Financial Officer, added, “Our quarterly results exceeded expectations on both revenue and gross margin. This quarter, we implemented strategic cost structure refinements that position us for enhanced margin performance in future periods. We maintain disciplined capital allocation and focus on building long-term financial health and operational efficiency. We are confident in our ability to navigate near-term headwinds and emerge as a stronger, more efficient organization positioned for long-term success as a leading global IP trend company.” Financial Results for the Third Quarter of FY 2026 Revenues were RMB164.7 million (US$23.9 million) in the third quarter of FY 2026, primarily generated from sales of the three flagship IPs – WAKUKU, SIINONO, and ZIYULI. The change compared to the second quarter of FY 2026 was primarily driven by the cadence of new product launches and the impact of the Chinese New Year holidays, which materially reduced effective working days and temporarily constrained supply chain and delivery capabilities. Cost of revenues was RMB107.9 million (US$15.6 million) in the third quarter of FY 2026, primarily composed of costs associated with pop toy products sold. Sales and marketing expenses were RMB57.7 million (US$8.4 million) in the third quarter of FY 2026, primarily consisting of advertising and promotion expenses and staff compensation. Research and development expenses were RMB9.5 million (US$1.4 million) in the third quarter of FY 2026, primarily consisting of IP design and product development expenses. General and administrative expenses were RMB33.6 million (US$4.9 million) in the third quarter of FY 2026, primarily associated with core corporate functions, including employee compensation, professional service fees, and other operational expenses. Net loss was RMB34.1 million (US$4.9 million) in the third quarter of FY 2026. Adjusted net loss was RMB22.9 million (US$3.3 million) in the third quarter of FY 2026. Net loss per ordinary share and adjusted net loss per ordinary share 4 Basic and diluted net loss per ordinary share were RMB0.21 (US$0.03) in the third quarter of FY 2026. Basic and diluted adjusted net loss per ordinary share were RMB0.14 (US$0.02) in the third quarter of FY 2026. Based on currently available information, the Company expects its revenues to be in the range of RMB130.0 million to RMB140.0 million for the fourth quarter of FY 2026 (which refers to the quarter from April 1, 2026 to June 30, 2026). The Company is revising its revenue guidance from the previously announced range of RMB750.0 million to RMB800.0 million to a new range of RMB600.0 million to RMB610.0 million for FY 2026 (which refers to the year from July 1, 2025 to June 30, 2026). This revision reflects near-term market realities and demonstrates our commitment to providing transparent guidance aligned with current industry conditions. We remain focused on disciplined execution and building a sustainable foundation for long-term growth. The forecasts reflect the Company’s current and preliminary views on the market and its operating conditions, which are subject to change. On June 6, 2025, the Company announced that the Board had approved a new share repurchase program of up to US$20.0 million of the Company’s Class A ordinary shares in the form of ADSs for a purchase period beginning on June 11, 2025 and ending on June 30, 2026 (the “2025 Share Repurchase Program”). As of June 1, 2026, a total of 2.3 million ADSs had been repurchased for an aggregate consideration of US$12.8 million under the 2025 Share Repurchase Program. On June 5, 2026, the Company announced that the Board had approved a new share repurchase program of up to US$20.0 million of the Company’s Class A ordinary shares in the form of ADSs for a purchase period beginning from July 1, 2026 and ending on June 30, 2027 (the “2026 Share Repurchase Program”). Repurchases under the 2026 Share Repurchase Program may be made from time to time through open market transactions at prevailing market prices, in privately negotiated transactions, in block trades and/or through other legally permissible means. The repurchases will be subject to all applicable rules and regulations, including Rule 10b-18 and Rule 10b5-1 under the Securities Exchange Act of 1934, as amended, as well as the Company’s insider trading policy. The number of ADSs repurchased and the timing of repurchases will also depend on a number of factors, including, but not limited to, price, trading volume and general market conditions, along with the Company’s working capital requirements, general business conditions and other factors. The Board will review the 2026 Share Repurchase Program periodically, and may authorize adjustment of its terms and size or suspend or discontinue the program. The Company plans to fund the repurchases from its existing cash balance. The Company’s management will hold an earnings conference call at 07:00 A.M. Eastern Time on Friday, June 5, 2026 (07:00 P.M. Beijing Time on the same day) to discuss the financial results. Details for the conference call are as follows: Event Title: Here Group Limited Q3 FY2026 Earnings Call All participants may use the link provided above to complete the online registration process in advance of the conference call. Upon registration, each participant will receive an email with a set of participant dial-in numbers, a passcode, and a unique PIN to join the conference call.",
+      "content": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
       "keywords": [
         "money-&-markets news",
-        "million",
-        "quarter",
-        "third",
-        "company",
-        "june",
-        "here",
-        "share"
+        "debt",
+        "elephant",
+        "room",
+        "amid",
+        "bond",
+        "rout",
+        "interest"
       ],
       "hashtags": [
         "#money-&-marketsnews",
-        "#million",
-        "#quarter",
-        "#third",
-        "#company",
-        "#june",
-        "#here",
-        "#share"
+        "#debt",
+        "#elephant",
+        "#room",
+        "#amid",
+        "#bond",
+        "#rout",
+        "#interest"
       ],
-      "slug": "2026-06-05-here-announces-unaudited-financial-results-for-the-third-quarter-of-fiscal-year",
-      "sourceUrl": "https://www.globenewswire.com/news-release/2026/06/05/3307250/0/en/Here-Announces-Unaudited-Financial-Results-for-the-Third-Quarter-of-Fiscal-Year-2026.html",
-      "generatedAt": "2026-06-05T09:01:45.803Z",
-      "relatedArticles": []
+      "slug": "2026-06-05-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
+      "generatedAt": "2026-06-05T15:01:44.836Z",
+      "relatedArticles": [
+        {
+          "title": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records",
+          "slug": "2026-06-05-nasa-chief-pulls-back-curtain-on-trump-ufo-files-after-bizarre-finds-surface-in",
+          "category": "Money & Markets"
+        }
+      ]
     },
     {
-      "title": "Beijing Bans Four New Zealand MPs For \"Crossing Red Line\" With Taiwan Visit",
-      "url": "https://www.zerohedge.com/political/beijing-bans-four-new-zealand-mps-crossing-red-line-taiwan-visit",
-      "description": "<span >Beijing Bans Four New Zealand MPs For \"Crossing Red Line\" With Taiwan Visit</span> <div ><p>In a first, China has banned four New Zealand Members of Parliament for a year over their visit to Taiwan, New Zealand's foreign ministry says. The MPs learned of the ban - which the Chinese Embassy said could be reduced or waived with an apology - when they returned from the trip in May, local media reported on Thursday.</p> <p>On Thursday, Chinese foreign ministry spokeswoman Mao Ning said: “<str",
-      "pubDate": "Fri, 05 Jun 2026 03:00:00 +0000",
-      "source": "ZeroHedge",
-      "category": "Conflict & Wars",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "In a first, China has banned four New Zealand Members of Parliament for a year over their visit to Taiwan, New Zealand&#x27;s foreign ministry says. The MPs learned of the ban - which the Chinese Embassy said could be reduced or waived with an apology - when they returned from the trip in May, local media reported on Thursday. On Thursday, Chinese foreign ministry spokeswoman Mao Ning said: “ Recently, certain New Zealand members of parliament, disregarding China’s serious concerns and firm opposition, wilfully paid a visit to China’s Taiwan region, violating the one-China principle and interfering in China’s internal affairs. “In accordance with relevant laws of the People’s Republic of China, the Chinese side has decided to adopt measures against the individuals concerned, including denial of entry into China.” This was the first time China has imposed travel bans on New Zealand MPs for visiting Taiwan - a move that \"surprised\" foreign minister Winston Peters, a ministry spokesperson said in a statement to the BBC. China claims the self-governed island of Taiwan as its territory, and has tried to restrict the island&#x27;s foreign engagements. \"New Zealand MPs have visited Taiwan for decades and such visits are not inconsistent with New Zealand&#x27;s One China policy,\" the spokesperson said, quoted by the BBC . In a statement on Thursday, the Chinese Embassy in New Zealand said the ban was a result of the MPs \" disregarding China&#x27;s serious concerns\" and insisting on visiting Taiwan as parliamentarians. The visit had sent \"wrong signals\" to Taiwan&#x27;s ruling Democratic Progressive Party and \"Taiwan independence&#x27; forces\", the statement said, adding that it constituted \"interference in China&#x27;s internal affairs\". The visit in May comprised lawmakers from the ruling coalition - Maureen Pugh, David Wilson and Laura McClure - as well as Duncan Webb from the opposition Labour Party. Photos from the visit by the New Zealand MPs were posted on social media by Taiwan&#x27;s foreign minister Lin Chia-lung McClure, from the ACT party, said the travel ban was \"a type of foreign interference\" and that she was \" not going to apologize for visiting Taiwan\", the New Zealand Herald reported. She told Radio New Zealand that she was \"quite surprised and shocked\" by the ban as similar visits had happened for years previously. She added that New Zealand MPs \"have the right to travel freely around the globe\". \"That is part of living in a free democracy,\" she said. New Zealand foreign minister Peters has instructed foreign ministry officials in Beijing and Wellington to discuss the matter with Chinese authorities to \"better understand\" the \"departure from past practice\", the spokesperson said. New Zealand established formal diplomatic ties with Beijing in 1972 and has since maintained a One China policy - the diplomatic acknowledgement of China&#x27;s position that there is only one Chinese government . New Zealand has formal ties only with Beijing, and not with Taipei. But like many countries, New Zealand has also maintained regular exchanges with Taiwan. Last year, a group of New Zealand MPs met Taiwanese President Lai Ching-te during a trip to Taiwan. The Chinese embassy in New Zealand criticised the trip, describing the MPs as \"colluding with &#x27;Taiwan independence&#x27; separatist forces\". Beijing also previously condemned a group of New Zealand lawmakers for attending a reception hosted by Taiwan&#x27;s de facto embassy in Wellington last October. Taiwan has previously accused China of trying to intervene in its diplomatic ties with other countries. Last month, Lai visited Eswatini - Taiwan&#x27;s only diplomatic ally in Africa - days after his government said a trip had been cancelled due to China pressuring African countries to bar him from flying over their territories. That Eswatini visit was later brought up by Taiwan&#x27;s foreign minister Lin Chia-lung in a post about the New Zealand delegation&#x27;s visit. \"President Lai&#x27;s recent visit to Eswatini has once again made the world feel the challenges facing Taiwan&#x27;s diplomacy,\" he wrote on Facebook. Lin further noted that the visit by the New Zealand MPs \"not only showed the support of the New Zealand Parliament for Taiwan, but also made the friendship between Taiwan and New Zealand stronger\". China has sanctioned US lawmakers in the past for visiting Taiwan, including former House Speaker Nancy Pelosi in 2022. The following year, China sanctioned US Representative Michael McCaul, claiming that his visit to Taiwan sent a \"serious wrong signal to Taiwan independence separatist forces\". Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide",
-      "keywords": [
-        "conflict-&-wars news",
-        "zealand",
-        "taiwan",
-        "china",
-        "visit",
-        "foreign",
-        "chinese",
-        "beijing"
-      ],
-      "hashtags": [
-        "#conflict-&-warsnews",
-        "#zealand",
-        "#taiwan",
-        "#china",
-        "#visit",
-        "#foreign",
-        "#chinese",
-        "#beijing"
-      ],
-      "slug": "2026-06-05-beijing-bans-four-new-zealand-mps-for-crossing-red-line-with-taiwan-visit",
-      "sourceUrl": "https://www.zerohedge.com/political/beijing-bans-four-new-zealand-mps-crossing-red-line-taiwan-visit",
-      "generatedAt": "2026-06-05T09:01:47.230Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "What's that? I can't hear you over all the American Jews condemning Israel.",
-      "url": "https://www.reddit.com/r/conspiracy/comments/1tx4xwu/whats_that_i_cant_hear_you_over_all_the_american/",
-      "description": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>Seems strange that the loudest voices condemning Bibi's genocide aren't coming from US Jews and Jewish organizations. If it were my people acting wild, I'd try to make sure everyone knew that it was a small minority of religious whackos and not what the rest of us believe in some way. Odd that. </p> </div><!-- SC_ON --> &#32; submitted ",
-      "pubDate": "2026-06-05T00:04:26.000Z",
-      "source": "r/conspiracy",
-      "redditScore": 0,
+      "title": "Astronauts on ISS told to shelter as repairs under way to fix air leaks",
+      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "description": "",
+      "pubDate": "2026-06-05T15:00:31.000Z",
+      "source": "Hacker News",
+      "hnScore": 1,
+      "hnComments": 0,
       "category": "Unexplained",
       "score": 5,
       "sources": [
-        "r/conspiracy"
+        "Hacker News"
       ],
-      "content": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>Seems strange that the loudest voices condemning Bibi's genocide aren't coming from US Jews and Jewish organizations. If it were my people acting wild, I'd try to make sure everyone knew that it was a small minority of religious whackos and not what the rest of us believe in some way. Odd that. </p> </div><!-- SC_ON --> &#32; submitted ",
+      "content": "Live . 14,368 viewing 14368 viewing Live page Updated 5 minutes ago Astronauts on International Space Station told to shelter as repairs under way to fix air leaks Astronauts Told to Prepare for Evacuation on ISS Close To play this video you need to enable JavaScript in your browser. This video can not be played Watch live Summary Astronauts aboard the International Space Station have been told to shelter on their spacecraft as repair work is carried out to fix new air leaks, Nasa says \"The Zvezda service module transfer tunnel, known as PrK, has suffered from cracks and leaks for some time,\" Nasa says, adding: \"Following new leaks, Roscosmos has elected to proceed with a more extensive repair operation\" \"Out of an abundance of caution\", Nasa has directed all four of the agency&#x27;s SpaceX Crew-12 members and a Nasa astronaut \"to assume an elevated safety posture in the Dragon spacecraft while the repair is under way\", it adds This is not the first time the station has had to deal with this problem — the cracks responsible have persisted on and off for around six years, writes our science correspondent The International Space Station (ISS) has been orbiting the Earth for 25 years and is perhaps the most complex international engineering project ever built. The space station is made up of Russian and US segments, and there are modules from the European and Japanese space agencies too. About the length of an American football field, it travels at at 17,000 to 17,500 mph and orbits the Earth roughly every 90 minutes. As well as conducting experiments that have been sent up to the space station, the astronauts themselves are test subjects and undergo measurements before, during and after their space flights to help us better understand how humans can survive long duration missions - with most crews serving on board for around six months. Share close panel Share page Copy link About sharing Image source, NASA The picture above, and our live stream at the top of the page, show the latest view of the International Space Station. As we&#x27;ve reported, the astronauts are sheltering on the Dragon spacecraft, which is docked on the ISS. Share close panel Share page Copy link About sharing Pallab Ghosh Science correspondent Nasa has directed five of the seven astronauts currently aboard the ISS to shelter inside the docked SpaceX Crew Dragon \"Freedom\" spacecraft — designated as a \"safe haven\" — while two Russian cosmonauts attempt an urgent repair. The trigger is a worsening air leak in the Russian segment of the station, specifically in the Zvezda service module&#x27;s transfer tunnel, known as the PrK. This is not the first time the station has had to deal with this problem — the cracks responsible have persisted on and off for around six years. However, following the arrival of a Russian cargo ship last month, the Russian Space Agency Roscosmos noticed a fresh slow pressure drop in the tunnel, prompting the decision to move beyond patchwork fixes and attempt a more extensive repair operation today. Share close panel Share page Copy link About sharing Here&#x27;s the full statement from Nasa spokeswoman Bethany Stevens, released a short while ago: \"The Zvezda service module transfer tunnel, known as PrK, has suffered from cracks and leaks for some time, and has been mitigated by Roscosmos as much as possible to date. \"The cracks have always been a concern that NASA watches very closely. NASA and Roscosmos have been working to determine the root cause of the cracks, and Roscosmos manages the issue through operational mitigation measures and periodic partial-repair efforts.",
       "keywords": [
         "unexplained news",
-        "jews",
-        "condemning",
-        "hear",
-        "american",
-        "israel",
-        "seems",
-        "strange"
+        "space",
+        "station",
+        "nasa",
+        "astronauts",
+        "leaks",
+        "been",
+        "repair"
       ],
       "hashtags": [
         "#unexplainednews",
-        "#jews",
-        "#condemning",
-        "#hear",
-        "#american",
-        "#israel",
-        "#seems",
-        "#strange"
+        "#space",
+        "#station",
+        "#nasa",
+        "#astronauts",
+        "#leaks",
+        "#been",
+        "#repair"
       ],
-      "slug": "2026-06-05-whats-that-i-cant-hear-you-over-all-the-american-jews-condemning-israel",
-      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1tx4xwu/whats_that_i_cant_hear_you_over_all_the_american/",
-      "generatedAt": "2026-06-05T09:01:49.902Z",
+      "slug": "2026-06-05-astronauts-on-iss-told-to-shelter-as-repairs-under-way-to-fix-air-leaks",
+      "sourceUrl": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "generatedAt": "2026-06-05T15:01:47.559Z",
       "relatedArticles": []
     },
     {
-      "title": "Whole lot of anti-Michael Jackson posts",
-      "url": "https://www.reddit.com/r/conspiracy/comments/1tx7wyd/whole_lot_of_antimichael_jackson_posts/",
-      "description": "<!-- SC_OFF --><div ><p>You think they’d protect him if he actually were one of them, but the opposite is happening (and has happened since the first kid was put on the spot for some cash) because he never was in their club. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\"",
-      "pubDate": "2026-06-05T02:18:19.000Z",
-      "source": "r/conspiracy",
-      "redditScore": 0,
-      "category": "Financial Fraud",
-      "score": 2,
+      "title": "Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers",
+      "url": "https://www.zerohedge.com/geopolitical/iran-fm-warns-american-bases-are-legitimate-targets-cites-no-tangible-progress-talks",
+      "description": "<span >Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers</span> <div ><p><strong>Summary:</strong></p> <ul><li><em>U.S. <strong>CENTCOM Denies Report</strong> </em></li> <li><em><strong>Iran Military Fires \"Warning Missiles\"</strong> At US Destroyers In Gulf of Oman</em></li> <li><em>Iran FM Warns <strong>American Bases Are Legitimate Targets</strong>, Cites 'No Tangible Progress' In Talks</em></li> </ul><h2>Polymarket </h2> <script > <!--//--><![CDATA[// ><!-- <!--//-",
+      "pubDate": "Fri, 05 Jun 2026 13:45:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 4,
       "sources": [
-        "r/conspiracy"
+        "ZeroHedge"
       ],
-      "content": "<!-- SC_OFF --><div ><p>You think they’d protect him if he actually were one of them, but the opposite is happening (and has happened since the first kid was put on the spot for some cash) because he never was in their club. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "content": "AFP is reporting that Iranian military forces fired \"warning missiles\" at two U.S. Navy destroyers transiting the Gulf of Oman, citing Iranian state media. \"In continuation of operations to counter maritime misconduct and harassment, as well as the hijacking of commercial vessels and oil tankers by the terrorist naval forces of the United States, following the firing of warning missiles, the hostile destroyers DDG-103 and DDG-8 have left the Gulf of Oman towards the Indian Ocean,\" Iranian military forces wrote in a statement published by state news agency IRNA. 🚫 CLAIM: Iran claims it fired warning shots at U.S. warships in the Gulf of Oman, forcing American vessels to “retreat” toward the Indian Ocean. FALSE. ✅TRUTH: Iranian forces did NOT attack or fire at U.S. Navy warships. Doing so would be a gross violation of the ceasefire.… pic.twitter.com/PdfC1EMZTP Most Important Headlines (courtesy of Bloomberg): At a moment it&#x27;s become more than clear that the US and Iran are not anywhere closer to the negotiating table, and after they&#x27;ve shown little progress after a week of clashes - as one Friday morning Bloomberg headline reads, Tehran has again putting US bases in the region on notice, while admitting \"no tangible progress\" in negotiations on ending the conflict. Iran&#x27;s Foreign Minister Abbas Araghchi in fresh remarks has said that \"standing against the world&#x27;s greatest power, equipped with nuclear weapons, for 40 days is no joke,\" and that \"the world has realized the true power of the Iranian nation.\" Araghchi also again issued a direct warning to regional Gulf states: \"We warned regional states that US bases used for any aggression against Iran are legitimate targets\" - he was quoted Friday by Islamic Republic of Iran Broadcasting (IRIB) as saying. File image: Iran&#x27;s Foreign Minister Abbas Araghchi However, the Iranian foreign minister also cautioned that there is a way forward, stressing that despite conflict, \"We are committed to fostering sustainable, constructive ties with Saudi Arabia.\" The war is fast approaching the 100-day milestone , which comes Sunday, since Trump first initiated his Operation Epic Fury. He had in the opening &#x27;assured&#x27; the American public of only a short conflict lasting but a few days or weeks. Iran&#x27;s supreme leader too has been signaling defiance while apparently in hiding, saying that the US and Israel had been dealt a \"decisive blow\" Ayatollah Mojtaba Khamenei&#x27;s message was read out by a prayer leader at a ceremony marking the anniversary of the death of the Islamic republic&#x27;s founder on Thursday : In his message, Khamenei said his country&#x27;s enemies, after \"facing a decisive blow,\" were now \"experiencing a deeply meaningful and profound humiliation.\" He went on to accuse them of seeking to \"plant the seeds of doubt, despair, fear, mistrust and division\" among the public, calling for unity to \"neutralize their sinister plot.\" Tehran is still seeking to integrate the Lebanon situation into a broader US-Iran peace deal. But in Lebanon itself, sporadic fighting has raged despite declaration of a ceasefire - of which Hezbollah has declared itself not part of. On Friday, \"The Israeli military&#x27;s Arabic-language spokesman Avichay Adraee on Friday warned residents of six towns and villages including south Lebanon&#x27;s Sarafand, a town on the coastal road between Tyre and Sidon, to immediately evacuate,\" a ccording to CBS. More reports of mystery explosions in Strait of Hormuz, off Oman... 🇴🇲 New: Oman has suspended oil loading operations at the Mina al Fahal terminal after an explosion near its offshore berths, according to Reuters. Two sources familiar with the matter said the blast, which occurred between two single-buoy moorings, was believed to have been… pic.twitter.com/N6O5nZoqWF \"Lebanon&#x27;s state-run National News Agency reported mass displacement from the three villages named in the warning, and it subsequently reported a strike on one of the villages, Arqoun,\" the report continues. And Al Jazeera also reports Friday that \"Israel&#x27;s deadly strikes continue across Lebanon, killing at least six today, despite the announcement of a new US-brokered ceasefire agreed between Lebanese and Israeli officials in Washington, DC.\" The public is increasingly pessimistic that a ceasefire can be achieved anytime soon, even as Trump has seemed to soften on the issue of retrieving highly enriched uranium: US-Iran permanent peace deal by June 30, 2026?",
       "keywords": [
-        "financial-fraud news",
-        "whole",
-        "anti",
-        "michael",
-        "jackson",
-        "posts",
-        "think",
-        "they"
+        "global-power news",
+        "iran",
+        "iranian",
+        "warning",
+        "oman",
+        "destroyers",
+        "gulf",
+        "friday"
       ],
       "hashtags": [
-        "#financial-fraudnews",
-        "#whole",
-        "#anti",
-        "#michael",
-        "#jackson",
-        "#posts",
-        "#think",
-        "#they"
+        "#global-powernews",
+        "#iran",
+        "#iranian",
+        "#warning",
+        "#oman",
+        "#destroyers",
+        "#gulf",
+        "#friday"
       ],
-      "slug": "2026-06-05-whole-lot-of-anti-michael-jackson-posts",
-      "sourceUrl": "https://www.reddit.com/r/conspiracy/comments/1tx7wyd/whole_lot_of_antimichael_jackson_posts/",
-      "generatedAt": "2026-06-05T09:01:52.135Z",
+      "slug": "2026-06-05-peace-talks-stall-us-denies-iranian-claims-of-warning-shots-at-destroyers",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-fm-warns-american-bases-are-legitimate-targets-cites-no-tangible-progress-talks",
+      "generatedAt": "2026-06-05T15:01:49.729Z",
+      "relatedArticles": [
+        {
+          "title": "Globalist CEOs Sound Alarm Over Swiss Population Cap Vote",
+          "slug": "2026-06-05-globalist-ceos-sound-alarm-over-swiss-population-cap-vote",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "Globalist CEOs Sound Alarm Over Swiss Population Cap Vote",
+      "url": "https://www.zerohedge.com/geopolitical/ubs-ceo-warns-swiss-population-cap-extreme-measure",
+      "description": "<span >Globalist CEOs Sound Alarm Over Swiss Population Cap Vote</span> <div ><article><p><strong>Summary: </strong></p> <ul><li> <p><em><strong>Increasing Number of Globalist CEOs</strong> Concerned About Swiss Population Vote</em></p> </li> <li> <p><em><strong>Nestle CEO</strong> Warns Against Swiss Population Cap Vote</em></p> </li> <li> <p><em><strong>UBS CEO</strong> Warns Swiss Population Cap Is An 'Extreme' Measure</em></p> </li> <li> <p><em>Switzerland's \"Ten Million\" Vote Nears </em></p",
+      "pubDate": "Fri, 05 Jun 2026 12:47:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Increasing Number of Globalist CEOs Concerned About Swiss Population Vote Nestle CEO Warns Against Swiss Population Cap Vote UBS CEO Warns Swiss Population Cap Is An &#x27;Extreme&#x27; Measure Switzerland&#x27;s \"Ten Million\" Vote Nears Globalist CEOs who ignored more than a decade of Europe&#x27;s mass migration invasion from the third world because it was good for business may soon face headwinds from Swiss voters : a June 14 referendum that would cap the country&#x27;s permanent resident population below 10 million through 2050. Nestlé CEO Philipp Navratil is the latest to warn Swiss citizens that a vote to cap the population at 10 million would not be good for business. \"Switzerland has established and created the conditions that enable a global company like us to thrive ,\" Navratil said at the Swiss Economic Forum in Interlaken on Friday, who was quoted by Bloomberg. \"It is important that these conditions and advantages in Switzerland remain in place. When we vote in the coming weeks, we need to keep that in mind ,\" Navratil added. Navratil&#x27;s comments come just days after UBS CEO Sergio Ermotti called the hard-cap vote an \"extreme initiative.\" The proposal has received strong support in many local polls, though the latest polling data puts opposition just north of 50% for the first time. Switzerland&#x27;s population is already above 9.1 million, and estimates suggest migration would need to fall by at least half to avoid hitting the proposed ceiling by 2050. Yet while these globalist CEOs found no issue with a decade of extreme mass migration from the third wolrd world into Europe, everyday working-class people have borne the brunt of the consequences. A proposal headed for a June 14 vote in Switzerland made headlines for seeking to place a hard cap on the country&#x27;s permanent resident population at 10 million through 2050. The vote is also being watched as a referendum on immigration pressure in Europe more broadly. UBS CEO Sergio Ermotti has caught the vapors over the idea , describing it as an \"extreme\" measure that fails to address the country&#x27;s underlying challenges. UBS CEO Sergio Ermotti (photo: Chiara Zocchetti ) \" I do worry about these extreme initiatives ,\" Ermotti said, speaking from the Swiss Economic Forum in Interlaken on Thursday. \"Switzerland has 30% of foreign-born people, almost like in Australia, twice as Germany. And that leads to certain frustration within society. But it&#x27;s not a way to solve the problem.\" Switzerland&#x27;s population stood at approximately 9.1 million at the end of 2025. Since 2000, it has grown by about 1.9 million people, with roughly four-fifths of that increase attributable to net international migration. Swiss federal authorities measure the increase since the introduction of free movement of persons in 2002 at around 1.7 million. Foreign nationals now make up about 27% of the resident population, while migration-background shares are higher. In 2024, 41% of Switzerland&#x27;s permanent resident population aged 15 and over had a migration background, including first-generation and second-generation residents. Ermotti highlighted the scale of the demographic shift, noting that Switzerland&#x27;s foreign-born share is comparable to Australia&#x27;s and roughly double Germany&#x27;s. The \"No to a Switzerland with 10 Million\" initiative, backed by the right-wing Swiss People&#x27;s Party (SVP), would enshrine a hard population limit in the Federal Constitution. If passed , it would require Switzerland&#x27;s permanent resident population to remain below 10 million until 2050. If the population exceeds 9.5 million before then, the Federal Council and Parliament would have to take measures, particularly in asylum and family reunification. If the 10 million threshold is exceeded, Switzerland would also have to renegotiate or terminate international agreements that contribute to population growth, including the EU Agreement on the Free Movement of Persons after two years. That would also put the broader Bilateral Agreements I with the EU at risk. Supporters point to real pressures: housing shortages and rising rents in cities like Zurich and Geneva, strained infrastructure, overcrowded public transport, and concerns over long-term social cohesion in a small, mountainous nation. UBS , one of Switzerland&#x27;s largest private-sector employers with more than 30,000 employees in the country and a heavily international workforce, has significant skin in the game. The bank relies on global talent to sustain its operations in finance, a sector where skilled foreign workers fill critical roles. A rigid population cap, critics including business leaders argue, could exacerbate labor shortages in an already aging society with a fertility rate of around 1.3 children per woman.",
+      "keywords": [
+        "global-power news",
+        "population",
+        "swiss",
+        "switzerland",
+        "vote",
+        "million",
+        "globalist",
+        "ceos"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#population",
+        "#swiss",
+        "#switzerland",
+        "#vote",
+        "#million",
+        "#globalist",
+        "#ceos"
+      ],
+      "slug": "2026-06-05-globalist-ceos-sound-alarm-over-swiss-population-cap-vote",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/ubs-ceo-warns-swiss-population-cap-extreme-measure",
+      "generatedAt": "2026-06-05T15:01:50.935Z",
+      "relatedArticles": [
+        {
+          "title": "Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers",
+          "slug": "2026-06-05-peace-talks-stall-us-denies-iranian-claims-of-warning-shots-at-destroyers",
+          "category": "Global Power"
+        }
+      ]
+    },
+    {
+      "title": "Wagyu XMR1 price manipulators finally exposed - Hyperliquid mafia",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1txevip/wagyu_xmr1_price_manipulators_finally_exposed/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>WAGYU SCAMMERS EXPOSED</p> <p><a <p>. XMR1 is a synthetic derivative. Because real Monero is private, there is ZERO public on-chain proof that these wrapped tokens are backed 1:1 by real reserves. It’s a printing press with no oversight.<br/> 4/4 The Impact: Crashing the Real MarketWhen these 5 wallets coordinate massive selling swaps o",
+      "pubDate": "2026-06-05T08:27:19.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Web3 & Blockchain",
+      "score": 3,
+      "sources": [
+        "r/cryptocurrency"
+      ],
+      "content": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>WAGYU SCAMMERS EXPOSED</p> <p><a <p>. XMR1 is a synthetic derivative. Because real Monero is private, there is ZERO public on-chain proof that these wrapped tokens are backed 1:1 by real reserves. It’s a printing press with no oversight.<br/> 4/4 The Impact: Crashing the Real MarketWhen these 5 wallets coordinate massive selling swaps o",
+      "keywords": [
+        "web3-&-blockchain news",
+        "real",
+        "wagyu",
+        "exposed",
+        "price",
+        "manipulators",
+        "finally",
+        "hyperliquid"
+      ],
+      "hashtags": [
+        "#web3-&-blockchainnews",
+        "#real",
+        "#wagyu",
+        "#exposed",
+        "#price",
+        "#manipulators",
+        "#finally",
+        "#hyperliquid"
+      ],
+      "slug": "2026-06-05-wagyu-xmr1-price-manipulators-finally-exposed-hyperliquid-mafia",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1txevip/wagyu_xmr1_price_manipulators_finally_exposed/",
+      "generatedAt": "2026-06-05T15:01:51.952Z",
       "relatedArticles": []
     },
     {
-      "title": "13 Privacy Tools That Actually Protect Your Data",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUHY3ZEZCd1U3ejEtUWhQdkxiVUJ0OWVObkxmbzJ2TkpEUkQyQ0E0eXlWNFo1R1o2cnBRa0JsVmV5LVVHV2pOZ1YyUTd1RmhmTHd2T0JDOEdRM2JfSHVtUmo4QXJobkw4ZDN2QWJHaDlkcUR3NXd0OWlhZ2piLWs?oc=5",
-      "description": "13 Privacy Tools That Actually Protect Your Data Gadget Review",
-      "pubDate": "2026-02-02T08:00:00.000Z",
-      "source": "Google News (Tech & Privacy)",
+      "title": "The Privacy Token of Crypto - ZEC",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1txhyve/the_privacy_token_of_crypto_zec/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>Made this comic on the biggest crypto privacy token $ZEC which was exploited yesterday by Claude Opus</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "pubDate": "2026-06-05T11:16:00.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
       "category": "Tech & Privacy",
-      "score": 6,
+      "score": 9,
       "sources": [
-        "Google News (Tech & Privacy)"
+        "r/cryptocurrency"
       ],
-      "content": "13 Privacy Tools That Actually Protect Your Data Gadget Review",
+      "content": "<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>Made this comic on the biggest crypto privacy token $ZEC which was exploited yesterday by Claude Opus</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
       "keywords": [
         "tech-&-privacy news",
         "privacy",
-        "tools",
-        "actually",
-        "protect",
-        "your",
-        "data",
-        "gadget"
+        "token",
+        "crypto",
+        "made",
+        "comic",
+        "biggest",
+        "exploited"
       ],
       "hashtags": [
         "#tech-&-privacynews",
         "#privacy",
-        "#tools",
-        "#actually",
-        "#protect",
-        "#your",
-        "#data",
-        "#gadget"
+        "#token",
+        "#crypto",
+        "#made",
+        "#comic",
+        "#biggest",
+        "#exploited"
       ],
-      "slug": "2026-06-05-13-privacy-tools-that-actually-protect-your-data",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUHY3ZEZCd1U3ejEtUWhQdkxiVUJ0OWVObkxmbzJ2TkpEUkQyQ0E0eXlWNFo1R1o2cnBRa0JsVmV5LVVHV2pOZ1YyUTd1RmhmTHd2T0JDOEdRM2JfSHVtUmo4QXJobkw4ZDN2QWJHaDlkcUR3NXd0OWlhZ2piLWs?oc=5",
-      "generatedAt": "2026-06-05T09:01:55.968Z",
+      "slug": "2026-06-05-the-privacy-token-of-crypto-zec",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1txhyve/the_privacy_token_of_crypto_zec/",
+      "generatedAt": "2026-06-05T15:01:53.736Z",
       "relatedArticles": []
+    },
+    {
+      "title": "Rubio: 'Most Of The World Assesses' That Israel Has Nuclear Weapons",
+      "url": "https://www.zerohedge.com/geopolitical/rubio-most-world-assesses-israel-has-nuclear-weapons",
+      "description": "<span >Rubio: 'Most Of The World Assesses' That Israel Has Nuclear Weapons</span> <div ><p><a asked</a> whether Israel has nuclear weapons and acknowledged that <strong>\"most of the world assesses that they do,\"</strong> but also reaffirmed the US policy of not acknowledging the existence of Israel’s nuclear stockpile and secret weapons program.</p> <p>Rubio made the comments when being questioned by Rep. Joaquin Castro (D-TX), who recently led a letter to the State Department asking for answers",
+      "pubDate": "Fri, 05 Jun 2026 14:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Government Secrets",
+      "score": 7,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "US Secretary of State Marco Rubio on Wednesday was asked whether Israel has nuclear weapons and acknowledged that \"most of the world assesses that they do,\" but also reaffirmed the US policy of not acknowledging the existence of Israel’s nuclear stockpile and secret weapons program. Rubio made the comments when being questioned by Rep. Joaquin Castro (D-TX), who recently led a letter to the State Department asking for answers about Israel&#x27;s nuclear weapons program. Rubio’s State Department responded by referring the group of Democratic lawmakers to the government of Israel. The stakes are too high to stay in the dark on Israel’s nuclear capabilities. Today, I asked Secretary Rubio if Israel has a nuclear program. He said \"most of the world assesses that they do\" and committed to providing more information. pic.twitter.com/TOPiCmq7h5 “I have to say, Mr. Secretary, that’s a very bizarre response,” Castro told Rubio at a congressional hearing. Castro then asked Rubio if he could tell the American people whether or not Israel has nukes. “You know that that’s a question we don’t, they’ve never acknowledged to have a nuclear program, people can have, as you know, an open source and other reporting suspicions about what they possess. If we&#x27;re speaking frankly, I think most of the world asseses that they do,” Rubio said. “But they’ve never acknowledged that publicly, and as a feature of our foreign policy, for a variety of reasons, we don’t discuss it that way either,” he added. Castro expressed concern over what Israel’s “red lines” could be when it comes to using its nuclear weapons and said he was “shocked that our government wouldn’t make an effort to know, to understand and then to give our oversight body the information that we need to make decisions about the war. Rubio said Castro’s concerns were “fair” and that he’d be willing to answer more questions in a classified briefing. Every US presidential administration since President Nixon has maintained an understanding with Israel under which the US and Israel do not acknowledge Israel’s nuclear weapons program, and the US doesn’t pressure Israel to sign the Non-Proliferation Treaty. The ambiguity has allowed the US presidents to provide military assistance without worrying about the 1976 Symington Amendment , a foreign assistance law that prohibits aid to countries that traffic in or receive nuclear enrichment equipment or technology outside of international safeguards. Israel’s nuclear arsenal, which is estimated to be somewhere between 70 and 300 nuclear warheads, is almost always missing from the conversation in US media coverage and political discussions surrounding Iran’s nuclear program, which has never been used to develop weapons. Unlike Israel, Iran is a signatory to the NPT, and Ayatollah Ali Khamenei, the Iranian supreme leader, who was killed by an Israeli strike on February 28, had issued a Fatwa banning the development of nuclear weapons. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "government-secrets news",
+        "israel",
+        "nuclear",
+        "rubio",
+        "weapons",
+        "they",
+        "program",
+        "world"
+      ],
+      "hashtags": [
+        "#government-secretsnews",
+        "#israel",
+        "#nuclear",
+        "#rubio",
+        "#weapons",
+        "#they",
+        "#program",
+        "#world"
+      ],
+      "slug": "2026-06-05-rubio-most-of-the-world-assesses-that-israel-has-nuclear-weapons",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/rubio-most-world-assesses-israel-has-nuclear-weapons",
+      "generatedAt": "2026-06-05T15:01:56.046Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1YtN1JwVFdzUERPZGtoYWhsRGZzNG9RNG1XdEktNzc0ZzJ4MEtnbHVER0E3cGxweVN4Yzdjbm53dVdiaURRc3NsTVVNTmkwcEtpbk9fY0NLZHZISGJ3Y1JNWGdRMDNheEF0WWt4ZGZub2k5ZTREX1hiMzVkazlKeE5SYV9Rby1VRDMzWmJQUlZuUWs3VGloSi0yRGh2c2toYkRZZElFRnJrVk9XYWFybHhuZDR3R3dqY0lCMl9FZlNLQjjSAcgBQVVfeXFMT3duNEtkRHJma3AtYVE3RzNwQ1hsZU1KaWdoUFZybmtoRy01TzExVUt5MTdUc2M4S25mdkFWRHg1OUdpTWljeHduVVJ4R1JjcHFrVEl4bklUNHlHejNMbGtQQXhSUWdObWpINFlfamZhdHExc2hrSFNhczJyTlkyX0hrZnk5bktwcEJrOVZ3M0M4Vm9IWmdGVE5zOFpDU0NqQlBXOHZZSDhJNHc0MHIxWk9ZVnpSN0Z5MXJBWmg2UWxGbmpVRm9VYTg?oc=5",
+      "description": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records Fox News",
+      "pubDate": "2026-05-27T07:00:00.000Z",
+      "source": "Google News (Unexplained)",
+      "category": "Money & Markets",
+      "score": 6,
+      "sources": [
+        "Google News (Unexplained)"
+      ],
+      "content": "NASA chief pulls back curtain on Trump UFO files after bizarre finds surface in buried fed records Fox News",
+      "keywords": [
+        "money-&-markets news",
+        "nasa",
+        "chief",
+        "pulls",
+        "back",
+        "curtain",
+        "trump",
+        "files"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#nasa",
+        "#chief",
+        "#pulls",
+        "#back",
+        "#curtain",
+        "#trump",
+        "#files"
+      ],
+      "slug": "2026-06-05-nasa-chief-pulls-back-curtain-on-trump-ufo-files-after-bizarre-finds-surface-in",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1YtN1JwVFdzUERPZGtoYWhsRGZzNG9RNG1XdEktNzc0ZzJ4MEtnbHVER0E3cGxweVN4Yzdjbm53dVdiaURRc3NsTVVNTmkwcEtpbk9fY0NLZHZISGJ3Y1JNWGdRMDNheEF0WWt4ZGZub2k5ZTREX1hiMzVkazlKeE5SYV9Rby1VRDMzWmJQUlZuUWs3VGloSi0yRGh2c2toYkRZZElFRnJrVk9XYWFybHhuZDR3R3dqY0lCMl9FZlNLQjjSAcgBQVVfeXFMT3duNEtkRHJma3AtYVE3RzNwQ1hsZU1KaWdoUFZybmtoRy01TzExVUt5MTdUc2M4S25mdkFWRHg1OUdpTWljeHduVVJ4R1JjcHFrVEl4bklUNHlHejNMbGtQQXhSUWdObWpINFlfamZhdHExc2hrSFNhczJyTlkyX0hrZnk5bktwcEJrOVZ3M0M4Vm9IWmdGVE5zOFpDU0NqQlBXOHZZSDhJNHc0MHIxWk9ZVnpSN0Z5MXJBWmg2UWxGbmpVRm9VYTg?oc=5",
+      "generatedAt": "2026-06-05T15:01:59.440Z",
+      "relatedArticles": [
+        {
+          "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
+          "slug": "2026-06-05-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
+          "category": "Money & Markets"
+        }
+      ]
     }
   ]
 }
