@@ -148,6 +148,7 @@ const CATEGORY_KEYWORDS = {
     'tracking', 'facial recognition', 'biometric', 'dragnet', 'stingray', 'warrantless',
     'metadata', 'ring camera', 'police data', 'location data', 'smart device', 'always listening',
     'dhs', 'doj', 'warrant', 'subpoena', 'bulk collection', 'cell tower dump',
+    'license plate', 'alpr', 'anpr', 'plate reader', 'cctv', 'body camera', 'body cam', 'dashcam', 'geofence', 'flock safety', 'deflock',
   ],
   'Corporate Watchdog': [
     'corporate', 'monopoly', 'antitrust', 'ftc', 'sec', 'class action', 'lawsuit',
@@ -787,6 +788,8 @@ function buildArticleBody(topic) {
     .replace(/\*\*([^*]+)\*\*/g, '$1')           // strip **bold**
     .replace(/\*([^*]+)\*/g, '$1')                 // strip *italic*
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')   // strip [text](url) → text
+    .replace(/\n{2,}/g, '.\n')
+    .replace(/([^.!?])\n/g, '$1. ')
     .replace(/\s+/g, ' ').trim();
   const sentences = cleanContent.split(/(?<=[.!?])\s+/).filter(s => s.length > 20);
 
@@ -819,9 +822,9 @@ function buildArticleBody(topic) {
     const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
     sidebarTrendingHTML = _recent.map((a, i) => {
       const _sl = a.filename || a.slug || '';
-      const _ti = (a.title || 'Article').slice(0, 60);
-      const _rd = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
-      return '<a href="/articles/' + _sl + '.html" class="trending-item"><span class="trending-num">' + (i+1) + '</span><div><div class="trending-title">' + _ti + '</div><div class="trending-count">' + _rd + '</div></div></a>';
+      const _ti = (a.title || 'Article').slice(0, 55);
+      const _cat = a.category || '';
+      return '<a href="/articles/' + _sl + '" class="na-trend"><span class="na-tnum">' + (i+1) + '</span><div><div class="na-ttitle">' + _ti + '</div><div class="na-tcat">' + _cat + '</div></div></a>';
     }).join('');
   } catch(e) { sidebarTrendingHTML = sidebarCategoriesHTML; }
   const sourceDisplay = source || 'Primary source documents';
@@ -991,7 +994,8 @@ function buildArticleHTML(topic) {
 
   const seoTitle = buildSeoTitle(title);
   const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim().replace(/^[#\s]+/,'').replace(/#[\w-]*/g,'').replace(/\s+/g,' ').trim();
-  const subheadHTML = (!rawSubhead || rawSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : `<p class="article-dek">${rawSubhead}</p>`;
+  const cleanSubhead = ensureCompleteSentence(rawSubhead);
+  const subheadHTML = (!cleanSubhead || cleanSubhead.toLowerCase().startsWith(seoTitle.toLowerCase().slice(0,40))) ? '' : `<p class="article-dek">${cleanSubhead}</p>`;
   const articleBody = buildArticleBody(topic);
   const readTime = estimateReadTime(articleBody + ' '.repeat(100));
   const metaDesc = buildMetaDescription(title, description);
@@ -1014,9 +1018,9 @@ function buildArticleHTML(topic) {
     const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
     sidebarTrendingHTML = _recent.map((a, i) => {
       const _sl = a.filename || a.slug || '';
-      const _ti = (a.title || 'Article').slice(0, 60);
-      const _rd = (Math.floor(Math.random() * 30 + 5)) + '.' + Math.floor(Math.random() * 9) + 'K reads';
-      return `<a href="/articles/${_sl}" class="trending-item"><span class="trending-num">${i+1}</span><div><div class="trending-title">${_ti}</div><div class="trending-count">${_rd}</div></div></a>`;
+      const _ti = (a.title || 'Article').slice(0, 55);
+      const _cat = a.category || '';
+      return `<a href="/articles/${_sl}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${_ti}</div><div class="na-tcat">${_cat}</div></div></a>`;
     }).join('');
   } catch(e) { sidebarTrendingHTML = sidebarCategoriesHTML; }
   const keywordsStr = kw.join(', ');
