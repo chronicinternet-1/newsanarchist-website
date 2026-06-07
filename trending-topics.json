@@ -1,202 +1,425 @@
 {
-  "scrapedAt": "2026-06-07T15:01:54.588Z",
-  "topicsCount": 5,
+  "scrapedAt": "2026-06-07T21:02:05.988Z",
+  "topicsCount": 10,
   "topics": [
     {
-      "title": "The Secret Life of Circuits with lcamtuf / Michał Zalewski (Audio Interview)",
-      "url": "https://theamphour.com/725-the-secret-life-of-circuits-with-lcamtuf-michal-zalewski/",
-      "description": "",
-      "pubDate": "2026-06-04T13:55:39.000Z",
+      "title": "Show HN: Hardbar – compile-time defined i3bar",
+      "url": "https://github.com/pjz/hardbar",
+      "description": "A fast, compile-time-configured status bar for i3 and sway, outputting the i3bar JSON protocol. I was worried about the performance of i3blocks due to the constant fork-and-execs, and I thought zig would make it easy to have a bar defined at compile-time. I started on this idea a couple years ago but ended up somewhat stymied by lack of time to chase down some corners of zig syntax interaction. Re",
+      "pubDate": "2026-06-07T20:27:03.000Z",
       "source": "Hacker News",
-      "hnScore": 25,
-      "hnComments": 4,
+      "hnScore": 1,
+      "hnComments": 0,
       "category": "Corporate Watchdog",
-      "score": 8,
+      "score": 11,
       "sources": [
         "Hacker News"
       ],
-      "content": "Your email address will not be published. Required fields are marked * Save my name, email, and website in this browser for the next time I comment.",
+      "content": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} pjz / hardbar Public Notifications You must be signed in to change notification settings Fork 0 Star 0 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 24 Commits 24 Commits scripts scripts src src .gitignore .gitignore README.md README.md Taskfile.yml Taskfile.yml build.zig build.zig build.zig.zon build.zig.zon config.zon.example config.zon.example default.nix default.nix shell.nix shell.nix View all files Repository files navigation Hardbar A fast, compile-time-configured status bar for i3 and sway, outputting the i3bar JSON protocol . The goal is to avoid the fork-and-exec overhead of tools like i3blocks for every update cycle. Modules that read system state (CPU, WiFi, battery, network traffic) are compiled in and run natively. A shell module is available when you need to run an external command, but it is opt-in. Requires Zig 0.16. A shell.nix is provided that pins the correct version: nix-shell --run \" zig build \" The binary is placed at zig-out/bin/hardbar . bar { status_command /path/to/hardbar } Configuration Configuration lives in config.zon , next to build.zig . It is a ZON expression evaluated at compile time — there is no runtime config file parsing. .{ .global = .{ .separator = \" | \", }, .status = .{ .{ .module = \"cpu\", .interval = 5, .format = .{ \"CPU: \", .usage }, }, .{ .module = \"datetime\", .interval = 10, .format = \"%Y-%m-%d %H:%M\", }, }, } Global settings Field Default Description .separator \" | \" String placed between blocks Block settings Every entry in .status supports these common fields: Blocks that produce empty output are omitted from the bar entirely. This is useful for modules like battery that should be invisible on desktop machines. Any block can have click/scroll commands. When the user interacts with a block in i3bar, the corresponding shell command is run via /bin/sh -c . Set .pango = true on a block to enable Pango markup in its output. The block will be sent to i3bar with \"markup\":\"pango\" . Modules that produce text from external sources (wifi SSID, weather, shell output) XML-escape their output when pango mode is active, so that the literal text is still displayed safely inside any surrounding markup you add to the format string. .{ .module = \"battery\", .pango = true, .format = .{ .discharging = .{ \"<span color=\\\"#ff0000\\\">\", .capacity, \"%</span>\" }, .charging = .{ .capacity, \"% +\" }, }, }, Modules cpu Shows CPU usage as a percentage, averaged across all cores since the last sample. Reads /proc/stat . Format fields: .usage — integer percentage with % sign (e.g. 42% ) .{ .module = \"cpu\", .interval = 5, .format = .{ \"CPU: \", .usage }, }, The first sample always shows 0% because there is no previous baseline. Shows the current local date and time. The format string is passed directly to libc strftime(3) . Format: a single string (not a tuple), passed to strftime .{ .module = \"datetime\", .interval = 10, .format = \"%Y-%m-%d %H:%M\", }, Common strftime codes: %Y year, %m month, %d day, %H hour (24h), %M minute, %S second, %A weekday name, %I hour (12h), %p AM/PM. Shows the SSID and signal strength of the associated WiFi network. Uses the Generic Netlink / nl80211 interface directly (no external tools needed). The interface is auto-detected at runtime from /proc/net/wireless on first use and cached for the lifetime of the process. Override with .args if needed. .{ .module = \"wifi\", .interval = 5, .format = .{ .ssid, \" (\", .signal, \"dBm)\" }, }, // Override interface: .{ .module = \"wifi\", .interval = 5, .args = .{ .interface = \"wlan0\" }, }, When not associated, the block shows disconnected . Shows battery capacity and charge status. Reads /sys/class/power_supply/<battery>/ . The block produces empty output (and is hidden) when the battery path cannot be read — so on desktop machines without a battery it disappears automatically.",
       "keywords": [
         "corporate-watchdog news",
-        "email",
-        "secret",
-        "life",
-        "circuits",
-        "lcamtuf",
-        "micha",
-        "zalewski"
+        "format",
+        "module",
+        "time",
+        "shell",
+        "battery",
+        "block",
+        "status"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#email",
-        "#secret",
-        "#life",
-        "#circuits",
-        "#lcamtuf",
-        "#micha",
-        "#zalewski"
+        "#format",
+        "#module",
+        "#time",
+        "#shell",
+        "#battery",
+        "#block",
+        "#status"
       ],
-      "slug": "2026-06-07-the-secret-life-of-circuits-with-lcamtuf-micha-zalewski-audio-interview",
-      "sourceUrl": "https://theamphour.com/725-the-secret-life-of-circuits-with-lcamtuf-michal-zalewski/",
-      "generatedAt": "2026-06-07T15:01:42.873Z",
-      "relatedArticles": []
+      "slug": "2026-06-07-show-hn-hardbar-compile-time-defined-i3bar",
+      "sourceUrl": "https://github.com/pjz/hardbar",
+      "generatedAt": "2026-06-07T21:01:41.996Z",
+      "relatedArticles": [
+        {
+          "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
+          "slug": "2026-06-07-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
+          "category": "Corporate Watchdog"
+        }
+      ]
     },
     {
-      "title": "Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse",
-      "url": "https://www.zerohedge.com/crypto/short-term-bitcoin-holders-are-realizing-their-largest-losses-record-most-oversold-2018",
-      "description": "<span >Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse</span> <div ><p>After this week's <strong>bloodbath</strong>...</p> <p><a data-image-external- data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>Bitcoin is now flashing its most oversold signal </strong>since 2018, raising the odds of a relief rebound toward $70,000 in the coming weeks.</p> <p><a data-image-external- data-image- data-l",
-      "pubDate": "Sun, 07 Jun 2026 13:55:00 +0000",
-      "source": "ZeroHedge",
+      "title": "Black Dahlia | Federal Bureau of Investigation",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CXzRQRVllQ2VIY0RRRko4T2pBakVJb0luSzdxeTdmSUhmc01Dc0dnZHVvcEwzUGxka2V1aDl1d1NsejFXbUJ4eWoxSmM2elZXeDdrUDdXQlkweGlGV2h6TzN0ZGJRaGRSTU5sRg?oc=5",
+      "description": "Black Dahlia | Federal Bureau of Investigation Federal Bureau of Investigation (.gov)",
+      "pubDate": "2026-05-05T18:40:30.000Z",
+      "source": "Google News (True Crime)",
       "category": "Money & Markets",
       "score": 7,
       "sources": [
-        "ZeroHedge"
+        "Google News (True Crime)"
       ],
-      "content": "Bitcoin is now flashing its most oversold signal since 2018, raising the odds of a relief rebound toward $70,000 in the coming weeks. The extremely oversold reading followed a roughly 30% decline in BTC over the past month, as geopolitical risks , higher oil prices , fading hopes for a 2026 Federal Reserve rate cut, and panic over Strategy’s latest Bitcoin sale weighed on sentiment . In addition, there was some online chatter seems to speculate that retail investors may be selling crypto to chase the biggest IPO ever. The Elon Musk-owned rockets, satellite and AI company SpaceX is selling up to 30% of its record $75 billion offering straight to retail investors through Robinhood, Fidelity and Charles Schwab, more than three times the slice a typical IPO sets aside for individuals. The roadshow opened Thursday already oversubscribed, with more orders than shares on offer, Bloomberg reported. It is offering shares at a $1.8 trillion valuation. Bitcoin fell roughly 16% over the same timespan and briefly traded below $60,000 before recovering to around $61,000. Oversold readings this extreme often appear near seller-exhaustion zones where short-term buyers begin positioning for a relief rebound. In 2018, the collapse was triggered in large part by the SEC&#x27;s regulatory crackdown on ICOs, announcing its first civil penalties against Paragon and CarrierEQ/Airfox. But, the 2018 bear market was already underway due to the bursting of the 2017 ICO bubble, regulatory uncertainty (China bans, etc.), exchange hacks, and fading retail hype. November was more of a capitulation phase than a new shock. In 2020, Bitcoin’s RSI dropped to around 15.56 before BTC rebounded by about 50%, helped by the Federal Reserve’s emergency shift to near-zero interest rates and large-scale bond purchases. In February 2026, for instance, BTC’s daily RSI dropped to around 15.86 while price held above the $60,000 support area. The signal preceded a nearly 30% recovery toward $82,850. Following bitcoin&#x27;s worst week in two years , Strategy(MSTR) Executive Chairman Michael Saylor published a framework on X , arguing that the Bitcoin community is evolving into four distinct ideological camps. As CoinDesk reports , rather than viewing these groups as competitors, he presents them as complementary forces that will collectively shape bitcoin’s future. The first group, Bitcoin Maximalists, sees Bitcoin as the ultimate monetary breakthrough. They believe bitcoin has already solved the problem of digital scarcity and offers superior property rights, protection from inflation, and economic empowerment. Their focus is conviction: bitcoin is not one crypto asset among many, but the dominant digital monetary network. The second group, Bitcoin Capitalists, views Bitcoin as a form of digital capital that should be integrated into the global economy. They support corporate treasury adoption, institutional custody, bitcoin-backed securities, lending markets, and broader financial infrastructure. Their goal is to expand bitcoin&#x27;s reach by embedding it into existing economic systems rather than replacing them. The third group, Bitcoin Technologists , focuses on improving the protocol. They argue that Bitcoin must continue to evolve to address challenges in scalability, privacy, usability, security, and future threats such as quantum computing. While they support innovation, Saylor notes that changes to bitcoin&#x27;s base layer must be approached cautiously to avoid unintended consequences. The fourth group, Bitcoin Fundamentalists , prioritize protecting bitcoin&#x27;s original principles: decentralization, self-custody, immutability, censorship resistance, and individual sovereignty. They are wary of excessive institutional influence, financialization, and protocol changes that could compromise Bitcoin&#x27;s core characteristics. Saylor&#x27;s central argument is that Bitcoin needs all four perspectives. Maximalists provide conviction, Capitalists drive adoption, Technologists ensure long-term resilience, and Fundamentalists safeguard the protocol&#x27;s integrity. Saylor argues that Bitcoin&#x27;s most successful path lies in a balance among these four forces . As CoinTelegraph reports, Bitcoin has fulfilled two of three key conditions to spark the next BTC price “rally,” new analysis says. Bitcoin whale traders are laying the foundations for BTC price relief, even as BTC/USD plumbs two year lows .",
+      "content": "Black Dahlia | Federal Bureau of Investigation Federal Bureau of Investigation (.gov)",
       "keywords": [
         "money-&-markets news",
-        "bitcoin",
-        "data",
-        "oversold",
-        "image",
-        "they",
-        "term",
-        "their"
+        "federal",
+        "bureau",
+        "investigation",
+        "black",
+        "dahlia"
       ],
       "hashtags": [
         "#money-&-marketsnews",
-        "#bitcoin",
-        "#data",
-        "#oversold",
-        "#image",
-        "#they",
-        "#term",
-        "#their"
+        "#federal",
+        "#bureau",
+        "#investigation",
+        "#black",
+        "#dahlia"
       ],
-      "slug": "2026-06-07-short-term-bitcoin-holders-are-realizing-their-largest-losses-on-record-most-ove",
-      "sourceUrl": "https://www.zerohedge.com/crypto/short-term-bitcoin-holders-are-realizing-their-largest-losses-record-most-oversold-2018",
-      "generatedAt": "2026-06-07T15:01:45.221Z",
+      "slug": "2026-06-07-black-dahlia-federal-bureau-of-investigation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CXzRQRVllQ2VIY0RRRko4T2pBakVJb0luSzdxeTdmSUhmc01Dc0dnZHVvcEwzUGxka2V1aDl1d1NsejFXbUJ4eWoxSmM2elZXeDdrUDdXQlkweGlGV2h6TzN0ZGJRaGRSTU5sRg?oc=5",
+      "generatedAt": "2026-06-07T21:01:44.224Z",
       "relatedArticles": [
         {
-          "title": "The crypto market crash on June 2nd triggered nearly $1.8B in liquidations",
-          "slug": "2026-06-07-the-crypto-market-crash-on-june-2nd-triggered-nearly-18b-in-liquidations",
+          "title": "Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild",
+          "slug": "2026-06-07-bessent-examining-use-of-frozen-iranian-assets-to-help-gulf-countries-rebuild",
           "category": "Money & Markets"
         }
       ]
     },
     {
-      "title": "Europe 2.0, Beyond Brussels: The End Of The European Union As We Know It",
-      "url": "https://www.zerohedge.com/geopolitical/europe-20-beyond-brussels-end-european-union-we-know-it",
-      "description": "<span >Europe 2.0, Beyond Brussels: The End Of The European Union As We Know It</span> <div ><p><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>Political order does not grow out of procedural routines, commission papers, or moral self-incantation. It grows out of peoples, interests, borders, loyalties, and the willingness to defend what is one’s own.</strong> Legitimate authority rests on a people and its consent, not on an apparatus and it",
-      "pubDate": "Sun, 07 Jun 2026 12:10:00 +0000",
+      "title": "Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild",
+      "url": "https://www.zerohedge.com/geopolitical/bessent-examining-use-iranian-assets-help-gulf-countries-rebuild",
+      "description": "<span >Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild</span> <div ><p>Treasury Secretary Scott Bessent is reportedly pursuing a pathway to repurpose Iranian assets to compensate Amerca's Gulf allies which have suffered significant damage due to Iran's attacks in the wake of Trump's Operation Epic Fury.</p> <p>Over eighty oil, gas, and vital infrastructure facilities across the Gulf have been hit - with most of the attacks having occurred in March and April - with o",
+      "pubDate": "Sun, 07 Jun 2026 18:35:00 +0000",
       "source": "ZeroHedge",
-      "category": "Global Power",
-      "score": 4,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Authored by Frank-Christian Hansel via American Greatness, Europe has reached the end of an era. Not the end of its history, but the end of its false form. For decades, the European Union served as the great substitute project of a continent that no longer dared to think politically. It promised peace without power, order without a people, unity without roots, and prosperity without cost. That was its founding lie, and it was a lie from the very beginning. Political order does not grow out of procedural routines, commission papers, or moral self-incantation. It grows out of peoples, interests, borders, loyalties, and the willingness to defend what is one’s own. Legitimate authority rests on a people and its consent, not on an apparatus and its expertise. That older idea—that government draws its life from the governed rather than from the competence of its administrators—is precisely what Brussels has spent two generations trying to administer away. That is why today’s EU is not the high point of European history but its bureaucratic state of exhaustion. It is too centralized to be free and too artificial to be binding. It commands an immense body of rules and possesses no sustaining political soul. It has institutions, but not the kind of historically grown legitimacy that holds a community together across generations. And so it answers every crisis with the same reflex: more centralization, more redistribution, more standardization, more discipline. What is sold as the solution is only the problem enlarged. Europe is not failing because there is too little Brussels. Europe is failing because there is too much Brussels. It is failing because of a political class that no longer sees the continent as a historical space but as an object of administration. It is failing because of an ideology that treats every organically grown difference as a defect and therefore regards peoples, traditions, and national particularities as raw material to be processed. And it is failing because of a functional elite that has learned to disguise power as morality and to pass off its own interests as universal values. There is a name for this kind of governance: the administrative state —the permanent, unelected layer that survives every election, answers to no voter, and grows whether the public wants it to or not. Brussels is that layer raised to the continental power and freed from even the inconvenience of a national electorate. There is no European demos to vote the managers out. That is not a flaw in the design. It is the design. The real scandal of Europe today is not even its material mismanagement but its intellectual arrogance. The Union behaves as though it could suspend history—as though cultures could be harmonized like technical standards, as though political loyalty could be decreed the way one issues a packaging regulation. As though a continent of radically different historical experiences, economic structures, demographic trajectories, and security realities could be pressed into one standardized form without damage. Yet the damage is already visible. The EU is not unifying Europe. It is wearing it down. To see why, it helps to return to a text that saw the whole thing coming. In 2011, long before today’s disruptions, the German social scientist Gunnar Heinsohn published an essay whose title I have borrowed and broadened here: “ Europa 2.0: Neuzuschnitt der Alten Welt ” (Europe 2.0: Recutting the Old World). It was written in the first panic of the euro rescues, and it has aged with uncomfortable precision. Heinsohn’s argument was not, in the first place, a complaint about Brussels. It was an argument about arithmetic. He began with the chain of liabilities that the productive European middle class—the net taxpayers, the people who put in more than they take out—had quietly been made to guarantee. First, the bank rescues of 2008. Then the Greek bailout and the great euro backstops of 2010, which shielded bondholders and the comfortable classes of the periphery at the expense of taxpayers who were never asked. Then the implicit guarantees extended to the aging, shrinking states of the European East. And beneath all of it, an ever-growing domestic population to be supported for life. The decisive point was simple and merciless: when all these promises—upward, downward, and outward—come due at once, no one will be left to bail out the people who were made to do the bailing. The mechanism is general. A government that collectivizes debt, anonymizes liability, and blurs responsibility will always end by taxing the people who never agreed to the bad decisions of others. Heinsohn merely showed that the European Union had written this principle into its very constitution. Any order that treats difference primarily as a financing problem must degenerate into a transfer machine. And a transfer machine is, sooner or later, politically hated—because it morally expropriates the productive and politically infantilizes the weak, rewarding neither virtue nor reform but only dependency. What it produces in the end is not solidarity but resentment: a bureaucratically managed exhaustion of the common good. But Heinsohn’s deeper move was to set this fiscal machine on top of a demographic one—and here the argument becomes genuinely radical. The transfers are not merely unjust; they are mathematically doomed, because the population expected to honor them is collapsing. Across much of Europe, and most severely in the East, birth rates have run far below replacement for two generations. The productive base shrinks while the dependent base grows and ages. You cannot underwrite an expanding empire of guarantees with a contracting nation of guarantors. The numbers do not forgive ideology. From this, Heinsohn drew a conclusion that polite Europe still refuses to say aloud: not all human capital is equal, and a civilization that loses its capacity to attract and cultivate talent does not stay rich for long. Innovation is decided at the top of the distribution, by the density of the highly capable, not by raising the average. Importing large numbers of low-skill dependents, he argued, costs billions and replaces not a single first-rate mind, while a society that selects for ability—as the Swiss and the Danes already do—renews itself. Strip away the provocation and a plainer proposition remains: a serious country runs immigration in its own interest, as a selective system, choosing the people it needs rather than absorbing whoever happens to arrive. A civilization unwilling to reproduce itself has, in any case, already mortgaged its own future. Whatever one makes of these claims, Heinsohn’s 2011 essay reads today less like a period piece than like a forecast. What, then, is the alternative? Heinsohn’s answer was not “more Europe,” and it was not “back to the nation-states of 1914.” It was a recutting—a deliberate sorting of the continent into political spaces that can actually function, each organized around two hard criteria: a currency that is genuinely sound and a society genuinely attractive to the talent it needs. His model for both was not an abstraction. It was a sort of Switzerland. Consider what Heinsohn admired in it. Its central bank does not monetize the debt of badly run governments; it will not take their paper as collateral and will not buy it—which is exactly why a country of fewer than nine million can hold a reserve-grade currency. Sound money, enforced by the refusal to bail anyone out. Its cantons do not subsidize one another into permanent dependency; there is no grand equalization scheme shuffling money from the competent to the connected. Instead, the cantons compete—for innovative firms, for capable workers, for investment—and grow their revenue by winning that competition rather than by lobbying for a larger share of someone else’s. Tax competition, fiscal discipline, and federalism as a sport rather than a shakedown. And immigration authority sits at the local level: it is the communes, not a distant central ministry, that decide who settles where—which is why the children of Swiss immigrants tend to perform like Swiss children rather than like a permanent underclass parked wherever a bureaucrat finds room. The list of features is easy to state: sound money, decentralized authority, local control over who settles where, tax competition in place of redistribution, and a central government that coordinates only the few things that genuinely must be coordinated and leaves the rest to the level closest to the decision. The European word for this is subsidiarity . Heinsohn’s quiet provocation was to note where it actually survives—not in the European Union, but in the small, stubborn confederation that the Union spent two decades trying to fine, pressure, and squeeze into compliance. Heinsohn then took the principle to its conclusion and asked what Europe would look like if it were organized by those criteria rather than by inherited borders. The criteria themselves are the point, and they are worth stating plainly, because they describe a direction rather than a destination: A viable space, in his account, is one that can secure its own sound currency without monetizing anyone’s debt; one attractive enough to draw and keep the talent it needs rather than merely the dependents it acquires; one governed closely enough to its people that consent is real and not merely assumed; and one freed from open-ended liability for the failures of others. Spaces that can meet those tests cohere on their own. Spaces that cannot have to be held together by transfers and decree—which is the very condition that Europe is now exhausting itself trying to maintain.",
-      "keywords": [
-        "global-power news",
-        "europe",
-        "european",
-        "heinsohn",
-        "people",
-        "rather",
-        "because",
-        "brussels"
-      ],
-      "hashtags": [
-        "#global-powernews",
-        "#europe",
-        "#european",
-        "#heinsohn",
-        "#people",
-        "#rather",
-        "#because",
-        "#brussels"
-      ],
-      "slug": "2026-06-07-europe-20-beyond-brussels-the-end-of-the-european-union-as-we-know-it",
-      "sourceUrl": "https://www.zerohedge.com/geopolitical/europe-20-beyond-brussels-end-european-union-we-know-it",
-      "generatedAt": "2026-06-07T15:01:48.905Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "Why Trump Changed His Mind on Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSThUdWFEVmU2TV9MRTZocGZoM0RjdGFuTElYQk1LbHA3ME83R1dkaGNURkNvcFl2V1ZxaUFKdDloc2c0dFppbHZxSFhXNFhDamU2NTBRdTlkQ3hUS2w1cTVpLWtxSVZ0d2V0TTJHdGl0YlJscmVEVlVSWi1BZ3Fwd0VoQWRZRy1wVmN2bnhKdC1JQ1loaURnMGdB?oc=5",
-      "description": "Why Trump Changed His Mind on Ukraine The Atlantic",
-      "pubDate": "2025-09-23T07:00:00.000Z",
-      "source": "Google News (Global Power)",
-      "category": "Conflict & Wars",
-      "score": 4,
-      "sources": [
-        "Google News (Global Power)",
-        "r/worldnews"
-      ],
-      "content": "Why Trump Changed His Mind on Ukraine The Atlantic",
-      "keywords": [
-        "conflict-&-wars news",
-        "trump",
-        "changed",
-        "mind",
-        "ukraine",
-        "atlantic"
-      ],
-      "hashtags": [
-        "#conflict-&-warsnews",
-        "#trump",
-        "#changed",
-        "#mind",
-        "#ukraine",
-        "#atlantic"
-      ],
-      "slug": "2026-06-07-why-trump-changed-his-mind-on-ukraine",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSThUdWFEVmU2TV9MRTZocGZoM0RjdGFuTElYQk1LbHA3ME83R1dkaGNURkNvcFl2V1ZxaUFKdDloc2c0dFppbHZxSFhXNFhDamU2NTBRdTlkQ3hUS2w1cTVpLWtxSVZ0d2V0TTJHdGl0YlJscmVEVlVSWi1BZ3Fwd0VoQWRZRy1wVmN2bnhKdC1JQ1loaURnMGdB?oc=5",
-      "generatedAt": "2026-06-07T15:01:50.253Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "The crypto market crash on June 2nd triggered nearly $1.8B in liquidations",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tyu560/the_crypto_market_crash_on_june_2nd_triggered/",
-      "description": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
-      "pubDate": "2026-06-06T22:01:38.000Z",
-      "source": "r/cryptocurrency",
-      "redditScore": 0,
       "category": "Money & Markets",
       "score": 7,
       "sources": [
-        "r/cryptocurrency",
-        "r/wallstreetbets"
+        "ZeroHedge"
       ],
-      "content": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "content": "Treasury Secretary Scott Bessent is reportedly pursuing a pathway to repurpose Iranian assets to compensate Amerca&#x27;s Gulf allies which have suffered significant damage due to Iran&#x27;s attacks in the wake of Trump&#x27;s Operation Epic Fury. Over eighty oil, gas, and vital infrastructure facilities across the Gulf have been hit - with most of the attacks having occurred in March and April - with one recent report estimating up to $58 billion in damage . Iran has sought to justify these attacks as &#x27;retaliation&#x27; for these Gulf countries hosting American bases during the US unprovoked assault on the Islamic Republic. Image source: White House \"Treasury will utilize all tools available to allow Iranian assets to be made available to our Gulf allies to support rebuilding and repairs for any future damage caused by Iran,\" a US official told ABC&#x27;s Senior White House correspondent Selina Wang over the weekend. \"The Secretary has also directed his team to assess conditions amongst our Gulf allies and request comprehensive estimates of the costs associated with repairing damage Iran has inflicted since the start of the conflict ,\" the source continued. \"Treasury will further consider whether Iranian assets could be used to support repairs for past damages ,\" it added, per the ABC correspondent. She also wrote on X: The Iranian assets could include frozen assets and ships the U.S. has seized. The administration is reaching out to Gulf allies right now and asking for their evaluation. If Treasury pulls the trigger on such a plan, it would likely further derail efforts to get Tehran and Washington back to the negotiating table . Already the US has balked at Iran&#x27;s own insistent it be given reparations for damage done. Iran is demanding that its billions in funds long frozen by Washington be given back as part of a deal. The Trump administration has so far appeared to reject this. While some Gulf allies might welcome this, some might see it as unrealistic and a recipe for just prolonging the war. In this scenario, Gulf societies would only suffer more, especially in any future escalation leading to all-out war. The D.C. think tank Freedom for Defense of Democracies has estimated Iran&#x27;s damage suffered since the US-Israel war on it was launched at well over $100 billion, and possibly reaching as high as $300 billion - according to the highest-end estimates. \"FDD’s first model-based estimate of Iran&#x27;s economic losses to date due to Operation Epic Fury are $144 billion, or 40 percent of pre-war GDP ,\" a late April report said. TOTAL IRAN ECONOMIC DAMAGE ESTIMATE, FDD on April 23... On this basis, Tehran will pursue its case that it unjustly suffered the greatest damage to its national infrastructure and society, and that the surprise attack was launched as it was seeking to engage in good faith negotiations with the United States, ironically enough. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
       "keywords": [
         "money-&-markets news",
-        "crypto",
-        "market",
-        "crash",
-        "june",
-        "triggered",
-        "nearly",
-        "liquidations"
+        "gulf",
+        "iran",
+        "damage",
+        "assets",
+        "iranian",
+        "treasury",
+        "allies"
       ],
       "hashtags": [
         "#money-&-marketsnews",
-        "#crypto",
-        "#market",
-        "#crash",
-        "#june",
-        "#triggered",
-        "#nearly",
-        "#liquidations"
+        "#gulf",
+        "#iran",
+        "#damage",
+        "#assets",
+        "#iranian",
+        "#treasury",
+        "#allies"
       ],
-      "slug": "2026-06-07-the-crypto-market-crash-on-june-2nd-triggered-nearly-18b-in-liquidations",
-      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1tyu560/the_crypto_market_crash_on_june_2nd_triggered/",
-      "generatedAt": "2026-06-07T15:01:51.991Z",
+      "slug": "2026-06-07-bessent-examining-use-of-frozen-iranian-assets-to-help-gulf-countries-rebuild",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/bessent-examining-use-iranian-assets-help-gulf-countries-rebuild",
+      "generatedAt": "2026-06-07T21:01:46.484Z",
       "relatedArticles": [
         {
-          "title": "Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse",
-          "slug": "2026-06-07-short-term-bitcoin-holders-are-realizing-their-largest-losses-on-record-most-ove",
+          "title": "Black Dahlia | Federal Bureau of Investigation",
+          "slug": "2026-06-07-black-dahlia-federal-bureau-of-investigation",
           "category": "Money & Markets"
+        }
+      ]
+    },
+    {
+      "title": "This Rare Meteorite Could Be Evidence of a “Massive World” Once Hidden Deep in Our Solar System",
+      "url": "https://thedebrief.org/this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our-solar-system/",
+      "description": "",
+      "pubDate": "2026-06-07T13:13:42.000Z",
+      "source": "The Debrief",
+      "category": "Unexplained",
+      "score": 4,
+      "sources": [
+        "The Debrief",
+        "The Debrief Science"
+      ],
+      "content": "A meteorite discovered in Africa could be evidence of a lost protoplanet that once orbited our Sun , according to researchers at the University of Colorado at Boulder. In a recent paper published in Earth and Planetary Science Letters , the team revealed evidence of an ancient protoplanet that may have been as large as Mars based on simulations of how the meteorite sample may have formed. The four-and-a-half-billion-year-old world carried an unexpected geological makeup, which the researchers say casts doubt on common assumptions regarding planetary evolution . According to the UC Boulder team, the massive protoplanetary body collided with another object four and a half billion years ago, shattering it completely. This is the first definitive evidence of a lost protoplanet in our solar system, based on analysis of the angrite meteorite NWA 12774, a shard of that planetary embryo recovered from the Sahara Desert. “It’s incredible to think there was once a world this large,” said lead author Aaron Bell , an assistant research professor in the Department of Earth Science at CU Boulder. “We only know it existed because a few fragments of it happened to land on Earth. These meteorites preserved evidence of a completely different pathway through which early planets developed.” Angrites, a rare type of volcanic rock, serve as a record of our solar system’s distant past. These rocks began forming only a few million years after the solar system&#8217;s birth, making them valuable evidence of this early era. However, they are extremely rare and difficult to find. NWA 12774 is one of only 68 angrite samples identified among more than 80,000 meteorites cataloged by scientists. Given its rarity, the discovery could potentially reshape how researchers understand these ancient rocks. Until now, scientists had assumed that angrites originated from relatively small asteroids less than 124 miles (200 kilometers) wide, based largely on their chemical composition. Large rocky planets such as Earth and Mars contain significant amounts of silicon dioxide, while angrites contain very little of the compound. Researchers began to reconsider those assumptions when they identified clinopyroxene in the meteorite sample. This mineral, commonly found in Earth&#8217;s crust and mantle, appeared unusually rich in aluminum, suggesting that it formed under significant pressure deep within a planetary body. To investigate this unusual characteristic of NWA 12774, the University of Colorado Boulder team recreated the conditions under which the sample could have formed. Their analysis revealed that pressures of at least 17.5 kilobars were required to produce the aluminum-rich clinopyroxene found in the meteorite. For comparison, one kilobar is roughly equivalent to the pressure at the deepest part of Earth&#8217;s oceans, near the bottom of the Mariana Trench. The researchers’ discovery proved that at least this particular angrite sample could not have formed inside a small meteorite, as a body with a radius of at least 621 miles would be required to generate the pressure needed to produce the crystals. Additional evidence suggested the parent body may have been even larger. The crystals&#8217; sharp edges and delicate internal structures indicate they likely formed at relatively shallow depths beneath the surface. Reconciling both the high-pressure conditions and the shallow formation depth suggests that the parent body may have ranged in size from the Moon to Mars. See Also Scientists Unearth a Scimitar-Crested &#8220;Hell Heron&#8221; During a Daunting Sahara Desert Expedition “There are many meteorites sitting in drawers that haven’t been thoroughly studied, so there were likely more of these protoplanets we don’t know about,” Bell said. Exactly what happened to this ancient world remains uncertain, but researchers believe it was likely destroyed in a massive collision early in the solar system&#8217;s history. Fragments of that lost protoplanet may have later contributed material to other bodies, potentially including Earth itself. “The materials that formed the angrite parent body are fundamentally different from the ingredients of Earth and Mars,” Bell concluded. “It points to a distinct and separate evolutionary path in planetary formation in the early history of our solar system.” The paper, “ High-Pressure Clinopyroxene in Northwest Africa 12774 and New Geobarometric Evidence for a Planetary Embryo-Sized Angrite Parent Body ,” appeared in Earth and Planetary Science Letters on July 1, 2026. Ryan Whalen covers science and technology for The Debrief. He holds an MA in History and a Master of Library and Information Science with a certificate in Data Science. He can be contacted at ryan@thedebrief.org, and follow him on Twitter @mdntwvlf.",
+      "keywords": [
+        "unexplained news",
+        "earth",
+        "evidence",
+        "meteorite",
+        "planetary",
+        "body",
+        "solar",
+        "system"
+      ],
+      "hashtags": [
+        "#unexplainednews",
+        "#earth",
+        "#evidence",
+        "#meteorite",
+        "#planetary",
+        "#body",
+        "#solar",
+        "#system"
+      ],
+      "slug": "2026-06-07-this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our",
+      "sourceUrl": "https://thedebrief.org/this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our-solar-system/",
+      "generatedAt": "2026-06-07T21:01:48.951Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPaUFvUW9CTGx1OEdzY0pLSE9pTFphTXZ3czJDWWRUQXdPTzBqRTY0WnRLTVVVWlFpMFVqeXZYcG8tdjk1TmswS1lkTFVzOFlHdl9UZDM0c3NuLWpNd0VESTFnYjZVUlpNMGVScXAzUTQtVHdTMVBhZ1RNYWl6eEduLXJUTVY1d1lmekZwNnV6M2JhdGRmNEh3clE4b0ZZYjlkZzU2QnZuSU9EblgwWEhManpIZWl0MnltNHN0SjVmSDQ2M0pKQ3RBRmVXSEx1d1h6TzhWSVI4TUg0M05Id3FZbnhMNzJDOGpmQ2VWbTBBWVUzcWNBRTRiSHNKS3ZtTV84ZTM2Q1pmRzRvWGtsYmp6eEppSkp2aGg0UDdCOVdmU1pNRUxfLTB0LQ?oc=5",
+      "description": "2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police WBMA",
+      "pubDate": "2026-03-13T07:00:00.000Z",
+      "source": "Google News (True Crime)",
+      "category": "True Crime",
+      "score": 3,
+      "sources": [
+        "Google News (True Crime)"
+      ],
+      "content": "2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police WBMA",
+      "keywords": [
+        "true-crime news",
+        "york",
+        "cold",
+        "cases",
+        "dating",
+        "back",
+        "solved",
+        "thanks"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#york",
+        "#cold",
+        "#cases",
+        "#dating",
+        "#back",
+        "#solved",
+        "#thanks"
+      ],
+      "slug": "2026-06-07-2-new-york-cold-cases-dating-back-to-1970s-solved-thanks-to-dna-evidence-police",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPaUFvUW9CTGx1OEdzY0pLSE9pTFphTXZ3czJDWWRUQXdPTzBqRTY0WnRLTVVVWlFpMFVqeXZYcG8tdjk1TmswS1lkTFVzOFlHdl9UZDM0c3NuLWpNd0VESTFnYjZVUlpNMGVScXAzUTQtVHdTMVBhZ1RNYWl6eEduLXJUTVY1d1lmekZwNnV6M2JhdGRmNEh3clE4b0ZZYjlkZzU2QnZuSU9EblgwWEhManpIZWl0MnltNHN0SjVmSDQ2M0pKQ3RBRmVXSEx1d1h6TzhWSVI4TUg0M05Id3FZbnhMNzJDOGpmQ2VWbTBBWVUzcWNBRTRiSHNKS3ZtTV84ZTM2Q1pmRzRvWGtsYmp6eEppSkp2aGg0UDdCOVdmU1pNRUxfLTB0LQ?oc=5",
+      "generatedAt": "2026-06-07T21:01:52.839Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns”",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
+      "description": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
+      "pubDate": "2025-09-30T07:00:00.000Z",
+      "source": "Google News (Corporate Watchdog)",
+      "category": "Corporate Watchdog",
+      "score": 6,
+      "sources": [
+        "Google News (Corporate Watchdog)"
+      ],
+      "content": "FTC’s Landmark $2.5 Billion Amazon Settlement Highlights Ongoing Focus on “Dark Patterns” The National Law Review",
+      "keywords": [
+        "corporate-watchdog news",
+        "landmark",
+        "billion",
+        "amazon",
+        "settlement",
+        "highlights",
+        "ongoing",
+        "focus"
+      ],
+      "hashtags": [
+        "#corporate-watchdognews",
+        "#landmark",
+        "#billion",
+        "#amazon",
+        "#settlement",
+        "#highlights",
+        "#ongoing",
+        "#focus"
+      ],
+      "slug": "2026-06-07-ftcs-landmark-25-billion-amazon-settlement-highlights-ongoing-focus-on-dark-patt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1hQXZCWTROcE5SWkpIVVo4aE9pOEI1QUo5RzNFSHVrNlFvMXJjV3I2SVZDLWM0RTVXNDF5UndkUkl1ejZ0UWY4Ym9VRzk4OVlucnRKTVFuQlVoNEsxbGJOTUZIbXFOVWF0SGhfNHhQTjY3dmZxOXV1VTB0TFZKa2ZLSEZVbkdwTDF6YWhpRGlqY01iTkw3bXZNOUV5aFB2N3R1TlZUYUJ5VFFxT1dVdGhkeTTSAboBQVVfeXFMTWl6Z2dSbExHYklaMXV1M3gzWXMwYXYtdXRSa3J5WUdTQjBhbkUwS0VmUklhSWZBVmV2YkNkdjh3TjNmM3ctUE9HaUZUMmFqbnVoOVN6U2NlMlh2SUNkWnh5b3VsdVRlVTgxZU9MaF9xckd6c0M3dnE5WWM5N20za05GMUpENC1rb0Zxblpseml4TExJaXlqdGJDWlE1QnpfMEFNNU9Rcll0aU9DbGlfX2tNYlk2Q3FSNXNB?oc=5",
+      "generatedAt": "2026-06-07T21:01:56.004Z",
+      "relatedArticles": [
+        {
+          "title": "Show HN: Hardbar – compile-time defined i3bar",
+          "slug": "2026-06-07-show-hn-hardbar-compile-time-defined-i3bar",
+          "category": "Corporate Watchdog"
+        }
+      ]
+    },
+    {
+      "title": "Data privacy is failing. Here’s what encryption and MFA can (and can’t) do",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObE1sVUViX3lza1FETU9WRXJxZXB3OC01cGp6RTdDWVhXaXdHdFM5dEdSMHNuT3dPRzJ3c3JteXhhaFNrT0pLM1ZsZXVGRTNUNF9aUGR5OHUydWlCak5XZFRtbmF2b003Y0pLTHFBZnhHOE1ZSDNGUUEyQVZ5MkR4eWpyajRBSFVCQm5FUVJWaTFKMW1Ec3c?oc=5",
+      "description": "Data privacy is failing. Here’s what encryption and MFA can (and can’t) do Fast Company",
+      "pubDate": "2025-07-10T07:00:00.000Z",
+      "source": "Google News (Tech & Privacy)",
+      "category": "Tech & Privacy",
+      "score": 6,
+      "sources": [
+        "Google News (Tech & Privacy)"
+      ],
+      "content": "Data privacy is failing. Here’s what encryption and MFA can (and can’t) do Fast Company",
+      "keywords": [
+        "tech-&-privacy news",
+        "data",
+        "privacy",
+        "failing",
+        "here",
+        "encryption",
+        "fast",
+        "company"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#data",
+        "#privacy",
+        "#failing",
+        "#here",
+        "#encryption",
+        "#fast",
+        "#company"
+      ],
+      "slug": "2026-06-07-data-privacy-is-failing-heres-what-encryption-and-mfa-can-and-cant-do",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObE1sVUViX3lza1FETU9WRXJxZXB3OC01cGp6RTdDWVhXaXdHdFM5dEdSMHNuT3dPRzJ3c3JteXhhaFNrT0pLM1ZsZXVGRTNUNF9aUGR5OHUydWlCak5XZFRtbmF2b003Y0pLTHFBZnhHOE1ZSDNGUUEyQVZ5MkR4eWpyajRBSFVCQm5FUVJWaTFKMW1Ec3c?oc=5",
+      "generatedAt": "2026-06-07T21:01:58.059Z",
+      "relatedArticles": [
+        {
+          "title": "Foundation for Information Policy Research warns many proposed solutions for age verification will exacerbate harms they are trying to prevent & could expose children to risks of blackmail & abuse",
+          "slug": "2026-06-07-foundation-for-information-policy-research-warns-many-proposed-solutions-for-age",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'",
+      "url": "https://www.zerohedge.com/geopolitical/iran-fm-blames-us-contradictions-stalled-peace-talks-tehran-slaps-million-dollar",
+      "description": "<span >Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'</span> <div ><h2>Summary</h2> <ul><li><i><strong>HUGE ESCALATION: Iran fires missiles on Israel</strong>, after IDF unleashed deadly <strong>airstrike on Beirut earlier Sunday</strong>.</i></li> <li><em>Israeli official: <strong>\"There will be a forceful response</strong>.<strong>\"</strong></em></li> <li><em>Sunday is <strong>day 100 </strong>since President Trump launched Operation E",
+      "pubDate": "Sun, 07 Jun 2026 19:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "ZeroHedge",
+        "r/worldnews",
+        "r/wallstreetbets"
+      ],
+      "content": "Summary HUGE ESCALATION: Iran fires missiles on Israel , after IDF unleashed deadly airstrike on Beirut earlier Sunday . Israeli official: \"There will be a forceful response . \" Sunday is day 100 since President Trump launched Operation Epic Fury. Ghalibaf warns after IDF escalation in Lebanon: US & Israeli bases, assets in region are &#x27;legitimate targets&#x27; . Talks stuck on unfreezing assets: \"Twenty-four billion dollars is not much for America if he wants to reach an agreement with Iran,\" Iranian Gen. Mohsen Rezaei told CNN. \"This is our own, not America&#x27;s money.\" Defying Washington, Iran has been collecting $1.5 million to $2 million per vessel passing through the Strait of Hormuz (Fars). US x Iran permanent peace deal by June 15, 2026? Yes 7% · No 94% View full market & trade on Polymarket * * * Tehran makes good on its earlier threats, after the IDF conducted a deadly airstrike on the Lebanese capital of Beirut earlier Sunday. Day 100 of the war has seen a major renewal and escalation, again bringing Iran and Israel into a likely state of all-out war, per WSJ : Iran fired missiles toward Israel on Sunday, after a deadly Israeli airstrike on Beirut hours earlier targeting the Tehran-backed militants Hezbollah , Israel’s military said. It marks the first time Iran has targeted Israel during its ceasefire with the U.S. that went into force in early April. The attack came after Tehran threatened to hit Israel and American bases in the Middle East in response to the airstrike on the Lebanese capital, the first time Israeli warplanes have targeted Beirut since a ceasefire between Israel and Lebanon was announced by the U.S. last week. BREAKING: Trump to Fox News: What I would suggest to Iran: You&#x27;ve shot your missiles, that&#x27;s enough. Get back to the table and make a deal. Source: @TreyYingst President Trump has continued to maintain adherence to it, and days ago suggested that a &#x27;moderate&#x27; amount of firing doesn&#x27;t necessarily mean a broken ceasefire. WATCH: Iranians celebrate missile strikes targeting Israel. pic.twitter.com/CzQKenllnN Israel earlier confirmed an airstrike on a Hezbollah headquarters in the Dahieh district of Beirut. Iran last week warned again hitting Beirut, saying it would assure US and Israeli bases and assets in the region would come under new attack. The earlier warning is reviewed as follows : Video of reported initial inbound projectile on Israel circulating... A third round of sirens sound in northern Israel, after the IDF intercepted several Iranian ballistic missiles. No initial reports of injuries or damages. A senior Israeli official tells Israeli media: “There will be a forceful response.” pic.twitter.com/BixzsXOrhs On Sunday Tehran ramped up its threats to renew ballistic missile and drone attacks on Israel and America&#x27;s Gulf allies, describing that the Israeli military&#x27;s ongoing deadly attacks on Lebanon could obliterate the extended ceasefire with the US Iranian Parliament Speaker Mohammad Bagher Ghalibaf announced on X that the ongoing American naval blockade against the Islamic Republic, with Washington having given a green light to Israel for its attacks on Hezbollah and Lebanon, turns both countries&#x27; bases and assets in the region into “legitimate targets.” The last days even saw a Lebanese general and other officers killed by IDF airstrike in south Lebanon. \"They neither abide by a ceasefire nor believe in negotiations,\" Ghalibaf wrote. Below is the latest Bloomberg summary on where stalled negotiations stand... to be expected it cites \"little progress\": \"The US and Iran appear to be making little progress toward an interim deal to end the war Washington and Israel began 100 days ago, as fresh attacks pile pressure on a fragile ceasefire,\" Bloomberg writes, and continues : The U.S. and Iran remain stuck in preliminary talks to end the war, with the main obstacle being Tehran&#x27;s demand for access to billions of dollars in frozen assets and the Trump administration&#x27;s refusal to provide upfront cash or broader sanctions relief. Tehran is seeking about $12 billion upfront and $24 billion during a proposed 60-day negotiation window. \"Twenty-four billion dollars is not much for America if he wants to reach an agreement with Iran,\" Gen. Mohsen Rezaei, a senior adviser to Iran&#x27;s top official, told CNN on Friday. \"This is our own, not America&#x27;s money.\" For the Trump administration, releasing frozen funds for Tehran is optically displeasing because the president spent years blasting the Obama administration over the $1.7 billion Iran payment tied to the 2015 nuclear deal, and later criticized the Biden administration&#x27;s move to allow Iran access to $6 billion in assets during a prisoner swap. The U.S. government estimates that Tehran has $100 billion in inaccessible assets, mostly oil revenue trapped abroad, including funds in China, Qatar, Oman, and Iraq.",
+      "keywords": [
+        "surveillance-state news",
+        "iran",
+        "israel",
+        "airstrike",
+        "beirut",
+        "israeli",
+        "tehran",
+        "missiles"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#iran",
+        "#israel",
+        "#airstrike",
+        "#beirut",
+        "#israeli",
+        "#tehran",
+        "#missiles"
+      ],
+      "slug": "2026-06-07-iran-fires-missiles-at-israel-in-first-since-april-after-idf-airstrike-on-beirut",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/iran-fm-blames-us-contradictions-stalled-peace-talks-tehran-slaps-million-dollar",
+      "generatedAt": "2026-06-07T21:02:00.610Z",
+      "relatedArticles": [
+        {
+          "title": "New York's under-18 social media ban is included in the state budget that was signed by the Governor two weeks ago.",
+          "slug": "2026-06-07-new-yorks-under-18-social-media-ban-is-included-in-the-state-budget-that-was-sig",
+          "category": "Surveillance State"
+        }
+      ]
+    },
+    {
+      "title": "Foundation for Information Policy Research warns many proposed solutions for age verification will exacerbate harms they are trying to prevent & could expose children to risks of blackmail & abuse",
+      "url": "https://www.reddit.com/r/privacy/comments/1tznno6/foundation_for_information_policy_research_warns/",
+      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "pubDate": "2026-06-07T20:49:55.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Tech & Privacy",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "keywords": [
+        "tech-&-privacy news",
+        "foundation",
+        "information",
+        "policy",
+        "research",
+        "warns",
+        "many",
+        "proposed"
+      ],
+      "hashtags": [
+        "#tech-&-privacynews",
+        "#foundation",
+        "#information",
+        "#policy",
+        "#research",
+        "#warns",
+        "#many",
+        "#proposed"
+      ],
+      "slug": "2026-06-07-foundation-for-information-policy-research-warns-many-proposed-solutions-for-age",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tznno6/foundation_for_information_policy_research_warns/",
+      "generatedAt": "2026-06-07T21:02:02.573Z",
+      "relatedArticles": [
+        {
+          "title": "Data privacy is failing. Here’s what encryption and MFA can (and can’t) do",
+          "slug": "2026-06-07-data-privacy-is-failing-heres-what-encryption-and-mfa-can-and-cant-do",
+          "category": "Tech & Privacy"
+        }
+      ]
+    },
+    {
+      "title": "New York's under-18 social media ban is included in the state budget that was signed by the Governor two weeks ago.",
+      "url": "https://www.reddit.com/r/privacy/comments/1tzn52i/new_yorks_under18_social_media_ban_is_included_in/",
+      "description": "<!-- SC_OFF --><div ><p>The New York Children's Online Safety Act has been renamed to the \"Safe By Design Act\" and merged into Senate Bill 9008, included as a key provision of the state budget, viewable here: <a /u/vriskaldrunk </a> <br/> <span><a",
+      "pubDate": "2026-06-07T20:29:58.000Z",
+      "source": "r/privacy",
+      "redditScore": 0,
+      "category": "Surveillance State",
+      "score": 6,
+      "sources": [
+        "r/privacy"
+      ],
+      "content": "<!-- SC_OFF --><div ><p>The New York Children's Online Safety Act has been renamed to the \"Safe By Design Act\" and merged into Senate Bill 9008, included as a key provision of the state budget, viewable here: <a /u/vriskaldrunk </a> <br/> <span><a",
+      "keywords": [
+        "surveillance-state news",
+        "york",
+        "included",
+        "state",
+        "budget",
+        "social",
+        "media",
+        "signed"
+      ],
+      "hashtags": [
+        "#surveillance-statenews",
+        "#york",
+        "#included",
+        "#state",
+        "#budget",
+        "#social",
+        "#media",
+        "#signed"
+      ],
+      "slug": "2026-06-07-new-yorks-under-18-social-media-ban-is-included-in-the-state-budget-that-was-sig",
+      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tzn52i/new_yorks_under18_social_media_ban_is_included_in/",
+      "generatedAt": "2026-06-07T21:02:04.466Z",
+      "relatedArticles": [
+        {
+          "title": "Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'",
+          "slug": "2026-06-07-iran-fires-missiles-at-israel-in-first-since-april-after-idf-airstrike-on-beirut",
+          "category": "Surveillance State"
         }
       ]
     }

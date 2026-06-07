@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 07 Jun 2026 18:00:44 GMT</lastBuildDate>
-    <pubDate>Sun, 07 Jun 2026 18:00:44 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2026 21:05:51 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2026 21:05:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,114 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Show HN: Hardbar – compile-time defined i3bar</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-show-hn-hardbar-compile-time-defined-i3bar</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-show-hn-hardbar-compile-time-defined-i3bar</guid>
+      <pubDate>Sun, 07 Jun 2026 20:27:03 GMT</pubDate>
+      <description>A fast, compile-time-configured status bar for i3 and sway, outputting the i3bar JSON protocol. I was worried about the performance of i3blocks due to the constant fork-and-execs, and I thought zig would make it easy to have a bar defined at compile-time. I started on this idea a couple years ago but ended up somewhat stymied by lack of time to chase down some corners of zig syntax interaction. Re</description>
+      <content:encoded><![CDATA[A fast, compile-time-configured status bar for i3 and sway, outputting the i3bar JSON protocol. I was worried about the performance of i3blocks due to the constant fork-and-execs, and I thought zig would make it easy to have a bar defined at compile-time. I started on this idea a couple years ago but ended up somewhat stymied by lack of time to chase down some corners of zig syntax interaction. Re]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-show-hn-hardbar-compile-time-defined-i3bar.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Black Dahlia | Federal Bureau of Investigation</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-black-dahlia-federal-bureau-of-investigation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-black-dahlia-federal-bureau-of-investigation</guid>
+      <pubDate>Tue, 05 May 2026 18:40:30 GMT</pubDate>
+      <description>Black Dahlia | Federal Bureau of Investigation Federal Bureau of Investigation (.gov)</description>
+      <content:encoded><![CDATA[Black Dahlia | Federal Bureau of Investigation Federal Bureau of Investigation (.gov)]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-black-dahlia-federal-bureau-of-investigation.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-bessent-examining-use-of-frozen-iranian-assets-to-help-gulf-countries-rebuild</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-bessent-examining-use-of-frozen-iranian-assets-to-help-gulf-countries-rebuild</guid>
+      <pubDate>Sun, 07 Jun 2026 18:35:00 GMT</pubDate>
+      <description>&lt;span &gt;Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild&lt;/span&gt; &lt;div &gt;&lt;p&gt;Treasury Secretary Scott Bessent is reportedly pursuing a pathway to repurpose Iranian assets to compensate Amerca's Gulf allies which have suffered significant damage due to Iran's attacks in the wake of Trump's Operation Epic Fury.&lt;/p&gt; &lt;p&gt;Over eighty oil, gas, and vital infrastructure facilities across the Gulf have been hit - with most of the attacks having occurred in March and April - with o</description>
+      <content:encoded><![CDATA[<span >Bessent Examining Use Of Frozen Iranian Assets To Help Gulf Countries Rebuild</span> <div ><p>Treasury Secretary Scott Bessent is reportedly pursuing a pathway to repurpose Iranian assets to compensate Amerca's Gulf allies which have suffered significant damage due to Iran's attacks in the wake of Trump's Operation Epic Fury.</p> <p>Over eighty oil, gas, and vital infrastructure facilities across the Gulf have been hit - with most of the attacks having occurred in March and April - with o]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-bessent-examining-use-of-frozen-iranian-assets-to-help-gulf-countries-rebuild.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>This Rare Meteorite Could Be Evidence of a “Massive World” Once Hidden Deep in Our Solar System</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our</guid>
+      <pubDate>Sun, 07 Jun 2026 13:13:42 GMT</pubDate>
+      <description>This Rare Meteorite Could Be Evidence of a “Massive World” Once Hidden Deep in Our Solar System</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-this-rare-meteorite-could-be-evidence-of-a-massive-world-once-hidden-deep-in-our.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-2-new-york-cold-cases-dating-back-to-1970s-solved-thanks-to-dna-evidence-police</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-2-new-york-cold-cases-dating-back-to-1970s-solved-thanks-to-dna-evidence-police</guid>
+      <pubDate>Fri, 13 Mar 2026 07:00:00 GMT</pubDate>
+      <description>2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police WBMA</description>
+      <content:encoded><![CDATA[2 New York cold cases dating back to 1970s solved thanks to DNA evidence: police WBMA]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-2-new-york-cold-cases-dating-back-to-1970s-solved-thanks-to-dna-evidence-police.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Data privacy is failing. Here’s what encryption and MFA can (and can’t) do</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-data-privacy-is-failing-heres-what-encryption-and-mfa-can-and-cant-do</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-data-privacy-is-failing-heres-what-encryption-and-mfa-can-and-cant-do</guid>
+      <pubDate>Thu, 10 Jul 2025 07:00:00 GMT</pubDate>
+      <description>Data privacy is failing. Here’s what encryption and MFA can (and can’t) do Fast Company</description>
+      <content:encoded><![CDATA[Data privacy is failing. Here’s what encryption and MFA can (and can’t) do Fast Company]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-data-privacy-is-failing-heres-what-encryption-and-mfa-can-and-cant-do.png"/>
+      <category>Tech &amp; Privacy</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-iran-fires-missiles-at-israel-in-first-since-april-after-idf-airstrike-on-beirut</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-iran-fires-missiles-at-israel-in-first-since-april-after-idf-airstrike-on-beirut</guid>
+      <pubDate>Sun, 07 Jun 2026 19:40:00 GMT</pubDate>
+      <description>&lt;span &gt;Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'&lt;/span&gt; &lt;div &gt;&lt;h2&gt;Summary&lt;/h2&gt; &lt;ul&gt;&lt;li&gt;&lt;i&gt;&lt;strong&gt;HUGE ESCALATION: Iran fires missiles on Israel&lt;/strong&gt;, after IDF unleashed deadly &lt;strong&gt;airstrike on Beirut earlier Sunday&lt;/strong&gt;.&lt;/i&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Israeli official: &lt;strong&gt;"There will be a forceful response&lt;/strong&gt;.&lt;strong&gt;"&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Sunday is &lt;strong&gt;day 100 &lt;/strong&gt;since President Trump launched Operation E</description>
+      <content:encoded><![CDATA[<span >Iran Fires Missiles At Israel In First Since April, After IDF Airstrike On Beirut 'Crossed All Red Lines'</span> <div ><h2>Summary</h2> <ul><li><i><strong>HUGE ESCALATION: Iran fires missiles on Israel</strong>, after IDF unleashed deadly <strong>airstrike on Beirut earlier Sunday</strong>.</i></li> <li><em>Israeli official: <strong>"There will be a forceful response</strong>.<strong>"</strong></em></li> <li><em>Sunday is <strong>day 100 </strong>since President Trump launched Operation E]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-iran-fires-missiles-at-israel-in-first-since-april-after-idf-airstrike-on-beirut.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Foundation for Information Policy Research warns many proposed solutions for age verification will exacerbate harms they are trying to prevent &amp; could expose children to risks of blackmail &amp; abuse</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-foundation-for-information-policy-research-warns-many-proposed-solutions-for-age</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-foundation-for-information-policy-research-warns-many-proposed-solutions-for-age</guid>
+      <pubDate>Sun, 07 Jun 2026 20:49:55 GMT</pubDate>
+      <description>&amp;#32; submitted by &amp;#32; &lt;a &amp;#32; &lt;span&gt;&lt;a href="</description>
+      <content:encoded><![CDATA[&#32; submitted by &#32; <a &#32; <span><a href="]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-foundation-for-information-policy-research-warns-many-proposed-solutions-for-age.png"/>
+      <category>Tech &amp; Privacy</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>New York's under-18 social media ban is included in the state budget that was signed by the Governor two weeks ago.</title>
+      <link>https://newsanarchist.com/articles/2026-06-07-new-yorks-under-18-social-media-ban-is-included-in-the-state-budget-that-was-sig</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-07-new-yorks-under-18-social-media-ban-is-included-in-the-state-budget-that-was-sig</guid>
+      <pubDate>Sun, 07 Jun 2026 20:29:58 GMT</pubDate>
+      <description>&lt;!-- SC_OFF --&gt;&lt;div &gt;&lt;p&gt;The New York Children's Online Safety Act has been renamed to the "Safe By Design Act" and merged into Senate Bill 9008, included as a key provision of the state budget, viewable here: &lt;a /u/vriskaldrunk &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a</description>
+      <content:encoded><![CDATA[<!-- SC_OFF --><div ><p>The New York Children's Online Safety Act has been renamed to the "Safe By Design Act" and merged into Senate Bill 9008, included as a key provision of the state budget, viewable here: <a /u/vriskaldrunk </a> <br/> <span><a]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-07-new-yorks-under-18-social-media-ban-is-included-in-the-state-budget-that-was-sig.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>The Secret Life of Circuits with lcamtuf / Michał Zalewski (Audio Interview)</title>
       <link>https://newsanarchist.com/articles/2026-06-07-the-secret-life-of-circuits-with-lcamtuf-micha-zalewski-audio-interview</link>
@@ -513,114 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Mantine-datatable (and others) compromised – owner account suspended</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-mantine-datatable-and-others-compromised-owner-account-suspended</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-mantine-datatable-and-others-compromised-owner-account-suspended</guid>
-      <pubDate>Fri, 05 Jun 2026 16:39:57 GMT</pubDate>
-      <description>Mantine-datatable (and others) compromised – owner account suspended</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-mantine-datatable-and-others-compromised-owner-account-suspended.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Softens Red Line: 'No Reason' To Retrieve Iran's Nuclear 'Dust' As It's Effectively 'Entombed'</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-trump-softens-red-line-no-reason-to-retrieve-irans-nuclear-dust-as-its-effective</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-trump-softens-red-line-no-reason-to-retrieve-irans-nuclear-dust-as-its-effective</guid>
-      <pubDate>Fri, 05 Jun 2026 10:00:00 GMT</pubDate>
-      <description>&lt;span &gt;Trump Softens Red Line: 'No Reason' To Retrieve Iran's Nuclear 'Dust' As It's Effectively 'Entombed'&lt;/span&gt; &lt;div &gt;&lt;h2&gt;Summary&lt;/h2&gt; &lt;ul&gt;&lt;li&gt;&lt;em&gt;Trump remarks suggest the fate of Iran's stockpile of enriched uranium &lt;strong&gt;is no longer be the central issue it once was&lt;/strong&gt;.&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;&lt;strong&gt;Hezbollah chief rejects outcome of Lebanon-Israel talks&lt;/strong&gt;, insisting that a truce must encompass whole country.&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;WSJ reports that the White House &lt;strong&gt;intends to </description>
-      <content:encoded><![CDATA[<span >Trump Softens Red Line: 'No Reason' To Retrieve Iran's Nuclear 'Dust' As It's Effectively 'Entombed'</span> <div ><h2>Summary</h2> <ul><li><em>Trump remarks suggest the fate of Iran's stockpile of enriched uranium <strong>is no longer be the central issue it once was</strong>.</em></li> <li><em><strong>Hezbollah chief rejects outcome of Lebanon-Israel talks</strong>, insisting that a truce must encompass whole country.</em></li> <li><em>WSJ reports that the White House <strong>intends to ]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-trump-softens-red-line-no-reason-to-retrieve-irans-nuclear-dust-as-its-effective.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Astronauts told to return to ISS after sheltering over air leak repairs</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-astronauts-told-to-return-to-iss-after-sheltering-over-air-leak-repairs</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-astronauts-told-to-return-to-iss-after-sheltering-over-air-leak-repairs</guid>
-      <pubDate>Fri, 05 Jun 2026 15:00:31 GMT</pubDate>
-      <description>Astronauts told to return to ISS after sheltering over air leak repairs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-astronauts-told-to-return-to-iss-after-sheltering-over-air-leak-repairs.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Ohio State University Reaches $100 Million Settlement With Nearly 300 Sex Abuse Survivors</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-ohio-state-university-reaches-100-million-settlement-with-nearly-300-sex-abuse-s</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-ohio-state-university-reaches-100-million-settlement-with-nearly-300-sex-abuse-s</guid>
-      <pubDate>Fri, 05 Jun 2026 19:00:00 GMT</pubDate>
-      <description>&lt;span &gt;Ohio State University Reaches $100 Million Settlement With Nearly 300 Sex Abuse Survivors&lt;/span&gt; &lt;div &gt;&lt;article&gt;&lt;p&gt;&lt;em&gt;&lt;a " data-image- data-link- group"&gt;&lt;img data-entity- data-entity- data-responsive-image- foaf:Image" /&gt;&lt;figcaption&gt;&lt;em&gt;The Ohio State University campus in Columbus, Ohio, U.S., November 25, 2020. Megan Jelinger/Reuters&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/picture&gt;&lt;/a&gt; &lt;p&gt;The settlement with 279 of the 280 former students was ratified by the university's board on Wednesday. It foll</description>
-      <content:encoded><![CDATA[<span >Ohio State University Reaches $100 Million Settlement With Nearly 300 Sex Abuse Survivors</span> <div ><article><p><em><a " data-image- data-link- group"><img data-entity- data-entity- data-responsive-image- foaf:Image" /><figcaption><em>The Ohio State University campus in Columbus, Ohio, U.S., November 25, 2020. Megan Jelinger/Reuters</em></figcaption></figure></picture></a> <p>The settlement with 279 of the 280 former students was ratified by the university's board on Wednesday. It foll]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-ohio-state-university-reaches-100-million-settlement-with-nearly-300-sex-abuse-s.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Astronauts on ISS told to shelter as repairs under way to fix air leaks</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-astronauts-on-iss-told-to-shelter-as-repairs-under-way-to-fix-air-leaks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-astronauts-on-iss-told-to-shelter-as-repairs-under-way-to-fix-air-leaks</guid>
-      <pubDate>Fri, 05 Jun 2026 15:00:31 GMT</pubDate>
-      <description>Astronauts on ISS told to shelter as repairs under way to fix air leaks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-astronauts-on-iss-told-to-shelter-as-repairs-under-way-to-fix-air-leaks.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-peace-talks-stall-us-denies-iranian-claims-of-warning-shots-at-destroyers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-peace-talks-stall-us-denies-iranian-claims-of-warning-shots-at-destroyers</guid>
-      <pubDate>Fri, 05 Jun 2026 13:45:00 GMT</pubDate>
-      <description>&lt;span &gt;Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;em&gt;U.S. &lt;strong&gt;CENTCOM Denies Report&lt;/strong&gt; &lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;&lt;strong&gt;Iran Military Fires "Warning Missiles"&lt;/strong&gt; At US Destroyers In Gulf of Oman&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Iran FM Warns &lt;strong&gt;American Bases Are Legitimate Targets&lt;/strong&gt;, Cites 'No Tangible Progress' In Talks&lt;/em&gt;&lt;/li&gt; &lt;/ul&gt;&lt;h2&gt;Polymarket &lt;/h2&gt; &lt;script &gt; &lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!-- &lt;!--//-</description>
-      <content:encoded><![CDATA[<span >Peace Talks Stall: U.S. Denies Iranian Claims Of Warning Shots At Destroyers</span> <div ><p><strong>Summary:</strong></p> <ul><li><em>U.S. <strong>CENTCOM Denies Report</strong> </em></li> <li><em><strong>Iran Military Fires "Warning Missiles"</strong> At US Destroyers In Gulf of Oman</em></li> <li><em>Iran FM Warns <strong>American Bases Are Legitimate Targets</strong>, Cites 'No Tangible Progress' In Talks</em></li> </ul><h2>Polymarket </h2> <script > <!--//--><![CDATA[// ><!-- <!--//-]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-peace-talks-stall-us-denies-iranian-claims-of-warning-shots-at-destroyers.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Globalist CEOs Sound Alarm Over Swiss Population Cap Vote</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-globalist-ceos-sound-alarm-over-swiss-population-cap-vote</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-globalist-ceos-sound-alarm-over-swiss-population-cap-vote</guid>
-      <pubDate>Fri, 05 Jun 2026 12:47:00 GMT</pubDate>
-      <description>&lt;span &gt;Globalist CEOs Sound Alarm Over Swiss Population Cap Vote&lt;/span&gt; &lt;div &gt;&lt;article&gt;&lt;p&gt;&lt;strong&gt;Summary: &lt;/strong&gt;&lt;/p&gt; &lt;ul&gt;&lt;li&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;Increasing Number of Globalist CEOs&lt;/strong&gt; Concerned About Swiss Population Vote&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;Nestle CEO&lt;/strong&gt; Warns Against Swiss Population Cap Vote&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;UBS CEO&lt;/strong&gt; Warns Swiss Population Cap Is An 'Extreme' Measure&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;Switzerland's "Ten Million" Vote Nears &lt;/em&gt;&lt;/p</description>
-      <content:encoded><![CDATA[<span >Globalist CEOs Sound Alarm Over Swiss Population Cap Vote</span> <div ><article><p><strong>Summary: </strong></p> <ul><li> <p><em><strong>Increasing Number of Globalist CEOs</strong> Concerned About Swiss Population Vote</em></p> </li> <li> <p><em><strong>Nestle CEO</strong> Warns Against Swiss Population Cap Vote</em></p> </li> <li> <p><em><strong>UBS CEO</strong> Warns Swiss Population Cap Is An 'Extreme' Measure</em></p> </li> <li> <p><em>Switzerland's "Ten Million" Vote Nears </em></p]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-globalist-ceos-sound-alarm-over-swiss-population-cap-vote.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Wagyu XMR1 price manipulators finally exposed - Hyperliquid mafia</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-wagyu-xmr1-price-manipulators-finally-exposed-hyperliquid-mafia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-wagyu-xmr1-price-manipulators-finally-exposed-hyperliquid-mafia</guid>
-      <pubDate>Fri, 05 Jun 2026 08:27:19 GMT</pubDate>
-      <description>&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div &gt;&lt;p&gt;WAGYU SCAMMERS EXPOSED&lt;/p&gt; &lt;p&gt;&lt;a &lt;p&gt;. XMR1 is a synthetic derivative. Because real Monero is private, there is ZERO public on-chain proof that these wrapped tokens are backed 1:1 by real reserves. It’s a printing press with no oversight.&lt;br/&gt; 4/4 The Impact: Crashing the Real MarketWhen these 5 wallets coordinate massive selling swaps o</description>
-      <content:encoded><![CDATA[<table> <tr><td> <a /> </a> </td><td> <!-- SC_OFF --><div ><p>WAGYU SCAMMERS EXPOSED</p> <p><a <p>. XMR1 is a synthetic derivative. Because real Monero is private, there is ZERO public on-chain proof that these wrapped tokens are backed 1:1 by real reserves. It’s a printing press with no oversight.<br/> 4/4 The Impact: Crashing the Real MarketWhen these 5 wallets coordinate massive selling swaps o]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-wagyu-xmr1-price-manipulators-finally-exposed-hyperliquid-mafia.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Rubio: 'Most Of The World Assesses' That Israel Has Nuclear Weapons</title>
-      <link>https://newsanarchist.com/articles/2026-06-05-rubio-most-of-the-world-assesses-that-israel-has-nuclear-weapons</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-05-rubio-most-of-the-world-assesses-that-israel-has-nuclear-weapons</guid>
-      <pubDate>Fri, 05 Jun 2026 14:00:00 GMT</pubDate>
-      <description>&lt;span &gt;Rubio: 'Most Of The World Assesses' That Israel Has Nuclear Weapons&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;a asked&lt;/a&gt; whether Israel has nuclear weapons and acknowledged that &lt;strong&gt;"most of the world assesses that they do,"&lt;/strong&gt; but also reaffirmed the US policy of not acknowledging the existence of Israel’s nuclear stockpile and secret weapons program.&lt;/p&gt; &lt;p&gt;Rubio made the comments when being questioned by Rep. Joaquin Castro (D-TX), who recently led a letter to the State Department asking for answers</description>
-      <content:encoded><![CDATA[<span >Rubio: 'Most Of The World Assesses' That Israel Has Nuclear Weapons</span> <div ><p><a asked</a> whether Israel has nuclear weapons and acknowledged that <strong>"most of the world assesses that they do,"</strong> but also reaffirmed the US policy of not acknowledging the existence of Israel’s nuclear stockpile and secret weapons program.</p> <p>Rubio made the comments when being questioned by Rep. Joaquin Castro (D-TX), who recently led a letter to the State Department asking for answers]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-05-rubio-most-of-the-world-assesses-that-israel-has-nuclear-weapons.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
