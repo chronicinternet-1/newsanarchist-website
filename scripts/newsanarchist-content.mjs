@@ -376,6 +376,18 @@ function isMainstreamGarbage(title, description) {
     /^(my |i |we |our )(wife|husband|partner|boss|company|employer|job|account|computer|phone|device|friend|family)/i,
     /(concern me|worry me|bother me|affect me|help me|advice|thoughts\?|opinions\?|experience\?)/i,
   ];
+  // Reddit comics, memes, crypto tickers, user-generated content
+  const redditMemeJunk = [
+    /^made this comic/i,
+    /\bcomic\b/i,
+    /\bmeme\b/i,
+    /\[oc\]/i,
+    /^\$[A-Z]{2,6}\b/,
+    /^(my|our) (comic|drawing|art|illustration|infographic|chart|graph)/i,
+    /^(i made|i drew|i created|i built|i wrote) (a|this|an)/i,
+    /^(check out|look at|here is|here's) (my|this|a)/i,
+  ];
+  if (redditMemeJunk.some(p => p.test(title))) return true;
   if (redditJunk.some(p => p.test(title))) return true;
 
   return false;
@@ -2385,6 +2397,34 @@ async function runGenerate() {
       const aiBody = await generateAIArticle(topic);
       if (!aiBody) {
         console.warn(`  ⏭  Skipped (AI generation failed): ${topic.title.slice(0, 60)}`);
+        continue;
+      }
+      // Detect AI author refusal — skip article if author refused to write
+      const refusalPhrases = [
+        'i cannot write this article',
+        'i cannot proceed',
+        "i won't fabricate",
+        'i will not write',
+        'no verifiable facts',
+        "i can't write this",
+        'unable to write this article',
+        "i'm unable to write",
+        'i am unable to write',
+        'contains no verifiable',
+        'unverifiable claim',
+        'i should not write',
+        'would be irresponsible',
+        'i must decline',
+        'source material contains no',
+        'no named sources',
+        'no named officials',
+        'cannot confirm occurred',
+      ];
+      const bodyLower = (aiBody || '').toLowerCase();
+      if (refusalPhrases.some(phrase => bodyLower.includes(phrase))) {
+        console.warn(`  ⏭  Skipped (AI author refused to write): ${topic.title.slice(0, 60)}`);
+        // Clean up image if already generated
+        try { if (fs.existsSync(imgPath)) fs.unlinkSync(imgPath); } catch {}
         continue;
       }
       topic.aiContent = aiBody;

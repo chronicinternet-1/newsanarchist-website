@@ -1,219 +1,202 @@
 {
-  "scrapedAt": "2026-06-07T09:01:52.415Z",
+  "scrapedAt": "2026-06-07T15:01:54.588Z",
   "topicsCount": 5,
   "topics": [
     {
-      "title": "DentaQuest Data Breach Analysis",
-      "url": "https://www.rescana.com/post/dentaquest-data-breach-analysis-shinyhunters-leak-exposes-pii-and-phi-of-2-6-million-members-in-2026",
+      "title": "The Secret Life of Circuits with lcamtuf / Michał Zalewski (Audio Interview)",
+      "url": "https://theamphour.com/725-the-secret-life-of-circuits-with-lcamtuf-michal-zalewski/",
       "description": "",
-      "pubDate": "2026-06-07T08:48:55.000Z",
+      "pubDate": "2026-06-04T13:55:39.000Z",
       "source": "Hacker News",
-      "hnScore": 2,
-      "hnComments": 0,
+      "hnScore": 25,
+      "hnComments": 4,
       "category": "Corporate Watchdog",
       "score": 8,
       "sources": [
         "Hacker News"
       ],
-      "content": "Cybersecurity Incident Analysis Jun 7, 2026 7 min read ← All posts DentaQuest Data Breach Analysis: ShinyHunters Leak Exposes PII and PHI of 2.6 Million Members in 2026 In May 2026, DentaQuest , a leading dental and vision benefits administrator serving Medicaid, Medicare Advantage, employers, health plans, and individual customers across all 50 states, experienced a significant data breach. The cybercriminal group ShinyHunters claimed responsibility for the attack, which resulted in the exfiltration and subsequent public leak of over 234 gigabytes of sensitive data. This breach impacted approximately 2.6 million individuals, exposing personally identifiable information (PII) and protected health information (PHI) such as names, dates of birth, email addresses, phone numbers, home addresses, genders, government-issued IDs, health insurance information, and Medicaid IDs. The incident was confirmed by DentaQuest on June 2, 2026, and has since been independently verified by multiple cybersecurity sources. The breach has raised concerns regarding regulatory compliance, particularly due to delayed notification to the U.S. Department of Health and Human Services and state attorney general offices. The exposed data significantly increases the risk of identity theft, fraud, and targeted phishing attacks for affected individuals. This report provides a comprehensive technical analysis of the incident, the tactics used by the threat actor, and actionable recommendations for mitigation and response. Sources: PR Newswire , Have I Been Pwned , BleepingComputer The DentaQuest breach was orchestrated by the ShinyHunters group, a well-known cybercriminal organization specializing in large-scale data theft and extortion. The attack leveraged credential-based access to DentaQuest ’s cloud infrastructure, consistent with ShinyHunters ’ historical tactics. The group typically acquires legitimate credentials through phishing campaigns or by targeting repositories and cloud services for OAuth keys and access tokens. In this incident, there is no evidence of malware deployment; instead, the attackers relied on credential theft and exploitation of cloud accounts to gain unauthorized access and exfiltrate data. Upon gaining access, the attackers exfiltrated over 234 GB of data, which included sensitive PII and PHI. The compromised data was primarily found in healthcare enrollment files (ASC X12 transaction sets), member records, and related files. The breach was publicly disclosed after ShinyHunters failed to extort payment from DentaQuest , leading to the data being posted on the group’s dark web leak site. DentaQuest confirmed the incident on June 2, 2026, stating that the breach involved unauthorized access to a limited portion of its network. The company reported that immediate action was taken to secure the environment, contain the attack, and mitigate the threat. External cybersecurity experts were engaged to assist with the investigation and to determine the scope of the compromised data. Despite these efforts, the breach resulted in the exposure of highly sensitive information for 2.6 million individuals. Technical analysis of the incident aligns with the following MITRE ATT&CK techniques: No malware artifacts, command-and-control infrastructure, or ransomware deployment were identified in this incident, which is consistent with ShinyHunters ’ established modus operandi. The group’s focus on credential-based access and cloud data exfiltration, rather than malware or ransomware, is well-documented in prior incidents involving other high-profile organizations. The breach has significant implications for the healthcare sector, particularly for data aggregators like DentaQuest that manage large volumes of sensitive information. The exposure of PII and PHI not only increases the risk of identity theft and fraud but also raises regulatory concerns due to the delayed notification to authorities. The incident underscores the importance of robust credential management, cloud security controls, and timely breach notification in the healthcare industry. Sources: PR Newswire , Have I Been Pwned , BleepingComputer , Intel 471 The breach affected DentaQuest ’s cloud infrastructure and associated data repositories. The incident occurred in May 2026, with public disclosure and confirmation by DentaQuest on June 2, 2026. The compromised data includes records for approximately 2.6 million individuals, with the earliest evidence of unauthorized access traced to May 2026. The data was publicly leaked after ShinyHunters ’ extortion attempt failed. The affected data includes, but is not limited to, names, dates of birth, email addresses, phone numbers, home addresses, genders, government-issued IDs, health insurance information, and Medicaid IDs. The breach primarily impacted healthcare enrollment files and member records managed by DentaQuest . DentaQuest has not yet reported the breach to the U.S. Department of Health and Human Services or to state attorney general offices as of June 5, 2026, which may constitute a violation of federal and state notification laws. Sources: PR Newswire , Have I Been Pwned , BleepingComputer The ShinyHunters group is a prominent cybercriminal organization active since April 2020, known for targeting organizations with large data repositories, particularly those storing valuable PII and PHI. Their tactics focus on credential theft, exploitation of cloud accounts, and data exfiltration, often followed by extortion attempts. In the DentaQuest incident, ShinyHunters executed a \"pay or leak\" campaign, threatening to release stolen data unless a ransom was paid. The group’s attack methodology typically involves phishing campaigns to harvest credentials, targeting DevOps personnel and repositories for OAuth keys and cloud access tokens, and leveraging valid accounts to access cloud infrastructure. Once inside the target environment, ShinyHunters conducts reconnaissance to identify valuable data, collects information from cloud storage and information repositories, and exfiltrates the data over web services. In this case, after failing to extort payment from DentaQuest , ShinyHunters publicly leaked the stolen data, exposing sensitive information for 2.6 million individuals. The group’s tactics did not involve malware or ransomware, relying instead on credential-based access and cloud exploitation. This approach minimizes the likelihood of detection by traditional endpoint security solutions and allows for large-scale data theft without deploying malicious code. The incident highlights the evolving threat landscape facing healthcare data aggregators and the increasing sophistication of cybercriminal groups targeting cloud infrastructure and sensitive data repositories. Sources: PR Newswire , Have I Been Pwned , BleepingComputer , Intel 471 Mitigation and response actions should be prioritized by severity: Critical: Immediate rotation of all credentials, including passwords, OAuth keys, and cloud access tokens associated with affected systems. Conduct a comprehensive audit of cloud infrastructure and access logs to identify unauthorized activity and potential persistence mechanisms. Notify all affected individuals and regulatory authorities in accordance with federal and state laws to ensure compliance and reduce legal exposure.",
+      "content": "Your email address will not be published. Required fields are marked * Save my name, email, and website in this browser for the next time I comment.",
       "keywords": [
         "corporate-watchdog news",
-        "data",
-        "dentaquest",
-        "breach",
-        "cloud",
-        "access",
-        "incident",
-        "shinyhunters"
+        "email",
+        "secret",
+        "life",
+        "circuits",
+        "lcamtuf",
+        "micha",
+        "zalewski"
       ],
       "hashtags": [
         "#corporate-watchdognews",
-        "#data",
-        "#dentaquest",
-        "#breach",
-        "#cloud",
-        "#access",
-        "#incident",
-        "#shinyhunters"
+        "#email",
+        "#secret",
+        "#life",
+        "#circuits",
+        "#lcamtuf",
+        "#micha",
+        "#zalewski"
       ],
-      "slug": "2026-06-07-dentaquest-data-breach-analysis",
-      "sourceUrl": "https://www.rescana.com/post/dentaquest-data-breach-analysis-shinyhunters-leak-exposes-pii-and-phi-of-2-6-million-members-in-2026",
-      "generatedAt": "2026-06-07T09:01:41.170Z",
+      "slug": "2026-06-07-the-secret-life-of-circuits-with-lcamtuf-micha-zalewski-audio-interview",
+      "sourceUrl": "https://theamphour.com/725-the-secret-life-of-circuits-with-lcamtuf-michal-zalewski/",
+      "generatedAt": "2026-06-07T15:01:42.873Z",
       "relatedArticles": []
     },
     {
-      "title": "No Right to Remain Silent: Negative Rights in a Positive-Rights World",
-      "url": "https://www.reddit.com/r/privacy/comments/1tz2rt2/no_right_to_remain_silent_negative_rights_in_a/",
-      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
-      "pubDate": "2026-06-07T04:55:44.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Government Secrets",
-      "score": 6,
+      "title": "Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse",
+      "url": "https://www.zerohedge.com/crypto/short-term-bitcoin-holders-are-realizing-their-largest-losses-record-most-oversold-2018",
+      "description": "<span >Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse</span> <div ><p>After this week's <strong>bloodbath</strong>...</p> <p><a data-image-external- data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>Bitcoin is now flashing its most oversold signal </strong>since 2018, raising the odds of a relief rebound toward $70,000 in the coming weeks.</p> <p><a data-image-external- data-image- data-l",
+      "pubDate": "Sun, 07 Jun 2026 13:55:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Money & Markets",
+      "score": 7,
       "sources": [
-        "r/privacy"
+        "ZeroHedge"
       ],
-      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "content": "Bitcoin is now flashing its most oversold signal since 2018, raising the odds of a relief rebound toward $70,000 in the coming weeks. The extremely oversold reading followed a roughly 30% decline in BTC over the past month, as geopolitical risks , higher oil prices , fading hopes for a 2026 Federal Reserve rate cut, and panic over Strategy’s latest Bitcoin sale weighed on sentiment . In addition, there was some online chatter seems to speculate that retail investors may be selling crypto to chase the biggest IPO ever. The Elon Musk-owned rockets, satellite and AI company SpaceX is selling up to 30% of its record $75 billion offering straight to retail investors through Robinhood, Fidelity and Charles Schwab, more than three times the slice a typical IPO sets aside for individuals. The roadshow opened Thursday already oversubscribed, with more orders than shares on offer, Bloomberg reported. It is offering shares at a $1.8 trillion valuation. Bitcoin fell roughly 16% over the same timespan and briefly traded below $60,000 before recovering to around $61,000. Oversold readings this extreme often appear near seller-exhaustion zones where short-term buyers begin positioning for a relief rebound. In 2018, the collapse was triggered in large part by the SEC&#x27;s regulatory crackdown on ICOs, announcing its first civil penalties against Paragon and CarrierEQ/Airfox. But, the 2018 bear market was already underway due to the bursting of the 2017 ICO bubble, regulatory uncertainty (China bans, etc.), exchange hacks, and fading retail hype. November was more of a capitulation phase than a new shock. In 2020, Bitcoin’s RSI dropped to around 15.56 before BTC rebounded by about 50%, helped by the Federal Reserve’s emergency shift to near-zero interest rates and large-scale bond purchases. In February 2026, for instance, BTC’s daily RSI dropped to around 15.86 while price held above the $60,000 support area. The signal preceded a nearly 30% recovery toward $82,850. Following bitcoin&#x27;s worst week in two years , Strategy(MSTR) Executive Chairman Michael Saylor published a framework on X , arguing that the Bitcoin community is evolving into four distinct ideological camps. As CoinDesk reports , rather than viewing these groups as competitors, he presents them as complementary forces that will collectively shape bitcoin’s future. The first group, Bitcoin Maximalists, sees Bitcoin as the ultimate monetary breakthrough. They believe bitcoin has already solved the problem of digital scarcity and offers superior property rights, protection from inflation, and economic empowerment. Their focus is conviction: bitcoin is not one crypto asset among many, but the dominant digital monetary network. The second group, Bitcoin Capitalists, views Bitcoin as a form of digital capital that should be integrated into the global economy. They support corporate treasury adoption, institutional custody, bitcoin-backed securities, lending markets, and broader financial infrastructure. Their goal is to expand bitcoin&#x27;s reach by embedding it into existing economic systems rather than replacing them. The third group, Bitcoin Technologists , focuses on improving the protocol. They argue that Bitcoin must continue to evolve to address challenges in scalability, privacy, usability, security, and future threats such as quantum computing. While they support innovation, Saylor notes that changes to bitcoin&#x27;s base layer must be approached cautiously to avoid unintended consequences. The fourth group, Bitcoin Fundamentalists , prioritize protecting bitcoin&#x27;s original principles: decentralization, self-custody, immutability, censorship resistance, and individual sovereignty. They are wary of excessive institutional influence, financialization, and protocol changes that could compromise Bitcoin&#x27;s core characteristics. Saylor&#x27;s central argument is that Bitcoin needs all four perspectives. Maximalists provide conviction, Capitalists drive adoption, Technologists ensure long-term resilience, and Fundamentalists safeguard the protocol&#x27;s integrity. Saylor argues that Bitcoin&#x27;s most successful path lies in a balance among these four forces . As CoinTelegraph reports, Bitcoin has fulfilled two of three key conditions to spark the next BTC price “rally,” new analysis says. Bitcoin whale traders are laying the foundations for BTC price relief, even as BTC/USD plumbs two year lows .",
       "keywords": [
-        "government-secrets news",
-        "rights",
-        "right",
-        "remain",
-        "silent",
-        "negative",
-        "positive",
-        "world"
-      ],
-      "hashtags": [
-        "#government-secretsnews",
-        "#rights",
-        "#right",
-        "#remain",
-        "#silent",
-        "#negative",
-        "#positive",
-        "#world"
-      ],
-      "slug": "2026-06-07-no-right-to-remain-silent-negative-rights-in-a-positive-rights-world",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tz2rt2/no_right_to_remain_silent_negative_rights_in_a/",
-      "generatedAt": "2026-06-07T09:01:46.698Z",
-      "relatedArticles": [
-        {
-          "title": "Aegis vault backup",
-          "slug": "2026-06-07-aegis-vault-backup",
-          "category": "Government Secrets"
-        }
-      ]
-    },
-    {
-      "title": "Aegis vault backup",
-      "url": "https://www.reddit.com/r/privacy/comments/1tyjgzu/aegis_vault_backup/",
-      "description": "<!-- SC_OFF --><div ><p>I am using Aegis Authenticator. Much satisfied with it, but something is nagging me. I create backups of my vault regularly. They are encrypted with the app's password. If I change the password of the app will the backups be useless then? Or can someone still use them in any authenticator app if they somehow should get to them?</p> </div><!-- SC_ON --> &#32; submitted by &#",
-      "pubDate": "2026-06-06T14:58:04.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Government Secrets",
-      "score": 6,
-      "sources": [
-        "r/privacy"
-      ],
-      "content": "<!-- SC_OFF --><div ><p>I am using Aegis Authenticator. Much satisfied with it, but something is nagging me. I create backups of my vault regularly. They are encrypted with the app's password. If I change the password of the app will the backups be useless then? Or can someone still use them in any authenticator app if they somehow should get to them?</p> </div><!-- SC_ON --> &#32; submitted by &#",
-      "keywords": [
-        "government-secrets news",
-        "aegis",
-        "vault",
-        "authenticator",
-        "backups",
+        "money-&-markets news",
+        "bitcoin",
+        "data",
+        "oversold",
+        "image",
         "they",
-        "password",
-        "them"
+        "term",
+        "their"
       ],
       "hashtags": [
-        "#government-secretsnews",
-        "#aegis",
-        "#vault",
-        "#authenticator",
-        "#backups",
+        "#money-&-marketsnews",
+        "#bitcoin",
+        "#data",
+        "#oversold",
+        "#image",
         "#they",
-        "#password",
-        "#them"
+        "#term",
+        "#their"
       ],
-      "slug": "2026-06-07-aegis-vault-backup",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1tyjgzu/aegis_vault_backup/",
-      "generatedAt": "2026-06-07T09:01:48.080Z",
+      "slug": "2026-06-07-short-term-bitcoin-holders-are-realizing-their-largest-losses-on-record-most-ove",
+      "sourceUrl": "https://www.zerohedge.com/crypto/short-term-bitcoin-holders-are-realizing-their-largest-losses-record-most-oversold-2018",
+      "generatedAt": "2026-06-07T15:01:45.221Z",
       "relatedArticles": [
         {
-          "title": "No Right to Remain Silent: Negative Rights in a Positive-Rights World",
-          "slug": "2026-06-07-no-right-to-remain-silent-negative-rights-in-a-positive-rights-world",
-          "category": "Government Secrets"
+          "title": "The crypto market crash on June 2nd triggered nearly $1.8B in liquidations",
+          "slug": "2026-06-07-the-crypto-market-crash-on-june-2nd-triggered-nearly-18b-in-liquidations",
+          "category": "Money & Markets"
         }
       ]
     },
     {
-      "title": "Starmer vows to act on social media after meeting bereaved parents",
-      "url": "https://www.reddit.com/r/privacy/comments/1txv63e/starmer_vows_to_act_on_social_media_after_meeting/",
-      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
-      "pubDate": "2026-06-05T19:39:10.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 6,
+      "title": "Europe 2.0, Beyond Brussels: The End Of The European Union As We Know It",
+      "url": "https://www.zerohedge.com/geopolitical/europe-20-beyond-brussels-end-european-union-we-know-it",
+      "description": "<span >Europe 2.0, Beyond Brussels: The End Of The European Union As We Know It</span> <div ><p><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>Political order does not grow out of procedural routines, commission papers, or moral self-incantation. It grows out of peoples, interests, borders, loyalties, and the willingness to defend what is one’s own.</strong> Legitimate authority rests on a people and its consent, not on an apparatus and it",
+      "pubDate": "Sun, 07 Jun 2026 12:10:00 +0000",
+      "source": "ZeroHedge",
+      "category": "Global Power",
+      "score": 4,
       "sources": [
-        "r/privacy"
+        "ZeroHedge"
       ],
-      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "content": "Authored by Frank-Christian Hansel via American Greatness, Europe has reached the end of an era. Not the end of its history, but the end of its false form. For decades, the European Union served as the great substitute project of a continent that no longer dared to think politically. It promised peace without power, order without a people, unity without roots, and prosperity without cost. That was its founding lie, and it was a lie from the very beginning. Political order does not grow out of procedural routines, commission papers, or moral self-incantation. It grows out of peoples, interests, borders, loyalties, and the willingness to defend what is one’s own. Legitimate authority rests on a people and its consent, not on an apparatus and its expertise. That older idea—that government draws its life from the governed rather than from the competence of its administrators—is precisely what Brussels has spent two generations trying to administer away. That is why today’s EU is not the high point of European history but its bureaucratic state of exhaustion. It is too centralized to be free and too artificial to be binding. It commands an immense body of rules and possesses no sustaining political soul. It has institutions, but not the kind of historically grown legitimacy that holds a community together across generations. And so it answers every crisis with the same reflex: more centralization, more redistribution, more standardization, more discipline. What is sold as the solution is only the problem enlarged. Europe is not failing because there is too little Brussels. Europe is failing because there is too much Brussels. It is failing because of a political class that no longer sees the continent as a historical space but as an object of administration. It is failing because of an ideology that treats every organically grown difference as a defect and therefore regards peoples, traditions, and national particularities as raw material to be processed. And it is failing because of a functional elite that has learned to disguise power as morality and to pass off its own interests as universal values. There is a name for this kind of governance: the administrative state —the permanent, unelected layer that survives every election, answers to no voter, and grows whether the public wants it to or not. Brussels is that layer raised to the continental power and freed from even the inconvenience of a national electorate. There is no European demos to vote the managers out. That is not a flaw in the design. It is the design. The real scandal of Europe today is not even its material mismanagement but its intellectual arrogance. The Union behaves as though it could suspend history—as though cultures could be harmonized like technical standards, as though political loyalty could be decreed the way one issues a packaging regulation. As though a continent of radically different historical experiences, economic structures, demographic trajectories, and security realities could be pressed into one standardized form without damage. Yet the damage is already visible. The EU is not unifying Europe. It is wearing it down. To see why, it helps to return to a text that saw the whole thing coming. In 2011, long before today’s disruptions, the German social scientist Gunnar Heinsohn published an essay whose title I have borrowed and broadened here: “ Europa 2.0: Neuzuschnitt der Alten Welt ” (Europe 2.0: Recutting the Old World). It was written in the first panic of the euro rescues, and it has aged with uncomfortable precision. Heinsohn’s argument was not, in the first place, a complaint about Brussels. It was an argument about arithmetic. He began with the chain of liabilities that the productive European middle class—the net taxpayers, the people who put in more than they take out—had quietly been made to guarantee. First, the bank rescues of 2008. Then the Greek bailout and the great euro backstops of 2010, which shielded bondholders and the comfortable classes of the periphery at the expense of taxpayers who were never asked. Then the implicit guarantees extended to the aging, shrinking states of the European East. And beneath all of it, an ever-growing domestic population to be supported for life. The decisive point was simple and merciless: when all these promises—upward, downward, and outward—come due at once, no one will be left to bail out the people who were made to do the bailing. The mechanism is general. A government that collectivizes debt, anonymizes liability, and blurs responsibility will always end by taxing the people who never agreed to the bad decisions of others. Heinsohn merely showed that the European Union had written this principle into its very constitution. Any order that treats difference primarily as a financing problem must degenerate into a transfer machine. And a transfer machine is, sooner or later, politically hated—because it morally expropriates the productive and politically infantilizes the weak, rewarding neither virtue nor reform but only dependency. What it produces in the end is not solidarity but resentment: a bureaucratically managed exhaustion of the common good. But Heinsohn’s deeper move was to set this fiscal machine on top of a demographic one—and here the argument becomes genuinely radical. The transfers are not merely unjust; they are mathematically doomed, because the population expected to honor them is collapsing. Across much of Europe, and most severely in the East, birth rates have run far below replacement for two generations. The productive base shrinks while the dependent base grows and ages. You cannot underwrite an expanding empire of guarantees with a contracting nation of guarantors. The numbers do not forgive ideology. From this, Heinsohn drew a conclusion that polite Europe still refuses to say aloud: not all human capital is equal, and a civilization that loses its capacity to attract and cultivate talent does not stay rich for long. Innovation is decided at the top of the distribution, by the density of the highly capable, not by raising the average. Importing large numbers of low-skill dependents, he argued, costs billions and replaces not a single first-rate mind, while a society that selects for ability—as the Swiss and the Danes already do—renews itself. Strip away the provocation and a plainer proposition remains: a serious country runs immigration in its own interest, as a selective system, choosing the people it needs rather than absorbing whoever happens to arrive. A civilization unwilling to reproduce itself has, in any case, already mortgaged its own future. Whatever one makes of these claims, Heinsohn’s 2011 essay reads today less like a period piece than like a forecast. What, then, is the alternative? Heinsohn’s answer was not “more Europe,” and it was not “back to the nation-states of 1914.” It was a recutting—a deliberate sorting of the continent into political spaces that can actually function, each organized around two hard criteria: a currency that is genuinely sound and a society genuinely attractive to the talent it needs. His model for both was not an abstraction. It was a sort of Switzerland. Consider what Heinsohn admired in it. Its central bank does not monetize the debt of badly run governments; it will not take their paper as collateral and will not buy it—which is exactly why a country of fewer than nine million can hold a reserve-grade currency. Sound money, enforced by the refusal to bail anyone out. Its cantons do not subsidize one another into permanent dependency; there is no grand equalization scheme shuffling money from the competent to the connected. Instead, the cantons compete—for innovative firms, for capable workers, for investment—and grow their revenue by winning that competition rather than by lobbying for a larger share of someone else’s. Tax competition, fiscal discipline, and federalism as a sport rather than a shakedown. And immigration authority sits at the local level: it is the communes, not a distant central ministry, that decide who settles where—which is why the children of Swiss immigrants tend to perform like Swiss children rather than like a permanent underclass parked wherever a bureaucrat finds room. The list of features is easy to state: sound money, decentralized authority, local control over who settles where, tax competition in place of redistribution, and a central government that coordinates only the few things that genuinely must be coordinated and leaves the rest to the level closest to the decision. The European word for this is subsidiarity . Heinsohn’s quiet provocation was to note where it actually survives—not in the European Union, but in the small, stubborn confederation that the Union spent two decades trying to fine, pressure, and squeeze into compliance. Heinsohn then took the principle to its conclusion and asked what Europe would look like if it were organized by those criteria rather than by inherited borders. The criteria themselves are the point, and they are worth stating plainly, because they describe a direction rather than a destination: A viable space, in his account, is one that can secure its own sound currency without monetizing anyone’s debt; one attractive enough to draw and keep the talent it needs rather than merely the dependents it acquires; one governed closely enough to its people that consent is real and not merely assumed; and one freed from open-ended liability for the failures of others. Spaces that can meet those tests cohere on their own. Spaces that cannot have to be held together by transfers and decree—which is the very condition that Europe is now exhausting itself trying to maintain.",
       "keywords": [
-        "surveillance-state news",
-        "starmer",
-        "vows",
-        "social",
-        "media",
-        "meeting",
-        "bereaved",
-        "parents"
+        "global-power news",
+        "europe",
+        "european",
+        "heinsohn",
+        "people",
+        "rather",
+        "because",
+        "brussels"
       ],
       "hashtags": [
-        "#surveillance-statenews",
-        "#starmer",
-        "#vows",
-        "#social",
-        "#media",
-        "#meeting",
-        "#bereaved",
-        "#parents"
+        "#global-powernews",
+        "#europe",
+        "#european",
+        "#heinsohn",
+        "#people",
+        "#rather",
+        "#because",
+        "#brussels"
       ],
-      "slug": "2026-06-07-starmer-vows-to-act-on-social-media-after-meeting-bereaved-parents",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1txv63e/starmer_vows_to_act_on_social_media_after_meeting/",
-      "generatedAt": "2026-06-07T09:01:49.948Z",
-      "relatedArticles": [
-        {
-          "title": "DeFlock - An open-source project mapping license plate readers.",
-          "slug": "2026-06-07-deflock-an-open-source-project-mapping-license-plate-readers",
-          "category": "Surveillance State"
-        }
-      ]
+      "slug": "2026-06-07-europe-20-beyond-brussels-the-end-of-the-european-union-as-we-know-it",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/europe-20-beyond-brussels-end-european-union-we-know-it",
+      "generatedAt": "2026-06-07T15:01:48.905Z",
+      "relatedArticles": []
     },
     {
-      "title": "DeFlock - An open-source project mapping license plate readers.",
-      "url": "https://www.reddit.com/r/privacy/comments/1twzk2c/deflock_an_opensource_project_mapping_license/",
-      "description": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
-      "pubDate": "2026-06-04T20:29:12.000Z",
-      "source": "r/privacy",
-      "redditScore": 0,
-      "category": "Surveillance State",
-      "score": 6,
+      "title": "Why Trump Changed His Mind on Ukraine",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSThUdWFEVmU2TV9MRTZocGZoM0RjdGFuTElYQk1LbHA3ME83R1dkaGNURkNvcFl2V1ZxaUFKdDloc2c0dFppbHZxSFhXNFhDamU2NTBRdTlkQ3hUS2w1cTVpLWtxSVZ0d2V0TTJHdGl0YlJscmVEVlVSWi1BZ3Fwd0VoQWRZRy1wVmN2bnhKdC1JQ1loaURnMGdB?oc=5",
+      "description": "Why Trump Changed His Mind on Ukraine The Atlantic",
+      "pubDate": "2025-09-23T07:00:00.000Z",
+      "source": "Google News (Global Power)",
+      "category": "Conflict & Wars",
+      "score": 4,
       "sources": [
-        "r/privacy"
+        "Google News (Global Power)",
+        "r/worldnews"
       ],
-      "content": "&#32; submitted by &#32; <a &#32; <span><a href=\"",
+      "content": "Why Trump Changed His Mind on Ukraine The Atlantic",
       "keywords": [
-        "surveillance-state news",
-        "deflock",
-        "open",
-        "source",
-        "project",
-        "mapping",
-        "license",
-        "plate"
+        "conflict-&-wars news",
+        "trump",
+        "changed",
+        "mind",
+        "ukraine",
+        "atlantic"
       ],
       "hashtags": [
-        "#surveillance-statenews",
-        "#deflock",
-        "#open",
-        "#source",
-        "#project",
-        "#mapping",
-        "#license",
-        "#plate"
+        "#conflict-&-warsnews",
+        "#trump",
+        "#changed",
+        "#mind",
+        "#ukraine",
+        "#atlantic"
       ],
-      "slug": "2026-06-07-deflock-an-open-source-project-mapping-license-plate-readers",
-      "sourceUrl": "https://www.reddit.com/r/privacy/comments/1twzk2c/deflock_an_opensource_project_mapping_license/",
-      "generatedAt": "2026-06-07T09:01:51.081Z",
+      "slug": "2026-06-07-why-trump-changed-his-mind-on-ukraine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSThUdWFEVmU2TV9MRTZocGZoM0RjdGFuTElYQk1LbHA3ME83R1dkaGNURkNvcFl2V1ZxaUFKdDloc2c0dFppbHZxSFhXNFhDamU2NTBRdTlkQ3hUS2w1cTVpLWtxSVZ0d2V0TTJHdGl0YlJscmVEVlVSWi1BZ3Fwd0VoQWRZRy1wVmN2bnhKdC1JQ1loaURnMGdB?oc=5",
+      "generatedAt": "2026-06-07T15:01:50.253Z",
+      "relatedArticles": []
+    },
+    {
+      "title": "The crypto market crash on June 2nd triggered nearly $1.8B in liquidations",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tyu560/the_crypto_market_crash_on_june_2nd_triggered/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "pubDate": "2026-06-06T22:01:38.000Z",
+      "source": "r/cryptocurrency",
+      "redditScore": 0,
+      "category": "Money & Markets",
+      "score": 7,
+      "sources": [
+        "r/cryptocurrency",
+        "r/wallstreetbets"
+      ],
+      "content": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "keywords": [
+        "money-&-markets news",
+        "crypto",
+        "market",
+        "crash",
+        "june",
+        "triggered",
+        "nearly",
+        "liquidations"
+      ],
+      "hashtags": [
+        "#money-&-marketsnews",
+        "#crypto",
+        "#market",
+        "#crash",
+        "#june",
+        "#triggered",
+        "#nearly",
+        "#liquidations"
+      ],
+      "slug": "2026-06-07-the-crypto-market-crash-on-june-2nd-triggered-nearly-18b-in-liquidations",
+      "sourceUrl": "https://www.reddit.com/r/CryptoCurrency/comments/1tyu560/the_crypto_market_crash_on_june_2nd_triggered/",
+      "generatedAt": "2026-06-07T15:01:51.991Z",
       "relatedArticles": [
         {
-          "title": "Starmer vows to act on social media after meeting bereaved parents",
-          "slug": "2026-06-07-starmer-vows-to-act-on-social-media-after-meeting-bereaved-parents",
-          "category": "Surveillance State"
+          "title": "Short-Term Bitcoin Holders Are Realizing Their Largest Losses On Record; Most Oversold Since 2018 Collapse",
+          "slug": "2026-06-07-short-term-bitcoin-holders-are-realizing-their-largest-losses-on-record-most-ove",
+          "category": "Money & Markets"
         }
       ]
     }
