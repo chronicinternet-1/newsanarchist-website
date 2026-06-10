@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 10 Jun 2026 03:29:29 GMT</lastBuildDate>
-    <pubDate>Wed, 10 Jun 2026 03:29:29 GMT</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 05:00:42 GMT</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 05:00:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>The Declassification Illusion: Why Pentagon's 162 "Released" UFO Files Remain Hidden</title>
+      <link>https://newsanarchist.com/articles/2026-06-10-the-declassification-illusion-why-pentagon-s-162-released-ufo-files-remain-hidde</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-the-declassification-illusion-why-pentagon-s-162-released-ufo-files-remain-hidde</guid>
+      <pubDate>Wed, 10 Jun 2026 03:30:50 GMT</pubDate>
+      <description>The Pentagon released 162 declassified UAP documents without search functions or metadata. Investigation reveals a systematic pattern of controlled transparency designed to appear responsive while blocking public access.</description>
+      <content:encoded><![CDATA[The Pentagon released 162 declassified UAP documents without search functions or metadata. Investigation reveals a systematic pattern of controlled transparency designed to appear responsive while blocking public access.]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-the-declassification-illusion-why-pentagon-s-162-released-ufo-files-remain-hidde.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Bitcoin Perps' Algorithmic '0.01%' Scythe: How The Funding-Rate Mechanism Explains Your "Mystery" Liquidations</title>
       <link>https://newsanarchist.com/articles/2026-06-10-bitcoin-perps-algorithmic-001-scythe-how-the-funding-rate-mechanism-explains-you</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Saylor's Strategy Buys The Dip As Bitcoin Nears Mining Cost Floor</title>
-      <link>https://newsanarchist.com/articles/2026-06-08-saylors-strategy-buys-the-dip-as-bitcoin-nears-mining-cost-floor</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-08-saylors-strategy-buys-the-dip-as-bitcoin-nears-mining-cost-floor</guid>
-      <pubDate>Mon, 08 Jun 2026 15:05:00 GMT</pubDate>
-      <description>&lt;span &gt;Saylor's Strategy Buys The Dip As Bitcoin Nears Mining Cost Floor&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;a filing&lt;/a&gt; with the SEC on Monday.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Strategy now holds a total of 845,256 BTC&lt;/strong&gt; - worth around $53.5 billion - bought at an &lt;strong&gt;average price of $75,680&lt;/strong&gt; per bitcoin for a total cost of around $64 billion, including fees and expenses, according to the company's co-founder and executive chairman, &lt;a " data-image- data-link- file" data-entity- data-responsive-image- " /&gt;&lt;/pi</description>
-      <content:encoded><![CDATA[<span >Saylor's Strategy Buys The Dip As Bitcoin Nears Mining Cost Floor</span> <div ><p><a filing</a> with the SEC on Monday.</p> <p><strong>Strategy now holds a total of 845,256 BTC</strong> - worth around $53.5 billion - bought at an <strong>average price of $75,680</strong> per bitcoin for a total cost of around $64 billion, including fees and expenses, according to the company's co-founder and executive chairman, <a " data-image- data-link- file" data-entity- data-responsive-image- " /></pi]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-08-saylors-strategy-buys-the-dip-as-bitcoin-nears-mining-cost-floor.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
