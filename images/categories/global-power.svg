@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="400" fill="#0a0a0f"/>
+<rect x="0" y="0" width="6" height="400" fill="#7C3AED"/>
+<rect x="0" y="348" width="1200" height="1" fill="#0f0f1a"/>
+
+<ellipse cx="950" cy="200" rx="170" ry="170" fill="none" stroke="#7C3AED" stroke-width="0.5" opacity="0.18"/>
+<ellipse cx="950" cy="200" rx="170" ry="65" fill="none" stroke="#7C3AED" stroke-width="0.5" opacity="0.18"/>
+<ellipse cx="950" cy="200" rx="170" ry="110" fill="none" stroke="#7C3AED" stroke-width="0.5" opacity="0.12"/>
+<line x1="780" y1="200" x2="1120" y2="200" stroke="#7C3AED" stroke-width="0.5" opacity="0.2"/>
+<line x1="950" y1="30" x2="950" y2="370" stroke="#7C3AED" stroke-width="0.5" opacity="0.2"/>
+
+<text x="60" y="195" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-2">GLOBAL</text>
+<text x="60" y="270" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="68" font-weight="700" fill="#7C3AED" letter-spacing="-2">POWER</text>
+<text x="60" y="375" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="16" fill="#0f0f1a" letter-spacing="4">NEWSANARCHIST.COM</text>
+</svg>

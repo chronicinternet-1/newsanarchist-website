@@ -1031,11 +1031,8 @@ function buildArticleHTML(topic) {
   const kw = keywords || [];
   const catSlug = CATEGORY_SLUGS[category] || 'government-secrets';
   const author = getAuthor(category);
-  const hasImage = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
-  const ogImage = hasImage ? `${SITE_URL}/images/articles/${slug}.webp` : `${SITE_URL}/images/og-default.webp`;
-  const heroImageStyle = hasImage
-    ? `background-image:url(/images/articles/${slug}.webp);background-size:cover;background-position:center;`
-    : 'background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);';
+  const ogImage = `${SITE_URL}/images/categories/${catSlug}.svg`;
+  const heroImageStyle = `background-image:url(/images/categories/${catSlug}.svg);background-size:cover;background-position:center;`;
 
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
     const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
@@ -1217,7 +1214,7 @@ ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.na
 </div>
 <div class="art-meta">${dateDisplay}<br>${readTime}</div>
 </div>
-${heroImageStyle ? `<img src="/images/articles/${slug}.webp" alt="${title.replace(/"/g,"'")}" class="art-img" onerror="this.style.display='none'" loading="eager">` : ''}
+'<img src="/images/categories/' + catSlug + '.svg" alt="' + title.replace(/"/g,"'") + '" class="art-img" loading="eager">'
 <div id="ezoic-pub-ad-placeholder-101"></div>
 <script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
@@ -2792,10 +2789,7 @@ function rebuildIndexHTML(allArticles) {
   );
   if (!articles.length) return;
 
-  const articlesWithImages = articles.filter(a => {
-    const imgPath = path.join(SITE_DIR, 'images/articles', (a.filename || '').replace('.html', '.webp'));
-    return fs.existsSync(imgPath);
-  });
+  const articlesWithImages = articles;
 
   function au(a) { return a.author || 'NewsAnarchist Desk'; }
   function asl(a) { return a.authorSlug || ''; }
@@ -2804,7 +2798,18 @@ function rebuildIndexHTML(allArticles) {
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
   function sg(a) { return (a.filename || '').replace('.html', ''); }
-  function hi(a) { return fs.existsSync(path.join(SITE_DIR, 'images/articles', sg(a) + '.webp')); }
+  function hi(a) { return true; }
+  function cs(a) {
+    const m = {
+      'Surveillance State':'surveillance-state','Corporate Watchdog':'corporate-watchdog',
+      'Government Secrets':'government-secrets','Tech & Privacy':'tech-privacy',
+      'Global Power':'global-power','Money & Markets':'money-markets',
+      'Unexplained':'unexplained','True Crime':'true-crime',
+      'Financial Fraud':'financial-fraud','Conflict & Wars':'conflict-wars',
+      'Web3 & Blockchain':'web3-blockchain',
+    };
+    return m[a.category] || 'government-secrets';
+  }
   function gn(a) {
     if (a.genre) return a.genre;
     const t = (a.title || '').toLowerCase();
@@ -2816,9 +2821,7 @@ function rebuildIndexHTML(allArticles) {
   function heroMain(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = hi(a)
-      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vh-img" loading="eager">`
-      : `<div class="vh-img vh-ph"></div>`;
+    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vh-img" loading="eager">`;
     const byAuth = sl
       ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}.html" class="vh-al">${au(a)}</a>`
       : `<span>${au(a)}</span>`;
@@ -2837,25 +2840,19 @@ function rebuildIndexHTML(allArticles) {
   function heroSec(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = hi(a)
-      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vs-img" loading="eager">`
-      : `<div class="vs-img vs-ph"></div>`;
+    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vs-img" loading="eager">`;
     return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function card(a) {
     const s = sg(a);
-    const img = hi(a)
-      ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`
-      : `<div class="vc-img vc-ph"></div>`;
+    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`;
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function featCard(a) {
     const s = sg(a);
-    const img = hi(a)
-      ? `<div class="vc-img" style="background-image:url('/images/articles/${s}.webp')"></div>`
-      : `<div class="vc-img vc-ph"></div>`;
+    const img = `<div class="vc-img" style="background-image:url('/images/categories/${cs(a)}.svg')"></div>`;
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="400" fill="#080c08"/>
+<rect x="0" y="0" width="6" height="400" fill="#65A30D"/>
+<rect x="0" y="348" width="1200" height="1" fill="#0c1208"/>
+
+<line x1="700" y1="100" x2="1200" y2="100" stroke="#65A30D" stroke-width="0.5" opacity="0.14"/>
+<line x1="700" y1="200" x2="1200" y2="200" stroke="#65A30D" stroke-width="0.5" opacity="0.14"/>
+<line x1="700" y1="300" x2="1200" y2="300" stroke="#65A30D" stroke-width="0.5" opacity="0.14"/>
+<line x1="800" y1="40" x2="800" y2="360" stroke="#65A30D" stroke-width="0.5" opacity="0.12"/>
+<line x1="960" y1="40" x2="960" y2="360" stroke="#65A30D" stroke-width="0.5" opacity="0.12"/>
+<line x1="1120" y1="40" x2="1120" y2="360" stroke="#65A30D" stroke-width="0.5" opacity="0.12"/>
+<rect x="700" y="100" width="500" height="100" fill="#65A30D" opacity="0.03"/>
+<rect x="700" y="300" width="500" height="60" fill="#65A30D" opacity="0.03"/>
+
+<text x="60" y="195" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="55" font-weight="700" fill="#ffffff" letter-spacing="-2">CONFLICT</text>
+<text x="60" y="270" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="55" font-weight="700" fill="#65A30D" letter-spacing="-2">&amp; WARS</text>
+<text x="60" y="375" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="16" fill="#0c1208" letter-spacing="4">NEWSANARCHIST.COM</text>
+</svg>

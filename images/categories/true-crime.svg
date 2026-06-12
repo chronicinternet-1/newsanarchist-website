@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="400" fill="#0f0808"/>
+<rect x="0" y="0" width="6" height="400" fill="#DC2626"/>
+<rect x="0" y="348" width="1200" height="1" fill="#180f0f"/>
+
+<line x1="700" y1="60" x2="1180" y2="60" stroke="#DC2626" stroke-width="0.5" opacity="0.12"/>
+<line x1="700" y1="100" x2="1180" y2="100" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<line x1="700" y1="140" x2="1180" y2="140" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<line x1="700" y1="180" x2="1180" y2="180" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<line x1="700" y1="220" x2="1180" y2="220" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<line x1="700" y1="260" x2="1180" y2="260" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<line x1="700" y1="300" x2="1180" y2="300" stroke="#DC2626" stroke-width="0.5" opacity="0.1"/>
+<rect x="720" y="64" width="260" height="32" fill="#180808"/>
+<rect x="720" y="104" width="190" height="32" fill="#180808"/>
+<rect x="720" y="144" width="220" height="32" fill="#180808"/>
+<rect x="720" y="184" width="170" height="32" fill="#DC2626" opacity="0.18"/>
+
+<text x="60" y="195" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-2">TRUE</text>
+<text x="60" y="270" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="68" font-weight="700" fill="#DC2626" letter-spacing="-2">CRIME</text>
+<text x="60" y="375" font-family="-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif" font-size="16" fill="#180f0f" letter-spacing="4">NEWSANARCHIST.COM</text>
+</svg>
