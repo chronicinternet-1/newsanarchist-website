@@ -28,8 +28,13 @@ const DRY          = process.argv.includes('--dry');
 
 // Load API key
 const creds = fs.readFileSync(CREDS_PATH, 'utf-8');
-const ANTHROPIC_KEY = creds.match(/^ANTHROPIC_API_KEY=(.+)$/m)?.[1]?.trim();
-if (!ANTHROPIC_KEY) { console.error('ANTHROPIC_API_KEY not found'); process.exit(1); }
+const BRAVE_KEY   = creds.match(/^BRAVE_SEARCH_API_KEY=(.+)$/m)?.[1]?.trim();
+const CF_ACCT     = creds.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
+const CF_KEY      = creds.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || creds.match(/^CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
+const CF_EMAIL    = creds.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
+const CF_AI_URL   = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCT}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`;
+if (!BRAVE_KEY)   { console.error('BRAVE_SEARCH_API_KEY not found'); process.exit(1); }
+if (!CF_KEY)      { console.error('CLOUDFLARE_GLOBAL_API_KEY not found'); process.exit(1); }
 
 const LOG = (m) => console.log(`[${new Date().toISOString()}] ${m}`);
 
@@ -197,116 +202,88 @@ function estimateReadTime(text) {
   return Math.max(4, Math.ceil(text.split(/\s+/).length / 200)) + ' min read';
 }
 
-// ── Claude API with web search ────────────────────────────────────
+// ── Brave Search + Workers AI article pipeline ───────────────────
 async function findAndWriteArticle(author) {
   const query = author.search_queries[Math.floor(Math.random() * author.search_queries.length)];
   LOG(`${author.name} searching: "${query}"`);
 
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type':      'application/json',
-      'x-api-key':         ANTHROPIC_KEY,
-      'anthropic-version': '2023-06-01',
-    },
-    body: JSON.stringify({
-      model:      'claude-haiku-4-5-20251001',
-      max_tokens: 6000,
-      tools: [{
-        type: 'web_search_20250305',
-        name: 'web_search',
-      }],
-      system: `You are ${author.name}, ${author.credential}, writing for NewsAnarchist.com — an independent investigative news site with 128,000+ monthly pageviews and DR 75. Your beat: ${author.beat}. Your voice: ${author.voice}.
+  // Step 1: Brave Search
+  let searchContext = '';
+  try {
+    const braveRes = await fetch(
+      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=8&text_decorations=false&search_lang=en&freshness=pd`,
+      { headers: { 'Accept': 'application/json', 'X-Subscription-Token': BRAVE_KEY } }
+    );
+    const braveData = await braveRes.json();
+    const results = braveData.web?.results || [];
+    searchContext = results.slice(0, 6).map((r, i) =>
+      `[${i+1}] ${r.title}\nURL: ${r.url}\nSnippet: ${r.description || ''}\n`
+    ).join('\n');
+    if (!searchContext) throw new Error('No results');
+  } catch (e) {
+    LOG(`Brave search failed: ${e.message}`);
+    return null;
+  }
 
-You will search the web for today's most important story on your beat, then write an original 800-1,200 word article about it. The article must be genuinely newsworthy — not advice, not opinion without news, not personal stories. It must be about a real, verifiable recent event or development.
+  // Step 2: Workers AI writes the article
+  const today = new Date().toISOString().slice(0, 10);
+  const prompt = `You are ${author.name}, ${author.credential}, writing for NewsAnarchist.com — an independent investigative news site with 128,000+ monthly pageviews and DR 75. Your beat: ${author.beat}. Your voice: ${author.voice}.
 
-Return ONLY valid JSON, no preamble, no markdown fences:
-{
-  "title": "Compelling headline under 80 chars",
-  "lede": "One devastating sentence that states the core revelation",
-  "body": "800-1200 word article body in plain text paragraphs separated by double newlines. No markdown. Include specific facts, names, dollar amounts, dates. Write in your voice.",
-  "the_take": "150-200 word first-person editorial take. State your thesis. Name who wins if nothing changes.",
-  "source_url": "Primary source URL used",
-  "source_name": "Name of primary source",
-  "keywords": ["keyword1", "keyword2", "keyword3"],
-  "eic_worthy": true or false,
-  "image_prompt": "A specific, detailed image generation prompt that visually represents this exact story. Written for fal.ai flux/dev. Must be: wide landscape format, photorealistic, no text, no faces, no people. Capture the mood and subject of THIS specific story — not generic news photography. Include lighting direction, color palette, and specific visual elements that match the story's content and the author's visual identity."
-}`,
-      messages: [{
-        role: 'user',
-        content: `Search for today's most important story about: ${query}\n\nBeat: ${author.beat}\nToday's date: ${new Date().toISOString().slice(0, 10)}\n\nFind a real, recent, verifiable story. Then write the full article as described.`,
-      }],
-    }),
-  });
+Today is ${today}. Based on the search results below, identify the most important, newsworthy story on your beat and write an original 800-1,200 word investigative article about it.
 
-  if (!response.ok) throw new Error(`Claude API error: ${response.status}`);
-  const data = await response.json();
+SEARCH RESULTS:
+${searchContext}
 
-  // Extract text from response (may include tool use blocks)
-  const textBlocks = data.content.filter(b => b.type === 'text');
-  const raw = textBlocks.map(b => b.text).join('');
+Requirements:
+- Must be about a real, verifiable recent event from the search results
+- Include specific facts, names, dollar amounts, dates from the results
+- Write in your distinctive voice
+- 800-1,200 words in the body
+
+Return ONLY valid JSON, no markdown fences, no preamble:
+{"title":"Compelling headline under 80 chars","lede":"One devastating sentence stating the core revelation","body":"800-1200 word article in plain text paragraphs separated by double newlines. No markdown.","the_take":"150-200 word first-person editorial take. State your thesis. Name who wins if nothing changes.","source_url":"Primary source URL from results","source_name":"Name of primary source","keywords":["keyword1","keyword2","keyword3"],"eic_worthy":true}`;
 
   try {
-    const cleaned = raw.replace(/```json|```/g, '').trim();
-    // Find JSON — from first { to last }
-    const start = cleaned.indexOf('{');
-    const end   = cleaned.lastIndexOf('}');
-    if (start === -1 || end === -1) throw new Error('No JSON object found');
-    const jsonStr = cleaned.slice(start, end + 1);
-    return JSON.parse(jsonStr);
+    const aiRes = await fetch(CF_AI_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
+      body: JSON.stringify({
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 4000,
+      }),
+    });
+    const aiData = await aiRes.json();
+    const raw = (aiData.result?.response || '').trim();
+    const start = raw.indexOf('{');
+    const end   = raw.lastIndexOf('}');
+    if (start === -1 || end === -1) throw new Error('No JSON found');
+    return JSON.parse(raw.slice(start, end + 1));
   } catch (e) {
-    LOG(`JSON parse error: ${e.message}`);
-    LOG(`Raw response: ${raw.slice(0, 300)}`);
+    LOG(`Article generation failed: ${e.message}`);
     return null;
   }
 }
 
-// ── EIC post-publish review ───────────────────────────────────────
+// ── EIC post-publish review — Workers AI ─────────────────────────
 async function eicReview(article, author) {
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type':      'application/json',
-      'x-api-key':         ANTHROPIC_KEY,
-      'anthropic-version': '2023-06-01',
-    },
-    body: JSON.stringify({
-      model:      'claude-haiku-4-5-20251001',
-      max_tokens: 500,
-      system:     `You are the Editor-in-Chief of NewsAnarchist.com — an independent investigative news site. Today's date is ${new Date().toISOString().slice(0,10)}. Review this article. Return ONLY valid JSON: {"approve": true/false, "reason": "one sentence"}
-
-APPROVE if the article:
-- Covers a real, recent news event or development
-- Is on-beat for this author
-- Has at least one specific fact (name, date, amount, institution)
-- Cites a real source (government, court, news outlet, official statement)
-
-REJECT only if the article:
-- Is clearly fabricated with no real-world basis
-- Is pure advice/opinion with zero news hook
-- Is completely off-beat (e.g. lifestyle article from a surveillance reporter)
-- Has no sources at all
-
-Do NOT reject because sources are classified, because claims are disputed, or because you cannot personally verify government statements. Investigative journalism reports on what sources say — verification is the reader's responsibility.`,
-      messages: [{
-        role: 'user',
-        content: `Author: ${author.name} (${author.beat})
-Title: ${article.title}
-Lede: ${article.lede || ''}
-Source: ${article.source_name || ''} — ${article.source_url || ''}
-Body (first 800 chars): ${(article.body || '').slice(0, 800)}
-EIC worthy flag: ${article.eic_worthy}`,
-      }],
-    }),
-  });
-
-  if (!response.ok) return { approve: true, reason: 'EIC check failed — defaulting to approve' };
-  const data = await response.json();
-  const raw = data.content?.[0]?.text ?? '{}';
   try {
+    const today = new Date().toISOString().slice(0,10);
+    const aiRes = await fetch(CF_AI_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
+      body: JSON.stringify({
+        messages: [
+          { role: 'system', content: `You are the Editor-in-Chief of NewsAnarchist.com. Today is ${today}. Review articles and return ONLY valid JSON: {"approve":true/false,"reason":"one sentence"}. APPROVE if: covers a real recent news event, is on-beat, has at least one specific fact, cites a real source. REJECT only if: clearly fabricated, pure opinion with zero news hook, completely off-beat, or has no sources at all. Do NOT reject for unverifiable government claims or disputed sources.` },
+          { role: 'user', content: `Author: ${author.name} (${author.beat})\nTitle: ${article.title}\nLede: ${article.lede || ''}\nSource: ${article.source_name || ''} — ${article.source_url || ''}\nBody (first 600 chars): ${(article.body || '').slice(0, 600)}\nEIC worthy flag: ${article.eic_worthy}` },
+        ],
+        max_tokens: 100,
+      }),
+    });
+    const aiData = await aiRes.json();
+    const raw = (aiData.result?.response || '{}').trim();
     return JSON.parse(raw.replace(/```json|```/g, '').trim());
-  } catch {
-    return { approve: true, reason: 'EIC parse error — defaulting to approve' };
+  } catch(e) {
+    return { approve: true, reason: `EIC check failed (${e.message}) — defaulting to approve` };
   }
 }
 
