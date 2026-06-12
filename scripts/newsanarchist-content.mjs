@@ -284,6 +284,23 @@ const CONTRARIAN_BOOST_KEYWORDS = [
   'bitcoin', 'crypto', 'whale', 'exploit', 'hack', 'liquidation', 'defi', 'sec filing', 'etf',
 ];
 
+async function samanthaClassify(title, description) {
+  try {
+    const res = await fetch('https://na-samantha-voss.steve-5cb.workers.dev/classify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ title, description }),
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const { category } = await res.json();
+    return category || null;
+  } catch (e) {
+    console.warn(`  [Samantha] classify failed: ${e.message} — falling back to keyword detection`);
+    return detectCategory(title, description);
+  }
+}
+
 function detectCategory(title, description) {
   const text = (title + ' ' + (description || '')).toLowerCase();
   const scores = {};
@@ -2106,10 +2123,7 @@ async function runScrape() {
   for (const topic of allTopics) {
     // If from a trusted feed with a pre-set category, keep it
     if (topic.category && TRUSTED_CATEGORY_SOURCES.has(topic.source)) continue;
-    const detected = detectCategory(topic.title, topic.description);
-    // If keyword scoring found a match, use it; otherwise use regex remapper
-    // This bakes the correct category into the article at generation time
-    topic.category = detected || remapArticleCategory(topic);
+    topic.category = await samanthaClassify(topic.title, topic.description) || remapArticleCategory(topic);
   }
 
   // Deduplicate and rank by obscurity score
@@ -2216,7 +2230,7 @@ async function runDryRun() {
 
   // Categorize
   for (const topic of allTopics) {
-    topic.category = detectCategory(topic.title, topic.description);
+    topic.category = await samanthaClassify(topic.title, topic.description) || 'government-secrets';
   }
 
   // Rank and filter
@@ -2378,7 +2392,7 @@ async function runGenerate() {
       const imgPath = path.join(imgDir, topic.slug + '.webp');
       const imgPathPng = path.join(imgDir, topic.slug + '.png');
       if (!fs.existsSync(imgPath)) {
-        generateArticleImage(topic, imgPath);
+        await generateArticleImage(topic, imgPath);
         // fal.ai ignores --output-format webp and saves PNG — convert after
         if (!fs.existsSync(imgPath) && fs.existsSync(imgPathPng)) {
           try {
