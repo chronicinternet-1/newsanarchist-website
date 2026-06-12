@@ -2386,26 +2386,7 @@ async function runGenerate() {
   for (const topic of topics) {
     try {
 
-      // Generate article image (category + title specific)
-      const imgDir = path.join(SITE_DIR, 'images', 'articles');
-      if (!fs.existsSync(imgDir)) fs.mkdirSync(imgDir, { recursive: true });
-      const imgPath = path.join(imgDir, topic.slug + '.webp');
-      const imgPathPng = path.join(imgDir, topic.slug + '.png');
-      if (!fs.existsSync(imgPath)) {
-        await generateArticleImage(topic, imgPath);
-        // fal.ai ignores --output-format webp and saves PNG — convert after
-        if (!fs.existsSync(imgPath) && fs.existsSync(imgPathPng)) {
-          try {
-            const { execSync: ex } = await import('child_process');
-            ex(`python3 -c "from PIL import Image; img=Image.open('${imgPathPng}'); img.save('${imgPath}','webp',quality=82)"`, { timeout: 30000 });
-            fs.unlinkSync(imgPathPng);
-            console.log('  ↳ Converted PNG→WebP');
-          } catch(ce) {
-            // If conversion fails, rename PNG to webp path
-            try { fs.renameSync(imgPathPng, imgPath); } catch {}
-          }
-        }
-      }
+      // Images: category illustrations used instead of per-article AI generation
 
       console.log(`  ✍️  Writing article: ${topic.title.slice(0, 65)}...`);
       const aiBody = await generateAIArticle(topic);
