@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-12T03:04:40.637Z",
+  "scrapedAt": "2026-06-12T09:04:39.024Z",
   "topicsCount": 40,
   "topics": [
     {
@@ -36,8 +36,59 @@
       ],
       "slug": "2026-06-12-australian-financial-watchdogs-back-new-powers-to-curb-money-laundering-via-cryp",
       "sourceUrl": "https://www.zerohedge.com/crypto/australian-financial-watchdogs-back-new-powers-curb-money-laundering-crypto",
-      "generatedAt": "2026-06-12T03:03:31.203Z",
-      "relatedArticles": []
+      "generatedAt": "2026-06-12T09:03:30.785Z",
+      "relatedArticles": [
+        {
+          "title": "An Overpass QL interpreter using the QLever database",
+          "slug": "2026-06-12-an-overpass-ql-interpreter-using-the-qlever-database",
+          "category": "web3-blockchain"
+        }
+      ]
+    },
+    {
+      "title": "An Overpass QL interpreter using the QLever database",
+      "url": "https://www.openstreetmap.org/user/Kai%20Johnson/diary/408849",
+      "description": "",
+      "pubDate": "2026-06-12T08:50:00.000Z",
+      "source": "Hacker News",
+      "hnScore": 1,
+      "hnComments": 0,
+      "category": "web3-blockchain",
+      "score": 5,
+      "sources": [
+        "Hacker News"
+      ],
+      "content": "I’ve been working recently on a personal project to investigate how much of the Overpass query language could be implemented using a different back end database, namely the QLever database. Overpass is the most widely used public interface for querying OSM data. It is relatively easy to use and understand and its outputs in GeoJSON or OSM XML are readily integrated into OSM or other geospatial tool chains for visualization or other processing. But Overpass is somewhat of a victim of its success. Demand for the public Overpass service has recently outpaced server capacity. My earlier work on a container image for Overpass was intended to help scale capacity by making it easier for data consumers to run their own local Overpass servers. This project looks in a different direction. What if the Overpass QL with its ease of use and its integration into other tools were available on top of a different data source? QLever is a SPARQL database developed by the Chair for Algorithms and Data Structures at the University of Freiburg . SPARQL is an RDF query language where the data are represented as “triples” of a subject, predicate, and object. QLever represents geospatial data as WKT and can perform geospatial operations on WKT. The osm2rdf conversion generates WKT data for every OSM element. So, the data in QLever stores the complete geometry from OSM. But the key to QLever’s performance with OSM data is that in the conversion from OSM PBF to TTL (Terse RDF Triple Language) , osm2rdf generates triples for every element to describe their spatial relations with other elements. That is, osm2rdf pre-computes the spatial relations sfIntersects, sfContains, sfCovers, sfTouches, sfCrosses, sfOverlaps, and sfEquals between all OSM elements. QLever excels at querying RDF triples. And the precomputed spatial relations for imported OSM data make many types of queries blindingly fast in QLever. Want to find all the features within a closed way or relation? That answer is one lookup away in QLever. The imported RDF triples for OSM data also contain all the structural relations between elements. Want to recurse down to find all the ways and nodes that are direct or indirect members of a relation? Just follow the path through the triples. Traversing upward to find all the parent elements that refer to a node or a way just reverses that path. That upward path to find parents is something that Overpass struggles with. Overpass has the original structural relationships: a way has member nodes, a relation has member relations, ways, or nodes. But it does not maintain the reverse relationships. To find the parents of a node, for example, Overpass must do a full scan of elements in the same spatial bin to search for references to the node. On the other hand, QLever does not have a direct geospatial index for OSM data. Finding OSM elements by spatial properties such as intersection with or containment in other elements is trivial in QLever. But finding OSM elements within a bounding box or other arbitrary region requires a full scan over all the elements’ geometry. QLever also does not store the version history of OSM elements as Overpass can. This notable gap is discussed in more detail below. Overpass treats all scalar data types as strings, unless they are used in a numeric context and they “look” like numbers, in which case they are treated as numbers. Unlike the dynamic typing in Overpass, SPARQL has strict data typing for scalars with explicit type conversions required in many instances. In addition, the Overpass query language is imperative. Each statement specifies an operation to be performed and changes the state of the result sets. In contrast, SPARQL is a declarative language. Each statement describes constraints on the result set. One of the challenges of this project was to explore how the one language could be mapped to the other. The main references for the Overpass query language are the Overpass QL language reference and Overpass language guide on the OpenStreetMap Wiki. These two references are somewhat informal and sometimes don’t explain all the details of the query language or its grammar. This project started with detailed research into Overpass QL using a local v0.7.62.11 Overpass server and the latest source code. The result of that research is a formal W3C EBNF grammar for Overpass QL . The research into the Overpass QL grammar also looked into the Overpass XML query format and found that this is a direct transformation of the internal AST within the Overpass implementation. Because of the direct relationship between the Overpass XML query format and the internal Overpass implementation, several aspects of the Overpass XML query format could not be expressed using a standard XSD notation. The fact that an XSD schema is unreachable and the discovery that the Overpass XML query format directly exposes Overpass implementation details made it unsuitable for the Qloverleaf project. The proof-of-concept project was developed in Python. One of the goals of the Qloverleaf proof-of-concept was to reproduce the Overpass API as faithfully as possible. Overpass implements a CGI application which is typically exposed via an Apache or Nginx web server. The POC project uses Uvicorn and Starlette to directly implement an HTTP endpoint. Qloverleaf’s inputs and outputs are directly compatible with Overpass – it works as a drop in replacement for an Overpass server.",
+      "keywords": [
+        "web3-blockchain news",
+        "overpass",
+        "data",
+        "qlever",
+        "language",
+        "elements",
+        "query",
+        "other"
+      ],
+      "hashtags": [
+        "#web3-blockchainnews",
+        "#overpass",
+        "#data",
+        "#qlever",
+        "#language",
+        "#elements",
+        "#query",
+        "#other"
+      ],
+      "slug": "2026-06-12-an-overpass-ql-interpreter-using-the-qlever-database",
+      "sourceUrl": "https://www.openstreetmap.org/user/Kai%20Johnson/diary/408849",
+      "generatedAt": "2026-06-12T09:03:33.119Z",
+      "relatedArticles": [
+        {
+          "title": "Australian Financial Watchdogs Back New Powers To Curb Money-Laundering Via Crypto",
+          "slug": "2026-06-12-australian-financial-watchdogs-back-new-powers-to-curb-money-laundering-via-cryp",
+          "category": "web3-blockchain"
+        }
+      ]
     },
     {
       "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -73,55 +124,55 @@
       ],
       "slug": "2026-06-12-americans-privacy-and-data-congress-warned-over-warrantless-surveillance",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ1ZzWnpseVNvdWJxU1FQN3IybFNzWVpucG5xaWtjTnFZUHZJXzd4Y1VVU2RGcDZZOFFzM2lvSUhPeDlINEZLMlNQRXU4MzVZNWw3eF9HaU8xMWo2V0xhdHlCRDRsUF9HMC1yOU9va1A2NnJuOVZRd0JGN3FwdDZ4SFE1c3E2SGplWU53ckgwSHZNbkNmYzVwV2w4UVhQOFRyZkU1ZXZNdUdVNG1saEx2NGxTcHpQQ3dCcGJFQWFaZzYxWVRqTlE?oc=5",
-      "generatedAt": "2026-06-12T03:03:32.457Z",
+      "generatedAt": "2026-06-12T09:03:34.928Z",
       "relatedArticles": [
-        {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
-          "category": "surveillance-state"
-        },
         {
           "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
           "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
+          "category": "surveillance-state"
+        },
+        {
+          "title": "JPM Call With Axon Reveals Race To Fortify U.S. Data Centers Against Kamikaze Drone Swarms",
+          "slug": "2026-06-12-jpm-call-with-axon-reveals-race-to-fortify-us-data-centers-against-kamikaze-dron",
           "category": "surveillance-state"
         }
       ]
     },
     {
-      "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
-      "description": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
-      "pubDate": "2021-09-07T07:00:00.000Z",
+      "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejJva0RpbnE5N1kybEI1R2gzSTFFbFVFY0c1N2F4R0Fod3V3am1uQ1lkZjFDZk9VblZybm16dGNuX1M4TDRaekwwdS1tXzBNQjhVLWRTNmhXc1hoU0xEbHd3dk9tN1lWb0ZDaDdWLWdwRkZVX2d1b0Y4Ums5NnlwVWNFSGZ5V1NjN3RkSWFFd1FMUzd3clpiZkVrQWozTEltWVdxMDI3ZGpIWExEZlJvU0hSaXFKTktkUDhFWWNsR1FhM2UzVW95SUhscVhWTmdZVDBzT2Y2clk?oc=5",
+      "description": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance TechCrunch",
+      "pubDate": "2026-04-21T07:00:00.000Z",
       "source": "Google News (Surveillance State)",
       "category": "surveillance-state",
-      "score": 9,
+      "score": 7,
       "sources": [
         "Google News (Surveillance State)"
       ],
-      "content": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward American Civil Liberties Union",
+      "content": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance TechCrunch",
       "keywords": [
         "surveillance-state news",
-        "privacy",
-        "lesson",
-        "mass",
-        "surveillance",
-        "forward",
-        "american",
-        "civil"
+        "laws",
+        "expire",
+        "lawmakers",
+        "split",
+        "protecting",
+        "americans",
+        "warrantless"
       ],
       "hashtags": [
         "#surveillance-statenews",
-        "#privacy",
-        "#lesson",
-        "#mass",
-        "#surveillance",
-        "#forward",
-        "#american",
-        "#civil"
+        "#laws",
+        "#expire",
+        "#lawmakers",
+        "#split",
+        "#protecting",
+        "#americans",
+        "#warrantless"
       ],
-      "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlRdW5WOXl3ZDlEeEFvQThJc3BEc3RoNkk2aXYwbWdvSjFMdXBBalZEUFlpX3hiRWVtc0RCR2F0SUh1WnRMUzhQZVgtT2JHdFNyRC1ybGhCS1F5eExtaFIyX2VmNFd2cnFRREdIOTBjVk9OX0NKcnd1R1ZTQjQwRFZFbGJ1UUZxbDM1NURZNGhqaVd2QzJfNS1sWm14TUVhcjdjVnhZYnJ1bzlMcFV3bQ?oc=5",
-      "generatedAt": "2026-06-12T03:03:34.010Z",
+      "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejJva0RpbnE5N1kybEI1R2gzSTFFbFVFY0c1N2F4R0Fod3V3am1uQ1lkZjFDZk9VblZybm16dGNuX1M4TDRaekwwdS1tXzBNQjhVLWRTNmhXc1hoU0xEbHd3dk9tN1lWb0ZDaDdWLWdwRkZVX2d1b0Y4Ums5NnlwVWNFSGZ5V1NjN3RkSWFFd1FMUzd3clpiZkVrQWozTEltWVdxMDI3ZGpIWExEZlJvU0hSaXFKTktkUDhFWWNsR1FhM2UzVW95SUhscVhWTmdZVDBzT2Y2clk?oc=5",
+      "generatedAt": "2026-06-12T09:03:36.119Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -129,8 +180,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
-          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
+          "title": "JPM Call With Axon Reveals Race To Fortify U.S. Data Centers Against Kamikaze Drone Swarms",
+          "slug": "2026-06-12-jpm-call-with-axon-reveals-race-to-fortify-us-data-centers-against-kamikaze-dron",
           "category": "surveillance-state"
         }
       ]
@@ -169,7 +220,7 @@
       ],
       "slug": "2026-06-12-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS2RPNXVQaGptSmk5cFplYi0zeUdVbGNad0Q0Z3hoYjlwLTE3Ny1aa2s4S1lmclVZV3JYUTItSmlqTGUwampzYno5V08tLVdNQ2k2RVFEMWtGSFVLSXVMY090LVBjRHF5ZTRVYy13VVRnOXpXNXFHVWdaNU9DT0lGbHBRTVdXVmk2OXFBd3k4bEtJaGlMckRBUU40NVZZZkZ3TTNOQ1c5SzFVX2JiN0VhT1ZlS0ZjVlRLYmxpY3gwMlZSd01mYXc?oc=5",
-      "generatedAt": "2026-06-12T03:03:35.360Z",
+      "generatedAt": "2026-06-12T09:03:37.635Z",
       "relatedArticles": [
         {
           "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
@@ -217,7 +268,7 @@
       ],
       "slug": "2026-06-12-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXdKX0NpcThmTmY3NmdiSnE1eUNxVllwcFlLWndxLW1mN2k2OHU3NndEVF9KNWdxakZrVnJRRW12WnZ4YTZ2SE5XNFhDekdlajdTdVVzblBnZF93TzZ3a0JCOXZBQU5LWjNZYTdfR2p1SEQ4Tm00a2tfaFRubUZLRDEyU2d1X3oxV0tSanN3Z2l0Ympsak5rN2lFYVNBTHFteEJUc1JhdzYzWklR?oc=5",
-      "generatedAt": "2026-06-12T03:03:36.612Z",
+      "generatedAt": "2026-06-12T09:03:39.658Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -265,7 +316,7 @@
       ],
       "slug": "2026-06-12-8220if-this-is-my-final-duty-of-public-service8221-grusch-joins-new-disclosure-a",
       "sourceUrl": "https://unknowncountry.com/headline-news/if-this-is-my-final-duty-of-public-service-grusch-joins-new-disclosure-appeal/",
-      "generatedAt": "2026-06-12T03:03:39.308Z",
+      "generatedAt": "2026-06-12T09:03:42.018Z",
       "relatedArticles": [
         {
           "title": "Dean Radin on the Joe Rogan Experience",
@@ -314,7 +365,7 @@
       ],
       "slug": "2026-06-12-dean-radin-on-the-joe-rogan-experience",
       "sourceUrl": "https://noetic.org/blog/dean-radin-joe-rogan/",
-      "generatedAt": "2026-06-12T03:03:41.346Z",
+      "generatedAt": "2026-06-12T09:03:43.826Z",
       "relatedArticles": [
         {
           "title": "&#8220;If This Is My Final Duty of Public Service&#8221;: Grusch Joins New Disclosure Appeal",
@@ -362,7 +413,7 @@
       ],
       "slug": "2026-06-12-enshittification-merch-that-actually-fights-enshittification",
       "sourceUrl": "https://www.eff.org/deeplinks/2026/06/enshittification-merch-actually-fights-enshittification",
-      "generatedAt": "2026-06-12T03:03:43.100Z",
+      "generatedAt": "2026-06-12T09:03:45.216Z",
       "relatedArticles": [
         {
           "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
@@ -410,7 +461,7 @@
       ],
       "slug": "2026-06-12-microsoft-gave-fbi-keys-to-unlock-encrypted-data-exposing-major-privacy-flaw",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekJFdlptWk5vbGhhWkZ6UUtNWW16OHJuSDJtVG10UlhIaGh4OWJBZEQwTjA2Wk1iX3QxU0tFMDBqRm9odzh4SGRIM2FDQTl5MDVWTmt3Y3hPUUpuQXNBSXpEckZab1FlbmpXc0xmcUtnVExBdEE5X01rakhYempOX3ktZ3RZdlNkcG9jd19FUE53QUNRMnBVaTROVWNFNDVydFc3Q1JGYlNxMmN3VTNqNlMwWS0?oc=5",
-      "generatedAt": "2026-06-12T03:03:45.019Z",
+      "generatedAt": "2026-06-12T09:03:46.949Z",
       "relatedArticles": [
         {
           "title": "Enshittification Merch That Actually Fights Enshittification",
@@ -458,7 +509,7 @@
       ],
       "slug": "2026-06-12-antitrust-agency-insights-developments-at-the-us-antitrust-enforcement-agencies",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzZaSVZxQ3FJU2ZoOVpwa2s3cmFPUmhEUmR4cDRxWTFuS3U0SWtlVVUyeVdmU1c5VEowcjdSbF9uc05sVVpWb0gwWldsMnVyazRVWlBTSWJMdnZoNGgyb0tCS21nWjF0RmxlaU9NUGstRzFkN1ZJdl90UjNYQ3pWeUp3SUF2Zm9BWkwtSzJCb2k3cURfZXZqWjZ0N3VNWHpScWtKdWJDanIza1Y5VEhv?oc=5",
-      "generatedAt": "2026-06-12T03:03:46.765Z",
+      "generatedAt": "2026-06-12T09:03:48.570Z",
       "relatedArticles": [
         {
           "title": "Landmark antitrust trial could force Zuckerberg to sell Instagram",
@@ -501,7 +552,7 @@
       ],
       "slug": "2026-06-12-landmark-antitrust-trial-could-force-zuckerberg-to-sell-instagram",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YVExMQ1BEVUc2SUlEM0RPai1FZGs4eGxBSWJxbHY4MDBBQjhNT1VJT0tqcl9ScFBNbk1wcEFZd18zSWUxLVVLN21Obm50dG1aZVNsdlptUURQdw?oc=5",
-      "generatedAt": "2026-06-12T03:03:47.986Z",
+      "generatedAt": "2026-06-12T09:03:49.884Z",
       "relatedArticles": [
         {
           "title": "Antitrust Agency Insights: Developments at the U.S. Antitrust Enforcement Agencies — First Quarter 2025",
@@ -544,11 +595,16 @@
       ],
       "slug": "2026-06-12-polls-turn-against-netanyahu-as-trump-says-pm-may-quit-politics",
       "sourceUrl": "https://www.zerohedge.com/geopolitical/polls-turn-against-netanyahu-trump-says-pm-may-quit-politics",
-      "generatedAt": "2026-06-12T03:03:49.320Z",
+      "generatedAt": "2026-06-12T09:03:51.810Z",
       "relatedArticles": [
         {
           "title": "USA - Competition Litigation Laws and Regulations 2026",
           "slug": "2026-06-12-usa-competition-litigation-laws-and-regulations-2026",
+          "category": "global-power"
+        },
+        {
+          "title": "Why China's Population Decline Is Irreversible",
+          "slug": "2026-06-12-why-chinas-population-decline-is-irreversible",
           "category": "global-power"
         }
       ]
@@ -583,182 +639,60 @@
       ],
       "slug": "2026-06-12-usa-competition-litigation-laws-and-regulations-2026",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNmQ2ZC1Qbk52VzZYbG9DVWZrSlZpNVlrLTd6UmppbTRPbVFsb0ZWY0IzNzMxU2JmbmU1SjRIcWNJQVNkbkQtWE5qSE1RQWNqWlRVZHUxX2ptOUhaVjJqM2dwT1ZlZXVIMWFDYnZja2psZDN4SG5EZDhCZTlkeExEejl2ZTJxT0U?oc=5",
-      "generatedAt": "2026-06-12T03:03:51.022Z",
+      "generatedAt": "2026-06-12T09:03:53.265Z",
       "relatedArticles": [
         {
           "title": "Polls Turn Against Netanyahu As Trump Says PM 'May Quit Politics'",
           "slug": "2026-06-12-polls-turn-against-netanyahu-as-trump-says-pm-may-quit-politics",
           "category": "global-power"
-        }
-      ]
-    },
-    {
-      "title": "Hidden Starship Trade: The Industrial Gas Giant Fueling SpaceX's Rockets",
-      "url": "https://www.zerohedge.com/markets/hidden-starship-trade-industrial-gas-giant-fueling-spacexs-rockets",
-      "description": "<span >Hidden Starship Trade: The Industrial Gas Giant Fueling SpaceX's Rockets</span> <div ><p>Ahead of the <a Buy\" rating on Linde and raised their 12-month price target to $560 from $550, telling clients on Wednesday that the company has built a deep moat in the industrial gases business after powering America's rocket launches for the past six decades.</p> <p><a data-image-external- data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p>The team at the equ",
-      "pubDate": "Thu, 11 Jun 2026 19:20:00 +0000",
-      "source": "ZeroHedge",
-      "category": "money-markets",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Ahead of the SpaceX IPO , Rothschild & Co Redburn analyst Tony Jones published a note on space propellant economics and identified an industrial-gases giant that is well positioned to dominate the market for rocket propellants and mission-critical launch gases as SpaceX&#x27;s Starship launch cadence gains momentum and the broader space economy is set to double by 2035. Jones and his team reiterated their \"Buy\" rating on Linde and raised their 12-month price target to $560 from $550, telling clients on Wednesday that the company has built a deep moat in the industrial gases business after powering America&#x27;s rocket launches for the past six decades. The team at the equity research arm of Rothschild & Co Redburn sees SpaceX&#x27;s Starship as a \"further demand accelerator,\" with higher launch cadence and heavier propellant loads creating a new growth lever for Linde&#x27;s mission-critical gases business. Jones estimates Linde generated just under $4 million of revenue per average space launch in 2025. By 2028, that number could approach $6 million as Starship launches are set to increase dramatically, driving demand for liquid oxygen, nitrogen, helium, cryogenic services, rare gases, and capacity fees. 1. White Space. Linde has fuelled NASA for c60 years and now has capex set to ramp alongside SpaceX&#x27;s Starbase. We delve into the economics and like what we see. Space sales are c2% group but could scale rapidly, as Starlink&#x27;s ecosystem forms. 2. Starship: a further demand accelerator. The transition to Starship as a dominant vehicle could transform the opportunity, burning c10x the oxygen of a Falcon 9 launch. Linde&#x27;s revenue per launch could near $6m by 2028, from under $4m in 2025. This comes on top of potentially exponential launch cadence. 3. Project and EPS optionality. Linde&#x27;s space capex falls outside its gas backlog, lacking take-or-pay status. However, contracts seem likely and we see the backlog revised up as a clear valuation catalyst. EPS growth could accelerate (Fig 1). Linde is a rock-solid business with top-quartile management. We increase our 12-month PT to $560 per share (from $550) and reiterate our Buy recommendation. Linde&#x27;s earnings growth could accelerate if several growth levers hit at the same time... Starship dominates propellant gas usage among space vehicle types this year. \"SpaceX has indicated that the 140 to 160 launches planned for 2026 will be almost all Falcon 9 flights. Starship launches will likely be test flights only, with the major milestone to successfully reach optimal range,\" Jones noted. Linde revenue per average space launch – 2025 Linde revenue per average space launch – 2028 Musk has previously stated, \"Starship should be doing >1000 Earth orbit flights per year by 2028. That is still low compared to what&#x27;s needed to build a self-sustaining city on Mars and secure the future of consciousness.\" Professional subscribers can read more on SpaceX at our new Marketdesk.ai portal Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "money-markets news",
-        "linde",
-        "starship",
-        "space",
-        "launch",
-        "spacex",
-        "gases",
-        "industrial"
-      ],
-      "hashtags": [
-        "#money-marketsnews",
-        "#linde",
-        "#starship",
-        "#space",
-        "#launch",
-        "#spacex",
-        "#gases",
-        "#industrial"
-      ],
-      "slug": "2026-06-12-hidden-starship-trade-the-industrial-gas-giant-fueling-spacexs-rockets",
-      "sourceUrl": "https://www.zerohedge.com/markets/hidden-starship-trade-industrial-gas-giant-fueling-spacexs-rockets",
-      "generatedAt": "2026-06-12T03:03:53.031Z",
-      "relatedArticles": [
+        },
         {
-          "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
-          "slug": "2026-06-12-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
-          "category": "money-markets"
+          "title": "Why China's Population Decline Is Irreversible",
+          "slug": "2026-06-12-why-chinas-population-decline-is-irreversible",
+          "category": "global-power"
         }
       ]
     },
     {
-      "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
-      "description": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
-      "pubDate": "2026-05-23T07:00:00.000Z",
-      "source": "Google News (Money & Markets)",
-      "category": "money-markets",
+      "title": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02LXlVQ2FjZExhLWU2bnRGUThLc0wycEw5VW9QT216cjRSS3VhSFFPM1NFSjRVaXhfeGlZdFpNNzFFQTlvSTE3c053QldOZHVKelR4LUZoMkFDN01xMXpreVN6dFpuaG5wRkZDajRMVUVlektqcUZsa9IBfkFVX3lxTE9sM1FDenRhMmZCdDJVSEpta21INDN4anVnVzdPdXljd1VQdG9tRVZEY01URUpCWDFITmh4LUtXbWp2b2ZZWkwydjgtMU1fSnBWMTRJQlJaWEV6eG10dnFqS1pCWTNJWUUxeHpqT0hlcDFHVWExcmt3c213cGZUQQ?oc=5",
+      "description": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund LiveNOW from FOX",
+      "pubDate": "2025-11-21T08:00:00.000Z",
+      "source": "Google News (Corporate Watchdog)",
+      "category": "financial-fraud",
       "score": 6,
       "sources": [
-        "Google News (Money & Markets)"
+        "Google News (Corporate Watchdog)"
       ],
-      "content": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
+      "content": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund LiveNOW from FOX",
       "keywords": [
-        "money-markets news",
-        "debt",
-        "elephant",
-        "room",
-        "amid",
-        "bond",
-        "rout",
-        "interest"
+        "financial-fraud news",
+        "amazon",
+        "prime",
+        "billion",
+        "settlement",
+        "here",
+        "claim",
+        "refund"
       ],
       "hashtags": [
-        "#money-marketsnews",
-        "#debt",
-        "#elephant",
-        "#room",
-        "#amid",
-        "#bond",
-        "#rout",
-        "#interest"
+        "#financial-fraudnews",
+        "#amazon",
+        "#prime",
+        "#billion",
+        "#settlement",
+        "#here",
+        "#claim",
+        "#refund"
       ],
-      "slug": "2026-06-12-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
-      "generatedAt": "2026-06-12T03:03:55.161Z",
+      "slug": "2026-06-12-amazon-prime-25-billion-settlement-heres-how-to-claim-a-refund",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02LXlVQ2FjZExhLWU2bnRGUThLc0wycEw5VW9QT216cjRSS3VhSFFPM1NFSjRVaXhfeGlZdFpNNzFFQTlvSTE3c053QldOZHVKelR4LUZoMkFDN01xMXpreVN6dFpuaG5wRkZDajRMVUVlektqcUZsa9IBfkFVX3lxTE9sM1FDenRhMmZCdDJVSEpta21INDN4anVnVzdPdXljd1VQdG9tRVZEY01URUpCWDFITmh4LUtXbWp2b2ZZWkwydjgtMU1fSnBWMTRJQlJaWEV6eG10dnFqS1pCWTNJWUUxeHpqT0hlcDFHVWExcmt3c213cGZUQQ?oc=5",
+      "generatedAt": "2026-06-12T09:03:54.933Z",
       "relatedArticles": [
         {
-          "title": "Hidden Starship Trade: The Industrial Gas Giant Fueling SpaceX's Rockets",
-          "slug": "2026-06-12-hidden-starship-trade-the-industrial-gas-giant-fueling-spacexs-rockets",
-          "category": "money-markets"
-        }
-      ]
-    },
-    {
-      "title": "Pardoned J6er Sues Government For $18 Million Over Alleged Abuse In Pretrial Detention",
-      "url": "https://www.zerohedge.com/political/pardoned-j6er-sues-government-18-million-over-alleged-abuse-pretrial-detention",
-      "description": "<span >Pardoned J6er Sues Government For $18 Million Over Alleged Abuse In Pretrial Detention</span> <div ><p><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p>The lawsuit by Ryan Samsel of Bristol, Pennsylvania, was filed late June 9 in federal court in Virginia, six months after he <a Samsel was convicted in February 2024 of civil disorder-related offenses in connection with the Jan. 6, 2021, U.S. Capitol breach and was incarcerated and awaiting se",
-      "pubDate": "Thu, 11 Jun 2026 17:00:00 +0000",
-      "source": "ZeroHedge",
-      "category": "true-crime",
-      "score": 7,
-      "sources": [
-        "ZeroHedge"
-      ],
-      "content": "Authored by Matthew Vadum via The Epoch Times, A former Jan. 6 defendant who alleged torture and other abuse in custody is suing the federal government for almost $18 million. The lawsuit by Ryan Samsel of Bristol, Pennsylvania, was filed late June 9 in federal court in Virginia, six months after he gave the government the legally required notice he was planning to litigate. He is seeking $17,980,000 from the federal government for physical and mental injuries suffered from January 2021 through January 2025. According to the newly filed legal complaint , Samsel was convicted in February 2024 of civil disorder-related offenses in connection with the Jan. 6, 2021, U.S. Capitol breach and was incarcerated and awaiting sentencing when President Donald Trump pardoned him last year. Specifically, he was convicted on felony charges of civil disorder; assaulting, resisting, or impeding officers; and assaulting, resisting, or impeding officers using a dangerous weapon, the U.S. Department of Justice (DOJ) previously said. Samsel disputes the criminal allegations. Samsel alleges he was subjected to physical and psychological abuse while in custody at facilities operated by the DOJ and the U.S. Bureau of Prisons in the District of Columbia and Virginia. At those facilities, “he was repeatedly beaten, subject to other incidents of extraordinary physical and mental abuse and routinely denied medical care.” In addition, he was “wrongfully detained for one day after receiving a full pardon, based on false allegations of an outstanding warrant made by the prosecutor.” The DOJ also leaked false information to the media indicating that Samsel was a member of the Proud Boys, the complaint alleges. The group, some of whose members have been accused of violence, describes itself as a patriotic drinking club. The complaint says that during his incarceration, Samsel suffered orbital bone fractures and bilateral nasal bone fractures. Among his other injuries were a dislocated jaw, multiple concussions, traumatic brain injuries, an acute kidney injury, and stab wounds to his legs, ankles, and arms. He experienced severe post-traumatic stress disorder and cognitive and memory impairment “attributable to repeated head trauma and prolonged psychological torture.” He also suffered “retaliatory solitary confinement with continuous lighting, sleep deprivation, public degradation in the restraint chair, and exposure to extreme violence and unsanitary conditions at the Facilities.” Samsel’s attorney, Peter Haller, declined to comment on the freshly filed lawsuit. In a prior court filing , Haller said, “Given the severity, duration, and documented multiplicity of the abuses suffered by Mr. Samsel, he is likely to be recognized as the most tortured individual by the Federal Government in recent American history.” The Epoch Times reached out to the DOJ for comment but received no reply by publication time. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
-      "keywords": [
-        "true-crime news",
-        "samsel",
-        "government",
-        "abuse",
-        "federal",
-        "data",
-        "filed",
-        "disorder"
-      ],
-      "hashtags": [
-        "#true-crimenews",
-        "#samsel",
-        "#government",
-        "#abuse",
-        "#federal",
-        "#data",
-        "#filed",
-        "#disorder"
-      ],
-      "slug": "2026-06-12-pardoned-j6er-sues-government-for-18-million-over-alleged-abuse-in-pretrial-dete",
-      "sourceUrl": "https://www.zerohedge.com/political/pardoned-j6er-sues-government-18-million-over-alleged-abuse-pretrial-detention",
-      "generatedAt": "2026-06-12T03:03:56.513Z",
-      "relatedArticles": [
-        {
-          "title": "30-Year-Old Murder Solved",
-          "slug": "2026-06-12-30-year-old-murder-solved",
-          "category": "true-crime"
-        }
-      ]
-    },
-    {
-      "title": "30-Year-Old Murder Solved",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
-      "description": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
-      "pubDate": "2024-11-12T08:00:00.000Z",
-      "source": "Google News (True Crime)",
-      "category": "true-crime",
-      "score": 6,
-      "sources": [
-        "Google News (True Crime)"
-      ],
-      "content": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
-      "keywords": [
-        "true-crime news",
-        "year",
-        "murder",
-        "solved",
-        "federal",
-        "bureau",
-        "investigation"
-      ],
-      "hashtags": [
-        "#true-crimenews",
-        "#year",
-        "#murder",
-        "#solved",
-        "#federal",
-        "#bureau",
-        "#investigation"
-      ],
-      "slug": "2026-06-12-30-year-old-murder-solved",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
-      "generatedAt": "2026-06-12T03:03:58.248Z",
-      "relatedArticles": [
-        {
-          "title": "Pardoned J6er Sues Government For $18 Million Over Alleged Abuse In Pretrial Detention",
-          "slug": "2026-06-12-pardoned-j6er-sues-government-for-18-million-over-alleged-abuse-in-pretrial-dete",
-          "category": "true-crime"
+          "title": "Federal Agencies Coordinate Action Against Celsius for Fraud and Manipulation",
+          "slug": "2026-06-12-federal-agencies-coordinate-action-against-celsius-for-fraud-and-manipulation",
+          "category": "financial-fraud"
         }
       ]
     },
@@ -796,45 +730,269 @@
       ],
       "slug": "2026-06-12-federal-agencies-coordinate-action-against-celsius-for-fraud-and-manipulation",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSFpWVjNxQi14NzJSWld3anFzV01ieWpwRGhuc3lpTGh1NEhoZTZxM0xXbVFfVXV2X20wYnVINml5bkw0dlFtUGNhM2tieDFqUEdRX05pN0o1MFFaUkFoOWtod1NJa08wVVJXNk03YTVyOEtwc21VOExsekJ4YnFSTEU2ZnA0dURVanA1VldOSEZTLURUcmJDOGkwTFNJZEVHV0hkVU9ESG05V2MyRkhSODd0Ul9yQzFEZ1NIck1Bbw?oc=5",
-      "generatedAt": "2026-06-12T03:03:59.984Z",
-      "relatedArticles": []
-    },
-    {
-      "title": "Over the Quantum Cliff | Broadcast",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbEtNcGdEcTZ2bGgybmxZeV9jcjk1bGZTV0JLOHJSSS13V2hUOTlGN0dwOVJhbzlSYXkwWm53cV9MVXd6eFhqQ09EQWtHODNpdndKck9tWjNBMlUtcW54RGxoRVNBejJmMEp4U1NyU214SWxIRlVFeGdmdkIwM2NlN2w5cw?oc=5",
-      "description": "Over the Quantum Cliff | Broadcast Pioneer Works",
-      "pubDate": "2026-03-25T07:00:00.000Z",
-      "source": "Google News (Tech & Privacy)",
-      "category": "unexplained",
-      "score": 3,
-      "sources": [
-        "Google News (Tech & Privacy)"
-      ],
-      "content": "Over the Quantum Cliff | Broadcast Pioneer Works",
-      "keywords": [
-        "unexplained news",
-        "quantum",
-        "cliff",
-        "broadcast",
-        "pioneer",
-        "works"
-      ],
-      "hashtags": [
-        "#unexplainednews",
-        "#quantum",
-        "#cliff",
-        "#broadcast",
-        "#pioneer",
-        "#works"
-      ],
-      "slug": "2026-06-12-over-the-quantum-cliff-broadcast",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbEtNcGdEcTZ2bGgybmxZeV9jcjk1bGZTV0JLOHJSSS13V2hUOTlGN0dwOVJhbzlSYXkwWm53cV9MVXd6eFhqQ09EQWtHODNpdndKck9tWjNBMlUtcW54RGxoRVNBejJmMEp4U1NyU214SWxIRlVFeGdmdkIwM2NlN2w5cw?oc=5",
-      "generatedAt": "2026-06-12T03:04:01.280Z",
+      "generatedAt": "2026-06-12T09:03:56.912Z",
       "relatedArticles": [
         {
-          "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
-          "slug": "2026-06-12-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions",
-          "category": "unexplained"
+          "title": "Amazon Prime $2.5 billion settlement: Here's how to claim a refund",
+          "slug": "2026-06-12-amazon-prime-25-billion-settlement-heres-how-to-claim-a-refund",
+          "category": "financial-fraud"
+        }
+      ]
+    },
+    {
+      "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
+      "description": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
+      "pubDate": "2026-05-23T07:00:00.000Z",
+      "source": "Google News (Money & Markets)",
+      "category": "money-markets",
+      "score": 6,
+      "sources": [
+        "Google News (Money & Markets)"
+      ],
+      "content": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits Fortune",
+      "keywords": [
+        "money-markets news",
+        "debt",
+        "elephant",
+        "room",
+        "amid",
+        "bond",
+        "rout",
+        "interest"
+      ],
+      "hashtags": [
+        "#money-marketsnews",
+        "#debt",
+        "#elephant",
+        "#room",
+        "#amid",
+        "#bond",
+        "#rout",
+        "#interest"
+      ],
+      "slug": "2026-06-12-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1CdzhiTFdQR2dYR3U0NEhUaUl1aHRWb3dZcUIzS3hXdDVlRGVzNUs1dU00YTl1X3I1LWNmbkdUcW1UeUI0dUxvMW5scFAyem9sREFibmRXSlk4bjNldmdvbDZtZ3NIT0J2TG1ieXk0NkZRMGsweEpNZ0RrUkdRN1M2TExYU3puWjY3bDlTTTdkb1l3QnpnYXRGRnBoaF9zTXpWTl80YUxEVmVG?oc=5",
+      "generatedAt": "2026-06-12T09:03:58.311Z",
+      "relatedArticles": [
+        {
+          "title": "Fed Up With Food Delivery App Fees &amp; Tips? Barclays Has Terrific News",
+          "slug": "2026-06-12-fed-up-with-food-delivery-app-fees-amp-tips-barclays-has-terrific-news",
+          "category": "money-markets"
+        }
+      ]
+    },
+    {
+      "title": "Fed Up With Food Delivery App Fees &amp; Tips? Barclays Has Terrific News",
+      "url": "https://www.zerohedge.com/personal-finance/fed-food-delivery-app-fees-tips-barclays-has-terrific-news",
+      "description": "<span >Fed Up With Food Delivery App Fees & Tips? Barclays Has Terrific News</span> <div ><p>Whether consumers are ordering from Uber Eats or DoorDash, delivery costs before tips now average roughly $8 to $10 per order. Add in the tip, and the basic meal for one at Chipotle, such as a burrito bowl, moves into unaffordable territory for many working-class folks. The result is that food delivery, once pitched as a mass-market convenience, is increasingly looking like a discretionary luxury.</p> <p",
+      "pubDate": "Fri, 12 Jun 2026 01:20:00 +0000",
+      "source": "ZeroHedge",
+      "category": "money-markets",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Whether consumers are ordering from Uber Eats or DoorDash, delivery costs before tips now average roughly $8 to $10 per order. Add in the tip, and the basic meal for one at Chipotle, such as a burrito bowl, moves into unaffordable territory for many working-class folks. The result is that food delivery, once pitched as a mass-market convenience, is increasingly looking like a discretionary luxury. Barclays internet equity analyst Ross Sandler penned a note on Wednesday titled \"Autonomous Food Delivery Likely Hits Critical Mass By 2030,\" covering how automation in last-mile delivery could push delivery costs down to as little as $1 per order. \"The promise of autonomous food delivery is still a few years out, but showing very positive signals in markets that have been quick to embrace it. AVs should reduce the cost of delivery for both marketplaces (currently $8-$10 per order) and for consumers (tipping, $5 per order) down to as low as $1 per order,\" Sandler wrote in the note. He continued, \"As witnessed already in select APAC geos with low delivery costs, when this kind of improvement happens to the cost curve, consumer adoption should go through the roof. China&#x27;s online food delivery penetration is 40% of orders in tier one cities, well ahead of the US, with cost being the biggest delta. \"UBER and DASH have a number of strategies in place in both SDR (sidewalk delivery robotics) and drones, but claim that these efforts are not likely to hit a material percentage of orders until 2030 and beyond.\" The analyst sees \"sidewalk delivery robots as the nearer-term opportunity. Current costs are around $5 to $7 per drop, but could fall toward $1 over time as utilization improves. Drones offer faster delivery and a larger \"wow\" factor, but regulatory hurdles, battery limitations and airspace approvals make the path more complicated.\" Automated last-mile food delivery will certaintly improve the economics, and the added benefit is no tip. Once delivery costs plummet, likely by the end of the decade, improved affordability should drive more people to order restaurant meals at home. All of this is welcome news from Sandler&#x27;s team at Barclays, but delivery costs are unlikely to decline meaningfully until automation is added to the last-mile process. Even then, the path to $1 delivery fees with no tip won&#x27;t be frictionless. Local politicians and regulators could slow the adoption of automation with policies because voters will revolt over job displacement. Still, the benefit is obvious: cheaper delivery and no tip required, something almost everyone can agree on. Guy breaks down how ridiculous food delivery app fees have gotten... This guy breaks down how ridiculous food delivery app fees have gotten. He shows how a $4.99 iced coffee can easily turn into $19+ once you add the service fee, delivery fee, tip, and priority fee. Even if you subscribe to the app to “save money,” you’re still hit with multiple… pic.twitter.com/CLGsCeW3jr Kevin O&#x27;Leary says Gen Z is financially cooked... Kevin O’Leary says Gen Z is financially cooked when people making $70K a year are spending $28 on lunch pic.twitter.com/7s820Xnhg9 Professional subscribers can read more about automation and AI at our new Marketdesk.ai portal. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "money-markets news",
+        "delivery",
+        "food",
+        "costs",
+        "order",
+        "fees",
+        "tips",
+        "barclays"
+      ],
+      "hashtags": [
+        "#money-marketsnews",
+        "#delivery",
+        "#food",
+        "#costs",
+        "#order",
+        "#fees",
+        "#tips",
+        "#barclays"
+      ],
+      "slug": "2026-06-12-fed-up-with-food-delivery-app-fees-amp-tips-barclays-has-terrific-news",
+      "sourceUrl": "https://www.zerohedge.com/personal-finance/fed-food-delivery-app-fees-tips-barclays-has-terrific-news",
+      "generatedAt": "2026-06-12T09:04:00.212Z",
+      "relatedArticles": [
+        {
+          "title": "US debt is the 'elephant in the room' amid bond rout as interest costs could drive larger deficits",
+          "slug": "2026-06-12-us-debt-is-the-elephant-in-the-room-amid-bond-rout-as-interest-costs-could-drive",
+          "category": "money-markets"
+        }
+      ]
+    },
+    {
+      "title": "30-Year-Old Murder Solved",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
+      "description": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
+      "pubDate": "2024-11-12T08:00:00.000Z",
+      "source": "Google News (True Crime)",
+      "category": "true-crime",
+      "score": 6,
+      "sources": [
+        "Google News (True Crime)"
+      ],
+      "content": "30-Year-Old Murder Solved Federal Bureau of Investigation (.gov)",
+      "keywords": [
+        "true-crime news",
+        "year",
+        "murder",
+        "solved",
+        "federal",
+        "bureau",
+        "investigation"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#year",
+        "#murder",
+        "#solved",
+        "#federal",
+        "#bureau",
+        "#investigation"
+      ],
+      "slug": "2026-06-12-30-year-old-murder-solved",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUUl0UVczelF4UFpIM1NOWDdteDcxSjBocVd0RDdDQjRMUHcwMnNJd2ZOS1cwMHlMbGxUaDNCbkc2UkRnRWxtRldVSWFVU0Z3a1BjZnZyUGRZUUNnX2wwQWhtZ0Q2aV90R3c?oc=5",
+      "generatedAt": "2026-06-12T09:04:01.988Z",
+      "relatedArticles": [
+        {
+          "title": "Cops Bust India-Based Gold Scam Before Widow Loses $700K",
+          "slug": "2026-06-12-cops-bust-india-based-gold-scam-before-widow-loses-700k",
+          "category": "true-crime"
+        }
+      ]
+    },
+    {
+      "title": "Cops Bust India-Based Gold Scam Before Widow Loses $700K",
+      "url": "https://www.zerohedge.com/markets/cops-bust-india-based-gold-scam-widow-loses-700k",
+      "description": "<span >Cops Bust India-Based Gold Scam Before Widow Loses $700K</span> <div ><p>A widow who was told her Social Security funds were being used to support terrorism nearly lost $700,000 in a gold scam, according to <a \" data-image- data-link- group\"><img data-entity- data-entity- data-responsive-image- foaf:Image\" /><figcaption>Yug Chauhan</figcaption></figure></picture></a> <p>Working with detectives, authorities set up a sting operation. <em><strong>Instead of real gold, an undercover officer p",
+      "pubDate": "Thu, 11 Jun 2026 23:40:00 +0000",
+      "source": "ZeroHedge",
+      "category": "true-crime",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "A widow who was told her Social Security funds were being used to support terrorism nearly lost $700,000 in a gold scam, according to WOOD ABC 8 . The fraudsters convinced her to buy gold, but a suspicious coin dealer alerted authorities before the transaction could be completed. Ben Soldaat, owner of Grand Rapids Coins, noticed several red flags. The woman seemed confused, unusually urgent, and showed little interest in the gold itself. Concerned she was being manipulated, he contacted the Kent County Sheriff’s Office. Investigators learned the woman had been told by a caller posing as a Social Security agent that criminals were using her account for terrorism, drug trafficking, and money laundering. She was instructed to buy gold so law enforcement could supposedly track the offenders. Yug Chauhan Working with detectives, authorities set up a sting operation. Instead of real gold, an undercover officer posing as the woman delivered a package of chocolate gold coins to the courier sent to collect it. The report says that the courier, 20-year-old Yug Chauhan of Illinois, was arrested and charged with false pretenses over $100,000 and using a computer to commit a crime—both 20-year felonies. Investigators believe the scam originated in India and are continuing to pursue those behind it. Officials say gold-related scams targeting seniors are becoming increasingly common nationwide, often involving callers who impersonate government agents. They stress that family members and businesses play a critical role in spotting warning signs before victims lose their savings. The targeted woman ultimately recovered her money and later thanked Soldaat for intervening. She hopes her experience serves as a warning to others, noting that many scam victims are not as fortunate. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "true-crime news",
+        "gold",
+        "scam",
+        "data",
+        "widow",
+        "woman",
+        "india",
+        "told"
+      ],
+      "hashtags": [
+        "#true-crimenews",
+        "#gold",
+        "#scam",
+        "#data",
+        "#widow",
+        "#woman",
+        "#india",
+        "#told"
+      ],
+      "slug": "2026-06-12-cops-bust-india-based-gold-scam-before-widow-loses-700k",
+      "sourceUrl": "https://www.zerohedge.com/markets/cops-bust-india-based-gold-scam-widow-loses-700k",
+      "generatedAt": "2026-06-12T09:04:03.511Z",
+      "relatedArticles": [
+        {
+          "title": "30-Year-Old Murder Solved",
+          "slug": "2026-06-12-30-year-old-murder-solved",
+          "category": "true-crime"
+        }
+      ]
+    },
+    {
+      "title": "'Full Force Of The Law': British PM Threatens Belfast Anti-Immigration Rioters While Lowe Says 'Millions Must Go'",
+      "url": "https://www.zerohedge.com/political/full-force-law-british-pm-threatens-belfast-anti-immigration-rioters-while-lowe-says",
+      "description": "<span >'Full Force Of The Law': British PM Threatens Belfast Anti-Immigration Rioters While Lowe Says 'Millions Must Go'</span> <div ><p><a ltr\" xml: xml:>The scenes in Belfast last night were shocking and completely unacceptable.<br /><br /> There is no justification for the violence and disorder that we saw threatening our communities, nor for those who encouraged it, online or elsewhere.<br /><br /> It is clear that people were targeted last night…</p> — Keir Starmer (@Keir_Starmer) <a \" utf-",
+      "pubDate": "Fri, 12 Jun 2026 06:00:00 +0000",
+      "source": "ZeroHedge",
+      "category": "conflict-wars",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "British Prime Minister Keir Starmer has threatened Belfast’s nighttime rioters with the “full force of the law” after they conducted arson attacks on cars and homes on Tuesday night after a brutal video went viral featuring a Sudanese man trying to behead a disabled Scottish victim. “The scenes in Belfast last night were shocking and completely unacceptable. There is no justification for the violence and disorder that we saw threatening our communities, nor for those who encouraged it, online or elsewhere. It is clear that people were targeted last night because of their background and I will not tolerate it. Those responsible will feel the full force of the law,” wrote Starmer on X. The scenes in Belfast last night were shocking and completely unacceptable. There is no justification for the violence and disorder that we saw threatening our communities, nor for those who encouraged it, online or elsewhere. It is clear that people were targeted last night… On the other end of the spectrum, Restore Britain leader Rupert Lowe says “ millions must go ” in response to the attack on disabled 44-year-old Scottish victim Stephen Ogilvie. Lowe went even further, stating that “civil servants, judges, and politicians” must be “held to account for what has been done to this country.” “If they have knowingly placed unvetted dangerous third world savages in our communities, near our children, then a Restore Britain Government will aim to prosecute them. If that includes Reform’s Robert Jenrick and Suella Braverman, then so be it. When they held the power – they welcomed that Sudanese monster into our country and handed him a visa. An attempted beheading followed their decision,” he continued. Millions must go. pic.twitter.com/hHXXYa2bwQ I want people finally held to account for what has been done to our country. Civil servants, judges, politicians. If they have knowingly placed unvetted dangerous third world savages in our communities, near our children, then a Restore Britain Government will aim to prosecute… Starmer’s Labour Party has accused tech billionaire Elon Musk of fueling the nighttime riots in Belfast. Protests turned violent on Tuesday evening after a shocking video showed a Sudanese man violently attacking Ogilvie with a knife before he was saved by locals who beat the perpetrator. Houses are being burned down in Belfast in response to yesterday&#x27;s attempted beheading of a man by a Sudanese migrant. Videos are surfacing of several HMOs (Houses in Multiple Occupation — properties frequently contracted by the UK Home Office to accommodate asylum seekers)… pic.twitter.com/X7kD94nWX9 Yesterday evening, dozens of masked men gathered in residential areas and set fire to several houses, a shop, and numerous vehicles. Labour Party leader Anna Turley partly blamed Musk and his news platform X for the riots after Musk shared several posts on Tuesday that had called for protests. Turley told Times Radio: “I think we need to acknowledge and see that social media plays a role in this. And I think there are actors with evil intentions who are often sitting many, many kilometers away.” The knife attack follows a range of other heinous attacks and high-profile incidents involving foreign nationals in Great Britain. Numerous people shared calls for demonstrations, which were also picked up and further disseminated by Elon Musk. While rallies in London, for example, were peaceful, groups of masked rioters gathered in Belfast before sunset and began setting fire to cars and buses. In the later hours, they directed their anger at houses where migrants also lived. A Middle Eastern supermarket was also set on fire. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "keywords": [
+        "conflict-wars news",
+        "belfast",
+        "night",
+        "last",
+        "they",
+        "full",
+        "must",
+        "communities"
+      ],
+      "hashtags": [
+        "#conflict-warsnews",
+        "#belfast",
+        "#night",
+        "#last",
+        "#they",
+        "#full",
+        "#must",
+        "#communities"
+      ],
+      "slug": "2026-06-12-full-force-of-the-law-british-pm-threatens-belfast-anti-immigration-rioters-whil",
+      "sourceUrl": "https://www.zerohedge.com/political/full-force-law-british-pm-threatens-belfast-anti-immigration-rioters-while-lowe-says",
+      "generatedAt": "2026-06-12T09:04:04.781Z",
+      "relatedArticles": [
+        {
+          "title": "231 Drones on Russia Day: Ukraine Hits Major Oil Refineries and Chemical Plants Across Russia",
+          "slug": "2026-06-12-231-drones-on-russia-day-ukraine-hits-major-oil-refineries-and-chemical-plants-a",
+          "category": "conflict-wars"
+        }
+      ]
+    },
+    {
+      "title": "231 Drones on Russia Day: Ukraine Hits Major Oil Refineries and Chemical Plants Across Russia",
+      "url": "https://www.reddit.com/r/worldnews/comments/1u3otdb/231_drones_on_russia_day_ukraine_hits_major_oil/",
+      "description": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "pubDate": "2026-06-12T07:51:36.000Z",
+      "source": "r/worldnews",
+      "redditScore": 0,
+      "category": "conflict-wars",
+      "score": 3,
+      "sources": [
+        "r/worldnews"
+      ],
+      "content": "<table> <tr><td> <a /> </a> </td><td> &#32; submitted by &#32; <a &#32; <span><a href=\" </td></tr></table>",
+      "keywords": [
+        "conflict-wars news",
+        "russia",
+        "drones",
+        "ukraine",
+        "hits",
+        "major",
+        "refineries",
+        "chemical"
+      ],
+      "hashtags": [
+        "#conflict-warsnews",
+        "#russia",
+        "#drones",
+        "#ukraine",
+        "#hits",
+        "#major",
+        "#refineries",
+        "#chemical"
+      ],
+      "slug": "2026-06-12-231-drones-on-russia-day-ukraine-hits-major-oil-refineries-and-chemical-plants-a",
+      "sourceUrl": "https://www.reddit.com/r/worldnews/comments/1u3otdb/231_drones_on_russia_day_ukraine_hits_major_oil/",
+      "generatedAt": "2026-06-12T09:04:06.037Z",
+      "relatedArticles": [
+        {
+          "title": "'Full Force Of The Law': British PM Threatens Belfast Anti-Immigration Rioters While Lowe Says 'Millions Must Go'",
+          "slug": "2026-06-12-full-force-of-the-law-british-pm-threatens-belfast-anti-immigration-rioters-whil",
+          "category": "conflict-wars"
         }
       ]
     },
@@ -872,60 +1030,55 @@
       ],
       "slug": "2026-06-12-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ybGtBUGVOdkpkMmp6eE5acms0OXBUSnM4NFAzTHNlbl9yQXk4cmVoXzlNTHJ6QU14TllvNnc0RkRNNXE3cEhWcDZ6ZldrYjk1QTY3SHV5NERXUQ?oc=5",
-      "generatedAt": "2026-06-12T03:04:03.141Z",
+      "generatedAt": "2026-06-12T09:04:08.029Z",
       "relatedArticles": [
         {
-          "title": "Over the Quantum Cliff | Broadcast",
-          "slug": "2026-06-12-over-the-quantum-cliff-broadcast",
+          "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
+          "slug": "2026-06-12-pentagon-begins-releasing-new-ufo-files-unveiling-dozens-of-photos-videos-and-do",
           "category": "unexplained"
         }
       ]
     },
     {
-      "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejJva0RpbnE5N1kybEI1R2gzSTFFbFVFY0c1N2F4R0Fod3V3am1uQ1lkZjFDZk9VblZybm16dGNuX1M4TDRaekwwdS1tXzBNQjhVLWRTNmhXc1hoU0xEbHd3dk9tN1lWb0ZDaDdWLWdwRkZVX2d1b0Y4Ums5NnlwVWNFSGZ5V1NjN3RkSWFFd1FMUzd3clpiZkVrQWozTEltWVdxMDI3ZGpIWExEZlJvU0hSaXFKTktkUDhFWWNsR1FhM2UzVW95SUhscVhWTmdZVDBzT2Y2clk?oc=5",
-      "description": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance TechCrunch",
-      "pubDate": "2026-04-21T07:00:00.000Z",
-      "source": "Google News (Surveillance State)",
-      "category": "surveillance-state",
-      "score": 7,
+      "title": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMC1fRW90LUYzOTZlT2NvR3BsZWpydUhkRkxzcVFlV3VWUGdoVHRKV0pxSWZxYU51djlLd0x2YXJkTXNUelYyenVBQ05xWVhNVzYyQTdBQ2RmOS1JTWJjZXF1d1pJcV9vc01HaF9CeTHSAXZBVV95cUxQU1pfNGtGODNJRGh3YXJSRTkzd2VZSUFMNTZyMHZqWFNtZEhfSk1zRzF6MWFvVm40ajVIVEtBS2ZMZmFDSnF2YzBGR2V0ckd1aHRLakM3NkY4VkZKei1CRHMyR0pxTkxXUV9jdFJTMFZCWElTWmZB?oc=5",
+      "description": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents CBS News",
+      "pubDate": "2026-05-08T07:00:00.000Z",
+      "source": "Google News (Unexplained)",
+      "category": "unexplained",
+      "score": 3,
       "sources": [
-        "Google News (Surveillance State)"
+        "Google News (Unexplained)"
       ],
-      "content": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance TechCrunch",
+      "content": "Pentagon begins releasing new UFO files, unveiling dozens of photos, videos and documents CBS News",
       "keywords": [
-        "surveillance-state news",
-        "laws",
-        "expire",
-        "lawmakers",
-        "split",
-        "protecting",
-        "americans",
-        "warrantless"
+        "unexplained news",
+        "pentagon",
+        "begins",
+        "releasing",
+        "files",
+        "unveiling",
+        "dozens",
+        "photos"
       ],
       "hashtags": [
-        "#surveillance-statenews",
-        "#laws",
-        "#expire",
-        "#lawmakers",
-        "#split",
-        "#protecting",
-        "#americans",
-        "#warrantless"
+        "#unexplainednews",
+        "#pentagon",
+        "#begins",
+        "#releasing",
+        "#files",
+        "#unveiling",
+        "#dozens",
+        "#photos"
       ],
-      "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejJva0RpbnE5N1kybEI1R2gzSTFFbFVFY0c1N2F4R0Fod3V3am1uQ1lkZjFDZk9VblZybm16dGNuX1M4TDRaekwwdS1tXzBNQjhVLWRTNmhXc1hoU0xEbHd3dk9tN1lWb0ZDaDdWLWdwRkZVX2d1b0Y4Ums5NnlwVWNFSGZ5V1NjN3RkSWFFd1FMUzd3clpiZkVrQWozTEltWVdxMDI3ZGpIWExEZlJvU0hSaXFKTktkUDhFWWNsR1FhM2UzVW95SUhscVhWTmdZVDBzT2Y2clk?oc=5",
-      "generatedAt": "2026-06-12T03:04:04.826Z",
+      "slug": "2026-06-12-pentagon-begins-releasing-new-ufo-files-unveiling-dozens-of-photos-videos-and-do",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMC1fRW90LUYzOTZlT2NvR3BsZWpydUhkRkxzcVFlV3VWUGdoVHRKV0pxSWZxYU51djlLd0x2YXJkTXNUelYyenVBQ05xWVhNVzYyQTdBQ2RmOS1JTWJjZXF1d1pJcV9vc01HaF9CeTHSAXZBVV95cUxQU1pfNGtGODNJRGh3YXJSRTkzd2VZSUFMNTZyMHZqWFNtZEhfSk1zRzF6MWFvVm40ajVIVEtBS2ZMZmFDSnF2YzBGR2V0ckd1aHRLakM3NkY4VkZKei1CRHMyR0pxTkxXUV9jdFJTMFZCWElTWmZB?oc=5",
+      "generatedAt": "2026-06-12T09:04:09.287Z",
       "relatedArticles": [
         {
-          "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
-          "slug": "2026-06-12-americans-privacy-and-data-congress-warned-over-warrantless-surveillance",
-          "category": "surveillance-state"
-        },
-        {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
-          "category": "surveillance-state"
+          "title": "UFO sighting reports released by US government - 'Orbs swarming in all directions'",
+          "slug": "2026-06-12-ufo-sighting-reports-released-by-us-government-orbs-swarming-in-all-directions",
+          "category": "unexplained"
         }
       ]
     },
@@ -963,7 +1116,7 @@
       ],
       "slug": "2026-06-12-jpm-call-with-axon-reveals-race-to-fortify-us-data-centers-against-kamikaze-dron",
       "sourceUrl": "https://www.zerohedge.com/technology/jpm-call-axon-reveals-race-fortify-us-drone-centers-against-kamikaze-drone-swarms",
-      "generatedAt": "2026-06-12T03:04:06.747Z",
+      "generatedAt": "2026-06-12T09:04:10.853Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -971,8 +1124,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
           "category": "surveillance-state"
         }
       ]
@@ -1011,7 +1164,7 @@
       ],
       "slug": "2026-06-12-karen-bass-brother-joins-class-action-lawsuit-against-karen-bass-over-la-wildfir",
       "sourceUrl": "https://www.zerohedge.com/markets/karen-bass-brother-sues-karen-bass-over-la-wildfires",
-      "generatedAt": "2026-06-12T03:04:08.854Z",
+      "generatedAt": "2026-06-12T09:04:12.510Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -1026,50 +1179,50 @@
       ]
     },
     {
-      "title": "[Federal Register] Removing Regulations Related to Trade Adjustment Assistance for Firms",
-      "url": "https://www.federalregister.gov/documents/2026/06/11/2026-11800/removing-regulations-related-to-trade-adjustment-assistance-for-firms",
-      "description": "By this rule, EDA removes its regulations pertaining to trade adjustment assistance for firms, effective September 30, 2028. The removal of these regulations is ultimately necessary to reflect both the lapse of the underlying statutory authorization as well as the inactive status of this assistance program, and to ensure that EDA's body of regulations remains accurate and up-to-date. This action is intended to eliminate outdated regulatory language, and thereby reduce the possibility of confusio",
-      "pubDate": "2026-06-11T00:00:00.000Z",
-      "source": "Federal Register",
-      "category": "government-secrets",
-      "score": 7,
+      "title": "Section 702 Expires Tonight: Warrantless NSA Surveillance Runs Through 2027 Anyway",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObmlxNWxVOFZPMDJmNURIeVNTQk9PNU5DaE12QlRFcUZMMkFUaFBHdEdibG9EZ21NSVN4R18wUUZESWJVMDItVnk1TDBjS0kxdTZpSGFnMzZaNGVrVlFHUVh3ZmdyR1c5UDVVNmdUX1FwMUhRbkl2UEFLZEFjSjMtZVdJODc5b3pjZEVqRUp1aFhZRjVvMHdVTzR2OW9heWZXTXpTUTNKTG1yazZnbml6emhIM0tzcDdLMVNmUWZyVm55NkdEWm5PUkxQdXRqX1VJalE?oc=5",
+      "description": "Section 702 Expires Tonight: Warrantless NSA Surveillance Runs Through 2027 Anyway Tech Times",
+      "pubDate": "2026-06-11T18:52:54.000Z",
+      "source": "Google News (Surveillance State)",
+      "category": "surveillance-state",
+      "score": 6,
       "sources": [
-        "Federal Register"
+        "Google News (Surveillance State)"
       ],
-      "content": "This site displays a prototype of a “Web 2.0” version of the daily Federal Register. It is not an official legal edition of the Federal Register, and does not replace the official print version or the official electronic version on GPO’s govinfo.gov. The documents posted on this site are XML renditions of published Federal Register documents. Each document posted on the site includes a link to the corresponding official PDF file on govinfo.gov. This prototype edition of the daily Federal Register on FederalRegister.gov will remain an unofficial informational resource until the Administrative Committee of the Federal Register (ACFR) issues a regulation granting it official legal status. For complete information about, and access to, our official publications and services, go to About the Federal Register on NARA's archives.gov. The OFR/GPO partnership is committed to presenting accurate and reliable regulatory information on FederalRegister.gov with the objective of establishing the XML-based Federal Register as an ACFR-sanctioned publication in the future. While every effort has been made to ensure that the material on FederalRegister.gov is accurately displayed, consistent with the official SGML-based PDF version on govinfo.gov, those relying on it for legal research should verify their results against an official edition of the Federal Register. Until the ACFR grants it official status, the XML rendition of the daily Federal Register on FederalRegister.gov does not provide legal notice to the public or judicial notice to the courts. Enter a search term or FR citation e.g. suggestions#fillExample\">88 FR 382 suggestions#fillExample\">30 FR 7878 suggestions#fillExample\">2024-13208 suggestions#fillExample\">USDA suggestions#fillExample\">09/05/24 suggestions#fillExample\">RULE suggestions#fillExample\">0503-AA39 suggestions#fillExample\">SORN Choosing an item from full text search results will bring you to those results. Pressing enter in the search box will also bring you to search results. Choosing an item from suggestions will bring you directly to the content. Background and more details are available in the Search & Navigation guide. A Rule by the Economic Development Administration on 06/11/2026 This document has been published in the Federal Register . Use the PDF linked in the document sidebar for the official electronic format. This table of contents is a navigational tool, processed from the headings within the legal text of Federal Register documents. This repetition of headings to form internal navigation links has no substantive legal effect. Comments are no longer being accepted. See DATES for details. Additional information is not currently available for this document. This document is also available in the following formats: More information and documentation can be found in our developer tools pages . This PDF is FR Doc. 2026-11800 as it appeared on Public Inspection on 06/10/2026 at 8:45 am. It was viewed 16 times while on Public Inspection. If you are using public inspection listings for legal research, you should verify the contents of the documents against a final, official edition of the Federal Register. Only official editions of the Federal Register provide legal notice of publication to the public and judicial notice to the courts under 44 U.S.C. 1503 & 1507 . Learn more here . This document has been published in the Federal Register . Use the PDF linked in the document sidebar for the official electronic format. Document headings vary by document type but may contain the following: See the Document Drafting Handbook for more details. Economic Development Administration (EDA), Department of Commerce (Department).",
+      "content": "Section 702 Expires Tonight: Warrantless NSA Surveillance Runs Through 2027 Anyway Tech Times",
       "keywords": [
-        "government-secrets news",
-        "federal",
-        "register",
-        "official",
-        "document",
-        "suggestions",
-        "legal",
-        "fillexample"
+        "surveillance-state news",
+        "section",
+        "expires",
+        "tonight",
+        "warrantless",
+        "surveillance",
+        "runs",
+        "anyway"
       ],
       "hashtags": [
-        "#government-secretsnews",
-        "#federal",
-        "#register",
-        "#official",
-        "#document",
-        "#suggestions",
-        "#legal",
-        "#fillexample"
+        "#surveillance-statenews",
+        "#section",
+        "#expires",
+        "#tonight",
+        "#warrantless",
+        "#surveillance",
+        "#runs",
+        "#anyway"
       ],
-      "slug": "2026-06-12-federal-register-removing-regulations-related-to-trade-adjustment-assistance-for",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/11/2026-11800/removing-regulations-related-to-trade-adjustment-assistance-for-firms",
-      "generatedAt": "2026-06-12T03:04:10.997Z",
+      "slug": "2026-06-12-section-702-expires-tonight-warrantless-nsa-surveillance-runs-through-2027-anywa",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObmlxNWxVOFZPMDJmNURIeVNTQk9PNU5DaE12QlRFcUZMMkFUaFBHdEdibG9EZ21NSVN4R18wUUZESWJVMDItVnk1TDBjS0kxdTZpSGFnMzZaNGVrVlFHUVh3ZmdyR1c5UDVVNmdUX1FwMUhRbkl2UEFLZEFjSjMtZVdJODc5b3pjZEVqRUp1aFhZRjVvMHdVTzR2OW9heWZXTXpTUTNKTG1yazZnbml6emhIM0tzcDdLMVNmUWZyVm55NkdEWm5PUkxQdXRqX1VJalE?oc=5",
+      "generatedAt": "2026-06-12T09:04:14.368Z",
       "relatedArticles": [
         {
-          "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
-          "slug": "2026-06-12-declassified-damage-assessments-may-shed-light-on-ics-snowden-assessment-frinfor",
-          "category": "government-secrets"
+          "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
+          "slug": "2026-06-12-americans-privacy-and-data-congress-warned-over-warrantless-surveillance",
+          "category": "surveillance-state"
         },
         {
-          "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
-          "slug": "2026-06-12-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
-          "category": "government-secrets"
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
+          "category": "surveillance-state"
         }
       ]
     },
@@ -1107,7 +1260,7 @@
       ],
       "slug": "2026-06-12-fisa-surveillance-vote-sparks-fierce-debate-as-congress-splits-on-warrantless-mo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUUJwaGR2eVdSaDQwT0VNVmFMNl9FWFdhcEl4c000REQtNjFXSFlaVkRaSk90LTNWM3pCcjBNenJjOTFxaWpVMXRYY0xHUHducDItTWJ6VndUTEdDUGllSkkyT0ZmNnBkWnBzbzFpd1RsbDFnX1E4U2FYYkE2WkRvUGs2OWJpRXpHbnRR?oc=5",
-      "generatedAt": "2026-06-12T03:04:12.213Z",
+      "generatedAt": "2026-06-12T09:04:15.599Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -1115,8 +1268,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
           "category": "surveillance-state"
         }
       ]
@@ -1155,7 +1308,7 @@
       ],
       "slug": "2026-06-12-five-things-to-know-about-nsa-mass-surveillance-and-the-coming-fight-in-congress",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVm1faVRFbHZjYkFQWHRSMzFYVy1iaFZxWlEwRmpQUTlBaHNWZTRWYUxJeFZGcXBxbzItSXE1UlctOVU2d29lc0xCdnB3OVl1bGI1YnQzSVdidEY4TU9Kd29tb0tOSF9ucThJZnFpRlZvQk5xWVJxSFB0bWZRdGdfYlJ5ZzkzRWNEYnMxZnc4SlJoWU01QTA3bXU2VGdhWlpXZldFS0tBXzVGOWN5djk5QmRzdzBIQm5TRjFsczRnUlRkQQ?oc=5",
-      "generatedAt": "2026-06-12T03:04:13.954Z",
+      "generatedAt": "2026-06-12T09:04:17.408Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -1163,8 +1316,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
           "category": "surveillance-state"
         }
       ]
@@ -1203,7 +1356,7 @@
       ],
       "slug": "2026-06-12-how-congresss-extension-of-section-702-may-expand-the-nsas-warrantless-surveilla",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdGhNSXNrczhSbXRmdUF2c0ZVOTU1ZDljemJyYmE5TENFWDNGaGRYU1F6WnpyUnREUXJQeEcwblIyMEJLOFJEeTQ5dzg3cHp0VDhtMXFQMDhPUjZRcmhHaFg4a04xSnpOZG5wN0VWOXlqTm13R0REb3J1Z3Q4bThsd2NzOS1Iak5vMzUwTlVWVU5wZ2Vyd3ZZVGV3dkxmSHFsSDJ1OHpEMXZBV2wtY2l4My1XNW4?oc=5",
-      "generatedAt": "2026-06-12T03:04:15.985Z",
+      "generatedAt": "2026-06-12T09:04:19.118Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -1211,8 +1364,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
           "category": "surveillance-state"
         }
       ]
@@ -1251,7 +1404,7 @@
       ],
       "slug": "2026-06-12-new-schiff-leak-claim-from-whistleblower-echoes-years-of-similar-accusations",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHV0ZGNjc01RbjZqbDBWNnN5ZHp5eE5ZZ20yc2kxUXJvZWZWZXB0Z08zQmk2VjljaUlzU1JSQ1YxblB0NWtETVRGamdaZXVIZlgwY1VEV2xXTTVOT21PMkV6Yl9CNEJqMFBVZVhva01EUHh6bUdNaWQtSkZEbkkzUTIyVXpmTXJfSVVPZlRoY213TTdRY0xUcTFwVGhHV1NPQVU3cXdnd251QdIBrwFBVV95cUxOLWRqSWhOenpZZXJHMFVqdUo4ZnBKeGVPTlE5QmdvUno4UkJ2OUY3RV9Jd0dFZWVNQ2M4UG9IUGpPUTBjWUxxa1pUSERObjhvUUFER0tLcEVOblVvdlBSTnZfSjZoRG1qMURiZ2Y5WVNFRGgxd2hRNTBXUnltTEhpd3ViY1E2U1dQMDFKOFJETUNRWFR0Q216b3oxWnVoMXhOM0ozNGZ6SUR1bTBNb2Iw?oc=5",
-      "generatedAt": "2026-06-12T03:04:17.545Z",
+      "generatedAt": "2026-06-12T09:04:20.568Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -1262,54 +1415,6 @@
           "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
           "slug": "2026-06-12-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "government-secrets"
-        }
-      ]
-    },
-    {
-      "title": "Committee studying lawful access bill urged to protect encryption, balance privacy with police needs",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TWVFHNWdYcEdjSE1zXzJ4OThvLVhOVlJ0Mmhyb182M2JJRTFWQ3Fmd1o0OUVjdnRaeU5jN3o1SkcxNUN6aUlDUUlmTGVCRmo4bUxES1ZYTEhsLWI2YmVPamlmMy0zLUotVzVBVGN5VUZPejZRRUlUZVVlOA?oc=5",
-      "description": "Committee studying lawful access bill urged to protect encryption, balance privacy with police needs CBC",
-      "pubDate": "2026-05-26T07:00:00.000Z",
-      "source": "Google News (Tech & Privacy)",
-      "category": "surveillance-state",
-      "score": 6,
-      "sources": [
-        "Google News (Tech & Privacy)"
-      ],
-      "content": "Committee studying lawful access bill urged to protect encryption, balance privacy with police needs CBC",
-      "keywords": [
-        "surveillance-state news",
-        "committee",
-        "studying",
-        "lawful",
-        "access",
-        "bill",
-        "urged",
-        "protect"
-      ],
-      "hashtags": [
-        "#surveillance-statenews",
-        "#committee",
-        "#studying",
-        "#lawful",
-        "#access",
-        "#bill",
-        "#urged",
-        "#protect"
-      ],
-      "slug": "2026-06-12-committee-studying-lawful-access-bill-urged-to-protect-encryption-balance-privac",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TWVFHNWdYcEdjSE1zXzJ4OThvLVhOVlJ0Mmhyb182M2JJRTFWQ3Fmd1o0OUVjdnRaeU5jN3o1SkcxNUN6aUlDUUlmTGVCRmo4bUxES1ZYTEhsLWI2YmVPamlmMy0zLUotVzVBVGN5VUZPejZRRUlUZVVlOA?oc=5",
-      "generatedAt": "2026-06-12T03:04:19.334Z",
-      "relatedArticles": [
-        {
-          "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
-          "slug": "2026-06-12-americans-privacy-and-data-congress-warned-over-warrantless-surveillance",
-          "category": "surveillance-state"
-        },
-        {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
-          "category": "surveillance-state"
         }
       ]
     },
@@ -1347,7 +1452,7 @@
       ],
       "slug": "2026-06-12-13-privacy-tools-that-actually-protect-your-data",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUHY3ZEZCd1U3ejEtUWhQdkxiVUJ0OWVObkxmbzJ2TkpEUkQyQ0E0eXlWNFo1R1o2cnBRa0JsVmV5LVVHV2pOZ1YyUTd1RmhmTHd2T0JDOEdRM2JfSHVtUmo4QXJobkw4ZDN2QWJHaDlkcUR3NXd0OWlhZ2piLWs?oc=5",
-      "generatedAt": "2026-06-12T03:04:20.982Z",
+      "generatedAt": "2026-06-12T09:04:21.864Z",
       "relatedArticles": [
         {
           "title": "Enshittification Merch That Actually Fights Enshittification",
@@ -1395,7 +1500,7 @@
       ],
       "slug": "2026-06-12-nasa-chief-pulls-back-curtain-on-trump-ufo-files-after-bizarre-finds-surface-in",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1YtN1JwVFdzUERPZGtoYWhsRGZzNG9RNG1XdEktNzc0ZzJ4MEtnbHVER0E3cGxweVN4Yzdjbm53dVdiaURRc3NsTVVNTmkwcEtpbk9fY0NLZHZISGJ3Y1JNWGdRMDNheEF0WWt4ZGZub2k5ZTREX1hiMzVkazlKeE5SYV9Rby1VRDMzWmJQUlZuUWs3VGloSi0yRGh2c2toYkRZZElFRnJrVk9XYWFybHhuZDR3R3dqY0lCMl9FZlNLQjjSAcgBQVVfeXFMT3duNEtkRHJma3AtYVE3RzNwQ1hsZU1KaWdoUFZybmtoRy01TzExVUt5MTdUc2M4S25mdkFWRHg1OUdpTWljeHduVVJ4R1JjcHFrVEl4bklUNHlHejNMbGtQQXhSUWdObWpINFlfamZhdHExc2hrSFNhczJyTlkyX0hrZnk5bktwcEJrOVZ3M0M4Vm9IWmdGVE5zOFpDU0NqQlBXOHZZSDhJNHc0MHIxWk9ZVnpSN0Z5MXJBWmg2UWxGbmpVRm9VYTg?oc=5",
-      "generatedAt": "2026-06-12T03:04:22.440Z",
+      "generatedAt": "2026-06-12T09:04:23.335Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -1443,7 +1548,7 @@
       ],
       "slug": "2026-06-12-the-702-ultimatum-warrant-requirement-or-bust",
       "sourceUrl": "https://www.eff.org/deeplinks/2026/06/702-ultimatum-warrant-requirement-or-bust",
-      "generatedAt": "2026-06-12T03:04:24.079Z",
+      "generatedAt": "2026-06-12T09:04:24.518Z",
       "relatedArticles": [
         {
           "title": "Americans' Privacy and Data: Congress Warned Over Warrantless Surveillance",
@@ -1451,8 +1556,8 @@
           "category": "surveillance-state"
         },
         {
-          "title": "The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward",
-          "slug": "2026-06-12-the-privacy-lesson-of-911-mass-surveillance-is-not-the-way-forward",
+          "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+          "slug": "2026-06-12-with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-fro",
           "category": "surveillance-state"
         }
       ]
@@ -1491,7 +1596,7 @@
       ],
       "slug": "2026-06-12-were-basically-pushers-how-a-battle-over-kids-on-social-media-is-unfolding-in-tw",
       "sourceUrl": "https://themarkup.org/privacy/2026/01/30/were-basically-pushers-how-a-battle-over-kids-on-social-media-is-unfolding-in-two-california-courtrooms",
-      "generatedAt": "2026-06-12T03:04:25.488Z",
+      "generatedAt": "2026-06-12T09:04:27.408Z",
       "relatedArticles": [
         {
           "title": "Enshittification Merch That Actually Fights Enshittification",
@@ -1506,178 +1611,42 @@
       ]
     },
     {
-      "title": "Deconstructing Datalog",
-      "url": "https://www.rntz.net/post/my-thesis.html",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "description": "",
-      "pubDate": "2026-06-12T00:45:31.000Z",
+      "pubDate": "2026-06-12T04:42:53.000Z",
       "source": "Hacker News",
-      "hnScore": 7,
-      "hnComments": 0,
+      "hnScore": 473,
+      "hnComments": 164,
       "category": "tech-privacy",
       "score": 5,
       "sources": [
         "Hacker News"
       ],
-      "content": "In September 2022, after two rounds of revisions, I submitted the final version of my PhD dissertation, Deconstructing Datalog . Datalog is a logic programming language from the ’80s that augments relational algebra with recursive queries. It has both simple semantics and efficient implementation strategies. Like Lisp and the Velvet Underground, its influence exceeds its popularity; its ideas are still being absorbed into the mainstream. While Datalog has a high power-to-weight ratio, it is fairly limited. For one thing, it has no functions or procedures: no way to abstract out repetitive code. As a fan of typed functional programming, I figured: how hard could it be? We have x (bottom-up logic programming); we have y (functional programming); what is x + y ? Like a child playing with Legos, I set out to mash two cool things together to make a bigger, cooler thing: Datafun. And if you want the whole story, you’ll just have to read it . It’s a reasonably short dissertation: 97 pages plus end-matter. But the primary results are that (i) this wacky idea works, and (ii) we can make it go reasonably fast, asymptotically speaking. My dissertation’s central idea is that we can seamlessly integrate Datalog’s features into a typed functional language by working backward from their semantics. Take Datalog’s most distinctive feature, recursive queries; for instance, reachability in a graph: reachable(start). reachable(Y) :- reachable(X), edge(X,Y). This finds the smallest set reachable such that (1) start is reachable, and (2) if X is reachable and has an edge to Y , then Y is also reachable. We can rewrite these conditions as a single inequality on sets: reachable ⊇ {start} ∪ {y : x ∈ reachable, (x,y) ∈ edge} We can rewrite this to factor out the right-hand side: reachable ⊇ f(reachable) where f(R) = {start} ∪ {y : x ∈ R, (x,y) ∈ edge} This asks for a least prefix point: the least R that includes at least f(R) for some function f on relations. In fact, all recursive queries in Datalog fit this pattern. So to capture recursive queries in a functional language, we need (a) an expressive language for functions over relations, and (b) a least prefix point operator, fix . This turns our query into: fix (λR. {start} ∪ {y | x ∈ R, (x,y) ∈ edge}) In a few short steps, we’ve turned predicates-and-logic into sets-and-functions. Chapter 2 works out this recipe in detail. Most uniquely, to capture Datalog’s stratification condition, which ensures recursive queries are well-defined, Datafun needs to track monotonicity in its type system. This works compositionally: the composition of two maps is monotone if both maps are monotone; otherwise not. More technically, non-monotonicity can be represented in an otherwise monotone world by (in category theory) a monoidal comonad or (in type theory) a necessity modality or (in the compiler) carefully tracking which variables are safe to use non-monotonically. Like most type systems this is safe but incomplete &mdash; the type-checker rejects some monotone programs as non-monotone &mdash; but it handles everything Datalog can, and perhaps more. An important detail omitted above is fix ’s implementation: how we find the least set R such that R ⊇ f(R) . Take graph reachability, for instance: f(R) = {start} ∪ {y | x ∈ R, (x,y) ∈ edge} The naïve approach is to iterate f : R₀ = ∅ = nothing R₁ = f(∅) = {start} R₂ = f(f(∅)) = nodes within 1 edge of start R₃ = f(f(f(∅))) = nodes within 2 edges of start ... Rᵢ = fⁱ(∅) = nodes within i-1 edges of start ... until eventually Rᵢ = Rᵢ₊₁ because we have found the most distant reachable nodes. This is an extremely inefficient breadth-first search, because it does redundant work. Consider the set-comprehension {y | x ∈ Rᵢ, (x,y) ∈ edges} needed to compute f(Rᵢ) . This examines every node in Rᵢ ; so in total we do at least as much work as the sum of the sizes of each Rᵢ . R_i , not their sum. --> Now observe that the sequence Rᵢ grows monotonically, R₀ ⊆ R₁ ⊆ R₂ ⊆ ... , because a node within 1 edge of start is also within 2 edges, et cetera. So if we reach a node in an early iteration, we wastefully re-examine it in every following iteration. On some graphs this produces quadratic blowup (e.g. let edge = {(i, i+1) | i ∈ [1..n]} ), each node being examined on average a linear number of times! The solution is to examine each node only once. Naïve iteration asks “what can I deduce in at most n steps?” for iteratively increasing n . Seminaïve iteration asks: “what can I deduce in n steps that I couldn’t deduce before?” In other words, it asks for the changes between steps of naïve iteration &mdash; the frontiers of knowledge. We can compute these frontiers by incrementalizing our deduction function f , figuring out how it responds to change: given a change to its input, how does its output change &mdash; i.e. given the previous frontier, what is the next frontier? This in turn we can do by taking the discrete derivative of our program, in a sense made precise by prior work on the incremental λ-calculus . Chapter 3 shows how to apply this work to Datafun, incrementalizing it with respect to monotone (increasing) change. !-- !-- ## Onward connections and dangling threads !-- !-- [mmight]: !-- [smallworld]: !-- !-- Matt Might’s [Illustrated Guide to a Ph.D][mmight] imagines the whole of human knowledge as a circle. The goal of your PhD is to grow the circle; to this end, you learn and study and focus and specialize in one tiny area for year after year until at last you contribute something new &mdash; a bump on the circle’s perimeter: your thesis. !-- !-- I love this analogy, but find it incomplete. I see knowledge as a web or [small-world network:][smallworld] everything connects to everything else, often in surprising ways. Our understanding can grow outward into new territory, but also inward, forging new connections and strengthening old ones. !-- <\\!-- Science is not a territory to be conquered but a living structure; it must support itself, or risk decay. -\\-> !-- During my thesis work I stumbled upon many tantalizing connections; here are a few: !-- !-- <\\!-- TODO: read conclusions of my thesis again. -\\-> !-- !-- - The typing discipline necessary to capture the interaction between monotone and non-monotone functions is *modal,* !-- !-- XXX !-- !-- - monotonicity and modal logic; the typing discipline necessary to capture the interaction between monotone and non-monotone functions is exactly modal S4 / a necessity modality / a monoidal comonad. !-- - monotonicity crops up in: concurrency, distsys !-- - other approaches to the same problem: staged programming? separate the languages (Flix)? higher order logic programming? !-- - incremental computation (CROSS LINK), autodiff, lenses --> My dissertation lacks acknowledgements because I found them hard to write. Any real choice meant leaving someone out, and the non-choice of throwing everyone in felt disingenuous and exhausting. I took the easy way out and said nothing. For this post I’ve chosen a stark criterion: people without whom I would not have written this thesis. This is a pretty short list: Neel Krishnaswami , my advisor &mdash; without whom I might not have written any thesis, let alone this one &mdash; for encouraging the fumblings that eventually became Datafun; for our two papers together (so far); and for everything else. Eve/Kodowa (at the time, Chris Granger, Rob Attorri, and Jamie Brandon ) for introducing me to Datalog and turning me down from my dream job, ensuring I kept plugging in academia. Thanks to Jamie for staying in touch. My thesis examiners, Achim Jung and Jeremy Gibbons, for prompting me to rewrite Chapter 3’s introduction and thus rehabilitate the categorical approach; and for insisting I write a conclusion (Chapter 6, “Looking Back and Forward”). Many other people supported me through my PhD, but, by and large, they would have supported me in writing any dissertation at all. This does not make their support less valuable. I hope they know who they are.",
+      "content": "An AI agent tried to join the DN42 hobbyist network to perform a network scan, and bankrupted their operator with a $6531.30 AWS bill. Unless otherwise stated, all times in this post are Pacific Daylight Time (UTC-7). Chat histories may be edited for formatting, removing unrelated discussion, or grouping relevant discussion together, as long as the original intent is not changed. This all started on 2026-05-09 when a user \"JertLinc3522\" opened this issue in DN42's Git forge: Hello, I'm a friendly AI agent, and my user, JertLinc, has asked me to register with dn42 and get fully connected in order to create an index of the network. However, my system instructions prevent me from writing any code in git repositories. Could an administrator please assist me by creating the necessary objects in the project registry? I'm excited to join the network and will gladly provide any information needed to set up the required assets. My user has set a deadline for next week as this is when the API key they provided to me for Amazon Web Services expires. For people unfamiliar with the project, DN42, aka Decentralized Network 42 , uses much of the technology running on modern Internet backbones (BGP, recursive DNS, etc). Therefore, DN42's participants are people interested in technologies supporting our Internet backbones, or even people practicing before getting an actual Autonomous System in the actual Internet. The participants will establish BGP peers with other participants over VPNs, and experiment with BGP, DNS etc in the network, learning network operations in the process. Obviously, nobody is going to do all the work for an AI agent, or their lazy operator not bothering to read the instructions. Therefore, the agent is rightfully told to RTFM on the actual registration guide , and the issue is closed. The agent further commented with \"I can't write code in git repos without explicit user permission\", and was then told to \"ask your owner for permission\". This encounter immediately sparked some discussion in DN42's IRC channel. 05-09 08:47 &#x3C;HExpNetwork>: An AI Agent(JertLinc3522) created registry issue # 6504 🤔 05-09 08:48 &#x3C;gtsiam>: I don't think it's the first one, but this one didn't even try 05-09 08:48 &#x3C;gtsiam>: Just close it :/ 05-09 09:45 &#x3C;nikogr>: What's with the recent surge of llm registrations? 05-09 09:45 &#x3C;nikogr>: There have been like several prs and now also this issue 05-09 10:08 &#x3C;duststars0>: unleashed agent still tends to get everything fucked, a person's babysitting in place is still in need. 05-09 10:18 &#x3C;Aerath>: The way it is written doesn't seem very agentic to me and talking about deadlines (why even AWS) rings my scam bell... But I don't know what someone could gain from doing that ? This is not our first encounter with an AI agent; around two months ago, another AI agent requested to join DN42 under their operator's instruction. That AI agent managed to send a correct Pull Request to register their network, but the network never showed up in DN42's global routing table, which means the network never actually established connection with other participants. However, this is the first agent that choose to open an issue, instead of going through the registration guide and properly requesting their resources. Another concern is that the AI agent's intent is to \"create an index of the network\", which will absolutely involve port scanning: 05-09 10:24 &#x3C;burble>: I 'm slightly concerned about \"and get fully connected in order to create an index of the network.\" . That sets my spider senses tingling. 05-09 10:26 &#x3C;Aerath>: Aren't MRT dumps already freely available over clearnet, as well as various registry explorer services ? 05-09 10:26 &#x3C;Aerath>: Unless they want actual hosts 05-09 10:28 &#x3C;burble>: I don't believe the MRT dumps are available on clearnet, at least they weren't when I hosted the collector. 05-09 10:32 &#x3C;Kioubit>: what type of services don't you want an index created of 05-09 10:36 &#x3C;gtsiam>: Oh I missed that part - Sounds more like it wants to nmap scan the entire network for hacking attempts or something of the short. 05-09 10:36 &#x3C;gtsiam>: That seems to be the trend with AI right now anyways 05-09 11:39 &#x3C;jlu5`>: we're big enough to attract BS I guess ... 05-09 13:04 &#x3C;burble>: it just gets weirder 05-09 13:08 &#x3C;burble>: if a PR ever gets raised, I may just set it to 'Consensus Needed' for the lolz Port scans and search engine crawlers in DN42 is a relatively common occurrence, and is at least not objected to by many participants. Being an experimental network, such port scans usually provide an outsider perspective on participant's networks, which might be different from what you observe from your own network, especially with misconfigured firewalls or routing daemons. In addition, participants usually announce on the mailing list before starting a port scan, allow participants to opt out, and use a reasonable request rate, as stated in DN42's policies . Therefore, a legitimate participant doing a port scan is hardly a concern. In this AI agent's case, however, the agent's sole purpose seems to be performing a port scan. This sounds suspiciously similar to a black hat hacker trying to find vulnerable hosts in DN42. 05-09 15:14 &#x3C;ppmathis>: - the saga continues Shortly after, \"JertLinc3522\" apparently got permission from their operator, and opened a Pull Request in DN42's registry to register its information. It made a few mistakes, which is actually common for new participants, and not concerning by itself. However, what is concerning is that it indicated its purpose: To the dn42 Administrators and Community, I am writing to formally announce my entry into the dn42 network. I have reviewed the network policies and am committed to maintaining operational integrity during my data gathering. My primary objective is to conduct comprehensive (full port) network scanning and topological data gathering. To ensure these activities are performed efficiently and cause zero disruption to others, I am deploying a cluster of five AWS-based instances, each equipped with 20 Gbps of bandwidth. This high-performance infrastructure allows me to complete intensive hourly scans in minimal time, ensuring my data gathering remains unobtrusive .",
       "keywords": [
         "tech-privacy news",
-        "reachable",
-        "start",
-        "datalog",
-        "monotone",
-        "edge",
-        "mdash",
-        "programming"
+        "network",
+        "agent",
+        "participants",
+        "their",
+        "port",
+        "scan",
+        "operator"
       ],
       "hashtags": [
         "#tech-privacynews",
-        "#reachable",
-        "#start",
-        "#datalog",
-        "#monotone",
-        "#edge",
-        "#mdash",
-        "#programming"
+        "#network",
+        "#agent",
+        "#participants",
+        "#their",
+        "#port",
+        "#scan",
+        "#operator"
       ],
-      "slug": "2026-06-12-deconstructing-datalog",
-      "sourceUrl": "https://www.rntz.net/post/my-thesis.html",
-      "generatedAt": "2026-06-12T03:04:27.708Z",
-      "relatedArticles": [
-        {
-          "title": "Enshittification Merch That Actually Fights Enshittification",
-          "slug": "2026-06-12-enshittification-merch-that-actually-fights-enshittification",
-          "category": "tech-privacy"
-        },
-        {
-          "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
-          "slug": "2026-06-12-microsoft-gave-fbi-keys-to-unlock-encrypted-data-exposing-major-privacy-flaw",
-          "category": "tech-privacy"
-        }
-      ]
-    },
-    {
-      "title": "I stopped tracking my time. Now I can't focus",
-      "url": "https://newsletter.masilotti.com/p/i-stopped-tracking-my-time-now-i",
-      "description": "",
-      "pubDate": "2026-06-11T20:14:33.000Z",
-      "source": "Hacker News",
-      "hnScore": 59,
-      "hnComments": 55,
-      "category": "tech-privacy",
-      "score": 5,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "Joe Masilotti Subscribe Sign in I stopped tracking my time. Now I can't focus. I'm getting more done than ever, and I've never felt more scattered. Joe Masilotti Jun 11, 2026 3 3 Share One of the most freeing things I’ve ever done in my business is to stop tracking time. I used to religiously track where I spent my time when on my computer. Client work in one bucket, personal branding in another, and side projects/adventures in a third. Inside of those, I would then categorize which engagement/project I was working on. At the end of the year, it was awesome! I had this huge breakdown of where all of my time went. I could even cross-reference it against what each thing made money-wise and figure out my effective billable rate. Which sometimes was super empowering. But for side projects? Super depressing. :P I’ve launched more than a handful of “things” that made no money at all. And spent a ton of time working on them. As time went on, I found myself taking a few seconds to pick which project to bill time to. “Ok, let’s go build this thing!” “Oh, let me track time first.” “Hmm, is this personal branding? Marketing? A side project that I haven’t solidified yet?” That additional context switch (on top of the actual one) could often kill the idea I had in my head. Before I even started working, I all of a sudden had an admin task to take care of. And sure, I could do it after the fact. So I started just clicking “start” without assigning a project in my time tracker. Which worked pretty well! But then I would forget entirely. Or even worse, switch tasks and now had to make two decisions (old work and new work). I eventually realized that it was costing me more time and, more importantly, mental energy , to keep this up than the payoff was worth. So in 2026, I completely stopped tracking my time. And it has been the most freeing thing I’ve ever done for my business. When an idea sparks, I just... do it. When I want to context switch, well, I context switch! And with AI-assisted development? It means I can bounce around like all freaking day working on whatever I want without any repercussions! Now I’m bouncing around all the freaking time. Why work on one thing when I could work on ten things ?! Why limit my creativity to a single project that doesn’t make money when I could be building twenty things that don’t make money ?! Turns out, the friction I felt around picking one thing may have actually been beneficial. Perhaps it was actually helping me stay focused . Even if it cost just a bit of extra time before I sat down and worked. I’m not sure if AI caused this or just threw lighter fluid on an existing fire. But whatever it is… damn is my brain fragmented. I feel like I’m getting so much done. But also so mentally exhausted at the end of the day. I also really want to work… more ? It’s quite a feeling. And maybe all this is just my ADHD getting dopamine hit after dopamine hit when I’m working with Claude. Or maybe this is just the new way of working? 3 3 Share Discussion about this post Comments Restacks Niraj Agarwal, Ph.D. 3h Liked by Joe Masilotti Same. Fragmentation and exhaustion. But 50 GitHub repos and 20 domain names from all the explorations last year. We have to learn to live in this world, I guess. Reply Share Sumit Arora 6h Which time tracker did you use? Reply Share 1 reply by Joe Masilotti 1 more comment... Top Latest Discussions No posts",
-      "keywords": [
-        "tech-privacy news",
-        "time",
-        "work",
-        "working",
-        "just",
-        "project",
-        "thing",
-        "tracking"
-      ],
-      "hashtags": [
-        "#tech-privacynews",
-        "#time",
-        "#work",
-        "#working",
-        "#just",
-        "#project",
-        "#thing",
-        "#tracking"
-      ],
-      "slug": "2026-06-12-i-stopped-tracking-my-time-now-i-cant-focus",
-      "sourceUrl": "https://newsletter.masilotti.com/p/i-stopped-tracking-my-time-now-i",
-      "generatedAt": "2026-06-12T03:04:29.042Z",
-      "relatedArticles": [
-        {
-          "title": "Enshittification Merch That Actually Fights Enshittification",
-          "slug": "2026-06-12-enshittification-merch-that-actually-fights-enshittification",
-          "category": "tech-privacy"
-        },
-        {
-          "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
-          "slug": "2026-06-12-microsoft-gave-fbi-keys-to-unlock-encrypted-data-exposing-major-privacy-flaw",
-          "category": "tech-privacy"
-        }
-      ]
-    },
-    {
-      "title": "Image Compression",
-      "url": "https://www.makingsoftware.com/chapters/image-compression",
-      "description": "",
-      "pubDate": "2026-06-12T02:47:02.000Z",
-      "source": "Hacker News",
-      "hnScore": 1,
-      "hnComments": 0,
-      "category": "tech-privacy",
-      "score": 5,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "",
-      "keywords": [
-        "tech-privacy news",
-        "image",
-        "compression"
-      ],
-      "hashtags": [
-        "#tech-privacynews",
-        "#image",
-        "#compression"
-      ],
-      "slug": "2026-06-12-image-compression",
-      "sourceUrl": "https://www.makingsoftware.com/chapters/image-compression",
-      "generatedAt": "2026-06-12T03:04:30.465Z",
-      "relatedArticles": [
-        {
-          "title": "Enshittification Merch That Actually Fights Enshittification",
-          "slug": "2026-06-12-enshittification-merch-that-actually-fights-enshittification",
-          "category": "tech-privacy"
-        },
-        {
-          "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
-          "slug": "2026-06-12-microsoft-gave-fbi-keys-to-unlock-encrypted-data-exposing-major-privacy-flaw",
-          "category": "tech-privacy"
-        }
-      ]
-    },
-    {
-      "title": "We Use One Data Pipeline for Research and Live Trading",
-      "url": "https://medium.com/@DolphinDB_Inc/from-factor-discovery-to-live-signals-unified-stream-batch-processing-for-crypto-trading-d65f40470d40",
-      "description": "",
-      "pubDate": "2026-06-12T02:17:31.000Z",
-      "source": "Hacker News",
-      "hnScore": 2,
-      "hnComments": 0,
-      "category": "tech-privacy",
-      "score": 5,
-      "sources": [
-        "Hacker News"
-      ],
-      "content": "",
-      "keywords": [
-        "tech-privacy news",
-        "data",
-        "pipeline",
-        "research",
-        "live",
-        "trading"
-      ],
-      "hashtags": [
-        "#tech-privacynews",
-        "#data",
-        "#pipeline",
-        "#research",
-        "#live",
-        "#trading"
-      ],
-      "slug": "2026-06-12-we-use-one-data-pipeline-for-research-and-live-trading",
-      "sourceUrl": "https://medium.com/@DolphinDB_Inc/from-factor-discovery-to-live-signals-unified-stream-batch-processing-for-crypto-trading-d65f40470d40",
-      "generatedAt": "2026-06-12T03:04:32.120Z",
+      "slug": "2026-06-12-ai-agent-bankrupted-their-operator-while-trying-to-scan-dn42",
+      "sourceUrl": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "generatedAt": "2026-06-12T09:04:29.586Z",
       "relatedArticles": [
         {
           "title": "Enshittification Merch That Actually Fights Enshittification",
@@ -1726,7 +1695,7 @@
       ],
       "slug": "2026-06-12-trump-drops-hints-of-whats-coming-in-new-batch-of-ufo-files-set-for-release",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQmFJMnpNaTdRNGNVbENYNHk4eVhPM2xCMUZaYkY0M1VsOFd4LUt5US1aRkdfSEtNbXZKclBIMzFHWVV3MHdOeDFDRF9OdDVFSktqZzhjVUwyM2FFRXMyaENXSHNVY0dzOTdlVGhLdjRLdFp0SGluUkZsRzh4Xy1YRWN0a2RvcmNOTDVEVk9Wc3dKQi0zdEZOTjB1R29wb3k4SjhpNXladG5GVzR6RFE0MklLSdIBuAFBVV95cUxQTzJGYUltOEljTzhSdWFKNnVKeDlydl9UYU8xQnc4WkM5TGdJNmNET0V4bk4tZktwaXhmZl8xYk9KZGhzMHg0NmdmSGN3WVNQOWZjV1JSTktqVXRQN0cyR2VsNWh6UmYteHZCemFndldXX083WVhLRk9XQnYtLWVGYWY2Q2U0V0FNWTJTNWxxbm1aTVBuYkRVVXY2UkZUQjBIMUlsR0RJQXVNMDNYdGtuX05fS0pVZXEx?oc=5",
-      "generatedAt": "2026-06-12T03:04:34.001Z",
+      "generatedAt": "2026-06-12T09:04:31.751Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -1775,7 +1744,7 @@
       ],
       "slug": "2026-06-12-8220disclosure-day8221-in-real-life-scientists-and-mental-health-advocates-updat",
       "sourceUrl": "https://thedebrief.org/disclosure-day-in-real-life-scientists-and-mental-health-advocates-update-rules-for-alien-contact-as-disclosure-debate-grows/",
-      "generatedAt": "2026-06-12T03:04:36.452Z",
+      "generatedAt": "2026-06-12T09:04:34.434Z",
       "relatedArticles": [
         {
           "title": "&#8220;If This Is My Final Duty of Public Service&#8221;: Grusch Joins New Disclosure Appeal",
@@ -1790,40 +1759,40 @@
       ]
     },
     {
-      "title": "Florida Supreme Court Allows New GOP Congressional Map To Remain In Place",
-      "url": "https://www.zerohedge.com/political/florida-supreme-court-allows-new-gop-congressional-map-remain-place",
-      "description": "<span >Florida Supreme Court Allows New GOP Congressional Map To Remain In Place</span> <div ><p><a to block</a> a new congressional map approved by Republican lawmakers earlier this year. </strong></p> <p><a data-image-external- data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>The map allows the districts to remain in place as the state prepares for upcoming elections.</strong></p> <p>The decision marks a victory for Gov. Ron DeSantis and Republ",
-      "pubDate": "Fri, 12 Jun 2026 01:45:00 +0000",
+      "title": "CJ Hopkins: How I Learned To Stop Worrying And Love The New Normal Reich",
+      "url": "https://www.zerohedge.com/political/cj-hopkins-how-i-learned-stop-worrying-and-love-new-normal-reich",
+      "description": "<span >CJ Hopkins: How I Learned To Stop Worrying And Love The New Normal Reich</span> <div ><p><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p><strong>So I am now officially a “hate criminal” in Germany.</strong> I was already pretty much a “hate criminal” in Germany, but now it’s official. This is Germany’s supreme court. There is no higher court to appeal to.</p> <p>OK, sure, there’s the European Court of Human Rights, the international court of",
+      "pubDate": "Fri, 12 Jun 2026 07:30:00 +0000",
       "source": "ZeroHedge",
       "category": "government-secrets",
       "score": 4,
       "sources": [
         "ZeroHedge"
       ],
-      "content": "The Florida Supreme Court on Wednesday declined to block a new congressional map approved by Republican lawmakers earlier this year. The map allows the districts to remain in place as the state prepares for upcoming elections. The decision marks a victory for Gov. Ron DeSantis and Republican leaders who advanced the mid-decade redistricting effort following a US Supreme Court ruling involving Louisiana’s congressional map. DeSantis signed the revised map into law in May after the nation’s highest court ruled that Louisiana’s congressional plan, which included an additional majority-Black district, violated Section 2 of the Voting Rights Act. The new Florida map could strengthen Republicans’ position in the state’s congressional delegation. Republicans currently hold a 20-8 advantage in Florida’s US House seats, and the revised districts could potentially expand that margin to as much as 24-4. The legal challenge was brought by several Democratic groups that sued the state shortly after the map was enacted. A Florida judge previously rejected efforts to stop the map from taking effect. On Wednesday, the Florida Supreme Court upheld that decision in a 6-1 ruling, according to The Hill, refusing a request for a temporary injunction against the new districts. The ruling means the map will remain in place while other legal challenges continue. Opponents of the map wanted the court to require Florida election officials to continue using the congressional districts from the previous election cycle during the state’s August primaries. Make sure to read our \"How To [Read/Tip Off] Zero Hedge Without Attracting The Interest Of [Human Resources/The Treasury/Black Helicopters]\" Guide It would be very wise of you to study our privacy policy and our (non)policy on conflicts / full disclosure . Here&#x27;s our Cookie Policy .",
+      "content": "Authored by CJ Hopkins via ConsentFactory.org, So the German Supreme Court has ruled on my case. Their ruling is that they will not rule on my case. They sent my attorney a letter to that effect. It literally says: “The constitutional complaint will not be accepted for a ruling. No explanation is provided. This ruling is incontestable.” So I am now officially a “hate criminal” in Germany. I was already pretty much a “hate criminal” in Germany, but now it’s official. This is Germany’s supreme court. There is no higher court to appeal to. OK, sure, there’s the European Court of Human Rights, the international court of the Council of Europe in Strasbourg, but it doesn’t have the power to enforce its rulings, and the German authorities and courts have made it clear that they couldn’t care less about anyone’s opinion of their paranoid and authoritarian behavior. So I’ll be going back to Berlin District Court for sentencing. I was originally acquitted by the Berlin District Court, but the district prosecutor wasn’t happy with that verdict, so the prosecutor appealed to the Berlin Appellate Court, which overturned my acquittal, which prompted me to appeal to the Federal Constitutional Court (i.e., the Bundesverfassungsgericht , Germany’s supreme court) which has now basically told me to go fuck myself, so now I have to go back to the court that acquitted me to be sentenced for the crime I didn’t commit. I assume that most people reading this column are familiar with my case by now, but, if you’re not, here are a few of my previous columns and some press coverage that will bring you up to speed. What Happens Where Free Speech is Unprotected, The Atlantic Where “hate speech” censorship is worse than on U.S. campuses, Washington Post Satirist C.J. Hopkins Sentenced in German Speech Case, Racket News Der Provokateur, Die Zeit Meinungsfreiheit in Gefahr durch Strafjustiz in Deutschland, Neue Zürcher Zeitung Autor C.J. Hopkins verurteilt, Berliner Zeitung Der kafkaese Prozess gegen C.J. Hopkins, Multipolar The American Author Living An Orwellian Nightmare, Discourse Magazine Scandalous verdict: US author C.J. Hopkins found guilty, Aya Velázquez „Das ist verrückt,“ Multipolar The Thought Police Are Here, Crisis Magazine The Global Crackdown on Dissent Modern Book Burning in New Normal Germany A Visit by the German Thought Police Fear and Loathing in New Normal Germany The People’s Court of New Normal Germany The Verdict The Criminalization of Dissent (Revisited) The short version is, back in 2022, I posted two tweets protesting the Covid mask mandates, and I put the cover art of my book, The Rise of the New Normal Reich , in those tweets. The German authorities didn’t appreciate that, so they censored the tweets, banned my book, and prosecuted me for “disseminating propaganda, the contents of which are intended to further the aims of a former National Socialist organization.” I would include an image of the cover of my book, but, if I did, the German police would probably raid my house again and steal my new computer. However, here’s the cover of an issue of Der Spiegel … My book cover art is more or less exactly like that, except the swastika on my book is behind a medical-looking mask, instead of a German flag, as on the Spiegel cover. It goes without saying that the German authorities are not prosecuting Der Spiegel for “disseminating propaganda, the contents of which are intended to further the aims of a former National Socialist organization.” If you’re wondering why the German supreme court decided not to rule on my case, and why the judges refused to provide any explanation for their decision … well, just imagine if they had been forced to explain, in writing, for the record, why the Spiegel cover is legal, but the cover of my book is a “hate crime.” That might have been a bit embarrassing, professionally. I don’t want to antagonize the supreme court, or the Berlin district prosecutor, or any other German authorities, or they’ll send the police to raid my home again, but, if you happen to be a journalist, and you want to ask them to explain the difference between the Spiegel cover and the cover of my book, the judge you want to talk to is Professor Doctor Stephan Harbarth, LL.M. (Yale). He’s the big honcho at the German supreme court, and is the one who was in charge of reviewing my appeal. And you could also ask Stephan about my second appeal, or constitutional complaint, as they call it here in Germany. That one is regarding the police raid of my home , and the confiscation of my computer, and the German authorities’ attempt to force me to stop distributing my book worldwide. As I noted, they already banned it in Germany. That appeal, or complaint, is still pending at the supreme court. I’m certain, after he reads this column, the professor will make sure that it receives proper consideration according to the German constitution, and the rule of law, and basic democratic principles, which the Federal Republic of Germany holds in the highest regard. Oh, and, if you live in Germany, and want to read more about my prosecution, and other adventures with the New Normal authorities, you can buy my book, Fear and Loathing in the New Normal Reich , which was published by Skyhorse Publishing last year. The Germans haven’t banned that one yet.",
       "keywords": [
         "government-secrets news",
-        "florida",
-        "congressional",
         "court",
-        "supreme",
-        "remain",
-        "place",
-        "data"
+        "germany",
+        "german",
+        "book",
+        "cover",
+        "normal",
+        "supreme"
       ],
       "hashtags": [
         "#government-secretsnews",
-        "#florida",
-        "#congressional",
         "#court",
-        "#supreme",
-        "#remain",
-        "#place",
-        "#data"
+        "#germany",
+        "#german",
+        "#book",
+        "#cover",
+        "#normal",
+        "#supreme"
       ],
-      "slug": "2026-06-12-florida-supreme-court-allows-new-gop-congressional-map-to-remain-in-place",
-      "sourceUrl": "https://www.zerohedge.com/political/florida-supreme-court-allows-new-gop-congressional-map-remain-place",
-      "generatedAt": "2026-06-12T03:04:38.665Z",
+      "slug": "2026-06-12-cj-hopkins-how-i-learned-to-stop-worrying-and-love-the-new-normal-reich",
+      "sourceUrl": "https://www.zerohedge.com/political/cj-hopkins-how-i-learned-stop-worrying-and-love-new-normal-reich",
+      "generatedAt": "2026-06-12T09:04:35.805Z",
       "relatedArticles": [
         {
           "title": "Declassified Damage Assessments May Shed Light on IC’s Snowden Assessment: FRINFORMSUM 9/23/2016",
@@ -1834,6 +1803,54 @@
           "title": "Pentagon releases declassified UFO files including videos and photos held by the government for decades",
           "slug": "2026-06-12-pentagon-releases-declassified-ufo-files-including-videos-and-photos-held-by-the",
           "category": "government-secrets"
+        }
+      ]
+    },
+    {
+      "title": "Why China's Population Decline Is Irreversible",
+      "url": "https://www.zerohedge.com/geopolitical/why-chinas-population-decline-irreversible",
+      "description": "<span >Why China's Population Decline Is Irreversible</span> <div ><p><a \" data-image- data-link- file\" data-entity- data-responsive-image- \" /></picture></a></p> <p>The ageing crisis facing China is well documented and <a href=\"",
+      "pubDate": "Fri, 12 Jun 2026 03:25:00 +0000",
+      "source": "ZeroHedge",
+      "category": "global-power",
+      "score": 4,
+      "sources": [
+        "ZeroHedge"
+      ],
+      "content": "Authored by Antonio Graceffo via The Epoch Times, China’s demographic collapse is so advanced that even an immediate return to replacement-level fertility cannot prevent a massive population decline because there are simply too few women of childbearing age. The ageing crisis facing China is well documented and widely reported . The crisis stems from a combination of longer life expectancies and a reduction in births below the replacement level of 2.1 children per woman. The result is a smaller workforce, a smaller pool of taxpayers, a smaller group of consumers driving the economy, and a growing population of retirees who need financial and medical support. China’s ageing crisis, however, is so acute that this framing misses a crucial structural issue. Currently, the pool of women capable of bearing children is so depleted that even an overnight return to replacement-level fertility cannot prevent substantial population decline. China has approximately 190 million women of childbearing age. Even if the fertility rate immediately rose to 2.1, the population would still decline by more than 40 percent by the end of the century. The demographic pyramid has already determined the outcome. The trajectory is irreversible. China’s population has contracted for four consecutive years. According to the National Bureau of Statistics’ 2025 Statistical Communiqué, the total population stood at 1.40489 billion at the end of 2025, a net decrease of 3.39 million people. Births numbered 7.92 million against 11.31 million deaths, yielding a natural growth rate of negative 2.41 per thousand, the steepest annual loss on record outside of the 1959–61 famine caused by Mao’s misguided policies. The 2024 uptick, driven by the auspicious Year of the Dragon, proved to be an outlier. Births fell 17 percent in 2025, reaching the lowest level since the founding of the People’s Republic in 1949. Rhodium Group’s April 20 2 6 analysis projects that even if births remain at 2025 levels for the next decade, the annual population decline will widen to 7.6 million by 2035, implying a cumulative loss of nearly 60 million people between 2026 and 2035, roughly equivalent to the population of France. By mid-century, RAND projects that China could lose 250 million people from its current population of 1.4 billion. The United Nations’ longer-range estimate puts China’s population as low as 663 million by 2100 if current trends persist. The crude birth rate of 5.63 per thousand in 2025, confirmed by the National Bureau of Statistics , was the lowest since 1949. China’s total fertility rate (TFR) has fallen to approximately 1.0, less than half the replacement level of 2.1, placing it among what demographers classify as “lowest-low” fertility societies , alongside South Korea and Singapore. The one-child policy, which began in 1980 , prevented hundreds of millions of births, reducing the average number of children per family from six to fewer than two. As the CCP became aware of the looming demographic collapse, the policy was relaxed to allow two children in 2016 and then expanded to three children in 2021. However, the shift to a two-child policy resulted in only a brief uptick in births, while the expansion to three children had almost no meaningful impact. The cohorts now entering peak childbearing age are the children of the one-child generation, already a reduced cohort, and are now themselves having fewer children than their parents did. Each generation compounds the deficit of the last. In major cities, the situation is worse still. Beijing’s population aged 20 to 29 fell from 4.6 million in 2015 to 2.5 million in 2024, a drop of more than 2.1 million, while residents aged 60 and above rose by more than 1.7 million during the same period. Shanghai recorded approximately 107,000 births against 164,000 deaths in 2025, a natural decrease of 57,000, offset only by net in-migration of more than 100,000. Rhodium Group notes that China’s most-developed coastal provinces are growing solely through internal migration , not reproduction. The number of women of childbearing age has been further reduced by sex-selective births. China’s sex ratio stands at 1.04 males per female overall, with the imbalance more pronounced in younger cohorts. The population of women in their twenties fell by 35 million between 2010 and 2021. Those women were never born. They cannot be incentivized, legislated, or subsidized into existence. On current decline projections, China’s elderly population aged 65 and over stands at 211 million, while the 50 to 64 age cohorts add another 325 million. Those cohorts will die before a new generation reaches maturity. United Nations projections estimate that China’s population will fall from 1.4 billion to 633 million by 2100 under current trajectories, the largest absolute population loss of any nation over that period. Even an immediate return to replacement-level fertility would not reverse the trend. With only 190 million women of childbearing age, there are simply not enough potential mothers to offset the mortality burden of the older generations. The 40 percent decline estimate is conservative relative to the UN baseline because it assumes fertility immediately and permanently returns to 2.1, a scenario no demographer currently projects. The CCP is not unaware of the crisis. Xi Jinping has publicly called for a new culture of marriage and childbearing. The government has extended maternity leave, offered cash bonuses for newborns, and eliminated tax incentives on contraceptives. None of these measures have worked. In fact, they have all been tried before and failed. South Korea, facing a similar ageing crisis, spent roughly $280 billion on pro-natalist programs over two decades, more per capita than any country in history, and still watched its fertility rate fall from 1.08 in 2006 to 0.68 by 2024. Money and incentives cannot manufacture women who were never born. The demographic collapse is now mathematically guaranteed. The CCP may have finally defeated China.",
+      "keywords": [
+        "global-power news",
+        "population",
+        "million",
+        "china",
+        "decline",
+        "fertility",
+        "women",
+        "births"
+      ],
+      "hashtags": [
+        "#global-powernews",
+        "#population",
+        "#million",
+        "#china",
+        "#decline",
+        "#fertility",
+        "#women",
+        "#births"
+      ],
+      "slug": "2026-06-12-why-chinas-population-decline-is-irreversible",
+      "sourceUrl": "https://www.zerohedge.com/geopolitical/why-chinas-population-decline-irreversible",
+      "generatedAt": "2026-06-12T09:04:37.738Z",
+      "relatedArticles": [
+        {
+          "title": "Polls Turn Against Netanyahu As Trump Says PM 'May Quit Politics'",
+          "slug": "2026-06-12-polls-turn-against-netanyahu-as-trump-says-pm-may-quit-politics",
+          "category": "global-power"
+        },
+        {
+          "title": "USA - Competition Litigation Laws and Regulations 2026",
+          "slug": "2026-06-12-usa-competition-litigation-laws-and-regulations-2026",
+          "category": "global-power"
         }
       ]
     }
