@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 13 Jun 2026 17:00:57 GMT</lastBuildDate>
-    <pubDate>Sat, 13 Jun 2026 17:00:57 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 18:00:44 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 18:00:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Near-Death Surf</title>
+      <link>https://newsanarchist.com/articles/2026-06-13-near-death-surf</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-13-near-death-surf</guid>
+      <pubDate>Sat, 13 Jun 2026 18:00:29 GMT</pubDate>
+      <description>Near-Death Surf</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-13-near-death-surf.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>FISA Section 702 Expires</title>
       <link>https://newsanarchist.com/articles/2026-06-13-fisa-section-702-expires</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>China Unveils Nuclear-Powered Floating Hub For Green Shipping</title>
-      <link>https://newsanarchist.com/articles/2026-06-10-china-unveils-nuclear-powered-floating-hub-for-green-shipping</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-china-unveils-nuclear-powered-floating-hub-for-green-shipping</guid>
-      <pubDate>Wed, 10 Jun 2026 02:10:00 GMT</pubDate>
-      <description>&lt;span &gt;China Unveils Nuclear-Powered Floating Hub For Green Shipping&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;strong&gt;China has proposed a large offshore logistics platform powered by nuclear energy that would function as both a cargo transfer hub and a refuelling/charging centre for ships,&lt;/strong&gt; &lt;a writes&lt;/a&gt; that&lt;strong&gt; the platform would rely on a molten salt reactor as its primary energy source, supplemented by renewable technologies including solar and wind power.&lt;/strong&gt; It would also feature systems for hydr</description>
-      <content:encoded><![CDATA[<span >China Unveils Nuclear-Powered Floating Hub For Green Shipping</span> <div ><p><strong>China has proposed a large offshore logistics platform powered by nuclear energy that would function as both a cargo transfer hub and a refuelling/charging centre for ships,</strong> <a writes</a> that<strong> the platform would rely on a molten salt reactor as its primary energy source, supplemented by renewable technologies including solar and wind power.</strong> It would also feature systems for hydr]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-china-unveils-nuclear-powered-floating-hub-for-green-shipping.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
