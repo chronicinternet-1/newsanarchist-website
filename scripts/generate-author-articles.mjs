@@ -203,6 +203,20 @@ function estimateReadTime(text) {
 }
 
 // ── Brave Search + Workers AI article pipeline ───────────────────
+async function cfAI(messages, maxTokens) {
+  const res = await fetch(CF_AI_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
+    body: JSON.stringify({ messages, max_tokens: maxTokens }),
+  });
+  const data = await res.json();
+  if (!data.success) throw new Error(`Workers AI error: ${JSON.stringify(data.errors)}`);
+  const resp = data.result?.response;
+  // Workers AI auto-parses JSON responses — return object directly or stringify strings
+  if (typeof resp === 'object' && resp !== null) return resp;
+  return (resp || '').trim();
+}
+
 async function findAndWriteArticle(author) {
   const query = author.search_queries[Math.floor(Math.random() * author.search_queries.length)];
   LOG(`${author.name} searching: "${query}"`);
@@ -220,48 +234,61 @@ async function findAndWriteArticle(author) {
       `[${i+1}] ${r.title}\nURL: ${r.url}\nSnippet: ${r.description || ''}\n`
     ).join('\n');
     if (!searchContext) throw new Error('No results');
+    LOG(`Brave: ${results.length} results`);
   } catch (e) {
     LOG(`Brave search failed: ${e.message}`);
     return null;
   }
 
-  // Step 2: Workers AI writes the article
   const today = new Date().toISOString().slice(0, 10);
-  const prompt = `You are ${author.name}, ${author.credential}, writing for NewsAnarchist.com — an independent investigative news site with 128,000+ monthly pageviews and DR 75. Your beat: ${author.beat}. Your voice: ${author.voice}.
 
-Today is ${today}. Based on the search results below, identify the most important, newsworthy story on your beat and write an original 800-1,200 word investigative article about it.
-
-SEARCH RESULTS:
-${searchContext}
-
-Requirements:
-- Must be about a real, verifiable recent event from the search results
-- Include specific facts, names, dollar amounts, dates from the results
-- Write in your distinctive voice
-- 800-1,200 words in the body
-
-Return ONLY valid JSON, no markdown fences, no preamble:
-{"title":"Compelling headline under 80 chars","lede":"One devastating sentence stating the core revelation","body":"800-1200 word article in plain text paragraphs separated by double newlines. No markdown.","the_take":"150-200 word first-person editorial take. State your thesis. Name who wins if nothing changes.","source_url":"Primary source URL from results","source_name":"Name of primary source","keywords":["keyword1","keyword2","keyword3"],"eic_worthy":true}`;
-
+  // Step 2a: Metadata call — small JSON only (title, lede, source, keywords)
+  let meta = null;
   try {
-    const aiRes = await fetch(CF_AI_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
-      body: JSON.stringify({
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: 4000,
-      }),
-    });
-    const aiData = await aiRes.json();
-    const raw = (aiData.result?.response || '').trim();
-    const start = raw.indexOf('{');
-    const end   = raw.lastIndexOf('}');
-    if (start === -1 || end === -1) throw new Error('No JSON found');
-    return JSON.parse(raw.slice(start, end + 1));
+    const metaRaw = await cfAI([
+      { role: 'system', content: `You are ${author.name}, ${author.credential}, writing for NewsAnarchist.com. Beat: ${author.beat}. Today: ${today}. Based on the search results, identify the best newsworthy story. Return ONLY valid JSON, no markdown:
+{"title":"headline under 80 chars","lede":"one devastating sentence","source_url":"url","source_name":"source name","keywords":["k1","k2","k3"],"eic_worthy":true}` },
+      { role: 'user', content: `SEARCH RESULTS:\n${searchContext}\n\nReturn only the JSON metadata object.` },
+    ], 350);
+    if (typeof metaRaw === 'object' && metaRaw !== null) {
+      meta = metaRaw;
+    } else {
+      const s = metaRaw.indexOf('{'), e = metaRaw.lastIndexOf('}');
+      if (s === -1 || e === -1) throw new Error('No JSON in metadata response');
+      meta = JSON.parse(metaRaw.slice(s, e + 1));
+    }
+    LOG(`Title: ${meta.title}`);
   } catch (e) {
-    LOG(`Article generation failed: ${e.message}`);
+    LOG(`Metadata call failed: ${e.message}`);
     return null;
   }
+
+  // Step 2b: Body call — plain text, no JSON overhead
+  let body = '';
+  try {
+    body = await cfAI([
+      { role: 'system', content: `You are ${author.name}, ${author.credential}. Voice: ${author.voice}. Write investigative journalism in plain text paragraphs separated by double newlines. No markdown, no JSON, no headers. Just the article body text.` },
+      { role: 'user', content: `Write a 350-450 word investigative article body about: "${meta.title}"\n\nUse these search results for facts:\n${searchContext}\n\nInclude specific names, dates, dollar amounts. Write in your voice. Plain text only.` },
+    ], 800);
+    if (!body || body.length < 100) throw new Error('Body too short');
+  } catch (e) {
+    LOG(`Body call failed: ${e.message}`);
+    return null;
+  }
+
+  // Step 2c: The Take — plain text
+  let the_take = '';
+  try {
+    the_take = await cfAI([
+      { role: 'system', content: `You are ${author.name}. Write a short first-person editorial take. Plain text only, no JSON, no markdown.` },
+      { role: 'user', content: `Write a 100-130 word first-person editorial take on: "${meta.title}". State your thesis. Name who wins if nothing changes.` },
+    ], 250);
+  } catch (e) {
+    LOG(`Take call failed (non-fatal): ${e.message}`);
+    the_take = '';
+  }
+
+  return { ...meta, body, the_take };
 }
 
 // ── EIC post-publish review — Workers AI ─────────────────────────
@@ -284,6 +311,30 @@ async function eicReview(article, author) {
     return JSON.parse(raw.replace(/```json|```/g, '').trim());
   } catch(e) {
     return { approve: true, reason: `EIC check failed (${e.message}) — defaulting to approve` };
+  }
+}
+
+// ── Copy Desk quality gate ───────────────────────────────────────
+async function copyDeskReview(article, author) {
+  try {
+    const res = await fetch('https://na-copy-desk.steve-5cb.workers.dev/review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        title: article.title || '',
+        body: article.body || '',
+        source_url: article.source_url || '',
+        source_name: article.source_name || '',
+        category: author.category_slug || author.category || '',
+        author: author.name || '',
+      }),
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) return { pass: true, reason: 'Copy Desk unavailable — defaulting to pass' };
+    return await res.json();
+  } catch (e) {
+    LOG(`Copy Desk error: ${e.message} — defaulting to pass`);
+    return { pass: true, reason: `Copy Desk error (${e.message}) — defaulting to pass` };
   }
 }
 
@@ -502,6 +553,13 @@ async function main() {
     process.exit(0);
   }
 
+  // Copy Desk quality gate — runs before EIC
+  const copyDesk = await copyDeskReview(article, author);
+  LOG(`Copy Desk: ${copyDesk.pass ? 'PASS' : 'REJECT'} — ${copyDesk.reason}`);
+  if (!copyDesk.pass) {
+    LOG('Copy Desk rejected article — not publishing');
+    process.exit(0);
+  }
   // EIC post-review
   const review = await eicReview(article, author);
   LOG(`EIC review: ${review.approve ? 'APPROVED' : 'REJECTED'} — ${review.reason}`);
