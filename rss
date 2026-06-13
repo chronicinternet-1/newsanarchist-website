@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 13 Jun 2026 11:00:44 GMT</lastBuildDate>
-    <pubDate>Sat, 13 Jun 2026 11:00:44 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 13:00:47 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 13:00:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Food Stamp Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-13-food-stamp-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-13-food-stamp-fraud</guid>
+      <pubDate>Sat, 13 Jun 2026 13:00:35 GMT</pubDate>
+      <description>Food Stamp Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-13-food-stamp-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>China-Taiwan Tensions</title>
       <link>https://newsanarchist.com/articles/2026-06-13-china-taiwan-tensions</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Japan Plans Social Media Age Checks via Carrier Data</title>
-      <link>https://newsanarchist.com/articles/2026-06-10-japan-plans-social-media-age-checks-via-carrier-data</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-japan-plans-social-media-age-checks-via-carrier-data</guid>
-      <pubDate>Tue, 09 Jun 2026 12:12:00 GMT</pubDate>
-      <description>&amp;#32; submitted by &amp;#32; &lt;a &amp;#32; &lt;span&gt;&lt;a href="</description>
-      <content:encoded><![CDATA[&#32; submitted by &#32; <a &#32; <span><a href="]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-japan-plans-social-media-age-checks-via-carrier-data.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
