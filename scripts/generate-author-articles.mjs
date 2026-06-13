@@ -307,8 +307,10 @@ async function eicReview(article, author) {
       }),
     });
     const aiData = await aiRes.json();
-    const raw = (aiData.result?.response || '{}').trim();
-    return JSON.parse(raw.replace(/```json|```/g, '').trim());
+    const eicResp = aiData.result?.response;
+    return (typeof eicResp === 'object' && eicResp !== null)
+      ? eicResp
+      : JSON.parse((eicResp || '{}').replace(/```json|```/g, '').trim());
   } catch(e) {
     return { approve: true, reason: `EIC check failed (${e.message}) — defaulting to approve` };
   }
