@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 13 Jun 2026 05:00:46 GMT</lastBuildDate>
-    <pubDate>Sat, 13 Jun 2026 05:00:46 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 07:00:55 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 07:00:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon Releases UFO Videos</title>
+      <link>https://newsanarchist.com/articles/2026-06-13-pentagon-releases-ufo-videos</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-13-pentagon-releases-ufo-videos</guid>
+      <pubDate>Sat, 13 Jun 2026 07:00:41 GMT</pubDate>
+      <description>Pentagon Releases UFO Videos</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-13-pentagon-releases-ufo-videos.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>General Vanishes</title>
       <link>https://newsanarchist.com/articles/2026-06-13-general-vanishes</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Bitcoin Perps' Algorithmic '0.01%' Scythe: How The Funding-Rate Mechanism Explains Your "Mystery" Liquidations</title>
-      <link>https://newsanarchist.com/articles/2026-06-10-bitcoin-perps-algorithmic-001-scythe-how-the-funding-rate-mechanism-explains-you</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-bitcoin-perps-algorithmic-001-scythe-how-the-funding-rate-mechanism-explains-you</guid>
-      <pubDate>Tue, 09 Jun 2026 23:15:00 GMT</pubDate>
-      <description>&lt;span &gt;Bitcoin Perps' Algorithmic '0.01%' Scythe: How The Funding-Rate Mechanism Explains Your "Mystery" Liquidations&lt;/span&gt; &lt;div &gt;&lt;p&gt;&lt;em&gt;Authored by &lt;a Aki Chen&lt;/a&gt;,&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why is derivatives trading the exchange’s money printer? &lt;/strong&gt;Why do some venues dare to take the other side of their customers’ trades? By unpacking the funding-rate mechanics of Bitcoin perpetual futures (perps) and the surrounding market dynamics, we show how traders are led—step by step—into a fatal trap</description>
-      <content:encoded><![CDATA[<span >Bitcoin Perps' Algorithmic '0.01%' Scythe: How The Funding-Rate Mechanism Explains Your "Mystery" Liquidations</span> <div ><p><em>Authored by <a Aki Chen</a>,</em></p> <p><strong>Why is derivatives trading the exchange’s money printer? </strong>Why do some venues dare to take the other side of their customers’ trades? By unpacking the funding-rate mechanics of Bitcoin perpetual futures (perps) and the surrounding market dynamics, we show how traders are led—step by step—into a fatal trap]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-bitcoin-perps-algorithmic-001-scythe-how-the-funding-rate-mechanism-explains-you.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
