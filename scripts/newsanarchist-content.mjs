@@ -28,6 +28,22 @@ const SITE_DIR = path.resolve(__dirname, '../newsanarchist-website');
 const TRENDING_JSON = path.join(SITE_DIR, 'trending-topics.json');
 const ARTICLES_DIR = path.join(SITE_DIR, 'articles');
 const SITE_URL = 'https://newsanarchist.com';
+
+const CARD_COLORS = {"surveillance-state": {"bg": "#0f0808", "accent": "#B91C1C"}, "corporate-watchdog": {"bg": "#0a0a00", "accent": "#D97706"}, "government-secrets": {"bg": "#080c14", "accent": "#3B82F6"}, "tech-privacy": {"bg": "#080d0f", "accent": "#06B6D4"}, "global-power": {"bg": "#0a0a0f", "accent": "#7C3AED"}, "money-markets": {"bg": "#050f0a", "accent": "#059669"}, "unexplained": {"bg": "#0a0814", "accent": "#8B5CF6"}, "true-crime": {"bg": "#0f0808", "accent": "#DC2626"}, "financial-fraud": {"bg": "#0f0a00", "accent": "#F59E0B"}, "conflict-wars": {"bg": "#080c08", "accent": "#65A30D"}, "web3-blockchain": {"bg": "#050f0f", "accent": "#0D9488"}};
+function cardThumb(catSlug, cssClass, loading) {
+  const c = CARD_COLORS[catSlug] || {bg:'#0a0a0a', accent:'#888'};
+  const a = c.accent;
+  return `<div class="${cssClass}" style="background:${c.bg};position:relative;overflow:hidden">` +
+    `<svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.18" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg">` +
+    `<line x1="0" y1="45" x2="160" y2="45" stroke="${a}" stroke-width=".5"/>` +
+    `<line x1="80" y1="0" x2="80" y2="90" stroke="${a}" stroke-width=".5"/>` +
+    `<circle cx="120" cy="45" r="30" fill="none" stroke="${a}" stroke-width=".5"/>` +
+    `<circle cx="120" cy="45" r="18" fill="none" stroke="${a}" stroke-width=".5"/>` +
+    `<circle cx="120" cy="45" r="6" fill="${a}" opacity=".4"/>` +
+    `</svg>` +
+    `<div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${a}"></div>` +
+    `</div>`;
+}
 // Load Anthropic API key from credentials file
 const _creds = fs.readFileSync(process.env.HOME + '/.openclaw/secrets/credentials.env', 'utf8');
 const ANTHROPIC_API_KEY = _creds.match(/ANTHROPIC_API_KEY=(.+)/m)?.[1]?.trim();
@@ -1214,7 +1230,7 @@ ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.na
 </div>
 <div class="art-meta">${dateDisplay}<br>${readTime}</div>
 </div>
-'<img src="/images/categories/' + catSlug + '.svg" alt="' + title.replace(/"/g,"'") + '" class="art-img" loading="eager">'
+cardThumb(catSlug, "art-img", "eager")
 <div id="ezoic-pub-ad-placeholder-101"></div>
 <script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
