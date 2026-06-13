@@ -596,6 +596,24 @@ async function main() {
   if (state.published.length > 500) state.published = state.published.slice(-500);
   saveState(state);
 
+  // Register article in generated-articles.json
+  const genPath = path.join(SITE_DIR, 'generated-articles.json');
+  try {
+    const genArticles = JSON.parse(fs.readFileSync(genPath, 'utf-8'));
+    const newEntry = {
+      title: article.title || '',
+      slug,
+      category: author.category || author.category_slug || author.beat || '',
+      filename: slug + '.html',
+      pubDate,
+      generatedAt: new Date().toISOString(),
+    };
+    const filtered = genArticles.filter(a => a.slug !== slug && a.filename !== slug + '.html');
+    filtered.unshift(newEntry);
+    fs.writeFileSync(genPath, JSON.stringify(filtered));
+    LOG('Registered in generated-articles.json');
+  } catch(e) { LOG('Warning: could not update generated-articles.json: ' + e.message); }
+
   // Publish
   LOG('Publishing...');
   try {

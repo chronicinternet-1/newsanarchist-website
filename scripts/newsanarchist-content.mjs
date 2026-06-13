@@ -4010,8 +4010,18 @@ async function runPublish() {
     console.log(`  ✅ Committed: ${commitMsg}`);
 
     const branch = execSync(`git -C "${gitDir}" rev-parse --abbrev-ref HEAD`, { encoding: 'utf-8' }).trim();
-    execSync(`git -C "${gitDir}" push origin ${branch}`, { stdio: 'pipe', timeout: 30000 });
-    console.log('  ✅ Pushed to GitHub — Cloudflare Pages deploy triggered.');
+    // Direct Upload mode: git push is a silent no-op — use wrangler pages deploy
+    const _dEnv = Object.assign({}, process.env);
+    delete _dEnv.CLOUDFLARE_API_TOKEN;
+    const _cr = fs.readFileSync('/home/ubuntu/.openclaw/secrets/credentials.env', 'utf-8');
+    _dEnv.CLOUDFLARE_API_KEY    = _cr.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim();
+    _dEnv.CLOUDFLARE_EMAIL      = _cr.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
+    _dEnv.CLOUDFLARE_ACCOUNT_ID = _cr.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
+    execSync('npx wrangler@4.93.1 pages deploy . --project-name newsanarchist-website --branch=master --commit-dirty=true', {
+      cwd: gitDir, env: _dEnv, stdio: 'pipe', timeout: 180000
+    });
+    execSync(`curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/2b30983b0c36254440e8262db846a1f8/purge_cache" -H "X-Auth-Email: ${_dEnv.CLOUDFLARE_EMAIL}" -H "X-Auth-Key: ${_dEnv.CLOUDFLARE_API_KEY}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`, { timeout: 15000 });
+    console.log('  ✅ Deployed to Cloudflare Pages + cache purged');
   } catch (e) {
     console.error(`  ❌ Git error: ${e.message}`);
     if (e.stdout) console.error(e.stdout.toString());

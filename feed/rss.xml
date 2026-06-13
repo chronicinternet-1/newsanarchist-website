@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 13 Jun 2026 03:10:56 GMT</lastBuildDate>
-    <pubDate>Sat, 13 Jun 2026 03:10:56 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 04:36:01 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 04:36:01 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Korea Fines Coupang</title>
+      <link>https://newsanarchist.com/articles/2026-06-13-korea-fines-coupang</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-13-korea-fines-coupang</guid>
+      <pubDate>Sat, 13 Jun 2026 04:35:47 GMT</pubDate>
+      <description>Korea Fines Coupang</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-13-korea-fines-coupang.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UK Plans To Jail Tech CEOs Who Refuse To Spy On Every Phone</title>
       <link>https://newsanarchist.com/articles/2026-06-11-uk-plans-to-jail-tech-ceos-who-refuse-to-spy-on-every-phone</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Iran Threatens "Decisive Response" After US Begins 'Self-Defense' Strikes Following Downing Of Apache Helicopter</title>
-      <link>https://newsanarchist.com/articles/2026-06-10-iran-threatens-decisive-response-after-us-begins-self-defense-strikes-following</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-iran-threatens-decisive-response-after-us-begins-self-defense-strikes-following</guid>
-      <pubDate>Tue, 09 Jun 2026 21:25:00 GMT</pubDate>
-      <description>&lt;span &gt;Iran Threatens "Decisive Response" After US Begins 'Self-Defense' Strikes Following Downing Of Apache Helicopter&lt;/span&gt; &lt;div &gt;&lt;h2&gt;Summary:&lt;/h2&gt; &lt;ul&gt;&lt;li&gt; &lt;p&gt;&lt;em&gt;US &lt;strong&gt;begins 'self defense' strikes&lt;/strong&gt; against Iran&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;Iran threatens &lt;strong&gt;retaliation &lt;/strong&gt;after US retaliatory strikes&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;Trump says &lt;strong&gt;'US must respond' &lt;/strong&gt;after Iran downed Apache over Strait &lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;em&gt;Trump says Washington and Tehran</description>
-      <content:encoded><![CDATA[<span >Iran Threatens "Decisive Response" After US Begins 'Self-Defense' Strikes Following Downing Of Apache Helicopter</span> <div ><h2>Summary:</h2> <ul><li> <p><em>US <strong>begins 'self defense' strikes</strong> against Iran</em></p> </li> <li> <p><em>Iran threatens <strong>retaliation </strong>after US retaliatory strikes</em></p> </li> <li> <p><em>Trump says <strong>'US must respond' </strong>after Iran downed Apache over Strait </em></p> </li> <li> <p><em>Trump says Washington and Tehran]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-iran-threatens-decisive-response-after-us-begins-self-defense-strikes-following.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
