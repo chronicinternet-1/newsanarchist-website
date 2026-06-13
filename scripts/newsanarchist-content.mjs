@@ -33,15 +33,17 @@ const CARD_COLORS = {"surveillance-state": {"bg": "#0f0808", "accent": "#B91C1C"
 function cardThumb(catSlug, cssClass, loading) {
   const c = CARD_COLORS[catSlug] || {bg:'#0a0a0a', accent:'#888'};
   const a = c.accent;
-  return `<div class="${cssClass}" style="background:${c.bg};position:relative;overflow:hidden">` +
-    `<svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.18" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg">` +
-    `<line x1="0" y1="45" x2="160" y2="45" stroke="${a}" stroke-width=".5"/>` +
-    `<line x1="80" y1="0" x2="80" y2="90" stroke="${a}" stroke-width=".5"/>` +
-    `<circle cx="120" cy="45" r="30" fill="none" stroke="${a}" stroke-width=".5"/>` +
-    `<circle cx="120" cy="45" r="18" fill="none" stroke="${a}" stroke-width=".5"/>` +
-    `<circle cx="120" cy="45" r="6" fill="${a}" opacity=".4"/>` +
+  const label = (catSlug || '').replace(/-/g,' ').toUpperCase();
+  return `<div class="${cssClass}" style="background:${c.bg};position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:7px 8px;">` +
+    `<svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.35" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg">` +
+    `<circle cx="130" cy="45" r="38" fill="none" stroke="${a}" stroke-width="1"/>` +
+    `<circle cx="130" cy="45" r="24" fill="none" stroke="${a}" stroke-width="1"/>` +
+    `<circle cx="130" cy="45" r="10" fill="none" stroke="${a}" stroke-width="1"/>` +
+    `<line x1="0" y1="45" x2="92" y2="45" stroke="${a}" stroke-width=".5"/>` +
+    `<line x1="130" y1="0" x2="130" y2="90" stroke="${a}" stroke-width=".5"/>` +
     `</svg>` +
     `<div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${a}"></div>` +
+    `<span style="position:relative;font-size:9px;font-weight:700;letter-spacing:.08em;color:${a};font-family:-apple-system,sans-serif;line-height:1">${label}</span>` +
     `</div>`;
 }
 // Load Anthropic API key from credentials file
