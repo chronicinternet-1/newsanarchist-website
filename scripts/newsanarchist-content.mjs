@@ -1236,6 +1236,19 @@ cardThumb(catSlug, "art-img", "eager")
 <div id="ezoic-pub-ad-placeholder-101"></div>
 <script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
+<div class="na-subscribe-inline" style="margin:40px 0;padding:28px 32px;background:#0f0f0f;border:1px solid #222;border-left:4px solid #e63946">
+  <div style="font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#e63946;margin-bottom:8px">THE DAILY BRIEFING</div>
+  <div style="font-size:18px;font-weight:600;color:#f5f5f5;line-height:1.4;margin-bottom:16px">Get the stories buried, spiked, or spun — free every morning.</div>
+  <form onsubmit="naSubscribe(event,this)" style="display:flex;gap:8px;flex-wrap:wrap">
+    <input type="email" name="email" placeholder="your@email.com" required style="flex:1;min-width:200px;padding:10px 14px;background:#1a1a1a;border:1px solid #333;color:#f5f5f5;font-size:14px">
+    <button type="submit" style="padding:10px 20px;background:#e63946;color:#fff;font-weight:700;font-size:13px;border:none;cursor:pointer">Subscribe Free</button>
+  </form>
+  <div id="na-sub-ok" style="display:none;color:#4ade80;font-weight:600;font-size:15px;padding:8px 0">You are in. Samantha will be in touch.</div>
+  <div style="font-size:11px;color:#555;margin-top:10px">No spam. No ads. Unsubscribe anytime.</div>
+</div>
+<script>
+function naSubscribe(e,form){e.preventDefault();var em=form.querySelector('input[name=email]').value;var btn=form.querySelector('button');btn.textContent='Subscribing...';btn.disabled=true;fetch('https://brevo-subscribe.steve-5cb.workers.dev',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:em,source:'article-inline'})}).then(function(){form.style.display='none';document.getElementById('na-sub-ok').style.display='block';}).catch(function(){btn.textContent='Subscribe Free';btn.disabled=false;});}
+</script>
 <div id="ezoic-pub-ad-placeholder-102"></div>
 <script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(102); });</script>
 ${renderRelatedProducts(category)}
