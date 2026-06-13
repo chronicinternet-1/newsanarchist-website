@@ -2837,7 +2837,7 @@ function rebuildIndexHTML(allArticles) {
   function heroMain(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vh-img" loading="eager">`;
+    const img = cardThumb(cs(a), "vh-img", "eager");
     const byAuth = sl
       ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}.html" class="vh-al">${au(a)}</a>`
       : `<span>${au(a)}</span>`;
@@ -2856,19 +2856,19 @@ function rebuildIndexHTML(allArticles) {
   function heroSec(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vs-img" loading="eager">`;
+    const img = cardThumb(cs(a), "vs-img", "eager");
     return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function card(a) {
     const s = sg(a);
-    const img = `<img src="/images/categories/${cs(a)}.svg" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`;
+    const img = cardThumb(cs(a), "vc-img", "lazy");
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function featCard(a) {
     const s = sg(a);
-    const img = `<div class="vc-img" style="background-image:url('/images/categories/${cs(a)}.svg')"></div>`;
+    const img = cardThumb(cs(a), "vc-img", "lazy");
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
