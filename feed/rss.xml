@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jun 2026 00:12:21 GMT</lastBuildDate>
-    <pubDate>Sun, 14 Jun 2026 00:12:21 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2026 01:07:44 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2026 01:07:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Debate</title>
+      <link>https://newsanarchist.com/articles/2026-06-14-consciousness-debate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-14-consciousness-debate</guid>
+      <pubDate>Sun, 14 Jun 2026 01:07:32 GMT</pubDate>
+      <description>Consciousness Debate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-14-consciousness-debate.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>FBI Raids Ohio Voter Group</title>
       <link>https://newsanarchist.com/articles/2026-06-14-fbi-raids-ohio-voter-group</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Marriage Benefits Men's Life Expectancy More Than Women's</title>
-      <link>https://newsanarchist.com/articles/2026-06-10-marriage-benefits-mens-life-expectancy-more-than-womens</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-10-marriage-benefits-mens-life-expectancy-more-than-womens</guid>
-      <pubDate>Wed, 10 Jun 2026 09:45:00 GMT</pubDate>
-      <description>&lt;span &gt;Marriage Benefits Men's Life Expectancy More Than Women's&lt;/span&gt; &lt;div &gt;&lt;p&gt;One data point has recently &lt;strong&gt;caused much astonishment, confusion and also anger online&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;&lt;a support in prolonging their length and quality of life&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The notion that men rob years of life from their wives and basically tag them on to theirs is, however, not supported by (most) research on the topic.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Yet, the differences in how men’s and &lt;a 501" /&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;You will</description>
-      <content:encoded><![CDATA[<span >Marriage Benefits Men's Life Expectancy More Than Women's</span> <div ><p>One data point has recently <strong>caused much astonishment, confusion and also anger online</strong>.</p> <p><a support in prolonging their length and quality of life</a>.</p> <p>The notion that men rob years of life from their wives and basically tag them on to theirs is, however, not supported by (most) research on the topic.</p> <p><strong>Yet, the differences in how men’s and <a 501" /></a></p> <p><em>You will]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-10-marriage-benefits-mens-life-expectancy-more-than-womens.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
