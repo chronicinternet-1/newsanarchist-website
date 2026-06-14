@@ -30,10 +30,18 @@ const ARTICLES_DIR = path.join(SITE_DIR, 'articles');
 const SITE_URL = 'https://newsanarchist.com';
 
 const CARD_COLORS = {"surveillance-state": {"bg": "#0f0808", "accent": "#B91C1C"}, "corporate-watchdog": {"bg": "#0a0a00", "accent": "#D97706"}, "government-secrets": {"bg": "#080c14", "accent": "#3B82F6"}, "tech-privacy": {"bg": "#080d0f", "accent": "#06B6D4"}, "global-power": {"bg": "#0a0a0f", "accent": "#7C3AED"}, "money-markets": {"bg": "#050f0a", "accent": "#059669"}, "unexplained": {"bg": "#0a0814", "accent": "#8B5CF6"}, "true-crime": {"bg": "#0f0808", "accent": "#DC2626"}, "financial-fraud": {"bg": "#0f0a00", "accent": "#F59E0B"}, "conflict-wars": {"bg": "#080c08", "accent": "#65A30D"}, "web3-blockchain": {"bg": "#050f0f", "accent": "#0D9488"}};
-function cardThumb(catSlug, cssClass, loading) {
+function cardThumb(catSlug, cssClass, loading, imgSlug) {
   const c = CARD_COLORS[catSlug] || {bg:'#0a0a0a', accent:'#888'};
   const a = c.accent;
   const label = (catSlug || '').replace(/-/g,' ').toUpperCase();
+  // Use the real article image when one exists on disk; the category SVG below
+  // stays as the fallback — it shows through if the file is absent (build time)
+  // or fails to load (runtime onerror removes the broken <img>).
+  const slug = (imgSlug || '').replace('.html', '');
+  const hasImg = slug && fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
+  const imgTag = hasImg
+    ? `<img src="/images/articles/${slug}.webp" alt="${label}" loading="${loading || 'lazy'}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2" onerror="this.remove()">`
+    : '';
   return `<div class="${cssClass}" style="background:${c.bg};position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:7px 8px;">` +
     `<svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.35" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg">` +
     `<circle cx="130" cy="45" r="38" fill="none" stroke="${a}" stroke-width="1"/>` +
@@ -44,6 +52,7 @@ function cardThumb(catSlug, cssClass, loading) {
     `</svg>` +
     `<div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${a}"></div>` +
     `<span style="position:relative;font-size:9px;font-weight:700;letter-spacing:.08em;color:${a};font-family:-apple-system,sans-serif;line-height:1">${label}</span>` +
+    imgTag +
     `</div>`;
 }
 // Load Anthropic API key from credentials file
@@ -1232,7 +1241,7 @@ ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.na
 </div>
 <div class="art-meta">${dateDisplay}<br>${readTime}</div>
 </div>
-cardThumb(catSlug, "art-img", "eager")
+${cardThumb(catSlug, "art-img", "eager", slug)}
 <div id="ezoic-pub-ad-placeholder-101"></div>
 <script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
@@ -2852,7 +2861,7 @@ function rebuildIndexHTML(allArticles) {
   function heroMain(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = cardThumb(cs(a), "vh-img", "eager");
+    const img = cardThumb(cs(a), "vh-img", "eager", s);
     const byAuth = sl
       ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}.html" class="vh-al">${au(a)}</a>`
       : `<span>${au(a)}</span>`;
@@ -2871,19 +2880,19 @@ function rebuildIndexHTML(allArticles) {
   function heroSec(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
-    const img = cardThumb(cs(a), "vs-img", "eager");
+    const img = cardThumb(cs(a), "vs-img", "eager", s);
     return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function card(a) {
     const s = sg(a);
-    const img = cardThumb(cs(a), "vc-img", "lazy");
+    const img = cardThumb(cs(a), "vc-img", "lazy", s);
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function featCard(a) {
     const s = sg(a);
-    const img = cardThumb(cs(a), "vc-img", "lazy");
+    const img = cardThumb(cs(a), "vc-img", "lazy", s);
     return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
