@@ -2640,6 +2640,9 @@ function buildHeroCard(article, isMain = false) {
 // Keyword-based category remapping for articles with generic raw categories
 function remapArticleCategory(article) {
   const rawCat = article.category || '';
+  // Editorial override: a locked category (manual correction) is authoritative
+  // and bypasses keyword remapping.
+  if (article.categoryLocked && rawCat) return rawCat;
   const text = (article.title + ' ' + (article.description || '')).toLowerCase();
 
   // Always run keyword remap — raw category from scrape may be wrong
