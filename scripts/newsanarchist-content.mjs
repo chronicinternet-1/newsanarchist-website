@@ -2648,6 +2648,15 @@ function remapArticleCategory(article) {
   // Always run keyword remap — raw category from scrape may be wrong
   // (e.g., "Commies Running NYC" was tagged Unexplained by keyword overlap)
 
+  // NICHE-FIRST: distinctive Unexplained / True Crime keywords are checked BEFORE
+  // the broad surveillance/government-secrets/money rules — otherwise a UFO
+  // "whistleblower" story is mis-binned to Government Secrets and a "murder" /
+  // "fbi" story to Surveillance State. (Fixes Unexplained/True-Crime starvation.)
+  if (/ufo|uap|unidentified aerial|non.human intelligence|recovered craft|paranormal|skinwalker|anomalous phenomenon|uap sighting|extraterrestrial|abduction|roswell|area 51|consciousness research|nde |near.death experience/.test(text))
+    return 'Unexplained';
+  if (/murder|serial killer|drug cartel|sex trafficking|human trafficking|convicted felon|death penalty|cold case|missing person|kidnap/.test(text))
+    return 'True Crime';
+
   if (/medicaid fraud|medicare fraud|snap fraud|food stamp fraud|hospice fraud|daycare fraud|childcare fraud|benefits fraud|wire fraud|securities fraud|ponzi scheme|rico|shell company|offshore accounts|embezzlement|forfeiture|financial crime|white collar crime|fraud ring|money laundering/.test(text))
     return 'Financial Fraud';
   if (/defi|dao|nft|stablecoin|cbdc|on-chain|smart contract|bridge hack|rug pull|blockchain forensics|chainalysis|crypto fraud|sec crypto|cftc crypto|doj crypto|tornado cash|crypto money laundering|ransomware payment|north korea crypto|web3|blockchain/.test(text))
@@ -2666,10 +2675,6 @@ function remapArticleCategory(article) {
     return 'Tech & Privacy';
   if (/nato|china|russia|iran|middle east|ukraine|israel|gaza|taiwan|north korea|global|geopolit|troops|sanctions|diplomacy|refinery|oil supply|energy crisis|pipeline|opec|petrodollar|greenland|arctic|foreign minister|prime minister|chancellor|eu |european union|un security council|g7|g20|imf|world bank/.test(text))
     return 'Global Power';
-  if (/ufo|uap|unidentified aerial|non.human intelligence|recovered craft|paranormal|skinwalker|anomalous phenomenon|uap sighting|extraterrestrial|abduction|roswell|area 51|consciousness research|nde |near.death experience/.test(text))
-    return 'Unexplained';
-  if (/murder|serial killer|drug cartel|sex trafficking|human trafficking|corruption|bribery|embezzle|convicted felon|death penalty|cold case|missing person|kidnap/.test(text))
-    return 'True Crime';
   if (/ice |border patrol|dhs|homeland security|tsa|airport security|immigration|deportation|migrant|asylum|customs|cbp|visa|green card|undocumented/.test(text))
     return 'Surveillance State';
   if (/congress|senate|house of representatives|legislation|bill passed|vote|election|midterm|democrat|republican|gop|white house|president|administration|cabinet|attorney general|doj |fbi director|cia director|supreme court|federal judge|appellate/.test(text))

@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jun 2026 10:13:29 GMT</lastBuildDate>
-    <pubDate>Sun, 14 Jun 2026 10:13:29 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:10:32 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2026 11:10:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -93,18 +93,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Potato UAP Spotted</title>
-      <link>https://newsanarchist.com/articles/2026-06-14-potato-uap-spotted</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-14-potato-uap-spotted</guid>
-      <pubDate>Sun, 14 Jun 2026 10:11:15 GMT</pubDate>
-      <description>Potato UAP Spotted</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-14-potato-uap-spotted.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Medicaid Fraud Exposed</title>
@@ -621,6 +609,18 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>US Spy Program Expires</title>
+      <link>https://newsanarchist.com/articles/2026-06-14-us-spy-program-expires</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-14-us-spy-program-expires</guid>
+      <pubDate>Sun, 14 Jun 2026 03:08:35 GMT</pubDate>
+      <description>US Spy Program Expires</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-14-us-spy-program-expires.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
