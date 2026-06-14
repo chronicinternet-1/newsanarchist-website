@@ -2817,6 +2817,66 @@ const JUNK_TITLE_PATTERNS = [
   /^springtime for/i,
 ];
 
+// Self-contained search block (style + markup + JS) injected into homepage and
+// category pages. category='' = site-wide; otherwise scopes to that category slug.
+function naSearchBlock(category, placeholder) {
+  const cat = category || '';
+  const ph = (placeholder || 'Search 1,700+ investigations...').replace(/"/g, '&quot;');
+  return `<style>
+.na-search-wrap{background:#111;padding:14px 16px}
+.na-search-form{display:flex;gap:8px;max-width:1200px;margin:0 auto}
+.na-search-input{flex:1;min-width:0;padding:11px 14px;background:#1a1a1a;border:1px solid #333;color:#f5f5f5;font-size:15px;font-family:'DM Sans',sans-serif}
+.na-search-input::placeholder{color:#777}
+.na-search-input:focus{outline:none;border-color:#E11D48}
+.na-search-btn{padding:11px 22px;background:#E11D48;color:#fff;border:none;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-search-btn:hover{background:#b91538}
+.na-search-results{max-width:1200px;margin:0 auto}
+.na-search-results:not(:empty){padding-top:12px}
+.na-search-count{color:#999;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:6px 0 10px;font-family:'DM Sans',sans-serif}
+.na-search-empty{color:#aaa;font-size:14px;padding:10px 0;font-family:'DM Sans',sans-serif}
+.na-search-card{display:block;background:#1a1a1a;border:1px solid #2a2a2a;border-left:3px solid #E11D48;padding:11px 14px;margin-bottom:8px;text-decoration:none}
+.na-search-card:hover{background:#222}
+.na-search-cat{color:#E11D48;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.na-search-title{color:#f5f5f5;font-size:15px;font-weight:600;line-height:1.3;margin-bottom:3px}
+.na-search-meta{color:#888;font-size:11px}
+@media(max-width:600px){.na-search-form{flex-wrap:wrap}.na-search-btn{width:100%}}
+</style>
+<div class="na-search-wrap" data-category="${cat}">
+  <form class="na-search-form" onsubmit="naSearch(event)">
+    <input type="search" id="na-search-input" placeholder="${ph}" class="na-search-input" autocomplete="off">
+    <button type="submit" class="na-search-btn">Search</button>
+  </form>
+  <div id="na-search-results" class="na-search-results"></div>
+</div>
+<script>
+window.naSearch=window.naSearch||function(e){if(e&&e.preventDefault)e.preventDefault();if(window.__naRun)window.__naRun();};
+(function(){
+  var W='https://na-search.steve-5cb.workers.dev';
+  var input=document.getElementById('na-search-input');
+  var wrap=document.querySelector('.na-search-wrap');
+  var out=document.getElementById('na-search-results');
+  if(!input||!out)return;
+  var esc=function(s){return (s||'').replace(/[&<>"]/g,function(c){return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c];});};
+  var run=function(){
+    var q=(input.value||'').trim();
+    var c=wrap?(wrap.getAttribute('data-category')||''):'';
+    if(q.length<3){out.innerHTML='';return;}
+    fetch(W+'?q='+encodeURIComponent(q)+(c?'&category='+encodeURIComponent(c):''))
+      .then(function(r){return r.json();})
+      .then(function(d){
+        var rs=d.results||[];
+        if(!rs.length){out.innerHTML='<div class="na-search-empty">No results for &ldquo;'+esc(q)+'&rdquo;. Try a broader term or browse the categories below.</div>';return;}
+        var h='<div class="na-search-count">'+d.count+' result'+(d.count===1?'':'s')+' for &ldquo;'+esc(q)+'&rdquo;</div>';
+        for(var i=0;i<rs.length;i++){var a=rs[i];h+='<a class="na-search-card" href="/articles/'+a.slug+'.html"><div class="na-search-cat">'+esc(a.category)+'</div><div class="na-search-title">'+esc(a.title)+'</div><div class="na-search-meta">'+esc(a.author)+'</div></a>';}
+        out.innerHTML=h;
+      }).catch(function(){out.innerHTML='<div class="na-search-empty">Search unavailable. Please try again.</div>';});
+  };
+  window.__naRun=run;
+  var t;input.addEventListener('input',function(){clearTimeout(t);t=setTimeout(run,300);});
+})();
+</script>`;
+}
+
 function rebuildIndexHTML(allArticles) {
   const clean = allArticles.filter(a =>
     !JUNK_TITLE_PATTERNS.some(p => p.test(a.title || ''))
@@ -3102,6 +3162,7 @@ a{color:inherit;text-decoration:none}
 <div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a></div>
 </nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
+${naSearchBlock('', 'Search 1,700+ investigations...')}
 <div class="na-body">
 <main>
 <div class="na-hgrid">
@@ -3646,6 +3707,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-body">
 <main>
 <div class="na-page-head"><span>📂</span> ${label}${pageNum > 1 ? ` — Page ${pageNum}` : ''}</div>
+${naSearchBlock(slug, 'Search ' + label + '...')}
 <div class="na-3col">${cardsHTML}</div>
 ${paginationHTML}
 </main>
