@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jun 2026 09:28:34 GMT</lastBuildDate>
-    <pubDate>Mon, 15 Jun 2026 09:28:34 GMT</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2026 10:19:03 GMT</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2026 10:19:03 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FTC Power Challenged</title>
+      <link>https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</guid>
+      <pubDate>Mon, 15 Jun 2026 10:17:31 GMT</pubDate>
+      <description>FTC Power Challenged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-15-ftc-power-challenged.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-15-taiwan-simulates-defense</link>
@@ -369,18 +381,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>FTC Power Challenged</title>
-      <link>https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</guid>
-      <pubDate>Mon, 15 Jun 2026 04:14:53 GMT</pubDate>
-      <description>FTC Power Challenged</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-15-ftc-power-challenged.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>China Increases Pressure</title>
