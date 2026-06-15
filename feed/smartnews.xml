@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jun 2026 06:26:03 GMT</lastBuildDate>
-    <pubDate>Mon, 15 Jun 2026 06:26:03 GMT</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2026 07:21:23 GMT</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2026 07:21:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UniCredit Bid Faces Complaint</title>
+      <link>https://newsanarchist.com/articles/2026-06-15-unicredit-bid-faces-complaint</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-15-unicredit-bid-faces-complaint</guid>
+      <pubDate>Mon, 15 Jun 2026 07:16:28 GMT</pubDate>
+      <description>UniCredit Bid Faces Complaint</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-15-unicredit-bid-faces-complaint.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Invasion</title>
       <link>https://newsanarchist.com/articles/2026-06-15-taiwan-simulates-invasion</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US-China Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-06-14-us-china-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-14-us-china-tensions</guid>
-      <pubDate>Sun, 14 Jun 2026 21:18:25 GMT</pubDate>
-      <description>US-China Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-14-us-china-tensions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
