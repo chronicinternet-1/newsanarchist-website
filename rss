@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jun 2026 10:19:03 GMT</lastBuildDate>
-    <pubDate>Mon, 15 Jun 2026 10:19:03 GMT</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2026 10:24:20 GMT</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2026 10:24:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Sightings</title>
+      <link>https://newsanarchist.com/articles/2026-06-15-uap-sightings</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-15-uap-sightings</guid>
+      <pubDate>Mon, 15 Jun 2026 10:23:53 GMT</pubDate>
+      <description>UAP Sightings</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-15-uap-sightings.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>FTC Power Challenged</title>
       <link>https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</link>
@@ -501,18 +513,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>UAP Sightings</title>
-      <link>https://newsanarchist.com/articles/2026-06-15-uap-sightings</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-15-uap-sightings</guid>
-      <pubDate>Mon, 15 Jun 2026 01:19:03 GMT</pubDate>
-      <description>UAP Sightings</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-15-uap-sightings.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>NATO Summit Looms</title>
