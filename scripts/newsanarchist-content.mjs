@@ -55,9 +55,13 @@ function cardThumb(catSlug, cssClass, loading, imgSlug) {
     imgTag +
     `</div>`;
 }
-// Load Anthropic API key from credentials file
+// Load Cloudflare Workers AI credentials (LLM image-prompt generation)
 const _creds = fs.readFileSync(process.env.HOME + '/.openclaw/secrets/credentials.env', 'utf8');
-const ANTHROPIC_API_KEY = _creds.match(/ANTHROPIC_API_KEY=(.+)/m)?.[1]?.trim();
+const CF_AI_ACCOUNT = _creds.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim() || '5cba15db85116f1426a122db0c5178fa';
+const CF_AI_EMAIL   = _creds.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
+// credentials.env ships CLOUDFLARE_GLOBAL_API_KEY; fall back to CLOUDFLARE_API_KEY if added later
+const CF_AI_KEY     = _creds.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || _creds.match(/^CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
+const CF_AI_URL     = `https://api.cloudflare.com/client/v4/accounts/${CF_AI_ACCOUNT}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`;
 const GA4_ID = 'G-7N6W04M3XW';
 const AUTHOR = 'NewsAnarchist Desk';
 
@@ -637,22 +641,24 @@ The image should relate to: ${guidance}
 Make it specific to THIS article's situation — not a generic category image. Describe a real scene with specific visual details: lighting, setting, objects, atmosphere, any people (attractive, diverse, non-famous). 80-120 words.`;
 
   try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
+    const res = await fetch(CF_AI_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
+        'X-Auth-Email': CF_AI_EMAIL,
+        'X-Auth-Key': CF_AI_KEY,
       },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
         max_tokens: 200,
-        system: systemPrompt,
-        messages: [{ role: 'user', content: userPrompt }],
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user',   content: userPrompt   },
+        ],
       }),
     });
     const data = await res.json();
-    const prompt = data.content?.[0]?.text?.trim();
+    // Workers AI shape: { result: { response }, success, errors }
+    const prompt = (typeof data.result?.response === 'string' ? data.result.response : '').trim();
     if (prompt && prompt.length > 20) {
       console.log(`  ↳ Image prompt: ${prompt.slice(0, 80)}...`);
       return prompt;
