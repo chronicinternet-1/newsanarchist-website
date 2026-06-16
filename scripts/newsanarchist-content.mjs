@@ -3122,6 +3122,30 @@ function rebuildIndexHTML(allArticles) {
   const yr = new Date().getFullYear();
   const tickerTitles = articles.slice(0,4).map(a => tickerLine(a,60)).join(' &nbsp;·&nbsp; ');
 
+  // W5: "Most Read This Week" — latest article per category as proxy (no view counts yet).
+  const mostRead = (() => { const seen = new Set(), out = []; for (const a of articles){ const c = a.category||''; if(!c||seen.has(c)) continue; seen.add(c); out.push(a); if(out.length>=6) break; } return out; })();
+  const mostReadSection = mostRead.length
+    ? `<div class="na-section"><div class="na-section-head"><span>🔥 Most Read This Week</span><a href="/trending.html" class="na-section-all">All Trending →</a></div><div class="na-3col">${mostRead.map(a=>card(a)).join('')}</div></div>`
+    : '';
+
+  // W5: JSON-LD ItemList of featured (hero) articles for rich snippets.
+  const homeJsonLd = `<script type="application/ld+json">${JSON.stringify({
+    "@context":"https://schema.org","@type":"ItemList",
+    "itemListElement":[h0,h1,h2].filter(Boolean).map((a,i)=>({
+      "@type":"ListItem","position":i+1,
+      "url":`${SITE_URL}/articles/${(a.filename||'').replace(/\.html$/,'')}`,
+      "item":{"@type":"NewsArticle","headline":a.title||'',
+        "url":`${SITE_URL}/articles/${(a.filename||'').replace(/\.html$/,'')}`,
+        "datePublished":a.pubDate||a.generatedAt||new Date().toISOString(),
+        "author":{"@type":"Person","name":displayAuthor(a)},
+        "publisher":{"@type":"Organization","name":"NewsAnarchist","logo":{"@type":"ImageObject","url":`${SITE_URL}/images/logo.png`}}}
+    }))
+  })}</script>`;
+
+  // W5: above-the-fold newsletter strip (direct Brevo POST — no Turnstile, matches article-inline form).
+  const homeSubStrip = `<div class="na-hpsub"><div class="na-hpsub-txt"><div class="na-hpsub-k">The Daily Briefing</div><div class="na-hpsub-h">The stories buried, spiked, or spun — free every morning.</div></div><form onsubmit="naHomeSub(event,this)"><input type="email" name="email" placeholder="your@email.com" required><button type="submit">Subscribe Free</button><span class="na-hpsub-ok" style="display:none">✓ You're in.</span></form></div>
+<script>function naHomeSub(e,f){e.preventDefault();var em=f.querySelector('input[name=email]').value;var b=f.querySelector('button');b.textContent='…';b.disabled=true;fetch('https://brevo-subscribe.steve-5cb.workers.dev',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:em,source:'homepage-hero'})}).then(function(){f.querySelector('input').style.display='none';b.style.display='none';f.querySelector('.na-hpsub-ok').style.display='inline';}).catch(function(){b.textContent='Subscribe Free';b.disabled=false;});}</script>`;
+
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3129,6 +3153,7 @@ function rebuildIndexHTML(allArticles) {
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
 <link rel="canonical" href="${SITE_URL}">
+${homeJsonLd}
 ${seoExtra('NewsAnarchist — The stories buried, spiked, or spun.', 'Independent investigative news. The stories buried, spiked, or spun.', '/images/logo.png')}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -3252,6 +3277,15 @@ a{color:inherit;text-decoration:none}
 .na-fchronic{font-size:10px;color:#333}
 .na-fchronic:hover{color:#888}
 .na-fleg{font-size:10px;color:#333;margin-top:8px;line-height:1.5}
+.na-hpsub{background:#0f0f0f;border:1px solid #222;border-left:4px solid #E11D48;padding:16px 20px;margin:0 0 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.na-hpsub-txt{color:#f5f5f5}
+.na-hpsub-k{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#E11D48;margin-bottom:3px}
+.na-hpsub-h{font-size:15px;font-weight:700;line-height:1.3}
+.na-hpsub form{display:flex;gap:8px;flex:1;min-width:240px;max-width:460px;align-items:center}
+.na-hpsub input{flex:1;min-width:150px;padding:10px 13px;background:#1a1a1a;border:1px solid #333;color:#f5f5f5;font-size:14px;font-family:inherit}
+.na-hpsub button{padding:10px 18px;background:#E11D48;color:#fff;font-weight:700;font-size:13px;border:none;cursor:pointer;white-space:nowrap;font-family:inherit}
+.na-hpsub-ok{color:#4ade80;font-weight:600;font-size:14px}
+@media(max-width:600px){.na-hpsub{flex-direction:column;align-items:stretch}.na-hpsub form{max-width:none}}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
@@ -3275,10 +3309,12 @@ a{color:inherit;text-decoration:none}
 ${naSearchBlock('', 'Search 1,700+ investigations...')}
 <div class="na-body">
 <main>
+${homeSubStrip}
 <div class="na-hgrid">
 ${heroMain(h0)}
 <div class="vh-stack">${heroSec(h1)}${heroSec(h2)}</div>
 </div>
+${mostReadSection}
 ${catSections}
 ${featSection}
 </main>
@@ -3384,60 +3420,115 @@ async function submitEmail(e) {
   console.log(`  ✅ index.html rebuilt — Version D design (${articles.length} articles, ${CATEGORIES.length} categories)`);
 }
 
+// XML-escape for sitemap text nodes (titles).
+function xmlEsc(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+}
+
+// Author-slug normalizer (manifest stores slug OR display name OR null).
+function authorSlugOf(author) {
+  return String(author || '').toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+}
+
+// news:language routing per bureau: kenji-mori=ja, lucia-ferreira=pt, james-whitfield=en-GB, else en.
+function newsLang(author) {
+  const s = authorSlugOf(author);
+  if (s === 'kenji-mori') return 'ja';
+  if (s === 'lucia-ferreira' || s === 'lcia-ferreira') return 'pt';
+  if (s === 'james-whitfield') return 'en-GB';
+  return 'en';
+}
+
+// ─── Google News sitemap (sitemap-news.xml) — last 48h only, per Google News spec ───
+function buildNewsSitemap(allArticles) {
+  const cutoff = Date.now() - 48 * 3600 * 1000;
+  const recent = allArticles
+    .filter(a => a.filename)
+    .map(a => ({ a, t: new Date(a.pubDate || a.generatedAt || 0).getTime() }))
+    .filter(x => x.t >= cutoff)
+    .sort((x, y) => y.t - x.t)
+    .slice(0, 1000); // Google News caps at 1000 URLs
+  const entries = recent.map(({ a, t }) => {
+    const url = `${SITE_URL}/articles/${a.filename.replace(/\.html$/, '')}`;
+    return `  <url>
+    <loc>${url}</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>${newsLang(a.author)}</news:language></news:publication>
+      <news:publication_date>${new Date(t).toISOString()}</news:publication_date>
+      <news:title>${xmlEsc(a.title)}</news:title>
+    </news:news>
+  </url>`;
+  }).join('\n');
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${entries}
+</urlset>`;
+  fs.writeFileSync(path.join(SITE_DIR, 'sitemap-news.xml'), xml);
+  console.log(`  ✅ sitemap-news.xml built (${recent.length} articles in last 48h)`);
+  return recent.length;
+}
+
+// robots.txt advertises BOTH sitemaps.
+function ensureRobots() {
+  const p = path.join(SITE_DIR, 'robots.txt');
+  let r = fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : 'User-agent: *\nAllow: /\n';
+  if (!/sitemap\.xml/i.test(r)) r += `\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+  if (!/sitemap-news\.xml/i.test(r)) r += `Sitemap: ${SITE_URL}/sitemap-news.xml\n`;
+  fs.writeFileSync(p, r);
+  console.log('  ✅ robots.txt advertises sitemap.xml + sitemap-news.xml');
+}
+
+// ─── Full sitemap rebuild — all manifest URLs + category/author/home with priority tiers ───
+// Homepage 1.0 · categories 0.8 · recent articles (≤7d) 0.9 · older 0.6 · author pages 0.5.
+// Preserves any prior sitemap URLs not in the manifest (older indexed articles) at 0.6.
 function updateSitemap(allArticles) {
   const sitemapPath = path.join(SITE_DIR, 'sitemap.xml');
-
-  let existingUrls = new Set();
-  let sitemapContent = '';
-
-  if (fs.existsSync(sitemapPath)) {
-    sitemapContent = fs.readFileSync(sitemapPath, 'utf-8');
-    const urlMatches = sitemapContent.match(/<loc>([^<]+)<\/loc>/g) || [];
-    for (const m of urlMatches) {
-      existingUrls.add(m.replace(/<\/?loc>/g, ''));
-    }
-  }
-
   const today = todayISO();
-  const newEntries = [];
+  const now = Date.now();
+  const SEVEN_D = 7 * 86400 * 1000;
 
-  for (const article of allArticles) {
-    const url = `${SITE_URL}/articles/${article.filename.replace(/\.html$/, '')}`;
-    if (!existingUrls.has(url)) {
-      newEntries.push(`  <url>
-    <loc>${url}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>`);
-      existingUrls.add(url);
+  // Capture existing URL→lastmod so a rebuild never drops already-indexed pages.
+  const prior = new Map();
+  if (fs.existsSync(sitemapPath)) {
+    const blocks = fs.readFileSync(sitemapPath, 'utf8').match(/<url>[\s\S]*?<\/url>/g) || [];
+    for (const b of blocks) {
+      const loc = (b.match(/<loc>([^<]+)<\/loc>/) || [])[1];
+      if (loc) prior.set(loc, (b.match(/<lastmod>([^<]+)<\/lastmod>/) || [])[1] || today);
     }
   }
 
-  if (!newEntries.length) {
-    console.log('  ℹ️  No new URLs to add to sitemap.');
-  }
+  const entries = [];
+  const seen = new Set();
+  const add = (loc, lastmod, priority, changefreq) => {
+    if (seen.has(loc)) return; seen.add(loc);
+    entries.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod || today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
+  };
 
-  if (sitemapContent && sitemapContent.includes('</urlset>')) {
-    sitemapContent = sitemapContent.replace(
-      '</urlset>',
-      newEntries.join('\n') + '\n</urlset>'
-    );
-  } else {
-    sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+  add(`${SITE_URL}/`, today, '1.0', 'daily');
+  for (const cat of CATEGORIES) add(`${SITE_URL}/category/${CATEGORY_SLUGS[cat]}.html`, today, '0.8', 'daily');
+  const authorSlugs = new Set();
+  for (const a of allArticles) { const s = authorSlugOf(a.author); if (s) authorSlugs.add(s); }
+  for (const s of authorSlugs) add(`${SITE_URL}/authors/${s}.html`, today, '0.5', 'weekly');
+  for (const a of allArticles) {
+    if (!a.filename) continue;
+    const url = `${SITE_URL}/articles/${a.filename.replace(/\.html$/, '')}`;
+    const t = new Date(a.pubDate || a.generatedAt || 0).getTime();
+    const lm = t ? new Date(t).toISOString().slice(0, 10) : today;
+    const isRecent = t && (now - t) <= SEVEN_D;
+    add(url, lm, isRecent ? '0.9' : '0.6', isRecent ? 'daily' : 'monthly');
+  }
+  for (const [loc, lm] of prior) if (!seen.has(loc)) add(loc, lm, '0.6', 'monthly');
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>${SITE_URL}/</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-${newEntries.join('\n')}
+${entries.join('\n')}
 </urlset>`;
-  }
+  fs.writeFileSync(sitemapPath, xml);
+  console.log(`  ✅ sitemap.xml rebuilt (${entries.length} URLs: 1 home + ${CATEGORIES.length} cats + ${authorSlugs.size} authors + ${allArticles.length} manifest + ${prior.size} preserved)`);
 
-  fs.writeFileSync(sitemapPath, sitemapContent);
-  console.log(`  ✅ sitemap.xml updated (+${newEntries.length} URLs)`);
+  buildNewsSitemap(allArticles);
+  ensureRobots();
   rebuildRSS(allArticles);
 }
 
