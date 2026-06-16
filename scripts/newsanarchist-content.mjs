@@ -143,6 +143,35 @@ function getAuthor(category) {
   };
 }
 
+// ─── Author display + bureau labelling (homepage cards + breaking ticker) ───────
+// The manifest stores `author` as the SLUG (e.g. 'marcus-webb'); cards must show the NAME.
+const AUTHOR_NAME_BY_SLUG = {
+  'marcus-webb': 'Marcus Webb', 'elena-vasquez': 'Elena Vasquez', 'jordan-calloway': 'Jordan Calloway',
+  'diana-reeves': 'Diana Reeves', 'sam-okafor': 'Sam Okafor', 'casey-north': 'Casey North',
+  'rafael-reyes': 'Rafael Reyes', 'jordan-ames': 'Jordan Ames', 'vera-solano': 'Vera Solano',
+  'kenji-mori': 'Kenji Mori', 'lucia-ferreira': 'Lúcia Ferreira', 'james-whitfield': 'James Whitfield',
+};
+// Resolve an article's display author NAME from whatever is in `a.author` (slug or already a name).
+function displayAuthor(a) {
+  const v = (a && a.author) || '';
+  if (AUTHOR_NAME_BY_SLUG[v]) return AUTHOR_NAME_BY_SLUG[v];
+  if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(v)) return v.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return v || 'NewsAnarchist Desk';
+}
+// International bureau articles carry a non-English (or bureau-dateline) flag for the ticker.
+const BUREAU_BY_SLUG = {
+  'kenji-mori':     { label: 'TOKYO BUREAU',     foreign: true },
+  'lucia-ferreira': { label: 'SÃO PAULO BUREAU', foreign: true },
+  'james-whitfield':{ label: 'LONDON BUREAU',    foreign: false },
+};
+// Ticker line for one article: prefix bureau articles with their dateline so English
+// readers have context for foreign-language (ja/pt-BR) headlines.
+function tickerLine(a, maxLen) {
+  const b = BUREAU_BY_SLUG[(a && a.author) || ''] || ((a && (a.lang === 'ja' || a.lang === 'pt-BR')) ? { label: 'INTERNATIONAL BUREAU' } : null);
+  const t = truncate(a.title, maxLen);
+  return b ? `${b.label} &middot; ${t}` : t;
+}
+
 // ─── Categories ────────────────────────────────────────────────────────────────
 
 const CATEGORIES = [
@@ -2905,7 +2934,7 @@ function rebuildIndexHTML(allArticles) {
 
   const articlesWithImages = articles;
 
-  function au(a) { return a.author || 'NewsAnarchist Desk'; }
+  function au(a) { return displayAuthor(a); }
   function asl(a) { return a.authorSlug || ''; }
   function fd(a) {
     const d = new Date(a.generatedAt || a.pubDate || Date.now());
@@ -3026,7 +3055,7 @@ function rebuildIndexHTML(allArticles) {
 
   const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
   const yr = new Date().getFullYear();
-  const tickerTitles = articles.slice(0,4).map(a => truncate(a.title,60)).join(' &nbsp;·&nbsp; ');
+  const tickerTitles = articles.slice(0,4).map(a => tickerLine(a,60)).join(' &nbsp;·&nbsp; ');
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -3437,7 +3466,7 @@ function rebuildFilesIndex(allArticles) {
     const hasImg = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
     const imgHtml = hasImg ? `<img src="/images/articles/${slug}.webp" alt="${(a.title||'').replace(/"/g,"'")}" style="width:100%;height:160px;object-fit:cover;display:block;margin-bottom:12px">` : '';
     const authorSlug = (a.authorSlug || a.author || 'newsanarchist-desk').toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'');
-    return `<div class="bw-card">${imgHtml}<div class="bw-card-label">🔍 Investigation · ${a.category||'Unexplained'}</div><div class="bw-card-hed"><a href="/articles/${a.filename}">${a.title||''}</a></div><div class="bw-card-by"><a href="/authors/${authorSlug}.html" style="color:#E11D48">${a.author||'NewsAnarchist Desk'}</a> · ${fd(a)}</div><p style="font-size:12px;color:#666;line-height:1.5;margin-bottom:12px">${(a.description||'').slice(0,140)}${(a.description||'').length>140?'…':''}</p><a href="/articles/${a.filename}" class="bw-card-btn">Read Investigation →</a></div>`;
+    return `<div class="bw-card">${imgHtml}<div class="bw-card-label">🔍 Investigation · ${a.category||'Unexplained'}</div><div class="bw-card-hed"><a href="/articles/${a.filename}">${a.title||''}</a></div><div class="bw-card-by"><a href="/authors/${authorSlug}.html" style="color:#E11D48">${displayAuthor(a)}</a> · ${fd(a)}</div><p style="font-size:12px;color:#666;line-height:1.5;margin-bottom:12px">${(a.description||'').slice(0,140)}${(a.description||'').length>140?'…':''}</p><a href="/articles/${a.filename}" class="bw-card-btn">Read Investigation →</a></div>`;
   }).join('');
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -3555,7 +3584,7 @@ function rebuildCategoryPages(allArticles) {
   const ARTICLES_PER_PAGE = 100;
   const categoryDir = path.join(SITE_DIR, 'category');
 
-  function au(a) { return a.author || 'NewsAnarchist Desk'; }
+  function au(a) { return displayAuthor(a); }
   function fd(a) {
     const d = new Date(a.generatedAt || a.pubDate || Date.now());
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
@@ -3808,7 +3837,7 @@ function rebuildTrendingHTML(allArticles) {
   let trending = clean.filter(a => new Date(a.generatedAt || a.pubDate || 0) >= cutoff);
   if (trending.length < 10) trending = clean.slice(0, 30);
 
-  function au(a) { return a.author || 'NewsAnarchist Desk'; }
+  function au(a) { return displayAuthor(a); }
   function fd(a) {
     const d = new Date(a.generatedAt || a.pubDate || Date.now());
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
@@ -3838,7 +3867,7 @@ function rebuildTrendingHTML(allArticles) {
   ).join('');
 
   const cards = trending.map(a => tcard(a)).join('');
-  const tickerTitles = trending.slice(0,5).map(a => truncate(a.title,60)).join(' &nbsp;·&nbsp; ');
+  const tickerTitles = trending.slice(0,5).map(a => tickerLine(a,60)).join(' &nbsp;·&nbsp; ');
   const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
   const yr = new Date().getFullYear();
   const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
@@ -4117,9 +4146,83 @@ async function runPublish() {
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 
+// ─── Author profile pages (Fix 3 — international bureaus) ───────────────────────
+// Generates /authors/{slug}.html from the EXISTING author-page template (marcus-webb.html)
+// so structure/CSS/footer match every other author page exactly. Only the author-specific
+// content (name, beat, credential, bio, voice, topics, category, headshot, canonical) is swapped.
+const BUREAU_AUTHOR_PROFILES = [
+  {
+    slug: 'kenji-mori', name: 'Kenji Mori',
+    beat: 'Surveillance State &amp; Tech Privacy — Tokyo Bureau',
+    category: 'Surveillance State', categorySlug: 'surveillance-state',
+    credential: 'Tokyo Bureau Chief. Former NHK technology correspondent.',
+    description: 'Kenji Mori is NewsAnarchist’s Tokyo Bureau Chief, covering surveillance and tech privacy across Japan in Japanese.',
+    bio: 'Kenji Mori reports from Tokyo on Japan’s surveillance state and the privacy fault lines of its technology sector — facial recognition rollouts, My Number data collection, telecom retention, and the regulators who are supposed to police them. A former NHK technology correspondent, he writes in Japanese for Japanese readers and sources from NHK, Asahi Shimbun, Mainichi, and the Japan Times. He covers Japan and only Japan: if a story has no Japan angle, it is not his story.',
+    voice: 'Precise. Document-driven. Attentive to Japanese regulatory nuance. Measured — never sensational.',
+    topics: 'Japanese surveillance &middot; facial recognition &middot; My Number &middot; telecom data retention &middot; privacy regulation &middot; NHK &middot; Asahi Shimbun &middot; tech policy',
+  },
+  {
+    slug: 'lucia-ferreira', name: 'Lúcia Ferreira',
+    beat: 'Global Power &amp; Conflict — São Paulo Bureau',
+    category: 'Global Power', categorySlug: 'global-power',
+    credential: 'São Paulo Bureau Chief. Investigative correspondent on BRICS and the Amazon.',
+    description: 'Lúcia Ferreira is NewsAnarchist’s São Paulo Bureau Chief, covering global power, BRICS, and the Amazon in Brazilian Portuguese.',
+    bio: 'Lúcia Ferreira reports from São Paulo on power as it moves through the Global South — BRICS realignment, Amazon extraction and its financiers, and the regional conflicts that rarely reach English-language wires. She writes in Brazilian Portuguese and sources from Folha de S.Paulo, O Globo, Agência Brasil, and Reuters Brasil. Her beat is Brazil, BRICS, and South America: stories without a regional angle belong to someone else.',
+    voice: 'Incisive. Geopolitically grounded. Follows power across the Global South without deference to Washington or Beijing.',
+    topics: 'BRICS &middot; Amazon &middot; Brazil &middot; regional conflict &middot; Global South &middot; Folha de S.Paulo &middot; O Globo &middot; Agência Brasil',
+  },
+  {
+    slug: 'james-whitfield', name: 'James Whitfield',
+    beat: 'Corporate Watchdog &amp; Government Secrets — London Bureau',
+    category: 'Corporate Watchdog', categorySlug: 'corporate-watchdog',
+    credential: 'London Bureau Chief. Former Financial Times investigations reporter.',
+    description: 'James Whitfield is NewsAnarchist’s London Bureau Chief, covering UK corporate accountability and government secrets in British English.',
+    bio: 'James Whitfield reports from London on the City’s corporate machinery and the British state’s appetite for secrecy — regulatory capture, Companies House shells, FOI stonewalling, and the revolving door between Whitehall and the boardroom. A former Financial Times investigations reporter, he sources from The Guardian, Private Eye, the FT, and Companies House. His beat is the UK and the City of London: no UK angle, no story.',
+    voice: 'Sceptical. Document-led. City-of-London savvy. Dry British wit, never editorialising past the evidence.',
+    topics: 'UK corporate accountability &middot; City of London &middot; Companies House &middot; regulatory capture &middot; government secrets &middot; The Guardian &middot; Private Eye &middot; Financial Times',
+  },
+];
+
+function buildAuthorPageHTML(tpl, p) {
+  let h = tpl;
+  h = h.replace(/<title>[^<]*<\/title>/, `<title>${p.name} — NewsAnarchist</title>`);
+  h = h.replace(/(<meta name="description" content=")[^"]*(">)/, `$1${p.description}$2`);
+  h = h.replace(/(<meta property="og:title" content=")[^"]*(">)/, `$1${p.name} — NewsAnarchist$2`);
+  h = h.replace(/images\/authors\/marcus-webb/g, `images/authors/${p.slug}`);
+  h = h.replace(/authors\/marcus-webb\.html/g, `authors/${p.slug}.html`);
+  h = h.replace(/<img src="\/images\/authors\/[^"]*" alt="[^"]*" class="author-photo"[^>]*>/, `<img src="/images/authors/${p.slug}.webp" alt="${p.name}" class="author-photo" onerror="this.src='/images/authors/${p.slug}.jpg'">`);
+  h = h.replace(/<div class="author-beat">[\s\S]*?<\/div>/, `<div class="author-beat">${p.beat}</div>`);
+  h = h.replace(/<div class="author-name">[\s\S]*?<\/div>/, `<div class="author-name">${p.name}</div>`);
+  h = h.replace(/<div class="author-cred">[\s\S]*?<\/div>/, `<div class="author-cred">${p.credential}</div>`);
+  h = h.replace(/<p class="author-bio">[\s\S]*?<\/p>/, `<p class="author-bio">${p.bio}</p>`);
+  let vb = 0;
+  h = h.replace(/<div class="voice-box">[\s\S]*?<\/div>/g, () => `<div class="voice-box">${vb++ === 0 ? p.voice : p.topics}</div>`);
+  h = h.replace(/<div class="author-articles-note">[\s\S]*?<\/div>/, `<div class="author-articles-note">\nBrowse all articles by ${p.name} in the <a href="/category/${p.categorySlug}.html">${p.category}</a> category archive. New articles published under this byline appear automatically.\n</div>`);
+  return h;
+}
+
+function runAuthorPages() {
+  const authorsDir = path.join(SITE_DIR, 'authors');
+  const tplPath = path.join(authorsDir, 'marcus-webb.html');
+  const tpl = fs.readFileSync(tplPath, 'utf8');
+  let n = 0;
+  for (const p of BUREAU_AUTHOR_PROFILES) {
+    const html = buildAuthorPageHTML(tpl, p);
+    fs.writeFileSync(path.join(authorsDir, `${p.slug}.html`), html);
+    console.log(`✓ author page: /authors/${p.slug}.html (${p.name})`);
+    n++;
+  }
+  console.log(`✅ ${n} author pages generated`);
+}
+
 const mode = process.argv[2];
 
-if (!mode || !['scrape', 'generate', 'publish', 'dryrun', 'all'].includes(mode)) {
+if (mode === 'author-pages') {
+  runAuthorPages();
+  process.exit(0);
+}
+
+if (!mode || !['scrape', 'generate', 'publish', 'dryrun', 'all', 'author-pages'].includes(mode)) {
   console.log(`
 NewsAnarchist Content Pipeline v2 — Contrarian Edition
 
