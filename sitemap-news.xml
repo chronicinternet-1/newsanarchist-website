@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-16-ftc-warns-35b-scam-losses</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-16T23:31:50.818Z</news:publication_date>
+      <news:title>FTC Warns $3.5B Scam Losses</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-mali-kills-al-qaeda-leader</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -150,14 +158,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-16T20:32:14.885Z</news:publication_date>
       <news:title>$58M Medicare Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-ftc-warns-35b-scam-losses</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-16T20:30:56.132Z</news:publication_date>
-      <news:title>FTC Warns $3.5B Scam Losses</news:title>
     </news:news>
   </url>
   <url>
@@ -1470,38 +1470,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-15T00:19:54.852Z</news:publication_date>
       <news:title>Snowden Exile 13Yrs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-14-china-encircles-taiwan</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-14T23:20:22.134Z</news:publication_date>
-      <news:title>China Encircles Taiwan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-14-congress-secrets</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-14T23:20:10.373Z</news:publication_date>
-      <news:title>Congress Secrets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-14-fraud-charges-dropped</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-14T23:19:45.426Z</news:publication_date>
-      <news:title>Fraud Charges Dropped</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-14-uk-detains-tanker</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-14T23:19:20.291Z</news:publication_date>
-      <news:title>UK Detains Tanker</news:title>
     </news:news>
   </url>
 </urlset>
