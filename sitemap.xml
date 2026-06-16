@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,19 +115,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -143,6 +143,18 @@
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-16-mali-kills-al-qaeda-leader</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-16-guerra-con-irn</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-wrongful-convictions-reviewed</loc>
@@ -313,12 +325,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-mali-kills-al-qaeda-leader</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-carter-page-loses-suit</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -380,12 +386,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-ice-arrests-worst-criminals</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-guerra-con-irn</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -11631,8 +11631,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-10-man-accused-in-fatal-charlotte-train-stabbing-ruled-incompetent-to-stand-trial</loc>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-10-iran-threatens-decisive-response-after-us-begins-self-defense-strikes-following</loc>
