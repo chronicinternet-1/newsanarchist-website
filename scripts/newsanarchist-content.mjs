@@ -4215,7 +4215,49 @@ function runAuthorPages() {
   console.log(`✅ ${n} author pages generated`);
 }
 
+// ─── Backfill GA4 / Ezoic / affiliate into older articles missing instrumentation ──
+function runBackfillInstrumentation() {
+  const dir = path.join(SITE_DIR, 'articles');
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.html'));
+  const headBlock =
+    `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>\n` +
+    `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>\n` +
+    `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>\n` +
+    `<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>\n` +
+    `<script>\n    window.ezstandalone = window.ezstandalone || {};\n    ezstandalone.cmd = ezstandalone.cmd || [];\n</script>\n`;
+  let fixed = 0, skipped = 0;
+  for (const f of files) {
+    const fp = path.join(dir, f);
+    let html = fs.readFileSync(fp, 'utf8');
+    if (html.includes('googletagmanager.com')) { skipped++; continue; } // already instrumented
+    if (!html.includes('</head>')) { console.warn(`  ⚠️  ${f}: no </head> — skipped`); skipped++; continue; }
+    const category = (html.match(/article:section" content="([^"]+)"/) || [])[1]
+      || (html.match(/class="art-cat">([^<]+)</) || [])[1] || 'Government Secrets';
+    // 1) GA4 + Ezoic into <head>
+    html = html.replace('</head>', headBlock + '</head>');
+    // 2) Ezoic ad placeholder + affiliate block before the footer (fallback: before </body>)
+    const adAffiliate =
+      `<div id="ezoic-pub-ad-placeholder-103"></div>\n` +
+      `<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(103); });</script>\n` +
+      renderRelatedProducts(category) + '\n';
+    if (/<footer class="na-footer">/.test(html)) {
+      html = html.replace('<footer class="na-footer">', adAffiliate + '<footer class="na-footer">');
+    } else if (html.includes('</body>')) {
+      html = html.replace('</body>', adAffiliate + '</body>');
+    }
+    fs.writeFileSync(fp, html);
+    fixed++;
+  }
+  console.log(`✅ instrumentation backfill: ${fixed} articles fixed, ${skipped} already-instrumented/skipped`);
+  return fixed;
+}
+
 const mode = process.argv[2];
+
+if (mode === 'backfill-instrumentation') {
+  runBackfillInstrumentation();
+  process.exit(0);
+}
 
 if (mode === 'author-pages') {
   runAuthorPages();
