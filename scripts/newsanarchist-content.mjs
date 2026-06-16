@@ -1142,7 +1142,7 @@ function buildArticleHTML(topic) {
   const oneYearAgo = new Date(); oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
   const dateISO = (pubDateObj && pubDateObj > oneYearAgo) ? pubDate : (topic.generatedAt || new Date().toISOString());
   const dateDisplay = formatDate(dateISO);
-  const articleUrl = `${SITE_URL}/articles/${slug}`;
+  const articleUrl = `${SITE_URL}/articles/${slug.replace(/\.html$/, '')}`;
 
   const seoTitle = buildSeoTitle(title);
   const rawSubhead = stripHtml(description || '').replace(/\s+(PBS|Reuters|AP|AFP|BBC|CNN|Fox|MSNBC|NPR|NYT|WSJ|WaPo|Politico|The Hill|Axios|Vox|Vice|BuzzFeed|HuffPost|Guardian|Independent|Telegraph|Daily Mail)[\.\ s]*$/i,'').replace(/\s*Submitted by[^.]+\.?/i,'').replace(/\s*By [A-Z][a-z]+ [A-Z][a-z]+\s+of\s+\w+/,'').replace(/^[\s\-–—:,\.]+/,'').trim().replace(/^[#\s]+/,'').replace(/#[\w-]*/g,'').replace(/\s+/g,' ').trim();
