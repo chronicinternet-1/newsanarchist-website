@@ -172,6 +172,23 @@ function tickerLine(a, maxLen) {
   return b ? `${b.label} &middot; ${t}` : t;
 }
 
+// SEO/GEO/social meta for non-article pages (homepage/category/trending/files). Adds the tags
+// these pages were missing — twitter:title/image, GEO (Kapa'a HI), and JSON-LD Organization.
+// (og:* already present on these pages; canonical added inline where absent.)
+function seoExtra(title, description, image) {
+  const t = String(title).replace(/"/g, '&quot;');
+  const dd = String(description).replace(/"/g, '&quot;');
+  const img = image.startsWith('http') ? image : SITE_URL + image;
+  return `<meta name="twitter:title" content="${t}">
+<meta name="twitter:description" content="${dd}">
+<meta name="twitter:image" content="${img}">
+<meta name="geo.region" content="US-HI">
+<meta name="geo.placename" content="Kapa'a, Hawaii">
+<meta name="geo.position" content="21.9811;-159.3397">
+<meta name="ICBM" content="21.9811, -159.3397">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"NewsAnarchist","url":"${SITE_URL}","logo":"${SITE_URL}/images/logo.png","description":${JSON.stringify(String(description))},"foundingLocation":{"@type":"Place","name":"Kapa'a, Hawaii"}}</script>`;
+}
+
 // ─── Categories ────────────────────────────────────────────────────────────────
 
 const CATEGORIES = [
@@ -3063,6 +3080,8 @@ function rebuildIndexHTML(allArticles) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>NewsAnarchist — The stories buried, spiked, or spun.</title>
+<link rel="canonical" href="${SITE_URL}">
+${seoExtra('NewsAnarchist — The stories buried, spiked, or spun.', 'Independent investigative news. The stories buried, spiked, or spun.', '/images/logo.png')}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -3475,6 +3494,7 @@ function rebuildFilesIndex(allArticles) {
 <title>NewsAnarchist Files — Investigations</title>
 <meta name="description" content="Document-driven investigations. Primary sources. Named authors.">
 <link rel="canonical" href="${SITE_URL}/newsanarchist-files.html">
+${seoExtra('NewsAnarchist Files — Investigations', 'Document-driven investigations. Primary sources. Named authors.', '/images/logo.png')}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="icon" href="/images/favicon.ico">
@@ -3667,6 +3687,7 @@ function rebuildCategoryPages(allArticles) {
 <meta name="description" content="${desc}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${canonicalUrl}">
+${seoExtra(label + ' — NewsAnarchist', desc, '/images/categories/' + slug + '.svg')}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -3880,6 +3901,8 @@ function rebuildTrendingHTML(allArticles) {
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Trending Now — Last 48 Hours | NewsAnarchist</title>
 <meta name="description" content="The freshest contrarian stories from the last 48 hours.">
+<link rel="canonical" href="${SITE_URL}/trending.html">
+${seoExtra('Trending Now — Last 48 Hours | NewsAnarchist', 'The freshest contrarian stories from the last 48 hours.', '/images/logo.png')}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
