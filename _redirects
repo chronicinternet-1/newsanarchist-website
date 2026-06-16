@@ -1,1 +1,3 @@
-/ads.txt https://srv.adstxtmanager.com/19390/newsanarchist.com 301
+# /ads.txt is served as a static file (AdSense direct + Ezoic reseller lines).
+# Ezoic adstxtmanager 301 removed 2026-06-16 — target 19390 was 404 (NA not yet
+# Ezoic-approved). Re-add the redirect only after Ezoic approves and populates it.
