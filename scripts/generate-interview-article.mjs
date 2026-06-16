@@ -363,7 +363,28 @@ async function main() {
     await kvPut(key, state);
     LOG(`KV updated: ${key} → published`);
 
-    // Publish site
+    // Add this interview to the article manifest BEFORE publishing so the publish step's
+    // sitemap.xml + index rebuilds include the interview URL (root cause: interviews wrote HTML
+    // but were never in generated-articles.json, so updateSitemap never saw them).
+    try {
+      const manifestPath = path.join(SITE_DIR, 'generated-articles.json');
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      const filename = slug + '.html';
+      if (!manifest.some(a => (a.filename === filename) || (a.slug === slug))) {
+        manifest.unshift({
+          slug, filename,
+          title: state.article?.headline || article.headline || slug,
+          description: (article.qa?.[0]?.a || article.guest_bio || '').slice(0, 180),
+          category: author?.category || 'Interview',
+          author: author?.slug || state.authorKey || null,
+          generatedAt: pubDate, type: 'interview',
+        });
+        fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+        LOG(`Manifest +interview: ${filename} (sitemap will include it)`);
+      }
+    } catch (e) { LOG(`Manifest update failed (sitemap may miss this URL): ${e.message}`); }
+
+    // Publish site (rebuilds sitemap.xml + index/category pages from the manifest, then deploys)
     LOG('Publishing site...');
     try {
       execSync(`cd ${WORKSPACE} && node scripts/newsanarchist-content.mjs publish`, {

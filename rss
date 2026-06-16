@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jun 2026 07:42:29 GMT</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 07:42:29 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:02:50 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 08:02:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Filing Rules Spark Backlash</title>
+      <link>https://newsanarchist.com/articles/2026-06-16-uk-filing-rules-spark-backlash</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-uk-filing-rules-spark-backlash</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:23 GMT</pubDate>
+      <description>UK Filing Rules Spark Backlash</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-uk-filing-rules-spark-backlash.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Invasion</title>
       <link>https://newsanarchist.com/articles/2026-06-16-taiwan-simulates-invasion</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>City &amp; Guilds Bosses' Millions</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-city-guilds-bosses-millions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-city-guilds-bosses-millions</guid>
-      <pubDate>Tue, 16 Jun 2026 01:59:07 GMT</pubDate>
-      <description>City &amp; Guilds Bosses' Millions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-city-guilds-bosses-millions.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
