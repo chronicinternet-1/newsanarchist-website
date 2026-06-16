@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jun 2026 16:44:19 GMT</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 16:44:19 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 17:34:43 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 17:34:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hospice Purge Hits Legit Providers</title>
+      <link>https://newsanarchist.com/articles/2026-06-16-hospice-purge-hits-legit-providers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-hospice-purge-hits-legit-providers</guid>
+      <pubDate>Tue, 16 Jun 2026 17:31:16 GMT</pubDate>
+      <description>Hospice Purge Hits Legit Providers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-hospice-purge-hits-legit-providers.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Mali Kills Al Qaeda Leader</title>
       <link>https://newsanarchist.com/articles/2026-06-16-mali-kills-al-qaeda-leader</link>
@@ -537,18 +549,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Purge Hits Legit Providers</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-hospice-purge-hits-legit-providers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-hospice-purge-hits-legit-providers</guid>
-      <pubDate>Tue, 16 Jun 2026 10:28:56 GMT</pubDate>
-      <description>Hospice Purge Hits Legit Providers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-hospice-purge-hits-legit-providers.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Taiwan Simulates Defense</title>
