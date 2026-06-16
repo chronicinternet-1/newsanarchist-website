@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jun 2026 18:30:57 GMT</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 18:30:57 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 18:36:20 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 18:36:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Surges</title>
+      <link>https://newsanarchist.com/articles/2026-06-16-snap-fraud-surges</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-snap-fraud-surges</guid>
+      <pubDate>Tue, 16 Jun 2026 18:31:36 GMT</pubDate>
+      <description>SNAP Fraud Surges</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-snap-fraud-surges.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Antitrust Lawsuits Rise</title>
       <link>https://newsanarchist.com/articles/2026-06-16-antitrust-lawsuits-rise</link>
@@ -606,18 +618,6 @@
       <description>FISA Expires</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-fisa-expires.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Canada Toughens Privacy Laws</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-canada-toughens-privacy-laws</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-canada-toughens-privacy-laws</guid>
-      <pubDate>Tue, 16 Jun 2026 09:34:33 GMT</pubDate>
-      <description>Canada Toughens Privacy Laws</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-canada-toughens-privacy-laws.png"/>
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
