@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:56:33 GMT</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 04:56:33 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 05:29:30 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 05:29:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-06-16-medicare-fraud-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-medicare-fraud-scheme</guid>
+      <pubDate>Tue, 16 Jun 2026 05:26:55 GMT</pubDate>
+      <description>Medicare Fraud Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-medicare-fraud-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Google Faces Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-06-16-google-faces-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-google-faces-lawsuit</guid>
+      <pubDate>Tue, 16 Jun 2026 05:26:01 GMT</pubDate>
+      <description>Google Faces Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-google-faces-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-16-taiwan-simulates-defense</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Hormuz Transit Cautious</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-hormuz-transit-cautious</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-hormuz-transit-cautious</guid>
-      <pubDate>Tue, 16 Jun 2026 00:36:41 GMT</pubDate>
-      <description>Hormuz Transit Cautious</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-hormuz-transit-cautious.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Hormuz Transit Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-hormuz-transit-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-hormuz-transit-concerns</guid>
-      <pubDate>Tue, 16 Jun 2026 00:36:32 GMT</pubDate>
-      <description>Hormuz Transit Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-hormuz-transit-concerns.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
