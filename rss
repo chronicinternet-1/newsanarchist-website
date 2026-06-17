@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 02:01:59 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 02:01:59 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 02:37:26 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 02:37:26 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Wire Fraud Cases Rise</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-wire-fraud-cases-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-wire-fraud-cases-rise</guid>
+      <pubDate>Wed, 17 Jun 2026 02:34:03 GMT</pubDate>
+      <description>Wire Fraud Cases Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-wire-fraud-cases-rise.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>DOJ Clears Paramount Deal</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-doj-clears-paramount-deal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-doj-clears-paramount-deal</guid>
+      <pubDate>Wed, 17 Jun 2026 02:33:02 GMT</pubDate>
+      <description>DOJ Clears Paramount Deal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-doj-clears-paramount-deal.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>日本の顔認識カメラ</title>
       <link>https://newsanarchist.com/articles/2026-06-17-kenji-mori-mqhfbshj</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Conscienza além da Terra</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-conscienza-alm-da-terra</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-conscienza-alm-da-terra</guid>
-      <pubDate>Tue, 16 Jun 2026 18:36:35 GMT</pubDate>
-      <description>Conscienza além da Terra</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-conscienza-alm-da-terra.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Surges</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-snap-fraud-surges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-snap-fraud-surges</guid>
-      <pubDate>Tue, 16 Jun 2026 18:31:36 GMT</pubDate>
-      <description>SNAP Fraud Surges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-snap-fraud-surges.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
