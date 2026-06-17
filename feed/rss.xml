@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 08:52:02 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 08:52:02 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 09:37:27 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 09:37:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$14.6B Health Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-146b-health-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-146b-health-fraud</guid>
+      <pubDate>Wed, 17 Jun 2026 09:36:33 GMT</pubDate>
+      <description>$14.6B Health Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-146b-health-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>FTC News</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ftc-news</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ftc-news</guid>
+      <pubDate>Wed, 17 Jun 2026 09:35:24 GMT</pubDate>
+      <description>FTC News</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ftc-news.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Strait Tensions</title>
       <link>https://newsanarchist.com/articles/2026-06-17-taiwan-strait-tensions</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>UAP Files Released</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-uap-files-released</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-uap-files-released</guid>
-      <pubDate>Wed, 17 Jun 2026 02:39:01 GMT</pubDate>
-      <description>UAP Files Released</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-uap-files-released.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Wire Fraud Cases Rise</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-wire-fraud-cases-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-wire-fraud-cases-rise</guid>
-      <pubDate>Wed, 17 Jun 2026 02:34:03 GMT</pubDate>
-      <description>Wire Fraud Cases Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-wire-fraud-cases-rise.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
