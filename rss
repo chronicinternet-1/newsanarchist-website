@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 11:45:16 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 11:45:16 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 11:50:37 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 11:50:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Prepares Defense</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-taiwan-prepares-defense</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-taiwan-prepares-defense</guid>
+      <pubDate>Wed, 17 Jun 2026 11:49:35 GMT</pubDate>
+      <description>Taiwan Prepares Defense</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-taiwan-prepares-defense.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>FISA Deadline Looms</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</guid>
+      <pubDate>Wed, 17 Jun 2026 11:46:48 GMT</pubDate>
+      <description>FISA Deadline Looms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-fisa-deadline-looms.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacked</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-defi-hacked</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-defi-hacked</guid>
+      <pubDate>Wed, 17 Jun 2026 11:45:28 GMT</pubDate>
+      <description>DeFi Hacked</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-defi-hacked.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Ex-ComEd CEO Retrial</title>
       <link>https://newsanarchist.com/articles/2026-06-17-ex-comed-ceo-retrial</link>
@@ -107,18 +143,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>DeFi Hacked</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-defi-hacked</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-defi-hacked</guid>
-      <pubDate>Wed, 17 Jun 2026 10:45:12 GMT</pubDate>
-      <description>DeFi Hacked</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-defi-hacked.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>US-China tensions</title>
       <link>https://newsanarchist.com/articles/2026-06-17-us-china-tensions</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-us-china-tensions</guid>
@@ -189,18 +213,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>FISA Deadline Looms</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</guid>
-      <pubDate>Wed, 17 Jun 2026 09:46:14 GMT</pubDate>
-      <description>FISA Deadline Looms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-fisa-deadline-looms.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>G7 Ups Pressure</title>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutor Weighs Options</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-prosecutor-weighs-options</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-prosecutor-weighs-options</guid>
-      <pubDate>Wed, 17 Jun 2026 03:40:47 GMT</pubDate>
-      <description>Prosecutor Weighs Options</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-prosecutor-weighs-options.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
