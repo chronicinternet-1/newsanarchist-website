@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 19:46:30 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 19:46:30 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 19:51:52 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 19:51:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Congress Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-congress-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-congress-transparency</guid>
+      <pubDate>Wed, 17 Jun 2026 19:50:04 GMT</pubDate>
+      <description>Congress Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-congress-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UFO Files Released</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ufo-files-released</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ufo-files-released</guid>
+      <pubDate>Wed, 17 Jun 2026 19:48:32 GMT</pubDate>
+      <description>UFO Files Released</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ufo-files-released.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>G7 Pressures Russia</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-g7-pressures-russia</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-g7-pressures-russia</guid>
+      <pubDate>Wed, 17 Jun 2026 19:46:38 GMT</pubDate>
+      <description>G7 Pressures Russia</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-g7-pressures-russia.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>15 Charged in MN</title>
       <link>https://newsanarchist.com/articles/2026-06-17-15-charged-in-mn</link>
@@ -467,18 +503,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>G7 Pressures Russia</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-g7-pressures-russia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-g7-pressures-russia</guid>
-      <pubDate>Wed, 17 Jun 2026 13:44:33 GMT</pubDate>
-      <description>G7 Pressures Russia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-g7-pressures-russia.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
       <title>Forensics Crack Gunshot Case</title>
       <link>https://newsanarchist.com/articles/2026-06-17-forensics-crack-gunshot-case</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-forensics-crack-gunshot-case</guid>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Near Death Experiences</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-near-death-experiences</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-near-death-experiences</guid>
-      <pubDate>Wed, 17 Jun 2026 11:41:54 GMT</pubDate>
-      <description>Near Death Experiences</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-near-death-experiences.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Newsom Investigated</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-newsom-investigated</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-newsom-investigated</guid>
-      <pubDate>Wed, 17 Jun 2026 10:46:31 GMT</pubDate>
-      <description>Newsom Investigated</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-newsom-investigated.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
