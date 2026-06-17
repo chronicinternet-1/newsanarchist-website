@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-17-ftc-warns-35b-scam-losses</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-17T03:33:22.137Z</news:publication_date>
+      <news:title>FTC Warns $3.5B Scam Losses</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-17-taiwan-china-tensions</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -278,14 +286,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-16T23:33:08.394Z</news:publication_date>
       <news:title>SNAP Fraud Exposed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-ftc-warns-35b-scam-losses</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-16T23:31:50.818Z</news:publication_date>
-      <news:title>FTC Warns $3.5B Scam Losses</news:title>
     </news:news>
   </url>
   <url>
@@ -1510,22 +1510,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-15T04:22:01.485Z</news:publication_date>
       <news:title>Texas Shooting</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-15-china-increases-pressure</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-15T03:22:33.693Z</news:publication_date>
-      <news:title>China Increases Pressure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-15-usda-subpoenas-ca-snap-data</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-15T03:18:08.113Z</news:publication_date>
-      <news:title>USDA Subpoenas CA SNAP Data</news:title>
     </news:news>
   </url>
 </urlset>

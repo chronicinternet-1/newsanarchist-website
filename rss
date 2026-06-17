@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 02:48:28 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 02:48:28 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 03:33:52 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 03:33:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FTC Warns $3.5B Scam Losses</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ftc-warns-35b-scam-losses</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ftc-warns-35b-scam-losses</guid>
+      <pubDate>Wed, 17 Jun 2026 03:33:22 GMT</pubDate>
+      <description>FTC Warns $3.5B Scam Losses</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ftc-warns-35b-scam-losses.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan-China Tensions</title>
       <link>https://newsanarchist.com/articles/2026-06-17-taiwan-china-tensions</link>
@@ -441,18 +453,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Warns $3.5B Scam Losses</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-ftc-warns-35b-scam-losses</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-ftc-warns-35b-scam-losses</guid>
-      <pubDate>Tue, 16 Jun 2026 23:31:50 GMT</pubDate>
-      <description>FTC Warns $3.5B Scam Losses</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-ftc-warns-35b-scam-losses.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Mali Kills Al Qaeda Leader</title>
