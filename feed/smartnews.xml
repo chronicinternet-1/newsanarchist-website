@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 20:48:11 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 20:48:11 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 20:54:17 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 20:54:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-myanmar-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-myanmar-conflict-escalates</guid>
+      <pubDate>Wed, 17 Jun 2026 20:52:37 GMT</pubDate>
+      <description>Myanmar Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-myanmar-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Senate Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-senate-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-senate-transparency</guid>
+      <pubDate>Wed, 17 Jun 2026 20:50:23 GMT</pubDate>
+      <description>Senate Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-senate-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UAP Files Released</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-uap-files-released</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-uap-files-released</guid>
+      <pubDate>Wed, 17 Jun 2026 20:48:50 GMT</pubDate>
+      <description>UAP Files Released</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-uap-files-released.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-Iran Deal Unfolds</title>
       <link>https://newsanarchist.com/articles/2026-06-17-us-iran-deal-unfolds</link>
@@ -93,18 +129,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Conflict Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-myanmar-conflict-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-myanmar-conflict-escalates</guid>
-      <pubDate>Wed, 17 Jun 2026 19:52:18 GMT</pubDate>
-      <description>Myanmar Conflict Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-myanmar-conflict-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Congress Transparency</title>
@@ -371,18 +395,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>UAP Files Released</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-uap-files-released</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-uap-files-released</guid>
-      <pubDate>Wed, 17 Jun 2026 16:43:32 GMT</pubDate>
-      <description>UAP Files Released</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-uap-files-released.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Govt Secrets Uncovered</title>
       <link>https://newsanarchist.com/articles/2026-06-17-govt-secrets-uncovered</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-govt-secrets-uncovered</guid>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>WiFi Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-wifi-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-wifi-surveillance</guid>
-      <pubDate>Wed, 17 Jun 2026 12:43:39 GMT</pubDate>
-      <description>WiFi Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-wifi-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
