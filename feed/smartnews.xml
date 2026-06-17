@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 07:39:26 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 07:39:26 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 07:44:49 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 07:44:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,54 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DeFi Exploits Hit $13B</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-defi-exploits-hit-13b</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-defi-exploits-hit-13b</guid>
+      <pubDate>Wed, 17 Jun 2026 07:44:17 GMT</pubDate>
+      <description>DeFi Exploits Hit $13B</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-defi-exploits-hit-13b.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Ex-ComEd CEO Retrial</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ex-comed-ceo-retrial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ex-comed-ceo-retrial</guid>
+      <pubDate>Wed, 17 Jun 2026 07:42:13 GMT</pubDate>
+      <description>Ex-ComEd CEO Retrial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ex-comed-ceo-retrial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FISA Renewal Delayed</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-fisa-renewal-delayed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-fisa-renewal-delayed</guid>
+      <pubDate>Wed, 17 Jun 2026 07:41:51 GMT</pubDate>
+      <description>FISA Renewal Delayed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-fisa-renewal-delayed.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Beyond Earth</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-consciousness-beyond-earth</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-consciousness-beyond-earth</guid>
+      <pubDate>Wed, 17 Jun 2026 07:40:35 GMT</pubDate>
+      <description>Consciousness Beyond Earth</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-consciousness-beyond-earth.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Cases Rise</title>
       <link>https://newsanarchist.com/articles/2026-06-17-snap-fraud-cases-rise</link>
@@ -215,18 +263,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>FISA Renewal Delayed</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-fisa-renewal-delayed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-fisa-renewal-delayed</guid>
-      <pubDate>Wed, 17 Jun 2026 05:41:14 GMT</pubDate>
-      <description>FISA Renewal Delayed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-fisa-renewal-delayed.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>UAP Hearings</title>
       <link>https://newsanarchist.com/articles/2026-06-17-uap-hearings</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-uap-hearings</guid>
@@ -321,18 +357,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Earth</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-consciousness-beyond-earth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-consciousness-beyond-earth</guid>
-      <pubDate>Wed, 17 Jun 2026 04:39:39 GMT</pubDate>
-      <description>Consciousness Beyond Earth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-consciousness-beyond-earth.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>FTC Acts</title>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Newsom Probed</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-newsom-probed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-newsom-probed</guid>
-      <pubDate>Wed, 17 Jun 2026 00:42:51 GMT</pubDate>
-      <description>Newsom Probed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-newsom-probed.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Mystery Orbs</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-mystery-orbs</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-mystery-orbs</guid>
-      <pubDate>Wed, 17 Jun 2026 00:41:46 GMT</pubDate>
-      <description>Mystery Orbs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-mystery-orbs.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
