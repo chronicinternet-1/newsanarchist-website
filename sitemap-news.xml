@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-17T08:35:07.082Z</news:publication_date>
+      <news:title>DOJ Clears Merger</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-17-fca-to-impose-bigger-fines</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -134,14 +142,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-17T06:35:38.944Z</news:publication_date>
       <news:title>Medicaid Fraud Exposed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-17T06:34:27.711Z</news:publication_date>
-      <news:title>DOJ Clears Merger</news:title>
     </news:news>
   </url>
   <url>
@@ -1622,14 +1622,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-15T09:23:21.771Z</news:publication_date>
       <news:title>Bees, ChatGPT Conscious?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-15-ftc-rulemaking-power-limited</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-15T08:16:59.510Z</news:publication_date>
-      <news:title>FTC Rulemaking Power Limited</news:title>
     </news:news>
   </url>
 </urlset>
