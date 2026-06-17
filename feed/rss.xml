@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 09:48:13 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 09:48:13 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 10:38:34 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 10:38:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NY Medicaid Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ny-medicaid-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ny-medicaid-fraud</guid>
+      <pubDate>Wed, 17 Jun 2026 10:36:53 GMT</pubDate>
+      <description>NY Medicaid Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ny-medicaid-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Antitrust Lawsuits</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-antitrust-lawsuits</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-antitrust-lawsuits</guid>
+      <pubDate>Wed, 17 Jun 2026 10:35:43 GMT</pubDate>
+      <description>Antitrust Lawsuits</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-antitrust-lawsuits.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>FISA Deadline Looms</title>
       <link>https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</link>
@@ -189,18 +213,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NY Medicaid Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-ny-medicaid-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ny-medicaid-fraud</guid>
-      <pubDate>Wed, 17 Jun 2026 08:36:14 GMT</pubDate>
-      <description>NY Medicaid Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ny-medicaid-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>DOJ Clears Merger</title>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Trump Seeks FISA Extension</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-trump-seeks-fisa-extension</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-trump-seeks-fisa-extension</guid>
-      <pubDate>Wed, 17 Jun 2026 02:43:44 GMT</pubDate>
-      <description>Trump Seeks FISA Extension</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-trump-seeks-fisa-extension.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
