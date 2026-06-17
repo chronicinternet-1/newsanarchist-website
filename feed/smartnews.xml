@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jun 2026 23:48:38 GMT</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 23:48:38 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 00:34:05 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 00:34:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-medicaid-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-medicaid-fraud-exposed</guid>
+      <pubDate>Wed, 17 Jun 2026 00:33:27 GMT</pubDate>
+      <description>Medicaid Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-medicaid-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Amazon Faces FTC Suit</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-amazon-faces-ftc-suit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-amazon-faces-ftc-suit</guid>
+      <pubDate>Wed, 17 Jun 2026 00:32:12 GMT</pubDate>
+      <description>Amazon Faces FTC Suit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-amazon-faces-ftc-suit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Invasion Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-16-taiwan-simulates-invasion-defense</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Carter Page Suit Dismissed</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-carter-page-suit-dismissed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-carter-page-suit-dismissed</guid>
-      <pubDate>Tue, 16 Jun 2026 15:40:06 GMT</pubDate>
-      <description>Carter Page Suit Dismissed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-carter-page-suit-dismissed.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon UFO Files</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-pentagon-ufo-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-pentagon-ufo-files</guid>
-      <pubDate>Tue, 16 Jun 2026 15:38:24 GMT</pubDate>
-      <description>Pentagon UFO Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-pentagon-ufo-files.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
