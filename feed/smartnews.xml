@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:50:18 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 00:50:18 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 01:35:47 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 01:35:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Soars</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-medicare-fraud-soars</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-medicare-fraud-soars</guid>
+      <pubDate>Wed, 17 Jun 2026 01:33:45 GMT</pubDate>
+      <description>Medicare Fraud Soars</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-medicare-fraud-soars.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>DOJ Clears Merger</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</guid>
+      <pubDate>Wed, 17 Jun 2026 01:32:44 GMT</pubDate>
+      <description>DOJ Clears Merger</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-doj-clears-merger.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-17-taiwan-simulates-defense</link>
@@ -395,18 +419,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>DOJ Clears Merger</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-doj-clears-merger</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-doj-clears-merger</guid>
-      <pubDate>Tue, 16 Jun 2026 21:31:17 GMT</pubDate>
-      <description>DOJ Clears Merger</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-doj-clears-merger.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
       <title>Wrongful Convictions Reviewed</title>
       <link>https://newsanarchist.com/articles/2026-06-16-wrongful-convictions-reviewed</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-wrongful-convictions-reviewed</guid>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Canada Revamps Privacy Laws</title>
-      <link>https://newsanarchist.com/articles/2026-06-16-canada-revamps-privacy-laws</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-16-canada-revamps-privacy-laws</guid>
-      <pubDate>Tue, 16 Jun 2026 17:37:20 GMT</pubDate>
-      <description>Canada Revamps Privacy Laws</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-16-canada-revamps-privacy-laws.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
