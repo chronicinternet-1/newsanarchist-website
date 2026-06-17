@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jun 2026 16:52:30 GMT</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 16:52:30 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2026 17:42:55 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2026 17:42:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Removals</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-snap-fraud-removals</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-snap-fraud-removals</guid>
+      <pubDate>Wed, 17 Jun 2026 17:39:46 GMT</pubDate>
+      <description>SNAP Fraud Removals</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-snap-fraud-removals.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>FTC News</title>
+      <link>https://newsanarchist.com/articles/2026-06-17-ftc-news</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ftc-news</guid>
+      <pubDate>Wed, 17 Jun 2026 17:38:01 GMT</pubDate>
+      <description>FTC News</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ftc-news.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Conflict Escalates</title>
       <link>https://newsanarchist.com/articles/2026-06-17-myanmar-conflict-escalates</link>
@@ -263,18 +287,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>SNAP Fraud Removals</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-snap-fraud-removals</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-snap-fraud-removals</guid>
-      <pubDate>Wed, 17 Jun 2026 14:38:31 GMT</pubDate>
-      <description>SNAP Fraud Removals</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-snap-fraud-removals.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
       <title>DOJ Clears Merger</title>
       <link>https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-doj-clears-merger</guid>
@@ -369,18 +381,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC News</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-ftc-news</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-ftc-news</guid>
-      <pubDate>Wed, 17 Jun 2026 13:36:40 GMT</pubDate>
-      <description>FTC News</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-ftc-news.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Newsom Probed</title>
