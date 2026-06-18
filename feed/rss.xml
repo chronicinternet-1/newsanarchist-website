@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 06:53:37 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 06:53:37 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 06:58:57 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 06:58:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Gov't Recovers $512M</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-govt-recovers-512m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-govt-recovers-512m</guid>
+      <pubDate>Thu, 18 Jun 2026 06:53:28 GMT</pubDate>
+      <description>Gov't Recovers $512M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-govt-recovers-512m.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Blockchain Stock Trading</title>
       <link>https://newsanarchist.com/articles/2026-06-18-blockchain-stock-trading</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Cases Rise</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-snap-fraud-cases-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-snap-fraud-cases-rise</guid>
-      <pubDate>Wed, 17 Jun 2026 23:41:44 GMT</pubDate>
-      <description>SNAP Fraud Cases Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-snap-fraud-cases-rise.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
