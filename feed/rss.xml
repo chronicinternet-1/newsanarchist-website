@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 22:57:36 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 22:57:36 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 23:02:57 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 23:02:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Niamey Airport Attacked</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-niamey-airport-attacked</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-niamey-airport-attacked</guid>
+      <pubDate>Thu, 18 Jun 2026 23:02:33 GMT</pubDate>
+      <description>Niamey Airport Attacked</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-niamey-airport-attacked.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Whistleblower Retaliation</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-whistleblower-retaliation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-whistleblower-retaliation</guid>
+      <pubDate>Thu, 18 Jun 2026 22:59:26 GMT</pubDate>
+      <description>Whistleblower Retaliation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-whistleblower-retaliation.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>SEC Removes Blockchain Barrier</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</guid>
+      <pubDate>Thu, 18 Jun 2026 22:57:57 GMT</pubDate>
+      <description>SEC Removes Blockchain Barrier</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-sec-removes-blockchain-barrier.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-China Tensions</title>
       <link>https://newsanarchist.com/articles/2026-06-18-us-china-tensions</link>
@@ -117,18 +153,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Removes Blockchain Barrier</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</guid>
-      <pubDate>Thu, 18 Jun 2026 21:57:39 GMT</pubDate>
-      <description>SEC Removes Blockchain Barrier</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-sec-removes-blockchain-barrier.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>PA Supreme Court Blasts DA</title>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Insider Trading Probe</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-insider-trading-probe</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-insider-trading-probe</guid>
-      <pubDate>Thu, 18 Jun 2026 15:45:22 GMT</pubDate>
-      <description>Insider Trading Probe</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-insider-trading-probe.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Senate Hearings Delayed</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-senate-hearings-delayed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-senate-hearings-delayed</guid>
-      <pubDate>Thu, 18 Jun 2026 14:56:15 GMT</pubDate>
-      <description>Senate Hearings Delayed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-senate-hearings-delayed.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
