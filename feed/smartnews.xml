@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 16:58:33 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 16:58:33 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 17:49:04 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 17:49:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hospice Care Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-hospice-care-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-hospice-care-fraud</guid>
+      <pubDate>Thu, 18 Jun 2026 17:47:28 GMT</pubDate>
+      <description>Hospice Care Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-hospice-care-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Fraud Cases Rise</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-fraud-cases-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-fraud-cases-rise</guid>
+      <pubDate>Thu, 18 Jun 2026 17:46:04 GMT</pubDate>
+      <description>Fraud Cases Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-fraud-cases-rise.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Fed Renovation Costs</title>
       <link>https://newsanarchist.com/articles/2026-06-18-fed-renovation-costs</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FOIA Request Exposes</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-foia-request-exposes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-foia-request-exposes</guid>
-      <pubDate>Thu, 18 Jun 2026 09:54:34 GMT</pubDate>
-      <description>FOIA Request Exposes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-foia-request-exposes.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC policy shift</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-sec-policy-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-sec-policy-shift</guid>
-      <pubDate>Thu, 18 Jun 2026 09:53:18 GMT</pubDate>
-      <description>SEC policy shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-sec-policy-shift.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
