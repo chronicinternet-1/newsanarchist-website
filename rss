@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 15:00:45 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 15:00:45 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 15:46:13 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 15:46:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Insider Trading Probe</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-insider-trading-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-insider-trading-probe</guid>
+      <pubDate>Thu, 18 Jun 2026 15:45:22 GMT</pubDate>
+      <description>Insider Trading Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-insider-trading-probe.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Detects Chinese Naval Vessels</title>
       <link>https://newsanarchist.com/articles/2026-06-18-taiwan-detects-chinese-naval-vessels</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Report</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-oversight-report</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-oversight-report</guid>
-      <pubDate>Thu, 18 Jun 2026 07:53:45 GMT</pubDate>
-      <description>Oversight Report</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-oversight-report.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
