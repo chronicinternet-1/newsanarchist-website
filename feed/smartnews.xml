@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 13:53:36 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 13:53:36 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 13:58:59 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 13:58:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Detects Chinese Naval Vessels</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-taiwan-detects-chinese-naval-vessels</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-taiwan-detects-chinese-naval-vessels</guid>
+      <pubDate>Thu, 18 Jun 2026 13:58:33 GMT</pubDate>
+      <description>Taiwan Detects Chinese Naval Vessels</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-taiwan-detects-chinese-naval-vessels.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Fed Construction Scandal</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-fed-construction-scandal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-fed-construction-scandal</guid>
+      <pubDate>Thu, 18 Jun 2026 13:55:56 GMT</pubDate>
+      <description>Fed Construction Scandal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-fed-construction-scandal.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>SEC Removes Blockchain Barrier</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</guid>
+      <pubDate>Thu, 18 Jun 2026 13:54:47 GMT</pubDate>
+      <description>SEC Removes Blockchain Barrier</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-sec-removes-blockchain-barrier.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Petrol prices fall</title>
       <link>https://newsanarchist.com/articles/2026-06-18-petrol-prices-fall</link>
@@ -117,18 +153,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Removes Blockchain Barrier</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-sec-removes-blockchain-barrier</guid>
-      <pubDate>Thu, 18 Jun 2026 12:54:28 GMT</pubDate>
-      <description>SEC Removes Blockchain Barrier</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-sec-removes-blockchain-barrier.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>US-China Tensions</title>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Blockchain Stock Trading</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-blockchain-stock-trading</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-blockchain-stock-trading</guid>
-      <pubDate>Thu, 18 Jun 2026 06:52:23 GMT</pubDate>
-      <description>Blockchain Stock Trading</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-blockchain-stock-trading.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Faces Challenges</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-nato-faces-challenges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-nato-faces-challenges</guid>
-      <pubDate>Thu, 18 Jun 2026 06:50:16 GMT</pubDate>
-      <description>NATO Faces Challenges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-nato-faces-challenges.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
