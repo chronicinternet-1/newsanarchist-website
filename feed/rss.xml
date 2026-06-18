@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Jun 2026 01:50:51 GMT</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 01:50:51 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 01:56:12 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 01:56:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Congress Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-18-congress-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-congress-oversight</guid>
+      <pubDate>Thu, 18 Jun 2026 01:51:54 GMT</pubDate>
+      <description>Congress Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-congress-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>NATO Faces Challenges</title>
       <link>https://newsanarchist.com/articles/2026-06-18-nato-faces-challenges</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Hacked</title>
-      <link>https://newsanarchist.com/articles/2026-06-17-defi-hacked</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-17-defi-hacked</guid>
-      <pubDate>Wed, 17 Jun 2026 17:47:55 GMT</pubDate>
-      <description>DeFi Hacked</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-17-defi-hacked.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
