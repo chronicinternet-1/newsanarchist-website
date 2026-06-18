@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-18-kenji-mori-mqiurmyn</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
+      <news:publication_date>2026-06-18T02:00:19.967Z</news:publication_date>
+      <news:title>日本のプライバシー懸念</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-18-congress-oversight</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1678,22 +1686,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
       <news:publication_date>2026-06-16T02:02:16.938Z</news:publication_date>
       <news:title>日本の顔認識カメラ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-06-16T02:00:23.867Z</news:publication_date>
-      <news:title>顔認識カメラ捜査の不安</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-16-city-guilds-bosses-millions</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-06-16T01:59:07.957Z</news:publication_date>
-      <news:title>City &amp; Guilds Bosses&apos; Millions</news:title>
     </news:news>
   </url>
 </urlset>
