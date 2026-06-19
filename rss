@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 15:13:50 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 15:13:50 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 15:54:14 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 15:54:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Ends Gag Rule</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-sec-ends-gag-rule</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-sec-ends-gag-rule</guid>
+      <pubDate>Fri, 19 Jun 2026 15:53:23 GMT</pubDate>
+      <description>SEC Ends Gag Rule</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-sec-ends-gag-rule.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China monitors Japan</title>
       <link>https://newsanarchist.com/articles/2026-06-19-china-monitors-japan</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Conscious Blobs</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-conscious-blobs</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-conscious-blobs</guid>
-      <pubDate>Fri, 19 Jun 2026 06:55:57 GMT</pubDate>
-      <description>Conscious Blobs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-conscious-blobs.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
