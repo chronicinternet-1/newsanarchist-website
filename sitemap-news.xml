@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-19-146b-fraud</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-19T17:55:29.670Z</news:publication_date>
+      <news:title>$14.6B Fraud</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-19-ftc-cracks-down</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-19T17:53:59.663Z</news:publication_date>
+      <news:title>FTC Cracks Down</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-19-sudan-conflict-escalates</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -313,14 +329,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-ftc-cracks-down</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T11:52:04.646Z</news:publication_date>
-      <news:title>FTC Cracks Down</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-06-19-igs-under-scrutiny</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -390,14 +398,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-19T09:56:49.813Z</news:publication_date>
       <news:title>Consciousness Found</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-146b-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T09:52:52.213Z</news:publication_date>
-      <news:title>$14.6B Fraud</news:title>
     </news:news>
   </url>
   <url>
@@ -1798,30 +1798,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-17T18:38:22.708Z</news:publication_date>
       <news:title>SEC Proposes Rule Change</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-17-fisa-deadline-looms</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-17T17:49:09.860Z</news:publication_date>
-      <news:title>FISA Deadline Looms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-17-g7-refocuses-on-ukraine</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-17T17:46:00.154Z</news:publication_date>
-      <news:title>G7 Refocuses on Ukraine</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-17-ftc-news</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-17T17:38:01.520Z</news:publication_date>
-      <news:title>FTC News</news:title>
     </news:news>
   </url>
 </urlset>
