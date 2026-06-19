@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 08:06:55 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 08:06:55 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 08:52:19 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 08:52:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FTC Cracks Down</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-ftc-cracks-down</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-ftc-cracks-down</guid>
+      <pubDate>Fri, 19 Jun 2026 08:51:10 GMT</pubDate>
+      <description>FTC Cracks Down</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-ftc-cracks-down.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Niger Airport Attack</title>
       <link>https://newsanarchist.com/articles/2026-06-19-niger-airport-attack</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Failures</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-oversight-failures</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-oversight-failures</guid>
-      <pubDate>Thu, 18 Jun 2026 23:59:45 GMT</pubDate>
-      <description>Oversight Failures</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-oversight-failures.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
