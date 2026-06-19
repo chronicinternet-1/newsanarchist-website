@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 21:03:08 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 21:03:08 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 21:08:34 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 21:08:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fauci Backed Wuhan Research</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-fauci-backed-wuhan-research</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fauci-backed-wuhan-research</guid>
+      <pubDate>Fri, 19 Jun 2026 21:07:25 GMT</pubDate>
+      <description>Fauci Backed Wuhan Research</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-fauci-backed-wuhan-research.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Sgt Major Sentenced</title>
       <link>https://newsanarchist.com/articles/2026-06-19-sgt-major-sentenced</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Lifts Iran Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-us-lifts-iran-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-us-lifts-iran-sanctions</guid>
-      <pubDate>Fri, 19 Jun 2026 13:00:31 GMT</pubDate>
-      <description>US Lifts Iran Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-us-lifts-iran-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
