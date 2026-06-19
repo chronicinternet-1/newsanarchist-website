@@ -339,6 +339,9 @@ const CATEGORY_LABELS = {
   'Money & Markets': '💰 Money & Markets',
   'Unexplained': '👽 Unexplained',
   'True Crime': '🔪 True Crime',
+  'Financial Fraud': '💰 Financial Fraud',
+  'Conflict & Wars': '⚔️ Conflict & Wars',
+  'Web3 & Blockchain': '🔗 Web3 & Blockchain',
 };
 
 const CATEGORY_DESCRIPTIONS = {
@@ -350,6 +353,9 @@ const CATEGORY_DESCRIPTIONS = {
   'Money & Markets': 'Banking corruption, market manipulation, inflation, and the financial system\'s dirty secrets.',
   'Unexplained': 'UFOs, government cover-ups, paranormal phenomena, and mysteries they can\'t debunk.',
   'True Crime': 'Unsolved cases, corruption in law enforcement, miscarriages of justice, and crime they don\'t want solved.',
+  'Financial Fraud': 'Ponzi schemes, accounting fraud, insider trading, and the white-collar crimes that drain pensions and savings.',
+  'Conflict & Wars': 'Armed conflicts, proxy wars, arms deals, and the geopolitical machinery profiting from global instability.',
+  'Web3 & Blockchain': 'Crypto exploits, rug pulls, DeFi collapses, and the decentralized frontier where fortunes vanish overnight.',
 };
 const CONTRARIAN_BOOST_KEYWORDS = [
   'foia', 'leaked', 'declassified', 'whistleblower', 'court ruling', 'opinion',
