@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 12:54:48 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 12:54:48 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 13:00:14 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 13:00:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NY Prison Reform</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-ny-prison-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-ny-prison-reform</guid>
+      <pubDate>Fri, 19 Jun 2026 12:59:56 GMT</pubDate>
+      <description>NY Prison Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-ny-prison-reform.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>DHS Expands Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-dhs-expands-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-dhs-expands-surveillance</guid>
+      <pubDate>Fri, 19 Jun 2026 12:59:39 GMT</pubDate>
+      <description>DHS Expands Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-dhs-expands-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>AI y Conciencia</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-ai-y-conciencia</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-ai-y-conciencia</guid>
+      <pubDate>Fri, 19 Jun 2026 12:57:58 GMT</pubDate>
+      <description>AI y Conciencia</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-ai-y-conciencia.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Scheme</title>
       <link>https://newsanarchist.com/articles/2026-06-19-medicaid-fraud-scheme</link>
@@ -347,18 +383,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>NY Prison Reform</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-ny-prison-reform</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-ny-prison-reform</guid>
-      <pubDate>Fri, 19 Jun 2026 08:58:41 GMT</pubDate>
-      <description>NY Prison Reform</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-ny-prison-reform.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>FISA Expires Amidst Debate</title>
       <link>https://newsanarchist.com/articles/2026-06-19-fisa-expires-amidst-debate</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fisa-expires-amidst-debate</guid>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Earth</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-consciousness-beyond-earth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-consciousness-beyond-earth</guid>
-      <pubDate>Fri, 19 Jun 2026 04:55:16 GMT</pubDate>
-      <description>Consciousness Beyond Earth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-consciousness-beyond-earth.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Uncovered</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-medicaid-fraud-uncovered</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-medicaid-fraud-uncovered</guid>
-      <pubDate>Fri, 19 Jun 2026 04:51:17 GMT</pubDate>
-      <description>Medicaid Fraud Uncovered</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-medicaid-fraud-uncovered.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
