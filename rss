@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 06:03:35 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 06:03:35 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 06:08:59 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 06:08:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Assault Imminent</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-sudan-assault-imminent</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-sudan-assault-imminent</guid>
+      <pubDate>Fri, 19 Jun 2026 06:05:10 GMT</pubDate>
+      <description>Sudan Assault Imminent</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-sudan-assault-imminent.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Gov Surveillance Expands</title>
       <link>https://newsanarchist.com/articles/2026-06-19-gov-surveillance-expands</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>White House Updates</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-white-house-updates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-white-house-updates</guid>
-      <pubDate>Thu, 18 Jun 2026 21:59:05 GMT</pubDate>
-      <description>White House Updates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-white-house-updates.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
