@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 07:05:13 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 07:05:13 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 07:10:34 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 07:10:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Air Strike Kills 7</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-myanmar-air-strike-kills-7</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-myanmar-air-strike-kills-7</guid>
+      <pubDate>Fri, 19 Jun 2026 07:05:29 GMT</pubDate>
+      <description>Myanmar Air Strike Kills 7</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-myanmar-air-strike-kills-7.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>KPMG Whistleblower</title>
       <link>https://newsanarchist.com/articles/2026-06-19-kpmg-whistleblower</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Whistleblower Retaliation</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-whistleblower-retaliation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-whistleblower-retaliation</guid>
-      <pubDate>Thu, 18 Jun 2026 22:59:26 GMT</pubDate>
-      <description>Whistleblower Retaliation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-whistleblower-retaliation.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
