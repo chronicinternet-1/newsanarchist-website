@@ -3526,12 +3526,32 @@ function updateSitemap(allArticles) {
   }
   for (const [loc, lm] of prior) if (!seen.has(loc)) add(loc, lm, '0.6', 'monthly');
 
+  // Filesystem sweep — index every published article HTML, not just manifest entries.
+  // The manifest (generated-articles.json) is pruned by title-dedup on each publish, but the
+  // HTML files are never deleted, so manifest-only generation orphaned ~1k real articles from
+  // the sitemap. Scan articles/ and add any file not already covered.
+  let fsAdded = 0;
+  const articlesDir = path.join(SITE_DIR, 'articles');
+  if (fs.existsSync(articlesDir)) {
+    for (const f of fs.readdirSync(articlesDir)) {
+      if (!f.endsWith('.html')) continue;
+      const loc = `${SITE_URL}/articles/${f.replace(/\.html$/, '')}`;
+      if (seen.has(loc)) continue;
+      const m = f.match(/^(\d{4}-\d{2}-\d{2})/);
+      let lm;
+      if (m) lm = m[1];
+      else { try { lm = new Date(fs.statSync(path.join(articlesDir, f)).mtime).toISOString().slice(0, 10); } catch { lm = today; } }
+      add(loc, lm, '0.6', 'monthly');
+      fsAdded++;
+    }
+  }
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${entries.join('\n')}
 </urlset>`;
   fs.writeFileSync(sitemapPath, xml);
-  console.log(`  ✅ sitemap.xml rebuilt (${entries.length} URLs: 1 home + ${CATEGORIES.length} cats + ${authorSlugs.size} authors + ${allArticles.length} manifest + ${prior.size} preserved)`);
+  console.log(`  ✅ sitemap.xml rebuilt (${entries.length} URLs: 1 home + ${CATEGORIES.length} cats + ${authorSlugs.size} authors + ${allArticles.length} manifest + ${prior.size} preserved + ${fsAdded} fs-swept)`);
 
   buildNewsSitemap(allArticles);
   ensureRobots();
