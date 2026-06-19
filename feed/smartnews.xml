@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 17:01:20 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 17:01:20 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 17:06:44 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 17:06:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fauci Funded Wuhan Lab</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-fauci-funded-wuhan-lab</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fauci-funded-wuhan-lab</guid>
+      <pubDate>Fri, 19 Jun 2026 17:05:50 GMT</pubDate>
+      <description>Fauci Funded Wuhan Lab</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-fauci-funded-wuhan-lab.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>US-Iran Deal</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-us-iran-deal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-us-iran-deal</guid>
+      <pubDate>Fri, 19 Jun 2026 17:01:57 GMT</pubDate>
+      <description>US-Iran Deal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-us-iran-deal.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Serial Sex Assault Trial</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-serial-sex-assault-trial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-serial-sex-assault-trial</guid>
+      <pubDate>Fri, 19 Jun 2026 17:01:14 GMT</pubDate>
+      <description>Serial Sex Assault Trial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-serial-sex-assault-trial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>FISA Renewal Stalled</title>
       <link>https://newsanarchist.com/articles/2026-06-19-fisa-renewal-stalled</link>
@@ -249,18 +285,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Fauci Funded Wuhan Lab</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-fauci-funded-wuhan-lab</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fauci-funded-wuhan-lab</guid>
-      <pubDate>Fri, 19 Jun 2026 14:04:30 GMT</pubDate>
-      <description>Fauci Funded Wuhan Lab</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-fauci-funded-wuhan-lab.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>DeFi Hacked</title>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>SEC Updates Rulemaking</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-sec-updates-rulemaking</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-sec-updates-rulemaking</guid>
-      <pubDate>Fri, 19 Jun 2026 09:51:31 GMT</pubDate>
-      <description>SEC Updates Rulemaking</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-sec-updates-rulemaking.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Tensiones en el Estrecho de Taiwan</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-tensiones-en-el-estrecho-de-taiwan</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-tensiones-en-el-estrecho-de-taiwan</guid>
-      <pubDate>Fri, 19 Jun 2026 09:06:06 GMT</pubDate>
-      <description>Tensiones en el Estrecho de Taiwan</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-tensiones-en-el-estrecho-de-taiwan.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
