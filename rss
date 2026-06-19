@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 18:08:28 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 18:08:28 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 18:13:49 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 18:13:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Assault Looms</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-sudan-assault-looms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-sudan-assault-looms</guid>
+      <pubDate>Fri, 19 Jun 2026 18:09:28 GMT</pubDate>
+      <description>Sudan Assault Looms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-sudan-assault-looms.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Fed Transparency</title>
       <link>https://newsanarchist.com/articles/2026-06-19-fed-transparency</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Soars</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-hospice-fraud-soars</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-hospice-fraud-soars</guid>
-      <pubDate>Fri, 19 Jun 2026 10:53:09 GMT</pubDate>
-      <description>Hospice Fraud Soars</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-hospice-fraud-soars.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
