@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 16:04:58 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 16:04:58 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 16:10:25 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 16:10:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan War Escalation</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-sudan-war-escalation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-sudan-war-escalation</guid>
+      <pubDate>Fri, 19 Jun 2026 16:08:49 GMT</pubDate>
+      <description>Sudan War Escalation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-sudan-war-escalation.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Fed Transparency Varies</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-fed-transparency-varies</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fed-transparency-varies</guid>
+      <pubDate>Fri, 19 Jun 2026 16:05:25 GMT</pubDate>
+      <description>Fed Transparency Varies</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-fed-transparency-varies.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UFO Files Released</title>
       <link>https://newsanarchist.com/articles/2026-06-19-ufo-files-released</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FOIA Litigation</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-foia-litigation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-foia-litigation</guid>
-      <pubDate>Fri, 19 Jun 2026 08:02:37 GMT</pubDate>
-      <description>FOIA Litigation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-foia-litigation.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>FCA to Levy Bigger Fines</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-fca-to-levy-bigger-fines</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-fca-to-levy-bigger-fines</guid>
-      <pubDate>Fri, 19 Jun 2026 08:00:15 GMT</pubDate>
-      <description>FCA to Levy Bigger Fines</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-fca-to-levy-bigger-fines.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
