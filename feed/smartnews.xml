@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 12:09:24 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 12:09:24 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 12:54:48 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 12:54:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-medicaid-fraud-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-medicaid-fraud-scheme</guid>
+      <pubDate>Fri, 19 Jun 2026 12:53:48 GMT</pubDate>
+      <description>Medicaid Fraud Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-medicaid-fraud-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Regulators Act</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-regulators-act</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-regulators-act</guid>
+      <pubDate>Fri, 19 Jun 2026 12:52:22 GMT</pubDate>
+      <description>Regulators Act</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-regulators-act.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Air Strike Kills 7</title>
       <link>https://newsanarchist.com/articles/2026-06-19-myanmar-air-strike-kills-7</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan-China Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-taiwan-china-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-taiwan-china-tensions</guid>
-      <pubDate>Fri, 19 Jun 2026 04:04:29 GMT</pubDate>
-      <description>Taiwan-China Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-taiwan-china-tensions.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Broadview Six Seek Justice</title>
-      <link>https://newsanarchist.com/articles/2026-06-19-broadview-six-seek-justice</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-broadview-six-seek-justice</guid>
-      <pubDate>Fri, 19 Jun 2026 03:57:09 GMT</pubDate>
-      <description>Broadview Six Seek Justice</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-broadview-six-seek-justice.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
