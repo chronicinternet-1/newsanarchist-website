@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Jun 2026 01:00:52 GMT</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 01:00:52 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 01:51:15 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 01:51:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>MA Benefit Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-ma-benefit-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-ma-benefit-fraud</guid>
+      <pubDate>Fri, 19 Jun 2026 01:50:19 GMT</pubDate>
+      <description>MA Benefit Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-ma-benefit-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>General Dynamics Seeks Fees</title>
+      <link>https://newsanarchist.com/articles/2026-06-19-general-dynamics-seeks-fees</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-19-general-dynamics-seeks-fees</guid>
+      <pubDate>Fri, 19 Jun 2026 01:48:38 GMT</pubDate>
+      <description>General Dynamics Seeks Fees</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-19-general-dynamics-seeks-fees.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>US Cracks Down</title>
       <link>https://newsanarchist.com/articles/2026-06-19-us-cracks-down</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Broadview Six Seek Probe</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-broadview-six-seek-probe</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-broadview-six-seek-probe</guid>
-      <pubDate>Thu, 18 Jun 2026 17:53:42 GMT</pubDate>
-      <description>Broadview Six Seek Probe</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-broadview-six-seek-probe.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Redefined</title>
-      <link>https://newsanarchist.com/articles/2026-06-18-consciousness-redefined</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-18-consciousness-redefined</guid>
-      <pubDate>Thu, 18 Jun 2026 17:51:17 GMT</pubDate>
-      <description>Consciousness Redefined</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-18-consciousness-redefined.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
