@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-20-sec-wins-supreme-court-case</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-20T22:03:36.605Z</news:publication_date>
+      <news:title>SEC Wins Supreme Court Case</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-20-sudan-conflict-escalates</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1614,30 +1622,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-18T22:47:40.106Z</news:publication_date>
       <news:title>Fraud Cases Rise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-18-myanmar-civil-war-rages</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-18T22:02:13.963Z</news:publication_date>
-      <news:title>Myanmar Civil War Rages</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-18-white-house-updates</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-18T21:59:05.692Z</news:publication_date>
-      <news:title>White House Updates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-18-amazon-faces-ftc-suit</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-18T21:47:23.919Z</news:publication_date>
-      <news:title>Amazon Faces FTC Suit</news:title>
     </news:news>
   </url>
 </urlset>
