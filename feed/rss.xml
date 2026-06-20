@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Jun 2026 12:18:59 GMT</lastBuildDate>
-    <pubDate>Sat, 20 Jun 2026 12:18:59 GMT</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2026 13:04:26 GMT</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 13:04:26 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Probe</title>
+      <link>https://newsanarchist.com/articles/2026-06-20-snap-fraud-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-snap-fraud-probe</guid>
+      <pubDate>Sat, 20 Jun 2026 13:01:22 GMT</pubDate>
+      <description>SNAP Fraud Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-snap-fraud-probe.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>NSE IPO</title>
+      <link>https://newsanarchist.com/articles/2026-06-20-nse-ipo</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-nse-ipo</guid>
+      <pubDate>Sat, 20 Jun 2026 13:00:33 GMT</pubDate>
+      <description>NSE IPO</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-nse-ipo.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Tensions Rise</title>
       <link>https://newsanarchist.com/articles/2026-06-20-china-tensions-rise</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Benefit Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-benefit-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-benefit-fraud-crackdown</guid>
-      <pubDate>Sat, 20 Jun 2026 04:58:56 GMT</pubDate>
-      <description>Benefit Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-benefit-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>KPMG Breach</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-kpmg-breach</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-kpmg-breach</guid>
-      <pubDate>Sat, 20 Jun 2026 04:57:55 GMT</pubDate>
-      <description>KPMG Breach</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-kpmg-breach.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
