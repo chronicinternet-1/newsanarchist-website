@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Jun 2026 23:06:36 GMT</lastBuildDate>
-    <pubDate>Sat, 20 Jun 2026 23:06:36 GMT</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2026 23:12:16 GMT</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 23:12:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-06-20-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-cold-case-solved</guid>
+      <pubDate>Sat, 20 Jun 2026 23:10:43 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Mass Surveillance Expands</title>
+      <link>https://newsanarchist.com/articles/2026-06-20-mass-surveillance-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-mass-surveillance-expands</guid>
+      <pubDate>Sat, 20 Jun 2026 23:10:41 GMT</pubDate>
+      <description>Mass Surveillance Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-mass-surveillance-expands.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>3 Hikers Die</title>
+      <link>https://newsanarchist.com/articles/2026-06-20-3-hikers-die</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-3-hikers-die</guid>
+      <pubDate>Sat, 20 Jun 2026 23:09:13 GMT</pubDate>
+      <description>3 Hikers Die</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-3-hikers-die.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Exposed</title>
       <link>https://newsanarchist.com/articles/2026-06-20-snap-fraud-exposed</link>
@@ -383,18 +419,6 @@
       <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
-      <title>Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-cold-case-solved</guid>
-      <pubDate>Sat, 20 Jun 2026 18:09:12 GMT</pubDate>
-      <description>Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>China Tightens Grip on Taiwan</title>
       <link>https://newsanarchist.com/articles/2026-06-20-china-tightens-grip-on-taiwan</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-china-tightens-grip-on-taiwan</guid>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-China Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-us-china-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-us-china-tensions</guid>
-      <pubDate>Sat, 20 Jun 2026 14:09:13 GMT</pubDate>
-      <description>US-China Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-us-china-tensions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Surveillance State Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-surveillance-state-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-surveillance-state-expands</guid>
-      <pubDate>Sat, 20 Jun 2026 14:07:56 GMT</pubDate>
-      <description>Surveillance State Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-surveillance-state-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
