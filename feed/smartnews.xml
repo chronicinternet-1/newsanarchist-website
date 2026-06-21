@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 16:27:07 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 16:27:07 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 17:12:33 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 17:12:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FBI Captures Fugitive</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-fbi-captures-fugitive</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-fbi-captures-fugitive</guid>
+      <pubDate>Sun, 21 Jun 2026 17:09:42 GMT</pubDate>
+      <description>FBI Captures Fugitive</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-fbi-captures-fugitive.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Women Lose Ground</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-women-lose-ground</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-women-lose-ground</guid>
+      <pubDate>Sun, 21 Jun 2026 17:09:05 GMT</pubDate>
+      <description>Women Lose Ground</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-women-lose-ground.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan Warns of Atrocity Risk</title>
       <link>https://newsanarchist.com/articles/2026-06-21-sudan-warns-of-atrocity-risk</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Bayer $7.25B Settlement</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-bayer-725b-settlement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-bayer-725b-settlement</guid>
-      <pubDate>Sun, 21 Jun 2026 12:16:08 GMT</pubDate>
-      <description>Bayer $7.25B Settlement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-bayer-725b-settlement.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Healthcare Fraud Arrests</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-healthcare-fraud-arrests</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-healthcare-fraud-arrests</guid>
-      <pubDate>Sun, 21 Jun 2026 12:07:48 GMT</pubDate>
-      <description>Healthcare Fraud Arrests</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-healthcare-fraud-arrests.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
