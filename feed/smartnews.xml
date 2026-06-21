@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 19:10:49 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 19:10:49 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 19:16:09 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 19:16:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ancient Plague Found Near Lake Baikal</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-ancient-plague-found-near-lake-baikal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-ancient-plague-found-near-lake-baikal</guid>
+      <pubDate>Sun, 21 Jun 2026 19:13:44 GMT</pubDate>
+      <description>Ancient Plague Found Near Lake Baikal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-ancient-plague-found-near-lake-baikal.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>FBI Nabs $1.2B Fraud Fugitive</title>
       <link>https://newsanarchist.com/articles/2026-06-21-fbi-nabs-12b-fraud-fugitive</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Iraq Oil Production</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-iraq-oil-production</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-iraq-oil-production</guid>
-      <pubDate>Sun, 21 Jun 2026 12:29:41 GMT</pubDate>
-      <description>Iraq Oil Production</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-iraq-oil-production.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
