@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-brasil-sob-presso-estratgica</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
+      <news:publication_date>2026-06-21T14:00:21.467Z</news:publication_date>
+      <news:title>Brasil sob Pressão Estratégica</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-sahel-under-siege</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1638,38 +1646,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-19T14:02:26.642Z</news:publication_date>
       <news:title>DeFi Hacked</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-guerra-hbrida-contra-o-brasil</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-06-19T14:00:21.576Z</news:publication_date>
-      <news:title>Guerra Híbrida contra o Brasil</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-pa-supreme-court-blasts-da</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T14:00:18.099Z</news:publication_date>
-      <news:title>PA Supreme Court Blasts DA</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-massive-data-breaches</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T13:59:59.890Z</news:publication_date>
-      <news:title>Massive Data Breaches</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-146b-fraud-scheme</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T13:54:07.509Z</news:publication_date>
-      <news:title>$14.6B Fraud Scheme</news:title>
     </news:news>
   </url>
 </urlset>
