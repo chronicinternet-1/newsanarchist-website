@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-near-death-experience</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-21T14:12:24.334Z</news:publication_date>
+      <news:title>Near-Death Experience</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-21T14:08:44.972Z</news:publication_date>
+      <news:title>$1.2B Medicare Fraud</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-disney-50m-settlement</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-21T14:08:05.254Z</news:publication_date>
+      <news:title>Disney $50M Settlement</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-brasil-sob-presso-estratgica</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
@@ -70,14 +94,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-21T13:14:31.778Z</news:publication_date>
       <news:title>Crime News Update</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-21T13:08:07.505Z</news:publication_date>
-      <news:title>$1.2B Medicare Fraud</news:title>
     </news:news>
   </url>
   <url>
@@ -1638,14 +1654,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-19T14:53:01.745Z</news:publication_date>
       <news:title>FTC Sues WPATH</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-defi-hacked</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T14:02:26.642Z</news:publication_date>
-      <news:title>DeFi Hacked</news:title>
     </news:news>
   </url>
 </urlset>

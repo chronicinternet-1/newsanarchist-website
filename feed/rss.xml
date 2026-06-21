@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 14:02:03 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 14:02:03 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 14:12:42 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 14:12:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Near-Death Experience</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-near-death-experience</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-near-death-experience</guid>
+      <pubDate>Sun, 21 Jun 2026 14:12:24 GMT</pubDate>
+      <description>Near-Death Experience</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-near-death-experience.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$1.2B Medicare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</guid>
+      <pubDate>Sun, 21 Jun 2026 14:08:44 GMT</pubDate>
+      <description>$1.2B Medicare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-12b-medicare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Disney $50M Settlement</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-disney-50m-settlement</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-disney-50m-settlement</guid>
+      <pubDate>Sun, 21 Jun 2026 14:08:05 GMT</pubDate>
+      <description>Disney $50M Settlement</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-disney-50m-settlement.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Brasil sob Pressão Estratégica</title>
       <link>https://newsanarchist.com/articles/2026-06-21-brasil-sob-presso-estratgica</link>
@@ -129,18 +165,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>$1.2B Medicare Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</guid>
-      <pubDate>Sun, 21 Jun 2026 13:08:07 GMT</pubDate>
-      <description>$1.2B Medicare Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-12b-medicare-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Phishing Scams Rise</title>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Doctor Sentenced</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-doctor-sentenced</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-doctor-sentenced</guid>
-      <pubDate>Sun, 21 Jun 2026 07:06:19 GMT</pubDate>
-      <description>Doctor Sentenced</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-doctor-sentenced.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Fuels Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-ai-fuels-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-ai-fuels-fraud</guid>
-      <pubDate>Sun, 21 Jun 2026 07:06:12 GMT</pubDate>
-      <description>AI Fuels Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-ai-fuels-fraud.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
