@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 17:28:41 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 17:28:41 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 18:14:06 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 18:14:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ancient Plague Outbreaks</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-ancient-plague-outbreaks</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-ancient-plague-outbreaks</guid>
+      <pubDate>Sun, 21 Jun 2026 18:13:26 GMT</pubDate>
+      <description>Ancient Plague Outbreaks</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-ancient-plague-outbreaks.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Myanmar Crisis Deepens</title>
       <link>https://newsanarchist.com/articles/2026-06-21-myanmar-crisis-deepens</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>NEET 2026 Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-neet-2026-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-neet-2026-surveillance</guid>
-      <pubDate>Sun, 21 Jun 2026 12:22:43 GMT</pubDate>
-      <description>NEET 2026 Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-neet-2026-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
