@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 16:21:45 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 16:21:45 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 16:27:07 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 16:27:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Warns of Atrocity Risk</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-sudan-warns-of-atrocity-risk</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-sudan-warns-of-atrocity-risk</guid>
+      <pubDate>Sun, 21 Jun 2026 16:25:20 GMT</pubDate>
+      <description>Sudan Warns of Atrocity Risk</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-sudan-warns-of-atrocity-risk.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>FOIA Reform Stalls</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-foia-reform-stalls</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-foia-reform-stalls</guid>
+      <pubDate>Sun, 21 Jun 2026 16:22:28 GMT</pubDate>
+      <description>FOIA Reform Stalls</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-foia-reform-stalls.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure Accelerates</title>
       <link>https://newsanarchist.com/articles/2026-06-21-uap-disclosure-accelerates</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Sudan Conflict Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-sudan-conflict-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-sudan-conflict-escalates</guid>
-      <pubDate>Sun, 21 Jun 2026 11:23:51 GMT</pubDate>
-      <description>Sudan Conflict Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-sudan-conflict-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Surveillance State Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-surveillance-state-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-surveillance-state-expands</guid>
-      <pubDate>Sun, 21 Jun 2026 11:14:39 GMT</pubDate>
-      <description>Surveillance State Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-surveillance-state-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
