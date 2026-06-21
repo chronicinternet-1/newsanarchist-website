@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-food-stamps-unraveling</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-21T08:06:37.650Z</news:publication_date>
+      <news:title>Food Stamps Unraveling</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-uk-regulator-to-increase-fines</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -222,14 +230,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-21T03:11:33.853Z</news:publication_date>
       <news:title>Tucson Murder Suspect</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-21-food-stamps-unraveling</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-21T03:05:26.491Z</news:publication_date>
-      <news:title>Food Stamps Unraveling</news:title>
     </news:news>
   </url>
   <url>
@@ -1598,14 +1598,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-19T08:58:22.388Z</news:publication_date>
       <news:title>FISA Expires Amidst Debate</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-foia-litigation</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T08:02:37.663Z</news:publication_date>
-      <news:title>FOIA Litigation</news:title>
     </news:news>
   </url>
 </urlset>
