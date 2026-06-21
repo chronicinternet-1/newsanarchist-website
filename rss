@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 20:23:13 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 20:23:13 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 20:28:38 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 20:28:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Drills Begin</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-taiwan-drills-begin</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-taiwan-drills-begin</guid>
+      <pubDate>Sun, 21 Jun 2026 20:26:45 GMT</pubDate>
+      <description>Taiwan Drills Begin</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-taiwan-drills-begin.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Fauci Exposed Again</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-fauci-exposed-again</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-fauci-exposed-again</guid>
+      <pubDate>Sun, 21 Jun 2026 20:23:39 GMT</pubDate>
+      <description>Fauci Exposed Again</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-fauci-exposed-again.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure Surges On</title>
       <link>https://newsanarchist.com/articles/2026-06-21-uap-disclosure-surges-on</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Under Siege</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-sahel-under-siege</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-sahel-under-siege</guid>
-      <pubDate>Sun, 21 Jun 2026 13:24:31 GMT</pubDate>
-      <description>Sahel Under Siege</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-sahel-under-siege.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>India Data Bill</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-india-data-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-india-data-bill</guid>
-      <pubDate>Sun, 21 Jun 2026 13:21:37 GMT</pubDate>
-      <description>India Data Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-india-data-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
