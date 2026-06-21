@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-21-kenji-mori-mqn537v9</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
+      <news:publication_date>2026-06-21T02:00:21.141Z</news:publication_date>
+      <news:title>日本の個人情報流出</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-gov-secrets-uncovered</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1582,46 +1590,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-19T02:03:53.970Z</news:publication_date>
       <news:title>Niamey Airport Attacked</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-us-strike-probe</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T02:00:22.885Z</news:publication_date>
-      <news:title>US Strike Probe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-kenji-mori-mqka7hnt</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-06-19T02:00:20.009Z</news:publication_date>
-      <news:title>日本の監視国家</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-man-convicted</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T01:56:30.229Z</news:publication_date>
-      <news:title>Man Convicted</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-uap-encounters</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T01:54:20.146Z</news:publication_date>
-      <news:title>UAP Encounters</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-19-ma-benefit-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-19T01:50:19.385Z</news:publication_date>
-      <news:title>MA Benefit Fraud</news:title>
     </news:news>
   </url>
 </urlset>
