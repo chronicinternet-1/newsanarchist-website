@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 03:14:26 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 03:14:26 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 03:19:52 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 03:19:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Philippine SEC Readies Tokenization</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-philippine-sec-readies-tokenization</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-philippine-sec-readies-tokenization</guid>
+      <pubDate>Sun, 21 Jun 2026 03:15:51 GMT</pubDate>
+      <description>Philippine SEC Readies Tokenization</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-philippine-sec-readies-tokenization.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Trump praises Xi</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-trump-praises-xi</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-trump-praises-xi</guid>
+      <pubDate>Sun, 21 Jun 2026 03:14:22 GMT</pubDate>
+      <description>Trump praises Xi</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-trump-praises-xi.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Boom</title>
       <link>https://newsanarchist.com/articles/2026-06-21-facial-recognition-boom</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Regulations Shift</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-crypto-regulations-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-crypto-regulations-shift</guid>
-      <pubDate>Sat, 20 Jun 2026 18:12:35 GMT</pubDate>
-      <description>Crypto Regulations Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-crypto-regulations-shift.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FISA Deadline Looms</title>
-      <link>https://newsanarchist.com/articles/2026-06-20-fisa-deadline-looms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-20-fisa-deadline-looms</guid>
-      <pubDate>Sat, 20 Jun 2026 18:09:15 GMT</pubDate>
-      <description>FISA Deadline Looms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-20-fisa-deadline-looms.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
