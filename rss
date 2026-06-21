@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 01:05:27 GMT</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 01:05:27 GMT</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2026 01:10:55 GMT</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2026 01:10:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Beyond Human Form</title>
+      <link>https://newsanarchist.com/articles/2026-06-21-consciousness-beyond-human-form</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-consciousness-beyond-human-form</guid>
+      <pubDate>Sun, 21 Jun 2026 01:09:54 GMT</pubDate>
+      <description>Consciousness Beyond Human Form</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-consciousness-beyond-human-form.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$1.2B Medicare Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-21-12b-medicare-fraud</link>
@@ -93,18 +105,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Human Form</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-consciousness-beyond-human-form</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-consciousness-beyond-human-form</guid>
-      <pubDate>Sun, 21 Jun 2026 00:09:33 GMT</pubDate>
-      <description>Consciousness Beyond Human Form</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-consciousness-beyond-human-form.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>ESG Targets Asset Managers</title>
