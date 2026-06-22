@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 23:30:12 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 23:30:12 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 23:35:40 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 23:35:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FBI Boosts Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-fbi-boosts-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-fbi-boosts-oversight</guid>
+      <pubDate>Mon, 22 Jun 2026 23:32:40 GMT</pubDate>
+      <description>FBI Boosts Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-fbi-boosts-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Loses Billions</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-defi-loses-billions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-defi-loses-billions</guid>
+      <pubDate>Mon, 22 Jun 2026 23:31:34 GMT</pubDate>
+      <description>DeFi Loses Billions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-defi-loses-billions.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Oil Demand Falls</title>
       <link>https://newsanarchist.com/articles/2026-06-22-oil-demand-falls</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Watchdog Probe Kept Secret</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-watchdog-probe-kept-secret</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-watchdog-probe-kept-secret</guid>
-      <pubDate>Mon, 22 Jun 2026 18:30:54 GMT</pubDate>
-      <description>Watchdog Probe Kept Secret</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-watchdog-probe-kept-secret.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>AI Security Tools</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-ai-security-tools</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ai-security-tools</guid>
-      <pubDate>Mon, 22 Jun 2026 18:29:56 GMT</pubDate>
-      <description>AI Security Tools</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-ai-security-tools.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
