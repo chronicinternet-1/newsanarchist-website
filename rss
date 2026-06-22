@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 08:17:49 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 08:17:49 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 08:23:22 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 08:23:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Voting Data At Risk</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-us-voting-data-at-risk</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-us-voting-data-at-risk</guid>
+      <pubDate>Mon, 22 Jun 2026 08:21:23 GMT</pubDate>
+      <description>US Voting Data At Risk</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-us-voting-data-at-risk.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>LA Murder Convict Found Guilty</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-la-murder-convict-found-guilty</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-la-murder-convict-found-guilty</guid>
+      <pubDate>Mon, 22 Jun 2026 08:20:51 GMT</pubDate>
+      <description>LA Murder Convict Found Guilty</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-la-murder-convict-found-guilty.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Pandemic Fraudster Surrenders</title>
       <link>https://newsanarchist.com/articles/2026-06-22-pandemic-fraudster-surrenders</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>$50M Settlement</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-50m-settlement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-50m-settlement</guid>
-      <pubDate>Mon, 22 Jun 2026 02:11:19 GMT</pubDate>
-      <description>$50M Settlement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-50m-settlement.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>ＡＩの誤りが懸念される</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-kenji-mori-mqokiz4d</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-kenji-mori-mqokiz4d</guid>
-      <pubDate>Mon, 22 Jun 2026 02:00:16 GMT</pubDate>
-      <description>ＡＩの誤りが懸念される</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-kenji-mori-mqokiz4d.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
