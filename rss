@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 12:23:33 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 12:23:33 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 12:28:57 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 12:28:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Malware Hijacks Crypto Wallets</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-malware-hijacks-crypto-wallets</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-malware-hijacks-crypto-wallets</guid>
+      <pubDate>Mon, 22 Jun 2026 12:27:35 GMT</pubDate>
+      <description>Malware Hijacks Crypto Wallets</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-malware-hijacks-crypto-wallets.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Israel Bombs Lebanon</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-israel-bombs-lebanon</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-israel-bombs-lebanon</guid>
+      <pubDate>Mon, 22 Jun 2026 12:26:04 GMT</pubDate>
+      <description>Israel Bombs Lebanon</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-israel-bombs-lebanon.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Expands</title>
       <link>https://newsanarchist.com/articles/2026-06-22-facial-recognition-expands</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Security</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-defi-security</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-defi-security</guid>
-      <pubDate>Mon, 22 Jun 2026 05:25:04 GMT</pubDate>
-      <description>DeFi Security</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-defi-security.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Deal Unfolds</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-us-iran-deal-unfolds</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-us-iran-deal-unfolds</guid>
-      <pubDate>Mon, 22 Jun 2026 05:23:50 GMT</pubDate>
-      <description>US-Iran Deal Unfolds</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-us-iran-deal-unfolds.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
