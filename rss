@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 02:20:07 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 02:20:07 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 02:25:31 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 02:25:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pepeto Crypto Gains</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-pepeto-crypto-gains</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-pepeto-crypto-gains</guid>
+      <pubDate>Mon, 22 Jun 2026 02:24:04 GMT</pubDate>
+      <description>Pepeto Crypto Gains</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-pepeto-crypto-gains.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>China Supports Iran</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-china-supports-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-china-supports-iran</guid>
+      <pubDate>Mon, 22 Jun 2026 02:22:50 GMT</pubDate>
+      <description>China Supports Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-china-supports-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Warrantless Surveillance Spreads</title>
       <link>https://newsanarchist.com/articles/2026-06-22-warrantless-surveillance-spreads</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Holds Drills</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-taiwan-holds-drills</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-taiwan-holds-drills</guid>
-      <pubDate>Sun, 21 Jun 2026 19:26:15 GMT</pubDate>
-      <description>Taiwan Holds Drills</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-taiwan-holds-drills.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FBI Withholds Docs</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-fbi-withholds-docs</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-fbi-withholds-docs</guid>
-      <pubDate>Sun, 21 Jun 2026 19:23:21 GMT</pubDate>
-      <description>FBI Withholds Docs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-fbi-withholds-docs.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
