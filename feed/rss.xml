@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 22:32:47 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 22:32:47 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 22:38:27 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 22:38:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Aid Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-myanmar-aid-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-myanmar-aid-crisis</guid>
+      <pubDate>Mon, 22 Jun 2026 22:35:14 GMT</pubDate>
+      <description>Myanmar Aid Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-myanmar-aid-crisis.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DEA Inaction Exposed</title>
       <link>https://newsanarchist.com/articles/2026-06-22-dea-inaction-exposed</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Drills Amid China Threat</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-taiwan-drills-amid-china-threat</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-taiwan-drills-amid-china-threat</guid>
-      <pubDate>Mon, 22 Jun 2026 17:33:34 GMT</pubDate>
-      <description>Taiwan Drills Amid China Threat</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-taiwan-drills-amid-china-threat.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
