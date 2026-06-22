@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 12:28:57 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 12:28:57 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 12:34:22 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 12:34:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Sees AU Office Reopening</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-sudan-sees-au-office-reopening</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-sudan-sees-au-office-reopening</guid>
+      <pubDate>Mon, 22 Jun 2026 12:31:44 GMT</pubDate>
+      <description>Sudan Sees AU Office Reopening</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-sudan-sees-au-office-reopening.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Gov Fraud Rising</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-gov-fraud-rising</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-gov-fraud-rising</guid>
+      <pubDate>Mon, 22 Jun 2026 12:28:53 GMT</pubDate>
+      <description>Gov Fraud Rising</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-gov-fraud-rising.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Malware Hijacks Crypto Wallets</title>
       <link>https://newsanarchist.com/articles/2026-06-22-malware-hijacks-crypto-wallets</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>CBI Probes Bank Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-fraud</guid>
-      <pubDate>Mon, 22 Jun 2026 06:12:37 GMT</pubDate>
-      <description>CBI Probes Bank Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-cbi-probes-bank-fraud.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>DEA Inaction</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-dea-inaction</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-dea-inaction</guid>
-      <pubDate>Mon, 22 Jun 2026 05:26:32 GMT</pubDate>
-      <description>DEA Inaction</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-dea-inaction.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
