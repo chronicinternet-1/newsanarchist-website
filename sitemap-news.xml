@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-near-death-experiences</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-22T00:15:05.293Z</news:publication_date>
+      <news:title>Near-Death Experiences</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-50m-settlement</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-22T00:10:38.560Z</news:publication_date>
+      <news:title>$50M Settlement</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-pbs-hides-docs</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1742,22 +1758,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-20T01:04:03.128Z</news:publication_date>
       <news:title>Gilgo Beach Murderer Sentenced</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-20-institute-for-study-of-war</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-20T00:11:24.857Z</news:publication_date>
-      <news:title>Institute for Study of War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-20-gabbard-releases-covid-docs</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-20T00:08:32.060Z</news:publication_date>
-      <news:title>Gabbard Releases COVID Docs</news:title>
     </news:news>
   </url>
 </urlset>
