@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 06:34:25 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 06:34:25 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 07:14:55 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 07:14:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Boosts Health Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-ai-boosts-health-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ai-boosts-health-fraud</guid>
+      <pubDate>Mon, 22 Jun 2026 07:13:27 GMT</pubDate>
+      <description>AI Boosts Health Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-ai-boosts-health-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>US Privacy Law</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-us-privacy-law</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-us-privacy-law</guid>
+      <pubDate>Mon, 22 Jun 2026 07:12:55 GMT</pubDate>
+      <description>US Privacy Law</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-us-privacy-law.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan Sees AU Return</title>
       <link>https://newsanarchist.com/articles/2026-06-22-sudan-sees-au-return</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Afghan Internet Ban</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-afghan-internet-ban</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-afghan-internet-ban</guid>
-      <pubDate>Mon, 22 Jun 2026 00:25:05 GMT</pubDate>
-      <description>Afghan Internet Ban</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-afghan-internet-ban.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>China Backs Iran</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-china-backs-iran</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-china-backs-iran</guid>
-      <pubDate>Mon, 22 Jun 2026 00:22:12 GMT</pubDate>
-      <description>China Backs Iran</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-china-backs-iran.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
