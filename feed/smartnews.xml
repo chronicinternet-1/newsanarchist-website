@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 03:22:01 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 03:22:01 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 03:27:25 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 03:27:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pepeto DeFi Progress</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-pepeto-defi-progress</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-pepeto-defi-progress</guid>
+      <pubDate>Mon, 22 Jun 2026 03:24:24 GMT</pubDate>
+      <description>Pepeto DeFi Progress</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-pepeto-defi-progress.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Ukraine Strikes Crimea</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-ukraine-strikes-crimea</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ukraine-strikes-crimea</guid>
+      <pubDate>Mon, 22 Jun 2026 03:23:10 GMT</pubDate>
+      <description>Ukraine Strikes Crimea</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-ukraine-strikes-crimea.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Protest Surveillance</title>
       <link>https://newsanarchist.com/articles/2026-06-22-protest-surveillance</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Work Requirements</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-medicaid-work-requirements</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-medicaid-work-requirements</guid>
-      <pubDate>Sun, 21 Jun 2026 21:10:42 GMT</pubDate>
-      <description>Medicaid Work Requirements</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-medicaid-work-requirements.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Women Lose Ground</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-women-lose-ground</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-women-lose-ground</guid>
-      <pubDate>Sun, 21 Jun 2026 21:10:03 GMT</pubDate>
-      <description>Women Lose Ground</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-women-lose-ground.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
