@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 22:21:26 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 22:21:26 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 22:27:06 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 22:27:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>India Data Bill</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-india-data-bill</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-india-data-bill</guid>
+      <pubDate>Mon, 22 Jun 2026 22:26:04 GMT</pubDate>
+      <description>India Data Bill</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-india-data-bill.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Etan Patz Murder Conviction</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-etan-patz-murder-conviction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-etan-patz-murder-conviction</guid>
+      <pubDate>Mon, 22 Jun 2026 22:25:53 GMT</pubDate>
+      <description>Etan Patz Murder Conviction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-etan-patz-murder-conviction.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>UAP Disclosure Forum</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-uap-disclosure-forum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-uap-disclosure-forum</guid>
+      <pubDate>Mon, 22 Jun 2026 22:22:41 GMT</pubDate>
+      <description>UAP Disclosure Forum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-uap-disclosure-forum.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>SNAP Benefits Cut</title>
       <link>https://newsanarchist.com/articles/2026-06-22-snap-benefits-cut</link>
@@ -515,18 +551,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>UAP Disclosure Forum</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-uap-disclosure-forum</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-uap-disclosure-forum</guid>
-      <pubDate>Mon, 22 Jun 2026 18:21:19 GMT</pubDate>
-      <description>UAP Disclosure Forum</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-uap-disclosure-forum.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>AI Boosts Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-22-ai-boosts-fraud</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ai-boosts-fraud</guid>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Philadelphia Sued Over ID Rules</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-philadelphia-sued-over-id-rules</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-philadelphia-sued-over-id-rules</guid>
-      <pubDate>Mon, 22 Jun 2026 17:24:31 GMT</pubDate>
-      <description>Philadelphia Sued Over ID Rules</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-philadelphia-sued-over-id-rules.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>FTC Pricing Compliance</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-ftc-pricing-compliance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ftc-pricing-compliance</guid>
-      <pubDate>Mon, 22 Jun 2026 17:15:57 GMT</pubDate>
-      <description>FTC Pricing Compliance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-ftc-pricing-compliance.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
