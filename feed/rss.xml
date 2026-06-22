@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 08:02:15 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 08:02:15 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 08:17:49 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 08:17:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pandemic Fraudster Surrenders</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-pandemic-fraudster-surrenders</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-pandemic-fraudster-surrenders</guid>
+      <pubDate>Mon, 22 Jun 2026 08:13:47 GMT</pubDate>
+      <description>Pandemic Fraudster Surrenders</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-pandemic-fraudster-surrenders.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Amazon Faces Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-amazon-faces-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-amazon-faces-lawsuit</guid>
+      <pubDate>Mon, 22 Jun 2026 08:13:22 GMT</pubDate>
+      <description>Amazon Faces Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-amazon-faces-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Companies House Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-06-22-companies-house-crackdown</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Drills Amid China Tension</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-taiwan-drills-amid-china-tension</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-taiwan-drills-amid-china-tension</guid>
-      <pubDate>Mon, 22 Jun 2026 01:28:19 GMT</pubDate>
-      <description>Taiwan Drills Amid China Tension</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-taiwan-drills-amid-china-tension.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Gov Scrutiny of Messaging Apps</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-gov-scrutiny-of-messaging-apps</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-gov-scrutiny-of-messaging-apps</guid>
-      <pubDate>Mon, 22 Jun 2026 01:25:23 GMT</pubDate>
-      <description>Gov Scrutiny of Messaging Apps</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-gov-scrutiny-of-messaging-apps.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
