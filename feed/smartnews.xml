@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 02:25:31 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 02:25:31 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 02:31:10 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 02:31:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Crisis Intensifies</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-sudan-crisis-intensifies</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-sudan-crisis-intensifies</guid>
+      <pubDate>Mon, 22 Jun 2026 02:28:36 GMT</pubDate>
+      <description>Sudan Crisis Intensifies</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-sudan-crisis-intensifies.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Gov Conceals Docs</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-gov-conceals-docs</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-gov-conceals-docs</guid>
+      <pubDate>Mon, 22 Jun 2026 02:25:40 GMT</pubDate>
+      <description>Gov Conceals Docs</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-gov-conceals-docs.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pepeto Crypto Gains</title>
       <link>https://newsanarchist.com/articles/2026-06-22-pepeto-crypto-gains</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>FBI Captures Fugitive</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-fbi-captures-fugitive</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-fbi-captures-fugitive</guid>
-      <pubDate>Sun, 21 Jun 2026 20:10:23 GMT</pubDate>
-      <description>FBI Captures Fugitive</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-fbi-captures-fugitive.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Bayer Settlement Blocked</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-bayer-settlement-blocked</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-bayer-settlement-blocked</guid>
-      <pubDate>Sun, 21 Jun 2026 20:09:44 GMT</pubDate>
-      <description>Bayer Settlement Blocked</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-bayer-settlement-blocked.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
