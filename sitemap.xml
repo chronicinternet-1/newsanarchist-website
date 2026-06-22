@@ -73,6 +73,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,24 +127,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/james-whitfield.html</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,6 +143,24 @@
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-mangione-drops-psych-defense</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-india-data-bill-2023</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-consciousness-beyond-flesh</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-scam</loc>
@@ -283,12 +301,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-mangione-drops-psych-defense</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-06-22-iran-us-talks</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
@@ -296,12 +308,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-22-crypto-hacks-surge</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-consciousness-beyond-flesh</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -374,12 +380,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-22-nde-study-impact-limited</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-india-data-bill-2023</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -4263,8 +4263,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-15-ftc-power-challenged</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-15-bees-chatgpt-conscious</loc>
