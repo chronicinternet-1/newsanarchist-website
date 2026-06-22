@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 05:20:54 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 05:20:54 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 05:26:22 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 05:26:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DeFi Security</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-defi-security</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-defi-security</guid>
+      <pubDate>Mon, 22 Jun 2026 05:25:04 GMT</pubDate>
+      <description>DeFi Security</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-defi-security.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>US-Iran Deal Unfolds</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-us-iran-deal-unfolds</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-us-iran-deal-unfolds</guid>
+      <pubDate>Mon, 22 Jun 2026 05:23:50 GMT</pubDate>
+      <description>US-Iran Deal Unfolds</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-us-iran-deal-unfolds.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>India Data Bill 2023</title>
       <link>https://newsanarchist.com/articles/2026-06-22-india-data-bill-2023</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FBI Captures $1.2B Fugitive</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-fbi-captures-12b-fugitive</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-fbi-captures-12b-fugitive</guid>
-      <pubDate>Sun, 21 Jun 2026 23:11:18 GMT</pubDate>
-      <description>FBI Captures $1.2B Fugitive</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-fbi-captures-12b-fugitive.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Crisis Worsens</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-myanmar-crisis-worsens</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-myanmar-crisis-worsens</guid>
-      <pubDate>Sun, 21 Jun 2026 22:27:20 GMT</pubDate>
-      <description>Myanmar Crisis Worsens</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-myanmar-crisis-worsens.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
