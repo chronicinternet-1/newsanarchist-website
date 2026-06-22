@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-22-companies-house-crackdown</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-06-22T08:00:17.382Z</news:publication_date>
+      <news:title>Companies House Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-22-taiwan-drills-amid-china-pressure</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1926,22 +1934,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-20T08:08:40.576Z</news:publication_date>
       <news:title>Philippine SEC Opens Tokenization</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-20-uk-regulator-toughens-stance</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-06-20T08:00:18.248Z</news:publication_date>
-      <news:title>UK Regulator Toughens Stance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-20-kpmg-whistleblower</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-20T07:58:53.763Z</news:publication_date>
-      <news:title>KPMG Whistleblower</news:title>
     </news:news>
   </url>
 </urlset>
