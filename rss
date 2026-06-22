@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 22:38:27 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 22:38:27 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 23:19:16 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 23:19:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$14.6B Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-146b-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-146b-fraud-crackdown</guid>
+      <pubDate>Mon, 22 Jun 2026 23:18:42 GMT</pubDate>
+      <description>$14.6B Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-146b-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>CBI Probes Bank Scam</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-scam</guid>
+      <pubDate>Mon, 22 Jun 2026 23:17:43 GMT</pubDate>
+      <description>CBI Probes Bank Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-cbi-probes-bank-scam.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Aid Crisis</title>
       <link>https://newsanarchist.com/articles/2026-06-22-myanmar-aid-crisis</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>AI Boosts Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-ai-boosts-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-ai-boosts-fraud</guid>
-      <pubDate>Mon, 22 Jun 2026 18:17:06 GMT</pubDate>
-      <description>AI Boosts Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-ai-boosts-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Disney Settlement Update</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-disney-settlement-update</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-disney-settlement-update</guid>
-      <pubDate>Mon, 22 Jun 2026 18:16:15 GMT</pubDate>
-      <description>Disney Settlement Update</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-disney-settlement-update.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
