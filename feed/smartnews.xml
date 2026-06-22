@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 06:12:45 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 06:12:45 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 06:18:10 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 06:18:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Near-Death Study Impact Limited</title>
+      <link>https://newsanarchist.com/articles/2026-06-22-near-death-study-impact-limited</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-near-death-study-impact-limited</guid>
+      <pubDate>Mon, 22 Jun 2026 06:17:09 GMT</pubDate>
+      <description>Near-Death Study Impact Limited</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-near-death-study-impact-limited.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>CBI Probes Bank Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-22-cbi-probes-bank-fraud</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Warrantless Surveillance Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-21-warrantless-surveillance-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-21-warrantless-surveillance-expands</guid>
-      <pubDate>Sun, 21 Jun 2026 23:18:25 GMT</pubDate>
-      <description>Warrantless Surveillance Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-21-warrantless-surveillance-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
