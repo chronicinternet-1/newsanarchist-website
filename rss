@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 00:21:34 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 00:21:34 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 00:26:59 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 00:26:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Cold Cases</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-uk-cold-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uk-cold-cases</guid>
+      <pubDate>Tue, 23 Jun 2026 00:26:40 GMT</pubDate>
+      <description>UK Cold Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uk-cold-cases.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Mythos AI Breaches NSA</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-mythos-ai-breaches-nsa</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-mythos-ai-breaches-nsa</guid>
+      <pubDate>Tue, 23 Jun 2026 00:26:39 GMT</pubDate>
+      <description>Mythos AI Breaches NSA</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-mythos-ai-breaches-nsa.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-06-23-medicaid-fraud-crackdown</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Wiretapping Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-wiretapping-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-wiretapping-concerns</guid>
-      <pubDate>Mon, 22 Jun 2026 19:27:17 GMT</pubDate>
-      <description>Wiretapping Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-wiretapping-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>FISA Expiration Raises Surveillance Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-fisa-expiration-raises-surveillance-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-fisa-expiration-raises-surveillance-concerns</guid>
-      <pubDate>Mon, 22 Jun 2026 19:25:14 GMT</pubDate>
-      <description>FISA Expiration Raises Surveillance Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-fisa-expiration-raises-surveillance-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
