@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 17:42:34 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 17:42:34 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 18:28:18 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 18:28:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Benefits Error Rates</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-snap-benefits-error-rates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-snap-benefits-error-rates</guid>
+      <pubDate>Tue, 23 Jun 2026 18:24:50 GMT</pubDate>
+      <description>SNAP Benefits Error Rates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-snap-benefits-error-rates.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>US Cracks Down On Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-us-cracks-down-on-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-us-cracks-down-on-fraud</guid>
+      <pubDate>Tue, 23 Jun 2026 18:23:29 GMT</pubDate>
+      <description>US Cracks Down On Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-us-cracks-down-on-fraud.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Holds Drills</title>
       <link>https://newsanarchist.com/articles/2026-06-23-taiwan-holds-drills</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UFO Skeptic Joins UAP Council</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-ufo-skeptic-joins-uap-council</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-ufo-skeptic-joins-uap-council</guid>
-      <pubDate>Tue, 23 Jun 2026 11:35:13 GMT</pubDate>
-      <description>UFO Skeptic Joins UAP Council</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-ufo-skeptic-joins-uap-council.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Refines Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-nato-refines-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-nato-refines-sanctions</guid>
-      <pubDate>Tue, 23 Jun 2026 11:33:49 GMT</pubDate>
-      <description>NATO Refines Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-nato-refines-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
