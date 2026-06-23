@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 17:26:36 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 17:26:36 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 17:37:02 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 17:37:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Tightens Export</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-china-tightens-export</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-china-tightens-export</guid>
+      <pubDate>Tue, 23 Jun 2026 17:35:54 GMT</pubDate>
+      <description>China Tightens Export</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-china-tightens-export.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Prosecutor Misconduct Alleged</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-prosecutor-misconduct-alleged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-prosecutor-misconduct-alleged</guid>
+      <pubDate>Tue, 23 Jun 2026 17:32:20 GMT</pubDate>
+      <description>Prosecutor Misconduct Alleged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-prosecutor-misconduct-alleged.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Met Expands Facial Recognition</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-met-expands-facial-recognition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-met-expands-facial-recognition</guid>
+      <pubDate>Tue, 23 Jun 2026 17:32:09 GMT</pubDate>
+      <description>Met Expands Facial Recognition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-met-expands-facial-recognition.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>$3.7B Medicare Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-23-37b-medicare-fraud</link>
@@ -563,18 +599,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Met Expands Facial Recognition</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-met-expands-facial-recognition</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-met-expands-facial-recognition</guid>
-      <pubDate>Tue, 23 Jun 2026 11:29:57 GMT</pubDate>
-      <description>Met Expands Facial Recognition</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-met-expands-facial-recognition.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>NASA Astronaut Plans Test</title>
       <link>https://newsanarchist.com/articles/2026-06-23-nasa-astronaut-plans-test</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-nasa-astronaut-plans-test</guid>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Aid Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis</guid>
-      <pubDate>Tue, 23 Jun 2026 10:39:11 GMT</pubDate>
-      <description>Myanmar Aid Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-myanmar-aid-crisis.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Fauci Funded Wuhan Lab</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-fauci-funded-wuhan-lab</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-fauci-funded-wuhan-lab</guid>
-      <pubDate>Tue, 23 Jun 2026 10:36:04 GMT</pubDate>
-      <description>Fauci Funded Wuhan Lab</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-fauci-funded-wuhan-lab.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
