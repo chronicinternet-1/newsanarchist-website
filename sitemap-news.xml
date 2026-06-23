@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-23-146b-fraud-crackdown</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23T08:21:25.032Z</news:publication_date>
+      <news:title>$14.6B Fraud Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-23-sec-disgorgement-rule</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23T08:20:20.225Z</news:publication_date>
+      <news:title>SEC Disgorgement Rule</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-23-uk-bank-rules-under-threat</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -566,14 +582,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-22T23:23:00.198Z</news:publication_date>
       <news:title>Consciousness Beyond Flesh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-146b-fraud-crackdown</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T23:18:42.551Z</news:publication_date>
-      <news:title>$14.6B Fraud Crackdown</news:title>
     </news:news>
   </url>
   <url>
@@ -2502,22 +2510,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-21T09:13:20.037Z</news:publication_date>
       <news:title>Justice Reforms Spark Debate</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-21-philippines-ready-for-rwa-tokenization</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-21T08:17:41.386Z</news:publication_date>
-      <news:title>Philippines Ready for RWA Tokenization</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-21-food-stamps-unraveling</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-21T08:06:37.650Z</news:publication_date>
-      <news:title>Food Stamps Unraveling</news:title>
     </news:news>
   </url>
 </urlset>
