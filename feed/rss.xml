@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 21:46:27 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 21:46:27 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 22:26:54 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 22:26:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$27M Hospice Scam</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-27m-hospice-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-27m-hospice-scam</guid>
+      <pubDate>Tue, 23 Jun 2026 22:26:11 GMT</pubDate>
+      <description>$27M Hospice Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-27m-hospice-scam.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Treasury Dismantles Scam</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-treasury-dismantles-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-treasury-dismantles-scam</guid>
+      <pubDate>Tue, 23 Jun 2026 22:24:40 GMT</pubDate>
+      <description>Treasury Dismantles Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-treasury-dismantles-scam.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Sails Carrier</title>
       <link>https://newsanarchist.com/articles/2026-06-23-china-sails-carrier</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>CFPB Workforce Cut Blocked</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-cfpb-workforce-cut-blocked</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-cfpb-workforce-cut-blocked</guid>
-      <pubDate>Tue, 23 Jun 2026 14:37:28 GMT</pubDate>
-      <description>CFPB Workforce Cut Blocked</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-cfpb-workforce-cut-blocked.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pilots Report UAP</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-pilots-report-uap</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-pilots-report-uap</guid>
-      <pubDate>Tue, 23 Jun 2026 14:36:12 GMT</pubDate>
-      <description>Pilots Report UAP</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-pilots-report-uap.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
