@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 16:40:41 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 16:40:41 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 16:46:11 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 16:46:11 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Aid Crisis Deepens</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis-deepens</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis-deepens</guid>
+      <pubDate>Tue, 23 Jun 2026 16:41:08 GMT</pubDate>
+      <description>Myanmar Aid Crisis Deepens</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-myanmar-aid-crisis-deepens.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>NASA Delays Spacesuits</title>
       <link>https://newsanarchist.com/articles/2026-06-23-nasa-delays-spacesuits</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India Upgrades Justice Apps</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-india-upgrades-justice-apps</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-india-upgrades-justice-apps</guid>
-      <pubDate>Tue, 23 Jun 2026 10:29:58 GMT</pubDate>
-      <description>India Upgrades Justice Apps</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-india-upgrades-justice-apps.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
