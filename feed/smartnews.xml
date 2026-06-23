@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 14:25:51 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 14:25:51 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 14:31:15 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 14:31:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS Expands ICE Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-dhs-expands-ice-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-dhs-expands-ice-surveillance</guid>
+      <pubDate>Tue, 23 Jun 2026 14:31:06 GMT</pubDate>
+      <description>DHS Expands ICE Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-dhs-expands-ice-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>UAP Transparency Gains</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-uap-transparency-gains</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-transparency-gains</guid>
+      <pubDate>Tue, 23 Jun 2026 14:27:28 GMT</pubDate>
+      <description>UAP Transparency Gains</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-transparency-gains.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Judge Blocks SNAP Restrictions</title>
       <link>https://newsanarchist.com/articles/2026-06-23-judge-blocks-snap-restrictions</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Brain</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-consciousness-beyond-brain</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-consciousness-beyond-brain</guid>
-      <pubDate>Tue, 23 Jun 2026 08:25:07 GMT</pubDate>
-      <description>Consciousness Beyond Brain</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-consciousness-beyond-brain.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SEC Disgorgement Rule</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-sec-disgorgement-rule</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-sec-disgorgement-rule</guid>
-      <pubDate>Tue, 23 Jun 2026 08:20:20 GMT</pubDate>
-      <description>SEC Disgorgement Rule</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-sec-disgorgement-rule.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
