@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 16:24:22 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 16:24:22 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 16:29:46 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 16:29:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-uap-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-transparency</guid>
+      <pubDate>Tue, 23 Jun 2026 16:27:51 GMT</pubDate>
+      <description>UAP Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-transparency.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>TX Doc Charged $89M</title>
       <link>https://newsanarchist.com/articles/2026-06-23-tx-doc-charged-89m</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Treasury FOIA Delays</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-treasury-foia-delays</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-treasury-foia-delays</guid>
-      <pubDate>Tue, 23 Jun 2026 09:35:46 GMT</pubDate>
-      <description>Treasury FOIA Delays</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-treasury-foia-delays.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
