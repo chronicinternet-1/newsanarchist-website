@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 13:44:54 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 13:44:54 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 14:05:27 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 14:05:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brasil sob Pressão Estratégica Global</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-brasil-sob-presso-estratgica-global</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-brasil-sob-presso-estratgica-global</guid>
+      <pubDate>Tue, 23 Jun 2026 14:00:29 GMT</pubDate>
+      <description>Brasil sob Pressão Estratégica Global</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-brasil-sob-presso-estratgica-global.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Myanmar Aid Crisis Worsens</title>
       <link>https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis-worsens</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>PA Watchdog Probe Hidden</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-pa-watchdog-probe-hidden</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-pa-watchdog-probe-hidden</guid>
-      <pubDate>Tue, 23 Jun 2026 07:35:12 GMT</pubDate>
-      <description>PA Watchdog Probe Hidden</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-pa-watchdog-probe-hidden.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
