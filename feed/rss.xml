@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 07:43:44 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 07:43:44 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 08:04:13 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 08:04:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Bank Rules Under Threat</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-uk-bank-rules-under-threat</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uk-bank-rules-under-threat</guid>
+      <pubDate>Tue, 23 Jun 2026 08:00:15 GMT</pubDate>
+      <description>UK Bank Rules Under Threat</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uk-bank-rules-under-threat.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Aid Crisis Worsens</title>
       <link>https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis-worsens</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>China Intensifies Fraud Oversight</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-china-intensifies-fraud-oversight</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-china-intensifies-fraud-oversight</guid>
-      <pubDate>Tue, 23 Jun 2026 02:18:31 GMT</pubDate>
-      <description>China Intensifies Fraud Oversight</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-china-intensifies-fraud-oversight.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
