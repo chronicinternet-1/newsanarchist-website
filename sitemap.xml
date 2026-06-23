@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,19 +121,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -143,6 +143,18 @@
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-23-flock-cameras-raise-concerns</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-23-cold-case-solved</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-23-nonprofit-email-scam</loc>
@@ -242,12 +254,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-23-fisa-expiration-sparks-debate</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-23-cold-case-solved</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -4689,8 +4695,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-haitian-national-convicted</loc>
     <lastmod>2026-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-16-ru-evades-sanctions</loc>
