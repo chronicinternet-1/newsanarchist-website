@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 22:26:54 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 22:26:54 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 22:32:22 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 22:32:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NYT AI Giants</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-nyt-ai-giants</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-nyt-ai-giants</guid>
+      <pubDate>Tue, 23 Jun 2026 22:29:26 GMT</pubDate>
+      <description>NYT AI Giants</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-nyt-ai-giants.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$27M Hospice Scam</title>
       <link>https://newsanarchist.com/articles/2026-06-23-27m-hospice-scam</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Bipartisan Bill Targets Big Tech</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-bipartisan-bill-targets-big-tech</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-bipartisan-bill-targets-big-tech</guid>
-      <pubDate>Tue, 23 Jun 2026 15:22:29 GMT</pubDate>
-      <description>Bipartisan Bill Targets Big Tech</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-bipartisan-bill-targets-big-tech.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
