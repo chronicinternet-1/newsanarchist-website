@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Jun 2026 23:41:06 GMT</lastBuildDate>
-    <pubDate>Mon, 22 Jun 2026 23:41:06 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 00:21:34 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 00:21:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-medicaid-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-medicaid-fraud-crackdown</guid>
+      <pubDate>Tue, 23 Jun 2026 00:19:00 GMT</pubDate>
+      <description>Medicaid Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-medicaid-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Amazon Faces Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-amazon-faces-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-amazon-faces-lawsuit</guid>
+      <pubDate>Tue, 23 Jun 2026 00:17:58 GMT</pubDate>
+      <description>Amazon Faces Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-amazon-faces-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Holds Drills</title>
       <link>https://newsanarchist.com/articles/2026-06-22-taiwan-holds-drills</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Research</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-consciousness-research</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-consciousness-research</guid>
-      <pubDate>Mon, 22 Jun 2026 19:21:42 GMT</pubDate>
-      <description>Consciousness Research</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-consciousness-research.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Omar Finances Under Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-06-22-omar-finances-under-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-22-omar-finances-under-scrutiny</guid>
-      <pubDate>Mon, 22 Jun 2026 19:16:35 GMT</pubDate>
-      <description>Omar Finances Under Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-22-omar-finances-under-scrutiny.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
