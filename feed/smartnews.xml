@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:42:52 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 12:42:52 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 13:23:20 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 13:23:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Mastermind Caught</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-medicare-fraud-mastermind-caught</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-medicare-fraud-mastermind-caught</guid>
+      <pubDate>Tue, 23 Jun 2026 13:23:04 GMT</pubDate>
+      <description>Medicare Fraud Mastermind Caught</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-medicare-fraud-mastermind-caught.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Fuel Retailers Face Price Fixing Suit</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-fuel-retailers-face-price-fixing-suit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-fuel-retailers-face-price-fixing-suit</guid>
+      <pubDate>Tue, 23 Jun 2026 13:21:48 GMT</pubDate>
+      <description>Fuel Retailers Face Price Fixing Suit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-fuel-retailers-face-price-fixing-suit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Military Buildup</title>
       <link>https://newsanarchist.com/articles/2026-06-23-china-military-buildup</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Sanctions US Firms</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-china-sanctions-us-firms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-china-sanctions-us-firms</guid>
-      <pubDate>Tue, 23 Jun 2026 06:38:03 GMT</pubDate>
-      <description>China Sanctions US Firms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-china-sanctions-us-firms.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Treasury Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-treasury-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-treasury-transparency</guid>
-      <pubDate>Tue, 23 Jun 2026 06:34:55 GMT</pubDate>
-      <description>Treasury Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-treasury-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
