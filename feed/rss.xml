@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 10:37:29 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 10:37:29 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 10:43:15 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 10:43:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Aid Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-myanmar-aid-crisis</guid>
+      <pubDate>Tue, 23 Jun 2026 10:39:11 GMT</pubDate>
+      <description>Myanmar Aid Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-myanmar-aid-crisis.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Fauci Funded Wuhan Lab</title>
       <link>https://newsanarchist.com/articles/2026-06-23-fauci-funded-wuhan-lab</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Spielberg Film Sparks UAP Disclosure</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-spielberg-film-sparks-uap-disclosure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-spielberg-film-sparks-uap-disclosure</guid>
-      <pubDate>Tue, 23 Jun 2026 04:33:04 GMT</pubDate>
-      <description>Spielberg Film Sparks UAP Disclosure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-spielberg-film-sparks-uap-disclosure.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
