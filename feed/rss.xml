@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jun 2026 21:35:37 GMT</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 21:35:37 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 21:41:04 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 21:41:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fauci Docs Released</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-fauci-docs-released</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-fauci-docs-released</guid>
+      <pubDate>Tue, 23 Jun 2026 21:39:49 GMT</pubDate>
+      <description>Fauci Docs Released</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-fauci-docs-released.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UAP Disclosure Forum</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-uap-disclosure-forum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-disclosure-forum</guid>
+      <pubDate>Tue, 23 Jun 2026 21:38:27 GMT</pubDate>
+      <description>UAP Disclosure Forum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-disclosure-forum.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NATO Refines Russia Sanctions</title>
+      <link>https://newsanarchist.com/articles/2026-06-23-nato-refines-russia-sanctions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-nato-refines-russia-sanctions</guid>
+      <pubDate>Tue, 23 Jun 2026 21:37:15 GMT</pubDate>
+      <description>NATO Refines Russia Sanctions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-nato-refines-russia-sanctions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Mangione Drops Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-23-mangione-drops-defense</link>
@@ -503,18 +539,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>UAP Disclosure Forum</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-uap-disclosure-forum</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-disclosure-forum</guid>
-      <pubDate>Tue, 23 Jun 2026 15:36:31 GMT</pubDate>
-      <description>UAP Disclosure Forum</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-disclosure-forum.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Iran Bypasses US Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-06-23-iran-bypasses-us-sanctions</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-iran-bypasses-us-sanctions</guid>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>DHS Expands ICE Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-dhs-expands-ice-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-dhs-expands-ice-surveillance</guid>
-      <pubDate>Tue, 23 Jun 2026 14:31:06 GMT</pubDate>
-      <description>DHS Expands ICE Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-dhs-expands-ice-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>UAP Transparency Gains</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-uap-transparency-gains</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-transparency-gains</guid>
-      <pubDate>Tue, 23 Jun 2026 14:27:28 GMT</pubDate>
-      <description>UAP Transparency Gains</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-transparency-gains.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
