@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 09:31:46 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 09:31:46 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 09:37:15 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 09:37:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>MSG Targets Activists</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-msg-targets-activists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-msg-targets-activists</guid>
+      <pubDate>Wed, 24 Jun 2026 09:37:02 GMT</pubDate>
+      <description>MSG Targets Activists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-msg-targets-activists.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Conscious Tech</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-conscious-tech</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-conscious-tech</guid>
+      <pubDate>Wed, 24 Jun 2026 09:31:47 GMT</pubDate>
+      <description>Conscious Tech</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-conscious-tech.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Medicaid Cab Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-24-medicaid-cab-fraud</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Seeks Stronger Competition</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-ftc-seeks-stronger-competition</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-ftc-seeks-stronger-competition</guid>
-      <pubDate>Wed, 24 Jun 2026 03:26:05 GMT</pubDate>
-      <description>FTC Seeks Stronger Competition</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-ftc-seeks-stronger-competition.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Aid Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-myanmar-aid-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-myanmar-aid-crisis</guid>
-      <pubDate>Wed, 24 Jun 2026 02:44:24 GMT</pubDate>
-      <description>Myanmar Aid Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-myanmar-aid-crisis.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
