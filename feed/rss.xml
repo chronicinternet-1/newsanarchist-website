@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 08:51:20 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 08:51:20 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 09:31:46 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 09:31:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Cab Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-medicaid-cab-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-medicaid-cab-fraud</guid>
+      <pubDate>Wed, 24 Jun 2026 09:29:32 GMT</pubDate>
+      <description>Medicaid Cab Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-medicaid-cab-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>FTC Joins Pharma Case</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-ftc-joins-pharma-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-ftc-joins-pharma-case</guid>
+      <pubDate>Wed, 24 Jun 2026 09:27:38 GMT</pubDate>
+      <description>FTC Joins Pharma Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-ftc-joins-pharma-case.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Fujian Carrier Sails Taiwan Strait</title>
       <link>https://newsanarchist.com/articles/2026-06-24-fujian-carrier-sails-taiwan-strait</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>KPMG Chair Resigns</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-kpmg-chair-resigns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-kpmg-chair-resigns</guid>
-      <pubDate>Wed, 24 Jun 2026 02:41:18 GMT</pubDate>
-      <description>KPMG Chair Resigns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-kpmg-chair-resigns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Antivirus Emerges</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-defi-antivirus-emerges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-defi-antivirus-emerges</guid>
-      <pubDate>Wed, 24 Jun 2026 02:40:01 GMT</pubDate>
-      <description>DeFi Antivirus Emerges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-defi-antivirus-emerges.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
