@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 09:37:15 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 09:37:15 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 09:42:42 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 09:42:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Aurora Alert System</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-aurora-alert-system</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-aurora-alert-system</guid>
+      <pubDate>Wed, 24 Jun 2026 09:42:22 GMT</pubDate>
+      <description>Aurora Alert System</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-aurora-alert-system.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>US Lifts Iran Oil Sanctions</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-us-lifts-iran-oil-sanctions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-lifts-iran-oil-sanctions</guid>
+      <pubDate>Wed, 24 Jun 2026 09:40:52 GMT</pubDate>
+      <description>US Lifts Iran Oil Sanctions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-lifts-iran-oil-sanctions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Indian Man Sentenced</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-indian-man-sentenced</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-indian-man-sentenced</guid>
+      <pubDate>Wed, 24 Jun 2026 09:37:18 GMT</pubDate>
+      <description>Indian Man Sentenced</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-indian-man-sentenced.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>MSG Targets Activists</title>
       <link>https://newsanarchist.com/articles/2026-06-24-msg-targets-activists</link>
@@ -515,18 +551,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>US Lifts Iran Oil Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-us-lifts-iran-oil-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-lifts-iran-oil-sanctions</guid>
-      <pubDate>Wed, 24 Jun 2026 04:39:24 GMT</pubDate>
-      <description>US Lifts Iran Oil Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-lifts-iran-oil-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
       <title>US Lags In Justice</title>
       <link>https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice</guid>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>DeFlock Tool Counters Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-deflock-tool-counters-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-deflock-tool-counters-surveillance</guid>
-      <pubDate>Wed, 24 Jun 2026 03:35:11 GMT</pubDate>
-      <description>DeFlock Tool Counters Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-deflock-tool-counters-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Charged</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-snap-fraud-charged</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-snap-fraud-charged</guid>
-      <pubDate>Wed, 24 Jun 2026 03:27:43 GMT</pubDate>
-      <description>SNAP Fraud Charged</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-snap-fraud-charged.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
