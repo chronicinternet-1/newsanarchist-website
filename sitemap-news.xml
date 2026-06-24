@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-24-uk-bank-rules-under-fire</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-06-24T08:00:19.048Z</news:publication_date>
+      <news:title>UK Bank Rules Under Fire</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-24-myanmar-war-rages</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2422,14 +2430,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-22T08:21:23.800Z</news:publication_date>
       <news:title>US Voting Data At Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-companies-house-crackdown</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-06-22T08:00:17.382Z</news:publication_date>
-      <news:title>Companies House Crackdown</news:title>
     </news:news>
   </url>
 </urlset>
