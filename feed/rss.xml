@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 00:36:33 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 00:36:33 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:42:14 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 00:42:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FOIA Reform Stalls</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-foia-reform-stalls</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-foia-reform-stalls</guid>
+      <pubDate>Wed, 24 Jun 2026 00:40:44 GMT</pubDate>
+      <description>FOIA Reform Stalls</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-foia-reform-stalls.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UAP Forum Convenes</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-uap-forum-convenes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-uap-forum-convenes</guid>
+      <pubDate>Wed, 24 Jun 2026 00:39:26 GMT</pubDate>
+      <description>UAP Forum Convenes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-uap-forum-convenes.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Rubio Visits UAE</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-rubio-visits-uae</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-rubio-visits-uae</guid>
+      <pubDate>Wed, 24 Jun 2026 00:38:09 GMT</pubDate>
+      <description>Rubio Visits UAE</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-rubio-visits-uae.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Judge Quashes Subpoenas</title>
       <link>https://newsanarchist.com/articles/2026-06-24-judge-quashes-subpoenas</link>
@@ -383,18 +419,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>UAP Forum Convenes</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-uap-forum-convenes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-uap-forum-convenes</guid>
-      <pubDate>Tue, 23 Jun 2026 20:38:08 GMT</pubDate>
-      <description>UAP Forum Convenes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-uap-forum-convenes.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>US-Iran Talks Raise Concerns</title>
       <link>https://newsanarchist.com/articles/2026-06-23-us-iran-talks-raise-concerns</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-us-iran-talks-raise-concerns</guid>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Cracks Down On Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-us-cracks-down-on-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-us-cracks-down-on-fraud</guid>
-      <pubDate>Tue, 23 Jun 2026 18:23:29 GMT</pubDate>
-      <description>US Cracks Down On Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-us-cracks-down-on-fraud.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Tightens Export</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-china-tightens-export</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-china-tightens-export</guid>
-      <pubDate>Tue, 23 Jun 2026 17:35:54 GMT</pubDate>
-      <description>China Tightens Export</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-china-tightens-export.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
