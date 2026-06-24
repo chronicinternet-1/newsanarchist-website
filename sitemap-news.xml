@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-24-65b-fraud-charged</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-24T11:30:08.655Z</news:publication_date>
+      <news:title>$6.5B Fraud Charged</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-24-taiwan-holds-drills</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -318,14 +326,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-24T06:30:49.268Z</news:publication_date>
       <news:title>Near-Death Experience Scale Validated</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-24-65b-fraud-charged</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-24T06:28:37.245Z</news:publication_date>
-      <news:title>$6.5B Fraud Charged</news:title>
     </news:news>
   </url>
   <url>
@@ -2486,30 +2486,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-22T11:31:24.756Z</news:publication_date>
       <news:title>Taiwan Drills Begin</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-fisa-reauth-snagged</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T11:28:32.599Z</news:publication_date>
-      <news:title>FISA Reauth Snagged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-pepeto-defi-toolkit</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T11:27:17.932Z</news:publication_date>
-      <news:title>Pepeto DeFi Toolkit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-la-murder-convict-found-guilty</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T11:21:47.425Z</news:publication_date>
-      <news:title>LA Murder Convict Found Guilty</news:title>
     </news:news>
   </url>
 </urlset>
