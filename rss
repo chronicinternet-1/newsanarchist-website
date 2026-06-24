@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 21:44:19 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 21:44:19 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 21:49:45 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 21:49:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Fallout at KPMG</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-whistleblower-fallout-at-kpmg</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-whistleblower-fallout-at-kpmg</guid>
+      <pubDate>Wed, 24 Jun 2026 21:47:39 GMT</pubDate>
+      <description>Whistleblower Fallout at KPMG</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-whistleblower-fallout-at-kpmg.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>NATO Refines Sanctions</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-nato-refines-sanctions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nato-refines-sanctions</guid>
+      <pubDate>Wed, 24 Jun 2026 21:44:40 GMT</pubDate>
+      <description>NATO Refines Sanctions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nato-refines-sanctions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Man Guilty of Fatal Stabbing</title>
       <link>https://newsanarchist.com/articles/2026-06-24-man-guilty-of-fatal-stabbing</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Reverse Aging Breakthrough</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-reverse-aging-breakthrough</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-reverse-aging-breakthrough</guid>
-      <pubDate>Wed, 24 Jun 2026 15:33:59 GMT</pubDate>
-      <description>Reverse Aging Breakthrough</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-reverse-aging-breakthrough.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$12M Medicaid Vision Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-12m-medicaid-vision-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-12m-medicaid-vision-fraud</guid>
-      <pubDate>Wed, 24 Jun 2026 15:31:24 GMT</pubDate>
-      <description>$12M Medicaid Vision Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-12m-medicaid-vision-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
