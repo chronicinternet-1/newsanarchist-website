@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 13:46:40 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 13:46:40 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 13:52:08 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 13:52:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-sudan-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-sudan-conflict-escalates</guid>
+      <pubDate>Wed, 24 Jun 2026 13:48:23 GMT</pubDate>
+      <description>Sudan Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-sudan-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>IG Oversight Fails</title>
       <link>https://newsanarchist.com/articles/2026-06-24-ig-oversight-fails</link>
@@ -606,18 +618,6 @@
       <description>CFTC Seeks Input</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-cftc-seeks-input.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>UK Bank Rules Under Fire</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-uk-bank-rules-under-fire</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-uk-bank-rules-under-fire</guid>
-      <pubDate>Wed, 24 Jun 2026 08:00:19 GMT</pubDate>
-      <description>UK Bank Rules Under Fire</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-uk-bank-rules-under-fire.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
