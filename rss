@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 02:48:09 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 02:48:09 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 03:28:37 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 03:28:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Charged</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-snap-fraud-charged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-snap-fraud-charged</guid>
+      <pubDate>Wed, 24 Jun 2026 03:27:43 GMT</pubDate>
+      <description>SNAP Fraud Charged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-snap-fraud-charged.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>FTC Seeks Stronger Competition</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-ftc-seeks-stronger-competition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-ftc-seeks-stronger-competition</guid>
+      <pubDate>Wed, 24 Jun 2026 03:26:05 GMT</pubDate>
+      <description>FTC Seeks Stronger Competition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-ftc-seeks-stronger-competition.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Aid Crisis</title>
       <link>https://newsanarchist.com/articles/2026-06-24-myanmar-aid-crisis</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Talks Raise Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-us-iran-talks-raise-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-us-iran-talks-raise-concerns</guid>
-      <pubDate>Tue, 23 Jun 2026 20:36:55 GMT</pubDate>
-      <description>US-Iran Talks Raise Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-us-iran-talks-raise-concerns.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Glossip Retrial</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-glossip-retrial</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-glossip-retrial</guid>
-      <pubDate>Tue, 23 Jun 2026 20:33:23 GMT</pubDate>
-      <description>Glossip Retrial</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-glossip-retrial.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
