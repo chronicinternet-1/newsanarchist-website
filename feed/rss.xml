@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 11:41:55 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 11:41:55 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 11:47:23 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 11:47:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Covid Transparency Fight</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-covid-transparency-fight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-covid-transparency-fight</guid>
+      <pubDate>Wed, 24 Jun 2026 11:44:00 GMT</pubDate>
+      <description>Covid Transparency Fight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-covid-transparency-fight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>SEC Ignores Blockchain Risk</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-sec-ignores-blockchain-risk</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-sec-ignores-blockchain-risk</guid>
+      <pubDate>Wed, 24 Jun 2026 11:43:02 GMT</pubDate>
+      <description>SEC Ignores Blockchain Risk</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-sec-ignores-blockchain-risk.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>NATO Refines Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-06-24-nato-refines-sanctions</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Deal Raises Hopes</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-us-iran-deal-raises-hopes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-iran-deal-raises-hopes</guid>
-      <pubDate>Wed, 24 Jun 2026 05:39:43 GMT</pubDate>
-      <description>US-Iran Deal Raises Hopes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-iran-deal-raises-hopes.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>US Justice System Lags</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-us-justice-system-lags</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-justice-system-lags</guid>
-      <pubDate>Wed, 24 Jun 2026 05:36:06 GMT</pubDate>
-      <description>US Justice System Lags</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-justice-system-lags.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
