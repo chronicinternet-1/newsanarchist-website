@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 03:39:05 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 03:39:05 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 03:44:31 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 03:44:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Blockchain Complexity Grows</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-blockchain-complexity-grows</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-blockchain-complexity-grows</guid>
+      <pubDate>Wed, 24 Jun 2026 03:40:20 GMT</pubDate>
+      <description>Blockchain Complexity Grows</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-blockchain-complexity-grows.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Global Oil Prices Fall</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-global-oil-prices-fall</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-global-oil-prices-fall</guid>
+      <pubDate>Wed, 24 Jun 2026 03:39:04 GMT</pubDate>
+      <description>Global Oil Prices Fall</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-global-oil-prices-fall.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>DeFlock Tool Counters Surveillance</title>
       <link>https://newsanarchist.com/articles/2026-06-24-deflock-tool-counters-surveillance</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>$6.5B Fraud Takedown</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-65b-fraud-takedown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-65b-fraud-takedown</guid>
-      <pubDate>Tue, 23 Jun 2026 21:25:50 GMT</pubDate>
-      <description>$6.5B Fraud Takedown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-65b-fraud-takedown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Fuel Retailers Face Lawsuit</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-fuel-retailers-face-lawsuit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-fuel-retailers-face-lawsuit</guid>
-      <pubDate>Tue, 23 Jun 2026 21:24:23 GMT</pubDate>
-      <description>Fuel Retailers Face Lawsuit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-fuel-retailers-face-lawsuit.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
