@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-24-eli-lillys-success</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-24T10:27:54.765Z</news:publication_date>
+      <news:title>Eli Lilly&apos;s Success</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-24-myanmar-war-rages-on</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2462,30 +2470,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-22T11:21:47.425Z</news:publication_date>
       <news:title>LA Murder Convict Found Guilty</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-crypto-wallets-hijacked</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T10:26:47.919Z</news:publication_date>
-      <news:title>Crypto Wallets Hijacked</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-us-sanctions-china</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T10:25:25.558Z</news:publication_date>
-      <news:title>US Sanctions China</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-22-ai-boosts-insurance-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-22T10:14:23.100Z</news:publication_date>
-      <news:title>AI Boosts Insurance Fraud</news:title>
     </news:news>
   </url>
 </urlset>
