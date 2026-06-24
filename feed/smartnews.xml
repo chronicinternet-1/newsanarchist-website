@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 06:46:40 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 06:46:40 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 07:32:10 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 07:32:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mystical Experience Study</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-mystical-experience-study</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-mystical-experience-study</guid>
+      <pubDate>Wed, 24 Jun 2026 07:31:10 GMT</pubDate>
+      <description>Mystical Experience Study</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-mystical-experience-study.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Exceeds $27M</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-hospice-fraud-exceeds-27m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-hospice-fraud-exceeds-27m</guid>
+      <pubDate>Wed, 24 Jun 2026 07:28:56 GMT</pubDate>
+      <description>Hospice Fraud Exceeds $27M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-hospice-fraud-exceeds-27m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Sudan Massacres Repeat</title>
       <link>https://newsanarchist.com/articles/2026-06-24-sudan-massacres-repeat</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>CFPB Oversight Blocked</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-cfpb-oversight-blocked</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-cfpb-oversight-blocked</guid>
-      <pubDate>Tue, 23 Jun 2026 23:40:25 GMT</pubDate>
-      <description>CFPB Oversight Blocked</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-cfpb-oversight-blocked.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Blockchain Complexity</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-blockchain-complexity</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-blockchain-complexity</guid>
-      <pubDate>Tue, 23 Jun 2026 23:39:07 GMT</pubDate>
-      <description>Blockchain Complexity</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-blockchain-complexity.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
