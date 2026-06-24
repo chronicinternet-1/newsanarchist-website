@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 03:49:55 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 03:49:55 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 04:30:44 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 04:30:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>CFTC Seeks Public Input</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-cftc-seeks-public-input</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-cftc-seeks-public-input</guid>
+      <pubDate>Wed, 24 Jun 2026 04:26:24 GMT</pubDate>
+      <description>CFTC Seeks Public Input</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-cftc-seeks-public-input.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sahel Conflict Escalates</title>
       <link>https://newsanarchist.com/articles/2026-06-24-sahel-conflict-escalates</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Mangione Drops Defense</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-mangione-drops-defense</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-mangione-drops-defense</guid>
-      <pubDate>Tue, 23 Jun 2026 21:33:41 GMT</pubDate>
-      <description>Mangione Drops Defense</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-mangione-drops-defense.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
