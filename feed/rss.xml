@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 11:31:00 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 11:31:00 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 11:36:27 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 11:36:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NDE Scale Validation</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-nde-scale-validation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nde-scale-validation</guid>
+      <pubDate>Wed, 24 Jun 2026 11:32:36 GMT</pubDate>
+      <description>NDE Scale Validation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nde-scale-validation.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$6.5B Fraud Charged</title>
       <link>https://newsanarchist.com/articles/2026-06-24-65b-fraud-charged</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Price Fixing Suit</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-ai-price-fixing-suit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-ai-price-fixing-suit</guid>
-      <pubDate>Wed, 24 Jun 2026 05:26:45 GMT</pubDate>
-      <description>AI Price Fixing Suit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-ai-price-fixing-suit.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
