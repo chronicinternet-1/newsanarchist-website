@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 16:37:49 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 16:37:49 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 16:43:21 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 16:43:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Refines Russia Sanctions</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-nato-refines-russia-sanctions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nato-refines-russia-sanctions</guid>
+      <pubDate>Wed, 24 Jun 2026 16:43:04 GMT</pubDate>
+      <description>NATO Refines Russia Sanctions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nato-refines-russia-sanctions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>US Lags in Justice Reform</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice-reform</guid>
+      <pubDate>Wed, 24 Jun 2026 16:39:37 GMT</pubDate>
+      <description>US Lags in Justice Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-lags-in-justice-reform.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>NSA Loses AI Access</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</guid>
+      <pubDate>Wed, 24 Jun 2026 16:39:22 GMT</pubDate>
+      <description>NSA Loses AI Access</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nsa-loses-ai-access.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Conscious Minds Beyond Earth</title>
       <link>https://newsanarchist.com/articles/2026-06-24-conscious-minds-beyond-earth</link>
@@ -431,18 +467,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>NSA Loses AI Access</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</guid>
-      <pubDate>Wed, 24 Jun 2026 12:37:55 GMT</pubDate>
-      <description>NSA Loses AI Access</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nsa-loses-ai-access.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>NDE Scale Validated</title>
       <link>https://newsanarchist.com/articles/2026-06-24-nde-scale-validated</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nde-scale-validated</guid>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Data Protection Bill</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-data-protection-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-data-protection-bill</guid>
-      <pubDate>Wed, 24 Jun 2026 10:37:18 GMT</pubDate>
-      <description>Data Protection Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-data-protection-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Eli Lilly's Success</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-eli-lillys-success</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-eli-lillys-success</guid>
-      <pubDate>Wed, 24 Jun 2026 10:27:54 GMT</pubDate>
-      <description>Eli Lilly's Success</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-eli-lillys-success.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
