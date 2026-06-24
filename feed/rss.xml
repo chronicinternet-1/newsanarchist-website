@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 20:36:26 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 20:36:26 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 20:41:54 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 20:41:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-cold-case-solved</guid>
+      <pubDate>Wed, 24 Jun 2026 20:40:51 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>NSA Loses AI Access</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</guid>
+      <pubDate>Wed, 24 Jun 2026 20:40:38 GMT</pubDate>
+      <description>NSA Loses AI Access</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nsa-loses-ai-access.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>NDE Scale Validated</title>
       <link>https://newsanarchist.com/articles/2026-06-24-nde-scale-validated</link>
@@ -287,18 +311,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-cold-case-solved</guid>
-      <pubDate>Wed, 24 Jun 2026 17:39:58 GMT</pubDate>
-      <description>Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>UK Expands Facial Recognition</title>
       <link>https://newsanarchist.com/articles/2026-06-24-uk-expands-facial-recognition</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-uk-expands-facial-recognition</guid>
@@ -393,18 +405,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>NSA Loses AI Access</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nsa-loses-ai-access</guid>
-      <pubDate>Wed, 24 Jun 2026 16:39:22 GMT</pubDate>
-      <description>NSA Loses AI Access</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nsa-loses-ai-access.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Conscious Minds Beyond Earth</title>
