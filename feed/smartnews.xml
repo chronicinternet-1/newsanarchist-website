@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 01:44:54 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 01:44:54 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 02:00:32 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 02:00:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>個人情報の改正案に懸念</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-kenji-mori-mqrfepac</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-kenji-mori-mqrfepac</guid>
+      <pubDate>Wed, 24 Jun 2026 02:00:17 GMT</pubDate>
+      <description>個人情報の改正案に懸念</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-kenji-mori-mqrfepac.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Sudan Massacres</title>
       <link>https://newsanarchist.com/articles/2026-06-24-sudan-massacres</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Treasury Dismantles Scam Ops</title>
-      <link>https://newsanarchist.com/articles/2026-06-23-treasury-dismantles-scam-ops</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-23-treasury-dismantles-scam-ops</guid>
-      <pubDate>Tue, 23 Jun 2026 18:38:50 GMT</pubDate>
-      <description>Treasury Dismantles Scam Ops</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-23-treasury-dismantles-scam-ops.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
