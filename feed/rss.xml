@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 12:44:08 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 12:44:08 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 12:49:32 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 12:49:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Readiness Drills</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-taiwan-readiness-drills</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-taiwan-readiness-drills</guid>
+      <pubDate>Wed, 24 Jun 2026 12:47:59 GMT</pubDate>
+      <description>Taiwan Readiness Drills</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-taiwan-readiness-drills.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>DEA Inaction on Fentanyl</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-dea-inaction-on-fentanyl</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-dea-inaction-on-fentanyl</guid>
+      <pubDate>Wed, 24 Jun 2026 12:44:22 GMT</pubDate>
+      <description>DEA Inaction on Fentanyl</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-dea-inaction-on-fentanyl.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure Looms</title>
       <link>https://newsanarchist.com/articles/2026-06-24-uap-disclosure-looms</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Sudan Massacres Repeat</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-sudan-massacres-repeat</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-sudan-massacres-repeat</guid>
-      <pubDate>Wed, 24 Jun 2026 06:45:45 GMT</pubDate>
-      <description>Sudan Massacres Repeat</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-sudan-massacres-repeat.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Treasury Dismantles Scam Ops</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-treasury-dismantles-scam-ops</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-treasury-dismantles-scam-ops</guid>
-      <pubDate>Wed, 24 Jun 2026 06:42:29 GMT</pubDate>
-      <description>Treasury Dismantles Scam Ops</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-treasury-dismantles-scam-ops.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
