@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 24 Jun 2026 20:47:25 GMT</lastBuildDate>
-    <pubDate>Wed, 24 Jun 2026 20:47:25 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 20:52:53 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 20:52:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Philippines Sanctioned</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-philippines-sanctioned</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-philippines-sanctioned</guid>
+      <pubDate>Wed, 24 Jun 2026 20:50:39 GMT</pubDate>
+      <description>Philippines Sanctioned</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-philippines-sanctioned.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Covid Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-24-covid-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-covid-transparency</guid>
+      <pubDate>Wed, 24 Jun 2026 20:47:21 GMT</pubDate>
+      <description>Covid Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-covid-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>US-China Interests Diverge</title>
       <link>https://newsanarchist.com/articles/2026-06-24-us-china-interests-diverge</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-facial-recognition-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-facial-recognition-expands</guid>
-      <pubDate>Wed, 24 Jun 2026 14:38:43 GMT</pubDate>
-      <description>Facial Recognition Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-facial-recognition-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>NDE Scale Validation</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-nde-scale-validation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-nde-scale-validation</guid>
-      <pubDate>Wed, 24 Jun 2026 14:33:38 GMT</pubDate>
-      <description>NDE Scale Validation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-nde-scale-validation.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
