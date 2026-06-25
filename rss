@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 07:41:11 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 07:41:11 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 07:46:40 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 07:46:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Men Sue Alameda</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-men-sue-alameda</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-men-sue-alameda</guid>
+      <pubDate>Thu, 25 Jun 2026 07:44:13 GMT</pubDate>
+      <description>Men Sue Alameda</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-men-sue-alameda.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FISA Revival</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-fisa-revival</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fisa-revival</guid>
+      <pubDate>Thu, 25 Jun 2026 07:43:55 GMT</pubDate>
+      <description>FISA Revival</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-fisa-revival.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Child Death Rate</title>
       <link>https://newsanarchist.com/articles/2026-06-25-child-death-rate</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Spoke to Live Nation CEO</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-trump-spoke-to-live-nation-ceo</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-trump-spoke-to-live-nation-ceo</guid>
-      <pubDate>Thu, 25 Jun 2026 01:32:20 GMT</pubDate>
-      <description>Trump Spoke to Live Nation CEO</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-trump-spoke-to-live-nation-ceo.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Navy Returns</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-china-navy-returns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-china-navy-returns</guid>
-      <pubDate>Thu, 25 Jun 2026 00:51:55 GMT</pubDate>
-      <description>China Navy Returns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-china-navy-returns.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
