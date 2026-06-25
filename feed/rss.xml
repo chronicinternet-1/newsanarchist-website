@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 18:49:46 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 18:49:46 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 18:55:16 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 18:55:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Crypto Guidance</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-sec-crypto-guidance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-sec-crypto-guidance</guid>
+      <pubDate>Thu, 25 Jun 2026 18:54:12 GMT</pubDate>
+      <description>SEC Crypto Guidance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-sec-crypto-guidance.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>China Seizes Market</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-china-seizes-market</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-china-seizes-market</guid>
+      <pubDate>Thu, 25 Jun 2026 18:52:46 GMT</pubDate>
+      <description>China Seizes Market</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-china-seizes-market.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Cold Case Solved</title>
       <link>https://newsanarchist.com/articles/2026-06-25-cold-case-solved</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Alibaba Sues Pentagon</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-alibaba-sues-pentagon</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-alibaba-sues-pentagon</guid>
-      <pubDate>Thu, 25 Jun 2026 12:56:37 GMT</pubDate>
-      <description>Alibaba Sues Pentagon</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-alibaba-sues-pentagon.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DeFi TVL Plunges 39%</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-defi-tvl-plunges-39</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-defi-tvl-plunges-39</guid>
-      <pubDate>Thu, 25 Jun 2026 12:51:14 GMT</pubDate>
-      <description>DeFi TVL Plunges 39%</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-defi-tvl-plunges-39.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
