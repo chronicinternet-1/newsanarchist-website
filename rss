@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 00:56:08 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 00:56:08 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 01:36:40 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 01:36:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$6.5B Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-65b-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-65b-fraud-crackdown</guid>
+      <pubDate>Thu, 25 Jun 2026 01:34:39 GMT</pubDate>
+      <description>$6.5B Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-65b-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Trump Spoke to Live Nation CEO</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-trump-spoke-to-live-nation-ceo</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-trump-spoke-to-live-nation-ceo</guid>
+      <pubDate>Thu, 25 Jun 2026 01:32:20 GMT</pubDate>
+      <description>Trump Spoke to Live Nation CEO</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-trump-spoke-to-live-nation-ceo.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Navy Returns</title>
       <link>https://newsanarchist.com/articles/2026-06-25-china-navy-returns</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi TVL Plummets 39%</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-defi-tvl-plummets-39</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-defi-tvl-plummets-39</guid>
-      <pubDate>Wed, 24 Jun 2026 18:45:21 GMT</pubDate>
-      <description>DeFi TVL Plummets 39%</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-defi-tvl-plummets-39.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Clean Energy Stalls</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-clean-energy-stalls</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-clean-energy-stalls</guid>
-      <pubDate>Wed, 24 Jun 2026 18:43:43 GMT</pubDate>
-      <description>Clean Energy Stalls</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-clean-energy-stalls.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
