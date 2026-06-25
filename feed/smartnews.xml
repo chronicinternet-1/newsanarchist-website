@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 20:02:32 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 20:02:32 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 20:43:02 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 20:43:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$12M Medicaid Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-12m-medicaid-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-12m-medicaid-fraud</guid>
+      <pubDate>Thu, 25 Jun 2026 20:42:40 GMT</pubDate>
+      <description>$12M Medicaid Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-12m-medicaid-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Bosch Avoids Penalty</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-bosch-avoids-penalty</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-bosch-avoids-penalty</guid>
+      <pubDate>Thu, 25 Jun 2026 20:39:39 GMT</pubDate>
+      <description>Bosch Avoids Penalty</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-bosch-avoids-penalty.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Civil War Apocalypse</title>
       <link>https://newsanarchist.com/articles/2026-06-25-myanmar-civil-war-apocalypse</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutorial Misconduct Claims</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-prosecutorial-misconduct-claims</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-prosecutorial-misconduct-claims</guid>
-      <pubDate>Thu, 25 Jun 2026 14:47:20 GMT</pubDate>
-      <description>Prosecutorial Misconduct Claims</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-prosecutorial-misconduct-claims.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Blocks AI Models</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-us-gov-blocks-ai-models</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-us-gov-blocks-ai-models</guid>
-      <pubDate>Thu, 25 Jun 2026 14:46:57 GMT</pubDate>
-      <description>US Gov Blocks AI Models</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-us-gov-blocks-ai-models.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
