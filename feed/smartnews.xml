@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 23:45:02 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 23:45:02 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 23:55:37 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 23:55:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Leads Global Energy Shift</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-china-leads-global-energy-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-china-leads-global-energy-shift</guid>
+      <pubDate>Thu, 25 Jun 2026 23:55:05 GMT</pubDate>
+      <description>China Leads Global Energy Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-china-leads-global-energy-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-cold-case-solved</guid>
+      <pubDate>Thu, 25 Jun 2026 23:51:34 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FISA Revival Stalled</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-fisa-revival-stalled</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fisa-revival-stalled</guid>
+      <pubDate>Thu, 25 Jun 2026 23:51:09 GMT</pubDate>
+      <description>FISA Revival Stalled</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-fisa-revival-stalled.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Exceeds $1B</title>
       <link>https://newsanarchist.com/articles/2026-06-25-snap-fraud-exceeds-1b</link>
@@ -479,18 +515,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-cold-case-solved</guid>
-      <pubDate>Thu, 25 Jun 2026 18:49:13 GMT</pubDate>
-      <description>Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>FISA Reform</title>
       <link>https://newsanarchist.com/articles/2026-06-25-fisa-reform</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fisa-reform</guid>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Data Breach Epidemic</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-data-breach-epidemic</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-data-breach-epidemic</guid>
-      <pubDate>Thu, 25 Jun 2026 17:48:23 GMT</pubDate>
-      <description>Data Breach Epidemic</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-data-breach-epidemic.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>UAP Secrecy</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-uap-secrecy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-uap-secrecy</guid>
-      <pubDate>Thu, 25 Jun 2026 17:43:04 GMT</pubDate>
-      <description>UAP Secrecy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-uap-secrecy.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
