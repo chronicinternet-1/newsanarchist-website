@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 14:38:20 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 14:38:20 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 14:43:48 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 14:43:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Heatwave Europe</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-heatwave-europe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-heatwave-europe</guid>
+      <pubDate>Thu, 25 Jun 2026 14:41:42 GMT</pubDate>
+      <description>Heatwave Europe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-heatwave-europe.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$89M Health Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-89m-health-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-89m-health-fraud</guid>
+      <pubDate>Thu, 25 Jun 2026 14:39:50 GMT</pubDate>
+      <description>$89M Health Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-89m-health-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Polymarket Fake Trades</title>
       <link>https://newsanarchist.com/articles/2026-06-25-polymarket-fake-trades</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>NSA Loses Access To AI</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-nsa-loses-access-to-ai</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-nsa-loses-access-to-ai</guid>
-      <pubDate>Thu, 25 Jun 2026 08:44:11 GMT</pubDate>
-      <description>NSA Loses Access To AI</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-nsa-loses-access-to-ai.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Toxic Culture &amp; Mortality</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-toxic-culture-mortality</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-toxic-culture-mortality</guid>
-      <pubDate>Thu, 25 Jun 2026 08:38:59 GMT</pubDate>
-      <description>Toxic Culture &amp; Mortality</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-toxic-culture-mortality.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
