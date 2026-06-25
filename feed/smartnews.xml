@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:03:10 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 08:03:10 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 08:38:46 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 08:38:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-snap-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-snap-fraud-exposed</guid>
+      <pubDate>Thu, 25 Jun 2026 08:36:53 GMT</pubDate>
+      <description>SNAP Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-snap-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>SEC Probe Pressures PE</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-sec-probe-pressures-pe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-sec-probe-pressures-pe</guid>
+      <pubDate>Thu, 25 Jun 2026 08:34:26 GMT</pubDate>
+      <description>SEC Probe Pressures PE</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-sec-probe-pressures-pe.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Essex Oil Traders Face UK Probe</title>
       <link>https://newsanarchist.com/articles/2026-06-25-essex-oil-traders-face-uk-probe</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Healthcare Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</guid>
-      <pubDate>Thu, 25 Jun 2026 02:32:39 GMT</pubDate>
-      <description>Healthcare Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-healthcare-fraud-crackdown.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>情報提供停止要請に懸念</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-kenji-mori-mqsuujv1</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-kenji-mori-mqsuujv1</guid>
-      <pubDate>Thu, 25 Jun 2026 02:00:17 GMT</pubDate>
-      <description>情報提供停止要請に懸念</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-kenji-mori-mqsuujv1.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>

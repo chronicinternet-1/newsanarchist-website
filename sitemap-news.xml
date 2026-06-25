@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-25-snap-fraud-exposed</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T08:36:53.733Z</news:publication_date>
+      <news:title>SNAP Fraud Exposed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-25-sec-probe-pressures-pe</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T08:34:26.220Z</news:publication_date>
+      <news:title>SEC Probe Pressures PE</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-25-essex-oil-traders-face-uk-probe</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -2390,30 +2406,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-23T09:20:37.935Z</news:publication_date>
       <news:title>Amazon Faces Lawsuit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-23-china-shifts-energy-strategy</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-23T08:32:55.808Z</news:publication_date>
-      <news:title>China Shifts Energy Strategy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-23-sf-maps-surveillance</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-23T08:29:05.936Z</news:publication_date>
-      <news:title>SF Maps Surveillance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-23-sec-disgorgement-rule</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-23T08:20:20.225Z</news:publication_date>
-      <news:title>SEC Disgorgement Rule</news:title>
     </news:news>
   </url>
 </urlset>
