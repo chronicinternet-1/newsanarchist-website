@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 22:48:16 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 22:48:16 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 22:53:43 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 22:53:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Sues Philly</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-doj-sues-philly</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-doj-sues-philly</guid>
+      <pubDate>Thu, 25 Jun 2026 22:51:05 GMT</pubDate>
+      <description>DOJ Sues Philly</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-doj-sues-philly.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>India's Data Law</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-indias-data-law</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-indias-data-law</guid>
+      <pubDate>Thu, 25 Jun 2026 22:50:42 GMT</pubDate>
+      <description>India's Data Law</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-indias-data-law.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UAP Transparency Gains</title>
       <link>https://newsanarchist.com/articles/2026-06-25-uap-transparency-gains</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NATO Refines Strategy</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-nato-refines-strategy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-nato-refines-strategy</guid>
-      <pubDate>Thu, 25 Jun 2026 16:51:46 GMT</pubDate>
-      <description>NATO Refines Strategy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-nato-refines-strategy.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Blaise Taylor Murder</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-blaise-taylor-murder</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-blaise-taylor-murder</guid>
-      <pubDate>Thu, 25 Jun 2026 16:48:16 GMT</pubDate>
-      <description>Blaise Taylor Murder</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-blaise-taylor-murder.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
