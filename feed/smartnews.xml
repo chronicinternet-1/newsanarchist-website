@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 01:53:06 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 01:53:06 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 02:03:31 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 02:03:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>情報提供停止要請に懸念</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-kenji-mori-mqsuujv1</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-kenji-mori-mqsuujv1</guid>
+      <pubDate>Thu, 25 Jun 2026 02:00:17 GMT</pubDate>
+      <description>情報提供停止要請に懸念</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-kenji-mori-mqsuujv1.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Fujian Carrier Transits Taiwan Strait</title>
       <link>https://newsanarchist.com/articles/2026-06-25-fujian-carrier-transits-taiwan-strait</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>US Lags in Justice</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-lags-in-justice</guid>
-      <pubDate>Wed, 24 Jun 2026 19:40:32 GMT</pubDate>
-      <description>US Lags in Justice</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-lags-in-justice.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
