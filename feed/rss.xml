@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 14:54:49 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 14:54:49 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 15:00:27 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 15:00:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sahel Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-sahel-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-sahel-conflict-escalates</guid>
+      <pubDate>Thu, 25 Jun 2026 14:57:38 GMT</pubDate>
+      <description>Sahel Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-sahel-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>HHS OIG Uncovers $6.5B Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-25-hhs-oig-uncovers-65b-fraud</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Insider Trading Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-insider-trading-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-insider-trading-crisis</guid>
-      <pubDate>Thu, 25 Jun 2026 09:34:52 GMT</pubDate>
-      <description>Insider Trading Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-insider-trading-crisis.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
