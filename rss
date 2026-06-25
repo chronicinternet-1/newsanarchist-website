@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 22:02:20 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 22:02:20 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 22:42:49 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 22:42:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Healthcare Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</guid>
+      <pubDate>Thu, 25 Jun 2026 22:40:36 GMT</pubDate>
+      <description>Healthcare Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-healthcare-fraud-crackdown.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar War Toll Surges</title>
       <link>https://newsanarchist.com/articles/2026-06-25-myanmar-war-toll-surges</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Conscious Minds Beyond Ours</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-conscious-minds-beyond-ours</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-conscious-minds-beyond-ours</guid>
-      <pubDate>Thu, 25 Jun 2026 16:42:36 GMT</pubDate>
-      <description>Conscious Minds Beyond Ours</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-conscious-minds-beyond-ours.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
