@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 03:02:55 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 03:02:55 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2026 03:36:38 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2026 03:36:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$550K SNAP Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-550k-snap-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-550k-snap-fraud</guid>
+      <pubDate>Thu, 25 Jun 2026 03:35:23 GMT</pubDate>
+      <description>$550K SNAP Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-550k-snap-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Rajesh Exports Raided</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-rajesh-exports-raided</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-rajesh-exports-raided</guid>
+      <pubDate>Thu, 25 Jun 2026 03:32:58 GMT</pubDate>
+      <description>Rajesh Exports Raided</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-rajesh-exports-raided.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan On Alert</title>
       <link>https://newsanarchist.com/articles/2026-06-25-taiwan-on-alert</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Covid Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-covid-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-covid-transparency</guid>
-      <pubDate>Wed, 24 Jun 2026 20:47:21 GMT</pubDate>
-      <description>Covid Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-covid-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US-China Interests Diverge</title>
-      <link>https://newsanarchist.com/articles/2026-06-24-us-china-interests-diverge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-24-us-china-interests-diverge</guid>
-      <pubDate>Wed, 24 Jun 2026 20:44:20 GMT</pubDate>
-      <description>US-China Interests Diverge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-24-us-china-interests-diverge.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
