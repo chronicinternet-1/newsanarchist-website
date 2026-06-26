@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 15:14:52 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 15:14:52 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 15:50:27 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 15:50:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Policy Under Fire</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</guid>
+      <pubDate>Fri, 26 Jun 2026 15:47:27 GMT</pubDate>
+      <description>SEC Policy Under Fire</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sec-policy-under-fire.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Xi's Power Play</title>
       <link>https://newsanarchist.com/articles/2026-06-26-xis-power-play</link>
@@ -549,18 +561,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SEC Policy Under Fire</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</guid>
-      <pubDate>Fri, 26 Jun 2026 10:45:04 GMT</pubDate>
-      <description>SEC Policy Under Fire</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sec-policy-under-fire.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>China Navy Nears Taiwan</title>
