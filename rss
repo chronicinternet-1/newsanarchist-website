@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Jun 2026 23:55:37 GMT</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 23:55:37 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:01:04 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 00:01:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS Oversight Hearing</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-dhs-oversight-hearing</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-dhs-oversight-hearing</guid>
+      <pubDate>Thu, 25 Jun 2026 23:58:33 GMT</pubDate>
+      <description>DHS Oversight Hearing</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-dhs-oversight-hearing.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Lawmakers Warn Clarity Act</title>
+      <link>https://newsanarchist.com/articles/2026-06-25-lawmakers-warn-clarity-act</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-lawmakers-warn-clarity-act</guid>
+      <pubDate>Thu, 25 Jun 2026 23:56:38 GMT</pubDate>
+      <description>Lawmakers Warn Clarity Act</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-lawmakers-warn-clarity-act.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>China Leads Global Energy Shift</title>
       <link>https://newsanarchist.com/articles/2026-06-25-china-leads-global-energy-shift</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Targets US Firms</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-china-targets-us-firms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-china-targets-us-firms</guid>
-      <pubDate>Thu, 25 Jun 2026 17:52:14 GMT</pubDate>
-      <description>China Targets US Firms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-china-targets-us-firms.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Law Enforcement Recruitment</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-law-enforcement-recruitment</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-law-enforcement-recruitment</guid>
-      <pubDate>Thu, 25 Jun 2026 17:48:44 GMT</pubDate>
-      <description>Law Enforcement Recruitment</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-law-enforcement-recruitment.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
