@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 02:06:15 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 02:06:15 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 02:46:51 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 02:46:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hospice Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-hospice-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-hospice-fraud</guid>
+      <pubDate>Fri, 26 Jun 2026 02:45:33 GMT</pubDate>
+      <description>Hospice Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-hospice-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Contractor Fraud Surges</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-contractor-fraud-surges</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-contractor-fraud-surges</guid>
+      <pubDate>Fri, 26 Jun 2026 02:42:07 GMT</pubDate>
+      <description>Contractor Fraud Surges</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-contractor-fraud-surges.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Civil War Toll Mounts</title>
       <link>https://newsanarchist.com/articles/2026-06-26-myanmar-civil-war-toll-mounts</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Civil War Apocalypse</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-myanmar-civil-war-apocalypse</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-myanmar-civil-war-apocalypse</guid>
-      <pubDate>Thu, 25 Jun 2026 20:00:24 GMT</pubDate>
-      <description>Myanmar Civil War Apocalypse</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-myanmar-civil-war-apocalypse.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Gabbard Seeks Covid Truth</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-gabbard-seeks-covid-truth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-gabbard-seeks-covid-truth</guid>
-      <pubDate>Thu, 25 Jun 2026 19:56:40 GMT</pubDate>
-      <description>Gabbard Seeks Covid Truth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-gabbard-seeks-covid-truth.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
