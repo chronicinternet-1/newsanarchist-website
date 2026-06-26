@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 22:11:52 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 22:11:52 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 22:17:21 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 22:17:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sahel War Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</guid>
+      <pubDate>Fri, 26 Jun 2026 22:13:30 GMT</pubDate>
+      <description>Sahel War Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sahel-war-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DEA Probed Over Fentanyl</title>
       <link>https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl</link>
@@ -429,18 +441,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Sahel War Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</guid>
-      <pubDate>Fri, 26 Jun 2026 18:11:37 GMT</pubDate>
-      <description>Sahel War Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sahel-war-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Epstein Files To Be Released</title>
