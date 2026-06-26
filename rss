@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 06:04:53 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 06:04:53 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:10:24 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 06:10:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar War Rages On</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-myanmar-war-rages-on</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-myanmar-war-rages-on</guid>
+      <pubDate>Fri, 26 Jun 2026 06:05:18 GMT</pubDate>
+      <description>Myanmar War Rages On</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-myanmar-war-rages-on.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DEA Probed Over Fentanyl Claims</title>
       <link>https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl-claims</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Leads Global Energy Shift</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-china-leads-global-energy-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-china-leads-global-energy-shift</guid>
-      <pubDate>Thu, 25 Jun 2026 23:55:05 GMT</pubDate>
-      <description>China Leads Global Energy Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-china-leads-global-energy-shift.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
