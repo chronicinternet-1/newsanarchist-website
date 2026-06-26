@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:41:57 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 00:41:57 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:47:28 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 00:47:28 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Suicide Contagion</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-suicide-contagion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-suicide-contagion</guid>
+      <pubDate>Fri, 26 Jun 2026 00:46:22 GMT</pubDate>
+      <description>Suicide Contagion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-suicide-contagion.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$6.5B Fraud Takedown</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</guid>
+      <pubDate>Fri, 26 Jun 2026 00:44:37 GMT</pubDate>
+      <description>$6.5B Fraud Takedown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-65b-fraud-takedown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>SEC Policy Under Fire</title>
       <link>https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Meta Enters Prediction Market</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-meta-enters-prediction-market</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-meta-enters-prediction-market</guid>
-      <pubDate>Thu, 25 Jun 2026 18:39:07 GMT</pubDate>
-      <description>Meta Enters Prediction Market</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-meta-enters-prediction-market.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Fujian Carrier Transits Taiwan</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-fujian-carrier-transits-taiwan</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fujian-carrier-transits-taiwan</guid>
-      <pubDate>Thu, 25 Jun 2026 17:59:24 GMT</pubDate>
-      <description>Fujian Carrier Transits Taiwan</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-fujian-carrier-transits-taiwan.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
