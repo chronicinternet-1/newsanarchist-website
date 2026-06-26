@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 13:04:11 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 13:04:11 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 13:09:37 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 13:09:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Braces For Atrocity</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-sudan-braces-for-atrocity</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sudan-braces-for-atrocity</guid>
+      <pubDate>Fri, 26 Jun 2026 13:08:34 GMT</pubDate>
+      <description>Sudan Braces For Atrocity</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sudan-braces-for-atrocity.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>FBI Increases Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-fbi-increases-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-fbi-increases-oversight</guid>
+      <pubDate>Fri, 26 Jun 2026 13:05:05 GMT</pubDate>
+      <description>FBI Increases Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-fbi-increases-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Crypto Regulation</title>
       <link>https://newsanarchist.com/articles/2026-06-26-crypto-regulation</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Simulates Chinese Blockade</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-taiwan-simulates-chinese-blockade</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-taiwan-simulates-chinese-blockade</guid>
-      <pubDate>Fri, 26 Jun 2026 07:05:47 GMT</pubDate>
-      <description>Taiwan Simulates Chinese Blockade</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-taiwan-simulates-chinese-blockade.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Secret Service Cybersecurity Failures</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-secret-service-cybersecurity-failures</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-secret-service-cybersecurity-failures</guid>
-      <pubDate>Fri, 26 Jun 2026 07:02:00 GMT</pubDate>
-      <description>Secret Service Cybersecurity Failures</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-secret-service-cybersecurity-failures.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
