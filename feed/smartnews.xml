@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 06:45:52 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 06:45:52 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:51:20 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 06:51:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Beyond Earth</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-consciousness-beyond-earth</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-consciousness-beyond-earth</guid>
+      <pubDate>Fri, 26 Jun 2026 06:49:07 GMT</pubDate>
+      <description>Consciousness Beyond Earth</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-consciousness-beyond-earth.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$6.5B Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-65b-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-65b-fraud</guid>
+      <pubDate>Fri, 26 Jun 2026 06:47:26 GMT</pubDate>
+      <description>$6.5B Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-65b-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Warren Warns Of Mega Merger Reversals</title>
       <link>https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DHS Oversight Hearing</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-dhs-oversight-hearing</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-dhs-oversight-hearing</guid>
-      <pubDate>Thu, 25 Jun 2026 23:58:33 GMT</pubDate>
-      <description>DHS Oversight Hearing</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-dhs-oversight-hearing.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Lawmakers Warn Clarity Act</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-lawmakers-warn-clarity-act</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-lawmakers-warn-clarity-act</guid>
-      <pubDate>Thu, 25 Jun 2026 23:56:38 GMT</pubDate>
-      <description>Lawmakers Warn Clarity Act</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-lawmakers-warn-clarity-act.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
