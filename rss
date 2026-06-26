@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:05:59 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 10:05:59 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 10:11:29 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 10:11:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Navy Nears Taiwan</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-china-navy-nears-taiwan</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-navy-nears-taiwan</guid>
+      <pubDate>Fri, 26 Jun 2026 10:07:12 GMT</pubDate>
+      <description>China Navy Nears Taiwan</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-navy-nears-taiwan.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DHS Watchdog Probes ICE</title>
       <link>https://newsanarchist.com/articles/2026-06-26-dhs-watchdog-probes-ice</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Transparency Sought</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-transparency-sought</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-transparency-sought</guid>
-      <pubDate>Fri, 26 Jun 2026 04:00:32 GMT</pubDate>
-      <description>Transparency Sought</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-transparency-sought.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
