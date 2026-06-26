@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 06:10:24 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 06:10:24 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:45:52 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 06:45:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Warren Warns Of Mega Merger Reversals</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</guid>
+      <pubDate>Fri, 26 Jun 2026 06:43:12 GMT</pubDate>
+      <description>Warren Warns Of Mega Merger Reversals</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-warren-warns-of-mega-merger-reversals.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar War Rages On</title>
       <link>https://newsanarchist.com/articles/2026-06-26-myanmar-war-rages-on</link>
@@ -489,18 +501,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Warren Warns Of Mega Merger Reversals</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</guid>
-      <pubDate>Fri, 26 Jun 2026 01:41:40 GMT</pubDate>
-      <description>Warren Warns Of Mega Merger Reversals</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-warren-warns-of-mega-merger-reversals.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Myanmar Apocalypse</title>
