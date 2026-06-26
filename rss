@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 22:17:21 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 22:17:21 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 22:52:48 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 22:52:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Fake Receipts Rise</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-ai-fake-receipts-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-ai-fake-receipts-rise</guid>
+      <pubDate>Fri, 26 Jun 2026 22:50:20 GMT</pubDate>
+      <description>AI Fake Receipts Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-ai-fake-receipts-rise.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sahel War Escalates</title>
       <link>https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Purges Harm Military</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-china-purges-harm-military</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-purges-harm-military</guid>
-      <pubDate>Fri, 26 Jun 2026 16:10:38 GMT</pubDate>
-      <description>China Purges Harm Military</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-purges-harm-military.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
