@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:58:11 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 10:58:11 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 11:03:45 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 11:03:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Whistleblowers Demand Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers-demand-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers-demand-transparency</guid>
+      <pubDate>Fri, 26 Jun 2026 11:01:47 GMT</pubDate>
+      <description>UAP Whistleblowers Demand Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-whistleblowers-demand-transparency.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Copper Squeeze Looms</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-copper-squeeze-looms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-copper-squeeze-looms</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:10 GMT</pubDate>
+      <description>Copper Squeeze Looms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-copper-squeeze-looms.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Prairieland Protesters Sentenced</title>
       <link>https://newsanarchist.com/articles/2026-06-26-prairieland-protesters-sentenced</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutor Suspended</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-prosecutor-suspended</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-prosecutor-suspended</guid>
-      <pubDate>Fri, 26 Jun 2026 04:53:56 GMT</pubDate>
-      <description>Prosecutor Suspended</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-prosecutor-suspended.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Flock ALPRs Scan Immigrants</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-flock-alprs-scan-immigrants</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-flock-alprs-scan-immigrants</guid>
-      <pubDate>Fri, 26 Jun 2026 04:53:29 GMT</pubDate>
-      <description>Flock ALPRs Scan Immigrants</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-flock-alprs-scan-immigrants.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
