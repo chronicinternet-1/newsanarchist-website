@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 17:50:10 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 17:50:10 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 17:55:39 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 17:55:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-transparency</guid>
+      <pubDate>Fri, 26 Jun 2026 17:54:27 GMT</pubDate>
+      <description>UAP Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-transparency.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$3.7B Medicare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-37b-medicare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-37b-medicare-fraud</guid>
+      <pubDate>Fri, 26 Jun 2026 17:52:46 GMT</pubDate>
+      <description>$3.7B Medicare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-37b-medicare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>California Man Pleads Guilty</title>
       <link>https://newsanarchist.com/articles/2026-06-26-california-man-pleads-guilty</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>China Tightens Grip</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-china-tightens-grip</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-tightens-grip</guid>
-      <pubDate>Fri, 26 Jun 2026 12:00:40 GMT</pubDate>
-      <description>China Tightens Grip</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-tightens-grip.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Palisades Fire Trial Update</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-palisades-fire-trial-update</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-palisades-fire-trial-update</guid>
-      <pubDate>Fri, 26 Jun 2026 11:57:16 GMT</pubDate>
-      <description>Palisades Fire Trial Update</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-palisades-fire-trial-update.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
