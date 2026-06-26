@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 01:44:23 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 01:44:23 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 01:49:49 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 01:49:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cosmic Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-cosmic-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-cosmic-consciousness</guid>
+      <pubDate>Fri, 26 Jun 2026 01:46:50 GMT</pubDate>
+      <description>Cosmic Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-cosmic-consciousness.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$6.5B Fraud Takedown</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</guid>
+      <pubDate>Fri, 26 Jun 2026 01:45:06 GMT</pubDate>
+      <description>$6.5B Fraud Takedown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-65b-fraud-takedown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Warren Warns Of Mega Merger Reversals</title>
       <link>https://newsanarchist.com/articles/2026-06-26-warren-warns-of-mega-merger-reversals</link>
@@ -117,18 +141,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$6.5B Fraud Takedown</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-65b-fraud-takedown</guid>
-      <pubDate>Fri, 26 Jun 2026 00:44:37 GMT</pubDate>
-      <description>$6.5B Fraud Takedown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-65b-fraud-takedown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>SEC Policy Under Fire</title>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$89M Health Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-89m-health-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-89m-health-fraud</guid>
-      <pubDate>Thu, 25 Jun 2026 19:42:14 GMT</pubDate>
-      <description>$89M Health Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-89m-health-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
