@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 16:58:17 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 16:58:17 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 17:03:46 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 17:03:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Leads Energy Surge</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-china-leads-energy-surge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-leads-energy-surge</guid>
+      <pubDate>Fri, 26 Jun 2026 17:03:18 GMT</pubDate>
+      <description>China Leads Energy Surge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-leads-energy-surge.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Palisades Fire Trial</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-palisades-fire-trial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-palisades-fire-trial</guid>
+      <pubDate>Fri, 26 Jun 2026 16:59:43 GMT</pubDate>
+      <description>Palisades Fire Trial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-palisades-fire-trial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Conscious Minds Beyond Ours</title>
       <link>https://newsanarchist.com/articles/2026-06-26-conscious-minds-beyond-ours</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>University Trained China Ties</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-university-trained-china-ties</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-university-trained-china-ties</guid>
-      <pubDate>Fri, 26 Jun 2026 11:03:55 GMT</pubDate>
-      <description>University Trained China Ties</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-university-trained-china-ties.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UAP Whistleblowers Demand Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers-demand-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers-demand-transparency</guid>
-      <pubDate>Fri, 26 Jun 2026 11:01:47 GMT</pubDate>
-      <description>UAP Whistleblowers Demand Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-whistleblowers-demand-transparency.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
