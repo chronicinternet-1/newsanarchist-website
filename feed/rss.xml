@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 23:09:13 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 23:09:13 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 23:14:39 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 23:14:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Strait Tensions</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-taiwan-strait-tensions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-taiwan-strait-tensions</guid>
+      <pubDate>Fri, 26 Jun 2026 23:13:58 GMT</pubDate>
+      <description>Taiwan Strait Tensions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-taiwan-strait-tensions.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Congressional Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-congressional-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-congressional-oversight</guid>
+      <pubDate>Fri, 26 Jun 2026 23:09:47 GMT</pubDate>
+      <description>Congressional Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-congressional-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Crypto Regulation Shifts Gear</title>
       <link>https://newsanarchist.com/articles/2026-06-26-crypto-regulation-shifts-gear</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan Braces For El Obeid Assault</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-sudan-braces-for-el-obeid-assault</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-sudan-braces-for-el-obeid-assault</guid>
-      <pubDate>Fri, 26 Jun 2026 17:11:08 GMT</pubDate>
-      <description>Sudan Braces For El Obeid Assault</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-sudan-braces-for-el-obeid-assault.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Watchdog Report Alleges Ties</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-watchdog-report-alleges-ties</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-watchdog-report-alleges-ties</guid>
-      <pubDate>Fri, 26 Jun 2026 17:07:00 GMT</pubDate>
-      <description>Watchdog Report Alleges Ties</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-watchdog-report-alleges-ties.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
