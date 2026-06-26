@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 04:05:48 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 04:05:48 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:51:17 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 04:51:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Venezuela Earthquakes</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-venezuela-earthquakes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-venezuela-earthquakes</guid>
+      <pubDate>Fri, 26 Jun 2026 04:48:12 GMT</pubDate>
+      <description>Venezuela Earthquakes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-venezuela-earthquakes.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$89M Fraud Case</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-89m-fraud-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-89m-fraud-case</guid>
+      <pubDate>Fri, 26 Jun 2026 04:46:32 GMT</pubDate>
+      <description>$89M Fraud Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-89m-fraud-case.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>China Military Modernization</title>
       <link>https://newsanarchist.com/articles/2026-06-26-china-military-modernization</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Meta Sued Over Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-meta-sued-over-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-meta-sued-over-surveillance</guid>
-      <pubDate>Thu, 25 Jun 2026 21:57:38 GMT</pubDate>
-      <description>Meta Sued Over Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-meta-sued-over-surveillance.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Releases UAP Files</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-pentagon-releases-uap-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-pentagon-releases-uap-files</guid>
-      <pubDate>Thu, 25 Jun 2026 21:55:42 GMT</pubDate>
-      <description>Pentagon Releases UAP Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-pentagon-releases-uap-files.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
