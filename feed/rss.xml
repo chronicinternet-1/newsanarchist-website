@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 04:51:17 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 04:51:17 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:56:43 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 04:56:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Prosecutor Suspended</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-prosecutor-suspended</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-prosecutor-suspended</guid>
+      <pubDate>Fri, 26 Jun 2026 04:53:56 GMT</pubDate>
+      <description>Prosecutor Suspended</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-prosecutor-suspended.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Flock ALPRs Scan Immigrants</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-flock-alprs-scan-immigrants</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-flock-alprs-scan-immigrants</guid>
+      <pubDate>Fri, 26 Jun 2026 04:53:29 GMT</pubDate>
+      <description>Flock ALPRs Scan Immigrants</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-flock-alprs-scan-immigrants.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Venezuela Earthquakes</title>
       <link>https://newsanarchist.com/articles/2026-06-26-venezuela-earthquakes</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Healthcare Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-healthcare-fraud-crackdown</guid>
-      <pubDate>Thu, 25 Jun 2026 22:40:36 GMT</pubDate>
-      <description>Healthcare Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-healthcare-fraud-crackdown.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar War Toll Surges</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-myanmar-war-toll-surges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-myanmar-war-toll-surges</guid>
-      <pubDate>Thu, 25 Jun 2026 22:01:26 GMT</pubDate>
-      <description>Myanmar War Toll Surges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-myanmar-war-toll-surges.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
