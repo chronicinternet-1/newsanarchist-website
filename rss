@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 15:50:27 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 15:50:27 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 15:55:54 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 15:55:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Near-Death Experiences</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-near-death-experiences</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-near-death-experiences</guid>
+      <pubDate>Fri, 26 Jun 2026 15:53:30 GMT</pubDate>
+      <description>Near-Death Experiences</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-near-death-experiences.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$6.5B Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-65b-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-65b-fraud</guid>
+      <pubDate>Fri, 26 Jun 2026 15:51:48 GMT</pubDate>
+      <description>$6.5B Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-65b-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>SEC Policy Under Fire</title>
       <link>https://newsanarchist.com/articles/2026-06-26-sec-policy-under-fire</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>ICC Judges Sue Trump</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-icc-judges-sue-trump</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-icc-judges-sue-trump</guid>
-      <pubDate>Fri, 26 Jun 2026 09:59:42 GMT</pubDate>
-      <description>ICC Judges Sue Trump</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-icc-judges-sue-trump.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Men Sue Alameda</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-men-sue-alameda</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-men-sue-alameda</guid>
-      <pubDate>Fri, 26 Jun 2026 09:56:22 GMT</pubDate>
-      <description>Men Sue Alameda</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-men-sue-alameda.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
