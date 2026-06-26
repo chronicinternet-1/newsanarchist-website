@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 13:09:37 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 13:09:37 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 13:50:08 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 13:50:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Deepfakes Infiltrate US Midterms</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-ai-deepfakes-infiltrate-us-midterms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-ai-deepfakes-infiltrate-us-midterms</guid>
+      <pubDate>Fri, 26 Jun 2026 13:46:32 GMT</pubDate>
+      <description>AI Deepfakes Infiltrate US Midterms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-ai-deepfakes-infiltrate-us-midterms.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan Braces For Atrocity</title>
       <link>https://newsanarchist.com/articles/2026-06-26-sudan-braces-for-atrocity</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Healthcare Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-healthcare-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-healthcare-fraud-crackdown</guid>
-      <pubDate>Fri, 26 Jun 2026 07:43:39 GMT</pubDate>
-      <description>Healthcare Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-healthcare-fraud-crackdown.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
