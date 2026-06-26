@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:52:56 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 00:52:56 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:58:22 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 00:58:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Transparency Gains Momentum</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-transparency-gains-momentum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-transparency-gains-momentum</guid>
+      <pubDate>Fri, 26 Jun 2026 00:57:05 GMT</pubDate>
+      <description>UAP Transparency Gains Momentum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-transparency-gains-momentum.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Iran War Targets Civilians</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-iran-war-targets-civilians</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-iran-war-targets-civilians</guid>
+      <pubDate>Fri, 26 Jun 2026 00:55:32 GMT</pubDate>
+      <description>Iran War Targets Civilians</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-iran-war-targets-civilians.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Quinton Jones-Whitaker Exonerated</title>
       <link>https://newsanarchist.com/articles/2026-06-26-quinton-jones-whitaker-exonerated</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>FISA Reform</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-fisa-reform</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fisa-reform</guid>
-      <pubDate>Thu, 25 Jun 2026 18:48:50 GMT</pubDate>
-      <description>FISA Reform</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-fisa-reform.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>UAP Truth Revealed</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-uap-truth-revealed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-uap-truth-revealed</guid>
-      <pubDate>Thu, 25 Jun 2026 18:43:35 GMT</pubDate>
-      <description>UAP Truth Revealed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-uap-truth-revealed.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
