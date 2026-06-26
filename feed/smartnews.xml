@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 13:55:37 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 13:55:37 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 14:01:05 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 14:01:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mundo Rearmado</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-mundo-rearmado</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-mundo-rearmado</guid>
+      <pubDate>Fri, 26 Jun 2026 14:00:30 GMT</pubDate>
+      <description>Mundo Rearmado</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-mundo-rearmado.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-cold-case-solved</guid>
+      <pubDate>Fri, 26 Jun 2026 13:58:18 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FBI Delays Abuse Records</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-fbi-delays-abuse-records</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-fbi-delays-abuse-records</guid>
+      <pubDate>Fri, 26 Jun 2026 13:57:36 GMT</pubDate>
+      <description>FBI Delays Abuse Records</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-fbi-delays-abuse-records.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UFO Files Released</title>
       <link>https://newsanarchist.com/articles/2026-06-26-ufo-files-released</link>
@@ -515,18 +551,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-cold-case-solved</guid>
-      <pubDate>Fri, 26 Jun 2026 08:55:50 GMT</pubDate>
-      <description>Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>Flock Cameras Raise Concerns</title>
       <link>https://newsanarchist.com/articles/2026-06-26-flock-cameras-raise-concerns</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-flock-cameras-raise-concerns</guid>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>China Surpasses US</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-china-surpasses-us</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-surpasses-us</guid>
-      <pubDate>Fri, 26 Jun 2026 07:58:46 GMT</pubDate>
-      <description>China Surpasses US</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-surpasses-us.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Drone Network Dismantled</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-drone-network-dismantled</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-drone-network-dismantled</guid>
-      <pubDate>Fri, 26 Jun 2026 07:55:21 GMT</pubDate>
-      <description>Drone Network Dismantled</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-drone-network-dismantled.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>

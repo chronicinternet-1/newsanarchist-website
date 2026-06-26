@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-26-mundo-rearmado</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
+      <news:publication_date>2026-06-26T14:00:30.806Z</news:publication_date>
+      <news:title>Mundo Rearmado</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-26-cold-case-solved</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-26T13:58:18.429Z</news:publication_date>
+      <news:title>Cold Case Solved</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-26-fbi-delays-abuse-records</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-26T13:57:36.273Z</news:publication_date>
+      <news:title>FBI Delays Abuse Records</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-26-ufo-files-released</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -326,14 +350,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-26T08:59:13.485Z</news:publication_date>
       <news:title>Xi Hosts Leaders</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-cold-case-solved</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-26T08:55:50.265Z</news:publication_date>
-      <news:title>Cold Case Solved</news:title>
     </news:news>
   </url>
   <url>
@@ -2470,14 +2486,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-24T14:28:54.100Z</news:publication_date>
       <news:title>Huione Group Seized</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-24-presso-estratgica-no-brasil</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-06-24T14:00:22.080Z</news:publication_date>
-      <news:title>Pressão Estratégica no Brasil</news:title>
     </news:news>
   </url>
 </urlset>
