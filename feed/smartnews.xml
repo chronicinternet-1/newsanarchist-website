@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 03:08:50 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 03:08:50 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 03:49:23 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 03:49:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Disclosure</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-disclosure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-disclosure</guid>
+      <pubDate>Fri, 26 Jun 2026 03:47:44 GMT</pubDate>
+      <description>UAP Disclosure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-disclosure.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-snap-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-snap-fraud-exposed</guid>
+      <pubDate>Fri, 26 Jun 2026 03:46:03 GMT</pubDate>
+      <description>SNAP Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-snap-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Taiwan On High Alert</title>
       <link>https://newsanarchist.com/articles/2026-06-26-taiwan-on-high-alert</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Apple Seeks Contempt Finding Kill</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-apple-seeks-contempt-finding-kill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-apple-seeks-contempt-finding-kill</guid>
-      <pubDate>Thu, 25 Jun 2026 21:40:08 GMT</pubDate>
-      <description>Apple Seeks Contempt Finding Kill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-apple-seeks-contempt-finding-kill.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Alibaba Sues Pentagon</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-alibaba-sues-pentagon</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-alibaba-sues-pentagon</guid>
-      <pubDate>Thu, 25 Jun 2026 21:00:53 GMT</pubDate>
-      <description>Alibaba Sues Pentagon</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-alibaba-sues-pentagon.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
