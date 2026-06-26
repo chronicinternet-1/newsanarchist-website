@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 18:12:05 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 18:12:05 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 18:57:39 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 18:57:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Whistleblowers</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers</guid>
+      <pubDate>Fri, 26 Jun 2026 18:54:53 GMT</pubDate>
+      <description>UAP Whistleblowers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-whistleblowers.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-snap-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-snap-fraud-exposed</guid>
+      <pubDate>Fri, 26 Jun 2026 18:53:17 GMT</pubDate>
+      <description>SNAP Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-snap-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Sahel War Escalates</title>
       <link>https://newsanarchist.com/articles/2026-06-26-sahel-war-escalates</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Regulation</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-crypto-regulation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-crypto-regulation</guid>
-      <pubDate>Fri, 26 Jun 2026 13:02:45 GMT</pubDate>
-      <description>Crypto Regulation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-crypto-regulation.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Leads Power Surge</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-china-leads-power-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-leads-power-surge</guid>
-      <pubDate>Fri, 26 Jun 2026 13:01:13 GMT</pubDate>
-      <description>China Leads Power Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-leads-power-surge.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
