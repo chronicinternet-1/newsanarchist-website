@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:00:28 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 10:00:28 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 10:05:59 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 10:05:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS Watchdog Probes ICE</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-dhs-watchdog-probes-ice</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-dhs-watchdog-probes-ice</guid>
+      <pubDate>Fri, 26 Jun 2026 10:03:27 GMT</pubDate>
+      <description>DHS Watchdog Probes ICE</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-dhs-watchdog-probes-ice.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>NASA UAP Data Review</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-nasa-uap-data-review</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-nasa-uap-data-review</guid>
+      <pubDate>Fri, 26 Jun 2026 10:01:18 GMT</pubDate>
+      <description>NASA UAP Data Review</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-nasa-uap-data-review.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>ICC Judges Sue Trump</title>
       <link>https://newsanarchist.com/articles/2026-06-26-icc-judges-sue-trump</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>AI Trading Tokenized Stocks</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-ai-trading-tokenized-stocks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-ai-trading-tokenized-stocks</guid>
-      <pubDate>Fri, 26 Jun 2026 03:58:26 GMT</pubDate>
-      <description>AI Trading Tokenized Stocks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-ai-trading-tokenized-stocks.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Xi Builds Influence</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-xi-builds-influence</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-xi-builds-influence</guid>
-      <pubDate>Fri, 26 Jun 2026 03:56:54 GMT</pubDate>
-      <description>Xi Builds Influence</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-xi-builds-influence.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
