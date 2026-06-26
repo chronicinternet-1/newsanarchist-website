@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 02:57:54 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 02:57:54 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 03:03:24 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 03:03:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DEA Probed Over Fentanyl</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl</guid>
+      <pubDate>Fri, 26 Jun 2026 02:59:57 GMT</pubDate>
+      <description>DEA Probed Over Fentanyl</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-dea-probed-over-fentanyl.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacked 121 Times</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-defi-hacked-121-times</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-defi-hacked-121-times</guid>
+      <pubDate>Fri, 26 Jun 2026 02:57:58 GMT</pubDate>
+      <description>DeFi Hacked 121 Times</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-defi-hacked-121-times.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US Loses Ground</title>
       <link>https://newsanarchist.com/articles/2026-06-26-us-loses-ground</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NASA Archives Probed</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-nasa-archives-probed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-nasa-archives-probed</guid>
-      <pubDate>Thu, 25 Jun 2026 20:55:13 GMT</pubDate>
-      <description>NASA Archives Probed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-nasa-archives-probed.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Hormuz Strait Traffic Surges</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-hormuz-strait-traffic-surges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-hormuz-strait-traffic-surges</guid>
-      <pubDate>Thu, 25 Jun 2026 20:53:45 GMT</pubDate>
-      <description>Hormuz Strait Traffic Surges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-hormuz-strait-traffic-surges.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
