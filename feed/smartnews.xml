@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 07:07:36 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 07:07:36 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 07:48:04 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 07:48:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$3B Medicare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-3b-medicare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-3b-medicare-fraud</guid>
+      <pubDate>Fri, 26 Jun 2026 07:47:54 GMT</pubDate>
+      <description>$3B Medicare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-3b-medicare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Healthcare Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-healthcare-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-healthcare-fraud-crackdown</guid>
+      <pubDate>Fri, 26 Jun 2026 07:43:39 GMT</pubDate>
+      <description>Healthcare Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-healthcare-fraud-crackdown.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Simulates Chinese Blockade</title>
       <link>https://newsanarchist.com/articles/2026-06-26-taiwan-simulates-chinese-blockade</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Trump Claim Disputed</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-trump-claim-disputed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-trump-claim-disputed</guid>
-      <pubDate>Fri, 26 Jun 2026 00:59:01 GMT</pubDate>
-      <description>Trump Claim Disputed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-trump-claim-disputed.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UAP Transparency Gains Momentum</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-uap-transparency-gains-momentum</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-transparency-gains-momentum</guid>
-      <pubDate>Fri, 26 Jun 2026 00:57:05 GMT</pubDate>
-      <description>UAP Transparency Gains Momentum</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-transparency-gains-momentum.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
