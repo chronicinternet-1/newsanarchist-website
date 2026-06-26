@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 05:59:26 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 05:59:26 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:04:53 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 06:04:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DEA Probed Over Fentanyl Claims</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl-claims</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-dea-probed-over-fentanyl-claims</guid>
+      <pubDate>Fri, 26 Jun 2026 06:01:31 GMT</pubDate>
+      <description>DEA Probed Over Fentanyl Claims</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-dea-probed-over-fentanyl-claims.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UAP Disclosure Forum</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-disclosure-forum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-disclosure-forum</guid>
+      <pubDate>Fri, 26 Jun 2026 05:59:24 GMT</pubDate>
+      <description>UAP Disclosure Forum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-disclosure-forum.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Prairieland Protesters Sentenced</title>
       <link>https://newsanarchist.com/articles/2026-06-26-prairieland-protesters-sentenced</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>FISA Revival Stalled</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-fisa-revival-stalled</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-fisa-revival-stalled</guid>
-      <pubDate>Thu, 25 Jun 2026 23:51:09 GMT</pubDate>
-      <description>FISA Revival Stalled</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-fisa-revival-stalled.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Exceeds $1B</title>
-      <link>https://newsanarchist.com/articles/2026-06-25-snap-fraud-exceeds-1b</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-25-snap-fraud-exceeds-1b</guid>
-      <pubDate>Thu, 25 Jun 2026 23:44:07 GMT</pubDate>
-      <description>SNAP Fraud Exceeds $1B</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-25-snap-fraud-exceeds-1b.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
