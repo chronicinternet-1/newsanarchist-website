@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 12:10:50 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 12:10:50 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 12:16:55 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 12:16:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Sues Meta</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-whistleblower-sues-meta</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-whistleblower-sues-meta</guid>
+      <pubDate>Sat, 27 Jun 2026 12:15:43 GMT</pubDate>
+      <description>Whistleblower Sues Meta</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-whistleblower-sues-meta.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacks Surge</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-defi-hacks-surge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-defi-hacks-surge</guid>
+      <pubDate>Sat, 27 Jun 2026 12:13:31 GMT</pubDate>
+      <description>DeFi Hacks Surge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-defi-hacks-surge.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NATO Fears US Betrayal</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-nato-fears-us-betrayal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-nato-fears-us-betrayal</guid>
+      <pubDate>Sat, 27 Jun 2026 12:12:09 GMT</pubDate>
+      <description>NATO Fears US Betrayal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-nato-fears-us-betrayal.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Mangione Plea Talks Fail</title>
       <link>https://newsanarchist.com/articles/2026-06-27-mangione-plea-talks-fail</link>
@@ -225,18 +261,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Fears US Betrayal</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-nato-fears-us-betrayal</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-nato-fears-us-betrayal</guid>
-      <pubDate>Sat, 27 Jun 2026 10:11:13 GMT</pubDate>
-      <description>NATO Fears US Betrayal</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-nato-fears-us-betrayal.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Prairieland Nine Sentenced</title>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UFO Files Reveal Dark Secrets</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</guid>
-      <pubDate>Sat, 27 Jun 2026 06:10:51 GMT</pubDate>
-      <description>UFO Files Reveal Dark Secrets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ufo-files-reveal-dark-secrets.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Allocates $77B</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-nato-allocates-77b</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-nato-allocates-77b</guid>
-      <pubDate>Sat, 27 Jun 2026 06:09:13 GMT</pubDate>
-      <description>NATO Allocates $77B</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-nato-allocates-77b.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
