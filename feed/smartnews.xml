@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 23:04:23 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 23:04:23 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 23:09:54 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 23:09:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mystical Wars</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-mystical-wars</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-mystical-wars</guid>
+      <pubDate>Sat, 27 Jun 2026 23:08:23 GMT</pubDate>
+      <description>Mystical Wars</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-mystical-wars.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-snap-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-snap-fraud-exposed</guid>
+      <pubDate>Sat, 27 Jun 2026 23:06:17 GMT</pubDate>
+      <description>SNAP Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-snap-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Seizes Assets</title>
       <link>https://newsanarchist.com/articles/2026-06-27-us-seizes-assets</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NATO Fears US Reliability</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-nato-fears-us-reliability</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-nato-fears-us-reliability</guid>
-      <pubDate>Sat, 27 Jun 2026 16:14:01 GMT</pubDate>
-      <description>NATO Fears US Reliability</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-nato-fears-us-reliability.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-facial-recognition-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-facial-recognition-expands</guid>
-      <pubDate>Sat, 27 Jun 2026 16:10:07 GMT</pubDate>
-      <description>Facial Recognition Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-facial-recognition-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
