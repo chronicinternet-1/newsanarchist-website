@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 04:07:21 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 04:07:21 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 04:12:49 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 04:12:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Custody Deaths Probed</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-ice-custody-deaths-probed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ice-custody-deaths-probed</guid>
+      <pubDate>Sat, 27 Jun 2026 04:12:01 GMT</pubDate>
+      <description>ICE Custody Deaths Probed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ice-custody-deaths-probed.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UFO Files Reveal Dark Secrets</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</guid>
+      <pubDate>Sat, 27 Jun 2026 04:09:49 GMT</pubDate>
+      <description>UFO Files Reveal Dark Secrets</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ufo-files-reveal-dark-secrets.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Prosecutor Held In Contempt</title>
       <link>https://newsanarchist.com/articles/2026-06-27-prosecutor-held-in-contempt</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Scheme</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-hospice-fraud-scheme</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-hospice-fraud-scheme</guid>
-      <pubDate>Fri, 26 Jun 2026 22:55:08 GMT</pubDate>
-      <description>Hospice Fraud Scheme</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-hospice-fraud-scheme.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Fake Receipts Rise</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-ai-fake-receipts-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-ai-fake-receipts-rise</guid>
-      <pubDate>Fri, 26 Jun 2026 22:50:20 GMT</pubDate>
-      <description>AI Fake Receipts Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-ai-fake-receipts-rise.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
