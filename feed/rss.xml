@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 20:17:54 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 20:17:54 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 20:23:20 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 20:23:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Epstein Files Release Ordered</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-epstein-files-release-ordered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-epstein-files-release-ordered</guid>
+      <pubDate>Sat, 27 Jun 2026 20:19:57 GMT</pubDate>
+      <description>Epstein Files Release Ordered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-epstein-files-release-ordered.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Mellon: Pentagon Stumped</title>
       <link>https://newsanarchist.com/articles/2026-06-27-mellon-pentagon-stumped</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Feeding Our Future Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-feeding-our-future-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-feeding-our-future-fraud</guid>
-      <pubDate>Sat, 27 Jun 2026 14:02:08 GMT</pubDate>
-      <description>Feeding Our Future Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-feeding-our-future-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
