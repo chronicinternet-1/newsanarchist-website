@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 08:08:38 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 08:08:38 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 08:14:08 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 08:14:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Congressional Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-congressional-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-congressional-oversight</guid>
+      <pubDate>Sat, 27 Jun 2026 08:13:54 GMT</pubDate>
+      <description>Congressional Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-congressional-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>CLARITY Act</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-clarity-act</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-clarity-act</guid>
+      <pubDate>Sat, 27 Jun 2026 08:11:43 GMT</pubDate>
+      <description>CLARITY Act</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-clarity-act.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>China Leads Clean Energy Shift</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-china-leads-clean-energy-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-china-leads-clean-energy-shift</guid>
+      <pubDate>Sat, 27 Jun 2026 08:10:06 GMT</pubDate>
+      <description>China Leads Clean Energy Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-china-leads-clean-energy-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Cold Case Solved</title>
       <link>https://newsanarchist.com/articles/2026-06-27-cold-case-solved</link>
@@ -585,42 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>CIA Accused Of COVID Coverup</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-cia-accused-of-covid-coverup</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-cia-accused-of-covid-coverup</guid>
-      <pubDate>Sat, 27 Jun 2026 02:11:08 GMT</pubDate>
-      <description>CIA Accused Of COVID Coverup</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-cia-accused-of-covid-coverup.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Lender Aave Valued</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-defi-lender-aave-valued</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-defi-lender-aave-valued</guid>
-      <pubDate>Sat, 27 Jun 2026 02:08:54 GMT</pubDate>
-      <description>DeFi Lender Aave Valued</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-defi-lender-aave-valued.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Tightens Rare Earth Export</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-china-tightens-rare-earth-export</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-china-tightens-rare-earth-export</guid>
-      <pubDate>Sat, 27 Jun 2026 02:07:29 GMT</pubDate>
-      <description>China Tightens Rare Earth Export</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-china-tightens-rare-earth-export.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
