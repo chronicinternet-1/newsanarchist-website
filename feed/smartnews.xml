@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 12:04:59 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 12:04:59 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 12:10:50 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 12:10:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mangione Plea Talks Fail</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-mangione-plea-talks-fail</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-mangione-plea-talks-fail</guid>
+      <pubDate>Sat, 27 Jun 2026 12:08:45 GMT</pubDate>
+      <description>Mangione Plea Talks Fail</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-mangione-plea-talks-fail.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Mythos Breach Exposes NSA Vulnerability</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-mythos-breach-exposes-nsa-vulnerability</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-mythos-breach-exposes-nsa-vulnerability</guid>
+      <pubDate>Sat, 27 Jun 2026 12:07:59 GMT</pubDate>
+      <description>Mythos Breach Exposes NSA Vulnerability</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-mythos-breach-exposes-nsa-vulnerability.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Consciousness Theory</title>
       <link>https://newsanarchist.com/articles/2026-06-27-consciousness-theory</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>ATF Cancels Phone Tracker</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-atf-cancels-phone-tracker</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-atf-cancels-phone-tracker</guid>
-      <pubDate>Sat, 27 Jun 2026 06:05:08 GMT</pubDate>
-      <description>ATF Cancels Phone Tracker</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-atf-cancels-phone-tracker.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>$6.5B Fraud Takedown</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-65b-fraud-takedown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-65b-fraud-takedown</guid>
-      <pubDate>Sat, 27 Jun 2026 05:58:21 GMT</pubDate>
-      <description>$6.5B Fraud Takedown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-65b-fraud-takedown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
