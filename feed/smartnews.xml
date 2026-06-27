@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Jun 2026 23:55:10 GMT</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 23:55:10 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 00:00:45 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 00:00:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Transparency Expands</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-uap-transparency-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-uap-transparency-expands</guid>
+      <pubDate>Fri, 26 Jun 2026 23:57:11 GMT</pubDate>
+      <description>UAP Transparency Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-uap-transparency-expands.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Fraud Exceeds $13M</title>
+      <link>https://newsanarchist.com/articles/2026-06-26-snap-fraud-exceeds-13m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-snap-fraud-exceeds-13m</guid>
+      <pubDate>Fri, 26 Jun 2026 23:55:36 GMT</pubDate>
+      <description>SNAP Fraud Exceeds $13M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-snap-fraud-exceeds-13m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>House Passes Bill</title>
       <link>https://newsanarchist.com/articles/2026-06-26-house-passes-bill</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>India's Data Bill</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-indias-data-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-indias-data-bill</guid>
-      <pubDate>Fri, 26 Jun 2026 17:59:24 GMT</pubDate>
-      <description>India's Data Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-indias-data-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>$3.7B Medicare Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-37b-medicare-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-37b-medicare-fraud</guid>
-      <pubDate>Fri, 26 Jun 2026 17:52:46 GMT</pubDate>
-      <description>$3.7B Medicare Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-37b-medicare-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
