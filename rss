@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 13:15:10 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 13:15:10 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 13:20:40 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 13:20:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-sudan-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-sudan-conflict-escalates</guid>
+      <pubDate>Sat, 27 Jun 2026 13:20:30 GMT</pubDate>
+      <description>Sudan Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-sudan-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>IG Report: Secret Service Cyber Flaws</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-ig-report-secret-service-cyber-flaws</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ig-report-secret-service-cyber-flaws</guid>
+      <pubDate>Sat, 27 Jun 2026 13:16:14 GMT</pubDate>
+      <description>IG Report: Secret Service Cyber Flaws</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ig-report-secret-service-cyber-flaws.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Hyperliquid Under Scrutiny</title>
       <link>https://newsanarchist.com/articles/2026-06-27-hyperliquid-under-scrutiny</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>AI Hijacks Crypto Chats</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-ai-hijacks-crypto-chats</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ai-hijacks-crypto-chats</guid>
-      <pubDate>Sat, 27 Jun 2026 07:11:16 GMT</pubDate>
-      <description>AI Hijacks Crypto Chats</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ai-hijacks-crypto-chats.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Restricts Indium Exports</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-china-restricts-indium-exports</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-china-restricts-indium-exports</guid>
-      <pubDate>Sat, 27 Jun 2026 07:09:39 GMT</pubDate>
-      <description>China Restricts Indium Exports</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-china-restricts-indium-exports.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
