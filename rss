@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 03:20:53 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 03:20:53 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 03:56:19 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 03:56:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>TransUnion Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-transunion-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-transunion-scheme</guid>
+      <pubDate>Sat, 27 Jun 2026 03:52:35 GMT</pubDate>
+      <description>TransUnion Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-transunion-scheme.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan On High Alert</title>
       <link>https://newsanarchist.com/articles/2026-06-27-taiwan-on-high-alert</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>ALPRs Erode Liberties</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-alprs-erode-liberties</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-alprs-erode-liberties</guid>
-      <pubDate>Fri, 26 Jun 2026 22:01:28 GMT</pubDate>
-      <description>ALPRs Erode Liberties</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-alprs-erode-liberties.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
