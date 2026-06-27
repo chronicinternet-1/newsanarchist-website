@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 14:12:04 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 14:12:04 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 14:17:33 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 14:17:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Congressional Oversight</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-congressional-oversight</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-congressional-oversight</guid>
+      <pubDate>Sat, 27 Jun 2026 14:16:44 GMT</pubDate>
+      <description>Congressional Oversight</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-congressional-oversight.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Mysterious Hum Solved</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-mysterious-hum-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-mysterious-hum-solved</guid>
+      <pubDate>Sat, 27 Jun 2026 14:14:31 GMT</pubDate>
+      <description>Mysterious Hum Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-mysterious-hum-solved.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Xi Expands Influence</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-xi-expands-influence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-xi-expands-influence</guid>
+      <pubDate>Sat, 27 Jun 2026 14:13:05 GMT</pubDate>
+      <description>Xi Expands Influence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-xi-expands-influence.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Prosecutor Held In Contempt</title>
       <link>https://newsanarchist.com/articles/2026-06-27-prosecutor-held-in-contempt</link>
@@ -311,18 +347,6 @@
       <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
-      <title>Congressional Oversight</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-congressional-oversight</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-congressional-oversight</guid>
-      <pubDate>Sat, 27 Jun 2026 11:15:17 GMT</pubDate>
-      <description>Congressional Oversight</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-congressional-oversight.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
       <title>UFO Disclosure Ruse?</title>
       <link>https://newsanarchist.com/articles/2026-06-27-ufo-disclosure-ruse</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ufo-disclosure-ruse</guid>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Alien Consciousness Possible</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-alien-consciousness-possible</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-alien-consciousness-possible</guid>
-      <pubDate>Sat, 27 Jun 2026 08:01:09 GMT</pubDate>
-      <description>Alien Consciousness Possible</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-alien-consciousness-possible.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FCA Drops Probe</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-fca-drops-probe</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-fca-drops-probe</guid>
-      <pubDate>Sat, 27 Jun 2026 08:00:25 GMT</pubDate>
-      <description>FCA Drops Probe</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-fca-drops-probe.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
