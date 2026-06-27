@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 04:59:34 GMT</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 04:59:34 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 05:05:04 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 05:05:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Border Biometrics</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-us-border-biometrics</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-us-border-biometrics</guid>
+      <pubDate>Sat, 27 Jun 2026 05:04:41 GMT</pubDate>
+      <description>US Border Biometrics</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-us-border-biometrics.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>AI Ethics</title>
+      <link>https://newsanarchist.com/articles/2026-06-27-ai-ethics</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ai-ethics</guid>
+      <pubDate>Sat, 27 Jun 2026 04:59:31 GMT</pubDate>
+      <description>AI Ethics</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ai-ethics.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Feeding Our Future Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-27-feeding-our-future-fraud</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Regulation Shifts Gear</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-crypto-regulation-shifts-gear</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-crypto-regulation-shifts-gear</guid>
-      <pubDate>Fri, 26 Jun 2026 23:07:30 GMT</pubDate>
-      <description>Crypto Regulation Shifts Gear</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-crypto-regulation-shifts-gear.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Hits 4TW</title>
-      <link>https://newsanarchist.com/articles/2026-06-26-china-hits-4tw</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-26-china-hits-4tw</guid>
-      <pubDate>Fri, 26 Jun 2026 23:06:07 GMT</pubDate>
-      <description>China Hits 4TW</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-26-china-hits-4tw.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
