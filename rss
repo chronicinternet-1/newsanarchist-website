@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 08:15:00 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 08:15:00 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 08:20:38 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 08:20:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Anti-ICE Protesters Face Harsh Sentences</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-anti-ice-protesters-face-harsh-sentences</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-anti-ice-protesters-face-harsh-sentences</guid>
+      <pubDate>Sun, 28 Jun 2026 08:18:14 GMT</pubDate>
+      <description>Anti-ICE Protesters Face Harsh Sentences</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-anti-ice-protesters-face-harsh-sentences.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>ATF Cancels Phone Tracker</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-atf-cancels-phone-tracker</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-atf-cancels-phone-tracker</guid>
+      <pubDate>Sun, 28 Jun 2026 08:17:21 GMT</pubDate>
+      <description>ATF Cancels Phone Tracker</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-atf-cancels-phone-tracker.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Consciousness Redefined</title>
       <link>https://newsanarchist.com/articles/2026-06-28-consciousness-redefined</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Foils Terror Attack</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-myanmar-foils-terror-attack</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-myanmar-foils-terror-attack</guid>
-      <pubDate>Sat, 27 Jun 2026 22:25:02 GMT</pubDate>
-      <description>Myanmar Foils Terror Attack</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-myanmar-foils-terror-attack.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>NASA Delays Artemis</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-nasa-delays-artemis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-nasa-delays-artemis</guid>
-      <pubDate>Sat, 27 Jun 2026 22:20:54 GMT</pubDate>
-      <description>NASA Delays Artemis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-nasa-delays-artemis.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
