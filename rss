@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 15:20:54 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 15:20:54 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 15:26:29 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 15:26:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Strikes Iran</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-us-strikes-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-strikes-iran</guid>
+      <pubDate>Sun, 28 Jun 2026 15:24:27 GMT</pubDate>
+      <description>US Strikes Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-strikes-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Nancy Guthrie Case Update</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-nancy-guthrie-case-update</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-nancy-guthrie-case-update</guid>
+      <pubDate>Sun, 28 Jun 2026 15:21:34 GMT</pubDate>
+      <description>Nancy Guthrie Case Update</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-nancy-guthrie-case-update.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Biometrics Market Expands</title>
       <link>https://newsanarchist.com/articles/2026-06-28-biometrics-market-expands</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Counters China</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-us-counters-china</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-counters-china</guid>
-      <pubDate>Sun, 28 Jun 2026 08:29:48 GMT</pubDate>
-      <description>US Counters China</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-counters-china.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Declassifies New UFO Videos</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-us-declassifies-new-ufo-videos</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-declassifies-new-ufo-videos</guid>
-      <pubDate>Sun, 28 Jun 2026 08:22:59 GMT</pubDate>
-      <description>US Declassifies New UFO Videos</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-declassifies-new-ufo-videos.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
