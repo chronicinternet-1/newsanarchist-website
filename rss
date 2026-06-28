@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 07:17:43 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 07:17:43 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 07:23:10 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 07:23:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Sanctions India Firm</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-us-sanctions-india-firm</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-sanctions-india-firm</guid>
+      <pubDate>Sun, 28 Jun 2026 07:20:51 GMT</pubDate>
+      <description>US Sanctions India Firm</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-sanctions-india-firm.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Palisades Fire Mistrial</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-palisades-fire-mistrial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-palisades-fire-mistrial</guid>
+      <pubDate>Sun, 28 Jun 2026 07:17:48 GMT</pubDate>
+      <description>Palisades Fire Mistrial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-palisades-fire-mistrial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>India Data Bill</title>
       <link>https://newsanarchist.com/articles/2026-06-28-india-data-bill</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$906M Wound Care Scam</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-906m-wound-care-scam</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-906m-wound-care-scam</guid>
-      <pubDate>Sat, 27 Jun 2026 22:05:48 GMT</pubDate>
-      <description>$906M Wound Care Scam</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-906m-wound-care-scam.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Wolters Kluwer Antitrust</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-wolters-kluwer-antitrust</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-wolters-kluwer-antitrust</guid>
-      <pubDate>Sat, 27 Jun 2026 22:00:07 GMT</pubDate>
-      <description>Wolters Kluwer Antitrust</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-wolters-kluwer-antitrust.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
