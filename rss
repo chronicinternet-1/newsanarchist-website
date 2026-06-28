@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 01:20:55 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 01:20:55 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 01:26:30 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 01:26:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Epstein's Congo Mineral Trade</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-epsteins-congo-mineral-trade</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-epsteins-congo-mineral-trade</guid>
+      <pubDate>Sun, 28 Jun 2026 01:22:18 GMT</pubDate>
+      <description>Epstein's Congo Mineral Trade</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-epsteins-congo-mineral-trade.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>New UFO Footage Released</title>
       <link>https://newsanarchist.com/articles/2026-06-28-new-ufo-footage-released</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UFO Files Reveal Dark Secrets</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-ufo-files-reveal-dark-secrets</guid>
-      <pubDate>Sat, 27 Jun 2026 19:16:51 GMT</pubDate>
-      <description>UFO Files Reveal Dark Secrets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-ufo-files-reveal-dark-secrets.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
