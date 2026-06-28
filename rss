@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 07:28:36 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 07:28:36 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 07:34:03 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 07:34:03 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Detects Chinese Incursions</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-taiwan-detects-chinese-incursions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-taiwan-detects-chinese-incursions</guid>
+      <pubDate>Sun, 28 Jun 2026 07:29:21 GMT</pubDate>
+      <description>Taiwan Detects Chinese Incursions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-taiwan-detects-chinese-incursions.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DOJ Watchdog Releases Russia Probe Transcripts</title>
       <link>https://newsanarchist.com/articles/2026-06-28-doj-watchdog-releases-russia-probe-transcripts</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>ATF Cancels Phone Tracker</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-atf-cancels-phone-tracker</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-atf-cancels-phone-tracker</guid>
-      <pubDate>Sat, 27 Jun 2026 22:12:52 GMT</pubDate>
-      <description>ATF Cancels Phone Tracker</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-atf-cancels-phone-tracker.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
