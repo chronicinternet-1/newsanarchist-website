@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 09:07:02 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 09:07:02 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:12:31 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 09:12:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Feeding Our Future Fraudster Caught</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-feeding-our-future-fraudster-caught</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-feeding-our-future-fraudster-caught</guid>
+      <pubDate>Sun, 28 Jun 2026 09:10:57 GMT</pubDate>
+      <description>Feeding Our Future Fraudster Caught</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-feeding-our-future-fraudster-caught.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>KPMG Whistleblower</title>
       <link>https://newsanarchist.com/articles/2026-06-28-kpmg-whistleblower</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Hyperliquid Under Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-hyperliquid-under-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-hyperliquid-under-scrutiny</guid>
-      <pubDate>Sat, 27 Jun 2026 23:18:43 GMT</pubDate>
-      <description>Hyperliquid Under Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-hyperliquid-under-scrutiny.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
