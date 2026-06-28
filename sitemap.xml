@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,18 +121,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,6 +143,18 @@
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-medicare-fraud-scheme</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-consciousness-assumption-challenged</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-terror-attack-foiled</loc>
@@ -620,12 +632,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-27-facial-recognition-expands</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-27-medicare-fraud-scheme</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -5775,50 +5781,50 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-dhs-detention-gaps</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-ufo-disclosure</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-mangione-trial-twist</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-uk-social-media-ban</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-amazon-antitrust-lawsuit</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-philippine-sec-readies-tokenization</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-tucson-murder-suspect</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-amazon-antitrust</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-sec-shifts-crypto-focus</loc>
@@ -19389,6 +19395,12 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-11-anthropic-requires-30-day-data-retention-for-fable-and-mythos</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-27-medicare-fraud-scheme</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 02:30:47 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 02:30:47 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 06:13:48 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 06:13:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Assumption Challenged</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-consciousness-assumption-challenged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-consciousness-assumption-challenged</guid>
+      <pubDate>Sun, 28 Jun 2026 06:11:41 GMT</pubDate>
+      <description>Consciousness Assumption Challenged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-consciousness-assumption-challenged.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-medicare-fraud-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-medicare-fraud-scheme</guid>
+      <pubDate>Sun, 28 Jun 2026 06:09:30 GMT</pubDate>
+      <description>Medicare Fraud Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-medicare-fraud-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Terror Attack Foiled</title>
       <link>https://newsanarchist.com/articles/2026-06-28-terror-attack-foiled</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Exposed</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-medicare-fraud-exposed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-medicare-fraud-exposed</guid>
-      <pubDate>Sat, 27 Jun 2026 21:05:19 GMT</pubDate>
-      <description>Medicare Fraud Exposed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-medicare-fraud-exposed.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>SEC Targets Fee Practices</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-sec-targets-fee-practices</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-sec-targets-fee-practices</guid>
-      <pubDate>Sat, 27 Jun 2026 20:59:41 GMT</pubDate>
-      <description>SEC Targets Fee Practices</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-sec-targets-fee-practices.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
