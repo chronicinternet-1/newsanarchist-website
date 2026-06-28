@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 09:12:31 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 09:12:31 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:18:12 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 09:18:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Banks Adopt Facial Recognition</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-uk-banks-adopt-facial-recognition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-uk-banks-adopt-facial-recognition</guid>
+      <pubDate>Sun, 28 Jun 2026 09:17:48 GMT</pubDate>
+      <description>UK Banks Adopt Facial Recognition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-uk-banks-adopt-facial-recognition.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Theory Revised</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-consciousness-theory-revised</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-consciousness-theory-revised</guid>
+      <pubDate>Sun, 28 Jun 2026 09:13:01 GMT</pubDate>
+      <description>Consciousness Theory Revised</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-consciousness-theory-revised.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Feeding Our Future Fraudster Caught</title>
       <link>https://newsanarchist.com/articles/2026-06-28-feeding-our-future-fraudster-caught</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects China Jets</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-taiwan-detects-china-jets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-taiwan-detects-china-jets</guid>
-      <pubDate>Sat, 27 Jun 2026 23:25:29 GMT</pubDate>
-      <description>Taiwan Detects China Jets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-taiwan-detects-china-jets.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Congress Subpoenas Leon Black</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-congress-subpoenas-leon-black</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-congress-subpoenas-leon-black</guid>
-      <pubDate>Sat, 27 Jun 2026 23:21:21 GMT</pubDate>
-      <description>Congress Subpoenas Leon Black</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-congress-subpoenas-leon-black.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
