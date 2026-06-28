@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 20:35:33 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 20:35:33 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 20:41:00 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 20:41:00 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi Jinping Seeks NKorea Alliance</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-xi-jinping-seeks-nkorea-alliance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-xi-jinping-seeks-nkorea-alliance</guid>
+      <pubDate>Sun, 28 Jun 2026 20:35:39 GMT</pubDate>
+      <description>Xi Jinping Seeks NKorea Alliance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-xi-jinping-seeks-nkorea-alliance.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Epstein Files Update</title>
       <link>https://newsanarchist.com/articles/2026-06-28-epstein-files-update</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>HK Regulated Stablecoins Launch</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-hk-regulated-stablecoins-launch</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-hk-regulated-stablecoins-launch</guid>
-      <pubDate>Sun, 28 Jun 2026 14:25:42 GMT</pubDate>
-      <description>HK Regulated Stablecoins Launch</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-hk-regulated-stablecoins-launch.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
