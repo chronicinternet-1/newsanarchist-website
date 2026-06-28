@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-250m-fraud-mastermind-caught</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-28T19:15:44.235Z</news:publication_date>
+      <news:title>$250M Fraud Mastermind Caught</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-cftc-probes-polymarket</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -326,14 +334,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T14:20:12.450Z</news:publication_date>
       <news:title>ATF Cancels Tracking</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-250m-fraud-mastermind-caught</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T14:13:19.337Z</news:publication_date>
-      <news:title>$250M Fraud Mastermind Caught</news:title>
     </news:news>
   </url>
   <url>
@@ -2174,14 +2174,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-26T19:48:55.666Z</news:publication_date>
       <news:title>SEC Awards $20M</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-taiwan-simulates-attack-response</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-26T19:12:06.712Z</news:publication_date>
-      <news:title>Taiwan Simulates Attack Response</news:title>
     </news:news>
   </url>
 </urlset>
