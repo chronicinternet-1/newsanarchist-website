@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 00:11:49 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 00:11:49 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 00:17:23 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 00:17:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SC Stays Order</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-sc-stays-order</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-sc-stays-order</guid>
+      <pubDate>Sun, 28 Jun 2026 00:14:34 GMT</pubDate>
+      <description>SC Stays Order</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-sc-stays-order.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Smart Doorbell Biometrics</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-smart-doorbell-biometrics</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-smart-doorbell-biometrics</guid>
+      <pubDate>Sun, 28 Jun 2026 00:13:42 GMT</pubDate>
+      <description>Smart Doorbell Biometrics</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-smart-doorbell-biometrics.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Consciousness Theory Challenged</title>
       <link>https://newsanarchist.com/articles/2026-06-28-consciousness-theory-challenged</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Exceeds $3B</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-snap-fraud-exceeds-3b</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-snap-fraud-exceeds-3b</guid>
-      <pubDate>Sat, 27 Jun 2026 18:03:58 GMT</pubDate>
-      <description>SNAP Fraud Exceeds $3B</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-snap-fraud-exceeds-3b.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>MN Fraud Suspect Caught</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-mn-fraud-suspect-caught</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-mn-fraud-suspect-caught</guid>
-      <pubDate>Sat, 27 Jun 2026 17:58:22 GMT</pubDate>
-      <description>MN Fraud Suspect Caught</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-mn-fraud-suspect-caught.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
