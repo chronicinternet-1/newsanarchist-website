@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,19 +121,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -143,6 +143,18 @@
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-reporter-fights-order</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-atf-cancels-tracking</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-250m-fraud-mastermind-caught</loc>
@@ -283,12 +295,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-atf-cancels-tracking</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-medicare-fraud-scheme</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -320,12 +326,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-hk-regulated-stablecoins</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-reporter-fights-order</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -5763,14 +5763,14 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-ufo-tech-race</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-eu-renews-russia-sanctions</loc>
     <lastmod>2026-06-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-21-cold-case-breakthroughs</loc>
