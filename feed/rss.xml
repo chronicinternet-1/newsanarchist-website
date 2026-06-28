@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 23:13:23 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 23:13:23 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 23:18:57 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 23:18:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Tied To Terror</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-snap-fraud-tied-to-terror</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-snap-fraud-tied-to-terror</guid>
+      <pubDate>Sun, 28 Jun 2026 23:17:36 GMT</pubDate>
+      <description>SNAP Fraud Tied To Terror</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-snap-fraud-tied-to-terror.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Polymarket Probed</title>
       <link>https://newsanarchist.com/articles/2026-06-28-polymarket-probed</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>UK Police Reopen 4,000 Cases</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-uk-police-reopen-4000-cases</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-uk-police-reopen-4000-cases</guid>
-      <pubDate>Sun, 28 Jun 2026 18:22:59 GMT</pubDate>
-      <description>UK Police Reopen 4,000 Cases</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-uk-police-reopen-4000-cases.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
