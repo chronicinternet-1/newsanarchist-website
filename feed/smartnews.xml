@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 09:24:16 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 09:24:16 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:29:56 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 09:29:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Wins $667K</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-whistleblower-wins-667k</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-whistleblower-wins-667k</guid>
+      <pubDate>Sun, 28 Jun 2026 09:25:53 GMT</pubDate>
+      <description>Whistleblower Wins $667K</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-whistleblower-wins-667k.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Polymarket Hack</title>
       <link>https://newsanarchist.com/articles/2026-06-28-polymarket-hack</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SC Stays Order</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-sc-stays-order</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-sc-stays-order</guid>
-      <pubDate>Sun, 28 Jun 2026 00:14:34 GMT</pubDate>
-      <description>SC Stays Order</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-sc-stays-order.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
