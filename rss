@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 01:32:28 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 01:32:28 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 02:03:20 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 02:03:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Seizes Domains</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-us-seizes-domains</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-seizes-domains</guid>
+      <pubDate>Sun, 28 Jun 2026 02:01:03 GMT</pubDate>
+      <description>US Seizes Domains</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-seizes-domains.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>朝日新聞社、虚偽画像問題で個人情報保護に懸念</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-kenji-mori-mqx56a21</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-kenji-mori-mqx56a21</guid>
+      <pubDate>Sun, 28 Jun 2026 02:00:25 GMT</pubDate>
+      <description>朝日新聞社、虚偽画像問題で個人情報保護に懸念</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-kenji-mori-mqx56a21.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Sudan Braces For Massacre</title>
       <link>https://newsanarchist.com/articles/2026-06-28-sudan-braces-for-massacre</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Polymarket Probed</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-polymarket-probed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-polymarket-probed</guid>
-      <pubDate>Sat, 27 Jun 2026 19:59:15 GMT</pubDate>
-      <description>Polymarket Probed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-polymarket-probed.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Ends Patrol Near Taiwan</title>
-      <link>https://newsanarchist.com/articles/2026-06-27-china-ends-patrol-near-taiwan</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-27-china-ends-patrol-near-taiwan</guid>
-      <pubDate>Sat, 27 Jun 2026 19:23:39 GMT</pubDate>
-      <description>China Ends Patrol Near Taiwan</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-27-china-ends-patrol-near-taiwan.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>

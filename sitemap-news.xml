@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-us-seizes-domains</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-28T02:01:03.639Z</news:publication_date>
+      <news:title>US Seizes Domains</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-06-28-kenji-mori-mqx56a21</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
+      <news:publication_date>2026-06-28T02:00:25.705Z</news:publication_date>
+      <news:title>朝日新聞社、虚偽画像問題で個人情報保護に懸念</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-28-sudan-braces-for-massacre</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2334,38 +2350,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-26T02:03:23.134Z</news:publication_date>
       <news:title>Myanmar Civil War Toll Mounts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-kenji-mori-mquaam04</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-06-26T02:00:27.364Z</news:publication_date>
-      <news:title>朝日新聞社、虚偽画像問題で開示請求</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-uap-whistleblowers-speak-out</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-26T01:57:30.938Z</news:publication_date>
-      <news:title>UAP Whistleblowers Speak Out</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-lohagad-murder-twist</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-26T01:52:32.944Z</news:publication_date>
-      <news:title>Lohagad Murder Twist</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-26-cosmic-consciousness</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-26T01:46:50.913Z</news:publication_date>
-      <news:title>Cosmic Consciousness</news:title>
     </news:news>
   </url>
 </urlset>
