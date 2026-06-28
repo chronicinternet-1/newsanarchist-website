@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 09:29:56 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 09:29:56 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:35:40 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 09:35:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-sudan-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-sudan-conflict-escalates</guid>
+      <pubDate>Sun, 28 Jun 2026 09:30:14 GMT</pubDate>
+      <description>Sudan Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-sudan-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Whistleblower Wins $667K</title>
       <link>https://newsanarchist.com/articles/2026-06-28-whistleblower-wins-667k</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Declassifies UFO Videos</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-us-gov-declassifies-ufo-videos</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-gov-declassifies-ufo-videos</guid>
-      <pubDate>Sun, 28 Jun 2026 00:19:11 GMT</pubDate>
-      <description>US Gov Declassifies UFO Videos</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-gov-declassifies-ufo-videos.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
