@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Jun 2026 22:25:27 GMT</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 22:25:27 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 22:30:56 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 22:30:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Clarity Act Targets Crypto</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-clarity-act-targets-crypto</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-clarity-act-targets-crypto</guid>
+      <pubDate>Sun, 28 Jun 2026 22:29:16 GMT</pubDate>
+      <description>Clarity Act Targets Crypto</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-clarity-act-targets-crypto.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Trump-Xi Bond Weakens</title>
+      <link>https://newsanarchist.com/articles/2026-06-28-trump-xi-bond-weakens</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-trump-xi-bond-weakens</guid>
+      <pubDate>Sun, 28 Jun 2026 22:27:39 GMT</pubDate>
+      <description>Trump-Xi Bond Weakens</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-trump-xi-bond-weakens.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Juvenile Crime Sparks Reform</title>
       <link>https://newsanarchist.com/articles/2026-06-28-juvenile-crime-sparks-reform</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Sites Redesigned</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-us-gov-sites-redesigned</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-gov-sites-redesigned</guid>
-      <pubDate>Sun, 28 Jun 2026 16:29:04 GMT</pubDate>
-      <description>US Gov Sites Redesigned</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-gov-sites-redesigned.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Baffled By UFOs</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-pentagon-baffled-by-ufos</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-pentagon-baffled-by-ufos</guid>
-      <pubDate>Sun, 28 Jun 2026 16:26:32 GMT</pubDate>
-      <description>Pentagon Baffled By UFOs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-pentagon-baffled-by-ufos.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
