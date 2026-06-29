@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 15:19:05 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 15:19:05 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 15:29:34 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 15:29:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Recoveries Collapse</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-recoveries-collapse</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-recoveries-collapse</guid>
+      <pubDate>Mon, 29 Jun 2026 15:24:38 GMT</pubDate>
+      <description>Medicaid Fraud Recoveries Collapse</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-medicaid-fraud-recoveries-collapse.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Tata Electronics Probes Leak</title>
       <link>https://newsanarchist.com/articles/2026-06-29-tata-electronics-probes-leak</link>
@@ -606,18 +618,6 @@
       <description>Nigeria Sanctions 6 Persons</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-nigeria-sanctions-6-persons.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>China Boosts Patrols</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-china-boosts-patrols</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-boosts-patrols</guid>
-      <pubDate>Mon, 29 Jun 2026 08:41:21 GMT</pubDate>
-      <description>China Boosts Patrols</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-boosts-patrols.png"/>
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
