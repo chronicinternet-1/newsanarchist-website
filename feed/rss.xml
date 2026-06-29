@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 06:28:22 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 06:28:22 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:33:57 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 06:33:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran Web3 Void Grows</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-iran-web3-void-grows</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-iran-web3-void-grows</guid>
+      <pubDate>Mon, 29 Jun 2026 06:32:51 GMT</pubDate>
+      <description>Iran Web3 Void Grows</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-iran-web3-void-grows.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Forensic Lapses Found</title>
       <link>https://newsanarchist.com/articles/2026-06-29-forensic-lapses-found</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Jumps Time</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-consciousness-jumps-time</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-consciousness-jumps-time</guid>
-      <pubDate>Mon, 29 Jun 2026 00:19:24 GMT</pubDate>
-      <description>Consciousness Jumps Time</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-consciousness-jumps-time.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
