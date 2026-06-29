@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 11:45:21 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 11:45:21 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 12:15:50 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 12:15:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Kerala Police Warns of Boss Scam</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-kerala-police-warns-of-boss-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-kerala-police-warns-of-boss-scam</guid>
+      <pubDate>Mon, 29 Jun 2026 12:15:05 GMT</pubDate>
+      <description>Kerala Police Warns of Boss Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-kerala-police-warns-of-boss-scam.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Ups Naval Presence</title>
       <link>https://newsanarchist.com/articles/2026-06-29-china-ups-naval-presence</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Flock Cameras Raise Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-flock-cameras-raise-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-flock-cameras-raise-concerns</guid>
-      <pubDate>Mon, 29 Jun 2026 06:27:34 GMT</pubDate>
-      <description>Flock Cameras Raise Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-flock-cameras-raise-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
