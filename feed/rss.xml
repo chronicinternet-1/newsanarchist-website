@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 21:39:08 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 21:39:08 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 21:44:37 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 21:44:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Suit Against Harvard</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-whistleblower-suit-against-harvard</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-whistleblower-suit-against-harvard</guid>
+      <pubDate>Mon, 29 Jun 2026 21:41:48 GMT</pubDate>
+      <description>Whistleblower Suit Against Harvard</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-whistleblower-suit-against-harvard.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Emurgo Denies Knowledge</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-emurgo-denies-knowledge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-emurgo-denies-knowledge</guid>
+      <pubDate>Mon, 29 Jun 2026 21:40:13 GMT</pubDate>
+      <description>Emurgo Denies Knowledge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-emurgo-denies-knowledge.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-China Ties Tested</title>
       <link>https://newsanarchist.com/articles/2026-06-29-us-china-ties-tested</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>SC Limits Data Access</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-sc-limits-data-access</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-sc-limits-data-access</guid>
-      <pubDate>Mon, 29 Jun 2026 17:32:14 GMT</pubDate>
-      <description>SC Limits Data Access</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-sc-limits-data-access.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>UFO Disclosure Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</guid>
-      <pubDate>Mon, 29 Jun 2026 17:26:27 GMT</pubDate>
-      <description>UFO Disclosure Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ufo-disclosure-expands.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
