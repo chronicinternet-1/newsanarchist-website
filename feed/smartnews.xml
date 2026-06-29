@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 21:28:05 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 21:28:05 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 21:33:34 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 21:33:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Bizarre Consciousness Forms</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-bizarre-consciousness-forms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-bizarre-consciousness-forms</guid>
+      <pubDate>Mon, 29 Jun 2026 21:28:11 GMT</pubDate>
+      <description>Bizarre Consciousness Forms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-bizarre-consciousness-forms.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$6.5B Fraud Bust</title>
       <link>https://newsanarchist.com/articles/2026-06-29-65b-fraud-bust</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Sites Raise Surveillance Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-us-gov-sites-raise-surveillance-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-us-gov-sites-raise-surveillance-concerns</guid>
-      <pubDate>Mon, 29 Jun 2026 16:39:28 GMT</pubDate>
-      <description>US Gov Sites Raise Surveillance Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-us-gov-sites-raise-surveillance-concerns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
