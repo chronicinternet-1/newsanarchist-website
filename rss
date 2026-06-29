@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 08:24:59 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 08:24:59 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 08:30:32 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 08:30:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Forensic Expert Pleads Guilty</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-forensic-expert-pleads-guilty</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-forensic-expert-pleads-guilty</guid>
+      <pubDate>Mon, 29 Jun 2026 08:28:39 GMT</pubDate>
+      <description>Forensic Expert Pleads Guilty</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-forensic-expert-pleads-guilty.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Facial Recognition Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-facial-recognition-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-facial-recognition-concerns</guid>
+      <pubDate>Mon, 29 Jun 2026 08:28:28 GMT</pubDate>
+      <description>Facial Recognition Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-facial-recognition-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Linked To Terror</title>
       <link>https://newsanarchist.com/articles/2026-06-29-snap-fraud-linked-to-terror</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Sites Raise Surveillance Fears</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-us-gov-sites-raise-surveillance-fears</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-us-gov-sites-raise-surveillance-fears</guid>
-      <pubDate>Mon, 29 Jun 2026 02:25:46 GMT</pubDate>
-      <description>US Gov Sites Raise Surveillance Fears</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-us-gov-sites-raise-surveillance-fears.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Mystical Impact</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-mystical-impact</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-mystical-impact</guid>
-      <pubDate>Mon, 29 Jun 2026 02:20:18 GMT</pubDate>
-      <description>Mystical Impact</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-mystical-impact.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
