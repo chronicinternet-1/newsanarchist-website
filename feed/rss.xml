@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 01:14:28 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 01:14:28 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 01:20:30 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 01:20:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Meditation Impacts Reality</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-meditation-impacts-reality</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-meditation-impacts-reality</guid>
+      <pubDate>Mon, 29 Jun 2026 01:19:51 GMT</pubDate>
+      <description>Meditation Impacts Reality</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-meditation-impacts-reality.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Yields 11 Indictments</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-medicare-fraud-yields-11-indictments</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-medicare-fraud-yields-11-indictments</guid>
+      <pubDate>Mon, 29 Jun 2026 01:18:06 GMT</pubDate>
+      <description>Medicare Fraud Yields 11 Indictments</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-medicare-fraud-yields-11-indictments.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Kerala Police Warns of Boss Scam</title>
       <link>https://newsanarchist.com/articles/2026-06-29-kerala-police-warns-of-boss-scam</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Websites Raise Surveillance Fears</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-us-gov-websites-raise-surveillance-fears</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-us-gov-websites-raise-surveillance-fears</guid>
-      <pubDate>Sun, 28 Jun 2026 20:23:07 GMT</pubDate>
-      <description>US Gov Websites Raise Surveillance Fears</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-us-gov-websites-raise-surveillance-fears.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-medicaid-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-medicaid-fraud-crackdown</guid>
-      <pubDate>Sun, 28 Jun 2026 20:16:14 GMT</pubDate>
-      <description>Medicaid Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-medicaid-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
