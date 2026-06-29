@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 13:40:37 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 13:40:37 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:46:04 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 13:46:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Increases Taiwan Pressure</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-china-increases-taiwan-pressure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-increases-taiwan-pressure</guid>
+      <pubDate>Mon, 29 Jun 2026 13:43:59 GMT</pubDate>
+      <description>China Increases Taiwan Pressure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-increases-taiwan-pressure.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>KPMG Whistleblower Failings Exposed</title>
       <link>https://newsanarchist.com/articles/2026-06-29-kpmg-whistleblower-failings-exposed</link>
@@ -606,18 +618,6 @@
       <description>Trump Attacks States</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-trump-attacks-states.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>FCA Probe Into Essex Oil Traders</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-fca-probe-into-essex-oil-traders</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-fca-probe-into-essex-oil-traders</guid>
-      <pubDate>Mon, 29 Jun 2026 08:00:25 GMT</pubDate>
-      <description>FCA Probe Into Essex Oil Traders</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-fca-probe-into-essex-oil-traders.png"/>
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
