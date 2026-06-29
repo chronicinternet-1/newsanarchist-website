@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 11:28:51 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 11:28:51 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 11:34:21 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 11:34:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nato Fears US Withdrawal</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-nato-fears-us-withdrawal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-nato-fears-us-withdrawal</guid>
+      <pubDate>Mon, 29 Jun 2026 11:33:24 GMT</pubDate>
+      <description>Nato Fears US Withdrawal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-nato-fears-us-withdrawal.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Forensic Lapses</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-forensic-lapses</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-forensic-lapses</guid>
+      <pubDate>Mon, 29 Jun 2026 11:30:01 GMT</pubDate>
+      <description>Forensic Lapses</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-forensic-lapses.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Ethiopia Election</title>
       <link>https://newsanarchist.com/articles/2026-06-29-ethiopia-election</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>USO Phenomenon Shifts Focus</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-uso-phenomenon-shifts-focus</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-uso-phenomenon-shifts-focus</guid>
-      <pubDate>Mon, 29 Jun 2026 05:32:24 GMT</pubDate>
-      <description>USO Phenomenon Shifts Focus</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-uso-phenomenon-shifts-focus.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Iran Seeks Legal Action</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-iran-seeks-legal-action</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-iran-seeks-legal-action</guid>
-      <pubDate>Mon, 29 Jun 2026 05:30:39 GMT</pubDate>
-      <description>Iran Seeks Legal Action</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-iran-seeks-legal-action.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
