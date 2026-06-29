@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 22:31:06 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 22:31:06 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 22:36:36 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 22:36:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Juvenile Justice Reform</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-juvenile-justice-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-juvenile-justice-reform</guid>
+      <pubDate>Mon, 29 Jun 2026 22:34:40 GMT</pubDate>
+      <description>Juvenile Justice Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-juvenile-justice-reform.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>India's Data Bill</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-indias-data-bill</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-indias-data-bill</guid>
+      <pubDate>Mon, 29 Jun 2026 22:34:31 GMT</pubDate>
+      <description>India's Data Bill</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-indias-data-bill.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UFO Disclosure Expands</title>
       <link>https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Power Shift</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ftc-power-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ftc-power-shift</guid>
-      <pubDate>Mon, 29 Jun 2026 18:17:27 GMT</pubDate>
-      <description>FTC Power Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ftc-power-shift.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Increases Pressure</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-china-increases-pressure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-increases-pressure</guid>
-      <pubDate>Mon, 29 Jun 2026 17:45:56 GMT</pubDate>
-      <description>China Increases Pressure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-increases-pressure.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
