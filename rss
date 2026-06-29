@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 19:16:18 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 19:16:18 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:21:47 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 19:21:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nagarro Probed</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-nagarro-probed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-nagarro-probed</guid>
+      <pubDate>Mon, 29 Jun 2026 19:17:53 GMT</pubDate>
+      <description>Nagarro Probed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-nagarro-probed.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>RBI Enhances Fraud Protection</title>
       <link>https://newsanarchist.com/articles/2026-06-29-rbi-enhances-fraud-protection</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Tata Electronics Probes Leak</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-tata-electronics-probes-leak</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-tata-electronics-probes-leak</guid>
-      <pubDate>Mon, 29 Jun 2026 15:16:00 GMT</pubDate>
-      <description>Tata Electronics Probes Leak</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-tata-electronics-probes-leak.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
