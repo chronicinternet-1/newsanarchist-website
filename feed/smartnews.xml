@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 16:16:38 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 16:16:38 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 16:27:11 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 16:27:11 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Beyond Earth</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-consciousness-beyond-earth</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-consciousness-beyond-earth</guid>
+      <pubDate>Mon, 29 Jun 2026 16:26:00 GMT</pubDate>
+      <description>Consciousness Beyond Earth</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-consciousness-beyond-earth.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$6.5B Fraud Bust</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-65b-fraud-bust</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-65b-fraud-bust</guid>
+      <pubDate>Mon, 29 Jun 2026 16:25:08 GMT</pubDate>
+      <description>$6.5B Fraud Bust</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-65b-fraud-bust.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Tech Giants Face Lawsuit</title>
       <link>https://newsanarchist.com/articles/2026-06-29-tech-giants-face-lawsuit</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UFO Disclosure Push</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-push</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-push</guid>
-      <pubDate>Mon, 29 Jun 2026 09:34:14 GMT</pubDate>
-      <description>UFO Disclosure Push</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ufo-disclosure-push.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Ukraine Hits Russia Refinery</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ukraine-hits-russia-refinery</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ukraine-hits-russia-refinery</guid>
-      <pubDate>Mon, 29 Jun 2026 09:32:25 GMT</pubDate>
-      <description>Ukraine Hits Russia Refinery</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ukraine-hits-russia-refinery.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
