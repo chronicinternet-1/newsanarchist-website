@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 09:39:24 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 09:39:24 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 09:44:54 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 09:44:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China-Japan Tensions</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-china-japan-tensions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-japan-tensions</guid>
+      <pubDate>Mon, 29 Jun 2026 09:41:48 GMT</pubDate>
+      <description>China-Japan Tensions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-japan-tensions.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Oversight Panel Subpoenas</title>
       <link>https://newsanarchist.com/articles/2026-06-29-oversight-panel-subpoenas</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Modi Govt Faces Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-modi-govt-faces-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-modi-govt-faces-scrutiny</guid>
-      <pubDate>Mon, 29 Jun 2026 04:00:24 GMT</pubDate>
-      <description>Modi Govt Faces Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-modi-govt-faces-scrutiny.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
