@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 17:30:12 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 17:30:12 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 17:35:46 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 17:35:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Forensics Crack Cases</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-forensics-crack-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-forensics-crack-cases</guid>
+      <pubDate>Mon, 29 Jun 2026 17:32:15 GMT</pubDate>
+      <description>Forensics Crack Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-forensics-crack-cases.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>SC Limits Data Access</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-sc-limits-data-access</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-sc-limits-data-access</guid>
+      <pubDate>Mon, 29 Jun 2026 17:32:14 GMT</pubDate>
+      <description>SC Limits Data Access</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-sc-limits-data-access.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UFO Disclosure Expands</title>
       <link>https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Storage Giants Face Lawsuit</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ai-storage-giants-face-lawsuit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ai-storage-giants-face-lawsuit</guid>
-      <pubDate>Mon, 29 Jun 2026 11:14:36 GMT</pubDate>
-      <description>AI Storage Giants Face Lawsuit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ai-storage-giants-face-lawsuit.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan Civil War Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-sudan-civil-war-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-sudan-civil-war-escalates</guid>
-      <pubDate>Mon, 29 Jun 2026 10:42:15 GMT</pubDate>
-      <description>Sudan Civil War Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-sudan-civil-war-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
