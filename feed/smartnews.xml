@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 23:40:06 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 23:40:06 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 23:45:36 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 23:45:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Oversight Panel Subpoenas Billionaire</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-oversight-panel-subpoenas-billionaire</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-oversight-panel-subpoenas-billionaire</guid>
+      <pubDate>Mon, 29 Jun 2026 23:42:42 GMT</pubDate>
+      <description>Oversight Panel Subpoenas Billionaire</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-oversight-panel-subpoenas-billionaire.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Chainalysis Proposes Tracking Standard</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-chainalysis-proposes-tracking-standard</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-chainalysis-proposes-tracking-standard</guid>
+      <pubDate>Mon, 29 Jun 2026 23:41:18 GMT</pubDate>
+      <description>Chainalysis Proposes Tracking Standard</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-chainalysis-proposes-tracking-standard.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-Iran Tensions Rise</title>
       <link>https://newsanarchist.com/articles/2026-06-29-us-iran-tensions-rise</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Ukraine Drone Strikes Refinery</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ukraine-drone-strikes-refinery</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ukraine-drone-strikes-refinery</guid>
-      <pubDate>Mon, 29 Jun 2026 19:11:07 GMT</pubDate>
-      <description>Ukraine Drone Strikes Refinery</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ukraine-drone-strikes-refinery.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>SCOTUS Rules On Location Data</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-scotus-rules-on-location-data</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-scotus-rules-on-location-data</guid>
-      <pubDate>Mon, 29 Jun 2026 19:10:15 GMT</pubDate>
-      <description>SCOTUS Rules On Location Data</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-scotus-rules-on-location-data.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
