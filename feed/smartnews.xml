@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 20:19:15 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 20:19:15 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 20:29:50 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 20:29:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Beyond Earthly Forms</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-consciousness-beyond-earthly-forms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-consciousness-beyond-earthly-forms</guid>
+      <pubDate>Mon, 29 Jun 2026 20:27:46 GMT</pubDate>
+      <description>Consciousness Beyond Earthly Forms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-consciousness-beyond-earthly-forms.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicaid Theft Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-medicaid-theft-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-medicaid-theft-exposed</guid>
+      <pubDate>Mon, 29 Jun 2026 20:27:02 GMT</pubDate>
+      <description>Medicaid Theft Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-medicaid-theft-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>SMCI Probed</title>
       <link>https://newsanarchist.com/articles/2026-06-29-smci-probed</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Raises Pressure</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-china-raises-pressure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-raises-pressure</guid>
-      <pubDate>Mon, 29 Jun 2026 15:44:57 GMT</pubDate>
-      <description>China Raises Pressure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-raises-pressure.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Probes Tycoon</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-doj-probes-tycoon</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-doj-probes-tycoon</guid>
-      <pubDate>Mon, 29 Jun 2026 15:38:59 GMT</pubDate>
-      <description>DOJ Probes Tycoon</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-doj-probes-tycoon.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
