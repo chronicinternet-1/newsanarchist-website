@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 02:03:33 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 02:03:33 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 02:14:00 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 02:14:00 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Sees 19% Rise In Tips</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-sec-sees-19-rise-in-tips</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-sec-sees-19-rise-in-tips</guid>
+      <pubDate>Mon, 29 Jun 2026 02:10:58 GMT</pubDate>
+      <description>SEC Sees 19% Rise In Tips</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-sec-sees-19-rise-in-tips.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>情報提供停止要請の背景</title>
       <link>https://newsanarchist.com/articles/2026-06-29-kenji-mori-mqykm49e</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Redefined</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-consciousness-redefined</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-consciousness-redefined</guid>
-      <pubDate>Sun, 28 Jun 2026 21:18:03 GMT</pubDate>
-      <description>Consciousness Redefined</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-consciousness-redefined.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
