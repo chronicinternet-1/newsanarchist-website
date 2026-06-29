@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 17:41:20 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 17:41:20 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 17:46:51 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 17:46:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Increases Pressure</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-china-increases-pressure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-increases-pressure</guid>
+      <pubDate>Mon, 29 Jun 2026 17:45:56 GMT</pubDate>
+      <description>China Increases Pressure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-increases-pressure.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>KPMG Whistleblower Mishandling Exposed</title>
       <link>https://newsanarchist.com/articles/2026-06-29-kpmg-whistleblower-mishandling-exposed</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Forensic Lapses</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-forensic-lapses</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-forensic-lapses</guid>
-      <pubDate>Mon, 29 Jun 2026 11:30:01 GMT</pubDate>
-      <description>Forensic Lapses</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-forensic-lapses.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
