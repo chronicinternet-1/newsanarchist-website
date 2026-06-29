@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 21:50:05 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 21:50:05 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 22:20:37 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 22:20:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Eli Lilly Expands</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-eli-lilly-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-eli-lilly-expands</guid>
+      <pubDate>Mon, 29 Jun 2026 22:19:15 GMT</pubDate>
+      <description>Eli Lilly Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-eli-lilly-expands.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan Nears Humanitarian Catastrophe</title>
       <link>https://newsanarchist.com/articles/2026-06-29-sudan-nears-humanitarian-catastrophe</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US Falls Behind China</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</guid>
-      <pubDate>Mon, 29 Jun 2026 17:36:19 GMT</pubDate>
-      <description>US Falls Behind China</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-us-falls-behind-china.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
