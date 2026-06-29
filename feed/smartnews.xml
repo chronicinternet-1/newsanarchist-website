@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 05:42:20 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 05:42:20 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:22:53 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 06:22:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Metaphysics Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-metaphysics-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-metaphysics-uncovered</guid>
+      <pubDate>Mon, 29 Jun 2026 06:21:42 GMT</pubDate>
+      <description>Metaphysics Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-metaphysics-uncovered.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>DOJ Cracks Down</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-doj-cracks-down</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-doj-cracks-down</guid>
+      <pubDate>Mon, 29 Jun 2026 06:20:28 GMT</pubDate>
+      <description>DOJ Cracks Down</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-doj-cracks-down.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Taiwan Boosts Defense</title>
       <link>https://newsanarchist.com/articles/2026-06-29-taiwan-boosts-defense</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Time Jumps</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-consciousness-time-jumps</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-consciousness-time-jumps</guid>
-      <pubDate>Sun, 28 Jun 2026 23:29:44 GMT</pubDate>
-      <description>Consciousness Time Jumps</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-consciousness-time-jumps.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Asia Turns To Coal</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-asia-turns-to-coal</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-asia-turns-to-coal</guid>
-      <pubDate>Sun, 28 Jun 2026 23:28:04 GMT</pubDate>
-      <description>Asia Turns To Coal</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-asia-turns-to-coal.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
