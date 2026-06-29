@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 05:31:08 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 05:31:08 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 05:36:42 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 05:36:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>USO Phenomenon Shifts Focus</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-uso-phenomenon-shifts-focus</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-uso-phenomenon-shifts-focus</guid>
+      <pubDate>Mon, 29 Jun 2026 05:32:24 GMT</pubDate>
+      <description>USO Phenomenon Shifts Focus</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-uso-phenomenon-shifts-focus.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Iran Seeks Legal Action</title>
       <link>https://newsanarchist.com/articles/2026-06-29-iran-seeks-legal-action</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>California 3D Print Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-california-3d-print-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-california-3d-print-surveillance</guid>
-      <pubDate>Sun, 28 Jun 2026 23:24:27 GMT</pubDate>
-      <description>California 3D Print Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-california-3d-print-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
