@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 11:23:23 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 11:23:23 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 11:28:51 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 11:28:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ethiopia Election</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-ethiopia-election</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ethiopia-election</guid>
+      <pubDate>Mon, 29 Jun 2026 11:23:57 GMT</pubDate>
+      <description>Ethiopia Election</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ethiopia-election.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Exposed</title>
       <link>https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-exposed</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India's Data Bill</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-indias-data-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-indias-data-bill</guid>
-      <pubDate>Mon, 29 Jun 2026 05:27:06 GMT</pubDate>
-      <description>India's Data Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-indias-data-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
