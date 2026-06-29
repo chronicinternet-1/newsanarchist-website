@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 08:04:01 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 08:04:01 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 08:14:30 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 08:14:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Attacks States</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</guid>
+      <pubDate>Mon, 29 Jun 2026 08:13:13 GMT</pubDate>
+      <description>Trump Attacks States</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-trump-attacks-states.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>FCA Probe Into Essex Oil Traders</title>
       <link>https://newsanarchist.com/articles/2026-06-29-fca-probe-into-essex-oil-traders</link>
@@ -525,18 +537,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Trump Attacks States</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</guid>
-      <pubDate>Mon, 29 Jun 2026 03:11:25 GMT</pubDate>
-      <description>Trump Attacks States</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-trump-attacks-states.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Taiwan Detects Chinese Incursions</title>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-29T08:13:13.863Z</news:publication_date>
+      <news:title>Trump Attacks States</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-29-fca-probe-into-essex-oil-traders</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -334,14 +342,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T03:19:02.082Z</news:publication_date>
       <news:title>SNAP Fraud Tied To Terror</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-trump-attacks-states</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T03:11:25.662Z</news:publication_date>
-      <news:title>Trump Attacks States</news:title>
     </news:news>
   </url>
   <url>
@@ -2294,30 +2294,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T08:18:07.756Z</news:publication_date>
       <news:title>Xi Purge Hits PLA Lawmakers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-27-clarity-act</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-27T08:11:43.770Z</news:publication_date>
-      <news:title>CLARITY Act</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-27-china-leads-clean-energy-shift</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-27T08:10:06.641Z</news:publication_date>
-      <news:title>China Leads Clean Energy Shift</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-27-mythos-breach-nsa</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-27T08:06:03.900Z</news:publication_date>
-      <news:title>Mythos Breach NSA</news:title>
     </news:news>
   </url>
 </urlset>
