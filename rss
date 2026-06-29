@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 17:19:40 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 17:19:40 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 17:30:12 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 17:30:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UFO Disclosure Expands</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ufo-disclosure-expands</guid>
+      <pubDate>Mon, 29 Jun 2026 17:26:27 GMT</pubDate>
+      <description>UFO Disclosure Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ufo-disclosure-expands.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$906M Medicare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-906m-medicare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-906m-medicare-fraud</guid>
+      <pubDate>Mon, 29 Jun 2026 17:25:35 GMT</pubDate>
+      <description>$906M Medicare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-906m-medicare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Trump Power Expansion</title>
       <link>https://newsanarchist.com/articles/2026-06-29-trump-power-expansion</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Looms</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-oversight-looms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-oversight-looms</guid>
-      <pubDate>Mon, 29 Jun 2026 10:36:33 GMT</pubDate>
-      <description>Oversight Looms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-oversight-looms.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Releases UAP Files</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-pentagon-releases-uap-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-pentagon-releases-uap-files</guid>
-      <pubDate>Mon, 29 Jun 2026 10:34:40 GMT</pubDate>
-      <description>Pentagon Releases UAP Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-pentagon-releases-uap-files.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
