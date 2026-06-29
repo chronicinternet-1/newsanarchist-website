@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 17:35:46 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 17:35:46 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 17:41:20 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 17:41:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>KPMG Whistleblower Mishandling Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-kpmg-whistleblower-mishandling-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-kpmg-whistleblower-mishandling-exposed</guid>
+      <pubDate>Mon, 29 Jun 2026 17:39:56 GMT</pubDate>
+      <description>KPMG Whistleblower Mishandling Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-kpmg-whistleblower-mishandling-exposed.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>AI Transforms DeFi</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-ai-transforms-defi</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ai-transforms-defi</guid>
+      <pubDate>Mon, 29 Jun 2026 17:38:22 GMT</pubDate>
+      <description>AI Transforms DeFi</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ai-transforms-defi.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>US Falls Behind China</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</guid>
+      <pubDate>Mon, 29 Jun 2026 17:36:19 GMT</pubDate>
+      <description>US Falls Behind China</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-us-falls-behind-china.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Forensics Crack Cases</title>
       <link>https://newsanarchist.com/articles/2026-06-29-forensics-crack-cases</link>
@@ -467,18 +503,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>US Falls Behind China</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-us-falls-behind-china</guid>
-      <pubDate>Mon, 29 Jun 2026 12:33:54 GMT</pubDate>
-      <description>US Falls Behind China</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-us-falls-behind-china.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
       <title>Bihar Vows Unabated Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-06-29-bihar-vows-unabated-crackdown</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-bihar-vows-unabated-crackdown</guid>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Ethiopia Election</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ethiopia-election</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ethiopia-election</guid>
-      <pubDate>Mon, 29 Jun 2026 11:23:57 GMT</pubDate>
-      <description>Ethiopia Election</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ethiopia-election.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Exposed</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-exposed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-exposed</guid>
-      <pubDate>Mon, 29 Jun 2026 11:22:48 GMT</pubDate>
-      <description>Medicaid Fraud Exposed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-medicaid-fraud-exposed.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
