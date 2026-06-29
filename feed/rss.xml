@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 06:22:53 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 06:22:53 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:28:22 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 06:28:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Forensic Lapses Found</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-forensic-lapses-found</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-forensic-lapses-found</guid>
+      <pubDate>Mon, 29 Jun 2026 06:27:38 GMT</pubDate>
+      <description>Forensic Lapses Found</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-forensic-lapses-found.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Flock Cameras Raise Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-flock-cameras-raise-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-flock-cameras-raise-concerns</guid>
+      <pubDate>Mon, 29 Jun 2026 06:27:34 GMT</pubDate>
+      <description>Flock Cameras Raise Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-flock-cameras-raise-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Metaphysics Uncovered</title>
       <link>https://newsanarchist.com/articles/2026-06-29-metaphysics-uncovered</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan On High Alert</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-taiwan-on-high-alert</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-taiwan-on-high-alert</guid>
-      <pubDate>Sun, 28 Jun 2026 23:37:15 GMT</pubDate>
-      <description>Taiwan On High Alert</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-taiwan-on-high-alert.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DEA Tactics Under Fire</title>
-      <link>https://newsanarchist.com/articles/2026-06-28-dea-tactics-under-fire</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-28-dea-tactics-under-fire</guid>
-      <pubDate>Sun, 28 Jun 2026 23:32:16 GMT</pubDate>
-      <description>DEA Tactics Under Fire</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-28-dea-tactics-under-fire.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
