@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 06:45:05 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 06:45:05 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:00:37 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 07:00:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Simplifies Transparency Rules</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-eu-simplifies-transparency-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-eu-simplifies-transparency-rules</guid>
+      <pubDate>Mon, 29 Jun 2026 07:00:24 GMT</pubDate>
+      <description>EU Simplifies Transparency Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-eu-simplifies-transparency-rules.png"/>
+      <category>Money Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>NewsAnarchist Desk</dc:creator>
+    </item>
     <item>
       <title>China-Japan Tensions Rise</title>
       <link>https://newsanarchist.com/articles/2026-06-29-china-japan-tensions-rise</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>PLA Commanders Removed</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-pla-commanders-removed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-pla-commanders-removed</guid>
-      <pubDate>Mon, 29 Jun 2026 00:37:40 GMT</pubDate>
-      <description>PLA Commanders Removed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-pla-commanders-removed.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
