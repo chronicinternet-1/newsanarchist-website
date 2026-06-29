@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 15:29:34 GMT</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 15:29:34 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 15:35:09 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 15:35:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Police AI Use Grows</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-police-ai-use-grows</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-police-ai-use-grows</guid>
+      <pubDate>Mon, 29 Jun 2026 15:31:16 GMT</pubDate>
+      <description>Police AI Use Grows</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-police-ai-use-grows.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Ramsey Case Mishandled</title>
+      <link>https://newsanarchist.com/articles/2026-06-29-ramsey-case-mishandled</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ramsey-case-mishandled</guid>
+      <pubDate>Mon, 29 Jun 2026 15:31:15 GMT</pubDate>
+      <description>Ramsey Case Mishandled</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ramsey-case-mishandled.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Recoveries Collapse</title>
       <link>https://newsanarchist.com/articles/2026-06-29-medicaid-fraud-recoveries-collapse</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Boom Creates 19 Billionaires</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-ai-boom-creates-19-billionaires</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-ai-boom-creates-19-billionaires</guid>
-      <pubDate>Mon, 29 Jun 2026 09:13:39 GMT</pubDate>
-      <description>AI Boom Creates 19 Billionaires</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-ai-boom-creates-19-billionaires.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Nigeria Sanctions 6 Persons</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-nigeria-sanctions-6-persons</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-nigeria-sanctions-6-persons</guid>
-      <pubDate>Mon, 29 Jun 2026 09:00:25 GMT</pubDate>
-      <description>Nigeria Sanctions 6 Persons</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-nigeria-sanctions-6-persons.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
