@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 15:54:58 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 15:54:58 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 16:00:29 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 16:00:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Increases Taiwan Pressure</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-china-increases-taiwan-pressure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-china-increases-taiwan-pressure</guid>
+      <pubDate>Tue, 30 Jun 2026 15:56:30 GMT</pubDate>
+      <description>China Increases Taiwan Pressure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-china-increases-taiwan-pressure.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>US Gov Sites Raise Surveillance</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-surveillance</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Rape-Murder of 3-Year-Old</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-rape-murder-of-3-year-old</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-rape-murder-of-3-year-old</guid>
-      <pubDate>Tue, 30 Jun 2026 09:39:18 GMT</pubDate>
-      <description>Rape-Murder of 3-Year-Old</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-rape-murder-of-3-year-old.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
