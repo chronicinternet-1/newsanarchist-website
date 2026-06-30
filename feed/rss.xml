@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 18:01:34 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 18:01:34 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 18:32:05 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 18:32:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Gains Control</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-trump-gains-control</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-trump-gains-control</guid>
+      <pubDate>Tue, 30 Jun 2026 18:28:38 GMT</pubDate>
+      <description>Trump Gains Control</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-trump-gains-control.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan Nears Catastrophe</title>
       <link>https://newsanarchist.com/articles/2026-06-30-sudan-nears-catastrophe</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Tech Fuels Scams</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scams</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scams</guid>
-      <pubDate>Tue, 30 Jun 2026 12:25:43 GMT</pubDate>
-      <description>US Tech Fuels Scams</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-tech-fuels-scams.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
