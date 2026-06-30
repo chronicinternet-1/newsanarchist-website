@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:02:45 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 07:02:45 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 07:28:17 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 07:28:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Tech Fuels Scam Industry</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scam-industry</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scam-industry</guid>
+      <pubDate>Tue, 30 Jun 2026 07:23:27 GMT</pubDate>
+      <description>US Tech Fuels Scam Industry</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-tech-fuels-scam-industry.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>EU Seeks Faster Payments</title>
       <link>https://newsanarchist.com/articles/2026-06-30-eu-seeks-faster-payments</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Conscious Minds Beyond Imagination</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-conscious-minds-beyond-imagination</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-conscious-minds-beyond-imagination</guid>
-      <pubDate>Tue, 30 Jun 2026 01:30:04 GMT</pubDate>
-      <description>Conscious Minds Beyond Imagination</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-conscious-minds-beyond-imagination.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
