@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 17:28:47 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 17:28:47 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 17:39:26 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 17:39:26 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Govt Seeks Ark</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-govt-seeks-ark</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-govt-seeks-ark</guid>
+      <pubDate>Tue, 30 Jun 2026 17:37:33 GMT</pubDate>
+      <description>Govt Seeks Ark</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-govt-seeks-ark.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Hits $906M</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</guid>
+      <pubDate>Tue, 30 Jun 2026 17:37:10 GMT</pubDate>
+      <description>Hospice Fraud Hits $906M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hospice-fraud-hits-906m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Tech Fuels Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-fraud</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Prepares</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-taiwan-prepares</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-taiwan-prepares</guid>
-      <pubDate>Tue, 30 Jun 2026 10:54:03 GMT</pubDate>
-      <description>Taiwan Prepares</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-taiwan-prepares.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Whistleblower Complaint Filed</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-whistleblower-complaint-filed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-whistleblower-complaint-filed</guid>
-      <pubDate>Tue, 30 Jun 2026 10:48:01 GMT</pubDate>
-      <description>Whistleblower Complaint Filed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-whistleblower-complaint-filed.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
