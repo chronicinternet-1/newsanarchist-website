@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 10:34:03 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 10:34:03 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 10:44:31 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 10:44:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Colossal Data Leak</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-colossal-data-leak</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-colossal-data-leak</guid>
+      <pubDate>Tue, 30 Jun 2026 10:39:58 GMT</pubDate>
+      <description>Colossal Data Leak</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-colossal-data-leak.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>SCOTUS Ruling Impact</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-scotus-ruling-impact</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-scotus-ruling-impact</guid>
+      <pubDate>Tue, 30 Jun 2026 10:39:45 GMT</pubDate>
+      <description>SCOTUS Ruling Impact</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-scotus-ruling-impact.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud $2.5M</title>
       <link>https://newsanarchist.com/articles/2026-06-30-medicaid-fraud-25m</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>ACLU Fights Flock</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-aclu-fights-flock</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-aclu-fights-flock</guid>
-      <pubDate>Tue, 30 Jun 2026 04:37:12 GMT</pubDate>
-      <description>ACLU Fights Flock</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-aclu-fights-flock.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Ex-Cops On Trial</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</guid>
-      <pubDate>Tue, 30 Jun 2026 04:36:58 GMT</pubDate>
-      <description>Ex-Cops On Trial</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ex-cops-on-trial.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
