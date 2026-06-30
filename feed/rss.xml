@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 01:41:18 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 01:41:18 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 01:46:47 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 01:46:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Gov Sites Raise Trust Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-trust-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-trust-concerns</guid>
+      <pubDate>Tue, 30 Jun 2026 01:43:49 GMT</pubDate>
+      <description>US Gov Sites Raise Trust Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-gov-sites-raise-trust-concerns.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Sees New Investor</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-defi-sees-new-investor</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-defi-sees-new-investor</guid>
+      <pubDate>Tue, 30 Jun 2026 01:42:15 GMT</pubDate>
+      <description>DeFi Sees New Investor</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-defi-sees-new-investor.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Boys Found Dead</title>
       <link>https://newsanarchist.com/articles/2026-06-30-boys-found-dead</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Intensifies on Billionaire</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-oversight-intensifies-on-billionaire</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-oversight-intensifies-on-billionaire</guid>
-      <pubDate>Mon, 29 Jun 2026 19:40:53 GMT</pubDate>
-      <description>Oversight Intensifies on Billionaire</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-oversight-intensifies-on-billionaire.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Mystery Rocks</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-mystery-rocks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-mystery-rocks</guid>
-      <pubDate>Mon, 29 Jun 2026 19:39:18 GMT</pubDate>
-      <description>Mystery Rocks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-mystery-rocks.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
