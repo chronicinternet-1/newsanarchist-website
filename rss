@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 06:35:45 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 06:35:45 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:41:15 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 06:41:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Local Police Get ICE Facial Recognition</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-local-police-get-ice-facial-recognition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-local-police-get-ice-facial-recognition</guid>
+      <pubDate>Tue, 30 Jun 2026 06:38:07 GMT</pubDate>
+      <description>Local Police Get ICE Facial Recognition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-local-police-get-ice-facial-recognition.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>ACLU Hails SCOTUS Ruling</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-aclu-hails-scotus-ruling</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-aclu-hails-scotus-ruling</guid>
+      <pubDate>Tue, 30 Jun 2026 06:37:53 GMT</pubDate>
+      <description>ACLU Hails SCOTUS Ruling</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-aclu-hails-scotus-ruling.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>DOJ Targets Medicaid Fraud</title>
       <link>https://newsanarchist.com/articles/2026-06-30-doj-targets-medicaid-fraud</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SEC Examines MARTA</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-sec-examines-marta</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-sec-examines-marta</guid>
-      <pubDate>Tue, 30 Jun 2026 00:20:09 GMT</pubDate>
-      <description>SEC Examines MARTA</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-sec-examines-marta.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Ups Taiwan Pressure</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-china-ups-taiwan-pressure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-china-ups-taiwan-pressure</guid>
-      <pubDate>Mon, 29 Jun 2026 23:48:42 GMT</pubDate>
-      <description>China Ups Taiwan Pressure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-china-ups-taiwan-pressure.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
