@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 11:42:06 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 11:42:06 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 11:47:34 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 11:47:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Targets Crypto Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-sec-targets-crypto-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-sec-targets-crypto-fraud</guid>
+      <pubDate>Tue, 30 Jun 2026 11:46:57 GMT</pubDate>
+      <description>SEC Targets Crypto Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-sec-targets-crypto-fraud.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Evades Clothing</title>
       <link>https://newsanarchist.com/articles/2026-06-30-facial-recognition-evades-clothing</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NSA Approval Pending</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-nsa-approval-pending</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nsa-approval-pending</guid>
-      <pubDate>Tue, 30 Jun 2026 05:37:40 GMT</pubDate>
-      <description>NSA Approval Pending</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nsa-approval-pending.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
