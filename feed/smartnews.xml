@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 08:43:20 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 08:43:20 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 08:48:51 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 08:48:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Targets Tycoon</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-doj-targets-tycoon</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-doj-targets-tycoon</guid>
+      <pubDate>Tue, 30 Jun 2026 08:47:06 GMT</pubDate>
+      <description>DOJ Targets Tycoon</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-doj-targets-tycoon.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>SEC Targets Crypto</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-sec-targets-crypto</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-sec-targets-crypto</guid>
+      <pubDate>Tue, 30 Jun 2026 08:45:31 GMT</pubDate>
+      <description>SEC Targets Crypto</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-sec-targets-crypto.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>ATF Cancels Surveillance</title>
       <link>https://newsanarchist.com/articles/2026-06-30-atf-cancels-surveillance</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Gains Power</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-trump-gains-power</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-trump-gains-power</guid>
-      <pubDate>Tue, 30 Jun 2026 03:21:32 GMT</pubDate>
-      <description>Trump Gains Power</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-trump-gains-power.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Mali Abuses Rise</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-mali-abuses-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-mali-abuses-rise</guid>
-      <pubDate>Tue, 30 Jun 2026 02:50:03 GMT</pubDate>
-      <description>Mali Abuses Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-mali-abuses-rise.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
