@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:33:46 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 07:33:46 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 07:39:19 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 07:39:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>India's Data Protection Bill</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-indias-data-protection-bill</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-indias-data-protection-bill</guid>
+      <pubDate>Tue, 30 Jun 2026 07:38:38 GMT</pubDate>
+      <description>India's Data Protection Bill</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-indias-data-protection-bill.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>NZ Cold Cases</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-nz-cold-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nz-cold-cases</guid>
+      <pubDate>Tue, 30 Jun 2026 07:38:20 GMT</pubDate>
+      <description>NZ Cold Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nz-cold-cases.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Lanza Explores Consciousness</title>
       <link>https://newsanarchist.com/articles/2026-06-30-lanza-explores-consciousness</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Sites Raise Trust Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-trust-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-trust-concerns</guid>
-      <pubDate>Tue, 30 Jun 2026 01:43:49 GMT</pubDate>
-      <description>US Gov Sites Raise Trust Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-gov-sites-raise-trust-concerns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Sees New Investor</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-defi-sees-new-investor</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-defi-sees-new-investor</guid>
-      <pubDate>Tue, 30 Jun 2026 01:42:15 GMT</pubDate>
-      <description>DeFi Sees New Investor</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-defi-sees-new-investor.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
