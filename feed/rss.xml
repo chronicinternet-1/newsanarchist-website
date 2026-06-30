@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 14:40:46 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 14:40:46 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 14:46:16 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 14:46:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EFF Urges Action</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-eff-urges-action</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-eff-urges-action</guid>
+      <pubDate>Tue, 30 Jun 2026 14:41:50 GMT</pubDate>
+      <description>EFF Urges Action</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-eff-urges-action.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Rape Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-rape-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-rape-crisis</guid>
+      <pubDate>Tue, 30 Jun 2026 14:41:21 GMT</pubDate>
+      <description>Rape Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-rape-crisis.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Marxist Billionaire Probed</title>
       <link>https://newsanarchist.com/articles/2026-06-30-marxist-billionaire-probed</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>UK Sanctions Enforcement</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uk-sanctions-enforcement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uk-sanctions-enforcement</guid>
-      <pubDate>Tue, 30 Jun 2026 08:00:25 GMT</pubDate>
-      <description>UK Sanctions Enforcement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uk-sanctions-enforcement.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Sails Carrier</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-china-sails-carrier</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-china-sails-carrier</guid>
-      <pubDate>Tue, 30 Jun 2026 07:52:22 GMT</pubDate>
-      <description>China Sails Carrier</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-china-sails-carrier.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
