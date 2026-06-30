@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:29:43 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 19:29:43 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 19:40:18 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 19:40:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Disclosure</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-uap-disclosure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-disclosure</guid>
+      <pubDate>Tue, 30 Jun 2026 19:38:34 GMT</pubDate>
+      <description>UAP Disclosure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-disclosure.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Health Care Fraud Takedown</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-health-care-fraud-takedown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-health-care-fraud-takedown</guid>
+      <pubDate>Tue, 30 Jun 2026 19:38:08 GMT</pubDate>
+      <description>Health Care Fraud Takedown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-health-care-fraud-takedown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Recovers $19.5M</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-recovers-195m</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Teases 6th-Gen Jet</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-china-teases-6th-gen-jet</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-china-teases-6th-gen-jet</guid>
-      <pubDate>Tue, 30 Jun 2026 12:55:00 GMT</pubDate>
-      <description>China Teases 6th-Gen Jet</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-china-teases-6th-gen-jet.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>UAP Orbs Remain Unexplained</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uap-orbs-remain-unexplained</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-orbs-remain-unexplained</guid>
-      <pubDate>Tue, 30 Jun 2026 12:47:26 GMT</pubDate>
-      <description>UAP Orbs Remain Unexplained</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-orbs-remain-unexplained.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
