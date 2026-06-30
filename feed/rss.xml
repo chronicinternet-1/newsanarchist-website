@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 13:37:06 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 13:37:06 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 13:42:38 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 13:42:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Limits Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-scotus-limits-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-scotus-limits-surveillance</guid>
+      <pubDate>Tue, 30 Jun 2026 13:41:21 GMT</pubDate>
+      <description>SCOTUS Limits Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-scotus-limits-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Pune Rape-Murder</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-pune-rape-murder</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-pune-rape-murder</guid>
+      <pubDate>Tue, 30 Jun 2026 13:40:48 GMT</pubDate>
+      <description>Pune Rape-Murder</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-pune-rape-murder.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Grows</title>
       <link>https://newsanarchist.com/articles/2026-06-30-snap-fraud-grows</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Hits $906M</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</guid>
-      <pubDate>Tue, 30 Jun 2026 07:32:22 GMT</pubDate>
-      <description>Hospice Fraud Hits $906M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hospice-fraud-hits-906m.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Tech Fuels Scam Industry</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scam-industry</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scam-industry</guid>
-      <pubDate>Tue, 30 Jun 2026 07:23:27 GMT</pubDate>
-      <description>US Tech Fuels Scam Industry</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-tech-fuels-scam-industry.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
