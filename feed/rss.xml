@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 05:54:41 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 05:54:41 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:25:15 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 06:25:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>RAM Makers Face Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-ram-makers-face-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ram-makers-face-lawsuit</guid>
+      <pubDate>Tue, 30 Jun 2026 06:22:57 GMT</pubDate>
+      <description>RAM Makers Face Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ram-makers-face-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Mine Collapse</title>
       <link>https://newsanarchist.com/articles/2026-06-30-myanmar-mine-collapse</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Chainalysis Proposes Tracking Standard</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-chainalysis-proposes-tracking-standard</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-chainalysis-proposes-tracking-standard</guid>
-      <pubDate>Mon, 29 Jun 2026 23:41:18 GMT</pubDate>
-      <description>Chainalysis Proposes Tracking Standard</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-chainalysis-proposes-tracking-standard.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
