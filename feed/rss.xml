@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 10:50:04 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 10:50:04 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 10:55:34 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 10:55:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Prepares</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-taiwan-prepares</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-taiwan-prepares</guid>
+      <pubDate>Tue, 30 Jun 2026 10:54:03 GMT</pubDate>
+      <description>Taiwan Prepares</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-taiwan-prepares.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Whistleblower Complaint Filed</title>
       <link>https://newsanarchist.com/articles/2026-06-30-whistleblower-complaint-filed</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Sees New Wave</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-defi-sees-new-wave</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-defi-sees-new-wave</guid>
-      <pubDate>Tue, 30 Jun 2026 04:43:38 GMT</pubDate>
-      <description>DeFi Sees New Wave</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-defi-sees-new-wave.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
