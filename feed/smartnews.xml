@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 08:54:19 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 08:54:19 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:04:48 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 09:04:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nigeria Refinery Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-nigeria-refinery-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nigeria-refinery-fraud</guid>
+      <pubDate>Tue, 30 Jun 2026 09:00:27 GMT</pubDate>
+      <description>Nigeria Refinery Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nigeria-refinery-fraud.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Sudan Nears Catastrophe</title>
       <link>https://newsanarchist.com/articles/2026-06-30-sudan-nears-catastrophe</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SCOTUS Limits Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-scotus-limits-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-scotus-limits-surveillance</guid>
-      <pubDate>Tue, 30 Jun 2026 03:36:44 GMT</pubDate>
-      <description>SCOTUS Limits Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-scotus-limits-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
