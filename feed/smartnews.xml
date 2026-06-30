@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 15:43:56 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 15:43:56 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 15:49:27 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 15:49:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Chainalysis Proposes Tracing Standards</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-chainalysis-proposes-tracing-standards</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-chainalysis-proposes-tracing-standards</guid>
+      <pubDate>Tue, 30 Jun 2026 15:48:52 GMT</pubDate>
+      <description>Chainalysis Proposes Tracing Standards</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-chainalysis-proposes-tracing-standards.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NATO Summit Prep</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-nato-summit-prep</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nato-summit-prep</guid>
+      <pubDate>Tue, 30 Jun 2026 15:47:06 GMT</pubDate>
+      <description>NATO Summit Prep</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nato-summit-prep.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>NSA Approval Pending</title>
       <link>https://newsanarchist.com/articles/2026-06-30-nsa-approval-pending</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>UAP Disclosure Expands</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uap-disclosure-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-disclosure-expands</guid>
-      <pubDate>Tue, 30 Jun 2026 09:33:38 GMT</pubDate>
-      <description>UAP Disclosure Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-disclosure-expands.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Nagarro Probed</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-nagarro-probed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nagarro-probed</guid>
-      <pubDate>Tue, 30 Jun 2026 09:24:22 GMT</pubDate>
-      <description>Nagarro Probed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nagarro-probed.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
