@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-30-ram-makers-face-lawsuit</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T11:25:15.238Z</news:publication_date>
+      <news:title>RAM Makers Face Lawsuit</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-30-taiwan-prepares</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -342,14 +350,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T06:31:54.074Z</news:publication_date>
       <news:title>DOJ Targets Medicaid Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-ram-makers-face-lawsuit</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T06:22:57.664Z</news:publication_date>
-      <news:title>RAM Makers Face Lawsuit</news:title>
     </news:news>
   </url>
   <url>
@@ -2742,22 +2742,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T12:19:16.430Z</news:publication_date>
       <news:title>Biometrics Expansion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-court-clash</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T11:19:44.785Z</news:publication_date>
-      <news:title>Court Clash</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-polymarket-probe</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T11:04:33.307Z</news:publication_date>
-      <news:title>Polymarket Probe</news:title>
     </news:news>
   </url>
 </urlset>
