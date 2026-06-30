@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-30-ftc-power-shift</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T08:23:55.543Z</news:publication_date>
+      <news:title>FTC Power Shift</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-30-uk-sanctions-enforcement</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -942,14 +950,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T18:32:41.637Z</news:publication_date>
       <news:title>ATF Cancels Surveillance Tool</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-ftc-power-shift</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T18:17:27.975Z</news:publication_date>
-      <news:title>FTC Power Shift</news:title>
     </news:news>
   </url>
   <url>
@@ -2726,38 +2726,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T08:29:48.308Z</news:publication_date>
       <news:title>US Counters China</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-us-declassifies-new-ufo-videos</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T08:22:59.943Z</news:publication_date>
-      <news:title>US Declassifies New UFO Videos</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-trump-courts-turkey</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T08:21:17.423Z</news:publication_date>
-      <news:title>Trump Courts Turkey</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-atf-cancels-phone-tracker</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T08:17:21.598Z</news:publication_date>
-      <news:title>ATF Cancels Phone Tracker</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-7-eleven-employees-accused</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T08:10:30.033Z</news:publication_date>
-      <news:title>7-Eleven Employees Accused</news:title>
     </news:news>
   </url>
 </urlset>
