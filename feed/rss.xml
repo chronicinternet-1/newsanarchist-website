@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:28:17 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 07:28:17 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 07:33:46 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 07:33:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Lanza Explores Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-lanza-explores-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-lanza-explores-consciousness</guid>
+      <pubDate>Tue, 30 Jun 2026 07:32:41 GMT</pubDate>
+      <description>Lanza Explores Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-lanza-explores-consciousness.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Hits $906M</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hospice-fraud-hits-906m</guid>
+      <pubDate>Tue, 30 Jun 2026 07:32:22 GMT</pubDate>
+      <description>Hospice Fraud Hits $906M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hospice-fraud-hits-906m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Tech Fuels Scam Industry</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scam-industry</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Boys Found Dead</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-boys-found-dead</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-boys-found-dead</guid>
-      <pubDate>Tue, 30 Jun 2026 01:36:04 GMT</pubDate>
-      <description>Boys Found Dead</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-boys-found-dead.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Biometric Security Rethought</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-biometric-security-rethought</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-biometric-security-rethought</guid>
-      <pubDate>Tue, 30 Jun 2026 01:35:51 GMT</pubDate>
-      <description>Biometric Security Rethought</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-biometric-security-rethought.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
