@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 23:52:38 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 23:52:38 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 23:58:08 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 23:58:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Oversight Intensifies on CIA Secrets</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-oversight-intensifies-on-cia-secrets</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-oversight-intensifies-on-cia-secrets</guid>
+      <pubDate>Tue, 30 Jun 2026 23:54:18 GMT</pubDate>
+      <description>Oversight Intensifies on CIA Secrets</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-oversight-intensifies-on-cia-secrets.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>AI-Blockchain Fusion Gains Traction</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-ai-blockchain-fusion-gains-traction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ai-blockchain-fusion-gains-traction</guid>
+      <pubDate>Tue, 30 Jun 2026 23:52:39 GMT</pubDate>
+      <description>AI-Blockchain Fusion Gains Traction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ai-blockchain-fusion-gains-traction.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US Intensifies Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-intensifies-sanctions</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Hunter v US</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-hunter-v-us</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hunter-v-us</guid>
-      <pubDate>Tue, 30 Jun 2026 17:42:51 GMT</pubDate>
-      <description>Hunter v US</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hunter-v-us.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Govt Seeks Ark</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-govt-seeks-ark</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-govt-seeks-ark</guid>
-      <pubDate>Tue, 30 Jun 2026 17:37:33 GMT</pubDate>
-      <description>Govt Seeks Ark</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-govt-seeks-ark.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
