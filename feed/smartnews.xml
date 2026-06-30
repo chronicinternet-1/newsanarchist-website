@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:40:18 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 19:40:18 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 19:45:50 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 19:45:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EFF Demands Action</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-eff-demands-action</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-eff-demands-action</guid>
+      <pubDate>Tue, 30 Jun 2026 19:44:16 GMT</pubDate>
+      <description>EFF Demands Action</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-eff-demands-action.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Rape Crisis Unresolved</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-rape-crisis-unresolved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-rape-crisis-unresolved</guid>
+      <pubDate>Tue, 30 Jun 2026 19:43:59 GMT</pubDate>
+      <description>Rape Crisis Unresolved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-rape-crisis-unresolved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure</title>
       <link>https://newsanarchist.com/articles/2026-06-30-uap-disclosure</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Pune Rape-Murder</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-pune-rape-murder</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-pune-rape-murder</guid>
-      <pubDate>Tue, 30 Jun 2026 13:40:48 GMT</pubDate>
-      <description>Pune Rape-Murder</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-pune-rape-murder.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>FTC Power Shift</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-ftc-power-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ftc-power-shift</guid>
-      <pubDate>Tue, 30 Jun 2026 13:26:11 GMT</pubDate>
-      <description>FTC Power Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ftc-power-shift.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
