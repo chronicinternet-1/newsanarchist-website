@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 09:47:09 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 09:47:09 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:52:39 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 09:52:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Gov Sites Raise Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-surveillance</guid>
+      <pubDate>Tue, 30 Jun 2026 09:47:33 GMT</pubDate>
+      <description>US Gov Sites Raise Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-gov-sites-raise-surveillance.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UAP Orbs Defy Explanation</title>
       <link>https://newsanarchist.com/articles/2026-06-30-uap-orbs-defy-explanation</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Music Therapy Eases End-of-Life</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-music-therapy-eases-end-of-life</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-music-therapy-eases-end-of-life</guid>
-      <pubDate>Tue, 30 Jun 2026 04:31:31 GMT</pubDate>
-      <description>Music Therapy Eases End-of-Life</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-music-therapy-eases-end-of-life.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
