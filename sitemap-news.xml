@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-06-30-snap-fraud-grows</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T13:35:11.037Z</news:publication_date>
+      <news:title>SNAP Fraud Grows</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-06-30-ftc-power-shift</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -318,14 +326,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T08:33:08.765Z</news:publication_date>
       <news:title>Conscious Minds Beyond Earth</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-snap-fraud-grows</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T08:32:49.489Z</news:publication_date>
-      <news:title>SNAP Fraud Grows</news:title>
     </news:news>
   </url>
   <url>
@@ -2750,22 +2750,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
       <news:publication_date>2026-06-28T14:00:29.033Z</news:publication_date>
       <news:title>EUA visam Brasil</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-sudan-braces-for-el-obeid-massacre</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T13:32:07.204Z</news:publication_date>
-      <news:title>Sudan Braces For El Obeid Massacre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-28-kpmg-whistleblower</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-28T13:27:41.681Z</news:publication_date>
-      <news:title>KPMG Whistleblower</news:title>
     </news:news>
   </url>
 </urlset>
