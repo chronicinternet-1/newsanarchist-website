@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 14:51:50 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 14:51:50 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 14:57:20 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 14:57:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Mine Collapse</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-myanmar-mine-collapse</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-myanmar-mine-collapse</guid>
+      <pubDate>Tue, 30 Jun 2026 14:56:01 GMT</pubDate>
+      <description>Myanmar Mine Collapse</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-myanmar-mine-collapse.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Oversight Intensifies</title>
       <link>https://newsanarchist.com/articles/2026-06-30-oversight-intensifies</link>
@@ -489,18 +501,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Mine Collapse</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-myanmar-mine-collapse</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-myanmar-mine-collapse</guid>
-      <pubDate>Tue, 30 Jun 2026 09:53:22 GMT</pubDate>
-      <description>Myanmar Mine Collapse</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-myanmar-mine-collapse.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>UAP Orbs Defy Explanation</title>
