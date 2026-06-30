@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 01:46:47 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 01:46:47 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 01:52:17 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 01:52:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Election Amidst Civil War</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-myanmar-election-amidst-civil-war</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-myanmar-election-amidst-civil-war</guid>
+      <pubDate>Tue, 30 Jun 2026 01:49:35 GMT</pubDate>
+      <description>Myanmar Election Amidst Civil War</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-myanmar-election-amidst-civil-war.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>US Gov Sites Raise Trust Concerns</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-trust-concerns</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Mali Fighting Resumes</title>
-      <link>https://newsanarchist.com/articles/2026-06-29-mali-fighting-resumes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-29-mali-fighting-resumes</guid>
-      <pubDate>Mon, 29 Jun 2026 19:46:51 GMT</pubDate>
-      <description>Mali Fighting Resumes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-29-mali-fighting-resumes.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
