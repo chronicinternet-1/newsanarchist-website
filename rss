@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 22:44:05 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 22:44:05 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 22:49:35 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 22:49:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Protects Phone Data</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-scotus-protects-phone-data</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-scotus-protects-phone-data</guid>
+      <pubDate>Tue, 30 Jun 2026 22:45:36 GMT</pubDate>
+      <description>SCOTUS Protects Phone Data</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-scotus-protects-phone-data.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Newsom Expands Judicial Power</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-newsom-expands-judicial-power</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-newsom-expands-judicial-power</guid>
+      <pubDate>Tue, 30 Jun 2026 22:45:20 GMT</pubDate>
+      <description>Newsom Expands Judicial Power</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-newsom-expands-judicial-power.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Experiencers Gain Voice</title>
       <link>https://newsanarchist.com/articles/2026-06-30-experiencers-gain-voice</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>UAP Disclosure Accelerates</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uap-disclosure-accelerates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-disclosure-accelerates</guid>
-      <pubDate>Tue, 30 Jun 2026 16:37:04 GMT</pubDate>
-      <description>UAP Disclosure Accelerates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-disclosure-accelerates.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>RAM Makers Sued Again</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-ram-makers-sued-again</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ram-makers-sued-again</guid>
-      <pubDate>Tue, 30 Jun 2026 16:27:41 GMT</pubDate>
-      <description>RAM Makers Sued Again</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ram-makers-sued-again.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
