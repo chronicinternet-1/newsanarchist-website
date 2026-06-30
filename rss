@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:51:22 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 19:51:22 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 19:56:51 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 19:56:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>HHS Fraud Funding Suspended</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-hhs-fraud-funding-suspended</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hhs-fraud-funding-suspended</guid>
+      <pubDate>Tue, 30 Jun 2026 19:52:26 GMT</pubDate>
+      <description>HHS Fraud Funding Suspended</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hhs-fraud-funding-suspended.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Crypto Firms Face New UK Rules</title>
       <link>https://newsanarchist.com/articles/2026-06-30-crypto-firms-face-new-uk-rules</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FBI News</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-fbi-news</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-fbi-news</guid>
-      <pubDate>Tue, 30 Jun 2026 13:49:34 GMT</pubDate>
-      <description>FBI News</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-fbi-news.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
