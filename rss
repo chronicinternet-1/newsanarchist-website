@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 15:38:26 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 15:38:26 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 15:43:56 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 15:43:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NSA Approval Pending</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-nsa-approval-pending</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nsa-approval-pending</guid>
+      <pubDate>Tue, 30 Jun 2026 15:42:18 GMT</pubDate>
+      <description>NSA Approval Pending</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nsa-approval-pending.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Exoneration Payments</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-exoneration-payments</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-exoneration-payments</guid>
+      <pubDate>Tue, 30 Jun 2026 15:41:50 GMT</pubDate>
+      <description>Exoneration Payments</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-exoneration-payments.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness Redefined Again</title>
       <link>https://newsanarchist.com/articles/2026-06-30-consciousness-redefined-again</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Nigeria Refinery Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-nigeria-refinery-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-nigeria-refinery-fraud</guid>
-      <pubDate>Tue, 30 Jun 2026 09:00:27 GMT</pubDate>
-      <description>Nigeria Refinery Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-nigeria-refinery-fraud.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Sudan Nears Catastrophe</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-sudan-nears-catastrophe</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-sudan-nears-catastrophe</guid>
-      <pubDate>Tue, 30 Jun 2026 08:52:49 GMT</pubDate>
-      <description>Sudan Nears Catastrophe</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-sudan-nears-catastrophe.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
