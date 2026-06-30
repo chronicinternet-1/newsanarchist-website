@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:44:48 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 07:44:48 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 07:50:34 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 07:50:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Labor Dept IG Probe</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-labor-dept-ig-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-labor-dept-ig-probe</guid>
+      <pubDate>Tue, 30 Jun 2026 07:46:35 GMT</pubDate>
+      <description>Labor Dept IG Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-labor-dept-ig-probe.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacks Surge</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-defi-hacks-surge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-defi-hacks-surge</guid>
+      <pubDate>Tue, 30 Jun 2026 07:45:03 GMT</pubDate>
+      <description>DeFi Hacks Surge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-defi-hacks-surge.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Iran Sanctions Eased</title>
       <link>https://newsanarchist.com/articles/2026-06-30-iran-sanctions-eased</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Guo Wengui Gets 30 Years</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-guo-wengui-gets-30-years</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-guo-wengui-gets-30-years</guid>
-      <pubDate>Tue, 30 Jun 2026 02:21:05 GMT</pubDate>
-      <description>Guo Wengui Gets 30 Years</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-guo-wengui-gets-30-years.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>報道機関トップの政府会議参加</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-kenji-mori-mr001zxx</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-kenji-mori-mr001zxx</guid>
-      <pubDate>Tue, 30 Jun 2026 02:00:26 GMT</pubDate>
-      <description>報道機関トップの政府会議参加</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-kenji-mori-mr001zxx.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
