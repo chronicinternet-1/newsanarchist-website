@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:29:04 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 12:29:04 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 12:39:33 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 12:39:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Conscious Minds Beyond</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-conscious-minds-beyond</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-conscious-minds-beyond</guid>
+      <pubDate>Tue, 30 Jun 2026 12:35:13 GMT</pubDate>
+      <description>Conscious Minds Beyond</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-conscious-minds-beyond.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-hospice-fraud-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-hospice-fraud-scheme</guid>
+      <pubDate>Tue, 30 Jun 2026 12:34:41 GMT</pubDate>
+      <description>Hospice Fraud Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-hospice-fraud-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Tech Fuels Scams</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-scams</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Local Police Get ICE Facial Recognition</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-local-police-get-ice-facial-recognition</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-local-police-get-ice-facial-recognition</guid>
-      <pubDate>Tue, 30 Jun 2026 06:38:07 GMT</pubDate>
-      <description>Local Police Get ICE Facial Recognition</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-local-police-get-ice-facial-recognition.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>ACLU Hails SCOTUS Ruling</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-aclu-hails-scotus-ruling</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-aclu-hails-scotus-ruling</guid>
-      <pubDate>Tue, 30 Jun 2026 06:37:53 GMT</pubDate>
-      <description>ACLU Hails SCOTUS Ruling</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-aclu-hails-scotus-ruling.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
