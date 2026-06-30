@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 16:58:16 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 16:58:16 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 17:28:47 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 17:28:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Tech Fuels Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-tech-fuels-fraud</guid>
+      <pubDate>Tue, 30 Jun 2026 17:28:08 GMT</pubDate>
+      <description>US Tech Fuels Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-tech-fuels-fraud.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>US Counts On Advances</title>
       <link>https://newsanarchist.com/articles/2026-06-30-us-counts-on-advances</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Hacks Surge</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-defi-hacks-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-defi-hacks-surge</guid>
-      <pubDate>Tue, 30 Jun 2026 10:46:28 GMT</pubDate>
-      <description>DeFi Hacks Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-defi-hacks-surge.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
