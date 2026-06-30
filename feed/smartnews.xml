@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Jun 2026 20:43:24 GMT</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 20:43:24 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 20:48:57 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 20:48:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS Cybersecurity</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-dhs-cybersecurity</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-dhs-cybersecurity</guid>
+      <pubDate>Tue, 30 Jun 2026 20:44:42 GMT</pubDate>
+      <description>DHS Cybersecurity</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-dhs-cybersecurity.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Ex-Cops On Trial</title>
+      <link>https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</guid>
+      <pubDate>Tue, 30 Jun 2026 20:44:27 GMT</pubDate>
+      <description>Ex-Cops On Trial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ex-cops-on-trial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Govt Remote Views Ark</title>
       <link>https://newsanarchist.com/articles/2026-06-30-govt-remote-views-ark</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Rape Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-rape-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-rape-crisis</guid>
-      <pubDate>Tue, 30 Jun 2026 14:41:21 GMT</pubDate>
-      <description>Rape Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-rape-crisis.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Marxist Billionaire Probed</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-marxist-billionaire-probed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-marxist-billionaire-probed</guid>
-      <pubDate>Tue, 30 Jun 2026 14:35:41 GMT</pubDate>
-      <description>Marxist Billionaire Probed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-marxist-billionaire-probed.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
