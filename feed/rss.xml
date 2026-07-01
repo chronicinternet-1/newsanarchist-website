@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 11:06:06 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 11:06:06 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 11:36:37 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 11:36:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Egg Producers Sued</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-egg-producers-sued</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-egg-producers-sued</guid>
+      <pubDate>Wed, 01 Jul 2026 11:36:11 GMT</pubDate>
+      <description>Egg Producers Sued</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-egg-producers-sued.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan War Targets Civilians</title>
       <link>https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Redefined</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-consciousness-redefined</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-consciousness-redefined</guid>
-      <pubDate>Wed, 01 Jul 2026 05:43:12 GMT</pubDate>
-      <description>Consciousness Redefined</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-consciousness-redefined.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
