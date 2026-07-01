@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 16:41:45 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 16:41:45 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 16:52:17 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 16:52:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$6.5B Fraud Takedown</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-65b-fraud-takedown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-65b-fraud-takedown</guid>
+      <pubDate>Wed, 01 Jul 2026 16:48:19 GMT</pubDate>
+      <description>$6.5B Fraud Takedown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-65b-fraud-takedown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Beyond Brains</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-consciousness-beyond-brains</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-consciousness-beyond-brains</guid>
+      <pubDate>Wed, 01 Jul 2026 16:48:01 GMT</pubDate>
+      <description>Consciousness Beyond Brains</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-consciousness-beyond-brains.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>DRAM Makers Face Suit</title>
       <link>https://newsanarchist.com/articles/2026-07-01-dram-makers-face-suit</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Elizondo Warns of UAP Plot</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-elizondo-warns-of-uap-plot</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-elizondo-warns-of-uap-plot</guid>
-      <pubDate>Wed, 01 Jul 2026 10:45:32 GMT</pubDate>
-      <description>Elizondo Warns of UAP Plot</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-elizondo-warns-of-uap-plot.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$49.6M Medicaid Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-496m-medicaid-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-496m-medicaid-fraud</guid>
-      <pubDate>Wed, 01 Jul 2026 10:45:22 GMT</pubDate>
-      <description>$49.6M Medicaid Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-496m-medicaid-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
