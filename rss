@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 17:55:35 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 17:55:35 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 18:01:21 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 18:01:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Qatar Hosts US-Iran Talks</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-qatar-hosts-us-iran-talks</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-qatar-hosts-us-iran-talks</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:09 GMT</pubDate>
+      <description>Qatar Hosts US-Iran Talks</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-qatar-hosts-us-iran-talks.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>India Blocks WhatsApp Feature</title>
       <link>https://newsanarchist.com/articles/2026-07-01-india-blocks-whatsapp-feature</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar War Toll Mounts</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-myanmar-war-toll-mounts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-myanmar-war-toll-mounts</guid>
-      <pubDate>Wed, 01 Jul 2026 12:06:20 GMT</pubDate>
-      <description>Myanmar War Toll Mounts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-myanmar-war-toll-mounts.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
