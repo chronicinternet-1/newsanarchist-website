@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 02:35:10 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 02:35:10 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 02:45:40 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 02:45:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>MKUltra Declassified</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-mkultra-declassified</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-mkultra-declassified</guid>
+      <pubDate>Wed, 01 Jul 2026 02:41:48 GMT</pubDate>
+      <description>MKUltra Declassified</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-mkultra-declassified.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Nurse Charged</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-nurse-charged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-nurse-charged</guid>
+      <pubDate>Wed, 01 Jul 2026 02:41:26 GMT</pubDate>
+      <description>Nurse Charged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-nurse-charged.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Tech Aids Scams</title>
       <link>https://newsanarchist.com/articles/2026-07-01-us-tech-aids-scams</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>DHS Cybersecurity</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-dhs-cybersecurity</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-dhs-cybersecurity</guid>
-      <pubDate>Tue, 30 Jun 2026 20:44:42 GMT</pubDate>
-      <description>DHS Cybersecurity</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-dhs-cybersecurity.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Ex-Cops On Trial</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-ex-cops-on-trial</guid>
-      <pubDate>Tue, 30 Jun 2026 20:44:27 GMT</pubDate>
-      <description>Ex-Cops On Trial</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-ex-cops-on-trial.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
