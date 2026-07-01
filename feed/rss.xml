@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 01:36:57 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 01:36:57 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 01:42:38 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 01:42:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Whistleblower Threatened</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-uap-whistleblower-threatened</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-uap-whistleblower-threatened</guid>
+      <pubDate>Wed, 01 Jul 2026 01:41:20 GMT</pubDate>
+      <description>UAP Whistleblower Threatened</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-uap-whistleblower-threatened.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>DOJ Charges 455</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-doj-charges-455</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-doj-charges-455</guid>
+      <pubDate>Wed, 01 Jul 2026 01:40:57 GMT</pubDate>
+      <description>DOJ Charges 455</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-doj-charges-455.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>DRAM Makers Sued</title>
       <link>https://newsanarchist.com/articles/2026-07-01-dram-makers-sued</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Rape Crisis Unresolved</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-rape-crisis-unresolved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-rape-crisis-unresolved</guid>
-      <pubDate>Tue, 30 Jun 2026 19:43:59 GMT</pubDate>
-      <description>Rape Crisis Unresolved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-rape-crisis-unresolved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>UAP Disclosure</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uap-disclosure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-disclosure</guid>
-      <pubDate>Tue, 30 Jun 2026 19:38:34 GMT</pubDate>
-      <description>UAP Disclosure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-disclosure.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
