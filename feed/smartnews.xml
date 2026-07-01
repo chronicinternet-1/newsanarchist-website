@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:03:39 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 00:03:39 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:34:15 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 00:34:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FCC Chair Reacts</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-fcc-chair-reacts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-fcc-chair-reacts</guid>
+      <pubDate>Wed, 01 Jul 2026 00:31:28 GMT</pubDate>
+      <description>FCC Chair Reacts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-fcc-chair-reacts.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Strait Tensions Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-01-taiwan-strait-tensions-rise</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Iran Talks Resume</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-iran-talks-resume</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-iran-talks-resume</guid>
-      <pubDate>Tue, 30 Jun 2026 17:48:05 GMT</pubDate>
-      <description>Iran Talks Resume</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-iran-talks-resume.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
