@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 04:00:11 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 04:00:11 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:05:43 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 04:05:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Pressures Japan</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-china-pressures-japan</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-china-pressures-japan</guid>
+      <pubDate>Wed, 01 Jul 2026 04:02:32 GMT</pubDate>
+      <description>China Pressures Japan</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-china-pressures-japan.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>IAS Officer Accused</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-ias-officer-accused</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-ias-officer-accused</guid>
+      <pubDate>Wed, 01 Jul 2026 04:00:27 GMT</pubDate>
+      <description>IAS Officer Accused</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-ias-officer-accused.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Fauci Grilled</title>
       <link>https://newsanarchist.com/articles/2026-07-01-fauci-grilled</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SCOTUS Protects Phone Data</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-scotus-protects-phone-data</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-scotus-protects-phone-data</guid>
-      <pubDate>Tue, 30 Jun 2026 22:45:36 GMT</pubDate>
-      <description>SCOTUS Protects Phone Data</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-scotus-protects-phone-data.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Experiencers Gain Voice</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-experiencers-gain-voice</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-experiencers-gain-voice</guid>
-      <pubDate>Tue, 30 Jun 2026 22:39:58 GMT</pubDate>
-      <description>Experiencers Gain Voice</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-experiencers-gain-voice.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
