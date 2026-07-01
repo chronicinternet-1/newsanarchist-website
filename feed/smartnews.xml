@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 04:46:45 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 04:46:45 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:52:18 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 04:52:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Safety Hits 100k Cameras</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-flock-safety-hits-100k-cameras</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-flock-safety-hits-100k-cameras</guid>
+      <pubDate>Wed, 01 Jul 2026 04:48:25 GMT</pubDate>
+      <description>Flock Safety Hits 100k Cameras</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-flock-safety-hits-100k-cameras.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Exoneree Compensation</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-exoneree-compensation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-exoneree-compensation</guid>
+      <pubDate>Wed, 01 Jul 2026 04:48:10 GMT</pubDate>
+      <description>Exoneree Compensation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-exoneree-compensation.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Elizondo Warned</title>
       <link>https://newsanarchist.com/articles/2026-07-01-elizondo-warned</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Australia Blocks China</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-australia-blocks-china</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-australia-blocks-china</guid>
-      <pubDate>Tue, 30 Jun 2026 23:00:25 GMT</pubDate>
-      <description>Australia Blocks China</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-australia-blocks-china.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Mine Disaster</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-myanmar-mine-disaster</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-myanmar-mine-disaster</guid>
-      <pubDate>Tue, 30 Jun 2026 22:59:52 GMT</pubDate>
-      <description>Myanmar Mine Disaster</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-myanmar-mine-disaster.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
