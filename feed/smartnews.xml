@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:53:39 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 13:53:39 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:59:12 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 13:59:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Lifts Sanctions on Indian Firms</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-us-lifts-sanctions-on-indian-firms</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-lifts-sanctions-on-indian-firms</guid>
+      <pubDate>Wed, 01 Jul 2026 13:57:54 GMT</pubDate>
+      <description>US Lifts Sanctions on Indian Firms</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-lifts-sanctions-on-indian-firms.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>US Law Expired</title>
       <link>https://newsanarchist.com/articles/2026-07-01-us-law-expired</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Fed Probe Continues</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-fed-probe-continues</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-fed-probe-continues</guid>
-      <pubDate>Wed, 01 Jul 2026 07:58:19 GMT</pubDate>
-      <description>Fed Probe Continues</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-fed-probe-continues.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
