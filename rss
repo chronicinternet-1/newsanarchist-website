@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:07:59 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 15:07:59 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:38:32 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 15:38:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Markets Vulnerable</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-us-markets-vulnerable</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-markets-vulnerable</guid>
+      <pubDate>Wed, 01 Jul 2026 15:38:04 GMT</pubDate>
+      <description>US Markets Vulnerable</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-markets-vulnerable.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Speeds PLA Modernisation</title>
       <link>https://newsanarchist.com/articles/2026-07-01-china-speeds-pla-modernisation</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Brain</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-consciousness-beyond-brain</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-consciousness-beyond-brain</guid>
-      <pubDate>Wed, 01 Jul 2026 09:45:03 GMT</pubDate>
-      <description>Consciousness Beyond Brain</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-consciousness-beyond-brain.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
