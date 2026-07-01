@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 08:53:55 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 08:53:55 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 08:59:27 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 08:59:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Probe Targets Senator</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-doj-probe-targets-senator</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-doj-probe-targets-senator</guid>
+      <pubDate>Wed, 01 Jul 2026 08:58:46 GMT</pubDate>
+      <description>DOJ Probe Targets Senator</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-doj-probe-targets-senator.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>CLARITY Act</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-clarity-act</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-clarity-act</guid>
+      <pubDate>Wed, 01 Jul 2026 08:56:54 GMT</pubDate>
+      <description>CLARITY Act</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-clarity-act.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Geo-Fence Warrants Limited</title>
       <link>https://newsanarchist.com/articles/2026-07-01-geo-fence-warrants-limited</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Panel Probes CIA Secrets</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-oversight-panel-probes-cia-secrets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-oversight-panel-probes-cia-secrets</guid>
-      <pubDate>Wed, 01 Jul 2026 02:55:55 GMT</pubDate>
-      <description>Oversight Panel Probes CIA Secrets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-oversight-panel-probes-cia-secrets.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Cuba Faces Oil Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-cuba-faces-oil-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-cuba-faces-oil-crisis</guid>
-      <pubDate>Wed, 01 Jul 2026 02:52:42 GMT</pubDate>
-      <description>Cuba Faces Oil Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-cuba-faces-oil-crisis.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
