@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 05:03:20 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 05:03:20 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 05:33:55 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 05:33:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Merrill Lynch Fined</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-merrill-lynch-fined</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-merrill-lynch-fined</guid>
+      <pubDate>Wed, 01 Jul 2026 05:33:46 GMT</pubDate>
+      <description>Merrill Lynch Fined</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-merrill-lynch-fined.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan War Encircles City</title>
       <link>https://newsanarchist.com/articles/2026-07-01-sudan-war-encircles-city</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US Intensifies Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-us-intensifies-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-intensifies-sanctions</guid>
-      <pubDate>Tue, 30 Jun 2026 23:51:03 GMT</pubDate>
-      <description>US Intensifies Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-intensifies-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
