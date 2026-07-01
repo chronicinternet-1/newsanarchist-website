@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-01-taiwan-detects-rise</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-01T19:09:46.312Z</news:publication_date>
+      <news:title>Taiwan Detects Rise</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-01-fed-vice-chair-faces-probe</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -334,14 +342,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T14:37:34.830Z</news:publication_date>
       <news:title>Egg Producers Manipulate Prices</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-01-taiwan-detects-rise</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-01T14:07:21.291Z</news:publication_date>
-      <news:title>Taiwan Detects Rise</news:title>
     </news:news>
   </url>
   <url>
@@ -2670,38 +2670,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T19:11:07.663Z</news:publication_date>
       <news:title>Ukraine Drone Strikes Refinery</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-scotus-rules-on-location-data</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T19:10:15.255Z</news:publication_date>
-      <news:title>SCOTUS Rules On Location Data</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-sanofi-faces-eu-probe</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T19:09:46.229Z</news:publication_date>
-      <news:title>Sanofi Faces EU Probe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-iran-war-escalation</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T19:09:32.176Z</news:publication_date>
-      <news:title>Iran War Escalation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-29-iran-retaliates</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-29T19:09:15.541Z</news:publication_date>
-      <news:title>Iran Retaliates</news:title>
     </news:news>
   </url>
 </urlset>
