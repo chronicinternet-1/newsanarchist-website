@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 10:39:04 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 10:39:04 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 10:49:34 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 10:49:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Elizondo Warns of UAP Plot</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-elizondo-warns-of-uap-plot</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-elizondo-warns-of-uap-plot</guid>
+      <pubDate>Wed, 01 Jul 2026 10:45:32 GMT</pubDate>
+      <description>Elizondo Warns of UAP Plot</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-elizondo-warns-of-uap-plot.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>$49.6M Medicaid Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-496m-medicaid-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-496m-medicaid-fraud</guid>
+      <pubDate>Wed, 01 Jul 2026 10:45:22 GMT</pubDate>
+      <description>$49.6M Medicaid Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-496m-medicaid-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Tata Electronics Probes Leak</title>
       <link>https://newsanarchist.com/articles/2026-07-01-tata-electronics-probes-leak</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Peru Shifts Right</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-peru-shifts-right</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-peru-shifts-right</guid>
-      <pubDate>Wed, 01 Jul 2026 04:53:36 GMT</pubDate>
-      <description>Peru Shifts Right</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-peru-shifts-right.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Flock Safety Hits 100k Cameras</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-flock-safety-hits-100k-cameras</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-flock-safety-hits-100k-cameras</guid>
-      <pubDate>Wed, 01 Jul 2026 04:48:25 GMT</pubDate>
-      <description>Flock Safety Hits 100k Cameras</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-flock-safety-hits-100k-cameras.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
