@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 09:46:33 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 09:46:33 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 09:52:05 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 09:52:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>KIDS Act Passes</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-kids-act-passes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-kids-act-passes</guid>
+      <pubDate>Wed, 01 Jul 2026 09:50:43 GMT</pubDate>
+      <description>KIDS Act Passes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-kids-act-passes.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Nancy Guthrie Case</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-nancy-guthrie-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-nancy-guthrie-case</guid>
+      <pubDate>Wed, 01 Jul 2026 09:50:30 GMT</pubDate>
+      <description>Nancy Guthrie Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-nancy-guthrie-case.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness Beyond Brain</title>
       <link>https://newsanarchist.com/articles/2026-07-01-consciousness-beyond-brain</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Fauci Grilled</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-fauci-grilled</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-fauci-grilled</guid>
-      <pubDate>Wed, 01 Jul 2026 03:56:23 GMT</pubDate>
-      <description>Fauci Grilled</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-fauci-grilled.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UK Crypto Firms Face New Rules</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-uk-crypto-firms-face-new-rules</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-uk-crypto-firms-face-new-rules</guid>
-      <pubDate>Wed, 01 Jul 2026 03:54:36 GMT</pubDate>
-      <description>UK Crypto Firms Face New Rules</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-uk-crypto-firms-face-new-rules.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
