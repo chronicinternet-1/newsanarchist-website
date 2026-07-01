@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:02:28 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 15:02:28 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:07:59 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 15:07:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Speeds PLA Modernisation</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-china-speeds-pla-modernisation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-china-speeds-pla-modernisation</guid>
+      <pubDate>Wed, 01 Jul 2026 15:07:50 GMT</pubDate>
+      <description>China Speeds PLA Modernisation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-china-speeds-pla-modernisation.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Oversight Hearing</title>
       <link>https://newsanarchist.com/articles/2026-07-01-oversight-hearing</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$550K SCDC Bribery</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-550k-scdc-bribery</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-550k-scdc-bribery</guid>
-      <pubDate>Wed, 01 Jul 2026 09:44:49 GMT</pubDate>
-      <description>$550K SCDC Bribery</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-550k-scdc-bribery.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
