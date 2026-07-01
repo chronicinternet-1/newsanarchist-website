@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 12:56:08 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 12:56:08 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:01:39 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 13:01:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Regulation Gains Momentum</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-ai-regulation-gains-momentum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-ai-regulation-gains-momentum</guid>
+      <pubDate>Wed, 01 Jul 2026 13:00:41 GMT</pubDate>
+      <description>AI Regulation Gains Momentum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-ai-regulation-gains-momentum.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacks Evolve</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</guid>
+      <pubDate>Wed, 01 Jul 2026 12:58:43 GMT</pubDate>
+      <description>DeFi Hacks Evolve</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-defi-hacks-evolve.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NATO Reviewing Troop Deployments</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-nato-reviewing-troop-deployments</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-nato-reviewing-troop-deployments</guid>
+      <pubDate>Wed, 01 Jul 2026 12:57:20 GMT</pubDate>
+      <description>NATO Reviewing Troop Deployments</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-nato-reviewing-troop-deployments.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>India Data Bill</title>
       <link>https://newsanarchist.com/articles/2026-07-01-india-data-bill</link>
@@ -527,18 +563,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>DeFi Hacks Evolve</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</guid>
-      <pubDate>Wed, 01 Jul 2026 07:56:25 GMT</pubDate>
-      <description>DeFi Hacks Evolve</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-defi-hacks-evolve.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Putin Admits Problems</title>
       <link>https://newsanarchist.com/articles/2026-07-01-putin-admits-problems</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-putin-admits-problems</guid>
@@ -597,30 +621,6 @@
       <category>Money Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
-    </item>
-    <item>
-      <title>AI Regulation</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-ai-regulation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-ai-regulation</guid>
-      <pubDate>Wed, 01 Jul 2026 06:57:51 GMT</pubDate>
-      <description>AI Regulation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-ai-regulation.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Avi Loeb Leads New UFO Panel</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-avi-loeb-leads-new-ufo-panel</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-avi-loeb-leads-new-ufo-panel</guid>
-      <pubDate>Wed, 01 Jul 2026 06:55:57 GMT</pubDate>
-      <description>Avi Loeb Leads New UFO Panel</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-avi-loeb-leads-new-ufo-panel.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
