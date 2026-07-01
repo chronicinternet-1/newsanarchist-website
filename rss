@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 11:47:11 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 11:47:11 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 11:52:41 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 11:52:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Facial Recognition Misuse</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-facial-recognition-misuse</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-facial-recognition-misuse</guid>
+      <pubDate>Wed, 01 Jul 2026 11:51:39 GMT</pubDate>
+      <description>Facial Recognition Misuse</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-facial-recognition-misuse.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Police Coverup Probe Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-police-coverup-probe-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-police-coverup-probe-expands</guid>
+      <pubDate>Wed, 01 Jul 2026 11:51:25 GMT</pubDate>
+      <description>Police Coverup Probe Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-police-coverup-probe-expands.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Brain Under Anesthesia</title>
       <link>https://newsanarchist.com/articles/2026-07-01-brain-under-anesthesia</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Intensifies on CIA Secrets</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-oversight-intensifies-on-cia-secrets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-oversight-intensifies-on-cia-secrets</guid>
-      <pubDate>Wed, 01 Jul 2026 05:57:21 GMT</pubDate>
-      <description>Oversight Intensifies on CIA Secrets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-oversight-intensifies-on-cia-secrets.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Falls Behind China</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-us-falls-behind-china</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-falls-behind-china</guid>
-      <pubDate>Wed, 01 Jul 2026 05:54:03 GMT</pubDate>
-      <description>US Falls Behind China</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-falls-behind-china.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
