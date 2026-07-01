@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 21:05:46 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 21:05:46 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 21:11:22 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 21:11:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan War Targets Civilians</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</guid>
+      <pubDate>Wed, 01 Jul 2026 21:10:47 GMT</pubDate>
+      <description>Sudan War Targets Civilians</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-sudan-war-targets-civilians.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Luna Demands Transparency</title>
       <link>https://newsanarchist.com/articles/2026-07-01-luna-demands-transparency</link>
@@ -513,18 +525,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan War Targets Civilians</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</guid>
-      <pubDate>Wed, 01 Jul 2026 16:08:19 GMT</pubDate>
-      <description>Sudan War Targets Civilians</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-sudan-war-targets-civilians.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>MKULTRA Transparency</title>
