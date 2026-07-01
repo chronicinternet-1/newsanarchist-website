@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 19:57:00 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 19:57:00 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 20:02:30 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 20:02:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Russia Fines Apple</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-russia-fines-apple</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-russia-fines-apple</guid>
+      <pubDate>Wed, 01 Jul 2026 20:01:06 GMT</pubDate>
+      <description>Russia Fines Apple</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-russia-fines-apple.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Prosecutor Misconduct Probe</title>
       <link>https://newsanarchist.com/articles/2026-07-01-prosecutor-misconduct-probe</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Licensing Trends</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-crypto-licensing-trends</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-crypto-licensing-trends</guid>
-      <pubDate>Wed, 01 Jul 2026 13:59:11 GMT</pubDate>
-      <description>Crypto Licensing Trends</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-crypto-licensing-trends.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
