@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 01:42:38 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 01:42:38 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 01:48:10 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 01:48:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Facial Recognition Evades Masks</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-facial-recognition-evades-masks</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-facial-recognition-evades-masks</guid>
+      <pubDate>Wed, 01 Jul 2026 01:47:01 GMT</pubDate>
+      <description>Facial Recognition Evades Masks</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-facial-recognition-evades-masks.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Unusual Clues Solve Crimes</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-unusual-clues-solve-crimes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-unusual-clues-solve-crimes</guid>
+      <pubDate>Wed, 01 Jul 2026 01:46:45 GMT</pubDate>
+      <description>Unusual Clues Solve Crimes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-unusual-clues-solve-crimes.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UAP Whistleblower Threatened</title>
       <link>https://newsanarchist.com/articles/2026-07-01-uap-whistleblower-threatened</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Firms Face New UK Rules</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-crypto-firms-face-new-uk-rules</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-crypto-firms-face-new-uk-rules</guid>
-      <pubDate>Tue, 30 Jun 2026 19:50:47 GMT</pubDate>
-      <description>Crypto Firms Face New UK Rules</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-crypto-firms-face-new-uk-rules.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>EFF Demands Action</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-eff-demands-action</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-eff-demands-action</guid>
-      <pubDate>Tue, 30 Jun 2026 19:44:16 GMT</pubDate>
-      <description>EFF Demands Action</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-eff-demands-action.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
