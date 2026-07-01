@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 01:59:08 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 01:59:08 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 02:04:39 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 02:04:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Airstrike Kills 8</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-myanmar-airstrike-kills-8</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-myanmar-airstrike-kills-8</guid>
+      <pubDate>Wed, 01 Jul 2026 02:01:35 GMT</pubDate>
+      <description>Myanmar Airstrike Kills 8</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-myanmar-airstrike-kills-8.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>福岡県議会の海外視察報告書</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-kenji-mori-mr1fht13</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-kenji-mori-mr1fht13</guid>
+      <pubDate>Wed, 01 Jul 2026 02:00:24 GMT</pubDate>
+      <description>福岡県議会の海外視察報告書</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-kenji-mori-mr1fht13.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Oversight Intensifies on CIA Secrets</title>
       <link>https://newsanarchist.com/articles/2026-07-01-oversight-intensifies-on-cia-secrets</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud $2.5M</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-medicaid-fraud-25m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-medicaid-fraud-25m</guid>
-      <pubDate>Tue, 30 Jun 2026 20:38:35 GMT</pubDate>
-      <description>Medicaid Fraud $2.5M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-medicaid-fraud-25m.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Tata Electronics Probes Leak</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-tata-electronics-probes-leak</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-tata-electronics-probes-leak</guid>
-      <pubDate>Tue, 30 Jun 2026 20:29:32 GMT</pubDate>
-      <description>Tata Electronics Probes Leak</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-tata-electronics-probes-leak.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
