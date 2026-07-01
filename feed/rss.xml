@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 02:04:39 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 02:04:39 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 02:35:10 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 02:35:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Tech Aids Scams</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-us-tech-aids-scams</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-tech-aids-scams</guid>
+      <pubDate>Wed, 01 Jul 2026 02:32:24 GMT</pubDate>
+      <description>US Tech Aids Scams</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-tech-aids-scams.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Airstrike Kills 8</title>
       <link>https://newsanarchist.com/articles/2026-07-01-myanmar-airstrike-kills-8</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Govt Remote Views Ark</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-govt-remote-views-ark</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-govt-remote-views-ark</guid>
-      <pubDate>Tue, 30 Jun 2026 20:39:02 GMT</pubDate>
-      <description>Govt Remote Views Ark</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-govt-remote-views-ark.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
