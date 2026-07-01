@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 07:56:18 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 07:56:18 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 08:01:51 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 08:01:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Watchdog Targets App Fees</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-uk-watchdog-targets-app-fees</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-uk-watchdog-targets-app-fees</guid>
+      <pubDate>Wed, 01 Jul 2026 08:00:26 GMT</pubDate>
+      <description>UK Watchdog Targets App Fees</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-uk-watchdog-targets-app-fees.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Fed Probe Continues</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-fed-probe-continues</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-fed-probe-continues</guid>
+      <pubDate>Wed, 01 Jul 2026 07:58:19 GMT</pubDate>
+      <description>Fed Probe Continues</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-fed-probe-continues.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>DeFi Hacks Evolve</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</guid>
+      <pubDate>Wed, 01 Jul 2026 07:56:25 GMT</pubDate>
+      <description>DeFi Hacks Evolve</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-defi-hacks-evolve.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Putin Admits Problems</title>
       <link>https://newsanarchist.com/articles/2026-07-01-putin-admits-problems</link>
@@ -527,18 +563,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>DeFi Hacks Evolve</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-defi-hacks-evolve</guid>
-      <pubDate>Wed, 01 Jul 2026 02:54:07 GMT</pubDate>
-      <description>DeFi Hacks Evolve</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-defi-hacks-evolve.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Cuba Faces Oil Crisis</title>
       <link>https://newsanarchist.com/articles/2026-07-01-cuba-faces-oil-crisis</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-cuba-faces-oil-crisis</guid>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Tech Aids Scams</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-us-tech-aids-scams</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-tech-aids-scams</guid>
-      <pubDate>Wed, 01 Jul 2026 02:32:24 GMT</pubDate>
-      <description>US Tech Aids Scams</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-tech-aids-scams.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Airstrike Kills 8</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-myanmar-airstrike-kills-8</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-myanmar-airstrike-kills-8</guid>
-      <pubDate>Wed, 01 Jul 2026 02:01:35 GMT</pubDate>
-      <description>Myanmar Airstrike Kills 8</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-myanmar-airstrike-kills-8.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
