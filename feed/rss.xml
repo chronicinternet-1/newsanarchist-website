@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 14:51:21 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 14:51:21 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 14:56:52 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 14:56:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Protects Location Data</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-scotus-protects-location-data</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-scotus-protects-location-data</guid>
+      <pubDate>Wed, 01 Jul 2026 14:53:09 GMT</pubDate>
+      <description>SCOTUS Protects Location Data</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-scotus-protects-location-data.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>ACLU Reports Ongoing Police Abuse</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-aclu-reports-ongoing-police-abuse</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-aclu-reports-ongoing-police-abuse</guid>
+      <pubDate>Wed, 01 Jul 2026 14:53:01 GMT</pubDate>
+      <description>ACLU Reports Ongoing Police Abuse</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-aclu-reports-ongoing-police-abuse.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>CEO Arrested</title>
       <link>https://newsanarchist.com/articles/2026-07-01-ceo-arrested</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Probe Targets Senator</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-doj-probe-targets-senator</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-doj-probe-targets-senator</guid>
-      <pubDate>Wed, 01 Jul 2026 08:58:46 GMT</pubDate>
-      <description>DOJ Probe Targets Senator</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-doj-probe-targets-senator.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-clarity-act</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-clarity-act</guid>
-      <pubDate>Wed, 01 Jul 2026 08:56:54 GMT</pubDate>
-      <description>CLARITY Act</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-clarity-act.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
