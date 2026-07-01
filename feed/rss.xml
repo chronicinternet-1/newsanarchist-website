@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 18:42:58 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 18:42:58 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 18:53:33 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 18:53:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Errors Cost States</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-snap-errors-cost-states</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-snap-errors-cost-states</guid>
+      <pubDate>Wed, 01 Jul 2026 18:49:16 GMT</pubDate>
+      <description>SNAP Errors Cost States</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-snap-errors-cost-states.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>UAP Disclosure Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-uap-disclosure-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-uap-disclosure-expands</guid>
+      <pubDate>Wed, 01 Jul 2026 18:49:03 GMT</pubDate>
+      <description>UAP Disclosure Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-uap-disclosure-expands.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Klarna's Win</title>
       <link>https://newsanarchist.com/articles/2026-07-01-klarnas-win</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Reviewing Troop Deployments</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-nato-reviewing-troop-deployments</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-nato-reviewing-troop-deployments</guid>
-      <pubDate>Wed, 01 Jul 2026 12:57:20 GMT</pubDate>
-      <description>NATO Reviewing Troop Deployments</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-nato-reviewing-troop-deployments.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India Data Bill</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-india-data-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-india-data-bill</guid>
-      <pubDate>Wed, 01 Jul 2026 12:52:06 GMT</pubDate>
-      <description>India Data Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-india-data-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
