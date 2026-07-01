@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 05:50:02 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 05:50:02 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 05:55:31 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 05:55:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Falls Behind China</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-us-falls-behind-china</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-us-falls-behind-china</guid>
+      <pubDate>Wed, 01 Jul 2026 05:54:03 GMT</pubDate>
+      <description>US Falls Behind China</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-falls-behind-china.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>NNSA Cloud Partnership</title>
       <link>https://newsanarchist.com/articles/2026-07-01-nnsa-cloud-partnership</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NY Medicaid Fraud Unit Funding Suspended</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-ny-medicaid-fraud-unit-funding-suspended</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-ny-medicaid-fraud-unit-funding-suspended</guid>
-      <pubDate>Wed, 01 Jul 2026 00:40:28 GMT</pubDate>
-      <description>NY Medicaid Fraud Unit Funding Suspended</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-ny-medicaid-fraud-unit-funding-suspended.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
