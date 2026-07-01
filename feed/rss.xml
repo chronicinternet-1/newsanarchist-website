@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 10:49:34 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 10:49:34 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 10:55:06 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 10:55:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NSA Cybersecurity</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-nsa-cybersecurity</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-nsa-cybersecurity</guid>
+      <pubDate>Wed, 01 Jul 2026 10:51:10 GMT</pubDate>
+      <description>NSA Cybersecurity</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-nsa-cybersecurity.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>ACLU Reports Police Violence</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-aclu-reports-police-violence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-aclu-reports-police-violence</guid>
+      <pubDate>Wed, 01 Jul 2026 10:50:58 GMT</pubDate>
+      <description>ACLU Reports Police Violence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-aclu-reports-police-violence.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Elizondo Warns of UAP Plot</title>
       <link>https://newsanarchist.com/articles/2026-07-01-elizondo-warns-of-uap-plot</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>MKULTRA Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-mkultra-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-mkultra-transparency</guid>
-      <pubDate>Wed, 01 Jul 2026 04:56:53 GMT</pubDate>
-      <description>MKULTRA Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-mkultra-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Avi Loeb Hunts Alien Tech</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-avi-loeb-hunts-alien-tech</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-avi-loeb-hunts-alien-tech</guid>
-      <pubDate>Wed, 01 Jul 2026 04:55:07 GMT</pubDate>
-      <description>Avi Loeb Hunts Alien Tech</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-avi-loeb-hunts-alien-tech.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
