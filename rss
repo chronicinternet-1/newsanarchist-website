@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 03:43:32 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 03:43:32 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:49:02 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 03:49:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Limits Geo-Fence</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-scotus-limits-geo-fence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-scotus-limits-geo-fence</guid>
+      <pubDate>Wed, 01 Jul 2026 03:47:58 GMT</pubDate>
+      <description>SCOTUS Limits Geo-Fence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-scotus-limits-geo-fence.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Rape Exoneree Seeks Justice</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-rape-exoneree-seeks-justice</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-rape-exoneree-seeks-justice</guid>
+      <pubDate>Wed, 01 Jul 2026 03:47:41 GMT</pubDate>
+      <description>Rape Exoneree Seeks Justice</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-rape-exoneree-seeks-justice.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness Redefined</title>
       <link>https://newsanarchist.com/articles/2026-07-01-consciousness-redefined</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Sites Raise Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-us-gov-sites-raise-surveillance</guid>
-      <pubDate>Tue, 30 Jun 2026 21:53:21 GMT</pubDate>
-      <description>US Gov Sites Raise Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-us-gov-sites-raise-surveillance.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UAP Orbs Baffle Officials</title>
-      <link>https://newsanarchist.com/articles/2026-06-30-uap-orbs-baffle-officials</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-06-30-uap-orbs-baffle-officials</guid>
-      <pubDate>Tue, 30 Jun 2026 21:51:43 GMT</pubDate>
-      <description>UAP Orbs Baffle Officials</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-06-30-uap-orbs-baffle-officials.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
