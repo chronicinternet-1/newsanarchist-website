@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 18:01:21 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 18:01:21 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 18:06:56 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 18:06:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Sparks Speculation</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-trump-sparks-speculation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-trump-sparks-speculation</guid>
+      <pubDate>Wed, 01 Jul 2026 18:03:21 GMT</pubDate>
+      <description>Trump Sparks Speculation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-trump-sparks-speculation.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Crypto Regulation Shifts</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-crypto-regulation-shifts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-crypto-regulation-shifts</guid>
+      <pubDate>Wed, 01 Jul 2026 18:01:11 GMT</pubDate>
+      <description>Crypto Regulation Shifts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-crypto-regulation-shifts.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Qatar Hosts US-Iran Talks</title>
       <link>https://newsanarchist.com/articles/2026-07-01-qatar-hosts-us-iran-talks</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Hits $27.7M</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-hospice-fraud-hits-277m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-hospice-fraud-hits-277m</guid>
-      <pubDate>Wed, 01 Jul 2026 12:46:27 GMT</pubDate>
-      <description>Hospice Fraud Hits $27.7M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-hospice-fraud-hits-277m.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Zillow Faces Fraud Lawsuit</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-zillow-faces-fraud-lawsuit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-zillow-faces-fraud-lawsuit</guid>
-      <pubDate>Wed, 01 Jul 2026 12:36:39 GMT</pubDate>
-      <description>Zillow Faces Fraud Lawsuit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-zillow-faces-fraud-lawsuit.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
