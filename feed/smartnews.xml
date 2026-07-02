@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 09:18:48 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 09:18:48 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 09:49:33 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 09:49:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEBI Cracks Rs 144Cr Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-sebi-cracks-rs-144cr-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-sebi-cracks-rs-144cr-scheme</guid>
+      <pubDate>Thu, 02 Jul 2026 09:46:55 GMT</pubDate>
+      <description>SEBI Cracks Rs 144Cr Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-sebi-cracks-rs-144cr-scheme.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Detects Chinese Jets</title>
       <link>https://newsanarchist.com/articles/2026-07-02-taiwan-detects-chinese-jets</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>EU Cuts Russian Gas</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-eu-cuts-russian-gas</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-eu-cuts-russian-gas</guid>
-      <pubDate>Thu, 02 Jul 2026 04:05:03 GMT</pubDate>
-      <description>EU Cuts Russian Gas</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-eu-cuts-russian-gas.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
