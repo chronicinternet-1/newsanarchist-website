@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 15:01:18 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 15:01:18 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 15:07:13 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 15:07:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Rules On Geofencing</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-scotus-rules-on-geofencing</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-scotus-rules-on-geofencing</guid>
+      <pubDate>Thu, 02 Jul 2026 15:04:57 GMT</pubDate>
+      <description>SCOTUS Rules On Geofencing</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-scotus-rules-on-geofencing.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Prosecutor Misconduct Probe</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-prosecutor-misconduct-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-prosecutor-misconduct-probe</guid>
+      <pubDate>Thu, 02 Jul 2026 15:04:40 GMT</pubDate>
+      <description>Prosecutor Misconduct Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-prosecutor-misconduct-probe.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>MKULTRA Warning Renewed</title>
       <link>https://newsanarchist.com/articles/2026-07-02-mkultra-warning-renewed</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects Chinese Jets</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-taiwan-detects-chinese-jets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-taiwan-detects-chinese-jets</guid>
-      <pubDate>Thu, 02 Jul 2026 09:16:42 GMT</pubDate>
-      <description>Taiwan Detects Chinese Jets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-taiwan-detects-chinese-jets.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Luna Demands MKULTRA Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-luna-demands-mkultra-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-luna-demands-mkultra-transparency</guid>
-      <pubDate>Thu, 02 Jul 2026 09:11:13 GMT</pubDate>
-      <description>Luna Demands MKULTRA Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-luna-demands-mkultra-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
