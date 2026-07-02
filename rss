@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 03:54:50 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 03:54:50 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 04:00:48 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 04:00:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FISA 702 Expires</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-fisa-702-expires</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-fisa-702-expires</guid>
+      <pubDate>Thu, 02 Jul 2026 03:59:25 GMT</pubDate>
+      <description>FISA 702 Expires</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-fisa-702-expires.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Chicago Reviews 1,000 Cases</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-chicago-reviews-1000-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-chicago-reviews-1000-cases</guid>
+      <pubDate>Thu, 02 Jul 2026 03:59:24 GMT</pubDate>
+      <description>Chicago Reviews 1,000 Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-chicago-reviews-1000-cases.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Pentagon Releases UFO Files</title>
       <link>https://newsanarchist.com/articles/2026-07-02-pentagon-releases-ufo-files</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Toll Exceeds 100k</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-myanmar-toll-exceeds-100k</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-myanmar-toll-exceeds-100k</guid>
-      <pubDate>Wed, 01 Jul 2026 22:11:15 GMT</pubDate>
-      <description>Myanmar Toll Exceeds 100k</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-myanmar-toll-exceeds-100k.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>CIA MKULTRA Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-cia-mkultra-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-cia-mkultra-transparency</guid>
-      <pubDate>Wed, 01 Jul 2026 22:05:33 GMT</pubDate>
-      <description>CIA MKULTRA Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-cia-mkultra-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
