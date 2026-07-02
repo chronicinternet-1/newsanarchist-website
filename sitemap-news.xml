@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-02-ftc-targets-deceptive-subscriptions</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-02T13:48:50.341Z</news:publication_date>
+      <news:title>FTC Targets Deceptive Subscriptions</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-mali-war-escalates</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -326,14 +334,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-02T08:56:16.248Z</news:publication_date>
       <news:title>SNAP Errors Cost States</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-02-ftc-targets-deceptive-subscriptions</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-02T08:46:25.789Z</news:publication_date>
-      <news:title>FTC Targets Deceptive Subscriptions</news:title>
     </news:news>
   </url>
   <url>
@@ -2718,38 +2718,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
       <news:publication_date>2026-06-30T14:00:35.672Z</news:publication_date>
       <news:title>Brasil sob Tensão Geopolítica</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-fbi-news</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T13:49:34.259Z</news:publication_date>
-      <news:title>FBI News</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-sec-wins-55m-judgment</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T13:47:55.104Z</news:publication_date>
-      <news:title>SEC Wins $5.5M Judgment</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-pune-rape-murder</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T13:40:48.415Z</news:publication_date>
-      <news:title>Pune Rape-Murder</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-06-30-ftc-power-shift</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-30T13:26:11.974Z</news:publication_date>
-      <news:title>FTC Power Shift</news:title>
     </news:news>
   </url>
 </urlset>
