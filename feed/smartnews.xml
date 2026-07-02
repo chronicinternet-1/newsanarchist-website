@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 04:17:28 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 04:17:28 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 04:47:59 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 04:47:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Genius Group Faces Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-genius-group-faces-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-genius-group-faces-lawsuit</guid>
+      <pubDate>Thu, 02 Jul 2026 04:44:29 GMT</pubDate>
+      <description>Genius Group Faces Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-genius-group-faces-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Ups Pressure</title>
       <link>https://newsanarchist.com/articles/2026-07-02-china-ups-pressure</link>
@@ -606,18 +618,6 @@
       <description>US Seeks To End Iran Tolls</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-us-seeks-to-end-iran-tolls.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Australia Leads Pacific Aid</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-australia-leads-pacific-aid</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-australia-leads-pacific-aid</guid>
-      <pubDate>Wed, 01 Jul 2026 23:00:25 GMT</pubDate>
-      <description>Australia Leads Pacific Aid</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-australia-leads-pacific-aid.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
