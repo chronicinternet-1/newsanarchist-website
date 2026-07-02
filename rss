@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 20:15:18 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 20:15:18 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 20:20:54 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 20:20:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FOIA Reform Urged Again</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-foia-reform-urged-again</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-foia-reform-urged-again</guid>
+      <pubDate>Thu, 02 Jul 2026 20:17:14 GMT</pubDate>
+      <description>FOIA Reform Urged Again</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-foia-reform-urged-again.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UFO Transparency Gains Momentum</title>
       <link>https://newsanarchist.com/articles/2026-07-02-ufo-transparency-gains-momentum</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SCDC Bribery Scheme</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-scdc-bribery-scheme</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-scdc-bribery-scheme</guid>
-      <pubDate>Thu, 02 Jul 2026 14:59:13 GMT</pubDate>
-      <description>SCDC Bribery Scheme</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-scdc-bribery-scheme.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
