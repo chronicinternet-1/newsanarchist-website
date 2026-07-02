@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 Jul 2026 23:54:47 GMT</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 23:54:47 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:00:27 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 00:00:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ATF Drops Surveillance Tool</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-atf-drops-surveillance-tool</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-atf-drops-surveillance-tool</guid>
+      <pubDate>Wed, 01 Jul 2026 23:57:27 GMT</pubDate>
+      <description>ATF Drops Surveillance Tool</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-atf-drops-surveillance-tool.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Prosecutor Misconduct Review</title>
+      <link>https://newsanarchist.com/articles/2026-07-01-prosecutor-misconduct-review</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-prosecutor-misconduct-review</guid>
+      <pubDate>Wed, 01 Jul 2026 23:57:27 GMT</pubDate>
+      <description>Prosecutor Misconduct Review</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-prosecutor-misconduct-review.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Overstated</title>
       <link>https://newsanarchist.com/articles/2026-07-01-snap-fraud-overstated</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India Blocks WhatsApp Feature</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-india-blocks-whatsapp-feature</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-india-blocks-whatsapp-feature</guid>
-      <pubDate>Wed, 01 Jul 2026 17:54:34 GMT</pubDate>
-      <description>India Blocks WhatsApp Feature</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-india-blocks-whatsapp-feature.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Triple Homicide Suspect</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-triple-homicide-suspect</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-triple-homicide-suspect</guid>
-      <pubDate>Wed, 01 Jul 2026 17:54:25 GMT</pubDate>
-      <description>Triple Homicide Suspect</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-triple-homicide-suspect.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
