@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 22:05:19 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 22:05:19 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 22:10:53 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 22:10:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>India Data Bill Update</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-india-data-bill-update</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-india-data-bill-update</guid>
+      <pubDate>Thu, 02 Jul 2026 22:08:13 GMT</pubDate>
+      <description>India Data Bill Update</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-india-data-bill-update.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>CA Crime Rates Drop</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-ca-crime-rates-drop</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-ca-crime-rates-drop</guid>
+      <pubDate>Thu, 02 Jul 2026 22:08:01 GMT</pubDate>
+      <description>CA Crime Rates Drop</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-ca-crime-rates-drop.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Avi Loeb Hunts UAP Truth</title>
       <link>https://newsanarchist.com/articles/2026-07-02-avi-loeb-hunts-uap-truth</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>US Deploys Weapons</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-us-deploys-weapons</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-us-deploys-weapons</guid>
-      <pubDate>Thu, 02 Jul 2026 16:20:29 GMT</pubDate>
-      <description>US Deploys Weapons</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-us-deploys-weapons.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Trump Task Force Gathers Intel</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-trump-task-force-gathers-intel</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-trump-task-force-gathers-intel</guid>
-      <pubDate>Thu, 02 Jul 2026 16:15:19 GMT</pubDate>
-      <description>Trump Task Force Gathers Intel</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-trump-task-force-gathers-intel.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
