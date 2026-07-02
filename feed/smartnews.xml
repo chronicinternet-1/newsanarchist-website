@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 22:58:12 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 22:58:12 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 23:03:45 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 23:03:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Sues States Over SNAP Data</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</guid>
+      <pubDate>Thu, 02 Jul 2026 23:03:05 GMT</pubDate>
+      <description>DOJ Sues States Over SNAP Data</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-doj-sues-states-over-snap-data.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Vanuatu Pact Blocks China</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-vanuatu-pact-blocks-china</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-vanuatu-pact-blocks-china</guid>
+      <pubDate>Thu, 02 Jul 2026 23:00:24 GMT</pubDate>
+      <description>Vanuatu Pact Blocks China</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-vanuatu-pact-blocks-china.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Fraud Costs Passed to Consumers</title>
       <link>https://newsanarchist.com/articles/2026-07-02-fraud-costs-passed-to-consumers</link>
@@ -539,18 +563,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>DOJ Sues States Over SNAP Data</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</guid>
-      <pubDate>Thu, 02 Jul 2026 18:00:42 GMT</pubDate>
-      <description>DOJ Sues States Over SNAP Data</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-doj-sues-states-over-snap-data.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
       <title>Egg Producers Settle</title>
       <link>https://newsanarchist.com/articles/2026-07-02-egg-producers-settle</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-egg-producers-settle</guid>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Monaco Deploys Facial Recognition</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-monaco-deploys-facial-recognition</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-monaco-deploys-facial-recognition</guid>
-      <pubDate>Thu, 02 Jul 2026 17:05:58 GMT</pubDate>
-      <description>Monaco Deploys Facial Recognition</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-monaco-deploys-facial-recognition.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
