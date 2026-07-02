@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 01:59:21 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 01:59:21 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 02:04:54 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 02:04:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran Axis Shifts</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-iran-axis-shifts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-iran-axis-shifts</guid>
+      <pubDate>Thu, 02 Jul 2026 02:04:00 GMT</pubDate>
+      <description>Iran Axis Shifts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-iran-axis-shifts.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>顔認証改札の誤解</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-kenji-mori-mr2uxomd</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-kenji-mori-mr2uxomd</guid>
+      <pubDate>Thu, 02 Jul 2026 02:00:25 GMT</pubDate>
+      <description>顔認証改札の誤解</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-kenji-mori-mr2uxomd.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Nancy Guthrie Case Twist</title>
       <link>https://newsanarchist.com/articles/2026-07-02-nancy-guthrie-case-twist</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Xi Vows Military Boost</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-xi-vows-military-boost</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-xi-vows-military-boost</guid>
-      <pubDate>Wed, 01 Jul 2026 20:10:16 GMT</pubDate>
-      <description>Xi Vows Military Boost</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-xi-vows-military-boost.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>MKULTRA Transparency Hearing</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-mkultra-transparency-hearing</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-mkultra-transparency-hearing</guid>
-      <pubDate>Wed, 01 Jul 2026 20:04:21 GMT</pubDate>
-      <description>MKULTRA Transparency Hearing</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-mkultra-transparency-hearing.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
