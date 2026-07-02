@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:02:16 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 12:02:16 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:07:47 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 12:07:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>LiDAR Regulated</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-lidar-regulated</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-lidar-regulated</guid>
+      <pubDate>Thu, 02 Jul 2026 12:03:30 GMT</pubDate>
+      <description>LiDAR Regulated</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-lidar-regulated.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Weinstein Hospitalized</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-weinstein-hospitalized</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-weinstein-hospitalized</guid>
+      <pubDate>Thu, 02 Jul 2026 12:03:10 GMT</pubDate>
+      <description>Weinstein Hospitalized</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-weinstein-hospitalized.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>MKULTRA Revival Concerns</title>
       <link>https://newsanarchist.com/articles/2026-07-02-mkultra-revival-concerns</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Nurse Gets 10Yrs For $66M Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-nurse-gets-10yrs-for-66m-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-nurse-gets-10yrs-for-66m-fraud</guid>
-      <pubDate>Thu, 02 Jul 2026 06:55:16 GMT</pubDate>
-      <description>Nurse Gets 10Yrs For $66M Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-nurse-gets-10yrs-for-66m-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Egg Producers Settle</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-egg-producers-settle</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-egg-producers-settle</guid>
-      <pubDate>Thu, 02 Jul 2026 06:45:31 GMT</pubDate>
-      <description>Egg Producers Settle</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-egg-producers-settle.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
