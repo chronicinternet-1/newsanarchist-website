@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 14:50:38 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 14:50:38 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 15:01:18 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 15:01:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>MKULTRA Warning Renewed</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-mkultra-warning-renewed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-mkultra-warning-renewed</guid>
+      <pubDate>Thu, 02 Jul 2026 14:59:46 GMT</pubDate>
+      <description>MKULTRA Warning Renewed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-mkultra-warning-renewed.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SCDC Bribery Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-scdc-bribery-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-scdc-bribery-scheme</guid>
+      <pubDate>Thu, 02 Jul 2026 14:59:13 GMT</pubDate>
+      <description>SCDC Bribery Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-scdc-bribery-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Gorsuch Targets Admin State</title>
       <link>https://newsanarchist.com/articles/2026-07-02-gorsuch-targets-admin-state</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>UAP Sightings Baffle Officials</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-uap-sightings-baffle-officials</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-uap-sightings-baffle-officials</guid>
-      <pubDate>Thu, 02 Jul 2026 09:08:15 GMT</pubDate>
-      <description>UAP Sightings Baffle Officials</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-uap-sightings-baffle-officials.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-China Tensions Rise</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-us-china-tensions-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-us-china-tensions-rise</guid>
-      <pubDate>Thu, 02 Jul 2026 09:07:28 GMT</pubDate>
-      <description>US-China Tensions Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-us-china-tensions-rise.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
