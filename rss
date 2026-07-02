@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 02:57:05 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 02:57:05 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 03:02:37 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 03:02:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Justice Reform</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-justice-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-justice-reform</guid>
+      <pubDate>Thu, 02 Jul 2026 02:58:57 GMT</pubDate>
+      <description>Justice Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-justice-reform.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>AI Control Raises Privacy Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-ai-control-raises-privacy-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-ai-control-raises-privacy-concerns</guid>
+      <pubDate>Thu, 02 Jul 2026 02:58:55 GMT</pubDate>
+      <description>AI Control Raises Privacy Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-ai-control-raises-privacy-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Hospice Fraud Scheme Uncovered</title>
       <link>https://newsanarchist.com/articles/2026-07-02-hospice-fraud-scheme-uncovered</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan War Targets Civilians</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-sudan-war-targets-civilians</guid>
-      <pubDate>Wed, 01 Jul 2026 21:10:47 GMT</pubDate>
-      <description>Sudan War Targets Civilians</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-sudan-war-targets-civilians.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Luna Demands Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-luna-demands-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-luna-demands-transparency</guid>
-      <pubDate>Wed, 01 Jul 2026 21:04:51 GMT</pubDate>
-      <description>Luna Demands Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-luna-demands-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
