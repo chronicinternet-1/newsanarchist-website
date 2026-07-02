@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 06:07:58 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 06:07:58 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 06:14:30 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 06:14:30 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>MKULTRA Victims Still Await Justice</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-mkultra-victims-still-await-justice</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-mkultra-victims-still-await-justice</guid>
+      <pubDate>Thu, 02 Jul 2026 06:09:40 GMT</pubDate>
+      <description>MKULTRA Victims Still Await Justice</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-mkultra-victims-still-await-justice.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Avi Loeb Seeks Answers</title>
       <link>https://newsanarchist.com/articles/2026-07-02-avi-loeb-seeks-answers</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Conscious Minds Beyond</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-conscious-minds-beyond</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-conscious-minds-beyond</guid>
-      <pubDate>Thu, 02 Jul 2026 00:52:09 GMT</pubDate>
-      <description>Conscious Minds Beyond</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-conscious-minds-beyond.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
