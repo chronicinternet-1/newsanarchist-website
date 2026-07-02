@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 00:06:35 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 00:06:35 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:12:05 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 00:12:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fauci Accused of Cover-Up</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-fauci-accused-of-cover-up</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-fauci-accused-of-cover-up</guid>
+      <pubDate>Thu, 02 Jul 2026 00:06:31 GMT</pubDate>
+      <description>Fauci Accused of Cover-Up</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-fauci-accused-of-cover-up.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pentagon Releases UFO Files</title>
       <link>https://newsanarchist.com/articles/2026-07-02-pentagon-releases-ufo-files</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Activist Defies Junta</title>
-      <link>https://newsanarchist.com/articles/2026-07-01-sahel-activist-defies-junta</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-01-sahel-activist-defies-junta</guid>
-      <pubDate>Wed, 01 Jul 2026 18:09:18 GMT</pubDate>
-      <description>Sahel Activist Defies Junta</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-01-sahel-activist-defies-junta.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
