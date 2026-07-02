@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 07:49:25 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 07:49:25 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 07:59:56 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 07:59:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Plasmoids Shift Skepticism</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-plasmoids-shift-skepticism</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-plasmoids-shift-skepticism</guid>
+      <pubDate>Thu, 02 Jul 2026 07:56:25 GMT</pubDate>
+      <description>Plasmoids Shift Skepticism</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-plasmoids-shift-skepticism.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Hits $906M</title>
+      <link>https://newsanarchist.com/articles/2026-07-02-hospice-fraud-hits-906m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-hospice-fraud-hits-906m</guid>
+      <pubDate>Thu, 02 Jul 2026 07:55:46 GMT</pubDate>
+      <description>Hospice Fraud Hits $906M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-hospice-fraud-hits-906m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>AI Scams Hit $68B</title>
       <link>https://newsanarchist.com/articles/2026-07-02-ai-scams-hit-68b</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Hacks Inflate Token Value</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-defi-hacks-inflate-token-value</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-defi-hacks-inflate-token-value</guid>
-      <pubDate>Thu, 02 Jul 2026 02:04:49 GMT</pubDate>
-      <description>DeFi Hacks Inflate Token Value</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-defi-hacks-inflate-token-value.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Iran Axis Shifts</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-iran-axis-shifts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-iran-axis-shifts</guid>
-      <pubDate>Thu, 02 Jul 2026 02:04:00 GMT</pubDate>
-      <description>Iran Axis Shifts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-iran-axis-shifts.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
