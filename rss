@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 00:56:04 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 00:56:04 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 01:06:36 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 01:06:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cosmic Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-cosmic-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-cosmic-consciousness</guid>
+      <pubDate>Fri, 03 Jul 2026 01:04:43 GMT</pubDate>
+      <description>Cosmic Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-cosmic-consciousness.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-medicare-fraud-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-medicare-fraud-exposed</guid>
+      <pubDate>Fri, 03 Jul 2026 01:04:01 GMT</pubDate>
+      <description>Medicare Fraud Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-medicare-fraud-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Fed Issues Enforcement</title>
       <link>https://newsanarchist.com/articles/2026-07-03-fed-issues-enforcement</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>EU Sanctions Russian Drone-Makers</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-eu-sanctions-russian-drone-makers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-eu-sanctions-russian-drone-makers</guid>
-      <pubDate>Thu, 02 Jul 2026 19:12:49 GMT</pubDate>
-      <description>EU Sanctions Russian Drone-Makers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-eu-sanctions-russian-drone-makers.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SCOTUS Rules On Geofencing</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-scotus-rules-on-geofencing</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-scotus-rules-on-geofencing</guid>
-      <pubDate>Thu, 02 Jul 2026 19:06:53 GMT</pubDate>
-      <description>SCOTUS Rules On Geofencing</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-scotus-rules-on-geofencing.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
