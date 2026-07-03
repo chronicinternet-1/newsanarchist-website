@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 13:10:47 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 13:10:47 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 13:16:23 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 13:16:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Warrantless Surveillance Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-us-warrantless-surveillance-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-us-warrantless-surveillance-expands</guid>
+      <pubDate>Fri, 03 Jul 2026 13:15:22 GMT</pubDate>
+      <description>US Warrantless Surveillance Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-us-warrantless-surveillance-expands.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Mississippi Injustice</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-mississippi-injustice</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-mississippi-injustice</guid>
+      <pubDate>Fri, 03 Jul 2026 13:15:22 GMT</pubDate>
+      <description>Mississippi Injustice</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-mississippi-injustice.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-03-uap-disclosure-expands</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>USAID IG Finds Hamas Ties</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-usaid-ig-finds-hamas-ties</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-usaid-ig-finds-hamas-ties</guid>
-      <pubDate>Fri, 03 Jul 2026 07:22:40 GMT</pubDate>
-      <description>USAID IG Finds Hamas Ties</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-usaid-ig-finds-hamas-ties.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Security Gap</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-defi-security-gap</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-defi-security-gap</guid>
-      <pubDate>Fri, 03 Jul 2026 07:18:46 GMT</pubDate>
-      <description>DeFi Security Gap</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-defi-security-gap.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
