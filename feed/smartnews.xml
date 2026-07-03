@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 22:10:13 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 22:10:13 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 22:15:49 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 22:15:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Disclosure Delayed</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-uap-disclosure-delayed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-uap-disclosure-delayed</guid>
+      <pubDate>Fri, 03 Jul 2026 22:14:11 GMT</pubDate>
+      <description>UAP Disclosure Delayed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-uap-disclosure-delayed.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Scheme Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-hospice-fraud-scheme-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-hospice-fraud-scheme-uncovered</guid>
+      <pubDate>Fri, 03 Jul 2026 22:13:32 GMT</pubDate>
+      <description>Hospice Fraud Scheme Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-hospice-fraud-scheme-uncovered.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Google Hit €1.7B</title>
       <link>https://newsanarchist.com/articles/2026-07-03-google-hit-17b</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>1000 Cases Under Review</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-1000-cases-under-review</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-1000-cases-under-review</guid>
-      <pubDate>Fri, 03 Jul 2026 15:16:17 GMT</pubDate>
-      <description>1000 Cases Under Review</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-1000-cases-under-review.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>ACLU: Flock Safety Lies</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-aclu-flock-safety-lies</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-aclu-flock-safety-lies</guid>
-      <pubDate>Fri, 03 Jul 2026 15:16:06 GMT</pubDate>
-      <description>ACLU: Flock Safety Lies</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-aclu-flock-safety-lies.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
