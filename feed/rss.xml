@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 09:01:10 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 09:01:10 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 09:12:20 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 09:12:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UAP Disclosure</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-uap-disclosure</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-uap-disclosure</guid>
+      <pubDate>Fri, 03 Jul 2026 09:08:14 GMT</pubDate>
+      <description>UAP Disclosure</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-uap-disclosure.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-medicare-fraud-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-medicare-fraud-uncovered</guid>
+      <pubDate>Fri, 03 Jul 2026 09:07:18 GMT</pubDate>
+      <description>Medicare Fraud Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-medicare-fraud-uncovered.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>N10.08bn Missing</title>
       <link>https://newsanarchist.com/articles/2026-07-03-n1008bn-missing</link>
@@ -237,18 +261,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Uncovered</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-medicare-fraud-uncovered</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-medicare-fraud-uncovered</guid>
-      <pubDate>Fri, 03 Jul 2026 07:06:09 GMT</pubDate>
-      <description>Medicare Fraud Uncovered</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-medicare-fraud-uncovered.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>EU Updates FDI Rules</title>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SCOTUS Limits Warrantless Tracking</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-scotus-limits-warrantless-tracking</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-scotus-limits-warrantless-tracking</guid>
-      <pubDate>Fri, 03 Jul 2026 03:10:31 GMT</pubDate>
-      <description>SCOTUS Limits Warrantless Tracking</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-scotus-limits-warrantless-tracking.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
