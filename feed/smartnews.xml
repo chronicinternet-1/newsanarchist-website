@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 09:23:35 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 09:23:35 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 09:29:09 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 09:29:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi Speeds Military</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-xi-speeds-military</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-xi-speeds-military</guid>
+      <pubDate>Fri, 03 Jul 2026 09:28:45 GMT</pubDate>
+      <description>Xi Speeds Military</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-xi-speeds-military.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>NASA FOIA</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-nasa-foia</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-nasa-foia</guid>
+      <pubDate>Fri, 03 Jul 2026 09:23:35 GMT</pubDate>
+      <description>NASA FOIA</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-nasa-foia.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Loeb's UFO Probe Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-03-loebs-ufo-probe-expands</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Court Seeks Vigilance</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-court-seeks-vigilance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-court-seeks-vigilance</guid>
-      <pubDate>Fri, 03 Jul 2026 04:00:28 GMT</pubDate>
-      <description>Court Seeks Vigilance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-court-seeks-vigilance.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>FTC Preemption Policy</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy</guid>
-      <pubDate>Fri, 03 Jul 2026 03:56:28 GMT</pubDate>
-      <description>FTC Preemption Policy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ftc-preemption-policy.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
