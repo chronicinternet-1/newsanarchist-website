@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 05:00:42 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 05:00:42 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 05:06:15 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 05:06:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-medicare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-medicare-fraud</guid>
+      <pubDate>Fri, 03 Jul 2026 05:05:14 GMT</pubDate>
+      <description>Medicare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-medicare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Tata Electronics Probes Leak</title>
       <link>https://newsanarchist.com/articles/2026-07-03-tata-electronics-probes-leak</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Sues States Over SNAP Data</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-doj-sues-states-over-snap-data</guid>
-      <pubDate>Thu, 02 Jul 2026 23:03:05 GMT</pubDate>
-      <description>DOJ Sues States Over SNAP Data</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-doj-sues-states-over-snap-data.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
