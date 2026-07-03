@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 02:11:01 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 02:11:01 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 02:16:43 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 02:16:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DeFi Security Gaps</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-defi-security-gaps</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-defi-security-gaps</guid>
+      <pubDate>Fri, 03 Jul 2026 02:16:24 GMT</pubDate>
+      <description>DeFi Security Gaps</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-defi-security-gaps.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>China Expands Renewables</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-china-expands-renewables</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-china-expands-renewables</guid>
+      <pubDate>Fri, 03 Jul 2026 02:16:00 GMT</pubDate>
+      <description>China Expands Renewables</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-china-expands-renewables.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Global Data Privacy Laws</title>
       <link>https://newsanarchist.com/articles/2026-07-03-global-data-privacy-laws</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-medicare-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-medicare-fraud</guid>
-      <pubDate>Thu, 02 Jul 2026 21:02:08 GMT</pubDate>
-      <description>Medicare Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-medicare-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FBI Director Kash Patel Faces STOCK Act Breach</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-fbi-director-kash-patel-faces-stock-act-breach</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-fbi-director-kash-patel-faces-stock-act-breach</guid>
-      <pubDate>Thu, 02 Jul 2026 20:53:11 GMT</pubDate>
-      <description>FBI Director Kash Patel Faces STOCK Act Breach</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-fbi-director-kash-patel-faces-stock-act-breach.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
