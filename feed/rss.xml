@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 09:12:20 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 09:12:20 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 09:17:57 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 09:17:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US 'Smart Wall' Raises Surveillance Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns</guid>
+      <pubDate>Fri, 03 Jul 2026 09:13:30 GMT</pubDate>
+      <description>US 'Smart Wall' Raises Surveillance Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>New Evidence Revives Cold Cases</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-new-evidence-revives-cold-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-new-evidence-revives-cold-cases</guid>
+      <pubDate>Fri, 03 Jul 2026 09:13:27 GMT</pubDate>
+      <description>New Evidence Revives Cold Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-new-evidence-revives-cold-cases.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UAP Disclosure</title>
       <link>https://newsanarchist.com/articles/2026-07-03-uap-disclosure</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>State Lock Solution</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-state-lock-solution</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-state-lock-solution</guid>
-      <pubDate>Fri, 03 Jul 2026 03:16:52 GMT</pubDate>
-      <description>State Lock Solution</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-state-lock-solution.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Asia's Energy Shift</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</guid>
-      <pubDate>Fri, 03 Jul 2026 03:16:28 GMT</pubDate>
-      <description>Asia's Energy Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-asias-energy-shift.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
