@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 16:22:09 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 16:22:09 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 16:27:40 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 16:27:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>GSA Revamp</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-gsa-revamp</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-gsa-revamp</guid>
+      <pubDate>Fri, 03 Jul 2026 16:27:09 GMT</pubDate>
+      <description>GSA Revamp</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-gsa-revamp.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>NATO Faces Turkey Paradox</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-nato-faces-turkey-paradox</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-nato-faces-turkey-paradox</guid>
+      <pubDate>Fri, 03 Jul 2026 16:22:47 GMT</pubDate>
+      <description>NATO Faces Turkey Paradox</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-nato-faces-turkey-paradox.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>MN Pardons Sex Abuser</title>
       <link>https://newsanarchist.com/articles/2026-07-03-mn-pardons-sex-abuser</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>GSA Boosts Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-gsa-boosts-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-gsa-boosts-transparency</guid>
-      <pubDate>Fri, 03 Jul 2026 10:24:07 GMT</pubDate>
-      <description>GSA Boosts Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-gsa-boosts-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Loeb's UAP Approach</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-loebs-uap-approach</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-loebs-uap-approach</guid>
-      <pubDate>Fri, 03 Jul 2026 10:20:11 GMT</pubDate>
-      <description>Loeb's UAP Approach</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-loebs-uap-approach.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
