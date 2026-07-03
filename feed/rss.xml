@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 04:24:25 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 04:24:25 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 04:29:57 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 04:29:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Civilians Killed</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-myanmar-civilians-killed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-myanmar-civilians-killed</guid>
+      <pubDate>Fri, 03 Jul 2026 04:26:23 GMT</pubDate>
+      <description>Myanmar Civilians Killed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-myanmar-civilians-killed.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>GSA Reorganization</title>
       <link>https://newsanarchist.com/articles/2026-07-03-gsa-reorganization</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Fraud Costs Passed to Consumers</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-fraud-costs-passed-to-consumers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-fraud-costs-passed-to-consumers</guid>
-      <pubDate>Thu, 02 Jul 2026 22:54:09 GMT</pubDate>
-      <description>Fraud Costs Passed to Consumers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-fraud-costs-passed-to-consumers.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
