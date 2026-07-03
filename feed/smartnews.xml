@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 23:09:46 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 23:09:46 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 23:15:24 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 23:15:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Dr. Roger Nelson</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-dr-roger-nelson</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-dr-roger-nelson</guid>
+      <pubDate>Fri, 03 Jul 2026 23:14:39 GMT</pubDate>
+      <description>Dr. Roger Nelson</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-dr-roger-nelson.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Schemes Evolve</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-hospice-fraud-schemes-evolve</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-hospice-fraud-schemes-evolve</guid>
+      <pubDate>Fri, 03 Jul 2026 23:14:15 GMT</pubDate>
+      <description>Hospice Fraud Schemes Evolve</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-hospice-fraud-schemes-evolve.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FTC Preemption Policy Evolves</title>
       <link>https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy-evolves</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Spotify Removes Streams</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-spotify-removes-streams</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-spotify-removes-streams</guid>
-      <pubDate>Fri, 03 Jul 2026 17:03:07 GMT</pubDate>
-      <description>Spotify Removes Streams</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-spotify-removes-streams.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Expands Medical Reach</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-china-expands-medical-reach</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-china-expands-medical-reach</guid>
-      <pubDate>Fri, 03 Jul 2026 16:32:15 GMT</pubDate>
-      <description>China Expands Medical Reach</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-china-expands-medical-reach.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
