@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 02:58:31 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 02:58:31 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 03:14:14 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 03:14:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SCOTUS Limits Warrantless Tracking</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-scotus-limits-warrantless-tracking</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-scotus-limits-warrantless-tracking</guid>
+      <pubDate>Fri, 03 Jul 2026 03:10:31 GMT</pubDate>
+      <description>SCOTUS Limits Warrantless Tracking</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-scotus-limits-warrantless-tracking.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Cold Cases Revived</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-cold-cases-revived</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-cold-cases-revived</guid>
+      <pubDate>Fri, 03 Jul 2026 03:10:22 GMT</pubDate>
+      <description>Cold Cases Revived</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-cold-cases-revived.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UK Fraud Losses Hit £1.3B</title>
       <link>https://newsanarchist.com/articles/2026-07-03-uk-fraud-losses-hit-13b</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit To Address Ukraine</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-nato-summit-to-address-ukraine</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-nato-summit-to-address-ukraine</guid>
-      <pubDate>Thu, 02 Jul 2026 21:13:45 GMT</pubDate>
-      <description>NATO Summit To Address Ukraine</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-nato-summit-to-address-ukraine.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India Introduces Digital e-OCI Card</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-india-introduces-digital-e-oci-card</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-india-introduces-digital-e-oci-card</guid>
-      <pubDate>Thu, 02 Jul 2026 21:07:47 GMT</pubDate>
-      <description>India Introduces Digital e-OCI Card</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-india-introduces-digital-e-oci-card.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
