@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 04:18:52 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 04:18:52 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 04:24:25 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 04:24:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>GSA Reorganization</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-gsa-reorganization</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-gsa-reorganization</guid>
+      <pubDate>Fri, 03 Jul 2026 04:21:12 GMT</pubDate>
+      <description>GSA Reorganization</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-gsa-reorganization.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Loeb Hunts Alien Tech</title>
       <link>https://newsanarchist.com/articles/2026-07-03-loeb-hunts-alien-tech</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar War Rages</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-myanmar-war-rages</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-myanmar-war-rages</guid>
-      <pubDate>Thu, 02 Jul 2026 22:23:32 GMT</pubDate>
-      <description>Myanmar War Rages</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-myanmar-war-rages.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
