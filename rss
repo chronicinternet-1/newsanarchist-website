@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 02:05:21 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 02:05:21 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 02:11:01 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 02:11:01 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Global Data Privacy Laws</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-global-data-privacy-laws</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-global-data-privacy-laws</guid>
+      <pubDate>Fri, 03 Jul 2026 02:10:03 GMT</pubDate>
+      <description>Global Data Privacy Laws</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-global-data-privacy-laws.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Justice Reform Gains Momentum</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-justice-reform-gains-momentum</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-justice-reform-gains-momentum</guid>
+      <pubDate>Fri, 03 Jul 2026 02:09:56 GMT</pubDate>
+      <description>Justice Reform Gains Momentum</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-justice-reform-gains-momentum.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Avi Loeb Hunts UAP Truth</title>
       <link>https://newsanarchist.com/articles/2026-07-03-avi-loeb-hunts-uap-truth</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects Chinese Jets</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-taiwan-detects-chinese-jets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-taiwan-detects-chinese-jets</guid>
-      <pubDate>Thu, 02 Jul 2026 20:22:38 GMT</pubDate>
-      <description>Taiwan Detects Chinese Jets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-taiwan-detects-chinese-jets.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FOIA Reform Urged Again</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-foia-reform-urged-again</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-foia-reform-urged-again</guid>
-      <pubDate>Thu, 02 Jul 2026 20:17:14 GMT</pubDate>
-      <description>FOIA Reform Urged Again</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-foia-reform-urged-again.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
