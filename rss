@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 17:14:24 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 17:14:24 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 17:19:58 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 17:19:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mississippi Injustice Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-mississippi-injustice-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-mississippi-injustice-exposed</guid>
+      <pubDate>Fri, 03 Jul 2026 17:17:16 GMT</pubDate>
+      <description>Mississippi Injustice Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-mississippi-injustice-exposed.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Fed Drones May Use Facial Recognition</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-fed-drones-may-use-facial-recognition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-fed-drones-may-use-facial-recognition</guid>
+      <pubDate>Fri, 03 Jul 2026 17:17:05 GMT</pubDate>
+      <description>Fed Drones May Use Facial Recognition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-fed-drones-may-use-facial-recognition.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UAP Council Forms</title>
       <link>https://newsanarchist.com/articles/2026-07-03-uap-council-forms</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Clearview AI Pursues FedRAMP</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-clearview-ai-pursues-fedramp</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-clearview-ai-pursues-fedramp</guid>
-      <pubDate>Fri, 03 Jul 2026 11:14:28 GMT</pubDate>
-      <description>Clearview AI Pursues FedRAMP</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-clearview-ai-pursues-fedramp.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutors Face License Suspensions</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-prosecutors-face-license-suspensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-prosecutors-face-license-suspensions</guid>
-      <pubDate>Fri, 03 Jul 2026 11:14:25 GMT</pubDate>
-      <description>Prosecutors Face License Suspensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-prosecutors-face-license-suspensions.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
