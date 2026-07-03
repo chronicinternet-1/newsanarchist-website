@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 18:06:55 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 18:06:55 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 18:12:31 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 18:12:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hospice Fraud Evolves</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-hospice-fraud-evolves</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-hospice-fraud-evolves</guid>
+      <pubDate>Fri, 03 Jul 2026 18:11:41 GMT</pubDate>
+      <description>Hospice Fraud Evolves</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-hospice-fraud-evolves.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>DRAM Makers Sued</title>
       <link>https://newsanarchist.com/articles/2026-07-03-dram-makers-sued</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Simulates Invasion</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-taiwan-simulates-invasion</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-taiwan-simulates-invasion</guid>
-      <pubDate>Fri, 03 Jul 2026 11:29:44 GMT</pubDate>
-      <description>Taiwan Simulates Invasion</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-taiwan-simulates-invasion.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
