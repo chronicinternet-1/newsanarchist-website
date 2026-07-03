@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 07:08:38 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 07:08:38 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 07:14:17 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 07:14:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran Uses AI Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-iran-uses-ai-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-iran-uses-ai-surveillance</guid>
+      <pubDate>Fri, 03 Jul 2026 07:12:30 GMT</pubDate>
+      <description>Iran Uses AI Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-iran-uses-ai-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>SC Ruling Impacts Journalists</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-sc-ruling-impacts-journalists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-sc-ruling-impacts-journalists</guid>
+      <pubDate>Fri, 03 Jul 2026 07:12:16 GMT</pubDate>
+      <description>SC Ruling Impacts Journalists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-sc-ruling-impacts-journalists.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness Explored</title>
       <link>https://newsanarchist.com/articles/2026-07-03-consciousness-explored</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit Focuses on Ukraine</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-nato-summit-focuses-on-ukraine</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-nato-summit-focuses-on-ukraine</guid>
-      <pubDate>Fri, 03 Jul 2026 01:15:33 GMT</pubDate>
-      <description>NATO Summit Focuses on Ukraine</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-nato-summit-focuses-on-ukraine.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Expansion</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-facial-recognition-expansion</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-facial-recognition-expansion</guid>
-      <pubDate>Fri, 03 Jul 2026 01:09:38 GMT</pubDate>
-      <description>Facial Recognition Expansion</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-facial-recognition-expansion.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
