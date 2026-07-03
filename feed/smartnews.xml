@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 13:16:23 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 13:16:23 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 13:21:58 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 13:21:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ondo Finance Tokenizes Stocks</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-ondo-finance-tokenizes-stocks</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ondo-finance-tokenizes-stocks</guid>
+      <pubDate>Fri, 03 Jul 2026 13:21:34 GMT</pubDate>
+      <description>Ondo Finance Tokenizes Stocks</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ondo-finance-tokenizes-stocks.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Asia's Energy Shift</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</guid>
+      <pubDate>Fri, 03 Jul 2026 13:21:17 GMT</pubDate>
+      <description>Asia's Energy Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-asias-energy-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>US Warrantless Surveillance Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-03-us-warrantless-surveillance-expands</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>FTC Preemption Policy Evolves</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy-evolves</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy-evolves</guid>
-      <pubDate>Fri, 03 Jul 2026 07:58:18 GMT</pubDate>
-      <description>FTC Preemption Policy Evolves</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ftc-preemption-policy-evolves.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Conflict Rages</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-myanmar-conflict-rages</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-myanmar-conflict-rages</guid>
-      <pubDate>Fri, 03 Jul 2026 07:27:50 GMT</pubDate>
-      <description>Myanmar Conflict Rages</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-myanmar-conflict-rages.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
