@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 18:34:31 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 18:34:31 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 19:05:13 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 19:05:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Probes Oil Price-Fixing</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-us-probes-oil-price-fixing</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-us-probes-oil-price-fixing</guid>
+      <pubDate>Fri, 03 Jul 2026 19:04:03 GMT</pubDate>
+      <description>US Probes Oil Price-Fixing</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-us-probes-oil-price-fixing.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sahel Withdraws From ICC</title>
       <link>https://newsanarchist.com/articles/2026-07-03-sahel-withdraws-from-icc</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Ups Military</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-china-ups-military</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-china-ups-military</guid>
-      <pubDate>Fri, 03 Jul 2026 12:30:11 GMT</pubDate>
-      <description>China Ups Military</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-china-ups-military.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
