@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 03:14:14 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 03:14:14 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 03:19:51 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 03:19:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>State Lock Solution</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-state-lock-solution</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-state-lock-solution</guid>
+      <pubDate>Fri, 03 Jul 2026 03:16:52 GMT</pubDate>
+      <description>State Lock Solution</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-state-lock-solution.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Asia's Energy Shift</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-asias-energy-shift</guid>
+      <pubDate>Fri, 03 Jul 2026 03:16:28 GMT</pubDate>
+      <description>Asia's Energy Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-asias-energy-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>SCOTUS Limits Warrantless Tracking</title>
       <link>https://newsanarchist.com/articles/2026-07-03-scotus-limits-warrantless-tracking</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Accuses Japan</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-china-accuses-japan</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-china-accuses-japan</guid>
-      <pubDate>Thu, 02 Jul 2026 21:23:05 GMT</pubDate>
-      <description>China Accuses Japan</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-china-accuses-japan.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Loeb's UFO Panel Seeks Disclosure</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-loebs-ufo-panel-seeks-disclosure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-loebs-ufo-panel-seeks-disclosure</guid>
-      <pubDate>Thu, 02 Jul 2026 21:14:04 GMT</pubDate>
-      <description>Loeb's UFO Panel Seeks Disclosure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-loebs-ufo-panel-seeks-disclosure.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
