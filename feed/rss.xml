@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 04:13:18 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 04:13:18 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 04:18:52 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 04:18:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Loeb Hunts Alien Tech</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-loeb-hunts-alien-tech</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-loeb-hunts-alien-tech</guid>
+      <pubDate>Fri, 03 Jul 2026 04:17:20 GMT</pubDate>
+      <description>Loeb Hunts Alien Tech</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-loeb-hunts-alien-tech.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>EU Sanctions Loom</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-eu-sanctions-loom</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-eu-sanctions-loom</guid>
+      <pubDate>Fri, 03 Jul 2026 04:16:55 GMT</pubDate>
+      <description>EU Sanctions Loom</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-eu-sanctions-loom.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Russia Spies On EU Nukes</title>
       <link>https://newsanarchist.com/articles/2026-07-03-russia-spies-on-eu-nukes</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Election Security Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-election-security-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-election-security-transparency</guid>
-      <pubDate>Thu, 02 Jul 2026 22:18:08 GMT</pubDate>
-      <description>Election Security Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-election-security-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Hacks Surge</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-defi-hacks-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-defi-hacks-surge</guid>
-      <pubDate>Thu, 02 Jul 2026 22:14:31 GMT</pubDate>
-      <description>DeFi Hacks Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-defi-hacks-surge.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
