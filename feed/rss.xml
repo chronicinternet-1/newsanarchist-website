@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 07:31:15 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 07:31:15 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 08:02:20 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 08:02:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Crypto Firms Face New Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-uk-crypto-firms-face-new-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-uk-crypto-firms-face-new-rules</guid>
+      <pubDate>Fri, 03 Jul 2026 08:00:24 GMT</pubDate>
+      <description>UK Crypto Firms Face New Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-uk-crypto-firms-face-new-rules.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>FTC Preemption Policy Evolves</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy-evolves</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ftc-preemption-policy-evolves</guid>
+      <pubDate>Fri, 03 Jul 2026 07:58:18 GMT</pubDate>
+      <description>FTC Preemption Policy Evolves</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ftc-preemption-policy-evolves.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Conflict Rages</title>
       <link>https://newsanarchist.com/articles/2026-07-03-myanmar-conflict-rages</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Probe</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-hospice-fraud-probe</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-hospice-fraud-probe</guid>
-      <pubDate>Fri, 03 Jul 2026 02:04:30 GMT</pubDate>
-      <description>Hospice Fraud Probe</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-hospice-fraud-probe.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>報道機関トップの政府会議参加に懸念</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-kenji-mori-mr4adkio</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-kenji-mori-mr4adkio</guid>
-      <pubDate>Fri, 03 Jul 2026 02:00:27 GMT</pubDate>
-      <description>報道機関トップの政府会議参加に懸念</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-kenji-mori-mr4adkio.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
