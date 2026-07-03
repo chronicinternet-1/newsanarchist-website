@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 15:07:03 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 15:07:03 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 15:12:37 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 15:12:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cosmic Consciousness Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-cosmic-consciousness-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-cosmic-consciousness-expands</guid>
+      <pubDate>Fri, 03 Jul 2026 15:11:22 GMT</pubDate>
+      <description>Cosmic Consciousness Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-cosmic-consciousness-expands.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Benefits Vary</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-snap-benefits-vary</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-snap-benefits-vary</guid>
+      <pubDate>Fri, 03 Jul 2026 15:10:14 GMT</pubDate>
+      <description>SNAP Benefits Vary</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-snap-benefits-vary.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Micron Stock Hit</title>
       <link>https://newsanarchist.com/articles/2026-07-03-micron-stock-hit</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>EU Vows New Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-eu-vows-new-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-eu-vows-new-sanctions</guid>
-      <pubDate>Fri, 03 Jul 2026 09:19:18 GMT</pubDate>
-      <description>EU Vows New Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-eu-vows-new-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>US 'Smart Wall' Raises Surveillance Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns</guid>
-      <pubDate>Fri, 03 Jul 2026 09:13:30 GMT</pubDate>
-      <description>US 'Smart Wall' Raises Surveillance Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-us-smart-wall-raises-surveillance-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
