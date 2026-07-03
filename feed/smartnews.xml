@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jul 2026 05:06:15 GMT</lastBuildDate>
-    <pubDate>Fri, 03 Jul 2026 05:06:15 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 05:11:48 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 05:11:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Facial Recognition Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-facial-recognition-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-facial-recognition-expands</guid>
+      <pubDate>Fri, 03 Jul 2026 05:11:29 GMT</pubDate>
+      <description>Facial Recognition Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-facial-recognition-expands.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>SC Rejects Reporter's Bid</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-sc-rejects-reporters-bid</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-sc-rejects-reporters-bid</guid>
+      <pubDate>Fri, 03 Jul 2026 05:11:18 GMT</pubDate>
+      <description>SC Rejects Reporter's Bid</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-sc-rejects-reporters-bid.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicare Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-03-medicare-fraud</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Cold Cases Reopened</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-cold-cases-reopened</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-cold-cases-reopened</guid>
-      <pubDate>Thu, 02 Jul 2026 23:08:29 GMT</pubDate>
-      <description>Cold Cases Reopened</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-cold-cases-reopened.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>UAP Footage Shifts Skepticism</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-uap-footage-shifts-skepticism</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-uap-footage-shifts-skepticism</guid>
-      <pubDate>Thu, 02 Jul 2026 23:03:45 GMT</pubDate>
-      <description>UAP Footage Shifts Skepticism</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-uap-footage-shifts-skepticism.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
