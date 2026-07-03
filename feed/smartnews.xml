@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Jul 2026 23:56:38 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 23:56:38 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:07:19 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 00:07:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Visions Before Death</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-visions-before-death</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-visions-before-death</guid>
+      <pubDate>Fri, 03 Jul 2026 00:04:16 GMT</pubDate>
+      <description>Visions Before Death</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-visions-before-death.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NY Medicaid Fraud Unit Defunded</title>
+      <link>https://newsanarchist.com/articles/2026-07-03-ny-medicaid-fraud-unit-defunded</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ny-medicaid-fraud-unit-defunded</guid>
+      <pubDate>Fri, 03 Jul 2026 00:03:33 GMT</pubDate>
+      <description>NY Medicaid Fraud Unit Defunded</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ny-medicaid-fraud-unit-defunded.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FTC Seeks Comment on AI</title>
       <link>https://newsanarchist.com/articles/2026-07-02-ftc-seeks-comment-on-ai</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Renewables Boom</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-renewables-boom</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-renewables-boom</guid>
-      <pubDate>Thu, 02 Jul 2026 18:12:19 GMT</pubDate>
-      <description>Renewables Boom</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-renewables-boom.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>India Data Bill</title>
-      <link>https://newsanarchist.com/articles/2026-07-02-india-data-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-02-india-data-bill</guid>
-      <pubDate>Thu, 02 Jul 2026 18:06:25 GMT</pubDate>
-      <description>India Data Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-02-india-data-bill.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
