@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 11:38:21 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 11:38:21 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 11:44:03 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 11:44:03 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Simulates Invasion</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-taiwan-simulates-invasion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-taiwan-simulates-invasion</guid>
+      <pubDate>Sat, 04 Jul 2026 11:41:50 GMT</pubDate>
+      <description>Taiwan Simulates Invasion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-taiwan-simulates-invasion.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Fed Overhaul Sparks Anger</title>
       <link>https://newsanarchist.com/articles/2026-07-04-fed-overhaul-sparks-anger</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Warns Poland of Russian Invasion</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-us-warns-poland-of-russian-invasion</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-us-warns-poland-of-russian-invasion</guid>
-      <pubDate>Sat, 04 Jul 2026 05:29:02 GMT</pubDate>
-      <description>US Warns Poland of Russian Invasion</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-us-warns-poland-of-russian-invasion.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
