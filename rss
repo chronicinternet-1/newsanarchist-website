@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 12:36:56 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 12:36:56 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 12:42:48 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 12:42:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi Rebuilds PLA Leadership</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-pla-leadership</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-pla-leadership</guid>
+      <pubDate>Sat, 04 Jul 2026 12:42:25 GMT</pubDate>
+      <description>Xi Rebuilds PLA Leadership</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-xi-rebuilds-pla-leadership.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>SCOTUS Ruling Impacts Journalists</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-scotus-ruling-impacts-journalists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-scotus-ruling-impacts-journalists</guid>
+      <pubDate>Sat, 04 Jul 2026 12:37:18 GMT</pubDate>
+      <description>SCOTUS Ruling Impacts Journalists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-scotus-ruling-impacts-journalists.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>AI Agents Exploited</title>
       <link>https://newsanarchist.com/articles/2026-07-04-ai-agents-exploited</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Faces Relevance Test</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-nato-faces-relevance-test</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-nato-faces-relevance-test</guid>
-      <pubDate>Sat, 04 Jul 2026 06:29:33 GMT</pubDate>
-      <description>NATO Faces Relevance Test</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-nato-faces-relevance-test.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Crime Stoppers Funding Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-crime-stoppers-funding-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-crime-stoppers-funding-crisis</guid>
-      <pubDate>Sat, 04 Jul 2026 06:23:41 GMT</pubDate>
-      <description>Crime Stoppers Funding Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-crime-stoppers-funding-crisis.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
