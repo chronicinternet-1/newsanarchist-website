@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-04-google-fined-17b</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-04T02:07:47.852Z</news:publication_date>
+      <news:title>Google Fined €1.7B</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-04-kenji-mori-mr5ptdhn</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
@@ -2734,30 +2742,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-02T02:13:10.710Z</news:publication_date>
       <news:title>Myanmar Toll Tops 100k</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-02-oversight-probe-expands</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-02T02:07:25.626Z</news:publication_date>
-      <news:title>Oversight Probe Expands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-02-defi-hacks-inflate-token-value</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-02T02:04:49.236Z</news:publication_date>
-      <news:title>DeFi Hacks Inflate Token Value</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-02-iran-axis-shifts</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-02T02:04:00.999Z</news:publication_date>
-      <news:title>Iran Axis Shifts</news:title>
     </news:news>
   </url>
 </urlset>

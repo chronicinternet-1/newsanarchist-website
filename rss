@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 02:01:18 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 02:01:18 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 02:11:54 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 02:11:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Google Fined €1.7B</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-google-fined-17b</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-google-fined-17b</guid>
+      <pubDate>Sat, 04 Jul 2026 02:07:47 GMT</pubDate>
+      <description>Google Fined €1.7B</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-google-fined-17b.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>スマートグラスに隠されたリスク</title>
       <link>https://newsanarchist.com/articles/2026-07-04-kenji-mori-mr5ptdhn</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC, DOJ Target Gas Price Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-ftc-doj-target-gas-price-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-ftc-doj-target-gas-price-fraud</guid>
-      <pubDate>Fri, 03 Jul 2026 20:04:46 GMT</pubDate>
-      <description>FTC, DOJ Target Gas Price Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-ftc-doj-target-gas-price-fraud.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
