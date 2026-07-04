@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 04:26:15 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 04:26:15 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 04:31:54 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 04:31:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Quantum Physicist Vanishes</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-quantum-physicist-vanishes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-quantum-physicist-vanishes</guid>
+      <pubDate>Sat, 04 Jul 2026 04:28:46 GMT</pubDate>
+      <description>Quantum Physicist Vanishes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-quantum-physicist-vanishes.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>US-Iran Talks Paused</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-us-iran-talks-paused</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-us-iran-talks-paused</guid>
+      <pubDate>Sat, 04 Jul 2026 04:28:31 GMT</pubDate>
+      <description>US-Iran Talks Paused</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-us-iran-talks-paused.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>SC Rejects Reporter's Bid</title>
       <link>https://newsanarchist.com/articles/2026-07-04-sc-rejects-reporters-bid</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Pacific Security Pact</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-pacific-security-pact</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-pacific-security-pact</guid>
-      <pubDate>Fri, 03 Jul 2026 23:00:26 GMT</pubDate>
-      <description>Pacific Security Pact</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-pacific-security-pact.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Nigeria Boosts Anti-Terror Efforts</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-nigeria-boosts-anti-terror-efforts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-nigeria-boosts-anti-terror-efforts</guid>
-      <pubDate>Fri, 03 Jul 2026 22:35:20 GMT</pubDate>
-      <description>Nigeria Boosts Anti-Terror Efforts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-nigeria-boosts-anti-terror-efforts.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
