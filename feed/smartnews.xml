@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 15:41:04 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 15:41:04 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 15:46:37 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 15:46:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi's Military Shake-up</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-xis-military-shake-up</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-xis-military-shake-up</guid>
+      <pubDate>Sat, 04 Jul 2026 15:44:00 GMT</pubDate>
+      <description>Xi's Military Shake-up</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-xis-military-shake-up.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>CIA MKULTRA Files</title>
       <link>https://newsanarchist.com/articles/2026-07-04-cia-mkultra-files</link>
@@ -606,18 +618,6 @@
       <description>Nigeria PFICP Scandal</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-nigeria-pficp-scandal.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Prepares For Invasion</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-taiwan-prepares-for-invasion</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-taiwan-prepares-for-invasion</guid>
-      <pubDate>Sat, 04 Jul 2026 08:40:13 GMT</pubDate>
-      <description>Taiwan Prepares For Invasion</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-taiwan-prepares-for-invasion.png"/>
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
