@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 00:19:34 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 00:19:34 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 00:25:08 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 00:25:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ontario Couple Sentenced</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-ontario-couple-sentenced</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-ontario-couple-sentenced</guid>
+      <pubDate>Sat, 04 Jul 2026 00:20:35 GMT</pubDate>
+      <description>Ontario Couple Sentenced</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-ontario-couple-sentenced.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>New Infosec Releases</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-new-infosec-releases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-new-infosec-releases</guid>
+      <pubDate>Sat, 04 Jul 2026 00:20:26 GMT</pubDate>
+      <description>New Infosec Releases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-new-infosec-releases.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Consciousness Redefined</title>
       <link>https://newsanarchist.com/articles/2026-07-04-consciousness-redefined</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>DRAM Makers Sued</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-dram-makers-sued</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-dram-makers-sued</guid>
-      <pubDate>Fri, 03 Jul 2026 18:03:37 GMT</pubDate>
-      <description>DRAM Makers Sued</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-dram-makers-sued.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>DeFi Rotation Signals Crypto Bottom</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-defi-rotation-signals-crypto-bottom</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-defi-rotation-signals-crypto-bottom</guid>
-      <pubDate>Fri, 03 Jul 2026 17:23:32 GMT</pubDate>
-      <description>DeFi Rotation Signals Crypto Bottom</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-defi-rotation-signals-crypto-bottom.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
