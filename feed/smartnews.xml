@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 11:32:38 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 11:32:38 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 11:38:21 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 11:38:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fed Overhaul Sparks Anger</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-fed-overhaul-sparks-anger</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-fed-overhaul-sparks-anger</guid>
+      <pubDate>Sat, 04 Jul 2026 11:36:48 GMT</pubDate>
+      <description>Fed Overhaul Sparks Anger</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-fed-overhaul-sparks-anger.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>NATO Summit Tests Unity</title>
       <link>https://newsanarchist.com/articles/2026-07-04-nato-summit-tests-unity</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Ram Temple Theft</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-ram-temple-theft</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-ram-temple-theft</guid>
-      <pubDate>Sat, 04 Jul 2026 05:23:08 GMT</pubDate>
-      <description>Ram Temple Theft</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-ram-temple-theft.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
