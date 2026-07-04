@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 01:23:52 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 01:23:52 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 01:29:27 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 01:29:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Faces Existential Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-nato-faces-existential-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-nato-faces-existential-crisis</guid>
+      <pubDate>Sat, 04 Jul 2026 01:27:05 GMT</pubDate>
+      <description>NATO Faces Existential Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-nato-faces-existential-crisis.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Justice for Lyra McKee</title>
       <link>https://newsanarchist.com/articles/2026-07-04-justice-for-lyra-mckee</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Benefits Vary by State</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-snap-benefits-vary-by-state</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-snap-benefits-vary-by-state</guid>
-      <pubDate>Fri, 03 Jul 2026 19:12:07 GMT</pubDate>
-      <description>SNAP Benefits Vary by State</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-snap-benefits-vary-by-state.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
