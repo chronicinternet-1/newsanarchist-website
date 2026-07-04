@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 10:21:56 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 10:21:56 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 10:27:45 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 10:27:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Pardons Clean Air Act Violators</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-trump-pardons-clean-air-act-violators</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-trump-pardons-clean-air-act-violators</guid>
+      <pubDate>Sat, 04 Jul 2026 10:25:54 GMT</pubDate>
+      <description>Trump Pardons Clean Air Act Violators</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-trump-pardons-clean-air-act-violators.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>India Data Bill</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-india-data-bill</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-india-data-bill</guid>
+      <pubDate>Sat, 04 Jul 2026 10:25:34 GMT</pubDate>
+      <description>India Data Bill</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-india-data-bill.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Nurse Describes NDE</title>
       <link>https://newsanarchist.com/articles/2026-07-04-nurse-describes-nde</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Canada Buys Radar System</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-canada-buys-radar-system</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-canada-buys-radar-system</guid>
-      <pubDate>Sat, 04 Jul 2026 04:22:30 GMT</pubDate>
-      <description>Canada Buys Radar System</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-canada-buys-radar-system.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Brain</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-consciousness-beyond-brain</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-consciousness-beyond-brain</guid>
-      <pubDate>Sat, 04 Jul 2026 04:17:10 GMT</pubDate>
-      <description>Consciousness Beyond Brain</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-consciousness-beyond-brain.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
