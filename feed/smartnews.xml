@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 19:48:10 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 19:48:10 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 20:13:44 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 20:13:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Spotify Removes Streams</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-spotify-removes-streams</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-spotify-removes-streams</guid>
+      <pubDate>Sat, 04 Jul 2026 20:11:05 GMT</pubDate>
+      <description>Spotify Removes Streams</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-spotify-removes-streams.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sahel Rebels Launch Attacks</title>
       <link>https://newsanarchist.com/articles/2026-07-04-sahel-rebels-launch-attacks</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Xi Rebuilds PLA Leadership</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-pla-leadership</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-pla-leadership</guid>
-      <pubDate>Sat, 04 Jul 2026 12:42:25 GMT</pubDate>
-      <description>Xi Rebuilds PLA Leadership</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-xi-rebuilds-pla-leadership.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
