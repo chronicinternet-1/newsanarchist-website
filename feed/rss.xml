@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 10:39:18 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 10:39:18 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 10:45:23 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 10:45:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sahel Extremism Risk Grows</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-sahel-extremism-risk-grows</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-sahel-extremism-risk-grows</guid>
+      <pubDate>Sat, 04 Jul 2026 10:41:16 GMT</pubDate>
+      <description>Sahel Extremism Risk Grows</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-sahel-extremism-risk-grows.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>FOIA Delays Continue</title>
       <link>https://newsanarchist.com/articles/2026-07-04-foia-delays-continue</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Physicist Vanishes</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-quantum-physicist-vanishes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-quantum-physicist-vanishes</guid>
-      <pubDate>Sat, 04 Jul 2026 04:28:46 GMT</pubDate>
-      <description>Quantum Physicist Vanishes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-quantum-physicist-vanishes.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
