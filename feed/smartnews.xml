@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 10:45:23 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 10:45:23 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 11:21:07 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 11:21:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Rethink</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-consciousness-rethink</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-consciousness-rethink</guid>
+      <pubDate>Sat, 04 Jul 2026 11:20:22 GMT</pubDate>
+      <description>Consciousness Rethink</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-consciousness-rethink.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>CA Gov Ally Probe</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-ca-gov-ally-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-ca-gov-ally-probe</guid>
+      <pubDate>Sat, 04 Jul 2026 11:20:13 GMT</pubDate>
+      <description>CA Gov Ally Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-ca-gov-ally-probe.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Sahel Extremism Risk Grows</title>
       <link>https://newsanarchist.com/articles/2026-07-04-sahel-extremism-risk-grows</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Tech Giants Face Antitrust Lawsuits</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-tech-giants-face-antitrust-lawsuits</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-tech-giants-face-antitrust-lawsuits</guid>
-      <pubDate>Sat, 04 Jul 2026 05:08:45 GMT</pubDate>
-      <description>Tech Giants Face Antitrust Lawsuits</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-tech-giants-face-antitrust-lawsuits.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Extremism Risk</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-sahel-extremism-risk</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-sahel-extremism-risk</guid>
-      <pubDate>Sat, 04 Jul 2026 04:38:18 GMT</pubDate>
-      <description>Sahel Extremism Risk</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-sahel-extremism-risk.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
