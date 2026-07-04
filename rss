@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 09:02:45 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 09:02:45 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 09:23:28 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 09:23:28 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FL Health Fraud Charges</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-fl-health-fraud-charges</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-fl-health-fraud-charges</guid>
+      <pubDate>Sat, 04 Jul 2026 09:19:16 GMT</pubDate>
+      <description>FL Health Fraud Charges</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-fl-health-fraud-charges.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Nigeria PFICP Scandal</title>
       <link>https://newsanarchist.com/articles/2026-07-04-nigeria-pficp-scandal</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutorial Misconduct</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-prosecutorial-misconduct</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-prosecutorial-misconduct</guid>
-      <pubDate>Sat, 04 Jul 2026 03:22:05 GMT</pubDate>
-      <description>Prosecutorial Misconduct</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-prosecutorial-misconduct.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
