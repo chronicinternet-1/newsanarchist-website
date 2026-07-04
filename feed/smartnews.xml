@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 01:17:57 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 01:17:57 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 01:23:52 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 01:23:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Justice for Lyra McKee</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-justice-for-lyra-mckee</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-justice-for-lyra-mckee</guid>
+      <pubDate>Sat, 04 Jul 2026 01:21:02 GMT</pubDate>
+      <description>Justice for Lyra McKee</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-justice-for-lyra-mckee.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Facial Recognition Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-facial-recognition-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-facial-recognition-expands</guid>
+      <pubDate>Sat, 04 Jul 2026 01:20:58 GMT</pubDate>
+      <description>Facial Recognition Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-facial-recognition-expands.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Avi Loeb Seeks UAP Truth</title>
       <link>https://newsanarchist.com/articles/2026-07-04-avi-loeb-seeks-uap-truth</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Probes Oil Price-Fixing</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-us-probes-oil-price-fixing</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-us-probes-oil-price-fixing</guid>
-      <pubDate>Fri, 03 Jul 2026 19:04:03 GMT</pubDate>
-      <description>US Probes Oil Price-Fixing</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-us-probes-oil-price-fixing.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Withdraws From ICC</title>
-      <link>https://newsanarchist.com/articles/2026-07-03-sahel-withdraws-from-icc</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-03-sahel-withdraws-from-icc</guid>
-      <pubDate>Fri, 03 Jul 2026 18:33:13 GMT</pubDate>
-      <description>Sahel Withdraws From ICC</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-03-sahel-withdraws-from-icc.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
