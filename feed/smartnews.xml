@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 18:50:19 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 18:50:19 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 19:25:55 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 19:25:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cosmic Awareness Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-cosmic-awareness-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-cosmic-awareness-expands</guid>
+      <pubDate>Sat, 04 Jul 2026 19:24:32 GMT</pubDate>
+      <description>Cosmic Awareness Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-cosmic-awareness-expands.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>CA Gov Ally Probe</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-ca-gov-ally-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-ca-gov-ally-probe</guid>
+      <pubDate>Sat, 04 Jul 2026 19:23:55 GMT</pubDate>
+      <description>CA Gov Ally Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-ca-gov-ally-probe.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Xi's Military Purge</title>
       <link>https://newsanarchist.com/articles/2026-07-04-xis-military-purge</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Olympian Faces Felony Charge</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-olympian-faces-felony-charge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-olympian-faces-felony-charge</guid>
-      <pubDate>Sat, 04 Jul 2026 12:26:55 GMT</pubDate>
-      <description>Olympian Faces Felony Charge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-olympian-faces-felony-charge.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Arrests</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-medicaid-fraud-arrests</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-medicaid-fraud-arrests</guid>
-      <pubDate>Sat, 04 Jul 2026 12:20:47 GMT</pubDate>
-      <description>Medicaid Fraud Arrests</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-medicaid-fraud-arrests.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
