@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 09:46:13 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 09:46:13 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 10:21:56 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 10:21:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nurse Describes NDE</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-nurse-describes-nde</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-nurse-describes-nde</guid>
+      <pubDate>Sat, 04 Jul 2026 10:19:49 GMT</pubDate>
+      <description>Nurse Describes NDE</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-nurse-describes-nde.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>FL Medicare Fraud Charges</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-fl-medicare-fraud-charges</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-fl-medicare-fraud-charges</guid>
+      <pubDate>Sat, 04 Jul 2026 10:19:44 GMT</pubDate>
+      <description>FL Medicare Fraud Charges</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-fl-medicare-fraud-charges.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Xi Rebuilds PLA Top Brass</title>
       <link>https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-pla-top-brass</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Google Loses $4.7B Appeal</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-google-loses-47b-appeal</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-google-loses-47b-appeal</guid>
-      <pubDate>Sat, 04 Jul 2026 04:08:17 GMT</pubDate>
-      <description>Google Loses $4.7B Appeal</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-google-loses-47b-appeal.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Ram Mandir Funds Row</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-ram-mandir-funds-row</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-ram-mandir-funds-row</guid>
-      <pubDate>Sat, 04 Jul 2026 04:00:26 GMT</pubDate>
-      <description>Ram Mandir Funds Row</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-ram-mandir-funds-row.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
