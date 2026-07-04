@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 Jul 2026 13:23:30 GMT</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 13:23:30 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2026 13:29:07 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2026 13:29:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Cameras Face Backlash</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-flock-cameras-face-backlash</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-flock-cameras-face-backlash</guid>
+      <pubDate>Sat, 04 Jul 2026 13:27:44 GMT</pubDate>
+      <description>Flock Cameras Face Backlash</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-flock-cameras-face-backlash.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Daphne Murder Trial</title>
+      <link>https://newsanarchist.com/articles/2026-07-04-daphne-murder-trial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-daphne-murder-trial</guid>
+      <pubDate>Sat, 04 Jul 2026 13:27:30 GMT</pubDate>
+      <description>Daphne Murder Trial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-daphne-murder-trial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicare Fraud Charges</title>
       <link>https://newsanarchist.com/articles/2026-07-04-medicare-fraud-charges</link>
@@ -597,30 +621,6 @@
       <category>Money Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>NewsAnarchist Desk</dc:creator>
-    </item>
-    <item>
-      <title>Xi Rebuilds Command</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-command</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-xi-rebuilds-command</guid>
-      <pubDate>Sat, 04 Jul 2026 06:39:18 GMT</pubDate>
-      <description>Xi Rebuilds Command</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-xi-rebuilds-command.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Federal Overhaul Sparks Anger</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-federal-overhaul-sparks-anger</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-federal-overhaul-sparks-anger</guid>
-      <pubDate>Sat, 04 Jul 2026 06:34:14 GMT</pubDate>
-      <description>Federal Overhaul Sparks Anger</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-federal-overhaul-sparks-anger.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
