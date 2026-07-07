@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 07 Jul 2026 21:21:18 GMT</lastBuildDate>
-    <pubDate>Tue, 07 Jul 2026 21:21:18 GMT</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 21:27:34 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2026 21:27:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -57,6 +57,18 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Redefined</title>
+      <link>https://newsanarchist.com/articles/2026-07-06-consciousness-redefined</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-06-consciousness-redefined</guid>
+      <pubDate>Mon, 06 Jul 2026 21:49:12 GMT</pubDate>
+      <description>Consciousness Redefined</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-06-consciousness-redefined.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>$6.5B Fraud Takedown</title>
@@ -429,18 +441,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Redefined</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-consciousness-redefined</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-consciousness-redefined</guid>
-      <pubDate>Sat, 04 Jul 2026 21:25:31 GMT</pubDate>
-      <description>Consciousness Redefined</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-consciousness-redefined.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Taiwan Prepares</title>
