@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 07 Jul 2026 21:16:07 GMT</lastBuildDate>
-    <pubDate>Tue, 07 Jul 2026 21:16:07 GMT</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 21:21:18 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2026 21:21:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>CIA Secrets Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-07-06-cia-secrets-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-06-cia-secrets-uncovered</guid>
+      <pubDate>Mon, 06 Jul 2026 23:50:11 GMT</pubDate>
+      <description>CIA Secrets Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-06-cia-secrets-uncovered.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>China Tests Pacific Missile</title>
       <link>https://newsanarchist.com/articles/2026-07-06-china-tests-pacific-missile</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Cosmic Awareness Expands</title>
-      <link>https://newsanarchist.com/articles/2026-07-04-cosmic-awareness-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-04-cosmic-awareness-expands</guid>
-      <pubDate>Sat, 04 Jul 2026 19:24:32 GMT</pubDate>
-      <description>Cosmic Awareness Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-04-cosmic-awareness-expands.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
