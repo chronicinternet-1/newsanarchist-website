@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 21:23:49 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 21:23:49 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 21:34:35 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 21:34:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FISA Expiration Sparks Reform</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-fisa-expiration-sparks-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-fisa-expiration-sparks-reform</guid>
+      <pubDate>Wed, 08 Jul 2026 21:31:06 GMT</pubDate>
+      <description>FISA Expiration Sparks Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-fisa-expiration-sparks-reform.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Charlie Kirk Murder</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-charlie-kirk-murder</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-charlie-kirk-murder</guid>
+      <pubDate>Wed, 08 Jul 2026 21:30:09 GMT</pubDate>
+      <description>Charlie Kirk Murder</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-charlie-kirk-murder.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicare Fraud Takedown</title>
       <link>https://newsanarchist.com/articles/2026-07-08-medicare-fraud-takedown</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>NDE Anthropology</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-nde-anthropology</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-nde-anthropology</guid>
-      <pubDate>Wed, 08 Jul 2026 15:20:30 GMT</pubDate>
-      <description>NDE Anthropology</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-nde-anthropology.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Strait Tensions Rise</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-taiwan-strait-tensions-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-taiwan-strait-tensions-rise</guid>
-      <pubDate>Wed, 08 Jul 2026 14:40:07 GMT</pubDate>
-      <description>Taiwan Strait Tensions Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-taiwan-strait-tensions-rise.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
