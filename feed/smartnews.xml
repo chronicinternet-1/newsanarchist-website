@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:33:07 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 13:33:07 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 13:38:46 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 13:38:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS IG Probes Secret Service</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-dhs-ig-probes-secret-service</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-dhs-ig-probes-secret-service</guid>
+      <pubDate>Wed, 08 Jul 2026 13:33:31 GMT</pubDate>
+      <description>DHS IG Probes Secret Service</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-dhs-ig-probes-secret-service.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>SEC Crypto Rule</title>
       <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-rule</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FCA Seeks More Power</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-fca-seeks-more-power</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-fca-seeks-more-power</guid>
-      <pubDate>Wed, 08 Jul 2026 08:01:02 GMT</pubDate>
-      <description>FCA Seeks More Power</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-fca-seeks-more-power.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
