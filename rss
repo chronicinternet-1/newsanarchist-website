@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 16:24:39 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 16:24:39 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 16:30:16 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 16:30:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Warrantless Searches Expand</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-warrantless-searches-expand</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-warrantless-searches-expand</guid>
+      <pubDate>Wed, 08 Jul 2026 16:27:54 GMT</pubDate>
+      <description>Warrantless Searches Expand</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-warrantless-searches-expand.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Kirk Murder Trial</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-kirk-murder-trial</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-kirk-murder-trial</guid>
+      <pubDate>Wed, 08 Jul 2026 16:27:10 GMT</pubDate>
+      <description>Kirk Murder Trial</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-kirk-murder-trial.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Cosmic Minds Hidden</title>
       <link>https://newsanarchist.com/articles/2026-07-08-cosmic-minds-hidden</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Missile Test Raises Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-china-missile-test-raises-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-china-missile-test-raises-tensions</guid>
-      <pubDate>Wed, 08 Jul 2026 10:36:41 GMT</pubDate>
-      <description>China Missile Test Raises Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-china-missile-test-raises-tensions.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FOIA Exemption 5 Debated</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-foia-exemption-5-debated</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-foia-exemption-5-debated</guid>
-      <pubDate>Wed, 08 Jul 2026 10:30:51 GMT</pubDate>
-      <description>FOIA Exemption 5 Debated</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-foia-exemption-5-debated.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
