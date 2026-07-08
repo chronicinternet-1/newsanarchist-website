@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 12:39:41 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 12:39:41 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 13:05:26 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 13:05:26 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>RAM Makers Face Suit</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-ram-makers-face-suit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ram-makers-face-suit</guid>
+      <pubDate>Wed, 08 Jul 2026 13:00:26 GMT</pubDate>
+      <description>RAM Makers Face Suit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ram-makers-face-suit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar War Toll Surges</title>
       <link>https://newsanarchist.com/articles/2026-07-08-myanmar-war-toll-surges</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-China Ties Shift</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-us-china-ties-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-china-ties-shift</guid>
-      <pubDate>Wed, 08 Jul 2026 07:24:39 GMT</pubDate>
-      <description>US-China Ties Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-china-ties-shift.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
