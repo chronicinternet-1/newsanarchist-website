@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-08-morocco-foils-isil-attack</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-08T13:39:17.145Z</news:publication_date>
+      <news:title>Morocco Foils ISIL Attack</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-08-dhs-ig-probes-secret-service</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1694,14 +1702,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-07T08:52:41.352Z</news:publication_date>
       <news:title>SNAP Error Rates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-morocco-foils-isil-attack</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T08:16:42.560Z</news:publication_date>
-      <news:title>Morocco Foils ISIL Attack</news:title>
     </news:news>
   </url>
   <url>

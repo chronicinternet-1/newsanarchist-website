@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:38:46 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 13:38:46 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 13:44:29 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 13:44:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Morocco Foils ISIL Attack</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-morocco-foils-isil-attack</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-morocco-foils-isil-attack</guid>
+      <pubDate>Wed, 08 Jul 2026 13:39:17 GMT</pubDate>
+      <description>Morocco Foils ISIL Attack</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-morocco-foils-isil-attack.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>DHS IG Probes Secret Service</title>
       <link>https://newsanarchist.com/articles/2026-07-08-dhs-ig-probes-secret-service</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Ring Busted</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-snap-fraud-ring-busted</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-snap-fraud-ring-busted</guid>
-      <pubDate>Wed, 08 Jul 2026 08:10:04 GMT</pubDate>
-      <description>SNAP Fraud Ring Busted</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-snap-fraud-ring-busted.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
