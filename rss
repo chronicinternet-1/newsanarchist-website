@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:02:15 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 11:02:15 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:17:58 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 11:17:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Next-Gen Model</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-ai-next-gen-model</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ai-next-gen-model</guid>
+      <pubDate>Wed, 08 Jul 2026 11:16:57 GMT</pubDate>
+      <description>AI Next-Gen Model</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ai-next-gen-model.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Hits $547M</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-medicare-fraud-hits-547m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-medicare-fraud-hits-547m</guid>
+      <pubDate>Wed, 08 Jul 2026 11:13:13 GMT</pubDate>
+      <description>Medicare Fraud Hits $547M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-medicare-fraud-hits-547m.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>RAM Makers Face Lawsuit</title>
       <link>https://newsanarchist.com/articles/2026-07-08-ram-makers-face-lawsuit</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Retaliates in Hormuz</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-us-retaliates-in-hormuz</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-retaliates-in-hormuz</guid>
-      <pubDate>Wed, 08 Jul 2026 05:22:02 GMT</pubDate>
-      <description>US Retaliates in Hormuz</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-retaliates-in-hormuz.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Congress Eyes Reform</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-congress-eyes-reform</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-congress-eyes-reform</guid>
-      <pubDate>Wed, 08 Jul 2026 05:18:25 GMT</pubDate>
-      <description>Congress Eyes Reform</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-congress-eyes-reform.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
