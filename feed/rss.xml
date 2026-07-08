@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 09:18:51 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 09:18:51 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 09:24:41 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 09:24:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Faces SCOTUS Blow</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-flock-faces-scotus-blow</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-flock-faces-scotus-blow</guid>
+      <pubDate>Wed, 08 Jul 2026 09:22:09 GMT</pubDate>
+      <description>Flock Faces SCOTUS Blow</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-flock-faces-scotus-blow.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Ohio Solves 1985 Murder</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-ohio-solves-1985-murder</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ohio-solves-1985-murder</guid>
+      <pubDate>Wed, 08 Jul 2026 09:21:00 GMT</pubDate>
+      <description>Ohio Solves 1985 Murder</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ohio-solves-1985-murder.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Brain Strained</title>
       <link>https://newsanarchist.com/articles/2026-07-08-brain-strained</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>AI Boom Creates Billionaires</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ai-boom-creates-billionaires</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ai-boom-creates-billionaires</guid>
-      <pubDate>Wed, 08 Jul 2026 03:51:38 GMT</pubDate>
-      <description>AI Boom Creates Billionaires</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ai-boom-creates-billionaires.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Mali Security Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-mali-security-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-mali-security-crisis</guid>
-      <pubDate>Wed, 08 Jul 2026 03:29:21 GMT</pubDate>
-      <description>Mali Security Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-mali-security-crisis.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
