@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:27:00 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 08:27:00 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:33:09 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 08:33:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS IG Report</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-dhs-ig-report</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-dhs-ig-report</guid>
+      <pubDate>Wed, 08 Jul 2026 08:28:34 GMT</pubDate>
+      <description>DHS IG Report</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-dhs-ig-report.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>SEC Crypto Rules</title>
       <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-snap-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-snap-fraud-crackdown</guid>
-      <pubDate>Wed, 08 Jul 2026 03:05:19 GMT</pubDate>
-      <description>SNAP Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-snap-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
