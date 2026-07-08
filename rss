@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 09:30:35 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 09:30:35 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 09:36:21 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 09:36:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Deploys 110+ Vessels</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-china-deploys-110-vessels</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-china-deploys-110-vessels</guid>
+      <pubDate>Wed, 08 Jul 2026 09:35:46 GMT</pubDate>
+      <description>China Deploys 110+ Vessels</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-china-deploys-110-vessels.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Congressional Oversight</title>
       <link>https://newsanarchist.com/articles/2026-07-08-congressional-oversight</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Flock Faces Backlash</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-flock-faces-backlash</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-flock-faces-backlash</guid>
-      <pubDate>Wed, 08 Jul 2026 04:16:29 GMT</pubDate>
-      <description>Flock Faces Backlash</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-flock-faces-backlash.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
