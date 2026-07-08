@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-08-sudan-war-escalates</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-08T11:37:18.407Z</news:publication_date>
+      <news:title>Sudan War Escalates</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-08-research-funding-overhaul</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -654,14 +662,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
       <news:publication_date>2026-07-08T02:00:54.154Z</news:publication_date>
       <news:title>AI技術と新聞記事の精度</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-sudan-war-escalates</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T01:28:01.786Z</news:publication_date>
-      <news:title>Sudan War Escalates</news:title>
     </news:news>
   </url>
   <url>
