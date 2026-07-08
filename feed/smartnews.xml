@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 12:01:18 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 12:01:18 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 12:16:57 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 12:16:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hospice Fraud Kills</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-hospice-fraud-kills</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-hospice-fraud-kills</guid>
+      <pubDate>Wed, 08 Jul 2026 12:14:11 GMT</pubDate>
+      <description>Hospice Fraud Kills</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-hospice-fraud-kills.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Cal-Maine Stake Sold</title>
       <link>https://newsanarchist.com/articles/2026-07-08-cal-maine-stake-sold</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>CA Public Records Bill Halted</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ca-public-records-bill-halted</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ca-public-records-bill-halted</guid>
-      <pubDate>Wed, 08 Jul 2026 06:27:17 GMT</pubDate>
-      <description>CA Public Records Bill Halted</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ca-public-records-bill-halted.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
