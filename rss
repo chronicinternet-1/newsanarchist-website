@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:20:52 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 08:20:52 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:27:00 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 08:27:00 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Crypto Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</guid>
+      <pubDate>Wed, 08 Jul 2026 08:25:45 GMT</pubDate>
+      <description>SEC Crypto Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-sec-crypto-rules.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>EU Shifts to Renewables</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-eu-shifts-to-renewables</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-eu-shifts-to-renewables</guid>
+      <pubDate>Wed, 08 Jul 2026 08:25:35 GMT</pubDate>
+      <description>EU Shifts to Renewables</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-eu-shifts-to-renewables.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>EU Chat Control Revived</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-eu-chat-control-revived</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-eu-chat-control-revived</guid>
+      <pubDate>Wed, 08 Jul 2026 08:21:37 GMT</pubDate>
+      <description>EU Chat Control Revived</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-eu-chat-control-revived.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Kirk Murder Trial</title>
       <link>https://newsanarchist.com/articles/2026-07-08-kirk-murder-trial</link>
@@ -527,18 +563,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>SEC Crypto Rules</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</guid>
-      <pubDate>Wed, 08 Jul 2026 03:20:22 GMT</pubDate>
-      <description>SEC Crypto Rules</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-sec-crypto-rules.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Canada Elevates Naval Power</title>
       <link>https://newsanarchist.com/articles/2026-07-08-canada-elevates-naval-power</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-canada-elevates-naval-power</guid>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Iran Strikes Ships</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-iran-strikes-ships</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-iran-strikes-ships</guid>
-      <pubDate>Wed, 08 Jul 2026 02:28:39 GMT</pubDate>
-      <description>Iran Strikes Ships</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-iran-strikes-ships.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Hacks Surge</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-crypto-hacks-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-crypto-hacks-surge</guid>
-      <pubDate>Wed, 08 Jul 2026 02:19:33 GMT</pubDate>
-      <description>Crypto Hacks Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-crypto-hacks-surge.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
