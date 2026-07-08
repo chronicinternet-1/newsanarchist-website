@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 14:15:48 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 14:15:48 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:21:27 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 14:21:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NDE Research</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-nde-research</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-nde-research</guid>
+      <pubDate>Wed, 08 Jul 2026 14:19:45 GMT</pubDate>
+      <description>NDE Research</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-nde-research.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Sheriff Pleads Guilty</title>
       <link>https://newsanarchist.com/articles/2026-07-08-sheriff-pleads-guilty</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>EU Chat Control Revived</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-eu-chat-control-revived</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-eu-chat-control-revived</guid>
-      <pubDate>Wed, 08 Jul 2026 08:21:37 GMT</pubDate>
-      <description>EU Chat Control Revived</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-eu-chat-control-revived.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
