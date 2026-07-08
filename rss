@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 14:27:07 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 14:27:07 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:32:43 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 14:32:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UFO Study Group Led By Avi Loeb</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-ufo-study-group-led-by-avi-loeb</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ufo-study-group-led-by-avi-loeb</guid>
+      <pubDate>Wed, 08 Jul 2026 14:31:25 GMT</pubDate>
+      <description>UFO Study Group Led By Avi Loeb</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ufo-study-group-led-by-avi-loeb.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>US Hits Iran</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-us-hits-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-hits-iran</guid>
+      <pubDate>Wed, 08 Jul 2026 14:30:22 GMT</pubDate>
+      <description>US Hits Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-hits-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>ATF Drops Tracking Program</title>
       <link>https://newsanarchist.com/articles/2026-07-08-atf-drops-tracking-program</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Mali Security Crisis Worsens</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-mali-security-crisis-worsens</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-mali-security-crisis-worsens</guid>
-      <pubDate>Wed, 08 Jul 2026 08:34:47 GMT</pubDate>
-      <description>Mali Security Crisis Worsens</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-mali-security-crisis-worsens.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DHS IG Report</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-dhs-ig-report</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-dhs-ig-report</guid>
-      <pubDate>Wed, 08 Jul 2026 08:28:34 GMT</pubDate>
-      <description>DHS IG Report</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-dhs-ig-report.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
