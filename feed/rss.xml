@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:17:58 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 11:17:58 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:23:36 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 11:23:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Bond Disparity Sparks Outrage</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-bond-disparity-sparks-outrage</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-bond-disparity-sparks-outrage</guid>
+      <pubDate>Wed, 08 Jul 2026 11:23:04 GMT</pubDate>
+      <description>Bond Disparity Sparks Outrage</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-bond-disparity-sparks-outrage.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>AI Next-Gen Model</title>
       <link>https://newsanarchist.com/articles/2026-07-08-ai-next-gen-model</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FSB Declassifies WWII Files</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-fsb-declassifies-wwii-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-fsb-declassifies-wwii-files</guid>
-      <pubDate>Wed, 08 Jul 2026 05:26:11 GMT</pubDate>
-      <description>FSB Declassifies WWII Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-fsb-declassifies-wwii-files.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
