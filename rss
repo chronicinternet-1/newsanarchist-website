@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:07:46 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 08:07:46 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:14:28 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 08:14:28 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mars Mission</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-mars-mission</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-mars-mission</guid>
+      <pubDate>Wed, 08 Jul 2026 08:13:25 GMT</pubDate>
+      <description>Mars Mission</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-mars-mission.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>SNAP Fraud Ring Busted</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-snap-fraud-ring-busted</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-snap-fraud-ring-busted</guid>
+      <pubDate>Wed, 08 Jul 2026 08:10:04 GMT</pubDate>
+      <description>SNAP Fraud Ring Busted</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-snap-fraud-ring-busted.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FCA Seeks More Power</title>
       <link>https://newsanarchist.com/articles/2026-07-08-fca-seeks-more-power</link>
@@ -59,6 +83,18 @@
       <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
+      <title>Whistleblower Program Releases Report</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-whistleblower-program-releases-report</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-whistleblower-program-releases-report</guid>
+      <pubDate>Wed, 08 Jul 2026 07:27:52 GMT</pubDate>
+      <description>Whistleblower Program Releases Report</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-whistleblower-program-releases-report.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
       <title>Crypto Hacks Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-08-crypto-hacks-rise</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-crypto-hacks-rise</guid>
@@ -71,6 +107,18 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
+      <title>US-China Ties Shift</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-us-china-ties-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-china-ties-shift</guid>
+      <pubDate>Wed, 08 Jul 2026 07:24:39 GMT</pubDate>
+      <description>US-China Ties Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-china-ties-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
       <title>Flock Faces SCOTUS Setback</title>
       <link>https://newsanarchist.com/articles/2026-07-08-flock-faces-scotus-setback</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-flock-faces-scotus-setback</guid>
@@ -81,6 +129,18 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Prosecutorial Misconduct</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-prosecutorial-misconduct</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-prosecutorial-misconduct</guid>
+      <pubDate>Wed, 08 Jul 2026 07:18:38 GMT</pubDate>
+      <description>Prosecutorial Misconduct</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-prosecutorial-misconduct.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Cosmic Minds Hidden</title>
@@ -119,6 +179,30 @@
       <dc:creator>NewsAnarchist Desk</dc:creator>
     </item>
     <item>
+      <title>Total Return Swaps Threaten Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-total-return-swaps-threaten-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-total-return-swaps-threaten-transparency</guid>
+      <pubDate>Wed, 08 Jul 2026 06:55:41 GMT</pubDate>
+      <description>Total Return Swaps Threaten Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-total-return-swaps-threaten-transparency.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Sudan War Intensifies</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-sudan-war-intensifies</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-sudan-war-intensifies</guid>
+      <pubDate>Wed, 08 Jul 2026 06:32:59 GMT</pubDate>
+      <description>Sudan War Intensifies</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-sudan-war-intensifies.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
       <title>CA Public Records Bill Halted</title>
       <link>https://newsanarchist.com/articles/2026-07-08-ca-public-records-bill-halted</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ca-public-records-bill-halted</guid>
@@ -141,6 +225,18 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Trump Faces Pushback</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-trump-faces-pushback</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-trump-faces-pushback</guid>
+      <pubDate>Wed, 08 Jul 2026 06:24:07 GMT</pubDate>
+      <description>Trump Faces Pushback</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-trump-faces-pushback.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>EU Revives Warrantless Chat Scans</title>
@@ -215,6 +311,18 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
+      <title>US Retaliates in Hormuz</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-us-retaliates-in-hormuz</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-retaliates-in-hormuz</guid>
+      <pubDate>Wed, 08 Jul 2026 05:22:02 GMT</pubDate>
+      <description>US Retaliates in Hormuz</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-retaliates-in-hormuz.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
       <title>Congress Eyes Reform</title>
       <link>https://newsanarchist.com/articles/2026-07-08-congress-eyes-reform</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-congress-eyes-reform</guid>
@@ -225,6 +333,18 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>UK Prison Overcrowding</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-uk-prison-overcrowding</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-uk-prison-overcrowding</guid>
+      <pubDate>Wed, 08 Jul 2026 05:16:10 GMT</pubDate>
+      <description>UK Prison Overcrowding</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-uk-prison-overcrowding.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Cosmic Consciousness Hides Minds</title>
@@ -251,6 +371,30 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
+      <title>RAM Price-Fixing Lawsuit</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-ram-price-fixing-lawsuit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ram-price-fixing-lawsuit</guid>
+      <pubDate>Wed, 08 Jul 2026 04:52:35 GMT</pubDate>
+      <description>RAM Price-Fixing Lawsuit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ram-price-fixing-lawsuit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Taiwan Defends Preparations</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-taiwan-defends-preparations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-taiwan-defends-preparations</guid>
+      <pubDate>Wed, 08 Jul 2026 04:30:16 GMT</pubDate>
+      <description>Taiwan Defends Preparations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-taiwan-defends-preparations.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
       <title>CIA MKULTRA Files Reopened</title>
       <link>https://newsanarchist.com/articles/2026-07-08-cia-mkultra-files-reopened</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-cia-mkultra-files-reopened</guid>
@@ -275,6 +419,18 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
+      <title>US Hits Iran</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-us-hits-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-hits-iran</guid>
+      <pubDate>Wed, 08 Jul 2026 04:20:46 GMT</pubDate>
+      <description>US Hits Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-hits-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
       <title>Flock Faces Backlash</title>
       <link>https://newsanarchist.com/articles/2026-07-08-flock-faces-backlash</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-flock-faces-backlash</guid>
@@ -297,6 +453,18 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Near-Death Experience Abroad</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-near-death-experience-abroad</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-near-death-experience-abroad</guid>
+      <pubDate>Wed, 08 Jul 2026 04:07:45 GMT</pubDate>
+      <description>Near-Death Experience Abroad</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-near-death-experience-abroad.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Ex-Bball Player Charged</title>
@@ -359,6 +527,18 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
+      <title>SEC Crypto Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-sec-crypto-rules</guid>
+      <pubDate>Wed, 08 Jul 2026 03:20:22 GMT</pubDate>
+      <description>SEC Crypto Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-sec-crypto-rules.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
       <title>Canada Elevates Naval Power</title>
       <link>https://newsanarchist.com/articles/2026-07-08-canada-elevates-naval-power</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-canada-elevates-naval-power</guid>
@@ -407,6 +587,18 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
+      <title>SNAP Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-snap-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-snap-fraud-crackdown</guid>
+      <pubDate>Wed, 08 Jul 2026 03:05:19 GMT</pubDate>
+      <description>SNAP Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-snap-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
       <title>Iran Strikes Ships</title>
       <link>https://newsanarchist.com/articles/2026-07-08-iran-strikes-ships</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-iran-strikes-ships</guid>
@@ -429,198 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Air Force Engineer Fights Police Cameras</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-air-force-engineer-fights-police-cameras</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-air-force-engineer-fights-police-cameras</guid>
-      <pubDate>Wed, 08 Jul 2026 02:14:48 GMT</pubDate>
-      <description>Air Force Engineer Fights Police Cameras</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-air-force-engineer-fights-police-cameras.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Kills</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-hospice-fraud-kills</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-hospice-fraud-kills</guid>
-      <pubDate>Wed, 08 Jul 2026 02:04:22 GMT</pubDate>
-      <description>Hospice Fraud Kills</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-hospice-fraud-kills.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI技術と新聞記事の精度</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ai</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ai</guid>
-      <pubDate>Wed, 08 Jul 2026 02:00:54 GMT</pubDate>
-      <description>AI技術と新聞記事の精度</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ai.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>CA Public Records Rollback</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ca-public-records-rollback</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ca-public-records-rollback</guid>
-      <pubDate>Wed, 08 Jul 2026 01:22:50 GMT</pubDate>
-      <description>CA Public Records Rollback</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ca-public-records-rollback.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Defund Police Scandal</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-defund-police-scandal</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-defund-police-scandal</guid>
-      <pubDate>Wed, 08 Jul 2026 01:11:31 GMT</pubDate>
-      <description>Defund Police Scandal</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-defund-police-scandal.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Cosmic Consciousness Expands</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-cosmic-consciousness-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-cosmic-consciousness-expands</guid>
-      <pubDate>Wed, 08 Jul 2026 01:04:25 GMT</pubDate>
-      <description>Cosmic Consciousness Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-cosmic-consciousness-expands.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Exposed</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-medicare-fraud-exposed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-medicare-fraud-exposed</guid>
-      <pubDate>Wed, 08 Jul 2026 01:03:34 GMT</pubDate>
-      <description>Medicare Fraud Exposed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-medicare-fraud-exposed.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>AI Boom Creates Wealth</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ai-boom-creates-wealth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ai-boom-creates-wealth</guid>
-      <pubDate>Wed, 08 Jul 2026 00:49:32 GMT</pubDate>
-      <description>AI Boom Creates Wealth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ai-boom-creates-wealth.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Missile Test Raises Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-china-missile-test-raises-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-china-missile-test-raises-concerns</guid>
-      <pubDate>Wed, 08 Jul 2026 00:27:18 GMT</pubDate>
-      <description>China Missile Test Raises Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-china-missile-test-raises-concerns.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Drone Strikes Hit Hormuz</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-drone-strikes-hit-hormuz</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-drone-strikes-hit-hormuz</guid>
-      <pubDate>Wed, 08 Jul 2026 00:17:28 GMT</pubDate>
-      <description>Drone Strikes Hit Hormuz</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-drone-strikes-hit-hormuz.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Near-Death Experience</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-near-death-experience</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-near-death-experience</guid>
-      <pubDate>Wed, 08 Jul 2026 00:03:40 GMT</pubDate>
-      <description>Near-Death Experience</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-near-death-experience.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FTC Enforcement</title>
-      <link>https://newsanarchist.com/articles/2026-07-07-ftc-enforcement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-07-ftc-enforcement</guid>
-      <pubDate>Tue, 07 Jul 2026 23:48:14 GMT</pubDate>
-      <description>FTC Enforcement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-07-ftc-enforcement.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Conflict Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-07-07-sahel-conflict-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-07-sahel-conflict-escalates</guid>
-      <pubDate>Tue, 07 Jul 2026 23:26:07 GMT</pubDate>
-      <description>Sahel Conflict Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-07-sahel-conflict-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Koran To Oversee Inspector General</title>
-      <link>https://newsanarchist.com/articles/2026-07-07-koran-to-oversee-inspector-general</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-07-koran-to-oversee-inspector-general</guid>
-      <pubDate>Tue, 07 Jul 2026 23:21:02 GMT</pubDate>
-      <description>Koran To Oversee Inspector General</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-07-koran-to-oversee-inspector-general.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Brain Prediction</title>
-      <link>https://newsanarchist.com/articles/2026-07-07-brain-prediction</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-07-brain-prediction</guid>
-      <pubDate>Tue, 07 Jul 2026 23:17:44 GMT</pubDate>
-      <description>Brain Prediction</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-07-brain-prediction.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Talks Ease Oil Price</title>
-      <link>https://newsanarchist.com/articles/2026-07-07-us-iran-talks-ease-oil-price</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-07-us-iran-talks-ease-oil-price</guid>
-      <pubDate>Tue, 07 Jul 2026 23:16:52 GMT</pubDate>
-      <description>US-Iran Talks Ease Oil Price</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-07-us-iran-talks-ease-oil-price.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
