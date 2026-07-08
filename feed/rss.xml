@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 19:48:13 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 19:48:13 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 20:08:53 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 20:08:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Deere Settles Antitrust Suit</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-deere-settles-antitrust-suit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-deere-settles-antitrust-suit</guid>
+      <pubDate>Wed, 08 Jul 2026 20:05:49 GMT</pubDate>
+      <description>Deere Settles Antitrust Suit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-deere-settles-antitrust-suit.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Ups Taiwan Pressure</title>
       <link>https://newsanarchist.com/articles/2026-07-08-china-ups-taiwan-pressure</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Refunds $2.7M</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ftc-refunds-27m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ftc-refunds-27m</guid>
-      <pubDate>Wed, 08 Jul 2026 14:01:32 GMT</pubDate>
-      <description>FTC Refunds $2.7M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ftc-refunds-27m.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
