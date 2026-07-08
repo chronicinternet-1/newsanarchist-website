@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 16:30:16 GMT</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 16:30:16 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 16:35:55 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 16:35:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>New App Boosts Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-new-app-boosts-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-new-app-boosts-transparency</guid>
+      <pubDate>Wed, 08 Jul 2026 16:35:34 GMT</pubDate>
+      <description>New App Boosts Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-new-app-boosts-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>US-China Ties Warm</title>
+      <link>https://newsanarchist.com/articles/2026-07-08-us-china-ties-warm</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-us-china-ties-warm</guid>
+      <pubDate>Wed, 08 Jul 2026 16:31:39 GMT</pubDate>
+      <description>US-China Ties Warm</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-us-china-ties-warm.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Warrantless Searches Expand</title>
       <link>https://newsanarchist.com/articles/2026-07-08-warrantless-searches-expand</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Hits $547M</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-medicare-fraud-hits-547m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-medicare-fraud-hits-547m</guid>
-      <pubDate>Wed, 08 Jul 2026 11:13:13 GMT</pubDate>
-      <description>Medicare Fraud Hits $547M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-medicare-fraud-hits-547m.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>RAM Makers Face Lawsuit</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ram-makers-face-lawsuit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ram-makers-face-lawsuit</guid>
-      <pubDate>Wed, 08 Jul 2026 10:58:43 GMT</pubDate>
-      <description>RAM Makers Face Lawsuit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ram-makers-face-lawsuit.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
