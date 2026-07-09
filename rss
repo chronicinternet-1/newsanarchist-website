@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 11:41:37 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 11:41:37 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 11:47:31 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 11:47:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump UFO Speech</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</guid>
+      <pubDate>Thu, 09 Jul 2026 11:45:54 GMT</pubDate>
+      <description>Trump UFO Speech</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-trump-ufo-speech.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>NATO Summit Tensions Rise</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-nato-summit-tensions-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-nato-summit-tensions-rise</guid>
+      <pubDate>Thu, 09 Jul 2026 11:42:52 GMT</pubDate>
+      <description>NATO Summit Tensions Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-nato-summit-tensions-rise.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>DC Judge Orders Clearview AI Disclosure</title>
       <link>https://newsanarchist.com/articles/2026-07-09-dc-judge-orders-clearview-ai-disclosure</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Trump UFO Speech</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</guid>
-      <pubDate>Thu, 09 Jul 2026 05:41:18 GMT</pubDate>
-      <description>Trump UFO Speech</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-trump-ufo-speech.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Conflict Reshapes Africa</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-us-iran-conflict-reshapes-africa</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-us-iran-conflict-reshapes-africa</guid>
-      <pubDate>Thu, 09 Jul 2026 05:39:38 GMT</pubDate>
-      <description>US-Iran Conflict Reshapes Africa</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-us-iran-conflict-reshapes-africa.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
