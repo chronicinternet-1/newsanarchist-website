@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 02:42:31 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 02:42:31 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 02:48:20 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 02:48:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar War Toll Exceeds 100k</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-exceeds-100k</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-exceeds-100k</guid>
+      <pubDate>Thu, 09 Jul 2026 02:47:38 GMT</pubDate>
+      <description>Myanmar War Toll Exceeds 100k</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-myanmar-war-toll-exceeds-100k.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Whistleblower Lawsuit</title>
       <link>https://newsanarchist.com/articles/2026-07-09-whistleblower-lawsuit</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>CEO Liability Shifts</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-ceo-liability-shifts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-ceo-liability-shifts</guid>
-      <pubDate>Wed, 08 Jul 2026 21:06:23 GMT</pubDate>
-      <description>CEO Liability Shifts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-ceo-liability-shifts.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
