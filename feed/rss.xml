@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 20:42:34 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 20:42:34 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 20:48:13 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 20:48:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FISA 702 Expires</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-fisa-702-expires</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-fisa-702-expires</guid>
+      <pubDate>Thu, 09 Jul 2026 20:45:19 GMT</pubDate>
+      <description>FISA 702 Expires</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-fisa-702-expires.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Ex-Judge Spared</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</guid>
+      <pubDate>Thu, 09 Jul 2026 20:45:17 GMT</pubDate>
+      <description>Ex-Judge Spared</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ex-judge-spared.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Brain Activity Under Anesthesia</title>
       <link>https://newsanarchist.com/articles/2026-07-09-brain-activity-under-anesthesia</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Global Data Privacy Expands</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-global-data-privacy-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-global-data-privacy-expands</guid>
-      <pubDate>Thu, 09 Jul 2026 14:41:39 GMT</pubDate>
-      <description>Global Data Privacy Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-global-data-privacy-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutorial Misconduct</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-prosecutorial-misconduct</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-prosecutorial-misconduct</guid>
-      <pubDate>Thu, 09 Jul 2026 14:41:17 GMT</pubDate>
-      <description>Prosecutorial Misconduct</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-prosecutorial-misconduct.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
