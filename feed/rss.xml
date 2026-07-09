@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 19:48:15 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 19:48:15 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 19:54:01 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 19:54:01 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DHS Buys Detention Centers</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-dhs-buys-detention-centers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-dhs-buys-detention-centers</guid>
+      <pubDate>Thu, 09 Jul 2026 19:53:05 GMT</pubDate>
+      <description>DHS Buys Detention Centers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-dhs-buys-detention-centers.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>NASA Confirms UFO Images</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-nasa-confirms-ufo-images</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-nasa-confirms-ufo-images</guid>
+      <pubDate>Thu, 09 Jul 2026 19:51:17 GMT</pubDate>
+      <description>NASA Confirms UFO Images</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-nasa-confirms-ufo-images.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>EU Targets Russia Drone Supply</title>
       <link>https://newsanarchist.com/articles/2026-07-09-eu-targets-russia-drone-supply</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Whistleblower Arrest Sparks Controversy</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-whistleblower-arrest-sparks-controversy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-whistleblower-arrest-sparks-controversy</guid>
-      <pubDate>Thu, 09 Jul 2026 13:49:19 GMT</pubDate>
-      <description>Whistleblower Arrest Sparks Controversy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-whistleblower-arrest-sparks-controversy.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Crypto Safe Harbor</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-sec-crypto-safe-harbor</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-sec-crypto-safe-harbor</guid>
-      <pubDate>Thu, 09 Jul 2026 13:47:35 GMT</pubDate>
-      <description>SEC Crypto Safe Harbor</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-sec-crypto-safe-harbor.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
