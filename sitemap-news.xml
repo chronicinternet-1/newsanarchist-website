@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-09-ftc-targets-deceptive-labels</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-09T14:18:23.601Z</news:publication_date>
+      <news:title>FTC Targets Deceptive Labels</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-eua-x-ir-conflito-no-oriente-mdio-e-impacto-no-brasil</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
@@ -2630,38 +2638,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-07T14:20:45.472Z</news:publication_date>
       <news:title>Taiwan ADIZ Breached</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-mcconnell-hospital-stay</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T14:15:16.118Z</news:publication_date>
-      <news:title>McConnell Hospital Stay</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-clarity-act</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T14:12:07.272Z</news:publication_date>
-      <news:title>CLARITY Act</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-eu-sanctions-target-russia-banks</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T14:11:02.048Z</news:publication_date>
-      <news:title>EU Sanctions Target Russia Banks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-data-breach-exposes-biometrics</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T14:06:34.486Z</news:publication_date>
-      <news:title>Data Breach Exposes Biometrics</news:title>
     </news:news>
   </url>
 </urlset>
