@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 16:48:46 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 16:48:46 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 16:54:25 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 16:54:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AG Brown Pushes Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-ag-brown-pushes-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ag-brown-pushes-transparency</guid>
+      <pubDate>Thu, 09 Jul 2026 16:51:15 GMT</pubDate>
+      <description>AG Brown Pushes Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ag-brown-pushes-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>UFO Reporting Steps</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-ufo-reporting-steps</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ufo-reporting-steps</guid>
+      <pubDate>Thu, 09 Jul 2026 16:49:32 GMT</pubDate>
+      <description>UFO Reporting Steps</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ufo-reporting-steps.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Trump Ends Ceasefire</title>
       <link>https://newsanarchist.com/articles/2026-07-09-trump-ends-ceasefire</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Ex-Judge Spared</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</guid>
-      <pubDate>Thu, 09 Jul 2026 10:38:10 GMT</pubDate>
-      <description>Ex-Judge Spared</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ex-judge-spared.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Remote Viewing</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-remote-viewing</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-remote-viewing</guid>
-      <pubDate>Thu, 09 Jul 2026 10:34:47 GMT</pubDate>
-      <description>Remote Viewing</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-remote-viewing.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
