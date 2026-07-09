@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 14:40:16 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 14:40:16 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:45:55 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 14:45:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Global Data Privacy Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-global-data-privacy-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-global-data-privacy-expands</guid>
+      <pubDate>Thu, 09 Jul 2026 14:41:39 GMT</pubDate>
+      <description>Global Data Privacy Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-global-data-privacy-expands.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Prosecutorial Misconduct</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-prosecutorial-misconduct</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-prosecutorial-misconduct</guid>
+      <pubDate>Thu, 09 Jul 2026 14:41:17 GMT</pubDate>
+      <description>Prosecutorial Misconduct</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-prosecutorial-misconduct.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>CIA Mind Power</title>
       <link>https://newsanarchist.com/articles/2026-07-09-cia-mind-power</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Tucson Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-tucson-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-tucson-cold-case-solved</guid>
-      <pubDate>Thu, 09 Jul 2026 08:36:50 GMT</pubDate>
-      <description>Tucson Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-tucson-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Cosmic Consciousness Hides Minds</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-cosmic-consciousness-hides-minds</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-cosmic-consciousness-hides-minds</guid>
-      <pubDate>Thu, 09 Jul 2026 08:33:15 GMT</pubDate>
-      <description>Cosmic Consciousness Hides Minds</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-cosmic-consciousness-hides-minds.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
