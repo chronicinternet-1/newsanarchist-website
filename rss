@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 17:20:52 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 17:20:52 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 17:36:34 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 17:36:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Spikes 7,100%</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-medicare-fraud-spikes-7100</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-medicare-fraud-spikes-7100</guid>
+      <pubDate>Thu, 09 Jul 2026 17:33:28 GMT</pubDate>
+      <description>Medicare Fraud Spikes 7,100%</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-medicare-fraud-spikes-7100.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>SEC Explores AI</title>
       <link>https://newsanarchist.com/articles/2026-07-09-sec-explores-ai</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar War Toll Hits 100k</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-hits-100k</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-hits-100k</guid>
-      <pubDate>Thu, 09 Jul 2026 10:52:27 GMT</pubDate>
-      <description>Myanmar War Toll Hits 100k</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-myanmar-war-toll-hits-100k.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
