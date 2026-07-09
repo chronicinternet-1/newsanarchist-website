@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 13:35:07 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 13:35:07 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 13:40:45 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 13:40:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-cold-case-solved</guid>
+      <pubDate>Thu, 09 Jul 2026 13:40:20 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Elizondo Claims Moon Monoliths</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-elizondo-claims-moon-monoliths</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-elizondo-claims-moon-monoliths</guid>
+      <pubDate>Thu, 09 Jul 2026 13:36:41 GMT</pubDate>
+      <description>Elizondo Claims Moon Monoliths</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-elizondo-claims-moon-monoliths.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Exposed</title>
       <link>https://newsanarchist.com/articles/2026-07-09-snap-fraud-exposed</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Beyond Brains</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-consciousness-beyond-brains</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-consciousness-beyond-brains</guid>
-      <pubDate>Thu, 09 Jul 2026 07:32:04 GMT</pubDate>
-      <description>Consciousness Beyond Brains</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-consciousness-beyond-brains.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FBI Targets Child Nutrition Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-fbi-targets-child-nutrition-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-fbi-targets-child-nutrition-fraud</guid>
-      <pubDate>Thu, 09 Jul 2026 07:26:48 GMT</pubDate>
-      <description>FBI Targets Child Nutrition Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-fbi-targets-child-nutrition-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
