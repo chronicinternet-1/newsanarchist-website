@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 21:36:13 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 21:36:13 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 21:46:55 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 21:46:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Charlie Kirk Case</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-charlie-kirk-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-charlie-kirk-case</guid>
+      <pubDate>Thu, 09 Jul 2026 21:45:48 GMT</pubDate>
+      <description>Charlie Kirk Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-charlie-kirk-case.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Elizondo's Moon Monoliths</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-elizondos-moon-monoliths</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-elizondos-moon-monoliths</guid>
+      <pubDate>Thu, 09 Jul 2026 21:41:47 GMT</pubDate>
+      <description>Elizondo's Moon Monoliths</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-elizondos-moon-monoliths.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Medicare Fraud Takedown</title>
       <link>https://newsanarchist.com/articles/2026-07-09-medicare-fraud-takedown</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NASA Insider Hints At Bigger UFO File Release</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-nasa-insider-hints-at-bigger-ufo-file-release</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-nasa-insider-hints-at-bigger-ufo-file-release</guid>
-      <pubDate>Thu, 09 Jul 2026 15:48:57 GMT</pubDate>
-      <description>NASA Insider Hints At Bigger UFO File Release</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-nasa-insider-hints-at-bigger-ufo-file-release.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-facial-recognition-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-facial-recognition-concerns</guid>
-      <pubDate>Thu, 09 Jul 2026 15:42:20 GMT</pubDate>
-      <description>Facial Recognition Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-facial-recognition-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
