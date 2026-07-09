@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -121,12 +127,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/kenji-mori.html</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -167,6 +167,12 @@
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-09-ftc-cracks-down</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-exceeds-100k</loc>
@@ -1892,12 +1898,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-ftc-doj-target-egg-prices</loc>
-    <lastmod>2026-07-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-ftc-cracks-down</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -4965,32 +4965,32 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-us-eases-sanctions</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-fauci-accused-of-covid-cover-up</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-justice-reform</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-ai-control-raises-privacy-concerns</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-mkultra-revival</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-02-aerovironment-faces-lawsuit</loc>
@@ -26889,6 +26889,12 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-11-anthropic-requires-30-day-data-retention-for-fable-and-mythos</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-07-ftc-cracks-down</loc>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
