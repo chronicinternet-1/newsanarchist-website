@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 10:44:40 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 10:44:40 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 10:50:47 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 10:50:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>WA State Seeks Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-wa-state-seeks-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-wa-state-seeks-transparency</guid>
+      <pubDate>Thu, 09 Jul 2026 10:47:04 GMT</pubDate>
+      <description>WA State Seeks Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-wa-state-seeks-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Declassified UAP Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-declassified-uap-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-declassified-uap-files</guid>
+      <pubDate>Thu, 09 Jul 2026 10:45:14 GMT</pubDate>
+      <description>Declassified UAP Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-declassified-uap-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Global South Rises</title>
       <link>https://newsanarchist.com/articles/2026-07-09-global-south-rises</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Rejects Russia Sanctions</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-trump-rejects-russia-sanctions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-trump-rejects-russia-sanctions</guid>
-      <pubDate>Thu, 09 Jul 2026 04:39:03 GMT</pubDate>
-      <description>Trump Rejects Russia Sanctions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-trump-rejects-russia-sanctions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Navy Seeks Surveillance Tech</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-navy-seeks-surveillance-tech</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-navy-seeks-surveillance-tech</guid>
-      <pubDate>Thu, 09 Jul 2026 04:35:18 GMT</pubDate>
-      <description>Navy Seeks Surveillance Tech</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-navy-seeks-surveillance-tech.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
