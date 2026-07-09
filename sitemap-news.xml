@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-09-paramount-merger-challenged</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-09T08:14:20.050Z</news:publication_date>
+      <news:title>Paramount Merger Challenged</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-uk-watchdog-warns-of-ai-risks</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -182,14 +190,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-09T05:25:50.201Z</news:publication_date>
       <news:title>Medicaid Fraud $35M</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-paramount-merger-challenged</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T05:12:45.857Z</news:publication_date>
-      <news:title>Paramount Merger Challenged</news:title>
     </news:news>
   </url>
   <url>
@@ -2638,22 +2638,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-07T08:52:41.352Z</news:publication_date>
       <news:title>SNAP Error Rates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-ice-watchdog-falls-behind</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T08:11:19.964Z</news:publication_date>
-      <news:title>ICE Watchdog Falls Behind</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-uap-orbs-mystery-deepens</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T08:08:26.314Z</news:publication_date>
-      <news:title>UAP Orbs Mystery Deepens</news:title>
     </news:news>
   </url>
 </urlset>
