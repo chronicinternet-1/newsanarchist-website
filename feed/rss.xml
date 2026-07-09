@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 05:40:00 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 05:40:00 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 05:45:55 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 05:45:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fauci Challenged on COVID Origins</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-fauci-challenged-on-covid-origins</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-fauci-challenged-on-covid-origins</guid>
+      <pubDate>Thu, 09 Jul 2026 05:43:34 GMT</pubDate>
+      <description>Fauci Challenged on COVID Origins</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-fauci-challenged-on-covid-origins.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Trump UFO Speech</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-trump-ufo-speech</guid>
+      <pubDate>Thu, 09 Jul 2026 05:41:18 GMT</pubDate>
+      <description>Trump UFO Speech</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-trump-ufo-speech.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-Iran Conflict Reshapes Africa</title>
       <link>https://newsanarchist.com/articles/2026-07-09-us-iran-conflict-reshapes-africa</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>House Demands IG Answers</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-house-demands-ig-answers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-house-demands-ig-answers</guid>
-      <pubDate>Wed, 08 Jul 2026 23:39:37 GMT</pubDate>
-      <description>House Demands IG Answers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-house-demands-ig-answers.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Crypto Reforms</title>
-      <link>https://newsanarchist.com/articles/2026-07-08-sec-crypto-reforms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-08-sec-crypto-reforms</guid>
-      <pubDate>Wed, 08 Jul 2026 23:37:32 GMT</pubDate>
-      <description>SEC Crypto Reforms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-08-sec-crypto-reforms.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
