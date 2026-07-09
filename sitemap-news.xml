@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-09-myanmar-toll-hits-100k</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-09T18:58:36.650Z</news:publication_date>
+      <news:title>Myanmar Toll Hits 100k</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-ig-report-reveals-flaws</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -670,14 +678,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
       <news:publication_date>2026-07-09T08:00:26.766Z</news:publication_date>
       <news:title>UK Watchdog Warns Of AI Risks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-myanmar-toll-hits-100k</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T07:50:12.657Z</news:publication_date>
-      <news:title>Myanmar Toll Hits 100k</news:title>
     </news:news>
   </url>
   <url>
@@ -2614,14 +2614,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-07T19:01:01.005Z</news:publication_date>
       <news:title>Anesthesia Brain Activity Surprises</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-snap-error-rate</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T18:59:25.982Z</news:publication_date>
-      <news:title>SNAP Error Rate</news:title>
     </news:news>
   </url>
 </urlset>
