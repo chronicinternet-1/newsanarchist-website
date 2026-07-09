@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 06:17:24 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 06:17:24 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 06:28:13 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 06:28:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Takedown</title>
+      <link>https://newsanarchist.com/articles/2026-07-09-medicare-fraud-takedown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-medicare-fraud-takedown</guid>
+      <pubDate>Thu, 09 Jul 2026 06:26:19 GMT</pubDate>
+      <description>Medicare Fraud Takedown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-medicare-fraud-takedown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FTC Targets Dealers</title>
       <link>https://newsanarchist.com/articles/2026-07-09-ftc-targets-dealers</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Earth Survives Sun</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-earth-survives-sun</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-earth-survives-sun</guid>
-      <pubDate>Thu, 09 Jul 2026 00:26:23 GMT</pubDate>
-      <description>Earth Survives Sun</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-earth-survives-sun.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
