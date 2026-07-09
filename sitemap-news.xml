@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-09-ai</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
+      <news:publication_date>2026-07-09T02:00:40.495Z</news:publication_date>
+      <news:title>AI技術と新聞記事の精度向上</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-ofac-updates-sanctions-list</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1385,14 +1393,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-ai</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-07-08T02:00:54.154Z</news:publication_date>
-      <news:title>AI技術と新聞記事の精度</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-08-ca-public-records-rollback</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2550,30 +2550,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-07T02:02:49.411Z</news:publication_date>
       <news:title>US-China Tensions Rise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-kenji-mori-mra056q1</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-07-07T02:00:36.937Z</news:publication_date>
-      <news:title>日本の個人情報保護</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-facial-recognition-expands-to-air-travel</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T01:58:52.336Z</news:publication_date>
-      <news:title>Facial Recognition Expands To Air Travel</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-07-cosmic-consciousness</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-07T01:51:14.994Z</news:publication_date>
-      <news:title>Cosmic Consciousness</news:title>
     </news:news>
   </url>
 </urlset>
