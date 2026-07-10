@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 21:40:41 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 21:40:41 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 21:51:22 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 21:51:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Soars 7,100%</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-medicare-fraud-soars-7100</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-medicare-fraud-soars-7100</guid>
+      <pubDate>Fri, 10 Jul 2026 21:50:22 GMT</pubDate>
+      <description>Medicare Fraud Soars 7,100%</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-medicare-fraud-soars-7100.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Ex-Epoch Times CFO Pleads Guilty</title>
       <link>https://newsanarchist.com/articles/2026-07-10-ex-epoch-times-cfo-pleads-guilty</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$6.5B Fraud Takedown</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-65b-fraud-takedown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-65b-fraud-takedown</guid>
-      <pubDate>Fri, 10 Jul 2026 15:46:59 GMT</pubDate>
-      <description>$6.5B Fraud Takedown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-65b-fraud-takedown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
