@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-10-china-advances-nuclear-submarine-capabilities</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-10T08:08:06.771Z</news:publication_date>
+      <news:title>China Advances Nuclear Submarine Capabilities</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-uk-regulator-seeks-boost</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -2686,14 +2694,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-08T08:13:25.363Z</news:publication_date>
       <news:title>Mars Mission</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-snap-fraud-ring-busted</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T08:10:04.876Z</news:publication_date>
-      <news:title>SNAP Fraud Ring Busted</news:title>
     </news:news>
   </url>
 </urlset>
