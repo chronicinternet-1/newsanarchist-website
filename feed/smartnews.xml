@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 02:00:25 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 02:00:25 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 02:06:06 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 02:06:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar War Toll Mounts</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-myanmar-war-toll-mounts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-myanmar-war-toll-mounts</guid>
+      <pubDate>Fri, 10 Jul 2026 02:03:33 GMT</pubDate>
+      <description>Myanmar War Toll Mounts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-myanmar-war-toll-mounts.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>個人情報保護法改正案が参院で可決</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-kenji-mori-mreago0l</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-kenji-mori-mreago0l</guid>
+      <pubDate>Fri, 10 Jul 2026 02:00:33 GMT</pubDate>
+      <description>個人情報保護法改正案が参院で可決</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-kenji-mori-mreago0l.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Mayo Clinic AI Issues</title>
       <link>https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Ex-Judge Spared</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ex-judge-spared</guid>
-      <pubDate>Thu, 09 Jul 2026 20:45:17 GMT</pubDate>
-      <description>Ex-Judge Spared</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ex-judge-spared.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Brain Activity Under Anesthesia</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-brain-activity-under-anesthesia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-brain-activity-under-anesthesia</guid>
-      <pubDate>Thu, 09 Jul 2026 20:41:07 GMT</pubDate>
-      <description>Brain Activity Under Anesthesia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-brain-activity-under-anesthesia.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
