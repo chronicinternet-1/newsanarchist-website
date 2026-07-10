@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 12:53:18 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 12:53:18 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 12:59:18 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 12:59:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Warns Of China's Maritime Coercion</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-us-warns-of-chinas-maritime-coercion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-us-warns-of-chinas-maritime-coercion</guid>
+      <pubDate>Fri, 10 Jul 2026 12:57:41 GMT</pubDate>
+      <description>US Warns Of China's Maritime Coercion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-us-warns-of-chinas-maritime-coercion.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>LA Reverses Reform</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-la-reverses-reform</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-la-reverses-reform</guid>
+      <pubDate>Fri, 10 Jul 2026 12:55:18 GMT</pubDate>
+      <description>LA Reverses Reform</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-la-reverses-reform.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FISA 702 Expires, Surveillance Continues</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-fisa-702-expires-surveillance-continues</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fisa-702-expires-surveillance-continues</guid>
+      <pubDate>Fri, 10 Jul 2026 12:53:54 GMT</pubDate>
+      <description>FISA 702 Expires, Surveillance Continues</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fisa-702-expires-surveillance-continues.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>UAP Deception Warning</title>
       <link>https://newsanarchist.com/articles/2026-07-10-uap-deception-warning</link>
@@ -585,42 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>EU Cracks Down</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-eu-cracks-down</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-eu-cracks-down</guid>
-      <pubDate>Fri, 10 Jul 2026 07:01:00 GMT</pubDate>
-      <description>EU Cracks Down</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-eu-cracks-down.png"/>
-      <category>Money Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>NewsAnarchist Desk</dc:creator>
-    </item>
-    <item>
-      <title>OIG Flags Wastewater Plant</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-oig-flags-wastewater-plant</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-oig-flags-wastewater-plant</guid>
-      <pubDate>Fri, 10 Jul 2026 06:59:22 GMT</pubDate>
-      <description>OIG Flags Wastewater Plant</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-oig-flags-wastewater-plant.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NASA UFO Probe Expands</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-nasa-ufo-probe-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-nasa-ufo-probe-expands</guid>
-      <pubDate>Fri, 10 Jul 2026 06:57:40 GMT</pubDate>
-      <description>NASA UFO Probe Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-nasa-ufo-probe-expands.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
