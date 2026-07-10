@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 16:08:03 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 16:08:03 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 16:13:42 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 16:13:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan War Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-sudan-war-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-sudan-war-escalates</guid>
+      <pubDate>Fri, 10 Jul 2026 16:13:33 GMT</pubDate>
+      <description>Sudan War Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-sudan-war-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>FOIA Turns 60 Amid Blockage</title>
       <link>https://newsanarchist.com/articles/2026-07-10-foia-turns-60-amid-blockage</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China Ups Military Purge</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-china-ups-military-purge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-china-ups-military-purge</guid>
-      <pubDate>Fri, 10 Jul 2026 10:09:15 GMT</pubDate>
-      <description>China Ups Military Purge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-china-ups-military-purge.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
