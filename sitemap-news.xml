@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-10-us-boosts-taiwan-strait-capabilities</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-10T20:15:56.712Z</news:publication_date>
+      <news:title>US Boosts Taiwan Strait Capabilities</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-congress-probes-ig-failures</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2574,14 +2582,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-08T20:23:45.260Z</news:publication_date>
       <news:title>Hayabusa 2 Success</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-medicaid-fraud-hits-35m</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T20:19:48.046Z</news:publication_date>
-      <news:title>Medicaid Fraud Hits $35M</news:title>
     </news:news>
   </url>
 </urlset>
