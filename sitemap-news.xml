@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-10T06:41:21.656Z</news:publication_date>
+      <news:title>Telehealth Fraud Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-paramount-merger-challenged</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -342,14 +350,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T01:44:28.960Z</news:publication_date>
       <news:title>UAP Briefing Warns of Deception</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T01:38:07.146Z</news:publication_date>
-      <news:title>Telehealth Fraud Crackdown</news:title>
     </news:news>
   </url>
   <url>
@@ -2662,14 +2662,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-08T06:55:41.847Z</news:publication_date>
       <news:title>Total Return Swaps Threaten Transparency</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-sudan-war-intensifies</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T06:32:59.008Z</news:publication_date>
-      <news:title>Sudan War Intensifies</news:title>
     </news:news>
   </url>
 </urlset>
