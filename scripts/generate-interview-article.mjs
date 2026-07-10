@@ -273,7 +273,7 @@ ${guestBioHTML}
 </div>
 </div>
 <footer class="na-footer">
-<a href="/">Home</a><a href="/about.html">About</a><a href="/editorial.html">Editorial Standards</a><a href="/tip-line.html">Tip Line</a><a href="/subscribe.html">Subscribe</a>
+<a href="/">Home</a><a href="/about.html">About</a><a href="/editorial.html">Editorial Standards</a><a href="/tip-line.html">Tip Line</a><a href="/advertise.html">Advertise</a><a href="/subscribe.html">Subscribe</a>
 <div style="margin-top:12px">&copy; 2026 NewsAnarchist. A Chronic Internet Company.</div>
 </footer>
 </body>

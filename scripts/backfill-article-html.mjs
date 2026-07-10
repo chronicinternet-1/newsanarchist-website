@@ -497,6 +497,7 @@ img{max-width:100%;display:block}
         <a href="/editorial.html">Editorial Standards</a>
         <a href="/about-our-authors.html">Our Authors</a>
         <a href="/tip-line.html">Tip Line</a>
+        <a href="/advertise.html">Advertise</a>
         <a href="/trending.html">Trending</a>
         <a href="/buried-week.html">The Buried Week</a>
       </div>

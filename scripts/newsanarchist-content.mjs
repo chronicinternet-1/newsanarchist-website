@@ -1392,7 +1392,7 @@ ${SHARE_SCRIPT}
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
 <a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -3356,6 +3356,7 @@ ${featSection}
 <a href="/about.html" class="na-flink">About Us</a>
 <a href="/editorial.html" class="na-flink">Editorial Standards</a>
 <a href="/tip-line.html" class="na-flink">Tip Line</a>
+<a href="/advertise.html" class="na-flink">Advertise</a>
 <a href="/about-our-authors.html" class="na-flink">About Our Authors</a>
 </div>
 <div>
@@ -3735,7 +3736,7 @@ ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div clas
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
 <a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -3960,7 +3961,7 @@ ${paginationHTML}
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
 <a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -4174,7 +4175,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
 <a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a></div>
+<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
