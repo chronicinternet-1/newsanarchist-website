@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 11:59:13 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 11:59:13 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 12:05:02 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 12:05:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NHPS Whistleblower Policy</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-nhps-whistleblower-policy</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-nhps-whistleblower-policy</guid>
+      <pubDate>Fri, 10 Jul 2026 12:02:45 GMT</pubDate>
+      <description>NHPS Whistleblower Policy</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-nhps-whistleblower-policy.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Crypto Hacks Evolve</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-crypto-hacks-evolve</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-crypto-hacks-evolve</guid>
+      <pubDate>Fri, 10 Jul 2026 12:00:38 GMT</pubDate>
+      <description>Crypto Hacks Evolve</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-crypto-hacks-evolve.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>NATO Unity Tested</title>
       <link>https://newsanarchist.com/articles/2026-07-10-nato-unity-tested</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Telehealth Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</guid>
-      <pubDate>Fri, 10 Jul 2026 06:41:21 GMT</pubDate>
-      <description>Telehealth Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-telehealth-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Revolution Weakens</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-myanmar-revolution-weakens</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-myanmar-revolution-weakens</guid>
-      <pubDate>Fri, 10 Jul 2026 06:06:42 GMT</pubDate>
-      <description>Myanmar Revolution Weakens</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-myanmar-revolution-weakens.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
