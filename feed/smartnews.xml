@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 18:38:25 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 18:38:25 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 18:49:02 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 18:49:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Penalties</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-snap-fraud-penalties</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-snap-fraud-penalties</guid>
+      <pubDate>Fri, 10 Jul 2026 18:48:47 GMT</pubDate>
+      <description>SNAP Fraud Penalties</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-snap-fraud-penalties.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FTC Warns On Made In USA Ads</title>
       <link>https://newsanarchist.com/articles/2026-07-10-ftc-warns-on-made-in-usa-ads</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>FISA 702 Expires, Surveillance Continues</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-fisa-702-expires-surveillance-continues</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fisa-702-expires-surveillance-continues</guid>
-      <pubDate>Fri, 10 Jul 2026 12:53:54 GMT</pubDate>
-      <description>FISA 702 Expires, Surveillance Continues</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fisa-702-expires-surveillance-continues.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
