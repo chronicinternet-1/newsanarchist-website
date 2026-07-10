@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 04:53:43 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 04:53:43 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 04:59:29 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 04:59:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Oversight Lacking</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-oversight-lacking</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-oversight-lacking</guid>
+      <pubDate>Fri, 10 Jul 2026 04:58:12 GMT</pubDate>
+      <description>Oversight Lacking</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-oversight-lacking.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Brain Prediction</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-brain-prediction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-brain-prediction</guid>
+      <pubDate>Fri, 10 Jul 2026 04:56:30 GMT</pubDate>
+      <description>Brain Prediction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-brain-prediction.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-Iran Conflict Escalates</title>
       <link>https://newsanarchist.com/articles/2026-07-10-us-iran-conflict-escalates</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Strait Tensions Rise</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-taiwan-strait-tensions-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-taiwan-strait-tensions-rise</guid>
-      <pubDate>Thu, 09 Jul 2026 23:01:02 GMT</pubDate>
-      <description>Taiwan Strait Tensions Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-taiwan-strait-tensions-rise.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>China Missile Test Sparks Tension</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-china-missile-test-sparks-tension</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-china-missile-test-sparks-tension</guid>
-      <pubDate>Thu, 09 Jul 2026 23:00:30 GMT</pubDate>
-      <description>China Missile Test Sparks Tension</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-china-missile-test-sparks-tension.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
