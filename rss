@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 18:59:41 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 18:59:41 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:05:24 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 19:05:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Counters Sanctions</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-china-counters-sanctions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-china-counters-sanctions</guid>
+      <pubDate>Fri, 10 Jul 2026 19:01:49 GMT</pubDate>
+      <description>China Counters Sanctions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-china-counters-sanctions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Cold Case Arrest</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-cold-case-arrest</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-cold-case-arrest</guid>
+      <pubDate>Fri, 10 Jul 2026 18:59:39 GMT</pubDate>
+      <description>Cold Case Arrest</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-cold-case-arrest.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>New Data Bill Raises Privacy Concerns</title>
       <link>https://newsanarchist.com/articles/2026-07-10-new-data-bill-raises-privacy-concerns</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Lapses Found</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-oversight-lapses-found</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-oversight-lapses-found</guid>
-      <pubDate>Fri, 10 Jul 2026 13:03:32 GMT</pubDate>
-      <description>Oversight Lapses Found</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-oversight-lapses-found.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Crypto Agenda</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-sec-crypto-agenda</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-sec-crypto-agenda</guid>
-      <pubDate>Fri, 10 Jul 2026 13:01:28 GMT</pubDate>
-      <description>SEC Crypto Agenda</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-sec-crypto-agenda.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
