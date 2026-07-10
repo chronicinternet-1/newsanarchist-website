@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-10-7m-snap-fraud</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-10T13:45:42.689Z</news:publication_date>
+      <news:title>$7M SNAP Fraud</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-sony-faces-457m-lawsuit</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -334,14 +342,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T08:48:24.971Z</news:publication_date>
       <news:title>Consciousness Beyond</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-7m-snap-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T08:42:34.344Z</news:publication_date>
-      <news:title>$7M SNAP Fraud</news:title>
     </news:news>
   </url>
   <url>
@@ -2598,22 +2598,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
       <news:publication_date>2026-07-08T14:00:46.167Z</news:publication_date>
       <news:title>Brasil sob Pressão</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-morocco-foils-isil-attack</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T13:39:17.145Z</news:publication_date>
-      <news:title>Morocco Foils ISIL Attack</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-dhs-ig-probes-secret-service</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T13:33:31.314Z</news:publication_date>
-      <news:title>DHS IG Probes Secret Service</news:title>
     </news:news>
   </url>
 </urlset>
