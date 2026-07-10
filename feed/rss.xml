@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 10:52:25 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 10:52:25 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 10:58:37 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 10:58:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Wrongful Conviction</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-wrongful-conviction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-wrongful-conviction</guid>
+      <pubDate>Fri, 10 Jul 2026 10:53:57 GMT</pubDate>
+      <description>Wrongful Conviction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-wrongful-conviction.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>ICE Uses Facial Recognition</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-ice-uses-facial-recognition</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-ice-uses-facial-recognition</guid>
+      <pubDate>Fri, 10 Jul 2026 10:52:33 GMT</pubDate>
+      <description>ICE Uses Facial Recognition</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-ice-uses-facial-recognition.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Digital Afterlife</title>
       <link>https://newsanarchist.com/articles/2026-07-10-digital-afterlife</link>
@@ -539,18 +563,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Wrongful Conviction</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-wrongful-conviction</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-wrongful-conviction</guid>
-      <pubDate>Fri, 10 Jul 2026 05:50:41 GMT</pubDate>
-      <description>Wrongful Conviction</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-wrongful-conviction.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>China Alleges AI Backdoors</title>
       <link>https://newsanarchist.com/articles/2026-07-10-china-alleges-ai-backdoors</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-china-alleges-ai-backdoors</guid>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Lacking</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-oversight-lacking</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-oversight-lacking</guid>
-      <pubDate>Fri, 10 Jul 2026 04:58:12 GMT</pubDate>
-      <description>Oversight Lacking</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-oversight-lacking.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
