@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 13:56:06 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 13:56:06 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 14:02:14 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 14:02:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brasil: Alvo de Disputa Global</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-brasil-alvo-de-disputa-global</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-brasil-alvo-de-disputa-global</guid>
+      <pubDate>Fri, 10 Jul 2026 14:00:40 GMT</pubDate>
+      <description>Brasil: Alvo de Disputa Global</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-brasil-alvo-de-disputa-global.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>War Speeds Energy Shift</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-war-speeds-energy-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-war-speeds-energy-shift</guid>
+      <pubDate>Fri, 10 Jul 2026 13:58:23 GMT</pubDate>
+      <description>War Speeds Energy Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-war-speeds-energy-shift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Ohio Cold Case</title>
       <link>https://newsanarchist.com/articles/2026-07-10-ohio-cold-case</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>UK Regulator Seeks Boost</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-uk-regulator-seeks-boost</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-uk-regulator-seeks-boost</guid>
-      <pubDate>Fri, 10 Jul 2026 08:00:45 GMT</pubDate>
-      <description>UK Regulator Seeks Boost</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-uk-regulator-seeks-boost.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Grassley Probes FBI Director</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-grassley-probes-fbi-director</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-grassley-probes-fbi-director</guid>
-      <pubDate>Fri, 10 Jul 2026 07:59:55 GMT</pubDate>
-      <description>Grassley Probes FBI Director</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-grassley-probes-fbi-director.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
