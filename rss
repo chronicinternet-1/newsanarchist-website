@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 15:14:02 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 15:14:02 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 15:35:16 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 15:35:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fed Seeks Comment On AML Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-fed-seeks-comment-on-aml-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fed-seeks-comment-on-aml-rules</guid>
+      <pubDate>Fri, 10 Jul 2026 15:33:05 GMT</pubDate>
+      <description>Fed Seeks Comment On AML Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fed-seeks-comment-on-aml-rules.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Expands Pacific Reach</title>
       <link>https://newsanarchist.com/articles/2026-07-10-china-expands-pacific-reach</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Oversight Agencies Unite</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-oversight-agencies-unite</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-oversight-agencies-unite</guid>
-      <pubDate>Fri, 10 Jul 2026 09:00:32 GMT</pubDate>
-      <description>Oversight Agencies Unite</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-oversight-agencies-unite.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
