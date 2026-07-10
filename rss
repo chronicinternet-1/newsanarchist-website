@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:39:19 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 23:39:19 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 23:54:57 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 23:54:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud Penalties Rise</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-snap-fraud-penalties-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-snap-fraud-penalties-rise</guid>
+      <pubDate>Fri, 10 Jul 2026 23:51:25 GMT</pubDate>
+      <description>SNAP Fraud Penalties Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-snap-fraud-penalties-rise.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Fraud Thrives</title>
       <link>https://newsanarchist.com/articles/2026-07-10-fraud-thrives</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>AZ Prison Reform Falls Short</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-az-prison-reform-falls-short</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-az-prison-reform-falls-short</guid>
-      <pubDate>Fri, 10 Jul 2026 17:58:59 GMT</pubDate>
-      <description>AZ Prison Reform Falls Short</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-az-prison-reform-falls-short.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
