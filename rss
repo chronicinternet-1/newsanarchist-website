@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 01:49:02 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 01:49:02 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 01:54:40 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 01:54:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Unity Tested</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-nato-unity-tested</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-nato-unity-tested</guid>
+      <pubDate>Fri, 10 Jul 2026 01:50:57 GMT</pubDate>
+      <description>NATO Unity Tested</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-nato-unity-tested.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Charlie Kirk Hearing</title>
       <link>https://newsanarchist.com/articles/2026-07-10-charlie-kirk-hearing</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>NASA Confirms UFO Images</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-nasa-confirms-ufo-images</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-nasa-confirms-ufo-images</guid>
-      <pubDate>Thu, 09 Jul 2026 19:51:17 GMT</pubDate>
-      <description>NASA Confirms UFO Images</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-nasa-confirms-ufo-images.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
