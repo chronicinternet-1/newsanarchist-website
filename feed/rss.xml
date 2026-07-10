@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 04:26:43 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 04:26:43 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 04:42:24 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 04:42:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ammons Indicted For Wire Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-ammons-indicted-for-wire-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-ammons-indicted-for-wire-fraud</guid>
+      <pubDate>Fri, 10 Jul 2026 04:40:06 GMT</pubDate>
+      <description>Ammons Indicted For Wire Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-ammons-indicted-for-wire-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Paramount Merger Challenged</title>
       <link>https://newsanarchist.com/articles/2026-07-10-paramount-merger-challenged</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Meta Exploits Instagram Photos</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-meta-exploits-instagram-photos</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-meta-exploits-instagram-photos</guid>
-      <pubDate>Thu, 09 Jul 2026 22:46:17 GMT</pubDate>
-      <description>Meta Exploits Instagram Photos</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-meta-exploits-instagram-photos.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
