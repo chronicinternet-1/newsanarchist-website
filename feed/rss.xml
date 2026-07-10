@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 10:09:48 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 10:09:48 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 10:30:47 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 10:30:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fed Seeks Comment</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-fed-seeks-comment</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fed-seeks-comment</guid>
+      <pubDate>Fri, 10 Jul 2026 10:30:13 GMT</pubDate>
+      <description>Fed Seeks Comment</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fed-seeks-comment.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China Ups Military Purge</title>
       <link>https://newsanarchist.com/articles/2026-07-10-china-ups-military-purge</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness in Space</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-consciousness-in-space</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-consciousness-in-space</guid>
-      <pubDate>Fri, 10 Jul 2026 04:46:06 GMT</pubDate>
-      <description>Consciousness in Space</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-consciousness-in-space.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
