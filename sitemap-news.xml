@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-10-ftc-cracks-down</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-10T22:37:28.646Z</news:publication_date>
+      <news:title>FTC Cracks Down</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-myanmar-war-toll-mounts</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2305,14 +2313,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-ftc-cracks-down</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T03:10:03.536Z</news:publication_date>
-      <news:title>FTC Cracks Down</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-09-myanmar-war-toll-exceeds-100k</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2518,54 +2518,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-08T22:46:03.577Z</news:publication_date>
       <news:title>Myanmar War Displaces 20k</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-whistleblower-arrested</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:39:08.042Z</news:publication_date>
-      <news:title>Whistleblower Arrested</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-defi-hacks-evolve</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:36:50.882Z</news:publication_date>
-      <news:title>DeFi Hacks Evolve</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-us-china-ties-tested</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:35:13.550Z</news:publication_date>
-      <news:title>US-China Ties Tested</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-us-senators-target-workplace-surveillance</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:31:50.610Z</news:publication_date>
-      <news:title>US Senators Target Workplace Surveillance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-criminal-justice-reform</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:30:48.148Z</news:publication_date>
-      <news:title>Criminal Justice Reform</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-08-hospice-fraud-kills</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-08T22:21:19.354Z</news:publication_date>
-      <news:title>Hospice Fraud Kills</news:title>
     </news:news>
   </url>
 </urlset>
