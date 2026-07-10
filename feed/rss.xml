@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 15:07:59 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 15:07:59 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 15:14:02 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 15:14:02 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Expands Pacific Reach</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-china-expands-pacific-reach</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-china-expands-pacific-reach</guid>
+      <pubDate>Fri, 10 Jul 2026 15:12:55 GMT</pubDate>
+      <description>China Expands Pacific Reach</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-china-expands-pacific-reach.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Oversight Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-10-oversight-expands</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Crypto Plan</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-sec-crypto-plan</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-sec-crypto-plan</guid>
-      <pubDate>Fri, 10 Jul 2026 08:58:48 GMT</pubDate>
-      <description>SEC Crypto Plan</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-sec-crypto-plan.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
