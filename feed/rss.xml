@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:18:40 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 23:18:40 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 23:39:19 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 23:39:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fraud Thrives</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-fraud-thrives</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fraud-thrives</guid>
+      <pubDate>Fri, 10 Jul 2026 23:38:14 GMT</pubDate>
+      <description>Fraud Thrives</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fraud-thrives.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Russia, Sahel Strengthen Ties</title>
       <link>https://newsanarchist.com/articles/2026-07-10-russia-sahel-strengthen-ties</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Expands</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-facial-recognition-expands</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-facial-recognition-expands</guid>
-      <pubDate>Fri, 10 Jul 2026 17:56:53 GMT</pubDate>
-      <description>Facial Recognition Expands</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-facial-recognition-expands.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
