@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 16:50:36 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 16:50:36 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 16:56:14 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 16:56:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Gravity's Role in Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-gravitys-role-in-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-gravitys-role-in-consciousness</guid>
+      <pubDate>Fri, 10 Jul 2026 16:53:46 GMT</pubDate>
+      <description>Gravity's Role in Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-gravitys-role-in-consciousness.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$14.6B Fraud Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-07-10-146b-fraud-crackdown</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Digital Afterlife</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-digital-afterlife</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-digital-afterlife</guid>
-      <pubDate>Fri, 10 Jul 2026 10:49:37 GMT</pubDate>
-      <description>Digital Afterlife</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-digital-afterlife.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
