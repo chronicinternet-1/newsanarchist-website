@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 19:53:01 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 19:53:01 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:58:42 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 19:58:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Cameras Spark Protest</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-flock-cameras-spark-protest</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-flock-cameras-spark-protest</guid>
+      <pubDate>Fri, 10 Jul 2026 19:57:57 GMT</pubDate>
+      <description>Flock Cameras Spark Protest</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-flock-cameras-spark-protest.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness in Space</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-consciousness-in-space</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-consciousness-in-space</guid>
+      <pubDate>Fri, 10 Jul 2026 19:55:37 GMT</pubDate>
+      <description>Consciousness in Space</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-consciousness-in-space.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Ammons Indicted</title>
       <link>https://newsanarchist.com/articles/2026-07-10-ammons-indicted</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>War Speeds Energy Shift</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-war-speeds-energy-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-war-speeds-energy-shift</guid>
-      <pubDate>Fri, 10 Jul 2026 13:58:23 GMT</pubDate>
-      <description>War Speeds Energy Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-war-speeds-energy-shift.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Ohio Cold Case</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-ohio-cold-case</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-ohio-cold-case</guid>
-      <pubDate>Fri, 10 Jul 2026 13:55:54 GMT</pubDate>
-      <description>Ohio Cold Case</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-ohio-cold-case.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
