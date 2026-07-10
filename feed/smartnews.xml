@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:46:38 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 08:46:38 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 08:52:20 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 08:52:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>New Bill Protects Data</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-new-bill-protects-data</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-new-bill-protects-data</guid>
+      <pubDate>Fri, 10 Jul 2026 08:51:39 GMT</pubDate>
+      <description>New Bill Protects Data</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-new-bill-protects-data.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Beyond</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-consciousness-beyond</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-consciousness-beyond</guid>
+      <pubDate>Fri, 10 Jul 2026 08:48:24 GMT</pubDate>
+      <description>Consciousness Beyond</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-consciousness-beyond.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$7M SNAP Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-10-7m-snap-fraud</link>
@@ -597,30 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Reform UK Faces NCA Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-reform-uk-faces-nca-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-reform-uk-faces-nca-scrutiny</guid>
-      <pubDate>Fri, 10 Jul 2026 02:48:52 GMT</pubDate>
-      <description>Reform UK Faces NCA Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-reform-uk-faces-nca-scrutiny.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Gov Enhances Privacy</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-us-gov-enhances-privacy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-us-gov-enhances-privacy</guid>
-      <pubDate>Fri, 10 Jul 2026 02:48:43 GMT</pubDate>
-      <description>US Gov Enhances Privacy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-us-gov-enhances-privacy.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
