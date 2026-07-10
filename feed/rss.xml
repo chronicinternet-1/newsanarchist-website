@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 07:52:55 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 07:52:55 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 07:58:36 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 07:58:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Crypto Hacks Down</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-crypto-hacks-down</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-crypto-hacks-down</guid>
+      <pubDate>Fri, 10 Jul 2026 07:58:15 GMT</pubDate>
+      <description>Crypto Hacks Down</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-crypto-hacks-down.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>China Uses Sea Power</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-china-uses-sea-power</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-china-uses-sea-power</guid>
+      <pubDate>Fri, 10 Jul 2026 07:54:38 GMT</pubDate>
+      <description>China Uses Sea Power</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-china-uses-sea-power.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Meta AI Glasses To Use Facial Recognition</title>
       <link>https://newsanarchist.com/articles/2026-07-10-meta-ai-glasses-to-use-facial-recognition</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>個人情報保護法改正案が参院で可決</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-kenji-mori-mreago0l</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-kenji-mori-mreago0l</guid>
-      <pubDate>Fri, 10 Jul 2026 02:00:33 GMT</pubDate>
-      <description>個人情報保護法改正案が参院で可決</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-kenji-mori-mreago0l.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Mayo Clinic AI Issues</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</guid>
-      <pubDate>Fri, 10 Jul 2026 01:56:29 GMT</pubDate>
-      <description>Mayo Clinic AI Issues</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-mayo-clinic-ai-issues.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
