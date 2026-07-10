@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 04:48:05 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 04:48:05 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 04:53:43 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 04:53:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-us-iran-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-us-iran-conflict-escalates</guid>
+      <pubDate>Fri, 10 Jul 2026 04:52:45 GMT</pubDate>
+      <description>US-Iran Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-us-iran-conflict-escalates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Boutros In Court</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-boutros-in-court</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-boutros-in-court</guid>
+      <pubDate>Fri, 10 Jul 2026 04:50:07 GMT</pubDate>
+      <description>Boutros In Court</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-boutros-in-court.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness in Space</title>
       <link>https://newsanarchist.com/articles/2026-07-10-consciousness-in-space</link>
@@ -594,30 +618,6 @@
       <description>China Missile Test Sparks Tension</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-china-missile-test-sparks-tension.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>IG Flags $36K Exhibit</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-ig-flags-36k-exhibit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-ig-flags-36k-exhibit</guid>
-      <pubDate>Thu, 09 Jul 2026 22:54:50 GMT</pubDate>
-      <description>IG Flags $36K Exhibit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-ig-flags-36k-exhibit.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Xi Warns Trump</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-xi-warns-trump</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-xi-warns-trump</guid>
-      <pubDate>Thu, 09 Jul 2026 22:49:23 GMT</pubDate>
-      <description>Xi Warns Trump</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-xi-warns-trump.png"/>
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
