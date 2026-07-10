@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 01:54:40 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 01:54:40 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 02:00:25 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 02:00:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mayo Clinic AI Issues</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</guid>
+      <pubDate>Fri, 10 Jul 2026 01:56:29 GMT</pubDate>
+      <description>Mayo Clinic AI Issues</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-mayo-clinic-ai-issues.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>NASA Confirms UFO Imagery</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-nasa-confirms-ufo-imagery</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-nasa-confirms-ufo-imagery</guid>
+      <pubDate>Fri, 10 Jul 2026 01:54:42 GMT</pubDate>
+      <description>NASA Confirms UFO Imagery</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-nasa-confirms-ufo-imagery.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>NATO Unity Tested</title>
       <link>https://newsanarchist.com/articles/2026-07-10-nato-unity-tested</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China Ups Taiwan Pressure</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-china-ups-taiwan-pressure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-china-ups-taiwan-pressure</guid>
-      <pubDate>Thu, 09 Jul 2026 19:59:22 GMT</pubDate>
-      <description>China Ups Taiwan Pressure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-china-ups-taiwan-pressure.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DHS Buys Detention Centers</title>
-      <link>https://newsanarchist.com/articles/2026-07-09-dhs-buys-detention-centers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-09-dhs-buys-detention-centers</guid>
-      <pubDate>Thu, 09 Jul 2026 19:53:05 GMT</pubDate>
-      <description>DHS Buys Detention Centers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-09-dhs-buys-detention-centers.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
