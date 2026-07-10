@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 06:46:28 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 06:46:28 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 06:52:10 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 06:52:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DNA Evidence Challenged</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-dna-evidence-challenged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-dna-evidence-challenged</guid>
+      <pubDate>Fri, 10 Jul 2026 06:51:21 GMT</pubDate>
+      <description>DNA Evidence Challenged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-dna-evidence-challenged.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>FISA 702 Expires</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-fisa-702-expires</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fisa-702-expires</guid>
+      <pubDate>Fri, 10 Jul 2026 06:50:29 GMT</pubDate>
+      <description>FISA 702 Expires</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fisa-702-expires.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Redefined</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-consciousness-redefined</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-consciousness-redefined</guid>
+      <pubDate>Fri, 10 Jul 2026 06:47:16 GMT</pubDate>
+      <description>Consciousness Redefined</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-consciousness-redefined.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Telehealth Fraud Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</link>
@@ -311,18 +347,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>FISA 702 Expires</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-fisa-702-expires</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-fisa-702-expires</guid>
-      <pubDate>Fri, 10 Jul 2026 03:49:15 GMT</pubDate>
-      <description>FISA 702 Expires</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-fisa-702-expires.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>Quantum Consciousness</title>
       <link>https://newsanarchist.com/articles/2026-07-10-quantum-consciousness</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-quantum-consciousness</guid>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US Faces Budget Battle</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-us-faces-budget-battle</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-us-faces-budget-battle</guid>
-      <pubDate>Fri, 10 Jul 2026 00:50:23 GMT</pubDate>
-      <description>US Faces Budget Battle</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-us-faces-budget-battle.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Chicago Pays $9M</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-chicago-pays-9m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-chicago-pays-9m</guid>
-      <pubDate>Fri, 10 Jul 2026 00:47:36 GMT</pubDate>
-      <description>Chicago Pays $9M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-chicago-pays-9m.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
