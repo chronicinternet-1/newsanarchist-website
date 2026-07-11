@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 08:14:43 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 08:14:43 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 08:20:36 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 08:20:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Epstein Commission Subpoenas Ignored</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-epstein-commission-subpoenas-ignored</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-epstein-commission-subpoenas-ignored</guid>
+      <pubDate>Sat, 11 Jul 2026 08:16:07 GMT</pubDate>
+      <description>Epstein Commission Subpoenas Ignored</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-epstein-commission-subpoenas-ignored.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>SEC Updates Agenda</title>
       <link>https://newsanarchist.com/articles/2026-07-11-sec-updates-agenda</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Flock Cameras Spark Warrantless Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-flock-cameras-spark-warrantless-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-flock-cameras-spark-warrantless-surveillance</guid>
-      <pubDate>Sat, 11 Jul 2026 03:02:45 GMT</pubDate>
-      <description>Flock Cameras Spark Warrantless Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-flock-cameras-spark-warrantless-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
   </channel>
 </rss>
