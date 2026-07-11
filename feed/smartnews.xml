@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 12:02:57 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 12:02:57 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 12:14:22 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 12:14:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Summit Exposes Rift</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-nato-summit-exposes-rift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-nato-summit-exposes-rift</guid>
+      <pubDate>Sat, 11 Jul 2026 12:12:30 GMT</pubDate>
+      <description>NATO Summit Exposes Rift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-nato-summit-exposes-rift.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>ICE Surveillance Expansion</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-ice-surveillance-expansion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-ice-surveillance-expansion</guid>
+      <pubDate>Sat, 11 Jul 2026 12:10:21 GMT</pubDate>
+      <description>ICE Surveillance Expansion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-ice-surveillance-expansion.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>DOJ Expands Medicaid Fraud Detection</title>
       <link>https://newsanarchist.com/articles/2026-07-11-doj-expands-medicaid-fraud-detection</link>
@@ -597,30 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>FOIA Turns 60</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-foia-turns-60</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-foia-turns-60</guid>
-      <pubDate>Sat, 11 Jul 2026 06:15:05 GMT</pubDate>
-      <description>FOIA Turns 60</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-foia-turns-60.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Trump UFO Files Expand</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-trump-ufo-files-expand</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-trump-ufo-files-expand</guid>
-      <pubDate>Sat, 11 Jul 2026 06:11:48 GMT</pubDate>
-      <description>Trump UFO Files Expand</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-trump-ufo-files-expand.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
