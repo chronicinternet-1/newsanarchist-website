@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 00:06:19 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 00:06:19 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:11:56 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 00:11:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Transparency Questioned</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-ice-transparency-questioned</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-ice-transparency-questioned</guid>
+      <pubDate>Sat, 11 Jul 2026 00:10:55 GMT</pubDate>
+      <description>ICE Transparency Questioned</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-ice-transparency-questioned.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Iran War Costs Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-11-iran-war-costs-rise</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Warns On Made In USA Ads</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-ftc-warns-on-made-in-usa-ads</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-ftc-warns-on-made-in-usa-ads</guid>
-      <pubDate>Fri, 10 Jul 2026 18:34:59 GMT</pubDate>
-      <description>FTC Warns On Made In USA Ads</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-ftc-warns-on-made-in-usa-ads.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
