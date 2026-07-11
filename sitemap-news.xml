@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-11-fraud-thrives</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-11T07:43:02.664Z</news:publication_date>
+      <news:title>Fraud Thrives</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-11-china-tightens-grip</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -550,14 +558,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T23:51:25.541Z</news:publication_date>
       <news:title>SNAP Fraud Penalties Rise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-fraud-thrives</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T23:38:14.799Z</news:publication_date>
-      <news:title>Fraud Thrives</news:title>
     </news:news>
   </url>
   <url>
@@ -2582,22 +2582,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
       <news:publication_date>2026-07-09T08:00:26.766Z</news:publication_date>
       <news:title>UK Watchdog Warns Of AI Risks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-nsw-prosecutor-false-evidence</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T07:45:08.874Z</news:publication_date>
-      <news:title>NSW Prosecutor False Evidence</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-fbi-targets-child-nutrition-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T07:26:48.407Z</news:publication_date>
-      <news:title>FBI Targets Child Nutrition Fraud</news:title>
     </news:news>
   </url>
 </urlset>
