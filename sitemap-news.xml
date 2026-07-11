@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-11-telehealth-fraud-crackdown</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-11T06:55:30.803Z</news:publication_date>
+      <news:title>Telehealth Fraud Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-11-apple-sues-openai</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1425,14 +1433,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-telehealth-fraud-crackdown</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T06:41:21.656Z</news:publication_date>
-      <news:title>Telehealth Fraud Crackdown</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-10-myanmar-revolution-weakens</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2550,14 +2550,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-09T07:00:25.369Z</news:publication_date>
       <news:title>EU Countries Face Cybersecurity Rule Deadline</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-09-sudan-warns-ethiopia-uae</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-09T06:49:42.876Z</news:publication_date>
-      <news:title>Sudan Warns Ethiopia, UAE</news:title>
     </news:news>
   </url>
 </urlset>
