@@ -1,0 +1,6 @@
+# Article images are re-materialized from R2 on every publish cycle by na-publisher-daemon.mjs
+# purely so `wrangler pages deploy .` can upload them — git tracking them commits a fresh binary
+# blob roughly every 6-15 minutes with no pruning, which is what bloated .git to 3.2GB. Pages
+# deploy uploads directory contents directly and does not depend on git status, so untracking
+# this path does not affect what's served live.
+images/articles/
