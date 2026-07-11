@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 05:59:34 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 05:59:34 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 06:05:33 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 06:05:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>GOP Demands End to Warrantless Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-gop-demands-end-to-warrantless-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-gop-demands-end-to-warrantless-surveillance</guid>
+      <pubDate>Sat, 11 Jul 2026 06:05:14 GMT</pubDate>
+      <description>GOP Demands End to Warrantless Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-gop-demands-end-to-warrantless-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Consciousness Beyond Earth</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-consciousness-beyond-earth</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-consciousness-beyond-earth</guid>
+      <pubDate>Sat, 11 Jul 2026 06:01:40 GMT</pubDate>
+      <description>Consciousness Beyond Earth</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-consciousness-beyond-earth.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>$20M NJ Medicare Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-11-20m-nj-medicare-fraud</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Iran War Costs Rise</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-iran-war-costs-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-iran-war-costs-rise</guid>
-      <pubDate>Sat, 11 Jul 2026 00:04:44 GMT</pubDate>
-      <description>Iran War Costs Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-iran-war-costs-rise.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-cold-case-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-cold-case-crackdown</guid>
-      <pubDate>Sat, 11 Jul 2026 00:02:37 GMT</pubDate>
-      <description>Cold Case Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-cold-case-crackdown.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
