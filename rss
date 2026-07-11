@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 01:44:24 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 01:44:24 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 01:55:38 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 01:55:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$14.6B Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-146b-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-146b-fraud-crackdown</guid>
+      <pubDate>Sat, 11 Jul 2026 01:52:30 GMT</pubDate>
+      <description>$14.6B Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-146b-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>H-1B Visa Fraud Probe</title>
       <link>https://newsanarchist.com/articles/2026-07-11-h-1b-visa-fraud-probe</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Boutros Hearing Looms</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-boutros-hearing-looms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-boutros-hearing-looms</guid>
-      <pubDate>Fri, 10 Jul 2026 20:00:15 GMT</pubDate>
-      <description>Boutros Hearing Looms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-boutros-hearing-looms.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
