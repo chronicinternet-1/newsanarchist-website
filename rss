@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:54:57 GMT</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 23:54:57 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:38 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 00:00:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NASA Films Unexplained</title>
+      <link>https://newsanarchist.com/articles/2026-07-10-nasa-films-unexplained</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-nasa-films-unexplained</guid>
+      <pubDate>Fri, 10 Jul 2026 23:57:52 GMT</pubDate>
+      <description>NASA Films Unexplained</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-nasa-films-unexplained.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>SNAP Fraud Penalties Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-10-snap-fraud-penalties-rise</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US Warns Of China Coercion</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-us-warns-of-china-coercion</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-us-warns-of-china-coercion</guid>
-      <pubDate>Fri, 10 Jul 2026 18:01:15 GMT</pubDate>
-      <description>US Warns Of China Coercion</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-us-warns-of-china-coercion.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
