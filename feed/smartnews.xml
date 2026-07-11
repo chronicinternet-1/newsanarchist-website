@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 01:11:32 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 01:11:32 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 01:17:14 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 01:17:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>IG Flags Ethics Violations</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-ig-flags-ethics-violations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-ig-flags-ethics-violations</guid>
+      <pubDate>Sat, 11 Jul 2026 01:11:37 GMT</pubDate>
+      <description>IG Flags Ethics Violations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-ig-flags-ethics-violations.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>AARO Releases New UAP Files</title>
       <link>https://newsanarchist.com/articles/2026-07-11-aaro-releases-new-uap-files</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Ammons Indicted</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-ammons-indicted</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-ammons-indicted</guid>
-      <pubDate>Fri, 10 Jul 2026 19:49:17 GMT</pubDate>
-      <description>Ammons Indicted</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-ammons-indicted.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
