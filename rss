@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 18:13:34 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 18:13:34 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 18:19:14 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 18:19:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran Shifts Strategy</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-iran-shifts-strategy</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-iran-shifts-strategy</guid>
+      <pubDate>Sat, 11 Jul 2026 18:16:28 GMT</pubDate>
+      <description>Iran Shifts Strategy</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-iran-shifts-strategy.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-cold-case-solved</guid>
+      <pubDate>Sat, 11 Jul 2026 18:13:46 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UAP Files Released</title>
       <link>https://newsanarchist.com/articles/2026-07-11-uap-files-released</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit Exposes Divisions</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-nato-summit-exposes-divisions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-nato-summit-exposes-divisions</guid>
-      <pubDate>Sat, 11 Jul 2026 11:11:56 GMT</pubDate>
-      <description>NATO Summit Exposes Divisions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-nato-summit-exposes-divisions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Kirk Case: DNA Evidence</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-kirk-case-dna-evidence</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-kirk-case-dna-evidence</guid>
-      <pubDate>Sat, 11 Jul 2026 11:09:46 GMT</pubDate>
-      <description>Kirk Case: DNA Evidence</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-kirk-case-dna-evidence.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
