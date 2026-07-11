@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 03:07:52 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 03:07:52 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 03:13:39 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 03:13:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FOIA Turns 60 Amid Blockage</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-foia-turns-60-amid-blockage</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-foia-turns-60-amid-blockage</guid>
+      <pubDate>Sat, 11 Jul 2026 03:12:51 GMT</pubDate>
+      <description>FOIA Turns 60 Amid Blockage</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-foia-turns-60-amid-blockage.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>EU MiCA Now Enforced</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-eu-mica-now-enforced</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-eu-mica-now-enforced</guid>
+      <pubDate>Sat, 11 Jul 2026 03:09:53 GMT</pubDate>
+      <description>EU MiCA Now Enforced</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-eu-mica-now-enforced.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Iran Nuclear Plant Targeted</title>
       <link>https://newsanarchist.com/articles/2026-07-11-iran-nuclear-plant-targeted</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Unconscious Brain Capable</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-unconscious-brain-capable</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-unconscious-brain-capable</guid>
-      <pubDate>Fri, 10 Jul 2026 21:56:47 GMT</pubDate>
-      <description>Unconscious Brain Capable</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-unconscious-brain-capable.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Soars 7,100%</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-medicare-fraud-soars-7100</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-medicare-fraud-soars-7100</guid>
-      <pubDate>Fri, 10 Jul 2026 21:50:22 GMT</pubDate>
-      <description>Medicare Fraud Soars 7,100%</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-medicare-fraud-soars-7100.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
