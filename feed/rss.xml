@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 14:00:20 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 14:00:20 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 14:05:59 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 14:05:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brasil: Alvo de Disputa por Terras Raras</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-brasil-alvo-de-disputa-por-terras-raras</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-brasil-alvo-de-disputa-por-terras-raras</guid>
+      <pubDate>Sat, 11 Jul 2026 14:00:44 GMT</pubDate>
+      <description>Brasil: Alvo de Disputa por Terras Raras</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-brasil-alvo-de-disputa-por-terras-raras.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>$7M SNAP Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-11-7m-snap-fraud</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Anti-Fraud Saves $42B</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-medicare-anti-fraud-saves-42b</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-medicare-anti-fraud-saves-42b</guid>
-      <pubDate>Sat, 11 Jul 2026 07:56:03 GMT</pubDate>
-      <description>Medicare Anti-Fraud Saves $42B</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-medicare-anti-fraud-saves-42b.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
