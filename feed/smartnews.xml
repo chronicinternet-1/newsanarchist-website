@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jul 2026 04:44:37 GMT</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 04:44:37 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 04:55:49 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 04:55:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$1B Fraud Fugitive Caught</title>
+      <link>https://newsanarchist.com/articles/2026-07-11-1b-fraud-fugitive-caught</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-1b-fraud-fugitive-caught</guid>
+      <pubDate>Sat, 11 Jul 2026 04:54:23 GMT</pubDate>
+      <description>$1B Fraud Fugitive Caught</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-1b-fraud-fugitive-caught.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Ex-Epoch Times CFO Pleads Guilty</title>
       <link>https://newsanarchist.com/articles/2026-07-11-ex-epoch-times-cfo-pleads-guilty</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Arrest</title>
-      <link>https://newsanarchist.com/articles/2026-07-10-cold-case-arrest</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-10-cold-case-arrest</guid>
-      <pubDate>Fri, 10 Jul 2026 23:01:56 GMT</pubDate>
-      <description>Cold Case Arrest</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-10-cold-case-arrest.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
