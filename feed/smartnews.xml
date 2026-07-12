@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 13:05:38 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 13:05:38 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 13:16:33 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 13:16:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>California Owes $1.4B in SNAP Errors</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-california-owes-14b-in-snap-errors</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-california-owes-14b-in-snap-errors</guid>
+      <pubDate>Sun, 12 Jul 2026 13:15:34 GMT</pubDate>
+      <description>California Owes $1.4B in SNAP Errors</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-california-owes-14b-in-snap-errors.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Market Manipulation Risks</title>
       <link>https://newsanarchist.com/articles/2026-07-12-market-manipulation-risks</link>
@@ -105,18 +117,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>California Owes $1.4B in SNAP Errors</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-california-owes-14b-in-snap-errors</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-california-owes-14b-in-snap-errors</guid>
-      <pubDate>Sun, 12 Jul 2026 12:14:46 GMT</pubDate>
-      <description>California Owes $1.4B in SNAP Errors</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-california-owes-14b-in-snap-errors.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Ex-GungHo Exec Arrested in ¥40M Scam</title>
