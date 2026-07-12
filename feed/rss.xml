@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 22:53:04 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 22:53:04 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 23:03:57 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 23:03:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Missile Test Raises Pacific Tensions</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-china-missile-test-raises-pacific-tensions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-china-missile-test-raises-pacific-tensions</guid>
+      <pubDate>Sun, 12 Jul 2026 23:00:24 GMT</pubDate>
+      <description>China Missile Test Raises Pacific Tensions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-china-missile-test-raises-pacific-tensions.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Myanmar Conflict Escalates Amidst Floods</title>
       <link>https://newsanarchist.com/articles/2026-07-12-myanmar-conflict-escalates-amidst-floods</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Iran War Threatens Global Food Security</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-iran-war-threatens-global-food-security</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-iran-war-threatens-global-food-security</guid>
-      <pubDate>Sun, 12 Jul 2026 15:31:10 GMT</pubDate>
-      <description>Iran War Threatens Global Food Security</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-iran-war-threatens-global-food-security.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
