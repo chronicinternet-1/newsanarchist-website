@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T11:28:53.496Z</news:publication_date>
+      <news:title>China-US Tensions Escalate</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-charlie-kirk-murder-case-dna-evidence</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -254,14 +262,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T07:30:00.688Z</news:publication_date>
       <news:title>Hedera DeFi Lender Hacked for $9M</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T07:25:00.349Z</news:publication_date>
-      <news:title>China-US Tensions Escalate</news:title>
     </news:news>
   </url>
   <url>
@@ -2558,14 +2558,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T11:44:30.167Z</news:publication_date>
       <news:title>Medicare Fraud Soars</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-ftc-secures-settlement</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T11:30:47.607Z</news:publication_date>
-      <news:title>FTC Secures Settlement</news:title>
     </news:news>
   </url>
 </urlset>

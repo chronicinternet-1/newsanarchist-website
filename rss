@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 11:25:35 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 11:25:35 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 11:31:42 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 11:31:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China-US Tensions Escalate</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</guid>
+      <pubDate>Sun, 12 Jul 2026 11:28:53 GMT</pubDate>
+      <description>China-US Tensions Escalate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-china-us-tensions-escalate.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Charlie Kirk Murder Case: DNA Evidence</title>
       <link>https://newsanarchist.com/articles/2026-07-12-charlie-kirk-murder-case-dna-evidence</link>
@@ -405,18 +417,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China-US Tensions Escalate</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-china-us-tensions-escalate</guid>
-      <pubDate>Sun, 12 Jul 2026 07:25:00 GMT</pubDate>
-      <description>China-US Tensions Escalate</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-china-us-tensions-escalate.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Judge Proposes Fix</title>
