@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 07:30:51 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 07:30:51 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 07:36:41 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 07:36:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Subpoenas NYT Journalists</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists</guid>
+      <pubDate>Sun, 12 Jul 2026 07:31:09 GMT</pubDate>
+      <description>DOJ Subpoenas NYT Journalists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-doj-subpoenas-nyt-journalists.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Hedera DeFi Lender Hacked for $9M</title>
       <link>https://newsanarchist.com/articles/2026-07-12-hedera-defi-lender-hacked-for-9m</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Scheme Exposed</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-scheme-exposed</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-medicare-fraud-scheme-exposed</guid>
-      <pubDate>Sun, 12 Jul 2026 01:07:43 GMT</pubDate>
-      <description>Medicare Fraud Scheme Exposed</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-medicare-fraud-scheme-exposed.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
