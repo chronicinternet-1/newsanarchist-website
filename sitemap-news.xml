@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rule-changes</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T15:05:31.557Z</news:publication_date>
+      <news:title>Fed Seeks Comment on AML Rule Changes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-flock-cameras-face-scrutiny-over-warrantless-surveillance</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2598,22 +2606,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T15:12:55.872Z</news:publication_date>
       <news:title>China Expands Pacific Reach</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-oversight-expands</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T15:05:06.851Z</news:publication_date>
-      <news:title>Oversight Expands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-elizondo-reveals-moon-monoliths</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T15:02:55.503Z</news:publication_date>
-      <news:title>Elizondo Reveals Moon Monoliths</news:title>
     </news:news>
   </url>
 </urlset>

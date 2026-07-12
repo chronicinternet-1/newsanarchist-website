@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 15:01:50 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 15:01:50 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 15:08:18 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 15:08:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fed Seeks Comment on AML Rule Changes</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rule-changes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rule-changes</guid>
+      <pubDate>Sun, 12 Jul 2026 15:05:31 GMT</pubDate>
+      <description>Fed Seeks Comment on AML Rule Changes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-fed-seeks-comment-on-aml-rule-changes.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Flock Cameras Face Scrutiny Over Warrantless Surveillance</title>
       <link>https://newsanarchist.com/articles/2026-07-12-flock-cameras-face-scrutiny-over-warrantless-surveillance</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Sanctions Iranian Financier Amid Escalating Conflict</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-us-sanctions-iranian-financier-amid-escalating-conflict</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-us-sanctions-iranian-financier-amid-escalating-conflict</guid>
-      <pubDate>Sun, 12 Jul 2026 09:27:15 GMT</pubDate>
-      <description>US Sanctions Iranian Financier Amid Escalating Conflict</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-us-sanctions-iranian-financier-amid-escalating-conflict.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
   </channel>
 </rss>
