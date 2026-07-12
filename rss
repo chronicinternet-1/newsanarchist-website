@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 03:25:26 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 03:25:26 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 03:31:18 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 03:31:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>LAPD Suspends Flock Surveillance Cameras</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras</guid>
+      <pubDate>Sun, 12 Jul 2026 03:28:24 GMT</pubDate>
+      <description>LAPD Suspends Flock Surveillance Cameras</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>CLARITY Act Passage Chances Rise to 60%</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-clarity-act-passage-chances-rise-to-60</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-clarity-act-passage-chances-rise-to-60</guid>
+      <pubDate>Sun, 12 Jul 2026 03:25:44 GMT</pubDate>
+      <description>CLARITY Act Passage Chances Rise to 60%</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-clarity-act-passage-chances-rise-to-60.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>NATO Transformation Confirmed</title>
       <link>https://newsanarchist.com/articles/2026-07-12-nato-transformation-confirmed</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US-China Tensions Rise</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-us-china-tensions-rise</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-us-china-tensions-rise</guid>
-      <pubDate>Sat, 11 Jul 2026 22:18:33 GMT</pubDate>
-      <description>US-China Tensions Rise</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-us-china-tensions-rise.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>South Korea Curbs Prosecutors</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-south-korea-curbs-prosecutors</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-south-korea-curbs-prosecutors</guid>
-      <pubDate>Sat, 11 Jul 2026 22:16:08 GMT</pubDate>
-      <description>South Korea Curbs Prosecutors</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-south-korea-curbs-prosecutors.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
