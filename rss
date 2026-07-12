@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 09:59:14 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 09:59:14 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 10:05:44 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 10:05:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Fed Seeks Comment on AML Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rules</guid>
+      <pubDate>Sun, 12 Jul 2026 10:02:06 GMT</pubDate>
+      <description>Fed Seeks Comment on AML Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-fed-seeks-comment-on-aml-rules.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>NSA Leaks Damage Global Trust</title>
       <link>https://newsanarchist.com/articles/2026-07-12-nsa-leaks-damage-global-trust</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Passage Chances Rise to 60%</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-clarity-act-passage-chances-rise-to-60</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-clarity-act-passage-chances-rise-to-60</guid>
-      <pubDate>Sun, 12 Jul 2026 03:25:44 GMT</pubDate>
-      <description>CLARITY Act Passage Chances Rise to 60%</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-clarity-act-passage-chances-rise-to-60.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
