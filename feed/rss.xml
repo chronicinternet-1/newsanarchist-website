@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:03:55 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 08:03:55 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 08:14:40 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 08:14:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>USDA: California Owes $1.4B for SNAP Errors</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-usda-california-owes-14b-for-snap-errors</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-usda-california-owes-14b-for-snap-errors</guid>
+      <pubDate>Sun, 12 Jul 2026 08:12:14 GMT</pubDate>
+      <description>USDA: California Owes $1.4B for SNAP Errors</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-usda-california-owes-14b-for-snap-errors.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>WPATH Can't Block FTC Enforcement</title>
       <link>https://newsanarchist.com/articles/2026-07-12-wpath-cant-block-ftc-enforcement</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>DHS IG Probes Fatal ICE Shooting</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-dhs-ig-probes-fatal-ice-shooting</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-dhs-ig-probes-fatal-ice-shooting</guid>
-      <pubDate>Sun, 12 Jul 2026 01:39:02 GMT</pubDate>
-      <description>DHS IG Probes Fatal ICE Shooting</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-dhs-ig-probes-fatal-ice-shooting.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
