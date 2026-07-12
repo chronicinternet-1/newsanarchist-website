@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 22:13:16 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 22:13:16 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 22:24:10 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 22:24:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Crackdown Hits Hospice Providers</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers</guid>
+      <pubDate>Sun, 12 Jul 2026 22:21:20 GMT</pubDate>
+      <description>Medicare Fraud Crackdown Hits Hospice Providers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>SEC Updates Municipal Securities FAQs</title>
       <link>https://newsanarchist.com/articles/2026-07-12-sec-updates-municipal-securities-faqs</link>
@@ -489,18 +501,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Crackdown Hits Hospice Providers</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers</guid>
-      <pubDate>Sun, 12 Jul 2026 17:17:42 GMT</pubDate>
-      <description>Medicare Fraud Crackdown Hits Hospice Providers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-medicare-fraud-crackdown-hits-hospice-providers.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Ex-GungHo Exec Arrested in ¥40M Scam</title>
