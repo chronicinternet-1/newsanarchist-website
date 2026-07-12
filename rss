@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 11:14:34 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 11:14:34 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 11:25:35 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 11:25:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Charlie Kirk Murder Case: DNA Evidence</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-charlie-kirk-murder-case-dna-evidence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-charlie-kirk-murder-case-dna-evidence</guid>
+      <pubDate>Sun, 12 Jul 2026 11:24:27 GMT</pubDate>
+      <description>Charlie Kirk Murder Case: DNA Evidence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-charlie-kirk-murder-case-dna-evidence.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicare Fraud Exposed in NYC Care Homes</title>
       <link>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-exposed-in-nyc-care-homes</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Xi's Military Purge Raises Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-xis-military-purge-raises-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-xis-military-purge-raises-concerns</guid>
-      <pubDate>Sun, 12 Jul 2026 04:35:25 GMT</pubDate>
-      <description>Xi's Military Purge Raises Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-xis-military-purge-raises-concerns.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
