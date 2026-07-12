@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 15:08:18 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 15:08:18 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 15:19:11 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 15:19:11 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>FBI Arrests Man in $3.7B Medicare Scam</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-fbi-arrests-man-in-37b-medicare-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-fbi-arrests-man-in-37b-medicare-scam</guid>
+      <pubDate>Sun, 12 Jul 2026 15:16:33 GMT</pubDate>
+      <description>FBI Arrests Man in $3.7B Medicare Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-fbi-arrests-man-in-37b-medicare-scam.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Fed Seeks Comment on AML Rule Changes</title>
       <link>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rule-changes</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Subpoenas NYT Journalists Over Security Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns</guid>
-      <pubDate>Sun, 12 Jul 2026 09:32:34 GMT</pubDate>
-      <description>DOJ Subpoenas NYT Journalists Over Security Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
