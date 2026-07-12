@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 21:31:25 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 21:31:25 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 21:37:11 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 21:37:11 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Imposes New Sanctions on Iran</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-us-imposes-new-sanctions-on-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-us-imposes-new-sanctions-on-iran</guid>
+      <pubDate>Sun, 12 Jul 2026 21:34:58 GMT</pubDate>
+      <description>US Imposes New Sanctions on Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-us-imposes-new-sanctions-on-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Charlie Kirk Case: DNA Evidence Challenged</title>
       <link>https://newsanarchist.com/articles/2026-07-12-charlie-kirk-case-dna-evidence-challenged</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Judge Under Fire for Alleged Misconduct in SC Lowcountry</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-judge-under-fire-for-alleged-misconduct-in-sc-lowcountry</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-judge-under-fire-for-alleged-misconduct-in-sc-lowcountry</guid>
-      <pubDate>Sun, 12 Jul 2026 14:26:35 GMT</pubDate>
-      <description>Judge Under Fire for Alleged Misconduct in SC Lowcountry</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-judge-under-fire-for-alleged-misconduct-in-sc-lowcountry.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
