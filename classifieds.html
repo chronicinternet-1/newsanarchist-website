@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Classifieds — NewsAnarchist</title>
+<meta name="description" content="NewsAnarchist Classifieds — For Sale, Services, Housing, Jobs, Events, and Correspondence. Every listing is reviewed before it goes live.">
+<link rel="canonical" href="https://newsanarchist.com/classifieds.html">
+<link rel="icon" href="/images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;width:100%}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111;line-height:1}
+.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.na-nav{background:#111;position:relative}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;flex-shrink:0}
+.na-nav-inner a.active{color:#fff;background:#E11D48}
+.na-nav-inner a:hover{color:#fff}
+.na-footer{background:#111;color:#888}
+.na-fgrid{display:grid;grid-template-columns:1fr;gap:24px;padding:28px 20px;border-bottom:1px solid #1A1A1A;max-width:1200px;margin:0 auto}
+@media(min-width:900px){.na-fgrid{grid-template-columns:repeat(4,1fr)}}
+.na-fwm{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:6px}
+.na-fwm em{color:#E11D48;font-style:normal}
+.na-fdesc{font-size:11px;color:#555;line-height:1.6;margin-bottom:12px}
+.na-flink{display:block;font-size:11px;color:#555;padding:3px 0}
+.na-flink:hover{color:#fff}
+.na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
+.na-fcopy{font-size:10px;color:#333}
+
+/* Classifieds-specific */
+.cl-hero{background:#111;padding:24px 20px;color:#fff}
+.cl-hero-inner{max-width:1200px;margin:0 auto}
+.cl-hero-k{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#E11D48;margin-bottom:6px}
+.cl-hero-h{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;margin-bottom:8px}
+.cl-hero-d{font-size:13px;color:#aaa;max-width:640px;line-height:1.6}
+.cl-body{max-width:1200px;margin:0 auto;padding:20px}
+.cl-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.cl-cats{display:flex;gap:6px;flex-wrap:wrap}
+.cl-cat-chip{background:#fff;border:1px solid #E5E3DE;padding:7px 14px;font-size:11px;font-weight:600;color:#111;cursor:pointer;font-family:'DM Sans',sans-serif}
+.cl-cat-chip.active{background:#111;color:#fff;border-color:#111}
+.cl-search{flex:1;min-width:220px;padding:9px 12px;border:1px solid #E5E3DE;font-size:13px;font-family:'DM Sans',sans-serif;background:#fff}
+.cl-postbtn{background:#E11D48;color:#fff;border:none;padding:10px 20px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap}
+.cl-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:700px){.cl-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.cl-grid{grid-template-columns:repeat(3,1fr)}}
+.cl-card{background:#fff;border:1px solid #E5E3DE;padding:16px;cursor:pointer}
+.cl-card:hover{border-color:#111}
+.cl-card.featured{border-left:3px solid #E11D48}
+.cl-card-badge{display:inline-block;font-size:8px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:#E11D48;color:#fff;padding:2px 7px;margin-bottom:8px}
+.cl-card-cat{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E11D48;margin-bottom:6px}
+.cl-card-title{font-size:15px;font-weight:700;color:#111;line-height:1.3;margin-bottom:6px}
+.cl-card-desc{font-size:12px;color:#666;line-height:1.5;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cl-card-loc{font-size:11px;color:#999}
+.cl-empty{color:#999;font-size:13px;padding:40px 0;text-align:center}
+.cl-detail-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:flex-start;justify-content:center;padding:40px 20px;overflow-y:auto;z-index:100}
+.cl-detail-overlay.open{display:flex}
+.cl-detail{background:#fff;max-width:560px;width:100%;padding:28px}
+.cl-detail-close{float:right;background:none;border:none;font-size:20px;cursor:pointer;color:#999}
+.cl-detail h2{font-size:20px;margin-bottom:10px}
+.cl-detail p{font-size:14px;line-height:1.6;color:#333;margin-bottom:16px;white-space:pre-wrap}
+.cl-contact-form textarea{width:100%;padding:10px;border:1px solid #E5E3DE;font-family:'DM Sans',sans-serif;font-size:13px;min-height:80px;margin-bottom:8px}
+.cl-contact-form input{width:100%;padding:10px;border:1px solid #E5E3DE;font-family:'DM Sans',sans-serif;font-size:13px;margin-bottom:8px}
+.cl-contact-form button{background:#E11D48;color:#fff;border:none;padding:10px 18px;font-size:12px;font-weight:700;text-transform:uppercase;cursor:pointer}
+.cl-report-link{font-size:11px;color:#999;margin-top:14px;display:inline-block;cursor:pointer;text-decoration:underline}
+.cl-msg{font-size:12px;margin-top:8px}
+.cl-msg.ok{color:#16a34a}
+.cl-msg.err{color:#E11D48}
+</style>
+</head>
+<body>
+<div class="na-mast">
+<div class="na-mast-inner"><div><div class="na-wm">News<em>Anarchist</em></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div>
+<a href="/subscribe.html"><button class="na-sbtn">Subscribe Free</button></a>
+</div></div>
+<nav class="na-nav">
+<div class="na-nav-inner"><a href="/">Home</a><a href="/trending.html">Trending</a><a href="/search.html">Search</a><a href="/classifieds.html" class="active">Classifieds</a><a href="/advertise.html">Advertise</a></div>
+</nav>
+
+<div class="cl-hero">
+  <div class="cl-hero-inner">
+    <div class="cl-hero-k">NewsAnarchist Classifieds</div>
+    <div class="cl-hero-h">For Sale · Services · Housing · Jobs · Events · Correspondence</div>
+    <div class="cl-hero-d">Every listing is reviewed by an automated moderation gate before it goes live. Contact happens through NewsAnarchist's relay — your real email is never shown to other users.</div>
+  </div>
+</div>
+
+<div class="cl-body">
+  <div class="cl-toolbar">
+    <div class="cl-cats" id="cl-cats">
+      <button class="cl-cat-chip active" data-cat="">All</button>
+      <button class="cl-cat-chip" data-cat="for-sale">For Sale</button>
+      <button class="cl-cat-chip" data-cat="services">Services</button>
+      <button class="cl-cat-chip" data-cat="housing">Housing</button>
+      <button class="cl-cat-chip" data-cat="jobs">Jobs</button>
+      <button class="cl-cat-chip" data-cat="events">Events</button>
+      <button class="cl-cat-chip" data-cat="correspondence">Correspondence</button>
+    </div>
+    <input type="search" class="cl-search" id="cl-search" placeholder="Search listings...">
+    <a href="/post-classified-ad.html"><button class="cl-postbtn">Post a Listing</button></a>
+  </div>
+
+  <div id="cl-grid" class="cl-grid"></div>
+  <div id="cl-empty" class="cl-empty" style="display:none">No listings yet in this category. Be the first — <a href="/post-classified-ad.html" style="color:#E11D48;font-weight:600">post one</a>.</div>
+</div>
+
+<div class="cl-detail-overlay" id="cl-overlay">
+  <div class="cl-detail">
+    <button class="cl-detail-close" onclick="closeDetail()">&times;</button>
+    <div id="cl-detail-cat" class="cl-card-cat"></div>
+    <h2 id="cl-detail-title"></h2>
+    <div id="cl-detail-loc" style="font-size:12px;color:#999;margin-bottom:12px"></div>
+    <p id="cl-detail-desc"></p>
+    <form class="cl-contact-form" onsubmit="sendContact(event)">
+      <input type="email" id="cl-contact-email" placeholder="Your email" required>
+      <textarea id="cl-contact-msg" placeholder="Your message to the poster..." required></textarea>
+      <button type="submit">Send Message</button>
+      <div id="cl-contact-result" class="cl-msg"></div>
+    </form>
+    <span class="cl-report-link" onclick="reportListing()">Report this listing</span>
+    <div id="cl-report-result" class="cl-msg"></div>
+  </div>
+</div>
+
+<footer class="na-footer">
+<div class="na-fgrid">
+<div>
+<div class="na-fwm">News<em>Anarchist</em></div>
+<div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs.</div>
+<a href="/subscribe.html" class="na-flink">Subscribe — Free &amp; Paid →</a>
+<a href="/about.html" class="na-flink">About Us</a>
+<a href="/tip-line.html" class="na-flink">Tip Line</a>
+</div>
+<div>
+<div class="na-flink" style="font-weight:700;color:#E11D48;text-transform:uppercase;font-size:9px;letter-spacing:.1em;margin-bottom:8px">Classifieds</div>
+<a href="/classifieds.html" class="na-flink">Browse Listings</a>
+<a href="/post-classified-ad.html" class="na-flink">Post a Listing</a>
+<a href="/terms.html" class="na-flink">Terms of Service</a>
+</div>
+</div>
+<div class="na-fbot">
+<div class="na-fcopy">&copy; 2026 NewsAnarchist. All rights reserved.</div>
+<a href="https://chronicinternet.com/" class="na-fcopy">A Chronic Internet Company</a>
+</div>
+</footer>
+
+<script>
+var API = 'https://na-classifieds.steve-5cb.workers.dev';
+var currentCat = '';
+var currentListingId = null;
+var CAT_LABELS = {'for-sale':'For Sale','services':'Services','housing':'Housing','jobs':'Jobs','events':'Events','correspondence':'Correspondence'};
+
+function esc(s) { return (s||'').replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+function loadListings() {
+  var q = document.getElementById('cl-search').value.trim();
+  var url = API + '/listings?limit=60' + (currentCat ? '&category=' + encodeURIComponent(currentCat) : '') + (q ? '&q=' + encodeURIComponent(q) : '');
+  fetch(url).then(function(r){ return r.json(); }).then(function(d){
+    var grid = document.getElementById('cl-grid');
+    var empty = document.getElementById('cl-empty');
+    var listings = d.listings || [];
+    if (!listings.length) { grid.innerHTML=''; empty.style.display='block'; return; }
+    empty.style.display='none';
+    grid.innerHTML = listings.map(function(l){
+      return '<div class="cl-card' + (l.featured ? ' featured' : '') + '" onclick="openDetail(\'' + l.id + '\')">' +
+        (l.featured ? '<div class="cl-card-badge">Featured</div>' : '') +
+        '<div class="cl-card-cat">' + esc(CAT_LABELS[l.category] || l.category) + '</div>' +
+        '<div class="cl-card-title">' + esc(l.title) + '</div>' +
+        '<div class="cl-card-desc">' + esc(l.description) + '</div>' +
+        (l.location ? '<div class="cl-card-loc">' + esc(l.location) + '</div>' : '') +
+        '</div>';
+    }).join('');
+  }).catch(function(){ document.getElementById('cl-grid').innerHTML=''; });
+}
+
+document.getElementById('cl-cats').addEventListener('click', function(e){
+  if (e.target.tagName !== 'BUTTON') return;
+  document.querySelectorAll('.cl-cat-chip').forEach(function(b){ b.classList.remove('active'); });
+  e.target.classList.add('active');
+  currentCat = e.target.getAttribute('data-cat');
+  loadListings();
+});
+var searchTimer;
+document.getElementById('cl-search').addEventListener('input', function(){
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(loadListings, 300);
+});
+
+function openDetail(id) {
+  fetch(API + '/listings/' + id).then(function(r){ return r.json(); }).then(function(d){
+    if (!d.listing) return;
+    currentListingId = id;
+    document.getElementById('cl-detail-cat').textContent = CAT_LABELS[d.listing.category] || d.listing.category;
+    document.getElementById('cl-detail-title').textContent = d.listing.title;
+    document.getElementById('cl-detail-loc').textContent = d.listing.location || '';
+    document.getElementById('cl-detail-desc').textContent = d.listing.description;
+    document.getElementById('cl-contact-result').textContent = '';
+    document.getElementById('cl-report-result').textContent = '';
+    document.getElementById('cl-overlay').classList.add('open');
+  });
+}
+function closeDetail() { document.getElementById('cl-overlay').classList.remove('open'); }
+
+function sendContact(e) {
+  e.preventDefault();
+  var email = document.getElementById('cl-contact-email').value;
+  var msg = document.getElementById('cl-contact-msg').value;
+  var result = document.getElementById('cl-contact-result');
+  result.textContent = 'Sending...'; result.className = 'cl-msg';
+  fetch(API + '/contact/' + currentListingId, {
+    method: 'POST', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ sender_email: email, message: msg })
+  }).then(function(r){ return r.json(); }).then(function(d){
+    if (d.ok) { result.textContent = 'Message sent — the poster will reply to your email directly.'; result.className='cl-msg ok'; document.getElementById('cl-contact-msg').value=''; }
+    else { result.textContent = 'Could not send right now — please try again.'; result.className='cl-msg err'; }
+  }).catch(function(){ result.textContent = 'Could not send right now — please try again.'; result.className='cl-msg err'; });
+}
+
+function reportListing() {
+  var reason = prompt('Briefly describe why you\'re reporting this listing:');
+  if (!reason) return;
+  var result = document.getElementById('cl-report-result');
+  fetch(API + '/report/' + currentListingId, {
+    method: 'POST', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ reason: reason })
+  }).then(function(r){ return r.json(); }).then(function(d){
+    result.textContent = d.message || 'Report received.'; result.className = 'cl-msg ok';
+  }).catch(function(){ result.textContent = 'Could not submit report — please try again.'; result.className='cl-msg err'; });
+}
+
+loadListings();
+</script>
+</body>
+</html>
