@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 04:10:31 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 04:10:31 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 04:21:20 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 04:21:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Judge Under Fire</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-judge-under-fire</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-judge-under-fire</guid>
+      <pubDate>Sun, 12 Jul 2026 04:19:42 GMT</pubDate>
+      <description>Judge Under Fire</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-judge-under-fire.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Mass Transit Overtime Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-12-mass-transit-overtime-fraud</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>$1.4B SNAP Error</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-14b-snap-error</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-14b-snap-error</guid>
-      <pubDate>Sat, 11 Jul 2026 23:06:13 GMT</pubDate>
-      <description>$1.4B SNAP Error</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-14b-snap-error.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
