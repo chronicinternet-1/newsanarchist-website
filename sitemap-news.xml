@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-nsa-leaks-damage-trust</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T07:55:29.110Z</news:publication_date>
+      <news:title>NSA Leaks Damage Trust</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-jihadism-surges-in-sahel</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2582,30 +2590,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
       <news:publication_date>2026-07-10T08:00:45.682Z</news:publication_date>
       <news:title>UK Regulator Seeks Boost</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-china-uses-sea-power</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T07:54:38.363Z</news:publication_date>
-      <news:title>China Uses Sea Power</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-meta-ai-glasses-to-use-facial-recognition</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T07:51:09.351Z</news:publication_date>
-      <news:title>Meta AI Glasses To Use Facial Recognition</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-ufo-deception-warning</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T07:47:54.156Z</news:publication_date>
-      <news:title>UFO Deception Warning</news:title>
     </news:news>
   </url>
 </urlset>
