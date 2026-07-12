@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 10:22:58 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 10:22:58 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 10:29:20 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 10:29:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran War Threatens Global Food Security</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-iran-war-threatens-global-food-security</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-iran-war-threatens-global-food-security</guid>
+      <pubDate>Sun, 12 Jul 2026 10:27:56 GMT</pubDate>
+      <description>Iran War Threatens Global Food Security</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-iran-war-threatens-global-food-security.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Dana Chandler Case Update</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-dana-chandler-case-update</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-dana-chandler-case-update</guid>
+      <pubDate>Sun, 12 Jul 2026 10:23:46 GMT</pubDate>
+      <description>Dana Chandler Case Update</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-dana-chandler-case-update.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Near-Death Experiences Tool Emerges</title>
       <link>https://newsanarchist.com/articles/2026-07-12-near-death-experiences-tool-emerges</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Mass Transit Overtime Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-mass-transit-overtime-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-mass-transit-overtime-fraud</guid>
-      <pubDate>Sun, 12 Jul 2026 04:09:26 GMT</pubDate>
-      <description>Mass Transit Overtime Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-mass-transit-overtime-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>India Corruption Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-india-corruption-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-india-corruption-crisis</guid>
-      <pubDate>Sun, 12 Jul 2026 04:00:35 GMT</pubDate>
-      <description>India Corruption Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-india-corruption-crisis.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
   </channel>
 </rss>
