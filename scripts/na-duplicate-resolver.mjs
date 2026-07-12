@@ -156,28 +156,95 @@ function applyResolution({ canonicalSlug, canonicalUrl, nonCanonicalSlug, addCro
   return { canonicalPatched, ogUrlPatched, jsonLdPatched, crossLinkAdded, changed };
 }
 
+// Independent pairwise adjudication can, on a genuine 3+-way duplicate cluster (the same real
+// event covered by 3+ articles), produce directives that conflict (two different pairings name
+// different canonicals for the SAME non-canonical article) or chain (article A's directive says
+// "canonical = B", but B is itself the non-canonical side of a DIFFERENT directive that says
+// "canonical = C"). Applying either case naively means: a conflict silently lets whichever
+// directive is processed last win, and a chain leaves A pointing at B instead of the true root
+// C — a canonical chain instead of a flat canonical, worse for crawlers than what this system
+// exists to fix. Found via real dry-run verification against a live batch (Kennedy Center
+// whistleblower coverage, UAP/UFO files coverage), before any file was ever touched.
+//
+// Fix: build one edge per non-canonical slug (ties between conflicting directives broken toward
+// the earlier-dated candidate canonical, consistent with this system's general default), then
+// follow each chain to its root (cycle-safe) so every article in a cluster ends up pointing at
+// the SAME single, non-chained final canonical.
+function resolveCanonicalGraph(directives) {
+  const dateOf = (slug) => ((slug || '').match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || '9999-99-99';
+
+  const candidatesBySource = new Map();
+  for (const d of directives) {
+    const src = d.payload.nonCanonicalSlug;
+    const arr = candidatesBySource.get(src) || [];
+    arr.push(d);
+    candidatesBySource.set(src, arr);
+  }
+
+  const edge = new Map(); // nonCanonicalSlug -> one chosen canonicalSlug (pre-chain-flattening)
+  for (const [src, ds] of candidatesBySource) {
+    const sorted = ds.slice().sort((a, b) => dateOf(a.payload.canonicalSlug).localeCompare(dateOf(b.payload.canonicalSlug)));
+    edge.set(src, sorted[0].payload.canonicalSlug);
+  }
+
+  function root(slug) {
+    const seen = new Set();
+    let cur = slug;
+    while (edge.has(cur) && !seen.has(cur)) { seen.add(cur); cur = edge.get(cur); }
+    return cur;
+  }
+
+  const rootBySource = new Map();
+  for (const src of edge.keys()) rootBySource.set(src, root(src));
+  return rootBySource;
+}
+
 function applyPending({ dryRun = false } = {}) {
   const keys = kvList('na:dedup-resolution:');
   if (!keys.length) { LOG('No pending duplicate resolutions'); return; }
   LOG(`${keys.length} pending resolution(s)`);
 
+  const directives = keys.map(key => ({ key, payload: kvGet(key) }))
+    .filter(d => { if (!d.payload?.canonicalSlug || !d.payload?.nonCanonicalSlug) { LOG(`Bad payload: ${d.key}`); return false; } return true; });
+
+  const rootBySource = resolveCanonicalGraph(directives);
+  const clusters = new Set([...rootBySource.values()].filter((v, _, arr) => arr.filter(x => x === v).length > 1 || directives.some(d => d.payload.nonCanonicalSlug !== v && rootBySource.get(d.payload.nonCanonicalSlug) === v)));
+
   const applied = [];
-  for (const key of keys) {
-    const payload = kvGet(key);
-    if (!payload?.canonicalSlug || !payload?.nonCanonicalSlug) { LOG(`Bad payload: ${key}`); continue; }
+  const processedSources = new Set();
+  for (const d of directives) {
+    const src = d.payload.nonCanonicalSlug;
+    const finalCanonicalSlug = rootBySource.get(src);
+    if (finalCanonicalSlug === src) { LOG(`  SKIP ${src}: resolved to itself (cycle/bad data) — leaving as-is`); continue; }
+
+    if (processedSources.has(src)) {
+      // Another directive for this SAME article already applied the one chain-flattened patch.
+      applied.push({ key: d.key, payload: d.payload, result: { changed: false, superseded: true, finalCanonicalSlug } });
+      continue;
+    }
+    processedSources.add(src);
+
+    const finalCanonicalUrl = `https://newsanarchist.com/articles/${finalCanonicalSlug}`;
     try {
-      const r = applyResolution(payload, { dryRun });
-      LOG(`  ${payload.nonCanonicalSlug} -> canonical ${payload.canonicalSlug}: canonical=${r.canonicalPatched} og:url=${r.ogUrlPatched} jsonld=${r.jsonLdPatched} crossLink=${r.crossLinkAdded} changed=${r.changed}`);
-      applied.push({ key, payload, result: r });
+      const r = applyResolution({ canonicalSlug: finalCanonicalSlug, canonicalUrl: finalCanonicalUrl, nonCanonicalSlug: src, addCrossLink: d.payload.addCrossLink }, { dryRun });
+      const chainNote = finalCanonicalSlug !== d.payload.canonicalSlug ? ` (chain-flattened from ${d.payload.canonicalSlug})` : '';
+      LOG(`  ${src} -> canonical ${finalCanonicalSlug}${chainNote}: canonical=${r.canonicalPatched} og:url=${r.ogUrlPatched} jsonld=${r.jsonLdPatched} crossLink=${r.crossLinkAdded} changed=${r.changed}`);
+      applied.push({ key: d.key, payload: d.payload, result: { ...r, finalCanonicalSlug } });
     } catch (e) {
-      LOG(`  FAILED ${key} (${payload.nonCanonicalSlug}): ${e.message}`);
+      LOG(`  FAILED ${d.key} (${src}): ${e.message}`);
     }
   }
 
-  const realChanges = applied.filter(a => a.result.changed);
-  if (!realChanges.length) { LOG('Nothing actually patched — done.'); return; }
+  if (clusters.size) LOG(`${clusters.size} multi-way cluster root(s) detected this batch — conflicts/chains flattened before applying.`);
 
-  if (dryRun) { LOG(`[dry-run] Would commit/deploy ${realChanges.length} file(s), then update D1 + clear KV.`); return; }
+  const realChanges = applied.filter(a => a.result.changed);
+  const supersededOnly = applied.filter(a => a.result.superseded);
+  if (!realChanges.length) {
+    LOG('Nothing actually patched — done.');
+    return;
+  }
+
+  if (dryRun) { LOG(`[dry-run] Would commit/deploy ${realChanges.length} file(s) (+ resolve ${supersededOnly.length} superseded directive(s) with no separate file edit), then update D1 + clear KV.`); return; }
 
   // Commit
   try {
@@ -217,14 +284,18 @@ function applyPending({ dryRun = false } = {}) {
   // Only mark resolved in D1 and clear the KV directive once the change is actually live
   // (or, if halted, we leave the directive so a future run re-applies/re-deploys — the file
   // patch itself is idempotent since it matches on the CURRENT href, not a hardcoded old one).
+  // Both real changes AND superseded directives get cleared here: a superseded directive's
+  // desired outcome (its target article ends up pointing at the right final canonical) was
+  // already satisfied by whichever directive in the same cluster actually applied the patch.
   if (!deployed) return;
-  for (const { key, payload } of realChanges) {
+  for (const { key, payload, result } of [...realChanges, ...supersededOnly]) {
     try {
       const rows = d1Run('SELECT metrics FROM water_cooler WHERE id = ?', [payload.waterCoolerId]);
       if (rows[0]) {
         let metrics = {};
         try { metrics = JSON.parse(rows[0].metrics || '{}'); } catch {}
-        metrics.fileEditStatus = 'applied';
+        metrics.fileEditStatus = result.superseded ? 'superseded' : 'applied';
+        metrics.finalCanonicalSlug = result.finalCanonicalSlug;
         metrics.appliedAt = new Date().toISOString();
         d1Run('UPDATE water_cooler SET metrics = ? WHERE id = ?', [JSON.stringify(metrics), payload.waterCoolerId]);
       }
