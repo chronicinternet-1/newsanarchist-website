@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 17:02:45 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 17:02:45 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 17:08:31 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 17:08:31 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ex-GungHo Exec Arrested in ¥40M Scam</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam</guid>
+      <pubDate>Sun, 12 Jul 2026 17:06:29 GMT</pubDate>
+      <description>Ex-GungHo Exec Arrested in ¥40M Scam</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>India to Integrate e-OCI Card with Facial Recognition</title>
       <link>https://newsanarchist.com/articles/2026-07-12-india-to-integrate-e-oci-card-with-facial-recognition</link>
@@ -549,18 +561,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Ex-GungHo Exec Arrested in ¥40M Scam</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam</guid>
-      <pubDate>Sun, 12 Jul 2026 12:03:32 GMT</pubDate>
-      <description>Ex-GungHo Exec Arrested in ¥40M Scam</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-ex-gungho-exec-arrested-in-40m-scam.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Whistleblowers Allege Rushed Kennedy Center Renovations</title>
