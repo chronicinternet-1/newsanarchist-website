@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 02:24:53 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 02:24:53 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 02:30:48 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 02:30:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblowers Allege Kennedy Center Construction Woes</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-whistleblowers-allege-kennedy-center-construction-woes</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-whistleblowers-allege-kennedy-center-construction-woes</guid>
+      <pubDate>Sun, 12 Jul 2026 02:27:33 GMT</pubDate>
+      <description>Whistleblowers Allege Kennedy Center Construction Woes</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-whistleblowers-allege-kennedy-center-construction-woes.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Hedera DeFi Lender Hacked for $9M</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-hedera-defi-lender-hacked-for-9m</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-hedera-defi-lender-hacked-for-9m</guid>
+      <pubDate>Sun, 12 Jul 2026 02:25:11 GMT</pubDate>
+      <description>Hedera DeFi Lender Hacked for $9M</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-hedera-defi-lender-hacked-for-9m.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>US-China Tensions</title>
       <link>https://newsanarchist.com/articles/2026-07-12-us-china-tensions</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit Divided</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-nato-summit-divided</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-nato-summit-divided</guid>
-      <pubDate>Sat, 11 Jul 2026 21:17:59 GMT</pubDate>
-      <description>NATO Summit Divided</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-nato-summit-divided.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Kirk Case Hearing Ends</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-kirk-case-hearing-ends</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-kirk-case-hearing-ends</guid>
-      <pubDate>Sat, 11 Jul 2026 21:15:38 GMT</pubDate>
-      <description>Kirk Case Hearing Ends</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-kirk-case-hearing-ends.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
