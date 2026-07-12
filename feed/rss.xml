@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 03:13:50 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 03:13:50 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 03:19:40 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 03:19:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Orlando Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-orlando-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-orlando-cold-case-solved</guid>
+      <pubDate>Sun, 12 Jul 2026 03:19:10 GMT</pubDate>
+      <description>Orlando Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-orlando-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Declassified UFO Files Released</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-declassified-ufo-files-released</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-declassified-ufo-files-released</guid>
+      <pubDate>Sun, 12 Jul 2026 03:16:09 GMT</pubDate>
+      <description>Declassified UFO Files Released</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-declassified-ufo-files-released.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>California Owes $1.4B for SNAP Errors</title>
       <link>https://newsanarchist.com/articles/2026-07-12-california-owes-14b-for-snap-errors</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>UAP Files Released</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-uap-files-released</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-uap-files-released</guid>
-      <pubDate>Sat, 11 Jul 2026 22:12:26 GMT</pubDate>
-      <description>UAP Files Released</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-uap-files-released.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Enrollment Pause</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-medicare-enrollment-pause</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-medicare-enrollment-pause</guid>
-      <pubDate>Sat, 11 Jul 2026 22:05:38 GMT</pubDate>
-      <description>Medicare Enrollment Pause</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-medicare-enrollment-pause.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
