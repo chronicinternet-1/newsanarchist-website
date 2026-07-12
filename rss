@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 09:31:25 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 09:31:25 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 09:37:21 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 09:37:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Subpoenas NYT Journalists Over Security Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns</guid>
+      <pubDate>Sun, 12 Jul 2026 09:32:34 GMT</pubDate>
+      <description>DOJ Subpoenas NYT Journalists Over Security Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-doj-subpoenas-nyt-journalists-over-security-concerns.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pentagon Releases New UFO Files</title>
       <link>https://newsanarchist.com/articles/2026-07-12-pentagon-releases-new-ufo-files</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Declassified UFO Files Released</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-declassified-ufo-files-released</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-declassified-ufo-files-released</guid>
-      <pubDate>Sun, 12 Jul 2026 03:16:09 GMT</pubDate>
-      <description>Declassified UFO Files Released</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-declassified-ufo-files-released.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
   </channel>
 </rss>
