@@ -26,17 +26,19 @@
 // confirmed case while staying clearly bounded and "recent" — not the unbounded
 // entire-history comparison that caused the orphaning bug this replaces.
 //
-// Threshold: 0.78, calibrated directly against real article content, not guessed:
-//   0.97  Cold Cases Cracked / Cold Cases Solved       — same author, same day, genuine duplicate
-//   0.88  UK Crypto Firms Face New Rules (2 authors)   — the real confirmed case
-//   0.83  $3B / $3.7B Medicare Fraud (same author)     — same-day, plausibly related, borderline
-//   0.79  Epstein Files Release / Released             — same day, confirmed genuine duplicate
-//   0.78  $1.2B / $1B Medicare Fraud (same author)      — confirmed DIFFERENT specific cases
-//   0.56  Xi's Military Purge vs UK Crypto Rules        — clearly unrelated baseline
-// The real signal is noisy right at 0.78-0.79 (a confirmed duplicate and a confirmed
-// non-duplicate sit almost on top of each other). Set at the bottom of that band on purpose:
-// missing a real duplicate is the expensive failure mode here, and a false-positive flag costs
-// a human a few seconds to dismiss — recall matters more than precision for a review queue.
+// Threshold: 0.85 — RAISED from an initial 0.78 after real precision measurement showed 0.78
+// was miscalibrated. The initial calibration only tested isolated known pairs; once measured
+// against a real 60-pair random sample of ACTUAL flagged rows (each hand-checked against one
+// explicit test: same specific underlying event, or same broad topic/beat with different
+// specific facts?), overall precision at 0.78 was only 61.7% (37/60). Precision by threshold:
+//   >=0.78: 61.7%  |  >=0.82: 72.0%  |  >=0.85: 85.4%  |  >=0.88: 90.0%  |  >=0.90: 92.6%
+// There's a real, sharp break at 0.85 (85.4% precision above it, only 10.5% below), and the
+// one real confirmed case (UK Crypto Firms Face New Rules, two authors, 0.8796) stays safely
+// above 0.85 with real margin — unlike 0.88, which would put that exact case AT the boundary.
+// 0.85 was chosen over 0.88/0.90 specifically to keep that margin rather than chase a few more
+// points of precision. Recall still matters more than precision for a review queue, but 0.78
+// let through too much same-beat/different-facts noise (e.g. two distinct Medicare fraud
+// cases with similar phrasing) to be worth the review cost at real publish volume.
 
 import fs from 'fs';
 import path from 'path';
