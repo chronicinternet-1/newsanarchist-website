@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-apple-sues-openai</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T01:56:06.766Z</news:publication_date>
+      <news:title>Apple Sues OpenAI</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-warrantless-surveillance-expands</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -518,14 +526,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T19:02:33.614Z</news:publication_date>
       <news:title>$1B Fraud Fugitive Caught</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-apple-sues-openai</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T18:50:41.373Z</news:publication_date>
-      <news:title>Apple Sues OpenAI</news:title>
     </news:news>
   </url>
   <url>
@@ -2518,22 +2518,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
       <news:publication_date>2026-07-10T02:00:33.429Z</news:publication_date>
       <news:title>個人情報保護法改正案が参院で可決</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-mayo-clinic-ai-issues</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T01:56:29.263Z</news:publication_date>
-      <news:title>Mayo Clinic AI Issues</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-nasa-confirms-ufo-imagery</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T01:54:42.019Z</news:publication_date>
-      <news:title>NASA Confirms UFO Imagery</news:title>
     </news:news>
   </url>
 </urlset>

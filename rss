@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 01:54:07 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 01:54:07 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 01:59:59 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 01:59:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Apple Sues OpenAI</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-apple-sues-openai</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-apple-sues-openai</guid>
+      <pubDate>Sun, 12 Jul 2026 01:56:06 GMT</pubDate>
+      <description>Apple Sues OpenAI</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-apple-sues-openai.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Warrantless Surveillance Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-12-warrantless-surveillance-expands</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Xi Rebuilds Military</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-xi-rebuilds-military</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-xi-rebuilds-military</guid>
-      <pubDate>Sat, 11 Jul 2026 20:30:41 GMT</pubDate>
-      <description>Xi Rebuilds Military</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-xi-rebuilds-military.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
