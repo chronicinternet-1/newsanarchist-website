@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:18:23 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 00:18:23 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 00:24:12 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 00:24:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon Releases 4th Batch of UFO Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-pentagon-releases-4th-batch-of-ufo-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-pentagon-releases-4th-batch-of-ufo-files</guid>
+      <pubDate>Sun, 12 Jul 2026 00:23:55 GMT</pubDate>
+      <description>Pentagon Releases 4th Batch of UFO Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-pentagon-releases-4th-batch-of-ufo-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Gaza Retrieval Efforts Hindered</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-gaza-retrieval-efforts-hindered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-gaza-retrieval-efforts-hindered</guid>
+      <pubDate>Sun, 12 Jul 2026 00:20:22 GMT</pubDate>
+      <description>Gaza Retrieval Efforts Hindered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-gaza-retrieval-efforts-hindered.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Warrantless Surveillance Dragnet</title>
       <link>https://newsanarchist.com/articles/2026-07-12-warrantless-surveillance-dragnet</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>$1B Fraud Fugitive Caught</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-1b-fraud-fugitive-caught</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-1b-fraud-fugitive-caught</guid>
-      <pubDate>Sat, 11 Jul 2026 19:02:33 GMT</pubDate>
-      <description>$1B Fraud Fugitive Caught</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-1b-fraud-fugitive-caught.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Apple Sues OpenAI</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-apple-sues-openai</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-apple-sues-openai</guid>
-      <pubDate>Sat, 11 Jul 2026 18:50:41 GMT</pubDate>
-      <description>Apple Sues OpenAI</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-apple-sues-openai.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
