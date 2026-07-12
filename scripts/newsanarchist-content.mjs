@@ -60,7 +60,7 @@ const _creds = fs.readFileSync(process.env.HOME + '/.openclaw/secrets/credential
 const CF_AI_ACCOUNT = _creds.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim() || '5cba15db85116f1426a122db0c5178fa';
 const CF_AI_EMAIL   = _creds.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
 // credentials.env ships CLOUDFLARE_GLOBAL_API_KEY; fall back to CLOUDFLARE_API_KEY if added later
-const CF_AI_KEY     = _creds.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || _creds.match(/^CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
+const CF_AI_KEY     = _creds.match(/^(?:export\s+)?CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || _creds.match(/^(?:export\s+)?CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
 const CF_AI_URL     = `https://api.cloudflare.com/client/v4/accounts/${CF_AI_ACCOUNT}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`;
 const GA4_ID = 'G-7N6W04M3XW';
 const AUTHOR = 'NewsAnarchist Desk';
@@ -4268,13 +4268,32 @@ async function runPublish() {
     }
   }
   allArticles = [...deduped.values()];
-  // Also deduplicate by normalized title — same story from multiple sources
+  // Also deduplicate by normalized title — same story covered by multiple sources within a
+  // short window. FIXED 2026-07-12: this used to compare every article against the ENTIRE
+  // historical corpus with no time bound, so any new article whose first-60-chars happened to
+  // match ANY older article — regardless of whether that was 3 days or 3 months earlier —
+  // silently dropped the older one from the manifest (and therefore the sitemap) forever. The
+  // .html file stayed live on disk/deployed, just orphaned — confirmed live: 2,633 of 7,480
+  // published articles were in exactly this state, which is the real driver behind both the
+  // GSC "Not indexed" collapse (orphaned pages losing their sitemap-submitted legitimacy) and
+  // the "Duplicate without user-selected canonical" bucket (two genuinely live, self-canonical
+  // pages with similar titles, one of them invisible to the sitemap). Real near-duplicate
+  // coverage of the same breaking story happens within hours of each other, not months apart —
+  // bound the match to a 48h window so an unrelated older article that happens to share an
+  // opening phrase is never touched.
+  const DEDUP_WINDOW_MS = 48 * 60 * 60 * 1000;
   const seenTitles = new Map();
   allArticles = allArticles.filter(a => {
     const key = (a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').trim().slice(0, 60);
     if (!key) return true;
     const existing = seenTitles.get(key);
     if (!existing) { seenTitles.set(key, a); return true; }
+    const aTime = new Date(a.generatedAt || 0).getTime();
+    const eTime = new Date(existing.generatedAt || 0).getTime();
+    if (!Number.isFinite(aTime) || !Number.isFinite(eTime) || Math.abs(aTime - eTime) > DEDUP_WINDOW_MS) {
+      // Too far apart in time to plausibly be the same breaking-news duplicate — keep both.
+      return true;
+    }
     // Keep the one with a better description
     if ((a.description || '').length > (existing.description || '').length) {
       seenTitles.set(key, a);
@@ -4317,9 +4336,9 @@ async function runPublish() {
     const _dEnv = Object.assign({}, process.env);
     delete _dEnv.CLOUDFLARE_API_TOKEN;
     const _cr = fs.readFileSync('/home/ubuntu/.openclaw/secrets/credentials.env', 'utf-8');
-    _dEnv.CLOUDFLARE_API_KEY    = _cr.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim();
-    _dEnv.CLOUDFLARE_EMAIL      = _cr.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
-    _dEnv.CLOUDFLARE_ACCOUNT_ID = _cr.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
+    _dEnv.CLOUDFLARE_API_KEY    = _cr.match(/^(?:export\s+)?CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim();
+    _dEnv.CLOUDFLARE_EMAIL      = _cr.match(/^(?:export\s+)?CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
+    _dEnv.CLOUDFLARE_ACCOUNT_ID = _cr.match(/^(?:export\s+)?CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
     execSync('npx wrangler@4.93.1 pages deploy . --project-name newsanarchist-website --branch=master --commit-dirty=true', {
       cwd: gitDir, env: _dEnv, stdio: 'pipe', timeout: 180000
     });
