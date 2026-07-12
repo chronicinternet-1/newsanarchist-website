@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 05:28:48 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 05:28:48 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 06:03:10 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 06:03:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Officials Summoned FBI Director</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-trump-officials-summoned-fbi-director</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-trump-officials-summoned-fbi-director</guid>
+      <pubDate>Sun, 12 Jul 2026 05:29:37 GMT</pubDate>
+      <description>Trump Officials Summoned FBI Director</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-trump-officials-summoned-fbi-director.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Trump UFO Files Revive 1949 Mystery</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-trump-ufo-files-revive-1949-mystery</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-trump-ufo-files-revive-1949-mystery</guid>
+      <pubDate>Sun, 12 Jul 2026 05:28:54 GMT</pubDate>
+      <description>Trump UFO Files Revive 1949 Mystery</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-trump-ufo-files-revive-1949-mystery.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Gaza Retrieval Efforts Hindered</title>
       <link>https://newsanarchist.com/articles/2026-07-12-gaza-retrieval-efforts-hindered</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Alaskans Charged $1.8M</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-alaskans-charged-18m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-alaskans-charged-18m</guid>
-      <pubDate>Sun, 12 Jul 2026 00:06:44 GMT</pubDate>
-      <description>Alaskans Charged $1.8M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-alaskans-charged-18m.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>FTC Steps Up Enforcement</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-ftc-steps-up-enforcement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-ftc-steps-up-enforcement</guid>
-      <pubDate>Sat, 11 Jul 2026 23:54:52 GMT</pubDate>
-      <description>FTC Steps Up Enforcement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-ftc-steps-up-enforcement.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>

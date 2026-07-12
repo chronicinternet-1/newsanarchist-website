@@ -22,6 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { detectAndFlagDuplicates } from './na-duplicate-detector.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_DIR = path.resolve(__dirname, '../newsanarchist-website');
@@ -1185,7 +1186,7 @@ function buildArticleHTML(topic) {
   for (const rel of related) {
     const relSlug = rel.slug || slugify(rel.title || 'article');
     const relCat = rel.category || 'Government Secrets';
-    relatedHTML += `<a href="/articles/${relSlug}.html" class="card">
+    relatedHTML += `<a href="/articles/${relSlug}" class="card">
               <div class="card-image" style="background-image:url(/images/articles/${relSlug}.webp);background-size:cover;background-position:center;"></div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1339,7 +1340,7 @@ ${subheadHTML ? `<div class="art-dek">${subheadHTML.replace(/<\/?p[^>]*>/g,'')}<
 <div class="art-byline">
 ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.name}" class="art-av" onerror="this.style.display='none'">` : '<div class="art-av"></div>'}
 <div>
-<div class="art-author-name">${author.slug ? `<a href="/authors/${author.slug}.html">${author.name}</a>` : author.name}</div>
+<div class="art-author-name">${author.slug ? `<a href="/authors/${author.slug}">${author.name}</a>` : author.name}</div>
 <div class="art-author-role">${author.credential || ''}</div>
 </div>
 <div class="art-meta">${dateDisplay}<br>${readTime}</div>
@@ -2614,7 +2615,7 @@ async function runGenerate() {
             let linkCount = 0;
             for (const rel of related) {
               if (linkCount >= 3) break;
-              if (injected.includes(`href="/articles/${rel.slug}.html"`)) continue;
+              if (injected.includes(`href="/articles/${rel.slug}"`)) continue;
               const sharedKws = rel.keywords.filter(k => currentKws.has(k) && k.length > 5);
               if (!sharedKws.length) continue;
               const anchor = sharedKws[0];
@@ -2626,7 +2627,7 @@ async function runGenerate() {
                 const seg = paragraphs[pi];
                 if (!seg.startsWith('<p')) continue;
                 // Skip if segment already contains a link to this article
-                if (seg.includes(`href="/articles/${rel.slug}.html"`)) continue;
+                if (seg.includes(`href="/articles/${rel.slug}"`)) continue;
                 // Strip existing anchor tags to find plain text positions
                 const plainText = seg.replace(/<a[^>]*>[\s\S]*?<\/a>/g, m => ' '.repeat(m.length));
                 const rxPlain = new RegExp(`\\b(${esc})\\b`, 'i');
@@ -2639,7 +2640,7 @@ async function runGenerate() {
                   const closeAs = (before80.match(/<\/a>/g) || []).length;
                   if (openAs > closeAs) continue; // inside an anchor — skip
                   paragraphs[pi] = seg.slice(0, idx) +
-                    `<a href="/articles/${rel.slug}.html" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">` +
+                    `<a href="/articles/${rel.slug}" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">` +
                     seg.slice(idx, idx + pm[0].length) + '</a>' +
                     seg.slice(idx + pm[0].length);
                   didInject = true;
@@ -2704,7 +2705,7 @@ function buildArticleCard(article) {
   const imgSlug = (article.filename || article.slug || '').replace('.html', '');
   const typeClass = (article.articleType || 'news').toLowerCase();
   const typeLabel = article.articleType ? article.articleType.toUpperCase() : article.category;
-  return `<a href="/articles/${article.filename}" class="card">
+  return `<a href="/articles/${article.filename.replace(/\.html$/,'')}" class="card">
   <div class="card-image" style="background-image:url(/images/articles/${imgSlug}.webp);background-size:cover;background-position:center;"></div>
   <div class="card-body">
     <div class="card-meta">
@@ -2725,9 +2726,9 @@ function buildHeroCard(article, isMain = false) {
   const imgSlug = (article.filename || article.slug || '').replace('.html', '');
   const avatarStyle = author.slug ? `background-image:url(/images/authors/${author.slug}.webp)` : '';
   const authorLink = author.slug
-    ? `<a href="/authors/${author.slug}.html" style="color:rgba(255,255,255,0.75);text-decoration:none;">${author.name}</a>`
+    ? `<a href="/authors/${author.slug}" style="color:rgba(255,255,255,0.75);text-decoration:none;">${author.name}</a>`
     : author.name;
-  return `<a href="/articles/${article.filename}" class="hero-card ${isMain ? 'hero-main' : 'hero-secondary'}">
+  return `<a href="/articles/${article.filename.replace(/\.html$/,'')}" class="hero-card ${isMain ? 'hero-main' : 'hero-secondary'}">
   <div class="hero-card-image" style="background-image:url(/images/articles/${imgSlug}.webp);"></div>
   <div class="hero-card-overlay"></div>
   <div class="hero-card-body">
@@ -2981,7 +2982,7 @@ window.naSearch=window.naSearch||function(e){if(e&&e.preventDefault)e.preventDef
         var rs=d.results||[];
         if(!rs.length){out.innerHTML='<div class="na-search-empty">No results for &ldquo;'+esc(q)+'&rdquo;. Try a broader term or browse the categories below.</div>';return;}
         var h='<div class="na-search-count">'+d.count+' result'+(d.count===1?'':'s')+' for &ldquo;'+esc(q)+'&rdquo;</div>';
-        for(var i=0;i<rs.length;i++){var a=rs[i];h+='<a class="na-search-card" href="/articles/'+a.slug+'.html"><div class="na-search-cat">'+esc(a.category)+'</div><div class="na-search-title">'+esc(a.title)+'</div><div class="na-search-meta">'+esc(a.author)+'</div></a>';}
+        for(var i=0;i<rs.length;i++){var a=rs[i];h+='<a class="na-search-card" href="/articles/'+a.slug+'"><div class="na-search-cat">'+esc(a.category)+'</div><div class="na-search-title">'+esc(a.title)+'</div><div class="na-search-meta">'+esc(a.author)+'</div></a>';}
         out.innerHTML=h;
       }).catch(function(){out.innerHTML='<div class="na-search-empty">Search unavailable. Please try again.</div>';});
   };
@@ -3037,7 +3038,7 @@ function rebuildIndexHTML(allArticles) {
     const s = sg(a), sl = asl(a);
     const img = cardThumb(cs(a), "vh-img", "eager", s);
     const byAuth = sl
-      ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}.html" class="vh-al">${au(a)}</a>`
+      ? `<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vh-av" onerror="this.style.display='none'"><a href="/authors/${sl}" class="vh-al">${au(a)}</a>`
       : `<span>${au(a)}</span>`;
     const rawDek = (a.description || a.excerpt || '').trim();
     const titleWords = (a.title||'').toLowerCase().split(/\s+/).filter(Boolean);
@@ -3048,26 +3049,26 @@ function rebuildIndexHTML(allArticles) {
     const dekStr = rawDek.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
     const dekIsTitleRepeat = dekStr === titleStr || dekStr.includes(titleStr) || titleStr.includes(dekStr);
     const dek = (rawDek && rawDek.length > 30 && !titleInDek && !dekTooShort && !dekIsTitleRepeat) ? rawDek.slice(0, 220) : '';
-    return `<div class="vh-main">${img}<div class="vh-body"><div class="vh-meta"><span class="vh-pill">${gn(a)}</span><span class="vh-cat">${a.category||''}</span></div><h1 class="vh-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h1>${dek?`<p class="vh-dek">${dek}${(a.description||'').length>200?'...':''}</p>`:''}<div class="vh-by">${byAuth}<span class="vh-dot">·</span><span>${fd(a)}</span></div></div></div>`;
+    return `<div class="vh-main">${img}<div class="vh-body"><div class="vh-meta"><span class="vh-pill">${gn(a)}</span><span class="vh-cat">${a.category||''}</span></div><h1 class="vh-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h1>${dek?`<p class="vh-dek">${dek}${(a.description||'').length>200?'...':''}</p>`:''}<div class="vh-by">${byAuth}<span class="vh-dot">·</span><span>${fd(a)}</span></div></div></div>`;
   }
 
   function heroSec(a) {
     if (!a) return '';
     const s = sg(a), sl = asl(a);
     const img = cardThumb(cs(a), "vs-img", "eager", s);
-    return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
+    return `<div class="vh-sec">${img}<div class="vs-body"><div class="vs-cat">${a.category||''}</div><h2 class="vs-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h2><div class="vs-by">${sl?`<img src="/images/authors/${sl}.webp" alt="${au(a)}" class="vs-av" onerror="this.style.display='none'">`:''}${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function card(a) {
     const s = sg(a);
     const img = cardThumb(cs(a), "vc-img", "lazy", s);
-    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   function featCard(a) {
     const s = sg(a);
     const img = cardThumb(cs(a), "vc-img", "lazy", s);
-    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   // Filter hero candidates — exclude Reddit questions, low-quality titles
@@ -3109,7 +3110,7 @@ function rebuildIndexHTML(allArticles) {
     : '';
 
   const trending = articles.slice(0, 5).map((a, i) =>
-    `<a href="/articles/${a.filename}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${truncate(a.title,55)}</div><div class="na-tcat">${a.category||''}</div></div></a>`
+    `<a href="/articles/${a.filename.replace(/\.html$/,'')}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${truncate(a.title,55)}</div><div class="na-tcat">${a.category||''}</div></div></a>`
   ).join('');
 
   const navLinks = CATEGORIES.map(cat =>
@@ -3651,7 +3652,7 @@ function rebuildFilesIndex(allArticles) {
     const hasImg = fs.existsSync(path.join(SITE_DIR, 'images/articles', slug + '.webp'));
     const imgHtml = hasImg ? `<img src="/images/articles/${slug}.webp" alt="${(a.title||'').replace(/"/g,"'")}" style="width:100%;height:160px;object-fit:cover;display:block;margin-bottom:12px">` : '';
     const authorSlug = (a.authorSlug || a.author || 'newsanarchist-desk').toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'');
-    return `<div class="bw-card">${imgHtml}<div class="bw-card-label">🔍 Investigation · ${a.category||'Unexplained'}</div><div class="bw-card-hed"><a href="/articles/${a.filename}">${a.title||''}</a></div><div class="bw-card-by"><a href="/authors/${authorSlug}.html" style="color:#E11D48">${displayAuthor(a)}</a> · ${fd(a)}</div><p style="font-size:12px;color:#666;line-height:1.5;margin-bottom:12px">${(a.description||'').slice(0,140)}${(a.description||'').length>140?'…':''}</p><a href="/articles/${a.filename}" class="bw-card-btn">Read Investigation →</a></div>`;
+    return `<div class="bw-card">${imgHtml}<div class="bw-card-label">🔍 Investigation · ${a.category||'Unexplained'}</div><div class="bw-card-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></div><div class="bw-card-by"><a href="/authors/${authorSlug}" style="color:#E11D48">${displayAuthor(a)}</a> · ${fd(a)}</div><p style="font-size:12px;color:#666;line-height:1.5;margin-bottom:12px">${(a.description||'').slice(0,140)}${(a.description||'').length>140?'…':''}</p><a href="/articles/${a.filename.replace(/\.html$/,'')}" class="bw-card-btn">Read Investigation →</a></div>`;
   }).join('');
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -3782,7 +3783,7 @@ function rebuildCategoryPages(allArticles) {
     const img = hi(a)
       ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`
       : `<div class="vc-img vc-ph"></div>`;
-    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   for (const cat of CATEGORIES) {
@@ -4037,7 +4038,7 @@ function rebuildTrendingHTML(allArticles) {
     const img = hi(a)
       ? `<img src="/images/articles/${s}.webp" alt="${(a.title||'').replace(/"/g,"'")}" class="vc-img" loading="lazy">`
       : `<div class="vc-img vc-ph"></div>`;
-    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
+    return `<div class="vc-card">${img}<div class="vc-body"><div class="vc-cat">${a.category||''}</div><h3 class="vc-hed"><a href="/articles/${a.filename.replace(/\.html$/,'')}">${a.title||''}</a></h3><div class="vc-by">${au(a)} · ${fd(a)}</div></div></div>`;
   }
 
   const navLinks = CATEGORIES.map(cat =>
@@ -4050,7 +4051,7 @@ function rebuildTrendingHTML(allArticles) {
   }).join('');
 
   const trendList = trending.slice(0, 7).map((a, i) =>
-    `<a href="/articles/${a.filename}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${truncate(a.title,55)}</div><div class="na-tcat">${a.category||''}</div></div></a>`
+    `<a href="/articles/${a.filename.replace(/\.html$/,'')}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${truncate(a.title,55)}</div><div class="na-tcat">${a.category||''}</div></div></a>`
   ).join('');
 
   const cards = trending.map(a => tcard(a)).join('');
@@ -4268,41 +4269,23 @@ async function runPublish() {
     }
   }
   allArticles = [...deduped.values()];
-  // Also deduplicate by normalized title — same story covered by multiple sources within a
-  // short window. FIXED 2026-07-12: this used to compare every article against the ENTIRE
-  // historical corpus with no time bound, so any new article whose first-60-chars happened to
-  // match ANY older article — regardless of whether that was 3 days or 3 months earlier —
-  // silently dropped the older one from the manifest (and therefore the sitemap) forever. The
-  // .html file stayed live on disk/deployed, just orphaned — confirmed live: 2,633 of 7,480
-  // published articles were in exactly this state, which is the real driver behind both the
-  // GSC "Not indexed" collapse (orphaned pages losing their sitemap-submitted legitimacy) and
-  // the "Duplicate without user-selected canonical" bucket (two genuinely live, self-canonical
-  // pages with similar titles, one of them invisible to the sitemap). Real near-duplicate
-  // coverage of the same breaking story happens within hours of each other, not months apart —
-  // bound the match to a 48h window so an unrelated older article that happens to share an
-  // opening phrase is never touched.
-  const DEDUP_WINDOW_MS = 48 * 60 * 60 * 1000;
-  const seenTitles = new Map();
-  allArticles = allArticles.filter(a => {
-    const key = (a.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').trim().slice(0, 60);
-    if (!key) return true;
-    const existing = seenTitles.get(key);
-    if (!existing) { seenTitles.set(key, a); return true; }
-    const aTime = new Date(a.generatedAt || 0).getTime();
-    const eTime = new Date(existing.generatedAt || 0).getTime();
-    if (!Number.isFinite(aTime) || !Number.isFinite(eTime) || Math.abs(aTime - eTime) > DEDUP_WINDOW_MS) {
-      // Too far apart in time to plausibly be the same breaking-news duplicate — keep both.
-      return true;
-    }
-    // Keep the one with a better description
-    if ((a.description || '').length > (existing.description || '').length) {
-      seenTitles.set(key, a);
-      return false;
-    }
-    return false;
-  });
-  // Write back deduped version
+  // Write back the filename-deduped version (this pass is safe — same file, keep latest).
   fs.writeFileSync(logPath, JSON.stringify(allArticles, null, 2));
+
+  // Embedding-based near-duplicate-coverage detector — REPLACES the old exact-title-prefix
+  // dedup entirely (see na-duplicate-detector.mjs header for full rationale). That approach
+  // only matched a literal 60-char title prefix (missed all paraphrased duplicates — the real
+  // confirmed case, two authors covering the same UK FCA crypto story, scored 0 exact-match
+  // but 0.88 cosine similarity) and, worse, silently DROPPED the matched article from the
+  // manifest/sitemap — which is what orphaned 2,633 legitimate, unrelated articles. This
+  // version never removes anything from allArticles; it only flags real candidates to
+  // water_cooler (event='possible_duplicate_coverage') for human/Copy-Desk review.
+  try {
+    const dup = await detectAndFlagDuplicates(allArticles, path.join(SITE_DIR, 'articles'));
+    console.log(`[dup-detector] checked ${dup.checked} new article(s), flagged ${dup.flagged} possible duplicate(s), ${dup.errors} error(s)`);
+  } catch (e) {
+    console.error(`[dup-detector] failed: ${e.message}`);
+  }
 
   console.log(`\n📤 Publishing ${allArticles.length} articles (deduplicated)...\n`);
 
@@ -4437,7 +4420,10 @@ function buildAuthorPageHTML(tpl, p) {
   h = h.replace(/(<meta name="description" content=")[^"]*(">)/, `$1${p.description}$2`);
   h = h.replace(/(<meta property="og:title" content=")[^"]*(">)/, `$1${p.name} — NewsAnarchist$2`);
   h = h.replace(/images\/authors\/marcus-webb/g, `images/authors/${p.slug}`);
-  h = h.replace(/authors\/marcus-webb\.html/g, `authors/${p.slug}.html`);
+  // No .html — Cloudflare Pages 308-redirects /authors/{slug}.html to the extensionless URL,
+  // so leaving .html here would make every bureau author page's own canonical/og:url point at
+  // a URL that immediately redirects away from itself (same bug found and fixed on articles).
+  h = h.replace(/authors\/marcus-webb\.html/g, `authors/${p.slug}`);
   h = h.replace(/<img src="\/images\/authors\/[^"]*" alt="[^"]*" class="author-photo"[^>]*>/, `<img src="/images/authors/${p.slug}.webp" alt="${p.name}" class="author-photo" onerror="this.src='/images/authors/${p.slug}.jpg'">`);
   h = h.replace(/<div class="author-beat">[\s\S]*?<\/div>/, `<div class="author-beat">${p.beat}</div>`);
   h = h.replace(/<div class="author-name">[\s\S]*?<\/div>/, `<div class="author-name">${p.name}</div>`);
