@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Post a Classified Ad — NewsAnarchist</title>
+<meta name="description" content="Post a free classified listing on NewsAnarchist — For Sale, Services, Housing, Jobs, Events, or Correspondence. Every listing is reviewed before it goes live.">
+<link rel="canonical" href="https://newsanarchist.com/post-classified-ad.html">
+<link rel="icon" href="/images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#F5F4F0;color:#111;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.na-mast{background:#fff;border-bottom:3px solid #111}.na-mast-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.na-wm{font-family:'Syne',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:#111}
+.na-wm em{color:#E11D48;font-style:normal}
+.na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
+.na-nav{background:#111}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;overflow-x:auto}
+.na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px;white-space:nowrap}
+.na-nav-inner a.active{color:#fff;background:#E11D48}
+.na-footer{background:#111;color:#888;padding:20px;text-align:center;font-size:10px}
+.pf-wrap{max-width:640px;margin:0 auto;padding:32px 20px}
+.pf-h{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:8px}
+.pf-sub{font-size:13px;color:#666;margin-bottom:24px;line-height:1.6}
+.pf-card{background:#fff;border:1px solid #E5E3DE;padding:24px}
+.pf-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#111;margin-bottom:6px;display:block}
+.pf-field{margin-bottom:16px}
+.pf-field select, .pf-field input, .pf-field textarea{width:100%;padding:10px 12px;border:1px solid #E5E3DE;font-family:'DM Sans',sans-serif;font-size:14px;background:#F5F4F0}
+.pf-field textarea{min-height:140px;resize:vertical}
+.pf-hint{font-size:11px;color:#999;margin-top:4px}
+.pf-featured{background:#F5F4F0;border:1px solid #E5E3DE;padding:12px 14px;display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.pf-submit{width:100%;background:#E11D48;color:#fff;border:none;padding:14px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
+.pf-submit:disabled{background:#ccc;cursor:not-allowed}
+.pf-result{margin-top:16px;padding:14px;font-size:13px;line-height:1.6;display:none}
+.pf-result.ok{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;display:block}
+.pf-result.held{background:#fffbeb;border:1px solid #fde68a;color:#92400e;display:block}
+.pf-result.err{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;display:block}
+.pf-correspondence-note{background:#fffbeb;border:1px solid #fde68a;color:#92400e;font-size:12px;padding:10px 12px;margin-bottom:16px;display:none;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="na-mast">
+<div class="na-mast-inner"><div><div class="na-wm">News<em>Anarchist</em></div><div class="na-tgl">The stories buried, spiked, or spun.</div></div></div>
+</div>
+<nav class="na-nav"><div class="na-nav-inner"><a href="/">Home</a><a href="/classifieds.html" class="active">Classifieds</a></div></nav>
+
+<div class="pf-wrap">
+  <div class="pf-h">Post a Classified Ad</div>
+  <div class="pf-sub">Every listing is reviewed by an automated moderation gate before it goes live — most listings publish within minutes, some are held briefly for a second automated review. Your email is never shown publicly; replies route through NewsAnarchist.</div>
+
+  <div class="pf-card">
+    <form id="pf-form" onsubmit="submitListing(event)">
+      <div class="pf-field">
+        <label class="pf-label">Category</label>
+        <select id="pf-category" required onchange="onCategoryChange()">
+          <option value="">Select a category...</option>
+          <option value="for-sale">For Sale</option>
+          <option value="services">Services</option>
+          <option value="housing">Housing / Real Estate</option>
+          <option value="jobs">Jobs</option>
+          <option value="events">Events / Announcements</option>
+          <option value="correspondence">Correspondence / Pen Pal</option>
+        </select>
+      </div>
+
+      <div class="pf-correspondence-note" id="pf-corr-note">
+        Correspondence listings should describe <strong>you</strong> — never write on behalf of someone else, and never include another specific named person's identity. Listings that appear to represent a third party are rejected automatically.
+      </div>
+
+      <div class="pf-field">
+        <label class="pf-label">Title</label>
+        <input type="text" id="pf-title" maxlength="200" required placeholder="Short, specific title">
+      </div>
+
+      <div class="pf-field">
+        <label class="pf-label">Description</label>
+        <textarea id="pf-description" maxlength="4000" required placeholder="Describe what you're offering or looking for. Be specific and honest — vague or inconsistent listings are more likely to be held for review."></textarea>
+        <div class="pf-hint">Never include payment details, wire transfer requests, or pressure language — listings with these patterns are rejected automatically.</div>
+      </div>
+
+      <div class="pf-field">
+        <label class="pf-label">Location <span style="font-weight:400;text-transform:none;color:#999">(optional)</span></label>
+        <input type="text" id="pf-location" maxlength="200" placeholder="City / neighborhood">
+      </div>
+
+      <div class="pf-field">
+        <label class="pf-label">Your Email</label>
+        <input type="email" id="pf-email" required placeholder="you@example.com">
+        <div class="pf-hint">Used only to relay replies to you — never shown publicly.</div>
+      </div>
+
+      <div class="pf-field">
+        <label class="pf-label">Display Name <span style="font-weight:400;text-transform:none;color:#999">(optional)</span></label>
+        <input type="text" id="pf-display-name" maxlength="100" placeholder="How you'd like to appear, if at all">
+      </div>
+
+      <div class="pf-featured">
+        <input type="checkbox" id="pf-featured" style="width:auto">
+        <div>
+          <div style="font-size:13px;font-weight:600">Feature this listing — $5</div>
+          <div style="font-size:11px;color:#999">Featured listings appear at the top of the category for 7 days. Payment via Stripe after your listing passes review.</div>
+        </div>
+      </div>
+
+      <button type="submit" class="pf-submit" id="pf-submit-btn">Submit Listing</button>
+      <div id="pf-result" class="pf-result"></div>
+    </form>
+  </div>
+</div>
+
+<footer class="na-footer">&copy; 2026 NewsAnarchist. A Chronic Internet Company.</footer>
+
+<script>
+var API = 'https://na-classifieds.steve-5cb.workers.dev';
+
+function onCategoryChange() {
+  var cat = document.getElementById('pf-category').value;
+  document.getElementById('pf-corr-note').style.display = (cat === 'correspondence') ? 'block' : 'none';
+}
+
+function submitListing(e) {
+  e.preventDefault();
+  var btn = document.getElementById('pf-submit-btn');
+  var result = document.getElementById('pf-result');
+  btn.disabled = true; btn.textContent = 'Submitting...';
+  result.className = 'pf-result'; result.textContent = '';
+
+  var payload = {
+    category: document.getElementById('pf-category').value,
+    title: document.getElementById('pf-title').value,
+    description: document.getElementById('pf-description').value,
+    location: document.getElementById('pf-location').value,
+    poster_email: document.getElementById('pf-email').value,
+    poster_display_name: document.getElementById('pf-display-name').value,
+    featured: document.getElementById('pf-featured').checked,
+  };
+
+  fetch(API + '/submit', {
+    method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(payload)
+  }).then(function(r){ return r.json(); }).then(function(d){
+    btn.disabled = false; btn.textContent = 'Submit Listing';
+    if (d.error) { result.className = 'pf-result err'; result.textContent = d.error; return; }
+
+    if (d.status === 'live') {
+      result.className = 'pf-result ok';
+      result.textContent = 'Your listing is live! ' + (payload.featured ? 'To feature it, complete payment — this step is not yet available (Stripe integration pending final setup).' : 'View it on the ') ;
+      if (!payload.featured) {
+        var link = document.createElement('a');
+        link.href = '/classifieds.html'; link.textContent = 'Classifieds page'; link.style.color = '#166534'; link.style.fontWeight = '700';
+        result.appendChild(link);
+        result.appendChild(document.createTextNode('.'));
+      }
+      document.getElementById('pf-form').reset();
+    } else if (d.status === 'held_second_pass') {
+      result.className = 'pf-result held';
+      result.textContent = 'Your listing needs a closer look before it goes live — it will be automatically re-reviewed shortly. No action needed from you.';
+    } else if (d.status === 'rejected') {
+      result.className = 'pf-result err';
+      result.textContent = 'Your listing was not approved: ' + (d.reason || 'it did not meet our posting guidelines.');
+    }
+  }).catch(function(){
+    btn.disabled = false; btn.textContent = 'Submit Listing';
+    result.className = 'pf-result err'; result.textContent = 'Something went wrong — please try again.';
+  });
+}
+</script>
+</body>
+</html>
