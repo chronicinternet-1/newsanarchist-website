@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 14:28:45 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 14:28:45 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 14:34:33 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 14:34:33 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Issues New Sanctions on Iran</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-us-issues-new-sanctions-on-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-us-issues-new-sanctions-on-iran</guid>
+      <pubDate>Sun, 12 Jul 2026 14:30:42 GMT</pubDate>
+      <description>US Issues New Sanctions on Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-us-issues-new-sanctions-on-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Judge Under Fire for Alleged Misconduct in SC Lowcountry</title>
       <link>https://newsanarchist.com/articles/2026-07-12-judge-under-fire-for-alleged-misconduct-in-sc-lowcountry</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Market Manipulation Risks in Prediction Markets</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-market-manipulation-risks-in-prediction-markets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-market-manipulation-risks-in-prediction-markets</guid>
-      <pubDate>Sun, 12 Jul 2026 09:01:33 GMT</pubDate>
-      <description>Market Manipulation Risks in Prediction Markets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-market-manipulation-risks-in-prediction-markets.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
   </channel>
 </rss>
