@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-exposed-in-nyc-care-homes</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T21:20:45.288Z</news:publication_date>
+      <news:title>Medicare Fraud Exposed in NYC Care Homes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-apple-sues-openai-for-trade-secret-theft</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -118,14 +126,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T19:29:05.517Z</news:publication_date>
       <news:title>Judge Under Fire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-medicare-fraud-exposed-in-nyc-care-homes</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T19:19:32.108Z</news:publication_date>
-      <news:title>Medicare Fraud Exposed in NYC Care Homes</news:title>
     </news:news>
   </url>
   <url>
@@ -2510,14 +2510,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-10T21:50:22.977Z</news:publication_date>
       <news:title>Medicare Fraud Soars 7,100%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-10-sudan-war-crimes</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-10T21:16:30.958Z</news:publication_date>
-      <news:title>Sudan War Crimes</news:title>
     </news:news>
   </url>
 </urlset>
