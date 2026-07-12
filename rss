@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 04:54:54 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 04:54:54 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 05:01:16 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 05:01:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Trade Tensions Rise</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-us-trade-tensions-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-us-trade-tensions-rise</guid>
+      <pubDate>Sun, 12 Jul 2026 04:57:56 GMT</pubDate>
+      <description>US Trade Tensions Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-us-trade-tensions-rise.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Aids Arrest in J&amp;K</title>
       <link>https://newsanarchist.com/articles/2026-07-12-facial-recognition-aids-arrest-in-jk</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-cold-case-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-cold-case-crackdown</guid>
-      <pubDate>Sat, 11 Jul 2026 23:16:44 GMT</pubDate>
-      <description>Cold Case Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-cold-case-crackdown.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
