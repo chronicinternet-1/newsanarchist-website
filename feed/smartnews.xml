@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 02:07:21 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 02:07:21 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 02:18:55 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 02:18:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Judge Proposes Fix for LA</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-judge-proposes-fix-for-la</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-judge-proposes-fix-for-la</guid>
+      <pubDate>Sun, 12 Jul 2026 02:18:36 GMT</pubDate>
+      <description>Judge Proposes Fix for LA</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-judge-proposes-fix-for-la.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>US Govt Releases 4th Batch of UAP Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-us-govt-releases-4th-batch-of-uap-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-us-govt-releases-4th-batch-of-uap-files</guid>
+      <pubDate>Sun, 12 Jul 2026 02:15:37 GMT</pubDate>
+      <description>US Govt Releases 4th Batch of UAP Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-us-govt-releases-4th-batch-of-uap-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>改正個人情報保護法の成立とAI開発への影響</title>
       <link>https://newsanarchist.com/articles/2026-07-12-ai</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Brain Activity Under Anesthesia</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-brain-activity-under-anesthesia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-brain-activity-under-anesthesia</guid>
-      <pubDate>Sat, 11 Jul 2026 21:11:56 GMT</pubDate>
-      <description>Brain Activity Under Anesthesia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-brain-activity-under-anesthesia.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-11-medicaid-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-11-medicaid-fraud-crackdown</guid>
-      <pubDate>Sat, 11 Jul 2026 21:04:40 GMT</pubDate>
-      <description>Medicaid Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-11-medicaid-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
   </channel>
 </rss>
