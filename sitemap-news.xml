@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-anti-money-laundering-rules</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T05:59:32.929Z</news:publication_date>
-      <news:title>Fed Seeks Comment on Anti-Money Laundering Rules</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-warrantless-surveillance-expands</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T05:53:26.790Z</news:publication_date>
-      <news:title>Warrantless Surveillance Expands</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-12-violence-erupts-in-manipur</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -142,6 +126,14 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T03:57:11.778Z</news:publication_date>
       <news:title>Apple Sues OpenAI</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-12-warrantless-surveillance-expands</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-12T03:51:22.414Z</news:publication_date>
+      <news:title>Warrantless Surveillance Expands</news:title>
     </news:news>
   </url>
   <url>
