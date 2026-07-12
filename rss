@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 10:05:44 GMT</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 10:05:44 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 10:16:58 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 10:16:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Alaskans Charged $1.8M in Medicaid Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-12-alaskans-charged-18m-in-medicaid-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-alaskans-charged-18m-in-medicaid-fraud</guid>
+      <pubDate>Sun, 12 Jul 2026 10:13:27 GMT</pubDate>
+      <description>Alaskans Charged $1.8M in Medicaid Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-alaskans-charged-18m-in-medicaid-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Fed Seeks Comment on AML Rules</title>
       <link>https://newsanarchist.com/articles/2026-07-12-fed-seeks-comment-on-aml-rules</link>
@@ -606,18 +618,6 @@
       <description>India Corruption Crisis</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-india-corruption-crisis.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>LAPD Suspends Flock Surveillance Cameras</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras</guid>
-      <pubDate>Sun, 12 Jul 2026 03:28:24 GMT</pubDate>
-      <description>LAPD Suspends Flock Surveillance Cameras</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-lapd-suspends-flock-surveillance-cameras.png"/>
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>

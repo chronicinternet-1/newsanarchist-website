@@ -590,10 +590,21 @@ function cleanExcerpt(text, title) {
   return clean || text.trim();
 }
 
+// Truncates at the last real word boundary at-or-before `len`, never mid-word. The previous
+// version (`str.slice(0, len - 1) + '…'`) cut wherever the character count landed, producing
+// mid-word truncations like "...interest co…" — confirmed live on a real published article's
+// <title>/og:title/twitter:title tags (see buildSeoTitle() below, the actual site of the
+// reported bug). Falls back to a hard cut only if backing off to the last space would throw
+// away more than 60% of the budget (a pathologically long single "word" with no spaces) —
+// otherwise a real word boundary always wins.
 function truncate(str, len) {
   if (!str) return '';
   str = String(str);
-  return str.length > len ? str.slice(0, len - 1) + '…' : str;
+  if (str.length <= len) return str;
+  const cut = str.slice(0, len - 1);
+  const lastSpace = cut.lastIndexOf(' ');
+  const wordSafe = lastSpace > len * 0.4 ? cut.slice(0, lastSpace) : cut;
+  return wordSafe.trimEnd() + '…';
 }
 
 function parseXML(xmlText) {
@@ -634,10 +645,22 @@ function extractKeywords(title, description, category) {
   return [...new Set(ranked)].slice(0, 8);
 }
 
+// Confirmed live root cause of the truncated <title>/og:title/twitter:title bug: this used to
+// slice at a fixed char count with no word-boundary awareness ("...interest co..." — cut
+// mid-word) AND never accounted for the " — NewsAnarchist" suffix appended afterward in the
+// <title> template, so the REAL combined string was always longer than whatever limit was
+// intended — likely triggering a second, independent truncation on Google's side on top of the
+// first. Fixed: the suffix's length is subtracted from the target BEFORE deciding whether/where
+// to cut, and cutting (when it's genuinely needed) now goes through truncate(), which respects
+// word boundaries. TITLE_TAG_TARGET (~60 chars combined) is a rough proxy for Google's real SERP
+// truncation risk zone (~580-600px) — not a hard mandate to shorten every headline; anything
+// that already fits within the budget is returned completely untouched.
+const SEO_TITLE_SUFFIX = ' — NewsAnarchist';
+const TITLE_TAG_TARGET = 60;
 function buildSeoTitle(rawTitle) {
-  let title = rawTitle.replace(/\s+/g, ' ').trim();
-  if (title.length > 70) title = title.slice(0, 67) + '...';
-  return title;
+  const title = String(rawTitle || '').replace(/\s+/g, ' ').trim();
+  const budget = TITLE_TAG_TARGET - SEO_TITLE_SUFFIX.length;
+  return title.length <= budget ? title : truncate(title, budget);
 }
 
 function buildMetaDescription(title, description) {
@@ -937,7 +960,7 @@ function buildArticleBody(topic) {
     const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
     sidebarTrendingHTML = _recent.map((a, i) => {
       const _sl = a.filename || a.slug || '';
-      const _ti = (a.title || 'Article').slice(0, 55);
+      const _ti = truncate(a.title || 'Article', 55);
       const _cat = a.category || '';
       return '<a href="/articles/' + _sl + '" class="na-trend"><span class="na-tnum">' + (i+1) + '</span><div><div class="na-ttitle">' + _ti + '</div><div class="na-tcat">' + _cat + '</div></div></a>';
     }).join('');
@@ -1174,7 +1197,7 @@ function buildArticleHTML(topic) {
     const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
     sidebarTrendingHTML = _recent.map((a, i) => {
       const _sl = a.filename || a.slug || '';
-      const _ti = (a.title || 'Article').slice(0, 55);
+      const _ti = truncate(a.title || 'Article', 55);
       const _cat = a.category || '';
       return `<a href="/articles/${_sl}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${_ti}</div><div class="na-tcat">${_cat}</div></div></a>`;
     }).join('');
@@ -3834,7 +3857,7 @@ function rebuildCategoryPages(allArticles) {
         const _db = JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'generated-articles.json'), 'utf8'));
         const _recent = (Array.isArray(_db) ? _db : []).slice(-7).reverse();
         trendingHTML = _recent.map((a, i) => {
-          const _ti = (a.title || 'Article').slice(0, 55);
+          const _ti = truncate(a.title || 'Article', 55);
           const _cat = a.category || '';
           return `<a href="/articles/${a.filename||a.slug||''}" class="na-trend"><span class="na-tnum">${i+1}</span><div><div class="na-ttitle">${_ti}</div><div class="na-tcat">${_cat}</div></div></a>`;
         }).join('');
