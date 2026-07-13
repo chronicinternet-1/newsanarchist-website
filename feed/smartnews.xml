@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 06:30:45 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 06:30:45 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 06:36:48 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 06:36:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brain Activity Under Anesthesia Challenges Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-brain-activity-under-anesthesia-challenges-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-brain-activity-under-anesthesia-challenges-consciousness</guid>
+      <pubDate>Mon, 13 Jul 2026 06:36:31 GMT</pubDate>
+      <description>Brain Activity Under Anesthesia Challenges Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-brain-activity-under-anesthesia-challenges-consciousness.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>MBTA Workers Indicted for Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-13-mbta-workers-indicted-for-fraud</link>
