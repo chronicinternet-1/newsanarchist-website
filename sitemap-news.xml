@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-cbs-news-star-targeted-by-sophisticated-phone-scammer</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-13T02:11:39.845Z</news:publication_date>
+      <news:title>CBS News Star Targeted by Sophisticated Phone Scammer</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-kenji-mori-mriks0sr</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
@@ -2470,22 +2478,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T02:19:29.205Z</news:publication_date>
       <news:title>Myanmar Conflict Rages</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-dhs-used-fema</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T02:12:12.633Z</news:publication_date>
-      <news:title>DHS Used FEMA</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-defi-resilience</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T02:09:17.507Z</news:publication_date>
-      <news:title>DeFi Resilience</news:title>
     </news:news>
   </url>
 </urlset>
