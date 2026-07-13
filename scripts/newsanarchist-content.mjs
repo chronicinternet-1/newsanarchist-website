@@ -2773,16 +2773,17 @@ function remapArticleCategory(article) {
   // Editorial override: a locked category (manual correction) is authoritative
   // and bypasses keyword remapping.
   if (article.categoryLocked && rawCat) return rawCat;
-  // 2026-07-13: if rawCat is ALREADY one of the site's 11 real category names, trust it and skip
-  // keyword remapping entirely. Root cause of international bureau articles vanishing from their
-  // real category (found via Kenji Mori's Japanese-language "Surveillance State" article landing
-  // on /category/government-secrets.html instead): every regex below matches English keywords
-  // only, so non-English titles/descriptions never match anything and always fall through to the
-  // last-resort default ('Government Secrets'), silently discarding a category that was already
-  // correct. This keyword remap exists to fix genuinely-wrong categories from English scrape
-  // sources (see the "Commies Running NYC" example below) — an author DO that already assigned a
-  // real, valid category at publish time (every bureau + US author does) doesn't need correcting.
-  if (CATEGORIES.includes(rawCat)) return rawCat;
+  // 2026-07-13: for genuinely non-English bureau content, trust rawCat if it's already one of
+  // the site's 11 real category names, and skip keyword remapping. Root cause of Kenji Mori's
+  // Japanese "Surveillance State" article silently landing on /category/government-secrets.html
+  // instead: every regex below matches English keywords only, so Japanese text never matches
+  // anything and falls through to the last-resort default ('Government Secrets'), discarding a
+  // category that was already correct. Scoped to newsLang() 'ja'/'pt' specifically (not a blanket
+  // "any valid category" bypass) — English-language content, including 5 of the 7 bureau chiefs
+  // (James Whitfield/Sloan Sabbith/Alma Gutierrez/Jim Harper/Charlie Skinner all write in
+  // English), still gets the real keyword-remap correction this function exists for (see the
+  // "Commies Running NYC" example below — a genuinely mis-scraped English category needs this).
+  if (['ja', 'pt'].includes(newsLang(article.author)) && CATEGORIES.includes(rawCat)) return rawCat;
   const text = (article.title + ' ' + (article.description || '')).toLowerCase();
 
   // Always run keyword remap — raw category from scrape may be wrong
@@ -3137,6 +3138,19 @@ function rebuildIndexHTML(allArticles) {
     catSections += `<div class="na-section"><div class="na-section-head"><span>${cat}</span><a href="/category/${cs}.html" class="na-section-all">All ${cat} →</a></div><div class="na-3col">${ca.map(a => card(a)).join('')}</div></div>`;
   }
 
+  // 2026-07-13: "International Desk" — a guaranteed, real path onto the homepage for the 7
+  // bureau chiefs. The per-category sections above and the recency-based sections below
+  // (featSection/trending/mostRead) all rank by pure recency; 9 U.S. authors publish ~12-15x/day
+  // each vs. each bureau chief's ~1x/day, so a bureau article structurally almost never ranks in
+  // any of those top-N cuts no matter how correctly it's categorized. This section always shows
+  // the latest article from each bureau chief that has one, independent of recency ranking.
+  const bureauLatest = BUREAU_AUTHOR_PROFILES
+    .map(p => articles.find(a => authorSlugOf(a.author) === p.slug))
+    .filter(Boolean);
+  const intlDeskSection = bureauLatest.length
+    ? `<div class="na-section"><div class="na-section-head"><span>🌐 International Desk</span></div><div class="na-3col">${bureauLatest.map(a => card(a)).join('')}</div></div>`
+    : '';
+
   const featArts = articlesWithImages.slice(3, 7);
   const featSection = featArts.length
     ? `<div class="na-section"><div class="na-section-head"><span>More Stories</span></div><div class="na-feat-row">${featArts.map(a => featCard(a)).join('')}</div></div>`
@@ -3355,6 +3369,7 @@ ${heroMain(h0)}
 <div class="vh-stack">${heroSec(h1)}${heroSec(h2)}</div>
 </div>
 ${mostReadSection}
+${intlDeskSection}
 ${catSections}
 ${featSection}
 </main>
@@ -3599,10 +3614,28 @@ function rebuildRSS(allArticles) {
   if (!fs.existsSync(feedDir)) fs.mkdirSync(feedDir, { recursive: true });
 
   // Sort by date, take latest 50
-  const sorted = [...allArticles]
+  const byDate = [...allArticles]
     .filter(a => a.generatedAt || a.pubDate)
-    .sort((a, b) => (b.generatedAt || b.pubDate || '').localeCompare(a.generatedAt || a.pubDate || ''))
-    .slice(0, 50);
+    .sort((a, b) => (b.generatedAt || b.pubDate || '').localeCompare(a.generatedAt || a.pubDate || ''));
+  const sorted = byDate.slice(0, 50);
+
+  // 2026-07-13: guarantee each bureau chief's latest article a real path into the feed. Root
+  // cause of 0-of-6 bureau articles ever appearing here: this is a pure recency cutoff (top 50
+  // across ALL authors, no category/author logic at all) — 9 U.S. authors publish ~12-15x/day
+  // each vs. each bureau chief's ~1x/day, so a bureau article needs to be one of the single most
+  // recent 50 site-wide to survive, which it structurally almost never is. Union in each bureau
+  // chief's most recent article if it isn't already in the top 50, then re-sort so the feed stays
+  // in real chronological order (not "top 50, then bureau items tacked on the end").
+  const presentFilenames = new Set(sorted.map(a => a.filename));
+  const bureauSlugs = BUREAU_AUTHOR_PROFILES.map(p => p.slug);
+  for (const slug of bureauSlugs) {
+    const latest = byDate.find(a => authorSlugOf(a.author) === slug);
+    if (latest && !presentFilenames.has(latest.filename)) {
+      sorted.push(latest);
+      presentFilenames.add(latest.filename);
+    }
+  }
+  sorted.sort((a, b) => (b.generatedAt || b.pubDate || '').localeCompare(a.generatedAt || a.pubDate || ''));
 
   const now = new Date().toUTCString();
   const items = sorted.map(a => {
