@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-congress-returns-to-tackle-warrantless-surveillance</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-13T23:20:16.126Z</news:publication_date>
+      <news:title>Congress Returns to Tackle Warrantless Surveillance</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels-near-its-waters</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1494,22 +1502,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T23:23:15.572Z</news:publication_date>
       <news:title>CLARITY Act Passage</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-cold-case-crackdown</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T23:16:44.166Z</news:publication_date>
-      <news:title>Cold Case Crackdown</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-scotus-limits-warrantless-spying</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T23:16:04.161Z</news:publication_date>
-      <news:title>SCOTUS Limits Warrantless Spying</news:title>
     </news:news>
   </url>
 </urlset>
