@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 10:56:11 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 10:56:11 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 11:02:04 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 11:02:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Russia's Sahara Position Remains Unchanged</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-russias-sahara-position-remains-unchanged</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-russias-sahara-position-remains-unchanged</guid>
+      <pubDate>Mon, 13 Jul 2026 10:56:09 GMT</pubDate>
+      <description>Russia's Sahara Position Remains Unchanged</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-russias-sahara-position-remains-unchanged.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Government Transparency Under Scrutiny</title>
       <link>https://newsanarchist.com/articles/2026-07-13-government-transparency-under-scrutiny</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Biden DOJ Relaxes Fentanyl Policy Amid Investigation</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-biden-doj-relaxes-fentanyl-policy-amid-investigation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-biden-doj-relaxes-fentanyl-policy-amid-investigation</guid>
-      <pubDate>Mon, 13 Jul 2026 03:46:00 GMT</pubDate>
-      <description>Biden DOJ Relaxes Fentanyl Policy Amid Investigation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-biden-doj-relaxes-fentanyl-policy-amid-investigation.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>改正個人情報保護法が成立</title>
