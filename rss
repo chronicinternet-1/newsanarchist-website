@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 23:28:08 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 23:28:08 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 23:39:07 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 23:39:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Benefits Face Billions in Cuts Amid Error Rate Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-snap-benefits-face-billions-in-cuts-amid-error-rate-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-snap-benefits-face-billions-in-cuts-amid-error-rate-concerns</guid>
+      <pubDate>Mon, 13 Jul 2026 23:35:31 GMT</pubDate>
+      <description>SNAP Benefits Face Billions in Cuts Amid Error Rate Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-snap-benefits-face-billions-in-cuts-amid-error-rate-concerns.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Jordan Belfort Scam Allegations</title>
       <link>https://newsanarchist.com/articles/2026-07-13-jordan-belfort-scam-allegations</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicare Fraud Crackdown Raises Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-medicare-fraud-crackdown-raises-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-medicare-fraud-crackdown-raises-concerns</guid>
-      <pubDate>Mon, 13 Jul 2026 17:31:51 GMT</pubDate>
-      <description>Medicare Fraud Crackdown Raises Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-medicare-fraud-crackdown-raises-concerns.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Brasil: Alvo de Disputa por Terras Raras</title>
