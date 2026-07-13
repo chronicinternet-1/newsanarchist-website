@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 21:22:47 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 21:22:47 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 21:38:55 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 21:38:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicare Fraud Scheme Raises Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-medicare-fraud-scheme-raises-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-medicare-fraud-scheme-raises-concerns</guid>
+      <pubDate>Mon, 13 Jul 2026 21:34:17 GMT</pubDate>
+      <description>Medicare Fraud Scheme Raises Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-medicare-fraud-scheme-raises-concerns.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Regulatory Scrutiny of Corporate Mergers</title>
       <link>https://newsanarchist.com/articles/2026-07-13-regulatory-scrutiny-of-corporate-mergers</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Rep. Luna Demands Ouster of NSC Intel Chief</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-rep-luna-demands-ouster-of-nsc-intel-chief</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-rep-luna-demands-ouster-of-nsc-intel-chief</guid>
-      <pubDate>Mon, 13 Jul 2026 16:53:38 GMT</pubDate>
-      <description>Rep. Luna Demands Ouster of NSC Intel Chief</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-rep-luna-demands-ouster-of-nsc-intel-chief.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Brasil no Centro da Disputa Global por Terras Raras e Minerais Estratégicos</title>
