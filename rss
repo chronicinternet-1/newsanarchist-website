@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 04:28:20 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 04:28:20 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 04:39:35 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 04:39:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Tensions Escalate</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-us-iran-tensions-escalate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-us-iran-tensions-escalate</guid>
+      <pubDate>Mon, 13 Jul 2026 04:39:01 GMT</pubDate>
+      <description>US-Iran Tensions Escalate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-us-iran-tensions-escalate.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>MBTA Workers Indicted for Faking Safety Inspections</title>
       <link>https://newsanarchist.com/articles/2026-07-13-mbta-workers-indicted-for-faking-safety-inspections</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Charlie Kirk Case: DNA Evidence Challenged</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-charlie-kirk-case-dna-evidence-challenged</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-charlie-kirk-case-dna-evidence-challenged</guid>
-      <pubDate>Sun, 12 Jul 2026 21:30:37 GMT</pubDate>
-      <description>Charlie Kirk Case: DNA Evidence Challenged</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-charlie-kirk-case-dna-evidence-challenged.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>FCA Opens Only One Mortgage Fraud Investigation in 2025</title>
