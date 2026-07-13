@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 12:44:04 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 12:44:04 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 12:49:49 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 12:49:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Crypto Regulatory Shifts and Jurisdictional Battles</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-crypto-regulatory-shifts-and-jurisdictional-battles</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-crypto-regulatory-shifts-and-jurisdictional-battles</guid>
+      <pubDate>Mon, 13 Jul 2026 12:48:15 GMT</pubDate>
+      <description>Crypto Regulatory Shifts and Jurisdictional Battles</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-crypto-regulatory-shifts-and-jurisdictional-battles.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>China Issues Statement on South China Sea Arbitration Award</title>
       <link>https://newsanarchist.com/articles/2026-07-13-china-issues-statement-on-south-china-sea-arbitration-award</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Iran War Threatens Global Food Security</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-iran-war-threatens-global-food-security</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-iran-war-threatens-global-food-security</guid>
-      <pubDate>Mon, 13 Jul 2026 05:39:28 GMT</pubDate>
-      <description>Iran War Threatens Global Food Security</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-iran-war-threatens-global-food-security.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis</title>
