@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:44:11 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 00:44:11 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:50:38 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 00:50:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Detects Chinese Naval Vessel Near Territorial Waters</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessel-near-territorial-waters</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessel-near-territorial-waters</guid>
+      <pubDate>Mon, 13 Jul 2026 00:49:41 GMT</pubDate>
+      <description>Taiwan Detects Chinese Naval Vessel Near Territorial Waters</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-taiwan-detects-chinese-naval-vessel-near-territorial-waters.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Pentagon Releases 4th Batch of UAP Files</title>
       <link>https://newsanarchist.com/articles/2026-07-13-pentagon-releases-4th-batch-of-uap-files</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Civil War Escalates Amidst Floods</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-myanmar-civil-war-escalates-amidst-floods</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-myanmar-civil-war-escalates-amidst-floods</guid>
-      <pubDate>Sun, 12 Jul 2026 17:44:49 GMT</pubDate>
-      <description>Myanmar Civil War Escalates Amidst Floods</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-myanmar-civil-war-escalates-amidst-floods.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
   </channel>
 </rss>
