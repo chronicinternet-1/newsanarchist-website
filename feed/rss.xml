@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 19:38:33 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 19:38:33 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:44:54 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 19:44:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon Releases New UAP Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-pentagon-releases-new-uap-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-pentagon-releases-new-uap-files</guid>
+      <pubDate>Mon, 13 Jul 2026 19:43:15 GMT</pubDate>
+      <description>Pentagon Releases New UAP Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-pentagon-releases-new-uap-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>ED Searches Trinamool Congress-Linked Premises</title>
       <link>https://newsanarchist.com/articles/2026-07-13-ed-searches-trinamool-congress-linked-premises</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Jordan Belfort Scam Allegations</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-jordan-belfort-scam-allegations</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-jordan-belfort-scam-allegations</guid>
-      <pubDate>Mon, 13 Jul 2026 15:18:29 GMT</pubDate>
-      <description>Jordan Belfort Scam Allegations</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-jordan-belfort-scam-allegations.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Brasil no Centro da Disputa Global por Terras Raras e Minerais Estratégicos</title>
