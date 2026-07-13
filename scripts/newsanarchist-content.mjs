@@ -3660,7 +3660,7 @@ function rebuildRSS(allArticles) {
       <media:thumbnail url="https://newsanarchist.com/images/articles/${imgSlug}.png"/>
       <category>${cat}</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>${getAuthor(a.category || "Government Secrets").name}</dc:creator>
+      <dc:creator>${xmlEsc(displayAuthor(a))}</dc:creator>
     </item>`;
   }).join('\n');
 
