@@ -1351,7 +1351,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a><a href="/classifieds.html">Classifieds</a>
+<a href="/">Home</a>${navLinks}<a href="/trending">Trending</a><a href="/buried-week">The Buried Week</a><a href="/search">Search</a><a href="/advertise">Advertise</a><a href="/classifieds">Classifieds</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -1408,15 +1408,15 @@ ${SHARE_SCRIPT}
 </div>
 </div>
 <div class="na-widget"><div class="na-wh">Browse Categories</div><div class="na-wb" style="padding:8px 13px">${sidebarCategoriesHTML}</div></div>
-<div class="na-widget" style="background:#111;border:1px solid #333;margin-top:12px"><div class="na-wh" style="background:#E11D48">NewsAnarchist Files</div><div class="na-wb" style="padding:12px 13px"><p style="font-size:13px;color:#ccc;margin:0 0 10px;line-height:1.5">Document-driven investigations. Primary sources. Named authors.</p><a href="/newsanarchist-files.html" style="display:block;background:#E11D48;color:#fff;text-align:center;padding:9px;font-size:12px;font-weight:600;text-decoration:none">Read the Investigations →</a></div></div>
+<div class="na-widget" style="background:#111;border:1px solid #333;margin-top:12px"><div class="na-wh" style="background:#E11D48">NewsAnarchist Files</div><div class="na-wb" style="padding:12px 13px"><p style="font-size:13px;color:#ccc;margin:0 0 10px;line-height:1.5">Document-driven investigations. Primary sources. Named authors.</p><a href="/newsanarchist-files" style="display:block;background:#E11D48;color:#fff;text-align:center;padding:9px;font-size:12px;font-weight:600;text-decoration:none">Read the Investigations →</a></div></div>
 <div class="na-widget"><div class="na-wh">Trending Now</div><div class="na-wb" style="padding:8px 13px">${sidebarTrendingHTML}</div></div>
 </aside>
 </div>
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
+<a href="/subscribe" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about" class="na-flink">About Us</a><a href="/editorial" class="na-flink">Editorial Standards</a><a href="/tip-line" class="na-flink">Tip Line</a><a href="/advertise" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -1440,9 +1440,9 @@ ${SHARE_SCRIPT}
 <a href="/category/unexplained.html" class="na-flink">Unexplained</a>
 <a href="/category/true-crime.html" class="na-flink">True Crime</a>
 <div class="na-fdiv"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/privacy" class="na-flink">Privacy Policy</a>
+<a href="/terms" class="na-flink">Terms of Service</a>
+<a href="/dmca" class="na-flink">DMCA</a>
 <a href="/rss" class="na-flink">RSS Feed</a>
 <div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
 </div></div>
@@ -3179,7 +3179,7 @@ function rebuildIndexHTML(allArticles) {
   // W5: "Most Read This Week" — latest article per category as proxy (no view counts yet).
   const mostRead = (() => { const seen = new Set(), out = []; for (const a of articles){ const c = a.category||''; if(!c||seen.has(c)) continue; seen.add(c); out.push(a); if(out.length>=6) break; } return out; })();
   const mostReadSection = mostRead.length
-    ? `<div class="na-section"><div class="na-section-head"><span>🔥 Most Read This Week</span><a href="/trending.html" class="na-section-all">All Trending →</a></div><div class="na-3col">${mostRead.map(a=>card(a)).join('')}</div></div>`
+    ? `<div class="na-section"><div class="na-section-head"><span>🔥 Most Read This Week</span><a href="/trending" class="na-section-all">All Trending →</a></div><div class="na-3col">${mostRead.map(a=>card(a)).join('')}</div></div>`
     : '';
 
   // W5: JSON-LD ItemList of featured (hero) articles for rich snippets.
@@ -3357,7 +3357,7 @@ a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav">
-<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a><a href="/classifieds.html">Classifieds</a></div>
+<div class="na-nav-inner"><a href="/" class="active">Home</a>${navLinks}<a href="/trending">Trending</a><a href="/buried-week">The Buried Week</a><a href="/search">Search</a><a href="/advertise">Advertise</a><a href="/classifieds">Classifieds</a></div>
 </nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Breaking</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
 ${naSearchBlock('', 'Search 1,700+ investigations...')}
@@ -3401,12 +3401,12 @@ ${featSection}
 <div>
 <div class="na-fwm">News<em>Anarchist</em></div>
 <div class="na-fdesc">Independent investigative news covering surveillance, corporate power, government secrets, and global affairs. The stories buried, spiked, or spun.</div>
-<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a>
-<a href="/editorial.html" class="na-flink">Editorial Standards</a>
-<a href="/tip-line.html" class="na-flink">Tip Line</a>
-<a href="/advertise.html" class="na-flink">Advertise</a>
-<a href="/about-our-authors.html" class="na-flink">About Our Authors</a>
+<a href="/subscribe" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about" class="na-flink">About Us</a>
+<a href="/editorial" class="na-flink">Editorial Standards</a>
+<a href="/tip-line" class="na-flink">Tip Line</a>
+<a href="/advertise" class="na-flink">Advertise</a>
+<a href="/about-our-authors" class="na-flink">About Our Authors</a>
 </div>
 <div>
 <div class="na-fct">Steve Ysreal Monas</div>
@@ -3435,9 +3435,9 @@ ${fcl1}
 ${fcl2}
 <div class="na-fdiv">
 <div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/privacy" class="na-flink">Privacy Policy</a>
+<a href="/terms" class="na-flink">Terms of Service</a>
+<a href="/dmca" class="na-flink">DMCA</a>
 <a href="/rss" class="na-flink">RSS Feed</a>
 <div class="na-fleg">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
 </div>
@@ -3787,14 +3787,14 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <button class="na-sbtn" onclick="window.location='/subscribe.html'">Subscribe Free</button>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a><a href="/classifieds.html">Classifieds</a><a href="/newsanarchist-files.html" class="active">The Files</a>
+<a href="/">Home</a>${navLinks}<a href="/trending">Trending</a><a href="/buried-week">The Buried Week</a><a href="/search">Search</a><a href="/advertise">Advertise</a><a href="/classifieds">Classifieds</a><a href="/newsanarchist-files" class="active">The Files</a>
 </div></nav>
 <div class="na-page">
 <div class="bw-hero">
 <div class="bw-hero-label">🔍 Investigative Series</div>
 <h1 class="bw-hero-title">NewsAnarchist Files</h1>
 <p class="bw-hero-desc">Document-driven investigations from our editorial team. Primary sources. Named authors. The stories that take more than a day to tell.</p>
-<a href="/tip-line.html" style="display:inline-block;background:#E11D48;color:#fff;padding:9px 18px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none">Submit a Tip →</a>
+<a href="/tip-line" style="display:inline-block;background:#E11D48;color:#fff;padding:9px 18px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none">Submit a Tip →</a>
 </div>
 <div class="bw-editions-head">All Investigations</div>
 ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div class="bw-empty">Investigations publish monthly. First edition coming soon.</div>'}
@@ -3802,8 +3802,8 @@ ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div clas
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
+<a href="/subscribe" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about" class="na-flink">About Us</a><a href="/editorial" class="na-flink">Editorial Standards</a><a href="/tip-line" class="na-flink">Tip Line</a><a href="/advertise" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -3815,9 +3815,9 @@ ${investigations.length > 0 ? `<div class="bw-grid">${cards}</div>` : '<div clas
 <a href="https://brieftape.com" class="na-flink">BriefTape — Financial News</a>
 <a href="https://bevoza.com" class="na-flink">Bevoza — Digital Products</a>
 <div style="margin-top:12px"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a></div></div>
+<a href="/privacy" class="na-flink">Privacy Policy</a>
+<a href="/terms" class="na-flink">Terms of Service</a>
+<a href="/dmca" class="na-flink">DMCA</a></div></div>
 </div>
 <div class="na-fbot"><div class="na-fcopy">&copy; ${yr} NewsAnarchist. All rights reserved.</div><a href="https://chronicinternet.com/" class="na-fchronic">A Chronic Internet Company</a></div>
 </footer>
@@ -3999,7 +3999,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a><a href="/advertise.html">Advertise</a><a href="/classifieds.html">Classifieds</a>
+<a href="/">Home</a>${navLinks}<a href="/trending">Trending</a><a href="/buried-week">The Buried Week</a><a href="/search">Search</a><a href="/advertise">Advertise</a><a href="/classifieds">Classifieds</a>
 </div></nav>
 <div class="na-body">
 <main>
@@ -4027,8 +4027,8 @@ ${paginationHTML}
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
+<a href="/subscribe" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about" class="na-flink">About Us</a><a href="/editorial" class="na-flink">Editorial Standards</a><a href="/tip-line" class="na-flink">Tip Line</a><a href="/advertise" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -4043,9 +4043,9 @@ ${paginationHTML}
 <div class="na-fdiv"><div class="na-fct">Categories</div>${fcl1}</div></div>
 <div><div class="na-fct">More Categories</div>${fcl2}
 <div class="na-fdiv"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/privacy" class="na-flink">Privacy Policy</a>
+<a href="/terms" class="na-flink">Terms of Service</a>
+<a href="/dmca" class="na-flink">DMCA</a>
 <a href="/rss" class="na-flink">RSS Feed</a>
 <div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
 </div></div>
@@ -4214,7 +4214,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-mr"><div class="na-dt">${todayStr}</div><button class="na-sbtn" onclick="document.getElementById('na-brief').scrollIntoView({behavior:'smooth'})">Subscribe Free</button></div>
 </div></div>
 <nav class="na-nav"><div class="na-nav-inner">
-<a href="/">Home</a>${navLinks}<a href="/trending.html" class="active">Trending</a><a href="/buried-week.html">The Buried Week</a><a href="/search.html">Search</a>
+<a href="/">Home</a>${navLinks}<a href="/trending" class="active">Trending</a><a href="/buried-week">The Buried Week</a><a href="/search">Search</a>
 </div></nav>
 <div class="na-tick"><div class="na-tick-inner"><div class="na-tick-lbl">Trending</div><div class="na-tick-track"><span class="na-tick-txt">${tickerTitles} &nbsp;&nbsp;&nbsp; ${tickerTitles}</span></div></div></div>
 <div class="na-body">
@@ -4241,8 +4241,8 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <footer class="na-footer">
 <div class="na-fgrid">
 <div><div class="na-fwm">News<em>Anarchist</em></div><div class="na-fdesc">Independent investigative news. The stories buried, spiked, or spun.</div>
-<a href="/subscribe.html" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
-<a href="/about.html" class="na-flink">About Us</a><a href="/editorial.html" class="na-flink">Editorial Standards</a><a href="/tip-line.html" class="na-flink">Tip Line</a><a href="/advertise.html" class="na-flink">Advertise</a></div>
+<a href="/subscribe" class="na-flink na-flink-acc">Subscribe — Free &amp; Paid →</a>
+<a href="/about" class="na-flink">About Us</a><a href="/editorial" class="na-flink">Editorial Standards</a><a href="/tip-line" class="na-flink">Tip Line</a><a href="/advertise" class="na-flink">Advertise</a></div>
 <div><div class="na-fct">Steve Ysreal Monas</div>
 <a href="https://www.stevemonas.com/blog#business" class="na-flink">Business</a>
 <a href="https://www.stevemonas.com/blog#cuisine" class="na-flink">Cuisine</a>
@@ -4257,9 +4257,9 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-fdiv"><div class="na-fct">Categories</div>${fcl1}</div></div>
 <div><div class="na-fct">More Categories</div>${fcl2}
 <div class="na-fdiv"><div class="na-fct">Legal</div>
-<a href="/privacy.html" class="na-flink">Privacy Policy</a>
-<a href="/terms.html" class="na-flink">Terms of Service</a>
-<a href="/dmca.html" class="na-flink">DMCA</a>
+<a href="/privacy" class="na-flink">Privacy Policy</a>
+<a href="/terms" class="na-flink">Terms of Service</a>
+<a href="/dmca" class="na-flink">DMCA</a>
 <a href="/rss" class="na-flink">RSS Feed</a>
 <div style="font-size:10px;color:#333;margin-top:8px;line-height:1.5">As an Amazon Associate,<br>I earn from qualifying purchases.</div>
 </div></div>
