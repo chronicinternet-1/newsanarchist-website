@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 09:00:44 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 09:00:44 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 09:06:58 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 09:06:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nigeria Senate Rejects Probe</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-nigeria-senate-rejects-probe</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-nigeria-senate-rejects-probe</guid>
+      <pubDate>Mon, 13 Jul 2026 09:00:45 GMT</pubDate>
+      <description>Nigeria Senate Rejects Probe</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-nigeria-senate-rejects-probe.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Alma Gutierrez</dc:creator>
+    </item>
     <item>
       <title>Taiwan Detects Chinese Naval Vessels</title>
       <link>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels</link>
@@ -611,18 +623,6 @@
       <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
-      <title>Medicare Fraud Crackdown Hits Hospice Care</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-medicare-fraud-crackdown-hits-hospice-care</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-medicare-fraud-crackdown-hits-hospice-care</guid>
-      <pubDate>Mon, 13 Jul 2026 02:23:37 GMT</pubDate>
-      <description>Medicare Fraud Crackdown Hits Hospice Care</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-medicare-fraud-crackdown-hits-hospice-care.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
       <title>改正個人情報保護法が成立</title>
       <link>https://newsanarchist.com/articles/2026-07-13-kenji-mori-mriks0sr</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-kenji-mori-mriks0sr</guid>
@@ -657,18 +657,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>Nigeria Senate Rejects Probe of ₦1.3bn PFIPC Allocation</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-nigeria-senate-rejects-probe-of-13bn-pfipc-allocation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-nigeria-senate-rejects-probe-of-13bn-pfipc-allocation</guid>
-      <pubDate>Sun, 12 Jul 2026 14:05:29 GMT</pubDate>
-      <description>Nigeria Senate Rejects Probe of ₦1.3bn PFIPC Allocation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-nigeria-senate-rejects-probe-of-13bn-pfipc-allocation.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Alma Gutierrez</dc:creator>
     </item>
   </channel>
 </rss>
