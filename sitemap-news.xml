@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-kalshi-users-lose-nearly-600m</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-13T09:14:54.395Z</news:publication_date>
+      <news:title>Kalshi Users Lose Nearly $600M</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -302,14 +310,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-13T04:24:35.908Z</news:publication_date>
       <news:title>MBTA Workers Indicted for Faking Safety Inspections</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-kalshi-users-lose-nearly-600m</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T04:12:43.913Z</news:publication_date>
-      <news:title>Kalshi Users Lose Nearly $600M</news:title>
     </news:news>
   </url>
   <url>
@@ -2446,22 +2446,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T10:05:02.116Z</news:publication_date>
       <news:title>NDE Theory Emerges</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-foia-under-siege</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T09:16:39.543Z</news:publication_date>
-      <news:title>FOIA Under Siege</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-pentagon-releases-new-ufo-files</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T09:13:28.565Z</news:publication_date>
-      <news:title>Pentagon Releases New UFO Files</news:title>
     </news:news>
   </url>
 </urlset>
