@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 16:43:29 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 16:43:29 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 16:49:13 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 16:49:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Sanctions and Ukraine-Russia War Escalate</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-nato-sanctions-and-ukraine-russia-war-escalate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-nato-sanctions-and-ukraine-russia-war-escalate</guid>
+      <pubDate>Mon, 13 Jul 2026 16:45:53 GMT</pubDate>
+      <description>NATO Sanctions and Ukraine-Russia War Escalate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-nato-sanctions-and-ukraine-russia-war-escalate.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Prison Reform and Litigation</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-prison-reform-and-litigation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-prison-reform-and-litigation</guid>
+      <pubDate>Mon, 13 Jul 2026 16:43:38 GMT</pubDate>
+      <description>Prison Reform and Litigation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-prison-reform-and-litigation.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Brain Activity Under Anesthesia Challenges Consciousness</title>
       <link>https://newsanarchist.com/articles/2026-07-13-brain-activity-under-anesthesia-challenges-consciousness</link>
@@ -597,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>AI Glasses Expose Meta's Privacy Gap</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap</guid>
-      <pubDate>Mon, 13 Jul 2026 09:11:33 GMT</pubDate>
-      <description>AI Glasses Expose Meta's Privacy Gap</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Nigeria Senate Rejects Probe</title>
