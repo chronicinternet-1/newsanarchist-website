@@ -7,70 +7,76 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/surveillance-state.html</loc>
+    <loc>https://newsanarchist.com/category/surveillance-state</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/corporate-watchdog.html</loc>
+    <loc>https://newsanarchist.com/category/corporate-watchdog</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/government-secrets.html</loc>
+    <loc>https://newsanarchist.com/category/government-secrets</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/tech-privacy.html</loc>
+    <loc>https://newsanarchist.com/category/tech-privacy</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/global-power.html</loc>
+    <loc>https://newsanarchist.com/category/global-power</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/money-markets.html</loc>
+    <loc>https://newsanarchist.com/category/money-markets</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/unexplained.html</loc>
+    <loc>https://newsanarchist.com/category/unexplained</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/true-crime.html</loc>
+    <loc>https://newsanarchist.com/category/true-crime</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/financial-fraud.html</loc>
+    <loc>https://newsanarchist.com/category/financial-fraud</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/conflict-wars.html</loc>
+    <loc>https://newsanarchist.com/category/conflict-wars</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/category/web3-blockchain.html</loc>
+    <loc>https://newsanarchist.com/category/web3-blockchain</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
@@ -110,12 +116,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,6 +167,12 @@
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-snap-benefits-fraud-store-owner-sentenced-woman-charged</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-anomaly-6-hired-to-investigate-havana-syndrome</loc>
@@ -30217,6 +30223,72 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/category/surveillance-state.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/corporate-watchdog.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/government-secrets.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/tech-privacy.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/global-power.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/money-markets.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/unexplained.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/true-crime.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/financial-fraud.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/conflict-wars.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/category/web3-blockchain.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-11-facial-recognition-aids-arrest</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -34862,36 +34934,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/terms</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/surveillance-state</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/corporate-watchdog</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/government-secrets</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/tech-privacy</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/global-power</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -1019,7 +1019,7 @@ function buildArticleBody(topic) {
   body += `<h2>Primary Sources</h2>\n`;
   body += `<ul>\n`;
   body += `  <li>Source: ${sourceLink}</li>\n`;
-  body += `  <li>Category: <a href="/category/${catSlug}.html">${category}</a></li>\n`;
+  body += `  <li>Category: <a href="/category/${catSlug}">${category}</a></li>\n`;
   body += `  <li>Cross-reference independently — don't take our word for it.</li>\n`;
   body += `</ul>\n\n`;
 
@@ -1189,7 +1189,7 @@ function buildArticleHTML(topic) {
 
   const sidebarCategoriesHTML = CATEGORIES.map((cat, i) => {
     const cSlug = CATEGORY_SLUGS[cat] || 'government-secrets';
-    return `<a href="/category/${cSlug}.html" class="na-cat-link">${cat}</a>`;
+    return `<a href="/category/${cSlug}" class="na-cat-link">${cat}</a>`;
   }).join('');
   let sidebarTrendingHTML = '';
   try {
@@ -1225,12 +1225,12 @@ function buildArticleHTML(topic) {
   const navLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
     const active = cat === category ? ' class="active"' : '';
-    return `<li><a href="/category/${cs}.html"${active}>${cat}</a></li>`;
+    return `<li><a href="/category/${cs}"${active}>${cat}</a></li>`;
   }).join('\n        ');
 
   const footerCatLinks = CATEGORIES.map(cat => {
     const cs = CATEGORY_SLUGS[cat];
-    return `<a href="/category/${cs}.html">${cat}</a>`;
+    return `<a href="/category/${cs}">${cat}</a>`;
   }).join('\n        ');
 
   return `<!DOCTYPE html>
@@ -1267,7 +1267,7 @@ function buildArticleHTML(topic) {
 <meta name="twitter:description" content="${truncate(metaDesc, 180).replace(/"/g, '&quot;')}">
 <meta name="twitter:image" content="${ogImage}">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":${JSON.stringify(seoTitle)},"description":${JSON.stringify(metaDesc)},"url":"${articleUrl}","datePublished":"${dateISO}","dateModified":"${new Date().toISOString()}","author":{"@type":"Person","name":"${author.name}","url":"${author.slug ? SITE_URL + '/authors/' + author.slug + '.html' : SITE_URL + '/about.html'}"},"publisher":{"@type":"Organization","name":"NewsAnarchist","logo":{"@type":"ImageObject","url":"${SITE_URL}/images/logo.png"}},"image":{"@type":"ImageObject","url":"${ogImage}","width":1200,"height":630},"articleSection":"${category}","keywords":${JSON.stringify(kw)},"isAccessibleForFree":true}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"${SITE_URL}/"},{"@type":"ListItem","position":2,"name":"${category}","item":"${SITE_URL}/category/${catSlug}.html"},{"@type":"ListItem","position":3,"name":${JSON.stringify(seoTitle)},"item":"${articleUrl}"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"${SITE_URL}/"},{"@type":"ListItem","position":2,"name":"${category}","item":"${SITE_URL}/category/${catSlug}"},{"@type":"ListItem","position":3,"name":${JSON.stringify(seoTitle)},"item":"${articleUrl}"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"SpeakableSpecification","cssSelector":["h1.na-article-headline",".na-article-lede",".na-take-body"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"SpeakableSpecification","cssSelector":["h1.na-article-headline",".na-article-lede",".na-take-body"]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
@@ -3135,7 +3135,7 @@ function rebuildIndexHTML(allArticles) {
     const ca = articles.filter(a => a.category === cat).slice(0, 3);
     if (!ca.length) continue;
     const cs = CATEGORY_SLUGS[cat];
-    catSections += `<div class="na-section"><div class="na-section-head"><span>${cat}</span><a href="/category/${cs}.html" class="na-section-all">All ${cat} →</a></div><div class="na-3col">${ca.map(a => card(a)).join('')}</div></div>`;
+    catSections += `<div class="na-section"><div class="na-section-head"><span>${cat}</span><a href="/category/${cs}" class="na-section-all">All ${cat} →</a></div><div class="na-3col">${ca.map(a => card(a)).join('')}</div></div>`;
   }
 
   // 2026-07-13: "International Desk" — a guaranteed, real path onto the homepage for the 7
@@ -3161,16 +3161,16 @@ function rebuildIndexHTML(allArticles) {
   ).join('');
 
   const navLinks = CATEGORIES.map(cat =>
-    `<a href="/category/${CATEGORY_SLUGS[cat]}.html">${cat}</a>`
+    `<a href="/category/${CATEGORY_SLUGS[cat]}">${cat}</a>`
   ).join('');
 
   const catLinks = CATEGORIES.map(cat => {
     const cnt = articles.filter(a => a.category === cat).length;
-    return `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-catlink"><span>${cat}</span><span>${cnt} →</span></a>`;
+    return `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-catlink"><span>${cat}</span><span>${cnt} →</span></a>`;
   }).join('');
 
-  const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
-  const fcl2 = CATEGORIES.slice(4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
+  const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-flink">${cat}</a>`).join('');
+  const fcl2 = CATEGORIES.slice(4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-flink">${cat}</a>`).join('');
 
   const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
   const yr = new Date().getFullYear();
@@ -3562,7 +3562,7 @@ function updateSitemap(allArticles) {
   };
 
   add(`${SITE_URL}/`, today, '1.0', 'daily');
-  for (const cat of CATEGORIES) add(`${SITE_URL}/category/${CATEGORY_SLUGS[cat]}.html`, today, '0.8', 'daily');
+  for (const cat of CATEGORIES) add(`${SITE_URL}/category/${CATEGORY_SLUGS[cat]}`, today, '0.8', 'daily');
   const authorSlugs = new Set();
   for (const a of allArticles) { const s = authorSlugOf(a.author); if (s) authorSlugs.add(s); }
   for (const s of authorSlugs) add(`${SITE_URL}/authors/${s}.html`, today, '0.5', 'weekly');
@@ -3705,9 +3705,9 @@ function rebuildFilesIndex(allArticles) {
     .sort((a, b) => new Date(b.generatedAt || b.pubDate || 0) - new Date(a.generatedAt || a.pubDate || 0));
   const CAT_SLUGS = {'Surveillance State':'surveillance-state','Corporate Watchdog':'corporate-watchdog','Government Secrets':'government-secrets','Tech & Privacy':'tech-privacy','Global Power':'global-power','Money & Markets':'money-markets','Unexplained':'unexplained','True Crime':'true-crime'};
   const CATS = ['Surveillance State','Corporate Watchdog','Government Secrets','Tech & Privacy','Global Power','Money & Markets','Unexplained','True Crime'];
-  const navLinks = CATS.map(c => `<a href="/category/${CAT_SLUGS[c]}.html">${c}</a>`).join('');
-  const fcats = CATS.slice(0,4).map(c => `<a href="/category/${CAT_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
-  const fcats2 = CATS.slice(4).map(c => `<a href="/category/${CAT_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
+  const navLinks = CATS.map(c => `<a href="/category/${CAT_SLUGS[c]}">${c}</a>`).join('');
+  const fcats = CATS.slice(0,4).map(c => `<a href="/category/${CAT_SLUGS[c]}" class="na-flink">${c}</a>`).join('');
+  const fcats2 = CATS.slice(4).map(c => `<a href="/category/${CAT_SLUGS[c]}" class="na-flink">${c}</a>`).join('');
   const yr = new Date().getFullYear();
   function fd(a) {
     const d = new Date(a.generatedAt || a.pubDate || Date.now());
@@ -3863,8 +3863,8 @@ function rebuildCategoryPages(allArticles) {
       const startIdx     = (pageNum - 1) * ARTICLES_PER_PAGE;
       const pageArticles = catArticles.slice(startIdx, startIdx + ARTICLES_PER_PAGE);
       const canonicalUrl = pageNum === 1
-        ? `${SITE_URL}/category/${slug}.html`
-        : `${SITE_URL}/category/${slug}-${pageNum}.html`;
+        ? `${SITE_URL}/category/${slug}`
+        : `${SITE_URL}/category/${slug}-${pageNum}`;
 
       const cardsHTML = catArticles.length === 0
         ? '<p style="text-align:center;color:#999;padding:40px;">No articles yet — check back soon.</p>'
@@ -3875,11 +3875,11 @@ function rebuildCategoryPages(allArticles) {
         paginationHTML += `<nav style="display:flex;align-items:center;justify-content:center;gap:8px;padding:24px 0;border-top:1px solid #E5E3DE;margin-top:8px;">`;
         paginationHTML += `<span style="font-size:12px;color:#999;">Page ${pageNum} of ${totalPages}</span>`;
         if (pageNum > 1) {
-          const prevFile = pageNum === 2 ? `${slug}.html` : `${slug}-${pageNum-1}.html`;
+          const prevFile = pageNum === 2 ? `${slug}` : `${slug}-${pageNum-1}`;
           paginationHTML += `<a href="/category/${prevFile}" style="font-size:12px;padding:6px 12px;border:1px solid #E5E3DE;background:#fff;">&larr; Prev</a>`;
         }
         if (pageNum < totalPages) {
-          paginationHTML += `<a href="/category/${slug}-${pageNum+1}.html" style="font-size:12px;padding:6px 12px;border:1px solid #E5E3DE;background:#fff;">Next &rarr;</a>`;
+          paginationHTML += `<a href="/category/${slug}-${pageNum+1}" style="font-size:12px;padding:6px 12px;border:1px solid #E5E3DE;background:#fff;">Next &rarr;</a>`;
         }
         paginationHTML += `</nav>`;
       }
@@ -3887,12 +3887,12 @@ function rebuildCategoryPages(allArticles) {
       const navLinks = CATEGORIES.map(c => {
         const cs = CATEGORY_SLUGS[c];
         const active = c === cat ? ' class="active"' : '';
-        return `<a href="/category/${cs}.html"${active}>${c}</a>`;
+        return `<a href="/category/${cs}"${active}>${c}</a>`;
       }).join('');
 
       const catLinks = CATEGORIES.map(c => {
         const cnt = clean.filter(a => a.category === c).length;
-        return `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-catlink"><span>${c}</span><span>${cnt} →</span></a>`;
+        return `<a href="/category/${CATEGORY_SLUGS[c]}" class="na-catlink"><span>${c}</span><span>${cnt} →</span></a>`;
       }).join('');
 
       let trendingHTML = '';
@@ -3908,8 +3908,8 @@ function rebuildCategoryPages(allArticles) {
 
       const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
       const yr = new Date().getFullYear();
-      const fcl1 = CATEGORIES.slice(0,4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
-      const fcl2 = CATEGORIES.slice(4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}.html" class="na-flink">${c}</a>`).join('');
+      const fcl1 = CATEGORIES.slice(0,4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}" class="na-flink">${c}</a>`).join('');
+      const fcl2 = CATEGORIES.slice(4).map(c => `<a href="/category/${CATEGORY_SLUGS[c]}" class="na-flink">${c}</a>`).join('');
 
       const pageHTML = `<!DOCTYPE html>
 <html lang="en">
@@ -4108,12 +4108,12 @@ function rebuildTrendingHTML(allArticles) {
   }
 
   const navLinks = CATEGORIES.map(cat =>
-    `<a href="/category/${CATEGORY_SLUGS[cat]}.html">${cat}</a>`
+    `<a href="/category/${CATEGORY_SLUGS[cat]}">${cat}</a>`
   ).join('');
 
   const catLinks = CATEGORIES.map(cat => {
     const cnt = clean.filter(a => a.category === cat).length;
-    return `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-catlink"><span>${cat}</span><span>${cnt} →</span></a>`;
+    return `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-catlink"><span>${cat}</span><span>${cnt} →</span></a>`;
   }).join('');
 
   const trendList = trending.slice(0, 7).map((a, i) =>
@@ -4124,8 +4124,8 @@ function rebuildTrendingHTML(allArticles) {
   const tickerTitles = trending.slice(0,5).map(a => tickerLine(a,60)).join(' &nbsp;·&nbsp; ');
   const todayStr = new Date().toLocaleDateString('en-US', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
   const yr = new Date().getFullYear();
-  const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
-  const fcl2 = CATEGORIES.slice(4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}.html" class="na-flink">${cat}</a>`).join('');
+  const fcl1 = CATEGORIES.slice(0,4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-flink">${cat}</a>`).join('');
+  const fcl2 = CATEGORIES.slice(4).map(cat => `<a href="/category/${CATEGORY_SLUGS[cat]}" class="na-flink">${cat}</a>`).join('');
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -4497,7 +4497,7 @@ function buildAuthorPageHTML(tpl, p) {
   h = h.replace(/<p class="author-bio">[\s\S]*?<\/p>/, `<p class="author-bio">${p.bio}</p>`);
   let vb = 0;
   h = h.replace(/<div class="voice-box">[\s\S]*?<\/div>/g, () => `<div class="voice-box">${vb++ === 0 ? p.voice : p.topics}</div>`);
-  h = h.replace(/<div class="author-articles-note">[\s\S]*?<\/div>/, `<div class="author-articles-note">\nBrowse all articles by ${p.name} in the <a href="/category/${p.categorySlug}.html">${p.category}</a> category archive. New articles published under this byline appear automatically.\n</div>`);
+  h = h.replace(/<div class="author-articles-note">[\s\S]*?<\/div>/, `<div class="author-articles-note">\nBrowse all articles by ${p.name} in the <a href="/category/${p.categorySlug}">${p.category}</a> category archive. New articles published under this byline appear automatically.\n</div>`);
   return h;
 }
 
