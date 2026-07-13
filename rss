@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 18:57:56 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 18:57:56 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:04:16 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 19:04:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Escalates Military Presence Near Taiwan</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-china-escalates-military-presence-near-taiwan</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-china-escalates-military-presence-near-taiwan</guid>
+      <pubDate>Mon, 13 Jul 2026 19:00:43 GMT</pubDate>
+      <description>China Escalates Military Presence Near Taiwan</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-china-escalates-military-presence-near-taiwan.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Secret Service Failures Exposed</title>
       <link>https://newsanarchist.com/articles/2026-07-13-secret-service-failures-exposed</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>SEC Updates Municipal Securities FAQs</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-sec-updates-municipal-securities-faqs</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-sec-updates-municipal-securities-faqs</guid>
-      <pubDate>Mon, 13 Jul 2026 13:17:36 GMT</pubDate>
-      <description>SEC Updates Municipal Securities FAQs</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-sec-updates-municipal-securities-faqs.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Nigeria Senate Rejects Probe</title>
