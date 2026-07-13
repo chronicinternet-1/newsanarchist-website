@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 17:54:30 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 17:54:30 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 18:00:17 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 18:00:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblowers Allege Rushed Renovations at Kennedy Center</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-whistleblowers-allege-rushed-renovations-at-kennedy-center</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-whistleblowers-allege-rushed-renovations-at-kennedy-center</guid>
+      <pubDate>Mon, 13 Jul 2026 17:54:23 GMT</pubDate>
+      <description>Whistleblowers Allege Rushed Renovations at Kennedy Center</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-whistleblowers-allege-rushed-renovations-at-kennedy-center.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Crypto Market Trends</title>
       <link>https://newsanarchist.com/articles/2026-07-13-crypto-market-trends</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Government Transparency Under Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-government-transparency-under-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-government-transparency-under-scrutiny</guid>
-      <pubDate>Mon, 13 Jul 2026 10:50:11 GMT</pubDate>
-      <description>Government Transparency Under Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-government-transparency-under-scrutiny.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Nigeria Senate Rejects Probe</title>
