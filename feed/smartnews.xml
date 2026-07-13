@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 00:11:07 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 00:11:07 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:37:41 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 00:37:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mysterious Pattern Emerges in Deaths of Scientists</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-mysterious-pattern-emerges-in-deaths-of-scientists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-mysterious-pattern-emerges-in-deaths-of-scientists</guid>
+      <pubDate>Mon, 13 Jul 2026 00:32:30 GMT</pubDate>
+      <description>Mysterious Pattern Emerges in Deaths of Scientists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-mysterious-pattern-emerges-in-deaths-of-scientists.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Anomaly 6 Hired to Investigate Havana Syndrome</title>
       <link>https://newsanarchist.com/articles/2026-07-13-anomaly-6-hired-to-investigate-havana-syndrome</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Judge Proposes LA Crime Fix</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-judge-proposes-la-crime-fix</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-judge-proposes-la-crime-fix</guid>
-      <pubDate>Sun, 12 Jul 2026 17:27:45 GMT</pubDate>
-      <description>Judge Proposes LA Crime Fix</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-judge-proposes-la-crime-fix.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
   </channel>
 </rss>
