@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 09:06:58 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 09:06:58 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 09:13:11 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 09:13:11 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI Glasses Expose Meta's Privacy Gap</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap</guid>
+      <pubDate>Mon, 13 Jul 2026 09:11:33 GMT</pubDate>
+      <description>AI Glasses Expose Meta's Privacy Gap</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-ai-glasses-expose-metas-privacy-gap.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Nigeria Senate Rejects Probe</title>
       <link>https://newsanarchist.com/articles/2026-07-13-nigeria-senate-rejects-probe</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Releases New UFO Files</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-pentagon-releases-new-ufo-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-pentagon-releases-new-ufo-files</guid>
-      <pubDate>Mon, 13 Jul 2026 02:33:33 GMT</pubDate>
-      <description>Pentagon Releases New UFO Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-pentagon-releases-new-ufo-files.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>改正個人情報保護法が成立</title>
