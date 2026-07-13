@@ -2773,6 +2773,16 @@ function remapArticleCategory(article) {
   // Editorial override: a locked category (manual correction) is authoritative
   // and bypasses keyword remapping.
   if (article.categoryLocked && rawCat) return rawCat;
+  // 2026-07-13: if rawCat is ALREADY one of the site's 11 real category names, trust it and skip
+  // keyword remapping entirely. Root cause of international bureau articles vanishing from their
+  // real category (found via Kenji Mori's Japanese-language "Surveillance State" article landing
+  // on /category/government-secrets.html instead): every regex below matches English keywords
+  // only, so non-English titles/descriptions never match anything and always fall through to the
+  // last-resort default ('Government Secrets'), silently discarding a category that was already
+  // correct. This keyword remap exists to fix genuinely-wrong categories from English scrape
+  // sources (see the "Commies Running NYC" example below) — an author DO that already assigned a
+  // real, valid category at publish time (every bureau + US author does) doesn't need correcting.
+  if (CATEGORIES.includes(rawCat)) return rawCat;
   const text = (article.title + ' ' + (article.description || '')).toLowerCase();
 
   // Always run keyword remap — raw category from scrape may be wrong
