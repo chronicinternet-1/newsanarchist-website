@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Jul 2026 03:13:14 GMT</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 03:13:14 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 03:29:19 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 03:29:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Woman Charged with $40K SNAP Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-13-woman-charged-with-40k-snap-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-woman-charged-with-40k-snap-fraud</guid>
+      <pubDate>Mon, 13 Jul 2026 03:24:06 GMT</pubDate>
+      <description>Woman Charged with $40K SNAP Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-woman-charged-with-40k-snap-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>FTC Cracks Down on Deceptive AI Marketing Claims</title>
       <link>https://newsanarchist.com/articles/2026-07-13-ftc-cracks-down-on-deceptive-ai-marketing-claims</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Charges Filed Against 15 Alaskans</title>
-      <link>https://newsanarchist.com/articles/2026-07-12-medicaid-fraud-charges-filed-against-15-alaskans</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-12-medicaid-fraud-charges-filed-against-15-alaskans</guid>
-      <pubDate>Sun, 12 Jul 2026 20:20:05 GMT</pubDate>
-      <description>Medicaid Fraud Charges Filed Against 15 Alaskans</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-12-medicaid-fraud-charges-filed-against-15-alaskans.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>FCA Opens Only One Mortgage Fraud Investigation in 2025</title>
