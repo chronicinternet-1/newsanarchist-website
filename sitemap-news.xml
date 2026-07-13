@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-13T11:56:40.552Z</news:publication_date>
+      <news:title>Taiwan Detects Chinese Naval Vessels</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-congress-probes-associates-of-convicted-sex-offender</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -174,14 +182,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-13T09:00:45.937Z</news:publication_date>
       <news:title>Nigeria Senate Rejects Probe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T08:55:06.759Z</news:publication_date>
-      <news:title>Taiwan Detects Chinese Naval Vessels</news:title>
     </news:news>
   </url>
   <url>
@@ -2430,14 +2430,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T12:10:21.554Z</news:publication_date>
       <news:title>ICE Surveillance Expansion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-doj-expands-medicaid-fraud-detection</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T11:58:18.446Z</news:publication_date>
-      <news:title>DOJ Expands Medicaid Fraud Detection</news:title>
     </news:news>
   </url>
 </urlset>
