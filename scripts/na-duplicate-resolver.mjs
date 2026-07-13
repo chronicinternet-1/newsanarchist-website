@@ -62,7 +62,13 @@ function kvHdr() {
 
 function kvList(prefix) {
   const base = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT}/storage/kv/namespaces/${KV_NS_STATE}`;
-  const raw = execSync(`curl -sL "${base}/keys?prefix=${encodeURIComponent(prefix)}&limit=100" ${kvHdr()}`, { encoding: 'utf8', timeout: 15000 });
+  // 1000 is the Cloudflare KV list API's own max per request — was 100, an arbitrary cap that
+  // forced one full git-commit+wrangler-deploy cycle per ~100 directives during a real backlog
+  // catch-up (thousands of pending directives after a mass Voss adjudication pass), each cycle
+  // costing ~2-3min of fixed deploy overhead regardless of batch size. Raising this doesn't change
+  // per-run safety — applyResolution() still processes each directive independently and the whole
+  // batch still lands in one commit+deploy, exactly as before, just fewer separate deploy cycles.
+  const raw = execSync(`curl -sL "${base}/keys?prefix=${encodeURIComponent(prefix)}&limit=1000" ${kvHdr()}`, { encoding: 'utf8', timeout: 15000 });
   const d = JSON.parse(raw);
   return (d.result || []).map(k => k.name);
 }
