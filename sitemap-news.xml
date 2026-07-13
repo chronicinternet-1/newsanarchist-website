@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-13-lapd-drops-flock-cameras</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-13T19:31:19.353Z</news:publication_date>
+      <news:title>LAPD Drops Flock Cameras</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-13-lapd-drops-flock-cameras-over-civil-liberties-concerns</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2174,22 +2182,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-11T19:51:15.602Z</news:publication_date>
       <news:title>FTC, DOJ Investigate Gas Prices</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-trump-retaliation-tracker</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T19:23:29.534Z</news:publication_date>
-      <news:title>Trump Retaliation Tracker</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-11-jellyfish-ufo-spotted</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-11T19:21:04.749Z</news:publication_date>
-      <news:title>Jellyfish UFO Spotted</news:title>
     </news:news>
   </url>
 </urlset>

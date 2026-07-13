@@ -51,7 +51,7 @@ const EMBEDDING_MODEL  = '@cf/baai/bge-base-en-v1.5';
 const STORE_DIR        = '/home/ubuntu/.openclaw/workspace/na-duplicate-detection';
 const STORE_PATH       = path.join(STORE_DIR, 'embeddings-store.json');
 const WINDOW_MS        = 7 * 24 * 60 * 60 * 1000;
-const SIMILARITY_THRESHOLD = 0.78;
+const SIMILARITY_THRESHOLD = 0.85;
 
 const LOG = (m) => console.log(`[dup-detector] ${m}`);
 

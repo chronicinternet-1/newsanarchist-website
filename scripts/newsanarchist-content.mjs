@@ -1282,7 +1282,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:24px;padding:24px 20px;max-width:1200px;margin:0 auto}
@@ -3234,7 +3234,7 @@ a{color:inherit;text-decoration:none}
 .na-mr{display:flex;align-items:center;gap:12px}
 .na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto}
 
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}
@@ -3574,19 +3574,32 @@ function updateSitemap(allArticles) {
     const isRecent = t && (now - t) <= SEVEN_D;
     add(url, lm, isRecent ? '0.9' : '0.6', isRecent ? 'daily' : 'monthly');
   }
-  for (const [loc, lm] of prior) if (!seen.has(loc)) add(loc, lm, '0.6', 'monthly');
+  // Both loops below re-derive coverage independently of the manifest (on purpose — see each
+  // comment), so both need their own non-canonical check or a resolved duplicate re-enters the
+  // sitemap here even after being filtered out of allArticles by the caller. Article-only: home/
+  // category/author URLs captured in `prior` don't correspond to a articles/*.html file and are
+  // always kept.
+  const articlesDir = path.join(SITE_DIR, 'articles');
+  const ARTICLE_URL_RE = new RegExp(`^${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/articles/(.+)$`);
+  for (const [loc, lm] of prior) {
+    if (seen.has(loc)) continue;
+    const m = loc.match(ARTICLE_URL_RE);
+    if (m && isNonCanonicalArticleFile(`${m[1]}.html`, articlesDir)) continue;
+    add(loc, lm, '0.6', 'monthly');
+  }
 
   // Filesystem sweep — index every published article HTML, not just manifest entries.
   // The manifest (generated-articles.json) is pruned by title-dedup on each publish, but the
   // HTML files are never deleted, so manifest-only generation orphaned ~1k real articles from
-  // the sitemap. Scan articles/ and add any file not already covered.
+  // the sitemap. Scan articles/ and add any file not already covered (except the non-canonical
+  // side of a resolved duplicate pair — same exclusion as the manifest-driven entries above).
   let fsAdded = 0;
-  const articlesDir = path.join(SITE_DIR, 'articles');
   if (fs.existsSync(articlesDir)) {
     for (const f of fs.readdirSync(articlesDir)) {
       if (!f.endsWith('.html')) continue;
       const loc = `${SITE_URL}/articles/${f.replace(/\.html$/, '')}`;
       if (seen.has(loc)) continue;
+      if (isNonCanonicalArticleFile(f, articlesDir)) continue;
       const m = f.match(/^(\d{4}-\d{2}-\d{2})/);
       let lm;
       if (m) lm = m[1];
@@ -3595,6 +3608,7 @@ function updateSitemap(allArticles) {
       fsAdded++;
     }
   }
+  flushCanonicalStatusCache();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -3744,7 +3758,6 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;width:100%}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#999;padding:8px 10px;white-space:nowrap;border-bottom:2px solid transparent}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
-.na-nav-inner::-webkit-scrollbar{display:none}.na-nav-inner{scrollbar-width:none}
 .na-page{max-width:860px;margin:0 auto;padding:24px 16px 48px}
 .bw-hero{background:#fff;border:1px solid #E5E3DE;border-top:4px solid #E11D48;padding:32px;margin-bottom:24px}
 .bw-hero-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E11D48;margin-bottom:8px}
@@ -3942,7 +3955,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-body{display:grid;grid-template-columns:1fr;gap:16px;padding:16px 20px;max-width:1200px;margin:0 auto}
@@ -4152,7 +4165,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-tgl{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-top:3px}
 .na-mr{display:flex;align-items:center;gap:12px}.na-dt{font-size:10px;color:#999}
 .na-sbtn{background:#E11D48;color:#fff;border:none;padding:9px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif}
-.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}.na-nav-inner::-webkit-scrollbar{display:none}
+.na-nav{background:#111;position:relative}.na-nav::after{content:'';position:absolute;top:0;right:0;bottom:0;width:28px;background:linear-gradient(to right,transparent,#111);pointer-events:none;z-index:2}.na-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:nowrap;width:100%;overflow-x:auto}
 .na-nav-inner a{font-size:10px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:#999;padding:8px 8px;white-space:nowrap;border-bottom:2px solid transparent;text-decoration:none;list-style:none;flex-shrink:0}
 .na-nav-inner a.active{color:#fff;background:#E11D48}.na-nav-inner a:hover{color:#fff}
 .na-tick{background:#E11D48;overflow:hidden}.na-tick-inner{max-width:1200px;margin:0 auto;padding:7px 20px;display:flex;gap:14px;align-items:center}
@@ -4291,6 +4304,79 @@ async function submitEmail(e) {
   console.log(`  ✅ trending.html built (${trending.length} articles)`);
 }
 
+// na-duplicate-resolver.mjs patches a non-canonical duplicate's own <link rel="canonical"> to
+// point at the canonical article's URL, but never deletes the file (see that script's header —
+// zero risk of orphaning legitimate content the way the old exact-title-prefix dedup did). That
+// canonical tag is already the single source of truth for "is this article the one to list" —
+// reading it directly (rather than introducing a second manifest that could drift out of sync)
+// means every category page, the homepage, RSS, and the sitemap stay correct automatically as
+// new resolutions land, and it retroactively covers every resolution already applied before this
+// filter existed, with no backfill step. Cached by mtime since this scans the full article set
+// every publish cycle and only a tiny fraction of files change between cycles.
+const CANONICAL_STATUS_CACHE_PATH = path.join(SITE_DIR, '.canonical-status-cache.json');
+let _canonicalStatusCache = null;
+let _canonicalStatusCacheDirty = false;
+
+function loadCanonicalStatusCache() {
+  if (_canonicalStatusCache) return _canonicalStatusCache;
+  try { _canonicalStatusCache = JSON.parse(fs.readFileSync(CANONICAL_STATUS_CACHE_PATH, 'utf-8')); }
+  catch { _canonicalStatusCache = {}; }
+  return _canonicalStatusCache;
+}
+
+function flushCanonicalStatusCache() {
+  if (!_canonicalStatusCacheDirty) return;
+  fs.writeFileSync(CANONICAL_STATUS_CACHE_PATH, JSON.stringify(_canonicalStatusCache));
+  _canonicalStatusCacheDirty = false;
+}
+
+// Single source of truth for "is this article file the non-canonical side of a resolved
+// duplicate pair" — reads the article's OWN <link rel="canonical"> tag (patched by
+// na-duplicate-resolver.mjs, never by anything else) rather than a second manifest that could
+// drift out of sync. Cached by mtime: called once per article per publish cycle from multiple
+// call sites (listing filter below, plus updateSitemap's fs-sweep/prior-preservation), and only
+// a tiny fraction of files change mtime between cycles.
+function isNonCanonicalArticleFile(filename, articlesDir) {
+  if (!filename) return false;
+  const slug = filename.replace(/\.html$/, '');
+  const cache = loadCanonicalStatusCache();
+  const fp = path.join(articlesDir, filename);
+  let mtimeMs;
+  try { mtimeMs = fs.statSync(fp).mtimeMs; } catch { return false; }
+
+  const entry = cache[filename];
+  if (entry && entry.mtimeMs === mtimeMs) return entry.isNonCanonical;
+
+  let isNonCanonical = false;
+  try {
+    const html = fs.readFileSync(fp, 'utf-8');
+    const m = html.match(/<link rel="canonical" href="https:\/\/newsanarchist\.com\/articles\/([^"]+)">/);
+    if (m && m[1] !== slug) isNonCanonical = true;
+  } catch { /* leave visible on read failure — never hide on an error */ }
+
+  cache[filename] = { mtimeMs, isNonCanonical };
+  _canonicalStatusCacheDirty = true;
+  return isNonCanonical;
+}
+
+// Returns allArticles minus any entry whose own article HTML now canonicalizes to a DIFFERENT
+// slug — i.e. the non-canonical side of a resolved duplicate pair. Never mutates allArticles or
+// touches any file; listing/grid generators should call this once and use the result, while
+// generated-articles.json itself and per-file maintenance (e.g. fixPlaceholderImages) keep using
+// the full, unfiltered list — the article and its URL stay alive, just out of the grids.
+function filterNonCanonical(allArticles, articlesDir) {
+  let excluded = 0;
+  const visible = allArticles.filter(a => {
+    if (!a.filename) return true;
+    const hide = isNonCanonicalArticleFile(a.filename, articlesDir);
+    if (hide) excluded++;
+    return !hide;
+  });
+  flushCanonicalStatusCache();
+  if (excluded) console.log(`  [canonical-filter] excluding ${excluded} non-canonical duplicate(s) from listings`);
+  return visible;
+}
+
 function fixPlaceholderImages(allArticles) {
   const articlesDir = ARTICLES_DIR;
   const imagesDir = path.join(SITE_DIR, 'images', 'articles');
@@ -4355,12 +4441,17 @@ async function runPublish() {
 
   console.log(`\n📤 Publishing ${allArticles.length} articles (deduplicated)...\n`);
 
-  rebuildIndexHTML(allArticles);
+  // Grids/feeds only ever show the canonical side of a resolved duplicate pair — the
+  // non-canonical file/URL stays live (fixPlaceholderImages below still runs against the full,
+  // unfiltered list), it's just excluded from these listings. See filterNonCanonical() header.
+  const visibleArticles = filterNonCanonical(allArticles, ARTICLES_DIR);
+
+  rebuildIndexHTML(visibleArticles);
   fixPlaceholderImages(allArticles);
-  rebuildCategoryPages(allArticles);
-  rebuildFilesIndex(allArticles);
-  rebuildTrendingHTML(allArticles);
-  updateSitemap(allArticles);
+  rebuildCategoryPages(visibleArticles);
+  rebuildFilesIndex(visibleArticles);
+  rebuildTrendingHTML(visibleArticles);
+  updateSitemap(visibleArticles);
 
   console.log('\n🚀 Committing and pushing to GitHub...');
   try {
