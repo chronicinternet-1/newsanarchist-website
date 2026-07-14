@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 00:23:47 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 00:23:47 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 00:40:38 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 00:40:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Six Charged in $20.7M NJ Healthcare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</guid>
+      <pubDate>Tue, 14 Jul 2026 00:36:02 GMT</pubDate>
+      <description>Six Charged in $20.7M NJ Healthcare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>States Sue to Block $110B Paramount-Warner Bros. Merger</title>
       <link>https://newsanarchist.com/articles/2026-07-14-states-sue-to-block-110b-paramount-warner-bros-merger</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>New Forensic Evidence In High-Profile Cases</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-new-forensic-evidence-in-high-profile-cases</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-new-forensic-evidence-in-high-profile-cases</guid>
-      <pubDate>Mon, 13 Jul 2026 18:44:50 GMT</pubDate>
-      <description>New Forensic Evidence In High-Profile Cases</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-new-forensic-evidence-in-high-profile-cases.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Brasil: Alvo de Disputa por Terras Raras</title>
