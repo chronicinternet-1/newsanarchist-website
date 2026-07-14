@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-14T23:12:45.456Z</news:publication_date>
+      <news:title>Whitehouse Releases Outstanding DOJ Oversight Requests</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-clarity-act-crypto-regulation</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -510,14 +518,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T14:11:10.886Z</news:publication_date>
       <news:title>Taiwan Detects Chinese Naval Vessels</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T14:06:45.719Z</news:publication_date>
-      <news:title>Whitehouse Releases Outstanding DOJ Oversight Requests</news:title>
     </news:news>
   </url>
   <url>
@@ -1926,14 +1926,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T23:31:48.204Z</news:publication_date>
       <news:title>Cold Case Unit Solves Decades-Old Crimes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-global-fraud-bust-nets-5800-arrests-293m-intercepted</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T23:10:30.928Z</news:publication_date>
-      <news:title>Global Fraud Bust Nets 5,800 Arrests, $293M Intercepted</news:title>
     </news:news>
   </url>
 </urlset>
