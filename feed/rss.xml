@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:15:26 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 23:15:26 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 23:36:22 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 23:36:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Warrantless Surveillance Concerns Escalate</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-warrantless-surveillance-concerns-escalate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-warrantless-surveillance-concerns-escalate</guid>
+      <pubDate>Tue, 14 Jul 2026 23:35:16 GMT</pubDate>
+      <description>Warrantless Surveillance Concerns Escalate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-warrantless-surveillance-concerns-escalate.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>California Tests Antitrust Muscle</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-california-tests-antitrust-muscle</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-california-tests-antitrust-muscle</guid>
+      <pubDate>Tue, 14 Jul 2026 23:34:42 GMT</pubDate>
+      <description>California Tests Antitrust Muscle</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-california-tests-antitrust-muscle.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Whitehouse Releases Outstanding DOJ Oversight Requests</title>
       <link>https://newsanarchist.com/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>SEC 2026 Regulatory Agenda Unveiled</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-sec-2026-regulatory-agenda-unveiled</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-sec-2026-regulatory-agenda-unveiled</guid>
-      <pubDate>Tue, 14 Jul 2026 16:31:16 GMT</pubDate>
-      <description>SEC 2026 Regulatory Agenda Unveiled</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-sec-2026-regulatory-agenda-unveiled.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Clearview AI Settlement Vacated</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-clearview-ai-settlement-vacated</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-clearview-ai-settlement-vacated</guid>
-      <pubDate>Tue, 14 Jul 2026 16:30:59 GMT</pubDate>
-      <description>Clearview AI Settlement Vacated</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-clearview-ai-settlement-vacated.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Desafios Logísticos no Brasil: Como a Demanda de Biodiesel Afeta as Exportações de Farelo de Soja</title>
