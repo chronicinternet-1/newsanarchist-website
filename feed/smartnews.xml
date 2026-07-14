@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:41:18 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 05:41:18 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:57:08 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 05:57:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran War Threatens Global Food Security</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-iran-war-threatens-global-food-security</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-iran-war-threatens-global-food-security</guid>
+      <pubDate>Tue, 14 Jul 2026 05:52:39 GMT</pubDate>
+      <description>Iran War Threatens Global Food Security</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-iran-war-threatens-global-food-security.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>DOJ Under Scrutiny</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-doj-under-scrutiny</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-doj-under-scrutiny</guid>
+      <pubDate>Tue, 14 Jul 2026 05:52:17 GMT</pubDate>
+      <description>DOJ Under Scrutiny</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-doj-under-scrutiny.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Six Charged in $20.7M NJ Healthcare Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects Chinese Naval Vessels Near Its Waters</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels-near-its-waters</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-taiwan-detects-chinese-naval-vessels-near-its-waters</guid>
-      <pubDate>Mon, 13 Jul 2026 23:02:56 GMT</pubDate>
-      <description>Taiwan Detects Chinese Naval Vessels Near Its Waters</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-taiwan-detects-chinese-naval-vessels-near-its-waters.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>ICE Shooting in Maine</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-ice-shooting-in-maine</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-ice-shooting-in-maine</guid>
-      <pubDate>Mon, 13 Jul 2026 22:57:17 GMT</pubDate>
-      <description>ICE Shooting in Maine</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-ice-shooting-in-maine.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>US Rare Earths Funding Surges, Flows to Asia</title>
