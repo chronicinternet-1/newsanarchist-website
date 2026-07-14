@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,18 +122,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,6 +167,18 @@
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-real-remax-deal-clears-regulatory-hurdle</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-nsa-releases-guidance-on-router-hygiene</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-doj-obtains-texts-from-44-congress-members</loc>
@@ -764,12 +776,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-doj-under-scrutiny</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-nsa-releases-guidance-on-router-hygiene</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -4389,8 +4395,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-foia-oversight-debated</loc>
     <lastmod>2026-07-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-flock-cameras-face-scotus-blowback</loc>
@@ -4533,8 +4539,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-china-shows-military-might</loc>
     <lastmod>2026-07-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-china-leads-advanced-manufacturing</loc>
