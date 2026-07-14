@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 19:01:55 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 19:01:55 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 19:08:07 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 19:08:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>California 'ReUNITY Act' Advances</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-california-reunity-act-advances</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-california-reunity-act-advances</guid>
+      <pubDate>Tue, 14 Jul 2026 19:01:57 GMT</pubDate>
+      <description>California 'ReUNITY Act' Advances</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-california-reunity-act-advances.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>China's EV Investment Sparks Global Power Shift</title>
       <link>https://newsanarchist.com/articles/2026-07-14-chinas-ev-investment-sparks-global-power-shift</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>US-China Relations Amid Iran Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-us-china-relations-amid-iran-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-us-china-relations-amid-iran-tensions</guid>
-      <pubDate>Tue, 14 Jul 2026 12:56:25 GMT</pubDate>
-      <description>US-China Relations Amid Iran Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-us-china-relations-amid-iran-tensions.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Nigerian House of Reps Probes ₦1.3 Billion Vote</title>
