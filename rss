@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 17:14:35 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 17:14:35 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 17:35:36 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 17:35:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Friendly Fraud on the Rise</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-friendly-fraud-on-the-rise</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-friendly-fraud-on-the-rise</guid>
+      <pubDate>Tue, 14 Jul 2026 17:31:45 GMT</pubDate>
+      <description>Friendly Fraud on the Rise</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-friendly-fraud-on-the-rise.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>NY Pauses AI Data Center Construction</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-ny-pauses-ai-data-center-construction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-ny-pauses-ai-data-center-construction</guid>
+      <pubDate>Tue, 14 Jul 2026 17:31:26 GMT</pubDate>
+      <description>NY Pauses AI Data Center Construction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-ny-pauses-ai-data-center-construction.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Myanmar Junta's Conscript Labor Crisis</title>
       <link>https://newsanarchist.com/articles/2026-07-14-myanmar-juntas-conscript-labor-crisis</link>
@@ -597,30 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>US Justice System Faces Criticism</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-us-justice-system-faces-criticism</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-us-justice-system-faces-criticism</guid>
-      <pubDate>Tue, 14 Jul 2026 10:55:35 GMT</pubDate>
-      <description>US Justice System Faces Criticism</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-us-justice-system-faces-criticism.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Six Charged in $20.7M NJ Healthcare Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</guid>
-      <pubDate>Tue, 14 Jul 2026 10:41:56 GMT</pubDate>
-      <description>Six Charged in $20.7M NJ Healthcare Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Nigerian House of Reps Probes ₦1.3 Billion Vote</title>

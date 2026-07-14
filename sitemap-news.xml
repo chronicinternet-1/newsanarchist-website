@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-friendly-fraud-on-the-rise</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-14T17:31:45.433Z</news:publication_date>
+      <news:title>Friendly Fraud on the Rise</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-ny-pauses-ai-data-center-construction</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-14T17:31:26.069Z</news:publication_date>
+      <news:title>NY Pauses AI Data Center Construction</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-myanmar-juntas-conscript-labor-crisis</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1838,22 +1854,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T17:44:49.119Z</news:publication_date>
       <news:title>Myanmar Civil War Escalates Amidst Floods</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-us-china-relations-hit-new-low</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T17:32:32.533Z</news:publication_date>
-      <news:title>US-China Relations Hit New Low</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-judge-proposes-la-crime-fix</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T17:27:45.699Z</news:publication_date>
-      <news:title>Judge Proposes LA Crime Fix</news:title>
     </news:news>
   </url>
 </urlset>
