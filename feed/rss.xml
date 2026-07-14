@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:51:34 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 06:51:34 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 06:57:28 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 06:57:28 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>New Evidence in Scott Peterson Case</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-new-evidence-in-scott-peterson-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-new-evidence-in-scott-peterson-case</guid>
+      <pubDate>Tue, 14 Jul 2026 06:53:02 GMT</pubDate>
+      <description>New Evidence in Scott Peterson Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-new-evidence-in-scott-peterson-case.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness May Not Be Created By The Brain</title>
       <link>https://newsanarchist.com/articles/2026-07-14-consciousness-may-not-be-created-by-the-brain</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>New Evidence In Scott Peterson Case</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-new-evidence-in-scott-peterson-case</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-new-evidence-in-scott-peterson-case</guid>
-      <pubDate>Tue, 14 Jul 2026 00:48:56 GMT</pubDate>
-      <description>New Evidence In Scott Peterson Case</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-new-evidence-in-scott-peterson-case.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>US Rare Earths Funding Surges, Flows to Asia</title>
