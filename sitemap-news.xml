@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-hhs-recovers-556b-in-fraud-crackdown</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-14T21:48:58.112Z</news:publication_date>
+      <news:title>HHS Recovers $5.56B in Fraud Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-dhs-updates-ai-classification-in-immigration-enforcement</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1918,22 +1926,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T22:10:00.426Z</news:publication_date>
       <news:title>SEC Updates Municipal Securities FAQs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-sudan-conflict-escalates</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T21:47:54.345Z</news:publication_date>
-      <news:title>Sudan Conflict Escalates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-foia-turns-60-amid-increased-secrecy</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T21:42:49.202Z</news:publication_date>
-      <news:title>FOIA Turns 60 Amid Increased Secrecy</news:title>
     </news:news>
   </url>
 </urlset>

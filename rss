@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 21:36:33 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 21:36:33 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 21:52:20 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 21:52:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>HHS Recovers $5.56B in Fraud Crackdown</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-hhs-recovers-556b-in-fraud-crackdown</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-hhs-recovers-556b-in-fraud-crackdown</guid>
+      <pubDate>Tue, 14 Jul 2026 21:48:58 GMT</pubDate>
+      <description>HHS Recovers $5.56B in Fraud Crackdown</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-hhs-recovers-556b-in-fraud-crackdown.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>DHS Updates AI Classification in Immigration Enforcement</title>
       <link>https://newsanarchist.com/articles/2026-07-14-dhs-updates-ai-classification-in-immigration-enforcement</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Reinstates Iran Blockade</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-us-reinstates-iran-blockade</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-us-reinstates-iran-blockade</guid>
-      <pubDate>Tue, 14 Jul 2026 14:57:33 GMT</pubDate>
-      <description>US Reinstates Iran Blockade</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-us-reinstates-iran-blockade.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Desafios Logísticos no Brasil: Como a Demanda de Biodiesel Afeta as Exportações de Farelo de Soja</title>
