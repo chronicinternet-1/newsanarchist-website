@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:40:38 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 06:40:38 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 06:51:34 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 06:51:34 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness May Not Be Created By The Brain</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-consciousness-may-not-be-created-by-the-brain</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-consciousness-may-not-be-created-by-the-brain</guid>
+      <pubDate>Tue, 14 Jul 2026 06:50:06 GMT</pubDate>
+      <description>Consciousness May Not Be Created By The Brain</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-consciousness-may-not-be-created-by-the-brain.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>HHS Targets Medicaid, Medicare Advantage Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-14-hhs-targets-medicaid-medicare-advantage-fraud</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Military Junta Faces Criticism Over ASEAN Outreach</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-myanmar-military-junta-faces-criticism-over-asean-outreach</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-myanmar-military-junta-faces-criticism-over-asean-outreach</guid>
-      <pubDate>Tue, 14 Jul 2026 00:03:35 GMT</pubDate>
-      <description>Myanmar Military Junta Faces Criticism Over ASEAN Outreach</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-myanmar-military-junta-faces-criticism-over-asean-outreach.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>US Rare Earths Funding Surges, Flows to Asia</title>
