@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:03:46 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 05:03:46 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:09:36 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 05:09:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Genocide Unfolds</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-sudan-genocide-unfolds</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-sudan-genocide-unfolds</guid>
+      <pubDate>Tue, 14 Jul 2026 05:06:15 GMT</pubDate>
+      <description>Sudan Genocide Unfolds</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-sudan-genocide-unfolds.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Whistleblowers Allege Neglect at Kennedy Center</title>
       <link>https://newsanarchist.com/articles/2026-07-14-whistleblowers-allege-neglect-at-kennedy-center</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>FTC: Scammers Using FaceTime to Drain Bank Accounts</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-ftc-scammers-using-facetime-to-drain-bank-accounts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-ftc-scammers-using-facetime-to-drain-bank-accounts</guid>
-      <pubDate>Mon, 13 Jul 2026 22:22:04 GMT</pubDate>
-      <description>FTC: Scammers Using FaceTime to Drain Bank Accounts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-ftc-scammers-using-facetime-to-drain-bank-accounts.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>US Rare Earths Funding Surges, Flows to Asia</title>
