@@ -205,6 +205,27 @@ function resolveCanonicalGraph(directives) {
   return rootBySource;
 }
 
+// Marks a batch of directives resolved in D1 (metrics.fileEditStatus + finalCanonicalSlug) and
+// clears their KV key. Shared by both the no-deploy-needed paths (cycle/bad-data, already-applied
+// by an earlier run) and the post-deploy path (real changes, superseded) — same bookkeeping either
+// way, the only difference is whether a file/deploy was involved.
+function clearDirectives(items, statusFor) {
+  for (const { key, payload, result } of items) {
+    try {
+      const rows = d1Run('SELECT metrics FROM water_cooler WHERE id = ?', [payload.waterCoolerId]);
+      if (rows[0]) {
+        let metrics = {};
+        try { metrics = JSON.parse(rows[0].metrics || '{}'); } catch {}
+        metrics.fileEditStatus = statusFor(result);
+        metrics.finalCanonicalSlug = result?.finalCanonicalSlug;
+        metrics.appliedAt = new Date().toISOString();
+        d1Run('UPDATE water_cooler SET metrics = ? WHERE id = ?', [JSON.stringify(metrics), payload.waterCoolerId]);
+      }
+      kvDelete(key);
+    } catch (e) { LOG(`D1/KV cleanup failed for ${key}: ${e.message}`); }
+  }
+}
+
 function applyPending({ dryRun = false } = {}) {
   const keys = kvList('na:dedup-resolution:');
   if (!keys.length) { LOG('No pending duplicate resolutions'); return; }
@@ -217,11 +238,25 @@ function applyPending({ dryRun = false } = {}) {
   const clusters = new Set([...rootBySource.values()].filter((v, _, arr) => arr.filter(x => x === v).length > 1 || directives.some(d => d.payload.nonCanonicalSlug !== v && rootBySource.get(d.payload.nonCanonicalSlug) === v)));
 
   const applied = [];
+  // Self-referential resolution (cycle/bad data) — genuinely never gets a file touched, by design
+  // (see resolveCanonicalGraph header). The bug this fixes: these directives used to just
+  // `continue`, never entering `applied` at all, which meant their KV key was NEVER cleared —
+  // every future run re-discovered the exact same "resolved to itself" case forever, permanently
+  // occupying a slot in the pending queue with zero possible progress. Confirmed as a real,
+  // reproduced incident: a backlog catch-up loop plateaued at 793 pending directives, making zero
+  // progress across 6+ consecutive runs, entirely because of this plus the alreadyApplied case
+  // below. Cleared (not left in KV) — the underlying bad data isn't fixed, but it's recorded in
+  // D1 and taken out of the retry loop instead of silently blocking it forever.
+  const cycleSkipped = [];
   const processedSources = new Set();
   for (const d of directives) {
     const src = d.payload.nonCanonicalSlug;
     const finalCanonicalSlug = rootBySource.get(src);
-    if (finalCanonicalSlug === src) { LOG(`  SKIP ${src}: resolved to itself (cycle/bad data) — leaving as-is`); continue; }
+    if (finalCanonicalSlug === src) {
+      LOG(`  SKIP ${src}: resolved to itself (cycle/bad data) — clearing directive, no file touched`);
+      cycleSkipped.push({ key: d.key, payload: d.payload, result: { finalCanonicalSlug } });
+      continue;
+    }
 
     if (processedSources.has(src)) {
       // Another directive for this SAME article already applied the one chain-flattened patch.
@@ -245,12 +280,37 @@ function applyPending({ dryRun = false } = {}) {
 
   const realChanges = applied.filter(a => a.result.changed);
   const supersededOnly = applied.filter(a => a.result.superseded);
-  if (!realChanges.length) {
-    LOG('Nothing actually patched — done.');
+  // applyResolution() found the canonical/og:url/jsonld tags ALREADY pointing at the right place
+  // (changed=false, but canonicalPatched/ogUrlPatched/jsonLdPatched fired — those flip true
+  // whenever the regex matches and replaces, even with an identical value; only `changed` reflects
+  // whether the string actually differs). This means an EARLIER run already applied this exact
+  // patch. The other half of the same bug as cycleSkipped above: since `changed` can never become
+  // true for these on any future run either (the file is already correct), they could never reach
+  // realChanges and were permanently stuck unable to clear.
+  const alreadyApplied = applied.filter(a => !a.result.changed && !a.result.superseded && (a.result.canonicalPatched || a.result.ogUrlPatched || a.result.jsonLdPatched));
+
+  if (dryRun) {
+    LOG(`[dry-run] Would commit/deploy ${realChanges.length} file(s) (+ resolve ${supersededOnly.length} superseded), and clear ${alreadyApplied.length} already-applied + ${cycleSkipped.length} cycle-skipped directive(s) with no file edit.`);
     return;
   }
 
-  if (dryRun) { LOG(`[dry-run] Would commit/deploy ${realChanges.length} file(s) (+ resolve ${supersededOnly.length} superseded directive(s) with no separate file edit), then update D1 + clear KV.`); return; }
+  // No-deploy-needed cleanup can happen regardless of whether this batch has any real file changes
+  // to commit — still respect the halt flag, though: a halt means "don't touch KV state that gates
+  // published content," and these directives describe content that's either already live (from an
+  // earlier successful run) or was never going to touch a file at all, so leaving them in place
+  // during a halt costs nothing but staying consistent with the rest of this script's halt handling.
+  const halted = isPublishHalted();
+  if (!halted) {
+    if (cycleSkipped.length) clearDirectives(cycleSkipped, () => 'skipped-cycle');
+    if (alreadyApplied.length) clearDirectives(alreadyApplied, () => 'already-applied');
+  } else if (cycleSkipped.length || alreadyApplied.length) {
+    LOG(`Publish halt active — leaving ${cycleSkipped.length + alreadyApplied.length} no-deploy-needed directive(s) in place too, for consistency.`);
+  }
+
+  if (!realChanges.length) {
+    LOG('Nothing new to patch this run — done.');
+    return;
+  }
 
   // Commit
   try {
@@ -264,7 +324,7 @@ function applyPending({ dryRun = false } = {}) {
   } catch (e) { LOG(`Git commit failed: ${e.message} — not deploying, not marking resolved.`); return; }
 
   let deployed = false;
-  if (isPublishHalted()) {
+  if (halted) {
     LOG('Publish halt active — HTML committed locally but NOT deployed. Leaving KV directives in place for next run.');
   } else {
     try {
@@ -294,20 +354,7 @@ function applyPending({ dryRun = false } = {}) {
   // desired outcome (its target article ends up pointing at the right final canonical) was
   // already satisfied by whichever directive in the same cluster actually applied the patch.
   if (!deployed) return;
-  for (const { key, payload, result } of [...realChanges, ...supersededOnly]) {
-    try {
-      const rows = d1Run('SELECT metrics FROM water_cooler WHERE id = ?', [payload.waterCoolerId]);
-      if (rows[0]) {
-        let metrics = {};
-        try { metrics = JSON.parse(rows[0].metrics || '{}'); } catch {}
-        metrics.fileEditStatus = result.superseded ? 'superseded' : 'applied';
-        metrics.finalCanonicalSlug = result.finalCanonicalSlug;
-        metrics.appliedAt = new Date().toISOString();
-        d1Run('UPDATE water_cooler SET metrics = ? WHERE id = ?', [JSON.stringify(metrics), payload.waterCoolerId]);
-      }
-      kvDelete(key);
-    } catch (e) { LOG(`Post-deploy D1/KV cleanup failed for ${key}: ${e.message}`); }
-  }
+  clearDirectives([...realChanges, ...supersededOnly], (result) => result.superseded ? 'superseded' : 'applied');
 }
 
 const args = process.argv.slice(2);
