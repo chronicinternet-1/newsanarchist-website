@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 11:08:08 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 11:08:08 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 11:14:09 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 11:14:09 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Increases Military Presence Near Taiwan</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-china-increases-military-presence-near-taiwan</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-china-increases-military-presence-near-taiwan</guid>
+      <pubDate>Tue, 14 Jul 2026 11:09:37 GMT</pubDate>
+      <description>China Increases Military Presence Near Taiwan</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-china-increases-military-presence-near-taiwan.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Luna Demands Ouster of NSC Intel Chief</title>
       <link>https://newsanarchist.com/articles/2026-07-14-luna-demands-ouster-of-nsc-intel-chief</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>EU and UK Impose Sanctions on Russia Over Cyber Espionage</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-eu-and-uk-impose-sanctions-on-russia-over-cyber-espionage</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-eu-and-uk-impose-sanctions-on-russia-over-cyber-espionage</guid>
-      <pubDate>Tue, 14 Jul 2026 04:52:10 GMT</pubDate>
-      <description>EU and UK Impose Sanctions on Russia Over Cyber Espionage</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-eu-and-uk-impose-sanctions-on-russia-over-cyber-espionage.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis Deepens</title>
