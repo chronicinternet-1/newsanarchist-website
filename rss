@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:15:16 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 12:15:16 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 12:31:15 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 12:31:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC 2026 Agenda</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-sec-2026-agenda</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-sec-2026-agenda</guid>
+      <pubDate>Tue, 14 Jul 2026 12:29:05 GMT</pubDate>
+      <description>SEC 2026 Agenda</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-sec-2026-agenda.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>India's Digital Personal Data Protection Bill</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-indias-digital-personal-data-protection-bill</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-indias-digital-personal-data-protection-bill</guid>
+      <pubDate>Tue, 14 Jul 2026 12:28:29 GMT</pubDate>
+      <description>India's Digital Personal Data Protection Bill</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-indias-digital-personal-data-protection-bill.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>China-Russia Joint Sea-2026 Drills Conclude</title>
       <link>https://newsanarchist.com/articles/2026-07-14-china-russia-joint-sea-2026-drills-conclude</link>
@@ -597,30 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>States Sue Paramount-Warner Bros. Merger</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-states-sue-paramount-warner-bros-merger</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-states-sue-paramount-warner-bros-merger</guid>
-      <pubDate>Tue, 14 Jul 2026 06:25:38 GMT</pubDate>
-      <description>States Sue Paramount-Warner Bros. Merger</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-states-sue-paramount-warner-bros-merger.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>US Expands Facial Recognition Use</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-us-expands-facial-recognition-use</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-us-expands-facial-recognition-use</guid>
-      <pubDate>Tue, 14 Jul 2026 06:24:34 GMT</pubDate>
-      <description>US Expands Facial Recognition Use</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-us-expands-facial-recognition-use.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis Deepens</title>
