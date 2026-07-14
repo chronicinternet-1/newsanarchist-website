@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,18 +122,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,6 +167,18 @@
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-states-sue-to-block-paramount-warner-bros-merger</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-lapd-drops-flock-surveillance-contract</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-us-commerce-secretarys-epstein-links-exposed</loc>
@@ -415,12 +427,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-lapd-drops-flock-surveillance-contract</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-myanmar-news-latest-updates</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
@@ -470,12 +476,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-warrantless-surveillance-programs-face-renewed-scrutiny</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-states-sue-to-block-paramount-warner-bros-merger</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3765,8 +3765,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-taiwan-revives-anti-communist-education</loc>
     <lastmod>2026-07-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-07-taiwan-adiz-breached</loc>
