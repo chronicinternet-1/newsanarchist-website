@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 02:39:51 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 02:39:51 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 02:50:44 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 02:50:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon Releases 40 Declassified UAP Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-pentagon-releases-40-declassified-uap-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-pentagon-releases-40-declassified-uap-files</guid>
+      <pubDate>Tue, 14 Jul 2026 02:47:40 GMT</pubDate>
+      <description>Pentagon Releases 40 Declassified UAP Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-pentagon-releases-40-declassified-uap-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>NY Man Charged with Conspiracy, Wire Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-14-ny-man-charged-with-conspiracy-wire-fraud</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>AI Gateways Hijacked to Steal Crypto</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-ai-gateways-hijacked-to-steal-crypto</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-ai-gateways-hijacked-to-steal-crypto</guid>
-      <pubDate>Mon, 13 Jul 2026 19:33:33 GMT</pubDate>
-      <description>AI Gateways Hijacked to Steal Crypto</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-ai-gateways-hijacked-to-steal-crypto.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Brasil: Alvo de Disputa por Terras Raras</title>
