@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-14-snap-error-rates-and-fraud-concerns</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-14T18:47:35.277Z</news:publication_date>
+      <news:title>SNAP Error Rates and Fraud Concerns</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-14-warrantless-surveillance-concerns-grow</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -558,14 +566,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T08:54:11.729Z</news:publication_date>
       <news:title>Prosecutorial Misconduct and DOJ Updates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-snap-error-rates-and-fraud-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T08:40:53.615Z</news:publication_date>
-      <news:title>SNAP Error Rates and Fraud Concerns</news:title>
     </news:news>
   </url>
   <url>
@@ -1870,22 +1870,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-12T19:03:02.970Z</news:publication_date>
       <news:title>Warrantless Surveillance Under Fire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-government-secrets-uncovered</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T18:40:58.587Z</news:publication_date>
-      <news:title>Government Secrets Uncovered</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-12-bitcoin-price-predictions-and-regulatory-environment-in-2026</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-12T18:37:56.025Z</news:publication_date>
-      <news:title>Bitcoin Price Predictions and Regulatory Environment in 2026</news:title>
     </news:news>
   </url>
 </urlset>
