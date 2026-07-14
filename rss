@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:33:24 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 10:33:24 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 10:44:32 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 10:44:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Six Charged in $20.7M NJ Healthcare Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</guid>
+      <pubDate>Tue, 14 Jul 2026 10:41:56 GMT</pubDate>
+      <description>Six Charged in $20.7M NJ Healthcare Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Jordan Belfort Scam Allegations</title>
       <link>https://newsanarchist.com/articles/2026-07-14-jordan-belfort-scam-allegations</link>
@@ -525,18 +537,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Six Charged in $20.7M NJ Healthcare Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud</guid>
-      <pubDate>Tue, 14 Jul 2026 05:38:50 GMT</pubDate>
-      <description>Six Charged in $20.7M NJ Healthcare Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-six-charged-in-207m-nj-healthcare-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Bloomberg: AI Boom Creates 19 New Billionaires</title>
