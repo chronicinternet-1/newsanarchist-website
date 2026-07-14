@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 00:57:59 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 00:57:59 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 01:03:59 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 01:03:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NSC Intel Chief Accused of Undermining Election Integrity</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-nsc-intel-chief-accused-of-undermining-election-integrity</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-nsc-intel-chief-accused-of-undermining-election-integrity</guid>
+      <pubDate>Tue, 14 Jul 2026 00:58:44 GMT</pubDate>
+      <description>NSC Intel Chief Accused of Undermining Election Integrity</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-nsc-intel-chief-accused-of-undermining-election-integrity.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pentagon Releases 40 New UAP Files</title>
       <link>https://newsanarchist.com/articles/2026-07-14-pentagon-releases-40-new-uap-files</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>LAPD Drops Flock Cameras Over Civil Liberties Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-13-lapd-drops-flock-cameras-over-civil-liberties-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-13-lapd-drops-flock-cameras-over-civil-liberties-concerns</guid>
-      <pubDate>Mon, 13 Jul 2026 19:17:42 GMT</pubDate>
-      <description>LAPD Drops Flock Cameras Over Civil Liberties Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-13-lapd-drops-flock-cameras-over-civil-liberties-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Brasil: Alvo de Disputa por Terras Raras</title>
