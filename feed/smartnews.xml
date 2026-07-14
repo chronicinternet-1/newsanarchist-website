@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Jul 2026 09:30:45 GMT</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 09:30:45 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 09:41:44 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 09:41:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Charges Bangladeshi National, NY Man in Separate Fraud Cases</title>
+      <link>https://newsanarchist.com/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases</guid>
+      <pubDate>Tue, 14 Jul 2026 09:41:21 GMT</pubDate>
+      <description>DOJ Charges Bangladeshi National, NY Man in Separate Fraud Cases</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>States Sue to Block Paramount-Warner Bros. Merger</title>
       <link>https://newsanarchist.com/articles/2026-07-14-states-sue-to-block-paramount-warner-bros-merger</link>
@@ -525,18 +537,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Charges Bangladeshi National, NY Man in Separate Fraud Cases</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases</guid>
-      <pubDate>Tue, 14 Jul 2026 04:38:17 GMT</pubDate>
-      <description>DOJ Charges Bangladeshi National, NY Man in Separate Fraud Cases</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-doj-charges-bangladeshi-national-ny-man-in-separate-fraud-cases.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Myanmar News: Latest Updates</title>
