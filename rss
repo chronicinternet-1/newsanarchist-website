@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 03:37:19 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 03:37:19 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 03:43:13 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 03:43:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Cameras Spark Warrantless Surveillance Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-flock-cameras-spark-warrantless-surveillance-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-flock-cameras-spark-warrantless-surveillance-concerns</guid>
+      <pubDate>Wed, 15 Jul 2026 03:37:56 GMT</pubDate>
+      <description>Flock Cameras Spark Warrantless Surveillance Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-flock-cameras-spark-warrantless-surveillance-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>California Tests Antitrust Muscle</title>
       <link>https://newsanarchist.com/articles/2026-07-15-california-tests-antitrust-muscle</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Research Challenges Prevailing Views</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-consciousness-research-challenges-prevailing-views</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-consciousness-research-challenges-prevailing-views</guid>
-      <pubDate>Tue, 14 Jul 2026 21:59:00 GMT</pubDate>
-      <description>Consciousness Research Challenges Prevailing Views</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-consciousness-research-challenges-prevailing-views.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Desafios Logísticos no Brasil: Como a Demanda de Biodiesel Afeta as Exportações de Farelo de Soja</title>
