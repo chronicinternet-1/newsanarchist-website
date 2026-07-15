@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 06:56:08 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 06:56:08 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 07:02:01 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 07:02:01 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Tightens Market Access Amid Foreign Interference Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns</guid>
+      <pubDate>Wed, 15 Jul 2026 07:00:25 GMT</pubDate>
+      <description>EU Tightens Market Access Amid Foreign Interference Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns.png"/>
+      <category>Money Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sloan Sabbith</dc:creator>
+    </item>
     <item>
       <title>HHS Recovers $5.56B, Bars 1,200 in Fraud Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-07-15-hhs-recovers-556b-bars-1200-in-fraud-crackdown</link>
@@ -611,18 +623,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>Illinois SAFE-T Act Under Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-illinois-safe-t-act-under-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-illinois-safe-t-act-under-scrutiny</guid>
-      <pubDate>Wed, 15 Jul 2026 01:05:10 GMT</pubDate>
-      <description>Illinois SAFE-T Act Under Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-illinois-safe-t-act-under-scrutiny.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>China Missile Test Raises Pacific Tensions</title>
       <link>https://newsanarchist.com/articles/2026-07-14-china-missile-test-raises-pacific-tensions</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-china-missile-test-raises-pacific-tensions</guid>
@@ -669,18 +669,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>EU Tightens Foreign Investment Screening</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-eu-tightens-foreign-investment-screening</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-eu-tightens-foreign-investment-screening</guid>
-      <pubDate>Tue, 14 Jul 2026 07:00:30 GMT</pubDate>
-      <description>EU Tightens Foreign Investment Screening</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-eu-tightens-foreign-investment-screening.png"/>
-      <category>Money Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
   </channel>
 </rss>
