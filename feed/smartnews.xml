@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 00:09:10 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 00:09:10 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:15:07 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 00:15:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Strikes Iran for Third Night</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-us-strikes-iran-for-third-night</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-strikes-iran-for-third-night</guid>
+      <pubDate>Wed, 15 Jul 2026 00:13:12 GMT</pubDate>
+      <description>US Strikes Iran for Third Night</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-strikes-iran-for-third-night.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>UFO Sightings Spark Interest in Alien Life</title>
       <link>https://newsanarchist.com/articles/2026-07-15-ufo-sightings-spark-interest-in-alien-life</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Junta's Conscript Labor Crisis</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-myanmar-juntas-conscript-labor-crisis</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-myanmar-juntas-conscript-labor-crisis</guid>
-      <pubDate>Tue, 14 Jul 2026 17:13:14 GMT</pubDate>
-      <description>Myanmar Junta's Conscript Labor Crisis</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-myanmar-juntas-conscript-labor-crisis.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Desafios Logísticos no Brasil: Como a Demanda de Biodiesel Afeta as Exportações de Farelo de Soja</title>
