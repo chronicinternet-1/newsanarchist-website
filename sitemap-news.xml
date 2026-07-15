@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-15-warrantless-surveillance-concerns-grow</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-15T13:44:09.820Z</news:publication_date>
+      <news:title>Warrantless Surveillance Concerns Grow</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-ai-healthcare-regulations-enforced</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -326,14 +334,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T08:55:00.350Z</news:publication_date>
       <news:title>SNAP Cuts Spark Fears of Fraud and Error</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-warrantless-surveillance-concerns-grow</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T08:40:47.284Z</news:publication_date>
-      <news:title>Warrantless Surveillance Concerns Grow</news:title>
     </news:news>
   </url>
   <url>
@@ -2150,22 +2150,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-13T14:42:01.772Z</news:publication_date>
       <news:title>Lindsey Graham&apos;s Legacy in Prison Reform</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-us-crypto-regulatory-shifts</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T13:48:58.882Z</news:publication_date>
-      <news:title>US Crypto Regulatory Shifts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-us-china-tensions-escalate</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T13:43:57.044Z</news:publication_date>
-      <news:title>US-China Tensions Escalate</news:title>
     </news:news>
   </url>
 </urlset>
