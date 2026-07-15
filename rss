@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 14:29:45 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 14:29:45 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 14:45:49 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 14:45:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>LAPD Drops Flock Surveillance Contract</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-lapd-drops-flock-surveillance-contract</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-lapd-drops-flock-surveillance-contract</guid>
+      <pubDate>Wed, 15 Jul 2026 14:44:39 GMT</pubDate>
+      <description>LAPD Drops Flock Surveillance Contract</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-lapd-drops-flock-surveillance-contract.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Chip Stocks Drop</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-chip-stocks-drop</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-chip-stocks-drop</guid>
+      <pubDate>Wed, 15 Jul 2026 14:42:40 GMT</pubDate>
+      <description>Chip Stocks Drop</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-chip-stocks-drop.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>China to Attend World AI Conference</title>
       <link>https://newsanarchist.com/articles/2026-07-15-china-to-attend-world-ai-conference</link>
@@ -609,18 +633,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>HHS-OIG Flags Medicare Skin Substitute Spending</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-hhs-oig-flags-medicare-skin-substitute-spending</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-hhs-oig-flags-medicare-skin-substitute-spending</guid>
-      <pubDate>Wed, 15 Jul 2026 07:54:25 GMT</pubDate>
-      <description>HHS-OIG Flags Medicare Skin Substitute Spending</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-hhs-oig-flags-medicare-skin-substitute-spending.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>EU Tightens Market Access Amid Foreign Interference Concerns</title>
