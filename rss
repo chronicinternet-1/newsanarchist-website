@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 23:03:39 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 23:03:39 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 23:09:27 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 23:09:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$10B SNAP Fraud Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-10b-snap-fraud-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-10b-snap-fraud-uncovered</guid>
+      <pubDate>Wed, 15 Jul 2026 23:03:55 GMT</pubDate>
+      <description>$10B SNAP Fraud Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-10b-snap-fraud-uncovered.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
       <link>https://newsanarchist.com/articles/2026-07-15-australia-seeks-pacific-security-pact</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Treasury Sanctions Ransomware Enablers</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-treasury-sanctions-ransomware-enablers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-treasury-sanctions-ransomware-enablers</guid>
-      <pubDate>Wed, 15 Jul 2026 12:20:17 GMT</pubDate>
-      <description>Treasury Sanctions Ransomware Enablers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-treasury-sanctions-ransomware-enablers.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
