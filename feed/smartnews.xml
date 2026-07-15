@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 22:31:22 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 22:31:22 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 22:47:08 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 22:47:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Trade Fraud Task Force Recovers Over $1B</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b</guid>
+      <pubDate>Wed, 15 Jul 2026 22:46:32 GMT</pubDate>
+      <description>US Trade Fraud Task Force Recovers Over $1B</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Xi Jinping to Attend 2026 World AI Conference</title>
       <link>https://newsanarchist.com/articles/2026-07-15-xi-jinping-to-attend-2026-world-ai-conference</link>
@@ -309,18 +321,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Trade Fraud Task Force Recovers Over $1B</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b</guid>
-      <pubDate>Wed, 15 Jul 2026 17:44:10 GMT</pubDate>
-      <description>US Trade Fraud Task Force Recovers Over $1B</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>DeFi Hack Losses Remain Below 2025 Levels</title>
