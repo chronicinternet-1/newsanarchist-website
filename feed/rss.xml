@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 18:14:10 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 18:14:10 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 18:19:55 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 18:19:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Develops New Crypto Rules</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-sec-develops-new-crypto-rules</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-sec-develops-new-crypto-rules</guid>
+      <pubDate>Wed, 15 Jul 2026 18:18:24 GMT</pubDate>
+      <description>SEC Develops New Crypto Rules</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-sec-develops-new-crypto-rules.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Cold Cases Solved: Recent Arrests in Atlanta and Round Lake Beach</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-cold-cases-solved-recent-arrests-in-atlanta-and-round-lake-beach</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-cold-cases-solved-recent-arrests-in-atlanta-and-round-lake-beach</guid>
+      <pubDate>Wed, 15 Jul 2026 18:14:59 GMT</pubDate>
+      <description>Cold Cases Solved: Recent Arrests in Atlanta and Round Lake Beach</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-cold-cases-solved-recent-arrests-in-atlanta-and-round-lake-beach.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Global Energy Shifts</title>
       <link>https://newsanarchist.com/articles/2026-07-15-global-energy-shifts</link>
@@ -609,18 +633,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>GOP Lawmakers Push for Grant Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</guid>
-      <pubDate>Wed, 15 Jul 2026 08:17:55 GMT</pubDate>
-      <description>GOP Lawmakers Push for Grant Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>EU Tightens Market Access Amid Foreign Interference Concerns</title>
