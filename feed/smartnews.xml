@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 08:14:34 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 08:14:34 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:20:25 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 08:20:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>GOP Lawmakers Push for Grant Transparency</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</guid>
+      <pubDate>Wed, 15 Jul 2026 08:17:55 GMT</pubDate>
+      <description>GOP Lawmakers Push for Grant Transparency</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>US Crypto Regulation Heats Up</title>
       <link>https://newsanarchist.com/articles/2026-07-15-us-crypto-regulation-heats-up</link>
@@ -417,18 +429,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>GOP Lawmakers Push for Grant Transparency</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency</guid>
-      <pubDate>Wed, 15 Jul 2026 04:15:34 GMT</pubDate>
-      <description>GOP Lawmakers Push for Grant Transparency</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-gop-lawmakers-push-for-grant-transparency.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>AI Surpasses Human Creativity</title>
