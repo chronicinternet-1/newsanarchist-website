@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 04:55:05 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 04:55:05 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:06:08 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 05:06:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran War Reshapes Geopolitics</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-iran-war-reshapes-geopolitics</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-iran-war-reshapes-geopolitics</guid>
+      <pubDate>Wed, 15 Jul 2026 05:05:08 GMT</pubDate>
+      <description>Iran War Reshapes Geopolitics</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-iran-war-reshapes-geopolitics.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>DOJ Charges Russians in $63M Cybercrime Scheme</title>
       <link>https://newsanarchist.com/articles/2026-07-15-doj-charges-russians-in-63m-cybercrime-scheme</link>
@@ -525,18 +537,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Iran War Reshapes Geopolitics</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-iran-war-reshapes-geopolitics</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-iran-war-reshapes-geopolitics</guid>
-      <pubDate>Wed, 15 Jul 2026 00:02:28 GMT</pubDate>
-      <description>Iran War Reshapes Geopolitics</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-iran-war-reshapes-geopolitics.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>SNAP Error Rates Spark Fears of Fraud and Abuse</title>
