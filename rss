@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 09:21:59 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 09:21:59 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 09:27:55 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 09:27:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Civil War Intensifies</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-myanmar-civil-war-intensifies</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-myanmar-civil-war-intensifies</guid>
+      <pubDate>Wed, 15 Jul 2026 09:22:05 GMT</pubDate>
+      <description>Myanmar Civil War Intensifies</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-myanmar-civil-war-intensifies.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Whistleblower Reveals Epstein Links to US Commerce Secretary</title>
       <link>https://newsanarchist.com/articles/2026-07-15-whistleblower-reveals-epstein-links-to-us-commerce-secretary</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Charlie Skinner</dc:creator>
-    </item>
-    <item>
-      <title>SNAP Cuts Spark Fraud Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-snap-cuts-spark-fraud-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-snap-cuts-spark-fraud-concerns</guid>
-      <pubDate>Wed, 15 Jul 2026 03:52:23 GMT</pubDate>
-      <description>SNAP Cuts Spark Fraud Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-snap-cuts-spark-fraud-concerns.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>日本のAI開発とプライバシー</title>
