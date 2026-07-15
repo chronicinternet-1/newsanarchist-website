@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 22:19:45 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 22:19:45 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 22:25:35 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 22:25:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>AI-Driven DeFi Hacks Target Smaller Protocols</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-ai-driven-defi-hacks-target-smaller-protocols</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-ai-driven-defi-hacks-target-smaller-protocols</guid>
+      <pubDate>Wed, 15 Jul 2026 22:20:35 GMT</pubDate>
+      <description>AI-Driven DeFi Hacks Target Smaller Protocols</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-ai-driven-defi-hacks-target-smaller-protocols.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Justice Reform Under Scrutiny</title>
       <link>https://newsanarchist.com/articles/2026-07-15-justice-reform-under-scrutiny</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit Sparks Debate on Sanctions and Security</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-nato-summit-sparks-debate-on-sanctions-and-security</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-nato-summit-sparks-debate-on-sanctions-and-security</guid>
-      <pubDate>Wed, 15 Jul 2026 11:08:19 GMT</pubDate>
-      <description>NATO Summit Sparks Debate on Sanctions and Security</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-nato-summit-sparks-debate-on-sanctions-and-security.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
