@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 05:23:52 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 05:23:52 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:39:50 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 05:39:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NSA Reveals Ongoing Russian Cyber Threats</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-nsa-reveals-ongoing-russian-cyber-threats</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-nsa-reveals-ongoing-russian-cyber-threats</guid>
+      <pubDate>Wed, 15 Jul 2026 05:38:53 GMT</pubDate>
+      <description>NSA Reveals Ongoing Russian Cyber Threats</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-nsa-reveals-ongoing-russian-cyber-threats.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Federal Reserve Issues Enforcement Action</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-federal-reserve-issues-enforcement-action</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-federal-reserve-issues-enforcement-action</guid>
+      <pubDate>Wed, 15 Jul 2026 05:37:42 GMT</pubDate>
+      <description>Federal Reserve Issues Enforcement Action</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-federal-reserve-issues-enforcement-action.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Taiwan Strait Tensions Escalate</title>
       <link>https://newsanarchist.com/articles/2026-07-15-taiwan-strait-tensions-escalate</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>California Tests Antitrust Muscle</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-california-tests-antitrust-muscle</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-california-tests-antitrust-muscle</guid>
-      <pubDate>Tue, 14 Jul 2026 23:34:42 GMT</pubDate>
-      <description>California Tests Antitrust Muscle</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-california-tests-antitrust-muscle.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Whitehouse Releases Outstanding DOJ Oversight Requests</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests</guid>
-      <pubDate>Tue, 14 Jul 2026 23:12:45 GMT</pubDate>
-      <description>Whitehouse Releases Outstanding DOJ Oversight Requests</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-whitehouse-releases-outstanding-doj-oversight-requests.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>China Missile Test Raises Pacific Tensions</title>
