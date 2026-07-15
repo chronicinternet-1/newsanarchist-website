@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 20:26:09 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 20:26:09 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 20:31:52 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 20:31:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi Jinping Promotes Military Officers, Taps New Head of Disciplinary Body</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-xi-jinping-promotes-military-officers-taps-new-head-of-disciplinary-body</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-xi-jinping-promotes-military-officers-taps-new-head-of-disciplinary-body</guid>
+      <pubDate>Wed, 15 Jul 2026 20:28:44 GMT</pubDate>
+      <description>Xi Jinping Promotes Military Officers, Taps New Head of Disciplinary Body</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-xi-jinping-promotes-military-officers-taps-new-head-of-disciplinary-body.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>ICE May Have Trove of Documents on Agents at Polling Places</title>
       <link>https://newsanarchist.com/articles/2026-07-15-ice-may-have-trove-of-documents-on-agents-at-polling-places</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>AARO Leads Investigation into UFO Sightings</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-aaro-leads-investigation-into-ufo-sightings</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-aaro-leads-investigation-into-ufo-sightings</guid>
-      <pubDate>Wed, 15 Jul 2026 11:13:37 GMT</pubDate>
-      <description>AARO Leads Investigation into UFO Sightings</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-aaro-leads-investigation-into-ufo-sightings.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
