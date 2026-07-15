@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 12:15:27 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 12:15:27 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 12:21:24 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 12:21:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Treasury Sanctions Ransomware Enablers</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-treasury-sanctions-ransomware-enablers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-treasury-sanctions-ransomware-enablers</guid>
+      <pubDate>Wed, 15 Jul 2026 12:20:17 GMT</pubDate>
+      <description>Treasury Sanctions Ransomware Enablers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-treasury-sanctions-ransomware-enablers.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>DeFi Hack Losses Remain Below 2025 Levels</title>
       <link>https://newsanarchist.com/articles/2026-07-15-defi-hack-losses-remain-below-2025-levels</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Cold Cases Solved: Recent Arrests in 1999 Atlanta Murder and 2003 Round Lake Beach Infant Death</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-cold-cases-solved-recent-arrests-in-1999-atlanta-murder-and-2003-round-lake-beac</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-cold-cases-solved-recent-arrests-in-1999-atlanta-murder-and-2003-round-lake-beac</guid>
-      <pubDate>Wed, 15 Jul 2026 06:07:57 GMT</pubDate>
-      <description>Cold Cases Solved: Recent Arrests in 1999 Atlanta Murder and 2003 Round Lake Beach Infant Death</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-cold-cases-solved-recent-arrests-in-1999-atlanta-murder-and-2003-round-lake-beac.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Corruption in India: A Persistent Issue</title>
