@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 07:13:40 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 07:13:40 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 07:19:26 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 07:19:26 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Oversight Requests Released</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-doj-oversight-requests-released</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-doj-oversight-requests-released</guid>
+      <pubDate>Wed, 15 Jul 2026 07:17:29 GMT</pubDate>
+      <description>DOJ Oversight Requests Released</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-doj-oversight-requests-released.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>DeFi Hack Losses Remain Below 2025 Levels</title>
       <link>https://newsanarchist.com/articles/2026-07-15-defi-hack-losses-remain-below-2025-levels</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Kenji Mori</dc:creator>
-    </item>
-    <item>
-      <title>HHS Recovers $5.56B in Fraud Crackdown</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-hhs-recovers-556b-in-fraud-crackdown</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-hhs-recovers-556b-in-fraud-crackdown</guid>
-      <pubDate>Wed, 15 Jul 2026 01:51:12 GMT</pubDate>
-      <description>HHS Recovers $5.56B in Fraud Crackdown</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-hhs-recovers-556b-in-fraud-crackdown.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>China Missile Test Raises Pacific Tensions</title>

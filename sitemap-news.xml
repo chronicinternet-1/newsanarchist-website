@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-15-doj-oversight-requests-released</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-15T07:17:29.917Z</news:publication_date>
+      <news:title>DOJ Oversight Requests Released</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-defi-hack-losses-remain-below-2025-levels</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2246,14 +2254,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-13T07:26:05.769Z</news:publication_date>
       <news:title>Medicare Hospice Care Fraud Alert</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-cbs-news-star-targeted-by-sophisticated-phone-scammer</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T07:14:25.172Z</news:publication_date>
-      <news:title>CBS News Star Targeted by Sophisticated Phone Scammer</news:title>
     </news:news>
   </url>
 </urlset>
