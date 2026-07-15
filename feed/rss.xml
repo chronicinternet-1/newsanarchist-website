@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 10:51:27 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 10:51:27 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 10:57:21 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 10:57:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Control Units Ineffective</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-medicaid-fraud-control-units-ineffective</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-medicaid-fraud-control-units-ineffective</guid>
+      <pubDate>Wed, 15 Jul 2026 10:56:02 GMT</pubDate>
+      <description>Medicaid Fraud Control Units Ineffective</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-medicaid-fraud-control-units-ineffective.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>NSA Trains Japanese Spies, Provides XKeyscore Surveillance System</title>
       <link>https://newsanarchist.com/articles/2026-07-15-nsa-trains-japanese-spies-provides-xkeyscore-surveillance-system</link>
@@ -537,18 +549,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Control Units Ineffective</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-medicaid-fraud-control-units-ineffective</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-medicaid-fraud-control-units-ineffective</guid>
-      <pubDate>Wed, 15 Jul 2026 05:53:24 GMT</pubDate>
-      <description>Medicaid Fraud Control Units Ineffective</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-medicaid-fraud-control-units-ineffective.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>NSA Reveals Ongoing Russian Cyber Threats</title>
