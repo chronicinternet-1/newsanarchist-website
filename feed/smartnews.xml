@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 15:30:34 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 15:30:34 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 15:46:24 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 15:46:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC and CFTC Enforcement Updates</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-sec-and-cftc-enforcement-updates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-sec-and-cftc-enforcement-updates</guid>
+      <pubDate>Wed, 15 Jul 2026 15:43:17 GMT</pubDate>
+      <description>SEC and CFTC Enforcement Updates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-sec-and-cftc-enforcement-updates.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Myanmar Civil War Escalation</title>
       <link>https://newsanarchist.com/articles/2026-07-15-myanmar-civil-war-escalation</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Imposes New Sanctions on Iran and Russia</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia</guid>
-      <pubDate>Wed, 15 Jul 2026 09:07:17 GMT</pubDate>
-      <description>US Imposes New Sanctions on Iran and Russia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
