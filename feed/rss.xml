@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 02:55:46 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 02:55:46 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 03:02:08 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 03:02:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Courage in the Face of Death</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-courage-in-the-face-of-death</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-courage-in-the-face-of-death</guid>
+      <pubDate>Wed, 15 Jul 2026 03:01:35 GMT</pubDate>
+      <description>Courage in the Face of Death</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-courage-in-the-face-of-death.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>HHS Recovers Billions, Bars 1,200 in Fraud Crackdown</title>
       <link>https://newsanarchist.com/articles/2026-07-15-hhs-recovers-billions-bars-1200-in-fraud-crackdown</link>
@@ -225,18 +237,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Courage in the face of death</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-courage-in-the-face-of-death</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-courage-in-the-face-of-death</guid>
-      <pubDate>Wed, 15 Jul 2026 01:00:10 GMT</pubDate>
-      <description>Courage in the face of death</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-courage-in-the-face-of-death.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Medicaid Fraud Control Units Underperforming</title>
