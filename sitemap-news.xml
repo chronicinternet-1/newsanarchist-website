@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-15-nigeria-reps-probe-revenue-debts</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-15T09:00:23.382Z</news:publication_date>
+      <news:title>Nigeria Reps Probe Revenue Debts</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-snap-cuts-spark-fears-of-fraud-and-error</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -2254,14 +2262,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-13T10:37:49.621Z</news:publication_date>
       <news:title>Heatwave Death Toll</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-13-nigeria-senate-rejects-probe</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-13T09:00:45.937Z</news:publication_date>
-      <news:title>Nigeria Senate Rejects Probe</news:title>
     </news:news>
   </url>
 </urlset>
