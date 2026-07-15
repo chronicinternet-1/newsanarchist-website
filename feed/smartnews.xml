@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 07:57:08 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 07:57:08 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:02:57 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 08:02:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Regulators Gain New Powers Over Cloud Providers</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-uk-regulators-gain-new-powers-over-cloud-providers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-uk-regulators-gain-new-powers-over-cloud-providers</guid>
+      <pubDate>Wed, 15 Jul 2026 08:00:27 GMT</pubDate>
+      <description>UK Regulators Gain New Powers Over Cloud Providers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-uk-regulators-gain-new-powers-over-cloud-providers.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>James Whitfield</dc:creator>
+    </item>
     <item>
       <title>HHS-OIG Flags Medicare Skin Substitute Spending</title>
       <link>https://newsanarchist.com/articles/2026-07-15-hhs-oig-flags-medicare-skin-substitute-spending</link>
@@ -611,18 +623,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>Prosecutorial Misconduct Under Scrutiny</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-prosecutorial-misconduct-under-scrutiny</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-prosecutorial-misconduct-under-scrutiny</guid>
-      <pubDate>Wed, 15 Jul 2026 02:05:50 GMT</pubDate>
-      <description>Prosecutorial Misconduct Under Scrutiny</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-prosecutorial-misconduct-under-scrutiny.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>日本のAI開発とプライバシー</title>
       <link>https://newsanarchist.com/articles/2026-07-15-ai</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-ai</guid>
@@ -669,18 +669,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>UK Regulators Gain Powers Over Tech Firms</title>
-      <link>https://newsanarchist.com/articles/2026-07-14-uk-regulators-gain-powers-over-tech-firms</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-14-uk-regulators-gain-powers-over-tech-firms</guid>
-      <pubDate>Tue, 14 Jul 2026 08:00:28 GMT</pubDate>
-      <description>UK Regulators Gain Powers Over Tech Firms</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-14-uk-regulators-gain-powers-over-tech-firms.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>James Whitfield</dc:creator>
     </item>
   </channel>
 </rss>
