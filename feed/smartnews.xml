@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2026 14:45:49 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 14:45:49 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 15:01:41 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 15:01:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Indicts Russians in $63M Cybercrime Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-07-15-us-indicts-russians-in-63m-cybercrime-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-indicts-russians-in-63m-cybercrime-scheme</guid>
+      <pubDate>Wed, 15 Jul 2026 14:58:52 GMT</pubDate>
+      <description>US Indicts Russians in $63M Cybercrime Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-indicts-russians-in-63m-cybercrime-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>LAPD Drops Flock Surveillance Contract</title>
       <link>https://newsanarchist.com/articles/2026-07-15-lapd-drops-flock-surveillance-contract</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Global Shift to Renewables Accelerates</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-global-shift-to-renewables-accelerates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-global-shift-to-renewables-accelerates</guid>
-      <pubDate>Wed, 15 Jul 2026 08:06:40 GMT</pubDate>
-      <description>Global Shift to Renewables Accelerates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-global-shift-to-renewables-accelerates.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>UK Regulators Gain New Powers Over Cloud Providers</title>
