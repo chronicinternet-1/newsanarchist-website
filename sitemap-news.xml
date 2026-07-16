@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-uk-regulators-extend-oversight-to-big-cloud-providers</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-07-16T08:00:22.899Z</news:publication_date>
+      <news:title>UK Regulators Extend Oversight to Big Cloud Providers</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-eff-warns-of-internet-age-gating</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1710,30 +1718,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T08:07:59.685Z</news:publication_date>
       <news:title>China Launches J-35 From Fujian Carrier</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-gabbard-releases-declassified-biolab-documents</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T08:03:14.032Z</news:publication_date>
-      <news:title>Gabbard Releases Declassified Biolab Documents</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-uk-regulators-gain-powers-over-tech-firms</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-07-14T08:00:28.119Z</news:publication_date>
-      <news:title>UK Regulators Gain Powers Over Tech Firms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-crypto-market-sees-drop-in-defi-hack-losses-despite-ai-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T07:59:19.139Z</news:publication_date>
-      <news:title>Crypto Market Sees Drop in DeFi Hack Losses Despite AI Concerns</news:title>
     </news:news>
   </url>
 </urlset>
