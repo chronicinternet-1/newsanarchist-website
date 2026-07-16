@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-grassley-accuses-jack-smith-of-spying-on-lawmakers</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T10:34:08.789Z</news:publication_date>
+      <news:title>Grassley Accuses Jack Smith of Spying on Lawmakers</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-wrongful-convictions-face-new-hurdles</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1678,14 +1686,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T10:41:56.722Z</news:publication_date>
       <news:title>Six Charged in $20.7M NJ Healthcare Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-jordan-belfort-scam-allegations</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T10:27:55.041Z</news:publication_date>
-      <news:title>Jordan Belfort Scam Allegations</news:title>
     </news:news>
   </url>
 </urlset>
