@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-10b-snap-fraud-uncovered-1000-arrests-made</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T08:09:25.733Z</news:publication_date>
+      <news:title>$10B SNAP Fraud Uncovered, 1,000 Arrests Made</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-uk-regulators-extend-oversight-to-big-cloud-providers</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
@@ -1710,14 +1718,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T08:26:49.957Z</news:publication_date>
       <news:title>Regencell Bioscience Under DOJ Probe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-china-launches-j-35-from-fujian-carrier</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T08:07:59.685Z</news:publication_date>
-      <news:title>China Launches J-35 From Fujian Carrier</news:title>
     </news:news>
   </url>
 </urlset>

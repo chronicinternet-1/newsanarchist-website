@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:05:12 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 08:05:12 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 08:11:22 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 08:11:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$10B SNAP Fraud Uncovered, 1,000 Arrests Made</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-10b-snap-fraud-uncovered-1000-arrests-made</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-10b-snap-fraud-uncovered-1000-arrests-made</guid>
+      <pubDate>Thu, 16 Jul 2026 08:09:25 GMT</pubDate>
+      <description>$10B SNAP Fraud Uncovered, 1,000 Arrests Made</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-10b-snap-fraud-uncovered-1000-arrests-made.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>UK Regulators Extend Oversight to Big Cloud Providers</title>
       <link>https://newsanarchist.com/articles/2026-07-16-uk-regulators-extend-oversight-to-big-cloud-providers</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Lawmakers Urged to Act on Armed Police Drones</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-lawmakers-urged-to-act-on-armed-police-drones</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-lawmakers-urged-to-act-on-armed-police-drones</guid>
-      <pubDate>Wed, 15 Jul 2026 23:50:30 GMT</pubDate>
-      <description>Lawmakers Urged to Act on Armed Police Drones</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-lawmakers-urged-to-act-on-armed-police-drones.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
