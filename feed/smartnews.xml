@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 15:26:38 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 15:26:38 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:37:39 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 15:37:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Blanche Faces Questions on Epstein Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-blanche-faces-questions-on-epstein-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-blanche-faces-questions-on-epstein-files</guid>
+      <pubDate>Thu, 16 Jul 2026 15:36:55 GMT</pubDate>
+      <description>Blanche Faces Questions on Epstein Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-blanche-faces-questions-on-epstein-files.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pennsylvania Supreme Court Ruling Hinders Wrongful Conviction Relief</title>
       <link>https://newsanarchist.com/articles/2026-07-16-pennsylvania-supreme-court-ruling-hinders-wrongful-conviction-relief</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Expands to Grocery Stores</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-facial-recognition-expands-to-grocery-stores</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-facial-recognition-expands-to-grocery-stores</guid>
-      <pubDate>Thu, 16 Jul 2026 04:53:15 GMT</pubDate>
-      <description>Facial Recognition Expands to Grocery Stores</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-facial-recognition-expands-to-grocery-stores.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis: A Persistent Issue</title>
