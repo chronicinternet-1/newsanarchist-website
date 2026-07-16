@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-crisis-in-minnesota</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T01:05:30.900Z</news:publication_date>
+      <news:title>Medicaid Fraud Crisis in Minnesota</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-gottheimer-bill-requires-facial-id-for-online-sportsbooks</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1670,22 +1678,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T01:23:38.520Z</news:publication_date>
       <news:title>FTC Signals Liability for Automated Ad Platforms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-myanmar-aid-cuts-have-deadly-consequences</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T01:04:07.060Z</news:publication_date>
-      <news:title>Myanmar Aid Cuts Have Deadly Consequences</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-pentagon-releases-40-new-uap-files</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T00:55:22.220Z</news:publication_date>
-      <news:title>Pentagon Releases 40 New UAP Files</news:title>
     </news:news>
   </url>
 </urlset>
