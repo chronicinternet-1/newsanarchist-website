@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 04:54:29 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 04:54:29 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 05:11:08 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 05:11:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Scheme Uncovered in Ohio</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-scheme-uncovered-in-ohio</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-scheme-uncovered-in-ohio</guid>
+      <pubDate>Thu, 16 Jul 2026 05:07:44 GMT</pubDate>
+      <description>Medicaid Fraud Scheme Uncovered in Ohio</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-medicaid-fraud-scheme-uncovered-in-ohio.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Expands to Grocery Stores</title>
       <link>https://newsanarchist.com/articles/2026-07-16-facial-recognition-expands-to-grocery-stores</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>China Seen More Favorably Than US in Many Nations</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-china-seen-more-favorably-than-us-in-many-nations</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-china-seen-more-favorably-than-us-in-many-nations</guid>
-      <pubDate>Wed, 15 Jul 2026 22:14:23 GMT</pubDate>
-      <description>China Seen More Favorably Than US in Many Nations</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-china-seen-more-favorably-than-us-in-many-nations.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
