@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 14:31:15 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 14:31:15 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 14:37:14 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 14:37:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Congressional Oversight and Controversy</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-congressional-oversight-and-controversy</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-congressional-oversight-and-controversy</guid>
+      <pubDate>Thu, 16 Jul 2026 14:36:14 GMT</pubDate>
+      <description>Congressional Oversight and Controversy</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-congressional-oversight-and-controversy.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Navy Pilot Recalls UFO Encounter</title>
       <link>https://newsanarchist.com/articles/2026-07-16-navy-pilot-recalls-ufo-encounter</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>China's Global Influence Grows</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-chinas-global-influence-grows</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-chinas-global-influence-grows</guid>
-      <pubDate>Thu, 16 Jul 2026 03:16:59 GMT</pubDate>
-      <description>China's Global Influence Grows</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-chinas-global-influence-grows.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>東武池袋駅にウォークスルー改札登場</title>
