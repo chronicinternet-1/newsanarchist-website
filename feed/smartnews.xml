@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 18:59:49 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 18:59:49 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 19:05:51 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 19:05:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ACLU Challenges Flock Cameras</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</guid>
+      <pubDate>Thu, 16 Jul 2026 19:01:18 GMT</pubDate>
+      <description>ACLU Challenges Flock Cameras</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-aclu-challenges-flock-cameras.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Paramount-Warner Bros Merger Faces New Antitrust Challenges</title>
       <link>https://newsanarchist.com/articles/2026-07-16-paramount-warner-bros-merger-faces-new-antitrust-challenges</link>
@@ -81,18 +93,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>ACLU Challenges Flock Cameras</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:34 GMT</pubDate>
-      <description>ACLU Challenges Flock Cameras</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-aclu-challenges-flock-cameras.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>FTC Warns of AI Scams, Ramps Up Enforcement</title>
