@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 01:09:39 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 01:09:39 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 01:15:24 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 01:15:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Dr. Phil Reveals Secret UFO Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-dr-phil-reveals-secret-ufo-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-dr-phil-reveals-secret-ufo-files</guid>
+      <pubDate>Thu, 16 Jul 2026 01:14:14 GMT</pubDate>
+      <description>Dr. Phil Reveals Secret UFO Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-dr-phil-reveals-secret-ufo-files.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Crisis in Minnesota</title>
       <link>https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-crisis-in-minnesota</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>China-Russia Joint Sea-2026 Concludes</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-china-russia-joint-sea-2026-concludes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-china-russia-joint-sea-2026-concludes</guid>
-      <pubDate>Wed, 15 Jul 2026 16:26:29 GMT</pubDate>
-      <description>China-Russia Joint Sea-2026 Concludes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-china-russia-joint-sea-2026-concludes.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
