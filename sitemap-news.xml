@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-eff-warns-of-internet-age-gating</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T07:54:47.724Z</news:publication_date>
+      <news:title>EFF Warns of Internet Age-Gating</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-trade-fraud-task-force-recovers-over-1bn</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1726,22 +1734,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T07:59:19.139Z</news:publication_date>
       <news:title>Crypto Market Sees Drop in DeFi Hack Losses Despite AI Concerns</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-china-us-relations-see-new-developments</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T07:53:41.667Z</news:publication_date>
-      <news:title>China-US Relations See New Developments</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-us-justice-system-faces-criticism-amidst-recent-developments</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T07:53:35.634Z</news:publication_date>
-      <news:title>US Justice System Faces Criticism Amidst Recent Developments</news:title>
     </news:news>
   </url>
 </urlset>
