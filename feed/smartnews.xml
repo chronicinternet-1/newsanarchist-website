@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 02:55:50 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 02:55:50 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 03:06:46 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 03:06:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>$10B SNAP Fraud Uncovered</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-10b-snap-fraud-uncovered</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-10b-snap-fraud-uncovered</guid>
+      <pubDate>Thu, 16 Jul 2026 03:06:28 GMT</pubDate>
+      <description>$10B SNAP Fraud Uncovered</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-10b-snap-fraud-uncovered.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Warrantless Surveillance Program Expires</title>
       <link>https://newsanarchist.com/articles/2026-07-16-warrantless-surveillance-program-expires</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Imposes New Sanctions on Iran and Russia</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia</guid>
-      <pubDate>Wed, 15 Jul 2026 19:12:45 GMT</pubDate>
-      <description>US Imposes New Sanctions on Iran and Russia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
