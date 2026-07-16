@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 10:40:43 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 10:40:43 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 10:56:49 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 10:56:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Trade Fraud Task Force Tops $1 Billion</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-us-trade-fraud-task-force-tops-1-billion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-us-trade-fraud-task-force-tops-1-billion</guid>
+      <pubDate>Thu, 16 Jul 2026 10:52:32 GMT</pubDate>
+      <description>US Trade Fraud Task Force Tops $1 Billion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-us-trade-fraud-task-force-tops-1-billion.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Xi Jinping Promotes Military Officers Amid Rebuilding Efforts</title>
       <link>https://newsanarchist.com/articles/2026-07-16-xi-jinping-promotes-military-officers-amid-rebuilding-efforts</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan's War Economy Fuels Conflict</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-sudans-war-economy-fuels-conflict</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-sudans-war-economy-fuels-conflict</guid>
-      <pubDate>Thu, 16 Jul 2026 01:31:23 GMT</pubDate>
-      <description>Sudan's War Economy Fuels Conflict</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-sudans-war-economy-fuels-conflict.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
