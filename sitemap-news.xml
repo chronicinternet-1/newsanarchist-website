@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-uk-gov-reverses-course-on-vpn-age-gating</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T21:02:12.430Z</news:publication_date>
+      <news:title>UK Gov Reverses Course on VPN Age-Gating</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-ftc-warns-of-ai-scams-ramps-up-enforcement</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1622,22 +1630,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T21:11:36.773Z</news:publication_date>
       <news:title>DOJ Obtains Texts from 44 Congress Members</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-new-forensic-evidence-in-high-profile-cases</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T21:03:04.508Z</news:publication_date>
-      <news:title>New Forensic Evidence in High-Profile Cases</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-nato-summit-convenes-amid-escalations</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T21:00:51.419Z</news:publication_date>
-      <news:title>NATO Summit Convenes Amid Escalations</news:title>
     </news:news>
   </url>
 </urlset>
