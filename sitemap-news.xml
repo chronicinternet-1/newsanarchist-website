@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-ftc-enforcement-updates</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T02:48:27.498Z</news:publication_date>
+      <news:title>FTC Enforcement Updates</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-myanmar-civil-war-asean-outreach-and-junta-resistance</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1662,14 +1670,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T02:51:12.278Z</news:publication_date>
       <news:title>China Allocates $4.4M for Emergency Recovery</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-ny-man-charged-with-conspiracy-wire-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T02:37:11.393Z</news:publication_date>
-      <news:title>NY Man Charged with Conspiracy, Wire Fraud</news:title>
     </news:news>
   </url>
 </urlset>
