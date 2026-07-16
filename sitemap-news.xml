@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-ostium-loses-18m-in-oracle-attack</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T22:35:55.128Z</news:publication_date>
+      <news:title>Ostium Loses $18M in Oracle Attack</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-illinois-enacts-legislation-for-wrongful-imprisonment-restitution</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1510,22 +1518,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T22:49:27.229Z</news:publication_date>
       <news:title>HHS Recovers $5.56B in Fraud Crackdown</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-us-data-privacy-laws-evolve</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T22:34:38.526Z</news:publication_date>
-      <news:title>US Data Privacy Laws Evolve</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-friendly-fraud-on-the-rise</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T22:34:12.427Z</news:publication_date>
-      <news:title>Friendly Fraud on the Rise</news:title>
     </news:news>
   </url>
 </urlset>
