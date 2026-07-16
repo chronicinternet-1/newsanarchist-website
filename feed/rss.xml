@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 06:55:22 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 06:55:22 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 07:01:37 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 07:01:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Unveils Digital Euro Regulations</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-eu-unveils-digital-euro-regulations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-eu-unveils-digital-euro-regulations</guid>
+      <pubDate>Thu, 16 Jul 2026 07:00:21 GMT</pubDate>
+      <description>EU Unveils Digital Euro Regulations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-eu-unveils-digital-euro-regulations.png"/>
+      <category>Money Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sloan Sabbith</dc:creator>
+    </item>
     <item>
       <title>Flock Cameras Spark Surveillance Debate</title>
       <link>https://newsanarchist.com/articles/2026-07-16-flock-cameras-spark-surveillance-debate</link>
@@ -611,18 +623,6 @@
       <dc:creator>Jim Harper</dc:creator>
     </item>
     <item>
-      <title>Rep. Keith Self Proposes Bill To Bar Federal Agencies From Obtaining Flock Surveillance Data Without A Warrant</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-rep-keith-self-proposes-bill-to-bar-federal-agencies-from-obtaining-flock-survei</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-rep-keith-self-proposes-bill-to-bar-federal-agencies-from-obtaining-flock-survei</guid>
-      <pubDate>Wed, 15 Jul 2026 22:49:54 GMT</pubDate>
-      <description>Rep. Keith Self Proposes Bill To Bar Federal Agencies From Obtaining Flock Surveillance Data Without A Warrant</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-rep-keith-self-proposes-bill-to-bar-federal-agencies-from-obtaining-flock-survei.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
       <link>https://newsanarchist.com/articles/2026-07-15-brasil-visa-liderar-em-terras-raras-em-15-anos</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-brasil-visa-liderar-em-terras-raras-em-15-anos</guid>
@@ -645,18 +645,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>EU Tightens Market Access Amid Foreign Interference Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns</guid>
-      <pubDate>Wed, 15 Jul 2026 07:00:25 GMT</pubDate>
-      <description>EU Tightens Market Access Amid Foreign Interference Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-eu-tightens-market-access-amid-foreign-interference-concerns.png"/>
-      <category>Money Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
     <item>
       <title>UK Regulators Gain Powers Over Tech Firms</title>
