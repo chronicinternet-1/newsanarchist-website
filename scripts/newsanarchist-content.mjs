@@ -23,6 +23,8 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { detectAndFlagDuplicates } from './na-duplicate-detector.mjs';
+// Hub & Spoke pilot (Money & Markets + Financial Fraud only) — see hub-content.mjs header.
+import { HUB_CONTENT, HUB_CSS, articleMethodologyBlock } from './hub-content.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_DIR = path.resolve(__dirname, '../newsanarchist-website');
@@ -4017,6 +4019,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 <div class="na-body">
 <main>
 <div class="na-page-head"><span>📂</span> ${label}${pageNum > 1 ? ` — Page ${pageNum}` : ''}</div>
+${pageNum === 1 && HUB_CONTENT[cat] ? `<style>${HUB_CSS}</style>${HUB_CONTENT[cat]}` : ''}
 ${naSearchBlock(slug, 'Search ' + label + '...')}
 <div class="na-3col">${cardsHTML}</div>
 ${paginationHTML}
