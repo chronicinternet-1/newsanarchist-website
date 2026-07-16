@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 10:34:24 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 10:34:24 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 10:40:43 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 10:40:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Xi Jinping Promotes Military Officers Amid Rebuilding Efforts</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-xi-jinping-promotes-military-officers-amid-rebuilding-efforts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-xi-jinping-promotes-military-officers-amid-rebuilding-efforts</guid>
+      <pubDate>Thu, 16 Jul 2026 10:35:34 GMT</pubDate>
+      <description>Xi Jinping Promotes Military Officers Amid Rebuilding Efforts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-xi-jinping-promotes-military-officers-amid-rebuilding-efforts.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Grassley Accuses Jack Smith of Spying on Lawmakers</title>
       <link>https://newsanarchist.com/articles/2026-07-16-grassley-accuses-jack-smith-of-spying-on-lawmakers</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Whistleblower Allegations and Government Accountability</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-whistleblower-allegations-and-government-accountability</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-whistleblower-allegations-and-government-accountability</guid>
-      <pubDate>Thu, 16 Jul 2026 01:29:18 GMT</pubDate>
-      <description>Whistleblower Allegations and Government Accountability</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-whistleblower-allegations-and-government-accountability.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
