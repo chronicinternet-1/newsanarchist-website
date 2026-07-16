@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-ostium-suffers-18m-exploit</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T06:24:41.235Z</news:publication_date>
+      <news:title>Ostium Suffers $18M Exploit</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-pollen-grains-aid-murder-investigations</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -190,14 +198,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T02:31:54.549Z</news:publication_date>
       <news:title>Myanmar Civil War: ASEAN Outreach and Junta Resistance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-ostium-suffers-18m-exploit</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T02:22:39.489Z</news:publication_date>
-      <news:title>Ostium Suffers $18M Exploit</news:title>
     </news:news>
   </url>
   <url>
@@ -1686,14 +1686,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T06:50:06.600Z</news:publication_date>
       <news:title>Consciousness May Not Be Created By The Brain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-us-expands-facial-recognition-use</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T06:24:34.182Z</news:publication_date>
-      <news:title>US Expands Facial Recognition Use</news:title>
     </news:news>
   </url>
 </urlset>
