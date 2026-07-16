@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 21:44:09 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 21:44:09 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 21:59:57 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 21:59:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ellisons Sued Over Paramount-WB Deal</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-ellisons-sued-over-paramount-wb-deal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ellisons-sued-over-paramount-wb-deal</guid>
+      <pubDate>Thu, 16 Jul 2026 21:58:27 GMT</pubDate>
+      <description>Ellisons Sued Over Paramount-WB Deal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-ellisons-sued-over-paramount-wb-deal.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sudan's War Economy</title>
       <link>https://newsanarchist.com/articles/2026-07-16-sudans-war-economy</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Jack Smith's Team Obtains Texts from 44 Congress Members</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members</guid>
-      <pubDate>Thu, 16 Jul 2026 11:34:40 GMT</pubDate>
-      <description>Jack Smith's Team Obtains Texts from 44 Congress Members</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis: A Persistent Issue</title>
