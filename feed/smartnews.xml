@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 14:02:43 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 14:02:43 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 14:14:01 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 14:14:01 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DOJ Charges 3 Russians in $63M Cybercrime Scheme</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-doj-charges-3-russians-in-63m-cybercrime-scheme</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-doj-charges-3-russians-in-63m-cybercrime-scheme</guid>
+      <pubDate>Thu, 16 Jul 2026 14:13:09 GMT</pubDate>
+      <description>DOJ Charges 3 Russians in $63M Cybercrime Scheme</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-doj-charges-3-russians-in-63m-cybercrime-scheme.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
       <link>https://newsanarchist.com/articles/2026-07-16-brics-coheso-acelerada-por-presso-tarifria-dos-eua</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Warrantless Surveillance Program Expires</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-warrantless-surveillance-program-expires</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-warrantless-surveillance-program-expires</guid>
-      <pubDate>Thu, 16 Jul 2026 02:52:11 GMT</pubDate>
-      <description>Warrantless Surveillance Program Expires</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-warrantless-surveillance-program-expires.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>東武池袋駅にウォークスルー改札登場</title>
