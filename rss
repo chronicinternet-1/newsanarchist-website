@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 21:59:57 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 21:59:57 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 22:06:22 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 22:06:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Lawmakers Reexamine Warrantless Spying</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-lawmakers-reexamine-warrantless-spying</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-lawmakers-reexamine-warrantless-spying</guid>
+      <pubDate>Thu, 16 Jul 2026 22:02:44 GMT</pubDate>
+      <description>Lawmakers Reexamine Warrantless Spying</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-lawmakers-reexamine-warrantless-spying.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Ellisons Sued Over Paramount-WB Deal</title>
       <link>https://newsanarchist.com/articles/2026-07-16-ellisons-sued-over-paramount-wb-deal</link>
@@ -95,18 +107,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>UK Gov Reverses Course on VPN Age-Gating</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-uk-gov-reverses-course-on-vpn-age-gating</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-uk-gov-reverses-course-on-vpn-age-gating</guid>
-      <pubDate>Thu, 16 Jul 2026 21:02:12 GMT</pubDate>
-      <description>UK Gov Reverses Course on VPN Age-Gating</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-uk-gov-reverses-course-on-vpn-age-gating.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>FTC Warns of AI Scams, Ramps Up Enforcement</title>
       <link>https://newsanarchist.com/articles/2026-07-16-ftc-warns-of-ai-scams-ramps-up-enforcement</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ftc-warns-of-ai-scams-ramps-up-enforcement</guid>
@@ -129,18 +129,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Congress Probe Uncovers Lawmaker Texts</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-congress-probe-uncovers-lawmaker-texts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-congress-probe-uncovers-lawmaker-texts</guid>
-      <pubDate>Thu, 16 Jul 2026 20:39:10 GMT</pubDate>
-      <description>Congress Probe Uncovers Lawmaker Texts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-congress-probe-uncovers-lawmaker-texts.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Wrongful Convictions Face New Hurdles</title>
@@ -191,30 +179,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>NSA Warns of Russian Hackers Exploiting Routers</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-nsa-warns-of-russian-hackers-exploiting-routers</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-nsa-warns-of-russian-hackers-exploiting-routers</guid>
-      <pubDate>Thu, 16 Jul 2026 20:01:41 GMT</pubDate>
-      <description>NSA Warns of Russian Hackers Exploiting Routers</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-nsa-warns-of-russian-hackers-exploiting-routers.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Region Sees Escalating Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-sahel-region-sees-escalating-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-sahel-region-sees-escalating-tensions</guid>
-      <pubDate>Thu, 16 Jul 2026 19:41:36 GMT</pubDate>
-      <description>Sahel Region Sees Escalating Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-sahel-region-sees-escalating-tensions.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
       <title>Whistleblower Alleges DEA Allowed Fentanyl Trafficking</title>
       <link>https://newsanarchist.com/articles/2026-07-16-whistleblower-alleges-dea-allowed-fentanyl-trafficking</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-whistleblower-alleges-dea-allowed-fentanyl-trafficking</guid>
@@ -239,18 +203,6 @@
       <dc:creator>Casey North</dc:creator>
     </item>
     <item>
-      <title>Blanche Nomination Faces Opposition</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-blanche-nomination-faces-opposition</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-blanche-nomination-faces-opposition</guid>
-      <pubDate>Thu, 16 Jul 2026 19:27:35 GMT</pubDate>
-      <description>Blanche Nomination Faces Opposition</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-blanche-nomination-faces-opposition.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>US Sanctions IRGC Supporters</title>
       <link>https://newsanarchist.com/articles/2026-07-16-us-sanctions-irgc-supporters</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-us-sanctions-irgc-supporters</guid>
@@ -261,42 +213,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Releases New UFO Footage</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-pentagon-releases-new-ufo-footage</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-pentagon-releases-new-ufo-footage</guid>
-      <pubDate>Thu, 16 Jul 2026 19:23:09 GMT</pubDate>
-      <description>Pentagon Releases New UFO Footage</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-pentagon-releases-new-ufo-footage.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>DOJ Charges Russians, Others in Multiple Fraud Schemes</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-doj-charges-russians-others-in-multiple-fraud-schemes</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-doj-charges-russians-others-in-multiple-fraud-schemes</guid>
-      <pubDate>Thu, 16 Jul 2026 19:18:38 GMT</pubDate>
-      <description>DOJ Charges Russians, Others in Multiple Fraud Schemes</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-doj-charges-russians-others-in-multiple-fraud-schemes.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>ACLU Challenges Flock Cameras</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</guid>
-      <pubDate>Thu, 16 Jul 2026 19:01:18 GMT</pubDate>
-      <description>ACLU Challenges Flock Cameras</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-aclu-challenges-flock-cameras.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Paramount-Warner Bros Merger Faces New Antitrust Challenges</title>
@@ -323,18 +239,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>CLARITY Act Stalls, Leaving Crypto in Regulatory Limbo</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-clarity-act-stalls-leaving-crypto-in-regulatory-limbo</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-clarity-act-stalls-leaving-crypto-in-regulatory-limbo</guid>
-      <pubDate>Thu, 16 Jul 2026 18:34:34 GMT</pubDate>
-      <description>CLARITY Act Stalls, Leaving Crypto in Regulatory Limbo</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-clarity-act-stalls-leaving-crypto-in-regulatory-limbo.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Gloria Covington Cold Case Solved</title>
       <link>https://newsanarchist.com/articles/2026-07-16-gloria-covington-cold-case-solved</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-gloria-covington-cold-case-solved</guid>
@@ -357,30 +261,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Congress Probed: Lawmakers' Texts Swept Up</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-congress-probed-lawmakers-texts-swept-up</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-congress-probed-lawmakers-texts-swept-up</guid>
-      <pubDate>Thu, 16 Jul 2026 17:37:47 GMT</pubDate>
-      <description>Congress Probed: Lawmakers' Texts Swept Up</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-congress-probed-lawmakers-texts-swept-up.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Ostium Loses $18M in DeFi Exploit</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-ostium-loses-18m-in-defi-exploit</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ostium-loses-18m-in-defi-exploit</guid>
-      <pubDate>Thu, 16 Jul 2026 17:30:42 GMT</pubDate>
-      <description>Ostium Loses $18M in DeFi Exploit</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-ostium-loses-18m-in-defi-exploit.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>South Korea's Criminal Justice Reform</title>
@@ -621,6 +501,126 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Jack Smith's Team Obtains Texts from 44 Congress Members</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members</guid>
+      <pubDate>Thu, 16 Jul 2026 11:34:40 GMT</pubDate>
+      <description>Jack Smith's Team Obtains Texts from 44 Congress Members</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-jack-smiths-team-obtains-texts-from-44-congress-members.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Medicare Fraud Scheme Involving Durable Medical Equipment</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-medicare-fraud-scheme-involving-durable-medical-equipment</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-medicare-fraud-scheme-involving-durable-medical-equipment</guid>
+      <pubDate>Thu, 16 Jul 2026 11:11:18 GMT</pubDate>
+      <description>Medicare Fraud Scheme Involving Durable Medical Equipment</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-medicare-fraud-scheme-involving-durable-medical-equipment.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>Flock Cameras Spark Warrantless Surveillance Debate</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-flock-cameras-spark-warrantless-surveillance-debate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-flock-cameras-spark-warrantless-surveillance-debate</guid>
+      <pubDate>Thu, 16 Jul 2026 10:56:39 GMT</pubDate>
+      <description>Flock Cameras Spark Warrantless Surveillance Debate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-flock-cameras-spark-warrantless-surveillance-debate.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
+      <title>Strait of Hormuz Crisis Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-strait-of-hormuz-crisis-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-strait-of-hormuz-crisis-escalates</guid>
+      <pubDate>Thu, 16 Jul 2026 10:20:28 GMT</pubDate>
+      <description>Strait of Hormuz Crisis Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-strait-of-hormuz-crisis-escalates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Taiwan Strait Tensions Escalate</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-taiwan-strait-tensions-escalate</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-taiwan-strait-tensions-escalate</guid>
+      <pubDate>Thu, 16 Jul 2026 09:35:06 GMT</pubDate>
+      <description>Taiwan Strait Tensions Escalate</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-taiwan-strait-tensions-escalate.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>FTC Warns of AI-Related Scams and Announces Enforcement Plans</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-ftc-warns-of-ai-related-scams-and-announces-enforcement-plans</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ftc-warns-of-ai-related-scams-and-announces-enforcement-plans</guid>
+      <pubDate>Thu, 16 Jul 2026 08:51:32 GMT</pubDate>
+      <description>FTC Warns of AI-Related Scams and Announces Enforcement Plans</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-ftc-warns-of-ai-related-scams-and-announces-enforcement-plans.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>CLARITY Act Faces Uncertainty</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-clarity-act-faces-uncertainty</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-clarity-act-faces-uncertainty</guid>
+      <pubDate>Thu, 16 Jul 2026 08:25:39 GMT</pubDate>
+      <description>CLARITY Act Faces Uncertainty</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-clarity-act-faces-uncertainty.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Sahel Terrorist Threat Expands</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-sahel-terrorist-threat-expands</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-sahel-terrorist-threat-expands</guid>
+      <pubDate>Thu, 16 Jul 2026 07:34:17 GMT</pubDate>
+      <description>Sahel Terrorist Threat Expands</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-sahel-terrorist-threat-expands.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Ostium Suffers $18M Exploit</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-ostium-suffers-18m-exploit</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ostium-suffers-18m-exploit</guid>
+      <pubDate>Thu, 16 Jul 2026 07:25:08 GMT</pubDate>
+      <description>Ostium Suffers $18M Exploit</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-ostium-suffers-18m-exploit.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Medicaid Fraud Cases Total Over $1.3M in Montana</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-cases-total-over-13m-in-montana</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-medicaid-fraud-cases-total-over-13m-in-montana</guid>
+      <pubDate>Thu, 16 Jul 2026 07:08:53 GMT</pubDate>
+      <description>Medicaid Fraud Cases Total Over $1.3M in Montana</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-medicaid-fraud-cases-total-over-13m-in-montana.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis: A Persistent Issue</title>
