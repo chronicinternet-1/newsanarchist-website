@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 07:36:31 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 07:36:31 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 07:52:46 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 07:52:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trade Fraud Task Force Recovers Over $1bn</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-trade-fraud-task-force-recovers-over-1bn</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-trade-fraud-task-force-recovers-over-1bn</guid>
+      <pubDate>Thu, 16 Jul 2026 07:51:00 GMT</pubDate>
+      <description>Trade Fraud Task Force Recovers Over $1bn</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-trade-fraud-task-force-recovers-over-1bn.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Sahel Terrorist Threat Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-16-sahel-terrorist-threat-expands</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>SEC Develops New Crypto Rules</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-sec-develops-new-crypto-rules</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-sec-develops-new-crypto-rules</guid>
-      <pubDate>Wed, 15 Jul 2026 23:21:01 GMT</pubDate>
-      <description>SEC Develops New Crypto Rules</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-sec-develops-new-crypto-rules.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
