@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 16 Jul 2026 16:27:06 GMT</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 16:27:06 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 16:38:07 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 16:38:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Alleges DEA Allowed Fentanyl Trafficking</title>
+      <link>https://newsanarchist.com/articles/2026-07-16-whistleblower-alleges-dea-allowed-fentanyl-trafficking</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-whistleblower-alleges-dea-allowed-fentanyl-trafficking</guid>
+      <pubDate>Thu, 16 Jul 2026 16:37:25 GMT</pubDate>
+      <description>Whistleblower Alleges DEA Allowed Fentanyl Trafficking</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-whistleblower-alleges-dea-allowed-fentanyl-trafficking.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Pollen Grains Aid Murder Investigation</title>
       <link>https://newsanarchist.com/articles/2026-07-16-pollen-grains-aid-murder-investigation</link>
@@ -609,18 +621,6 @@
       <category>Money Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sloan Sabbith</dc:creator>
-    </item>
-    <item>
-      <title>FTC Reaches Settlement with Caremark in Antitrust Case</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-ftc-reaches-settlement-with-caremark-in-antitrust-case</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-ftc-reaches-settlement-with-caremark-in-antitrust-case</guid>
-      <pubDate>Thu, 16 Jul 2026 06:50:34 GMT</pubDate>
-      <description>FTC Reaches Settlement with Caremark in Antitrust Case</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-ftc-reaches-settlement-with-caremark-in-antitrust-case.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>India's Corruption Crisis: A Persistent Issue</title>
