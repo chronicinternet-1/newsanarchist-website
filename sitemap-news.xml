@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-16-china-surpasses-us-in-global-favorability</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-16T18:24:04.282Z</news:publication_date>
+      <news:title>China Surpasses US in Global Favorability</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-aclu-challenges-flock-cameras</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -166,14 +174,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T13:53:43.027Z</news:publication_date>
       <news:title>US Trade Fraud Task Force Tops $1 Billion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-china-surpasses-us-in-global-favorability</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T13:21:55.693Z</news:publication_date>
-      <news:title>China Surpasses US in Global Favorability</news:title>
     </news:news>
   </url>
   <url>
@@ -1606,22 +1606,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-14T18:32:23.582Z</news:publication_date>
       <news:title>Warrantless Surveillance Concerns Grow</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-sahel-war-intensifies</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T18:13:58.074Z</news:publication_date>
-      <news:title>Sahel War Intensifies</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-14-sec-develops-new-crypto-rules</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-14T18:04:52.106Z</news:publication_date>
-      <news:title>SEC Develops New Crypto Rules</news:title>
     </news:news>
   </url>
 </urlset>
