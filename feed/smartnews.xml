@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 15:43:52 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 15:43:52 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 15:50:00 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 15:50:00 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Blanche's AG Nomination Hearing Hits Snag</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-blanches-ag-nomination-hearing-hits-snag</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-blanches-ag-nomination-hearing-hits-snag</guid>
+      <pubDate>Fri, 17 Jul 2026 15:48:39 GMT</pubDate>
+      <description>Blanche's AG Nomination Hearing Hits Snag</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-blanches-ag-nomination-hearing-hits-snag.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Freud's Theory Gains Traction</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-freuds-theory-gains-traction</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-freuds-theory-gains-traction</guid>
+      <pubDate>Fri, 17 Jul 2026 15:46:17 GMT</pubDate>
+      <description>Freud's Theory Gains Traction</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-freuds-theory-gains-traction.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Supreme Court Upholds Fine for Reporter Refusing to Divulge Sources</title>
       <link>https://newsanarchist.com/articles/2026-07-17-supreme-court-upholds-fine-for-reporter-refusing-to-divulge-sources</link>
@@ -597,30 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Labcorp Settles Medicare Fraud Allegations</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-labcorp-settles-medicare-fraud-allegations</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-labcorp-settles-medicare-fraud-allegations</guid>
-      <pubDate>Fri, 17 Jul 2026 06:26:59 GMT</pubDate>
-      <description>Labcorp Settles Medicare Fraud Allegations</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-labcorp-settles-medicare-fraud-allegations.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Minnesota Medicaid Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-minnesota-medicaid-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-minnesota-medicaid-fraud</guid>
-      <pubDate>Fri, 17 Jul 2026 05:26:29 GMT</pubDate>
-      <description>Minnesota Medicaid Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-minnesota-medicaid-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>India Vows to Combat Corruption</title>
