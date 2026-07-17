@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 11:48:32 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 11:48:32 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 11:54:57 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 11:54:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Myanmar Refugee Boats Feared Lost</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-myanmar-refugee-boats-feared-lost</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-myanmar-refugee-boats-feared-lost</guid>
+      <pubDate>Fri, 17 Jul 2026 11:48:31 GMT</pubDate>
+      <description>Myanmar Refugee Boats Feared Lost</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-myanmar-refugee-boats-feared-lost.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Blanche's AG Nomination Hearing</title>
       <link>https://newsanarchist.com/articles/2026-07-17-blanches-ag-nomination-hearing</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>SEC Eyes Prediction Markets</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-sec-eyes-prediction-markets</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-sec-eyes-prediction-markets</guid>
-      <pubDate>Fri, 17 Jul 2026 00:59:47 GMT</pubDate>
-      <description>SEC Eyes Prediction Markets</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-sec-eyes-prediction-markets.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
