@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 07:36:57 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 07:36:57 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 07:43:04 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 07:43:04 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mysterious Orbital Shift of Tracked Object</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-mysterious-orbital-shift-of-tracked-object</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-mysterious-orbital-shift-of-tracked-object</guid>
+      <pubDate>Fri, 17 Jul 2026 07:42:18 GMT</pubDate>
+      <description>Mysterious Orbital Shift of Tracked Object</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-mysterious-orbital-shift-of-tracked-object.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Wrongful Imprisonment Reform</title>
       <link>https://newsanarchist.com/articles/2026-07-17-wrongful-imprisonment-reform</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sudan's War Economy</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-sudans-war-economy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-sudans-war-economy</guid>
-      <pubDate>Thu, 16 Jul 2026 21:42:31 GMT</pubDate>
-      <description>Sudan's War Economy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-sudans-war-economy.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
