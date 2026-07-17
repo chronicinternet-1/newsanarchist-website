@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-lawmakers-push-for-ban-on-warrantless-surveillance</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T06:08:27.589Z</news:publication_date>
+      <news:title>Lawmakers Push for Ban on Warrantless Surveillance</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-sec-enforcement-developments</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1462,22 +1470,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T06:39:33.662Z</news:publication_date>
       <news:title>Facial Recognition Expands to Retail Stores</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-cold-cases-solved-recent-arrests-in-1999-atlanta-murder-and-2003-round-lake-beac</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T06:07:57.132Z</news:publication_date>
-      <news:title>Cold Cases Solved: Recent Arrests in 1999 Atlanta Murder and 2003 Round Lake Beach Infant Death</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-nato-and-sanctions-a-new-era</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T06:05:44.153Z</news:publication_date>
-      <news:title>NATO and Sanctions: A New Era</news:title>
     </news:news>
   </url>
 </urlset>
