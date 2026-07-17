@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:02:54 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 09:02:54 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 09:09:37 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 09:09:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC and Federal Reserve Enforcement Actions</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions</guid>
+      <pubDate>Fri, 17 Jul 2026 09:05:29 GMT</pubDate>
+      <description>SEC and Federal Reserve Enforcement Actions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Nigerian Senate Rejects Probe of Fake Agency</title>
       <link>https://newsanarchist.com/articles/2026-07-17-nigerian-senate-rejects-probe-of-fake-agency</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Solved: Gary Glowacz Arrested</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-cold-case-solved-gary-glowacz-arrested</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-cold-case-solved-gary-glowacz-arrested</guid>
-      <pubDate>Thu, 16 Jul 2026 23:29:41 GMT</pubDate>
-      <description>Cold Case Solved: Gary Glowacz Arrested</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-cold-case-solved-gary-glowacz-arrested.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
