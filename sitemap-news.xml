@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-ai</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
+      <news:publication_date>2026-07-17T02:00:44.608Z</news:publication_date>
+      <news:title>改正個人情報保護法の成立とAI開発への影響</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-paramount-faces-lawsuits-over-warner-bros-deal</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T02:00:13.277Z</news:publication_date>
+      <news:title>Paramount Faces Lawsuits Over Warner Bros. Deal</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-sudans-war-economy</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -33,27 +49,11 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-data-protection-bills-raise-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T01:05:47.740Z</news:publication_date>
-      <news:title>Data Protection Bills Raise Concerns</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-sec-eyes-prediction-markets</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T00:59:47.469Z</news:publication_date>
       <news:title>SEC Eyes Prediction Markets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-china-expands-military-presence</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T00:44:11.271Z</news:publication_date>
-      <news:title>China Expands Military Presence</news:title>
     </news:news>
   </url>
   <url>
@@ -70,14 +70,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T00:30:10.151Z</news:publication_date>
       <news:title>Supreme Court Upholds $800/Day Fine for Reporter Refusing to Divulge Sources</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-us-iran-conflict-escalates</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T00:26:25.497Z</news:publication_date>
-      <news:title>US-Iran Conflict Escalates</news:title>
     </news:news>
   </url>
   <url>
@@ -113,22 +105,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-sudan-war-economy</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T23:43:42.170Z</news:publication_date>
-      <news:title>Sudan War Economy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-congress-texts-swept-up-in-jack-smith-probe</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T23:40:36.075Z</news:publication_date>
-      <news:title>Congress Texts Swept Up in Jack Smith Probe</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-clarity-act-stalls-impacting-crypto-regulation</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -145,22 +121,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-china-surpasses-us-in-global-approval</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T23:26:07.972Z</news:publication_date>
-      <news:title>China Surpasses US in Global Approval</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-usda-snap-fraud-crackdown-saves-10b</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T23:21:30.646Z</news:publication_date>
-      <news:title>USDA SNAP Fraud Crackdown Saves $10B</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-flock-cameras-spark-surveillance-debate</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -169,27 +129,11 @@
     </news:news>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-australia-seeks-pacific-security-pact-amid-china-tensions</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T23:00:17.643Z</news:publication_date>
-      <news:title>Australia Seeks Pacific Security Pact Amid China Tensions</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-us-trade-fraud-task-force-tops-1-billion</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T22:58:44.449Z</news:publication_date>
       <news:title>US Trade Fraud Task Force Tops $1 Billion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-myanmar-refugee-boats-vanish</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T22:42:48.410Z</news:publication_date>
-      <news:title>Myanmar Refugee Boats Vanish</news:title>
     </news:news>
   </url>
   <url>
@@ -1566,14 +1510,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T02:14:32.443Z</news:publication_date>
       <news:title>Pentagon IG: $500M Artillery Shell Plant Failed to Produce 155mm Parts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-ai</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
-      <news:publication_date>2026-07-15T02:00:25.746Z</news:publication_date>
-      <news:title>日本のAI開発とプライバシー</news:title>
     </news:news>
   </url>
 </urlset>
