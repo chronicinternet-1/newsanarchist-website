@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 23:40:59 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 23:40:59 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 23:46:59 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 23:46:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Prosecutor Misconduct Claims Emerge</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</guid>
+      <pubDate>Fri, 17 Jul 2026 23:44:35 GMT</pubDate>
+      <description>Prosecutor Misconduct Claims Emerge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-prosecutor-misconduct-claims-emerge.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>EU Sanctions Russian Executive, Companies Over Drones</title>
       <link>https://newsanarchist.com/articles/2026-07-17-eu-sanctions-russian-executive-companies-over-drones</link>
@@ -369,18 +381,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Prosecutor Misconduct Claims Emerge</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</guid>
-      <pubDate>Fri, 17 Jul 2026 19:42:52 GMT</pubDate>
-      <description>Prosecutor Misconduct Claims Emerge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-prosecutor-misconduct-claims-emerge.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>US Sanctions IRGC Supporters</title>
