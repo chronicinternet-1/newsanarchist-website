@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-defi-hack-surge-13m-lost-in-cascade-hack</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T09:42:51.458Z</news:publication_date>
+      <news:title>DeFi Hack Surge: $1.3M Lost in Cascade Hack</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-ex-loretto-hospital-exec-fights-extradition</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1582,14 +1590,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T09:55:31.258Z</news:publication_date>
       <news:title>DOJ Charges Russians in $63M Cybercrime Scheme</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-ice-internal-watchdog-investigates-online-critics</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T09:41:24.756Z</news:publication_date>
-      <news:title>ICE Internal Watchdog Investigates Online Critics</news:title>
     </news:news>
   </url>
 </urlset>
