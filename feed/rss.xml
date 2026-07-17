@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 23:00:30 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 23:00:30 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 23:08:14 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 23:08:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Australia Seeks Pacific Security Pact After China Missile Test</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-australia-seeks-pacific-security-pact-after-china-missile-test</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-australia-seeks-pacific-security-pact-after-china-missile-test</guid>
+      <pubDate>Fri, 17 Jul 2026 23:00:14 GMT</pubDate>
+      <description>Australia Seeks Pacific Security Pact After China Missile Test</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-australia-seeks-pacific-security-pact-after-china-missile-test.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jim Harper</dc:creator>
+    </item>
     <item>
       <title>ICE Hiring Under Scrutiny</title>
       <link>https://newsanarchist.com/articles/2026-07-17-ice-hiring-under-scrutiny</link>
@@ -611,18 +623,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>SEC and Federal Reserve Enforcement Actions</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions</guid>
-      <pubDate>Fri, 17 Jul 2026 12:06:54 GMT</pubDate>
-      <description>SEC and Federal Reserve Enforcement Actions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-sec-and-federal-reserve-enforcement-actions.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
       <title>UK Regulators Boost Anti-Money Laundering Efforts</title>
       <link>https://newsanarchist.com/articles/2026-07-17-uk-regulators-boost-anti-money-laundering-efforts</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-uk-regulators-boost-anti-money-laundering-efforts</guid>
@@ -669,18 +669,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Kenji Mori</dc:creator>
-    </item>
-    <item>
-      <title>Australia Seeks Pacific Security Pact</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-australia-seeks-pacific-security-pact</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-australia-seeks-pacific-security-pact</guid>
-      <pubDate>Wed, 15 Jul 2026 23:00:31 GMT</pubDate>
-      <description>Australia Seeks Pacific Security Pact</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-australia-seeks-pacific-security-pact.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jim Harper</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
