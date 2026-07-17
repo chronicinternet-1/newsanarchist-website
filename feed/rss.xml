@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 19:12:52 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 19:12:52 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 19:18:43 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 19:18:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NC Budget Allows Mass Surveillance</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-nc-budget-allows-mass-surveillance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-nc-budget-allows-mass-surveillance</guid>
+      <pubDate>Fri, 17 Jul 2026 19:14:27 GMT</pubDate>
+      <description>NC Budget Allows Mass Surveillance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-nc-budget-allows-mass-surveillance.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>US Charges Two in $43M Investment Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-17-us-charges-two-in-43m-investment-fraud</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US-Iranian Citizen Detained</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-us-iranian-citizen-detained</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-us-iranian-citizen-detained</guid>
-      <pubDate>Fri, 17 Jul 2026 08:09:09 GMT</pubDate>
-      <description>US-Iranian Citizen Detained</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-us-iranian-citizen-detained.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>UK Regulators Boost Anti-Money Laundering Efforts</title>
