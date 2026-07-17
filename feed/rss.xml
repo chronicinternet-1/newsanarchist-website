@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 17:39:57 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 17:39:57 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 17:45:52 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 17:45:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pritzker Signs Reparations Legislation</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-pritzker-signs-reparations-legislation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-pritzker-signs-reparations-legislation</guid>
+      <pubDate>Fri, 17 Jul 2026 17:41:38 GMT</pubDate>
+      <description>Pritzker Signs Reparations Legislation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-pritzker-signs-reparations-legislation.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>US Sanctions IRGC Supporters</title>
       <link>https://newsanarchist.com/articles/2026-07-17-us-sanctions-irgc-supporters</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>FTC Targets False 'Made in USA' Labels</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-ftc-targets-false-made-in-usa-labels</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-ftc-targets-false-made-in-usa-labels</guid>
-      <pubDate>Fri, 17 Jul 2026 08:05:05 GMT</pubDate>
-      <description>FTC Targets False 'Made in USA' Labels</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-ftc-targets-false-made-in-usa-labels.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>UK Regulators Boost Anti-Money Laundering Efforts</title>
