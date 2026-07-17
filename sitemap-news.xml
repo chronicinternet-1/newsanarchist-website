@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-nigerian-senate-rejects-probe-of-fake-agency</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T09:00:18.853Z</news:publication_date>
+      <news:title>Nigerian Senate Rejects Probe of Fake Agency</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-myanmar-refugee-boats-disappear</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1566,14 +1574,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T09:04:28.424Z</news:publication_date>
       <news:title>Nordastro Launches Personalized Astrology System</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-nigeria-reps-probe-revenue-debts</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T09:00:23.382Z</news:publication_date>
-      <news:title>Nigeria Reps Probe Revenue Debts</news:title>
     </news:news>
   </url>
 </urlset>
