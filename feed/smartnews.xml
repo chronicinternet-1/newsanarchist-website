@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 18:51:04 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 18:51:04 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 18:56:56 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 18:56:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Hiring Practices Under Scrutiny</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-ice-hiring-practices-under-scrutiny</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-ice-hiring-practices-under-scrutiny</guid>
+      <pubDate>Fri, 17 Jul 2026 18:52:05 GMT</pubDate>
+      <description>ICE Hiring Practices Under Scrutiny</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-ice-hiring-practices-under-scrutiny.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Myanmar Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-myanmar-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-myanmar-conflict-escalates</guid>
+      <pubDate>Fri, 17 Jul 2026 18:51:48 GMT</pubDate>
+      <description>Myanmar Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-myanmar-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>CLARITY Act Stalls, Compliance Issues Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-17-clarity-act-stalls-compliance-issues-rise</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>China Surpasses US in Global Favorability</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-china-surpasses-us-in-global-favorability</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-china-surpasses-us-in-global-favorability</guid>
-      <pubDate>Fri, 17 Jul 2026 07:29:24 GMT</pubDate>
-      <description>China Surpasses US in Global Favorability</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-china-surpasses-us-in-global-favorability.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Surveillance Tech Raises Global Privacy Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-surveillance-tech-raises-global-privacy-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-surveillance-tech-raises-global-privacy-concerns</guid>
-      <pubDate>Fri, 17 Jul 2026 07:08:48 GMT</pubDate>
-      <description>Surveillance Tech Raises Global Privacy Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-surveillance-tech-raises-global-privacy-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>India Vows to Combat Corruption</title>
