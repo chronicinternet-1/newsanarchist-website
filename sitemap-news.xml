@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-sec-enforcement-developments</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T20:12:33.114Z</news:publication_date>
+      <news:title>SEC Enforcement Developments</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-senate-hearings-probe-insider-trading-election-interference</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -118,14 +126,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T18:14:06.170Z</news:publication_date>
       <news:title>Lawmakers Push Back on Warrantless Surveillance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-sec-enforcement-developments</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T18:11:05.806Z</news:publication_date>
-      <news:title>SEC Enforcement Developments</news:title>
     </news:news>
   </url>
   <url>
@@ -1494,14 +1494,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T20:16:21.382Z</news:publication_date>
       <news:title>Pennsylvania Supreme Court Ruling Hampers Wrongful Conviction Relief</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-medicaid-fraud-control-units-ineffective</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T20:02:05.093Z</news:publication_date>
-      <news:title>Medicaid Fraud Control Units Ineffective</news:title>
     </news:news>
   </url>
 </urlset>
