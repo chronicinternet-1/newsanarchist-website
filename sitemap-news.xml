@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-surveillance-tech-raises-privacy-concerns</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T03:06:37.111Z</news:publication_date>
+      <news:title>Surveillance Tech Raises Privacy Concerns</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-ftc-cracks-down-on-false-claims</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1542,14 +1550,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T03:14:57.456Z</news:publication_date>
       <news:title>Congress Probes ICE Shooting, Epstein Ties</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-judges-question-dojs-use-of-grand-juries</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T03:06:29.516Z</news:publication_date>
-      <news:title>Judges Question DOJ&apos;s Use of Grand Juries</news:title>
     </news:news>
   </url>
 </urlset>
