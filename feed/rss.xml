@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 16:34:49 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 16:34:49 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 16:40:43 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 16:40:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Prosecutor Misconduct Claims Emerge</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-prosecutor-misconduct-claims-emerge</guid>
+      <pubDate>Fri, 17 Jul 2026 16:40:09 GMT</pubDate>
+      <description>Prosecutor Misconduct Claims Emerge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-prosecutor-misconduct-claims-emerge.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Trump Rejects Russia Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-07-17-trump-rejects-russia-sanctions</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>BC Man Loses $867K in Alleged Investment Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-bc-man-loses-867k-in-alleged-investment-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-bc-man-loses-867k-in-alleged-investment-fraud</guid>
-      <pubDate>Fri, 17 Jul 2026 07:04:35 GMT</pubDate>
-      <description>BC Man Loses $867K in Alleged Investment Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-bc-man-loses-867k-in-alleged-investment-fraud.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>India Vows to Combat Corruption</title>
