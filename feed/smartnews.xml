@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 01:27:52 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 01:27:52 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 01:34:19 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 01:34:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Former Coroner Pleads Guilty to Lying to Police</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-former-coroner-pleads-guilty-to-lying-to-police</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-former-coroner-pleads-guilty-to-lying-to-police</guid>
+      <pubDate>Fri, 17 Jul 2026 01:30:35 GMT</pubDate>
+      <description>Former Coroner Pleads Guilty to Lying to Police</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-former-coroner-pleads-guilty-to-lying-to-police.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>NATO Summit Sparks New Russia Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-07-17-nato-summit-sparks-new-russia-sanctions</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Navy Pilot Recalls UFO Encounter</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-navy-pilot-recalls-ufo-encounter</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-navy-pilot-recalls-ufo-encounter</guid>
-      <pubDate>Thu, 16 Jul 2026 14:29:15 GMT</pubDate>
-      <description>Navy Pilot Recalls UFO Encounter</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-navy-pilot-recalls-ufo-encounter.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
