@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 06:51:26 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 06:51:26 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 07:02:23 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 07:02:23 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Digital Euro Regulations</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-eu-digital-euro-regulations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-eu-digital-euro-regulations</guid>
+      <pubDate>Fri, 17 Jul 2026 07:00:23 GMT</pubDate>
+      <description>EU Digital Euro Regulations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-eu-digital-euro-regulations.png"/>
+      <category>Money Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sloan Sabbith</dc:creator>
+    </item>
     <item>
       <title>China Military Expansion</title>
       <link>https://newsanarchist.com/articles/2026-07-17-china-military-expansion</link>
@@ -611,18 +623,6 @@
       <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
-      <title>Wrongful Convictions Face New Hurdles</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-wrongful-convictions-face-new-hurdles</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-wrongful-convictions-face-new-hurdles</guid>
-      <pubDate>Thu, 16 Jul 2026 20:27:56 GMT</pubDate>
-      <description>Wrongful Convictions Face New Hurdles</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-wrongful-convictions-face-new-hurdles.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
       <link>https://newsanarchist.com/articles/2026-07-16-brics-coheso-acelerada-por-presso-tarifria-dos-eua</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-brics-coheso-acelerada-por-presso-tarifria-dos-eua</guid>
@@ -633,18 +633,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>Euro Zone Bond Yields Rise on Oil Price Surge</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge</guid>
-      <pubDate>Thu, 16 Jul 2026 11:57:22 GMT</pubDate>
-      <description>Euro Zone Bond Yields Rise on Oil Price Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge.png"/>
-      <category>Money Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
     <item>
       <title>東武池袋駅にウォークスルー改札登場</title>
