@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-sudans-war-economy</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T01:44:39.742Z</news:publication_date>
+      <news:title>Sudan&apos;s War Economy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-trump-releases-documents-on-alleged-2020-election-interference</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T01:41:33.271Z</news:publication_date>
+      <news:title>Trump Releases Documents on Alleged 2020 Election Interference</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-former-coroner-pleads-guilty-to-lying-to-police</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1558,14 +1574,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
       <news:publication_date>2026-07-15T02:00:25.746Z</news:publication_date>
       <news:title>日本のAI開発とプライバシー</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-facial-recognition-expands</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T01:36:39.500Z</news:publication_date>
-      <news:title>Facial Recognition Expands</news:title>
     </news:news>
   </url>
 </urlset>

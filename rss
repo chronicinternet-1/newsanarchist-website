@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 01:34:19 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 01:34:19 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 01:45:49 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 01:45:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan's War Economy</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-sudans-war-economy</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-sudans-war-economy</guid>
+      <pubDate>Fri, 17 Jul 2026 01:44:39 GMT</pubDate>
+      <description>Sudan's War Economy</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-sudans-war-economy.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Trump Releases Documents on Alleged 2020 Election Interference</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-trump-releases-documents-on-alleged-2020-election-interference</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-trump-releases-documents-on-alleged-2020-election-interference</guid>
+      <pubDate>Fri, 17 Jul 2026 01:41:33 GMT</pubDate>
+      <description>Trump Releases Documents on Alleged 2020 Election Interference</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-trump-releases-documents-on-alleged-2020-election-interference.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Former Coroner Pleads Guilty to Lying to Police</title>
       <link>https://newsanarchist.com/articles/2026-07-17-former-coroner-pleads-guilty-to-lying-to-police</link>
@@ -597,30 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Sahel Region Sees Rising Tensions</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-sahel-region-sees-rising-tensions</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-sahel-region-sees-rising-tensions</guid>
-      <pubDate>Thu, 16 Jul 2026 15:37:50 GMT</pubDate>
-      <description>Sahel Region Sees Rising Tensions</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-sahel-region-sees-rising-tensions.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Congressional Oversight and Controversy</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-congressional-oversight-and-controversy</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-congressional-oversight-and-controversy</guid>
-      <pubDate>Thu, 16 Jul 2026 14:36:14 GMT</pubDate>
-      <description>Congressional Oversight and Controversy</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-congressional-oversight-and-controversy.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>BRICS: Cohesão acelerada por pressão tarifária dos EUA</title>
