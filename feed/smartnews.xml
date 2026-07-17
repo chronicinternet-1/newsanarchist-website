@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:35:58 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 13:35:58 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:42:35 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 13:42:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Cases Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-cold-cases-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-cold-cases-solved</guid>
+      <pubDate>Fri, 17 Jul 2026 13:38:17 GMT</pubDate>
+      <description>Cold Cases Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-cold-cases-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Global Energy Shifts as China Surpasses US in Favorability</title>
       <link>https://newsanarchist.com/articles/2026-07-17-global-energy-shifts-as-china-surpasses-us-in-favorability</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Illinois State Rep. Carol Ammons Pleads Not Guilty to Corruption Charges</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-illinois-state-rep-carol-ammons-pleads-not-guilty-to-corruption-charges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-illinois-state-rep-carol-ammons-pleads-not-guilty-to-corruption-charges</guid>
-      <pubDate>Fri, 17 Jul 2026 04:26:00 GMT</pubDate>
-      <description>Illinois State Rep. Carol Ammons Pleads Not Guilty to Corruption Charges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-illinois-state-rep-carol-ammons-pleads-not-guilty-to-corruption-charges.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>India Vows to Combat Corruption</title>
