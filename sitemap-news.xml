@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-clarity-act-stalls-compliance-issues-rise</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T14:45:57.067Z</news:publication_date>
+      <news:title>CLARITY Act Stalls, Compliance Issues Rise</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-prosecutorial-misconduct-claims-emerge-in-multiple-cases</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1470,22 +1478,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T15:13:24.318Z</news:publication_date>
       <news:title>Prosecutorial Misconduct Under Scrutiny</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-lapd-drops-flock-surveillance-contract</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T14:44:39.146Z</news:publication_date>
-      <news:title>LAPD Drops Flock Surveillance Contract</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-chip-stocks-drop</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T14:42:40.571Z</news:publication_date>
-      <news:title>Chip Stocks Drop</news:title>
     </news:news>
   </url>
 </urlset>
