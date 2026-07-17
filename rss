@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 20:19:45 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 20:19:45 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 20:35:38 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 20:35:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Cases Surge</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-medicaid-fraud-cases-surge</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-medicaid-fraud-cases-surge</guid>
+      <pubDate>Fri, 17 Jul 2026 20:35:04 GMT</pubDate>
+      <description>Medicaid Fraud Cases Surge</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-medicaid-fraud-cases-surge.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>NSA Reports Omitting China Election Interference</title>
       <link>https://newsanarchist.com/articles/2026-07-17-nsa-reports-omitting-china-election-interference</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Man Released from Jail After Wrongful Arrest</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-man-released-from-jail-after-wrongful-arrest</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-man-released-from-jail-after-wrongful-arrest</guid>
-      <pubDate>Fri, 17 Jul 2026 10:36:07 GMT</pubDate>
-      <description>Man Released from Jail After Wrongful Arrest</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-man-released-from-jail-after-wrongful-arrest.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>UK Regulators Boost Anti-Money Laundering Efforts</title>
