@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 02:02:08 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 02:02:08 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 02:08:21 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 02:08:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Lawmakers Push Back on Warrantless Spying</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-lawmakers-push-back-on-warrantless-spying</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-lawmakers-push-back-on-warrantless-spying</guid>
+      <pubDate>Fri, 17 Jul 2026 02:06:14 GMT</pubDate>
+      <description>Lawmakers Push Back on Warrantless Spying</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-lawmakers-push-back-on-warrantless-spying.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>改正個人情報保護法の成立とAI開発への影響</title>
       <link>https://newsanarchist.com/articles/2026-07-17-ai</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Justices Discuss Security and Ethics</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-justices-discuss-security-and-ethics</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-justices-discuss-security-and-ethics</guid>
-      <pubDate>Thu, 16 Jul 2026 12:24:38 GMT</pubDate>
-      <description>Justices Discuss Security and Ethics</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-justices-discuss-security-and-ethics.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Euro Zone Bond Yields Rise on Oil Price Surge</title>
