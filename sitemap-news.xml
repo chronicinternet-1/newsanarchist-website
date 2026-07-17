@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-modelop-and-kong-partner-on-zero-trust-enforcement</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T19:33:38.398Z</news:publication_date>
+      <news:title>ModelOp and Kong Partner on Zero-Trust Enforcement</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-nc-budget-allows-mass-surveillance</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1486,14 +1494,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T19:48:22.152Z</news:publication_date>
       <news:title>US Moves Toward Mandatory ID for Phone Purchases</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-myanmar-civil-war-intensifies</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T19:28:17.967Z</news:publication_date>
-      <news:title>Myanmar Civil War Intensifies</news:title>
     </news:news>
   </url>
 </urlset>
