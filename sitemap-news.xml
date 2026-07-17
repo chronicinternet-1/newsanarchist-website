@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-cold-cases-solved</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T22:44:08.957Z</news:publication_date>
+      <news:title>Cold Cases Solved</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-china-surpasses-us-in-global-favorability</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -222,14 +230,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T18:48:54.168Z</news:publication_date>
       <news:title>CLARITY Act Stalls, Compliance Issues Rise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-cold-cases-solved</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T18:42:13.813Z</news:publication_date>
-      <news:title>Cold Cases Solved</news:title>
     </news:news>
   </url>
   <url>
@@ -1414,14 +1414,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T22:49:54.778Z</news:publication_date>
       <news:title>Rep. Keith Self Proposes Bill To Bar Federal Agencies From Obtaining Flock Surveillance Data Without A Warrant</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-us-trade-fraud-task-force-recovers-over-1b</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T22:46:32.051Z</news:publication_date>
-      <news:title>US Trade Fraud Task Force Recovers Over $1B</news:title>
     </news:news>
   </url>
 </urlset>
