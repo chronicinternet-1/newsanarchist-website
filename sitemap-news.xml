@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-17-us-charges-two-in-43m-investment-fraud</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-17T19:11:29.102Z</news:publication_date>
+      <news:title>US Charges Two in $43M Investment Fraud</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-17-ice-hiring-practices-under-scrutiny</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1486,14 +1494,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-15T19:15:42.350Z</news:publication_date>
       <news:title>Judges Question DOJ&apos;s Grand Jury Use</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-15-us-imposes-new-sanctions-on-iran-and-russia</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-15T19:12:45.563Z</news:publication_date>
-      <news:title>US Imposes New Sanctions on Iran and Russia</news:title>
     </news:news>
   </url>
 </urlset>

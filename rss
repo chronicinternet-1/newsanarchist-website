@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jul 2026 18:56:56 GMT</lastBuildDate>
-    <pubDate>Fri, 17 Jul 2026 18:56:56 GMT</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 19:12:52 GMT</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 19:12:52 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Charges Two in $43M Investment Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-17-us-charges-two-in-43m-investment-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-us-charges-two-in-43m-investment-fraud</guid>
+      <pubDate>Fri, 17 Jul 2026 19:11:29 GMT</pubDate>
+      <description>US Charges Two in $43M Investment Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-us-charges-two-in-43m-investment-fraud.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>ICE Hiring Practices Under Scrutiny</title>
       <link>https://newsanarchist.com/articles/2026-07-17-ice-hiring-practices-under-scrutiny</link>
