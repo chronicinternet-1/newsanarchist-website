@@ -2769,16 +2769,14 @@ function buildHeroCard(article, isMain = false) {
 </a>`;
 }
 
-// 2026-07-18: consolidated into /home/ubuntu/shared/category-ladder.js (same pattern as
-// shared/pre-send-guard.js) after this exact ladder was found copied verbatim in 4 places with
-// no shared source, which let a real bucket-ordering bug (a broad Government-Secrets catch-all
-// hijacking DOJ-adjacent Financial Fraud stories) go unfixed in 3 of the 4 copies even after
-// being found in the 4th. Fix it in the shared file; every consumer picks up the change on next
-// deploy. Local name kept as remapArticleCategory so none of this file's call sites need to
-// change. NOTE: this file is the synced copy in newsanarchist-website/scripts/ — the path below
-// is one level deeper than the workspace/scripts/ original because of that extra nesting; keep
-// them in sync (see CLAUDE.md's "sync both script copies" rule) but do not blind-copy this line.
-import { resolveCategory as remapArticleCategory } from '../../../../shared/category-ladder.js';
+// 2026-07-18: consolidated into ../../../shared/category-ladder.js (same pattern as
+// ../../../shared/pre-send-guard.js) after this exact ladder was found copied verbatim in 4
+// places with no shared source, which let a real bucket-ordering bug (a broad Government-
+// Secrets catch-all hijacking DOJ-adjacent Financial Fraud stories) go unfixed in 3 of the 4
+// copies even after being found in the 4th. Fix it in the shared file; every consumer picks up
+// the change on next deploy. Local name kept as remapArticleCategory so none of this file's
+// call sites need to change.
+import { resolveCategory as remapArticleCategory } from '../../../shared/category-ladder.js';
 
 // Junk patterns to exclude from index
 const JUNK_TITLE_PATTERNS = [
@@ -3476,10 +3474,33 @@ function updateSitemap(allArticles) {
   const CATEGORY_HTML_LEGACY_RE = /^https?:\/\/[^/]+\/category\/[^/]+\.html$/;
   const articlesDir = path.join(SITE_DIR, 'articles');
   const ARTICLE_URL_RE = new RegExp(`^${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/articles/(.+)$`);
+
+  // 2026-07-18: same category of bug as CATEGORY_HTML_LEGACY_RE above, different surface — an
+  // article whose slug got MIGRATED (the non-Latin-script slugify() fix's retroactive pass, see
+  // migrate-non-latin-slugs.mjs) has its old articles/*.html file actually deleted (renamed, not
+  // just canonicalized-away like a duplicate). isNonCanonicalArticleFile()'s own fs.statSync
+  // would throw on a genuinely-missing file, and the function's own comment says it deliberately
+  // "leave[s] visible on read failure — never hide on an error" — correct for a real read error,
+  // but wrong here, since a migrated slug's absence isn't an error, it's confirmed-gone-on-
+  // purpose. Without this, the prior-preservation loop below would re-add every migrated old URL
+  // forever, exactly the "internal reference still points at a pre-migration URL" bug the
+  // migration was supposed to eliminate. Source of truth: every migrated old slug has a real 301
+  // rule in _redirects (`/articles/OLD /articles/NEW 301`) — parse that instead of maintaining a
+  // second list that could drift from it.
+  const MIGRATED_OLD_SLUGS = new Set();
+  try {
+    const redirectsText = fs.readFileSync(path.join(SITE_DIR, '_redirects'), 'utf-8');
+    for (const line of redirectsText.split('\n')) {
+      const m = line.match(/^\/articles\/(\S+)\s+\/articles\/(\S+)\s+301\s*$/);
+      if (m) MIGRATED_OLD_SLUGS.add(m[1]);
+    }
+  } catch { /* no _redirects file yet — nothing migrated, nothing to exclude */ }
+
   for (const [loc, lm] of prior) {
     if (seen.has(loc)) continue;
     if (CATEGORY_HTML_LEGACY_RE.test(loc)) continue;
     const m = loc.match(ARTICLE_URL_RE);
+    if (m && MIGRATED_OLD_SLUGS.has(m[1])) continue;
     if (m && isNonCanonicalArticleFile(`${m[1]}.html`, articlesDir)) continue;
     add(loc, lm, '0.6', 'monthly');
   }
