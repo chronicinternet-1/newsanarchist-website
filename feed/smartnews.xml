@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2026 22:58:48 GMT</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 22:58:48 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2026 23:05:12 GMT</lastBuildDate>
+    <pubDate>Sat, 18 Jul 2026 23:05:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Australia Seeks Pacific Security Pact After China Criticizes Defence Agreements</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-australia-seeks-pacific-security-pact-after-china-criticizes-defence-agreements</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-australia-seeks-pacific-security-pact-after-china-criticizes-defence-agreements</guid>
+      <pubDate>Sat, 18 Jul 2026 23:00:50 GMT</pubDate>
+      <description>Australia Seeks Pacific Security Pact After China Criticizes Defence Agreements</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-australia-seeks-pacific-security-pact-after-china-criticizes-defence-agreements.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jim Harper</dc:creator>
+    </item>
     <item>
       <title>NYC Senior Daycare Fraud Exposed</title>
       <link>https://newsanarchist.com/articles/2026-07-18-nyc-senior-daycare-fraud-exposed</link>
@@ -611,18 +623,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>Insider Trading Probe at White House</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-insider-trading-probe-at-white-house</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-insider-trading-probe-at-white-house</guid>
-      <pubDate>Sat, 18 Jul 2026 09:59:31 GMT</pubDate>
-      <description>Insider Trading Probe at White House</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-insider-trading-probe-at-white-house.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
       <link>https://newsanarchist.com/articles/2026-07-18-rbi-keeps-repo-rate-unchanged</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-rbi-keeps-repo-rate-unchanged</guid>
@@ -669,18 +669,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Kenji Mori</dc:creator>
-    </item>
-    <item>
-      <title>Australia Seeks Pacific Security Pact</title>
-      <link>https://newsanarchist.com/articles/2026-07-15-australia-seeks-pacific-security-pact</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-15-australia-seeks-pacific-security-pact</guid>
-      <pubDate>Wed, 15 Jul 2026 23:00:31 GMT</pubDate>
-      <description>Australia Seeks Pacific Security Pact</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-15-australia-seeks-pacific-security-pact.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jim Harper</dc:creator>
     </item>
     <item>
       <title>Nigeria Reps Probe Revenue Debts</title>
