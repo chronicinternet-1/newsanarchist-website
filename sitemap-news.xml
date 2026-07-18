@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-eff-fights-surveillance-tech</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-18T04:19:04.173Z</news:publication_date>
+      <news:title>EFF Fights Surveillance Tech</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-sec-rescinds-no-deny-provisions</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-18T04:17:33.992Z</news:publication_date>
+      <news:title>SEC Rescinds &apos;No-Deny&apos; Provisions</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-rbi-keeps-repo-rate-unchanged</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -118,14 +134,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-18T02:17:43.731Z</news:publication_date>
       <news:title>Feds Drop Maine Gun Case After Judge Questions Secret Surveillance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-18-sec-rescinds-no-deny-provisions</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-18T02:16:36.944Z</news:publication_date>
-      <news:title>SEC Rescinds &apos;No-Deny&apos; Provisions</news:title>
     </news:news>
   </url>
   <url>
@@ -1398,14 +1406,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T04:30:50.828Z</news:publication_date>
       <news:title>Whistleblower Retaliation Lawsuit Against Corona-Norco School District</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-us-sanctions-iran-russia-entities</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T04:17:31.319Z</news:publication_date>
-      <news:title>US Sanctions Iran, Russia Entities</news:title>
     </news:news>
   </url>
 </urlset>
