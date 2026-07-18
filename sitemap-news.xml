@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-cold-case-solved-with-dna-testing</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-18T05:48:19.335Z</news:publication_date>
+      <news:title>Cold Case Solved with DNA Testing</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-probe-expands</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1430,14 +1438,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T06:16:47.373Z</news:publication_date>
       <news:title>Pentagon Seeks New Secrecy Power</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-ftc-cracks-down-on-deceptive-claims</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T05:50:08.843Z</news:publication_date>
-      <news:title>FTC Cracks Down on Deceptive Claims</news:title>
     </news:news>
   </url>
 </urlset>
