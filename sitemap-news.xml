@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-kennedy-center-disputes-whistleblower-claims</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-18T12:00:40.103Z</news:publication_date>
+      <news:title>Kennedy Center Disputes Whistleblower Claims</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1350,14 +1358,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T12:19:27.211Z</news:publication_date>
       <news:title>Consciousness and Quantum Mechanics</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-hospice-fraud-sparks-nevada-license-freeze</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T12:03:04.915Z</news:publication_date>
-      <news:title>Hospice Fraud Sparks Nevada License Freeze</news:title>
     </news:news>
   </url>
 </urlset>
