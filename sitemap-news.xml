@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-nyc-senior-daycare-fraud-exposed</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-18T22:53:13.391Z</news:publication_date>
+      <news:title>NYC Senior Daycare Fraud Exposed</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-us-china-tensions-rise</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1270,14 +1278,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-16T23:03:12.887Z</news:publication_date>
       <news:title>Flock Cameras Spark Surveillance Debate</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-16-us-trade-fraud-task-force-tops-1-billion</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-16T22:58:44.449Z</news:publication_date>
-      <news:title>US Trade Fraud Task Force Tops $1 Billion</news:title>
     </news:news>
   </url>
 </urlset>
