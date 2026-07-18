@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2026 20:54:22 GMT</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 20:54:22 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2026 21:00:25 GMT</lastBuildDate>
+    <pubDate>Sat, 18 Jul 2026 21:00:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-cold-case-solved</guid>
+      <pubDate>Sat, 18 Jul 2026 20:56:48 GMT</pubDate>
+      <description>Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Exposed in GA, MD, and AZ</title>
       <link>https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-exposed-in-ga-md-and-az</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Iran War Threatens Global Food Security</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-iran-war-threatens-global-food-security</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-iran-war-threatens-global-food-security</guid>
-      <pubDate>Sat, 18 Jul 2026 11:42:20 GMT</pubDate>
-      <description>Iran War Threatens Global Food Security</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-iran-war-threatens-global-food-security.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
