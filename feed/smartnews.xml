@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2026 20:32:32 GMT</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 20:32:32 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2026 20:48:25 GMT</lastBuildDate>
+    <pubDate>Sat, 18 Jul 2026 20:48:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Longevity Study Reveals Prenatal Influence</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-longevity-study-reveals-prenatal-influence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-longevity-study-reveals-prenatal-influence</guid>
+      <pubDate>Sat, 18 Jul 2026 20:46:50 GMT</pubDate>
+      <description>Longevity Study Reveals Prenatal Influence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-longevity-study-reveals-prenatal-influence.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Trump Alleges China Election Interference</title>
       <link>https://newsanarchist.com/articles/2026-07-18-trump-alleges-china-election-interference</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Universe Hides Conscious Minds</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-universe-hides-conscious-minds</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-universe-hides-conscious-minds</guid>
-      <pubDate>Sat, 18 Jul 2026 09:38:31 GMT</pubDate>
-      <description>Universe Hides Conscious Minds</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-universe-hides-conscious-minds.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
