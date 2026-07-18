@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,12 +92,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/casey-north.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -109,19 +115,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/vera-solano.html</loc>
+    <loc>https://newsanarchist.com/authors/casey-north.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -169,6 +169,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-us-gov-releases-new-uap-files</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-18-nato-summit-rejects-new-russia-sanctions</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-eff-raises-alarm-on-surveillance-tech</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
@@ -176,12 +188,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-apple-in-settlement-talks-with-doj</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-18-us-gov-releases-new-uap-files</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -350,12 +356,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-18-250-year-old-cold-case-solved-with-dna</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-18-nato-summit-rejects-new-russia-sanctions</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -24921,72 +24921,6 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-06-11-anthropic-requires-30-day-data-retention-for-fable-and-mythos</loc>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/surveillance-state.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/corporate-watchdog.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/government-secrets.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/tech-privacy.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/global-power.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/money-markets.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/unexplained.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/true-crime.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/financial-fraud.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/conflict-wars.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/category/web3-blockchain.html</loc>
-    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

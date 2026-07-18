@@ -3580,11 +3580,27 @@ function updateSitemap(allArticles) {
   // comment), so both need their own non-canonical check or a resolved duplicate re-enters the
   // sitemap here even after being filtered out of allArticles by the caller. Article-only: home/
   // category/author URLs captured in `prior` don't correspond to a articles/*.html file and are
-  // always kept.
+  // always kept — EXCEPT legacy /category/*.html entries (see CATEGORY_HTML_LEGACY_RE below).
+  //
+  // 2026-07-18: found via live Search Console URL Inspection that these pre-migration
+  // /category/*.html URLs (from before the nav/footer fix moved categories to extensionless
+  // canonical URLs) are pure 308 redirects now — confirmed no live page content, just a
+  // redirect to the extensionless form, which the `add(...)` loop just above this one already
+  // regenerates fresh every run in canonical form for all 11 CATEGORIES. There's no legitimate
+  // "orphaned old category page" case the way there is for articles (CATEGORIES is a fixed,
+  // always-current list, never pruned) — so unlike articles, a stale /category/*.html entry in
+  // `prior` is never anything but leftover cruft. Confirmed at least one category
+  // (surveillance-state) currently shows exactly the "Google chose different canonical than
+  // user" mismatch in Search Console with a stale userCanonical pointing at the .html URL —
+  // resubmitting a pure-redirect URL in the sitemap on every rebuild is a plausible contributor
+  // to that staying unresolved. Excluding it here stops re-submitting a URL that no longer
+  // serves distinct content.
+  const CATEGORY_HTML_LEGACY_RE = /^https?:\/\/[^/]+\/category\/[^/]+\.html$/;
   const articlesDir = path.join(SITE_DIR, 'articles');
   const ARTICLE_URL_RE = new RegExp(`^${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/articles/(.+)$`);
   for (const [loc, lm] of prior) {
     if (seen.has(loc)) continue;
+    if (CATEGORY_HTML_LEGACY_RE.test(loc)) continue;
     const m = loc.match(ARTICLE_URL_RE);
     if (m && isNonCanonicalArticleFile(`${m[1]}.html`, articlesDir)) continue;
     add(loc, lm, '0.6', 'monthly');
