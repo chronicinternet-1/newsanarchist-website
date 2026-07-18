@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2026 21:58:47 GMT</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 21:58:47 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2026 22:10:25 GMT</lastBuildDate>
+    <pubDate>Sat, 18 Jul 2026 22:10:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,42 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>DeFi Hacks Continue to Plague Crypto Space</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-defi-hacks-continue-to-plague-crypto-space</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-defi-hacks-continue-to-plague-crypto-space</guid>
+      <pubDate>Sat, 18 Jul 2026 22:08:40 GMT</pubDate>
+      <description>DeFi Hacks Continue to Plague Crypto Space</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-defi-hacks-continue-to-plague-crypto-space.png"/>
+      <category>Web3 &amp; Blockchain</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Whistleblowers Face Retaliation</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-whistleblowers-face-retaliation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-whistleblowers-face-retaliation</guid>
+      <pubDate>Sat, 18 Jul 2026 22:08:02 GMT</pubDate>
+      <description>Whistleblowers Face Retaliation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-whistleblowers-face-retaliation.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Sudan Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-sudan-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-sudan-conflict-escalates</guid>
+      <pubDate>Sat, 18 Jul 2026 22:05:52 GMT</pubDate>
+      <description>Sudan Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-sudan-conflict-escalates.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Denver Murder Case Update</title>
       <link>https://newsanarchist.com/articles/2026-07-18-denver-murder-case-update</link>
@@ -71,18 +107,6 @@
       <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
-      <title>EFF Raises Alarm on Surveillance Tech</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-eff-raises-alarm-on-surveillance-tech</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-eff-raises-alarm-on-surveillance-tech</guid>
-      <pubDate>Sat, 18 Jul 2026 21:30:26 GMT</pubDate>
-      <description>EFF Raises Alarm on Surveillance Tech</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-eff-raises-alarm-on-surveillance-tech.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>Apple in Settlement Talks with DOJ</title>
       <link>https://newsanarchist.com/articles/2026-07-18-apple-in-settlement-talks-with-doj</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-apple-in-settlement-talks-with-doj</guid>
@@ -119,30 +143,6 @@
       <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
-      <title>Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-cold-case-solved</guid>
-      <pubDate>Sat, 18 Jul 2026 20:56:48 GMT</pubDate>
-      <description>Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Exposed in GA, MD, and AZ</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-exposed-in-ga-md-and-az</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-exposed-in-ga-md-and-az</guid>
-      <pubDate>Sat, 18 Jul 2026 20:51:16 GMT</pubDate>
-      <description>Medicaid Fraud Exposed in GA, MD, and AZ</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-medicaid-fraud-exposed-in-ga-md-and-az.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
       <title>US-Iran Tensions Escalate</title>
       <link>https://newsanarchist.com/articles/2026-07-18-us-iran-tensions-escalate</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-us-iran-tensions-escalate</guid>
@@ -165,18 +165,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Trump Alleges China Election Interference</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-trump-alleges-china-election-interference</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-trump-alleges-china-election-interference</guid>
-      <pubDate>Sat, 18 Jul 2026 20:28:49 GMT</pubDate>
-      <description>Trump Alleges China Election Interference</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-trump-alleges-china-election-interference.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Apple in Early Settlement Talks with DOJ</title>
@@ -213,18 +201,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Conflict Reaches New Depths</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-myanmar-conflict-reaches-new-depths</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-myanmar-conflict-reaches-new-depths</guid>
-      <pubDate>Sat, 18 Jul 2026 20:03:58 GMT</pubDate>
-      <description>Myanmar Conflict Reaches New Depths</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-myanmar-conflict-reaches-new-depths.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Illinois Governor's Soft-on-Crime Policy Under Fire</title>
@@ -275,30 +251,6 @@
       <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
-      <title>Apple in Antitrust Settlement Talks</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-apple-in-antitrust-settlement-talks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-apple-in-antitrust-settlement-talks</guid>
-      <pubDate>Sat, 18 Jul 2026 19:27:54 GMT</pubDate>
-      <description>Apple in Antitrust Settlement Talks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-apple-in-antitrust-settlement-talks.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Freud's Theory Gains Momentum</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-freuds-theory-gains-momentum</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-freuds-theory-gains-momentum</guid>
-      <pubDate>Sat, 18 Jul 2026 19:05:31 GMT</pubDate>
-      <description>Freud's Theory Gains Momentum</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-freuds-theory-gains-momentum.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Trump Declassifies Docs on China Election Interference</title>
       <link>https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</guid>
@@ -311,18 +263,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>Sudan Conflict Escalates</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-sudan-conflict-escalates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-sudan-conflict-escalates</guid>
-      <pubDate>Sat, 18 Jul 2026 19:03:24 GMT</pubDate>
-      <description>Sudan Conflict Escalates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-sudan-conflict-escalates.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
       <title>Denver Murder Case</title>
       <link>https://newsanarchist.com/articles/2026-07-18-denver-murder-case</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-denver-murder-case</guid>
@@ -333,18 +273,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid, Food Stamps Fraud</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-medicaid-food-stamps-fraud</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-medicaid-food-stamps-fraud</guid>
-      <pubDate>Sat, 18 Jul 2026 18:49:13 GMT</pubDate>
-      <description>Medicaid, Food Stamps Fraud</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-medicaid-food-stamps-fraud.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>US-China Relations Strained</title>
@@ -465,18 +393,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>New Study Reveals Human Longevity May Be Shaped Before Birth</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-new-study-reveals-human-longevity-may-be-shaped-before-birth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-new-study-reveals-human-longevity-may-be-shaped-before-birth</guid>
-      <pubDate>Sat, 18 Jul 2026 16:43:30 GMT</pubDate>
-      <description>New Study Reveals Human Longevity May Be Shaped Before Birth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-new-study-reveals-human-longevity-may-be-shaped-before-birth.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>250-Year-Old Cold Case Solved</title>
@@ -621,6 +537,90 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>Nevada Healthcare Fraud Task Force</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-nevada-healthcare-fraud-task-force</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-nevada-healthcare-fraud-task-force</guid>
+      <pubDate>Sat, 18 Jul 2026 12:43:55 GMT</pubDate>
+      <description>Nevada Healthcare Fraud Task Force</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-nevada-healthcare-fraud-task-force.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>US Missile Hits Island in Strait of Hormuz</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-us-missile-hits-island-in-strait-of-hormuz</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-us-missile-hits-island-in-strait-of-hormuz</guid>
+      <pubDate>Sat, 18 Jul 2026 12:42:40 GMT</pubDate>
+      <description>US Missile Hits Island in Strait of Hormuz</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-us-missile-hits-island-in-strait-of-hormuz.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Ethereum Leads Tokenized ETF Inflows</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-ethereum-leads-tokenized-etf-inflows</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-ethereum-leads-tokenized-etf-inflows</guid>
+      <pubDate>Sat, 18 Jul 2026 12:40:09 GMT</pubDate>
+      <description>Ethereum Leads Tokenized ETF Inflows</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-ethereum-leads-tokenized-etf-inflows.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
+    <item>
+      <title>Iran War Threatens Global Food Security</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-iran-war-threatens-global-food-security</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-iran-war-threatens-global-food-security</guid>
+      <pubDate>Sat, 18 Jul 2026 11:42:20 GMT</pubDate>
+      <description>Iran War Threatens Global Food Security</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-iran-war-threatens-global-food-security.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Insider Trading Probe at White House</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-insider-trading-probe-at-white-house</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-insider-trading-probe-at-white-house</guid>
+      <pubDate>Sat, 18 Jul 2026 09:59:31 GMT</pubDate>
+      <description>Insider Trading Probe at White House</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-insider-trading-probe-at-white-house.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Universe Hides Conscious Minds</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-universe-hides-conscious-minds</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-universe-hides-conscious-minds</guid>
+      <pubDate>Sat, 18 Jul 2026 09:38:31 GMT</pubDate>
+      <description>Universe Hides Conscious Minds</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-universe-hides-conscious-minds.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
+    <item>
+      <title>Watch Dogs Series Mirrors Real-World Surveillance Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-watch-dogs-series-mirrors-real-world-surveillance-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-watch-dogs-series-mirrors-real-world-surveillance-concerns</guid>
+      <pubDate>Sat, 18 Jul 2026 09:21:07 GMT</pubDate>
+      <description>Watch Dogs Series Mirrors Real-World Surveillance Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-watch-dogs-series-mirrors-real-world-surveillance-concerns.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
