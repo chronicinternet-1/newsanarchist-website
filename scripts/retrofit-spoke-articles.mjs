@@ -256,6 +256,19 @@ function main() {
         continue;
       }
 
+      // A subset of articles were generated before na-authors' 2026-07-18 disclosure-gate
+      // generalization and already carry a stale "How We Report <wrong category>" block from
+      // the old MONEY_FRAUD_TOPIC_RE-only gate (e.g. a Web3 & Blockchain article whose title
+      // matched "crypto regulat" got a Money & Markets disclosure baked in at generation time,
+      // even though remapArticleCategory() files it under Web3 & Blockchain). Strip that stale
+      // block before inserting the correctly-labeled one below, so the article never ends up
+      // with two contradictory "How We Report" blocks.
+      const staleMethodRe = /<div class="na-article-method"><div class="na-article-method-h">How We Report[^<]*<\/div><p>.*?<\/p><\/div>/;
+      const staleMatch = html.match(staleMethodRe);
+      if (staleMatch) {
+        html = html.slice(0, staleMatch.index) + html.slice(staleMatch.index + staleMatch[0].length);
+      }
+
       // Pick 2 sibling links: nearest other eligible articles in the same category (by recency
       // position), skipping itself and titles that are near-duplicates of this one.
       const siblings = [];
