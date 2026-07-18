@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2026 07:41:55 GMT</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 07:41:55 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2026 07:52:57 GMT</lastBuildDate>
+    <pubDate>Sat, 18 Jul 2026 07:52:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>America's Oldest John Doe Identified</title>
+      <link>https://newsanarchist.com/articles/2026-07-18-americas-oldest-john-doe-identified</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-americas-oldest-john-doe-identified</guid>
+      <pubDate>Sat, 18 Jul 2026 07:49:14 GMT</pubDate>
+      <description>America's Oldest John Doe Identified</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-americas-oldest-john-doe-identified.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Nevada Healthcare Fraud Task Force</title>
       <link>https://newsanarchist.com/articles/2026-07-18-nevada-healthcare-fraud-task-force</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Pritzker Signs Bill for Wrongful Imprisonment Restitution</title>
-      <link>https://newsanarchist.com/articles/2026-07-17-pritzker-signs-bill-for-wrongful-imprisonment-restitution</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-17-pritzker-signs-bill-for-wrongful-imprisonment-restitution</guid>
-      <pubDate>Fri, 17 Jul 2026 21:43:41 GMT</pubDate>
-      <description>Pritzker Signs Bill for Wrongful Imprisonment Restitution</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-17-pritzker-signs-bill-for-wrongful-imprisonment-restitution.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Brasil enfrenta tarifa média dos EUA na América do Sul</title>
