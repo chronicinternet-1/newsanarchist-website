@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 10:18:43 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 10:18:43 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 10:25:03 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 10:25:03 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Admin Withholds Epstein Files</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-trump-admin-withholds-epstein-files</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-trump-admin-withholds-epstein-files</guid>
+      <pubDate>Sun, 19 Jul 2026 10:19:30 GMT</pubDate>
+      <description>Trump Admin Withholds Epstein Files</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-trump-admin-withholds-epstein-files.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>US Boosts Taiwan Defense with $439M ATACMS Deal</title>
       <link>https://newsanarchist.com/articles/2026-07-19-us-boosts-taiwan-defense-with-439m-atacms-deal</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>IL Rep. Carol Ammons Pleads Not Guilty to Corruption</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-il-rep-carol-ammons-pleads-not-guilty-to-corruption</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-il-rep-carol-ammons-pleads-not-guilty-to-corruption</guid>
-      <pubDate>Sat, 18 Jul 2026 19:49:53 GMT</pubDate>
-      <description>IL Rep. Carol Ammons Pleads Not Guilty to Corruption</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-il-rep-carol-ammons-pleads-not-guilty-to-corruption.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
