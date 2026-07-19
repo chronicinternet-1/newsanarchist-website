@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 08:01:58 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 08:01:58 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 08:08:10 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 08:08:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Missouri Prosecutor Removed Over Relationships with Defendants</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-missouri-prosecutor-removed-over-relationships-with-defendants</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-missouri-prosecutor-removed-over-relationships-with-defendants</guid>
+      <pubDate>Sun, 19 Jul 2026 08:03:39 GMT</pubDate>
+      <description>Missouri Prosecutor Removed Over Relationships with Defendants</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-missouri-prosecutor-removed-over-relationships-with-defendants.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>UK Corporate Money Laundering Investigations Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-19-uk-corporate-money-laundering-investigations-rise</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>NATO Summit Rejects New Sanctions on Russia</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-nato-summit-rejects-new-sanctions-on-russia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-nato-summit-rejects-new-sanctions-on-russia</guid>
-      <pubDate>Sat, 18 Jul 2026 16:45:39 GMT</pubDate>
-      <description>NATO Summit Rejects New Sanctions on Russia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-nato-summit-rejects-new-sanctions-on-russia.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
