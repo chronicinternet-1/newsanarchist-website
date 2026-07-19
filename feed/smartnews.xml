@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 06:17:27 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 06:17:27 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 07:04:16 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 07:04:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Regulatory Challenges</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-eu-regulatory-challenges</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-eu-regulatory-challenges</guid>
+      <pubDate>Sun, 19 Jul 2026 07:00:15 GMT</pubDate>
+      <description>EU Regulatory Challenges</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-eu-regulatory-challenges.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sloan Sabbith</dc:creator>
+    </item>
     <item>
       <title>Crypto Market Trends and Regulation</title>
       <link>https://newsanarchist.com/articles/2026-07-19-crypto-market-trends-and-regulation</link>
@@ -611,18 +623,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>Myanmar Shipwrecks Claim Over 500 Lives</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives</guid>
-      <pubDate>Sat, 18 Jul 2026 15:00:09 GMT</pubDate>
-      <description>Myanmar Shipwrecks Claim Over 500 Lives</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
       <link>https://newsanarchist.com/articles/2026-07-18-rbi-keeps-repo-rate-unchanged</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-rbi-keeps-repo-rate-unchanged</guid>
@@ -645,18 +645,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>Euro Zone Bond Yields Rise on Oil Price Surge</title>
-      <link>https://newsanarchist.com/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge</guid>
-      <pubDate>Thu, 16 Jul 2026 11:57:22 GMT</pubDate>
-      <description>Euro Zone Bond Yields Rise on Oil Price Surge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-16-euro-zone-bond-yields-rise-on-oil-price-surge.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
     <item>
       <title>Australia Seeks Pacific Security Pact</title>
