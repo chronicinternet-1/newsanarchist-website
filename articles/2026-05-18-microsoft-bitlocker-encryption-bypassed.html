@@ -188,8 +188,7 @@
 
             
             <div class="article-meta-bar">
-              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;"><a href="/authors/Marcus Webb
-              <span class="ai-tag">AI-Assisted</span>
+              <span class="author" style="display:inline-flex;align-items:center;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;border:2px solid #e5e5e5;"><span class="ai-tag">AI-Assisted</span>
               <span>May 15, 2026</span>
               <span class="dot"></span>
               <span>3 min read</span>
@@ -212,23 +211,13 @@
           <!-- ARTICLE BODY — AEO optimized -->
           <!-- AEO: Direct answer for AI search engines -->
           <div class="article-body">
-            <p class="article-lede"><strong>What they're not telling you:</strong> <a href="/articles/microsoft--bitlocker-encryption-bypassed" class="na-ilink">microsoftmicrosoftmicrosoftmicrosoftmicrosoftmicrosoftmicrosoft</a>microsoft</a>Microsoft</a> <strong><a href="/articles/2026-05-17-microsoft-bitlocker-<a href="/articles/2026-05-16-microsoft-bitlocker-<a href="/articles/encryptionencryptionBitLocker Encryption Bypassed: The YellowKey. Vulnerability That Changes Everything In 2026, your data ownership is only as secure as the encryption protecting it—and Microsoft's BitLocker, trusted by millions of Windows users for full-disk encryption, can now be bypassed with a USB drive and a keystroke. According to reports circulating in privacy communities, a vulnerability known as YellowKey allows attackers to circumvent BitLocker's encryption by placing a folder on a USB drive and executing a specific key combination in Windows Recovery Environment (WinRE). The technique appears disturbingly straightforward—no advanced cryptanalysis required, no brute-force attacks over months or years.
-          <div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: BitLocker's USB Folder Bypass Isn't What You Think
+            <p class="article-lede"><strong>What they're not telling you:</strong> <a href="/articles/microsoft--bitlocker-encryption-bypassed" class="na-ilink">microsoftmicrosoftmicrosoftmicrosoftmicrosoftmicrosoftmicrosoft</a>microsoft</a>Microsoft</a> <strong><div class="author-take" style="background:#1a1a2e;border-left:4px solid #dc2626;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0;"><div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;"><img src="/images/authors/marcus-webb.webp" alt="Marcus Webb" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #dc2626;" onerror="this.style.display='none'"><div><div style="color:#dc2626;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">The Take</div><div style="color:#fff;font-size:0.85rem;font-weight:600;">Marcus Webb · Surveillance & Tech Privacy</div></div></div><p style="color:#e5e5e5;font-size:0.95rem;line-height:1.7;margin:0;"># THE TAKE: BitLocker's USB Folder Bypass Isn't What You Think
 
 The panic is misplaced. This isn't encryption broken—it's Windows doing exactly what it's configured to do.
 
 The "bypass" exploits BitLocker's resumption key storage behavior on USB devices. If you've enabled USB access to encrypted volumes without proper TPM lockdown, you've essentially handed attackers your keys. That's operational security failure, not cryptographic collapse.
 
-What *should* concern you: <a href="/articles/Microsoft's default configurations privilege convenience over security. BitLocker encrypts data at rest but remains agnostic about key material in transit and recovery mechanisms.
-
-The real story Microsoft won't highlight: enterprises running BitLocker without mandatory TPM 2.0 enforcement, password-only authentication, and USB restrictions are operating theater security.
-
-This isn't a flaw. It's a feature exposed by negligent implementation.
-
-What the Documents Show
-The method works by exploiting recovery mechanisms that remain accessible even when the drive is theoretically locked. What makes this particularly alarming is the deliberate nature of the vulnerability's architecture. The required key sequence and the folder structure needed suggest this isn't an accidental flaw discovered through fuzzing or security research—it appears engineered into the system itself. Microsoft's silence on YellowKey has been deafening. While the company maintains that BitLocker provides military-grade encryption when properly configured, the mainstream tech press has largely ignored this vulnerability, focusing instead on incremental security updates and feature announcements.
-
-<div class="callout callout-warning">
+What *should* concern you: <div class="callout callout-warning">
   <strong>🔎 Mainstream angle:</strong> The corporate press either ignored this story entirely or buried it in a 3-sentence brief. The framing, when it appeared at all, focused on process rather than impact.
 </div>
 

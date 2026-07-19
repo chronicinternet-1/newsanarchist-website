@@ -2665,7 +2665,7 @@ async function runGenerate() {
                   const closeAs = (before80.match(/<\/a>/g) || []).length;
                   if (openAs > closeAs) continue; // inside an anchor — skip
                   paragraphs[pi] = seg.slice(0, idx) +
-                    `<a href="/articles/${rel.slug}" title="${rel.title.replace(/"/g,'&quot;')}" class="na-ilink">` +
+                    `<a href="/articles/${rel.slug}" title="${String(rel.title || '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}" class="na-ilink">` +
                     seg.slice(idx, idx + pm[0].length) + '</a>' +
                     seg.slice(idx + pm[0].length);
                   didInject = true;
