@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 00:34:27 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 00:34:27 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:50:41 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 00:50:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Wildfires in Canada Worsen US Health Concerns</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-wildfires-in-canada-worsen-us-health-concerns</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-wildfires-in-canada-worsen-us-health-concerns</guid>
+      <pubDate>Sun, 19 Jul 2026 00:50:23 GMT</pubDate>
+      <description>Wildfires in Canada Worsen US Health Concerns</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-wildfires-in-canada-worsen-us-health-concerns.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Apple, DOJ in Talks to Settle Antitrust Lawsuit</title>
       <link>https://newsanarchist.com/articles/2026-07-19-apple-doj-in-talks-to-settle-antitrust-lawsuit</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>250-Year-Old US-Bermuda Treason Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-250-year-old-us-bermuda-treason-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-250-year-old-us-bermuda-treason-cold-case-solved</guid>
-      <pubDate>Sat, 18 Jul 2026 13:51:44 GMT</pubDate>
-      <description>250-Year-Old US-Bermuda Treason Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-250-year-old-us-bermuda-treason-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
