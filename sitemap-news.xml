@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-19-bahrain-issues-warning-after-tehran-attack-claims</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-19T09:39:59.959Z</news:publication_date>
+      <news:title>Bahrain Issues Warning After Tehran Attack Claims</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-19-trump-officials-face-scrutiny</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1174,22 +1182,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T10:05:48.558Z</news:publication_date>
       <news:title>US Court Orders $400M in Damages for Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-defi-hack-surge-13m-lost-in-cascade-hack</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T09:42:51.458Z</news:publication_date>
-      <news:title>DeFi Hack Surge: $1.3M Lost in Cascade Hack</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-ex-loretto-hospital-exec-fights-extradition</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T09:35:47.069Z</news:publication_date>
-      <news:title>Ex-Loretto Hospital Exec Fights Extradition</news:title>
     </news:news>
   </url>
 </urlset>
