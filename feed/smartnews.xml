@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 01:15:37 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 01:15:37 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 01:36:58 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 01:36:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Eli Lilly Peptides Gold Rush</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-eli-lilly-peptides-gold-rush</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-eli-lilly-peptides-gold-rush</guid>
+      <pubDate>Sun, 19 Jul 2026 01:32:31 GMT</pubDate>
+      <description>Eli Lilly Peptides Gold Rush</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-eli-lilly-peptides-gold-rush.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Toxic Dust Risk on London Underground</title>
       <link>https://newsanarchist.com/articles/2026-07-19-toxic-dust-risk-on-london-underground</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Medicaid Fraud Exposed in GA and MD</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-exposed-in-ga-and-md</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-medicaid-fraud-exposed-in-ga-and-md</guid>
-      <pubDate>Sat, 18 Jul 2026 15:45:57 GMT</pubDate>
-      <description>Medicaid Fraud Exposed in GA and MD</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-medicaid-fraud-exposed-in-ga-and-md.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Cuba vê influência de Trump no aumento de migrantes ao Brasil</title>
