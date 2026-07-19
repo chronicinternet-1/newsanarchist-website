@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-19-us-sanctions-and-global-politics</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-19T01:51:16.297Z</news:publication_date>
+      <news:title>US Sanctions and Global Politics</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-19-us-gov-releases-new-uap-files</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-19T01:51:10.306Z</news:publication_date>
+      <news:title>US Gov Releases New UAP Files</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-19-eli-lilly-peptides-gold-rush</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1318,22 +1334,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-17T02:39:34.226Z</news:publication_date>
       <news:title>DeFiTuna Lending Pools Exploited for $580K</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-sudans-war-economy</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T01:44:39.742Z</news:publication_date>
-      <news:title>Sudan&apos;s War Economy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-trump-releases-documents-on-alleged-2020-election-interference</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T01:41:33.271Z</news:publication_date>
-      <news:title>Trump Releases Documents on Alleged 2020 Election Interference</news:title>
     </news:news>
   </url>
 </urlset>
