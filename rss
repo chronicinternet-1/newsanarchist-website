@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 10:41:16 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 10:41:16 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 10:57:24 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 10:57:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Officer Involved in Fatal Maine Shooting Had Prior Head Injury</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-ice-officer-involved-in-fatal-maine-shooting-had-prior-head-injury</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-ice-officer-involved-in-fatal-maine-shooting-had-prior-head-injury</guid>
+      <pubDate>Sun, 19 Jul 2026 10:55:41 GMT</pubDate>
+      <description>ICE Officer Involved in Fatal Maine Shooting Had Prior Head Injury</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-ice-officer-involved-in-fatal-maine-shooting-had-prior-head-injury.png"/>
+      <category>Web3 &amp; Blockchain</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-19-facial-recognition-expands</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>UAP Disclosure Efforts Continue</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-uap-disclosure-efforts-continue</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-uap-disclosure-efforts-continue</guid>
-      <pubDate>Sat, 18 Jul 2026 20:06:38 GMT</pubDate>
-      <description>UAP Disclosure Efforts Continue</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-uap-disclosure-efforts-continue.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
