@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 00:57:01 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 00:57:01 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 01:03:15 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 01:03:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Officer's History of Violence</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-ice-officers-history-of-violence</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-ice-officers-history-of-violence</guid>
+      <pubDate>Sun, 19 Jul 2026 01:01:45 GMT</pubDate>
+      <description>ICE Officer's History of Violence</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-ice-officers-history-of-violence.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Mullin Threatens Election Officials</title>
       <link>https://newsanarchist.com/articles/2026-07-19-mullin-threatens-election-officials</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Ethiopia PM Abiy Ahmed on Pretoria Peace Agreement</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-ethiopia-pm-abiy-ahmed-on-pretoria-peace-agreement</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-ethiopia-pm-abiy-ahmed-on-pretoria-peace-agreement</guid>
-      <pubDate>Sat, 18 Jul 2026 14:41:00 GMT</pubDate>
-      <description>Ethiopia PM Abiy Ahmed on Pretoria Peace Agreement</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-ethiopia-pm-abiy-ahmed-on-pretoria-peace-agreement.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Cuba vê influência de Trump no aumento de migrantes ao Brasil</title>
