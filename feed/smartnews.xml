@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 08:08:10 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 08:08:10 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 08:19:25 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 08:19:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>CLARITY Act Negotiations Intensify</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-clarity-act-negotiations-intensify</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-clarity-act-negotiations-intensify</guid>
+      <pubDate>Sun, 19 Jul 2026 08:15:32 GMT</pubDate>
+      <description>CLARITY Act Negotiations Intensify</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-clarity-act-negotiations-intensify.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Missouri Prosecutor Removed Over Relationships with Defendants</title>
       <link>https://newsanarchist.com/articles/2026-07-19-missouri-prosecutor-removed-over-relationships-with-defendants</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US Lacks Comprehensive Federal Data Privacy Law</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-us-lacks-comprehensive-federal-data-privacy-law</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-us-lacks-comprehensive-federal-data-privacy-law</guid>
-      <pubDate>Sat, 18 Jul 2026 17:26:41 GMT</pubDate>
-      <description>US Lacks Comprehensive Federal Data Privacy Law</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-us-lacks-comprehensive-federal-data-privacy-law.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
