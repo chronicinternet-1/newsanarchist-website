@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 09:44:44 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 09:44:44 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 09:55:56 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 09:55:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Service Members Killed in Iranian Attack</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-us-service-members-killed-in-iranian-attack</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-us-service-members-killed-in-iranian-attack</guid>
+      <pubDate>Sun, 19 Jul 2026 09:54:42 GMT</pubDate>
+      <description>US Service Members Killed in Iranian Attack</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-us-service-members-killed-in-iranian-attack.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Bahrain Issues Warning After Tehran Attack Claims</title>
       <link>https://newsanarchist.com/articles/2026-07-19-bahrain-issues-warning-after-tehran-attack-claims</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Trump Declassifies Docs on China Election Interference</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</guid>
-      <pubDate>Sat, 18 Jul 2026 19:05:15 GMT</pubDate>
-      <description>Trump Declassifies Docs on China Election Interference</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
