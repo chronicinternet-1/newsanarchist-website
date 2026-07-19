@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 10:01:55 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 10:01:55 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 10:07:47 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 10:07:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Aspiring Rapper Killed in Recording Studio Ambush</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-aspiring-rapper-killed-in-recording-studio-ambush</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-aspiring-rapper-killed-in-recording-studio-ambush</guid>
+      <pubDate>Sun, 19 Jul 2026 10:05:24 GMT</pubDate>
+      <description>Aspiring Rapper Killed in Recording Studio Ambush</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-aspiring-rapper-killed-in-recording-studio-ambush.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud Data Unused</title>
       <link>https://newsanarchist.com/articles/2026-07-19-medicaid-fraud-data-unused</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Trump Declassifies Docs on China Election Interference</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference</guid>
-      <pubDate>Sat, 18 Jul 2026 19:05:15 GMT</pubDate>
-      <description>Trump Declassifies Docs on China Election Interference</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-trump-declassifies-docs-on-china-election-interference.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
