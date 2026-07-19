@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-19-us-iran-tensions-rise-amid-sanctions-and-strikes</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-19T07:54:49.388Z</news:publication_date>
+      <news:title>US-Iran Tensions Rise Amid Sanctions and Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-19-eu-regulatory-challenges</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1158,22 +1166,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
       <news:publication_date>2026-07-17T08:00:36.626Z</news:publication_date>
       <news:title>UK Regulators Boost Anti-Money Laundering Efforts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-surveillance-tech-raises-global-privacy-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T07:08:48.528Z</news:publication_date>
-      <news:title>Surveillance Tech Raises Global Privacy Concerns</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-17-bc-man-loses-867k-in-alleged-investment-fraud</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-17T07:04:35.593Z</news:publication_date>
-      <news:title>BC Man Loses $867K in Alleged Investment Fraud</news:title>
     </news:news>
   </url>
 </urlset>
