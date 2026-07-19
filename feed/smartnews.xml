@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2026 01:09:25 GMT</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 01:09:25 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 01:15:37 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 01:15:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Toxic Dust Risk on London Underground</title>
+      <link>https://newsanarchist.com/articles/2026-07-19-toxic-dust-risk-on-london-underground</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-toxic-dust-risk-on-london-underground</guid>
+      <pubDate>Sun, 19 Jul 2026 01:10:36 GMT</pubDate>
+      <description>Toxic Dust Risk on London Underground</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-toxic-dust-risk-on-london-underground.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Sudan Conflict Escalates</title>
       <link>https://newsanarchist.com/articles/2026-07-19-sudan-conflict-escalates</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Shipwrecks Claim Over 500 Lives</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives</guid>
-      <pubDate>Sat, 18 Jul 2026 15:00:09 GMT</pubDate>
-      <description>Myanmar Shipwrecks Claim Over 500 Lives</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-myanmar-shipwrecks-claim-over-500-lives.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Cuba vê influência de Trump no aumento de migrantes ao Brasil</title>
