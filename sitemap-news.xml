@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-21-asco-2026-highlights-advances-in-cancer-treatment</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-21T06:23:53.946Z</news:publication_date>
+      <news:title>ASCO 2026 Highlights Advances in Cancer Treatment</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-21-facial-recognition-under-fire</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -230,14 +238,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-19T07:00:15.758Z</news:publication_date>
       <news:title>EU Regulatory Challenges</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-crypto-market-trends-and-regulation</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T06:14:19.094Z</news:publication_date>
-      <news:title>Crypto Market Trends and Regulation</news:title>
     </news:news>
   </url>
 </urlset>
