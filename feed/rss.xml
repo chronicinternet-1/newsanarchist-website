@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 21:56:15 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 21:56:15 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 22:07:38 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 22:07:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>House Expands Whistleblower Protections</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-house-expands-whistleblower-protections</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-house-expands-whistleblower-protections</guid>
+      <pubDate>Tue, 21 Jul 2026 22:05:29 GMT</pubDate>
+      <description>House Expands Whistleblower Protections</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-house-expands-whistleblower-protections.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>D4vd Murder Case: Celeste Rivas Hernandez</title>
       <link>https://newsanarchist.com/articles/2026-07-21-d4vd-murder-case-celeste-rivas-hernandez</link>
@@ -33,18 +45,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Consciousness Research Challenges Prevailing Views</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-consciousness-research-challenges-prevailing-views</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-consciousness-research-challenges-prevailing-views</guid>
-      <pubDate>Tue, 21 Jul 2026 21:33:27 GMT</pubDate>
-      <description>Consciousness Research Challenges Prevailing Views</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-consciousness-research-challenges-prevailing-views.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>FTC Impacts US Privacy Legislation</title>
@@ -131,30 +131,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>AI Talks to the Dead</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-ai-talks-to-the-dead</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-ai-talks-to-the-dead</guid>
-      <pubDate>Tue, 21 Jul 2026 19:32:22 GMT</pubDate>
-      <description>AI Talks to the Dead</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-ai-talks-to-the-dead.png"/>
-      <category>Tech &amp; Privacy</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Flock Safety Ends Audio Surveillance Pilot After EFF Backlash</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash</guid>
-      <pubDate>Tue, 21 Jul 2026 19:12:18 GMT</pubDate>
-      <description>Flock Safety Ends Audio Surveillance Pilot After EFF Backlash</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>Trump Releases Declassified CIA Files</title>
       <link>https://newsanarchist.com/articles/2026-07-21-trump-releases-declassified-cia-files</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-releases-declassified-cia-files</guid>
@@ -189,30 +165,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Flock Safety ALPR Cameras Raise Surveillance Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-flock-safety-alpr-cameras-raise-surveillance-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-flock-safety-alpr-cameras-raise-surveillance-concerns</guid>
-      <pubDate>Tue, 21 Jul 2026 18:11:50 GMT</pubDate>
-      <description>Flock Safety ALPR Cameras Raise Surveillance Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-flock-safety-alpr-cameras-raise-surveillance-concerns.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Hawley Probes Meta Over China Tie Whistleblower</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-hawley-probes-meta-over-china-tie-whistleblower</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-hawley-probes-meta-over-china-tie-whistleblower</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:46 GMT</pubDate>
-      <description>Hawley Probes Meta Over China Tie Whistleblower</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-hawley-probes-meta-over-china-tie-whistleblower.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Ukraine Conflict Escalates in Eastern Ukraine</title>
@@ -623,6 +575,18 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
+      <title>Flock Surveillance Feature Cancelled</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</guid>
+      <pubDate>Tue, 21 Jul 2026 08:03:49 GMT</pubDate>
+      <description>Flock Surveillance Feature Cancelled</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-flock-surveillance-feature-cancelled.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
+    <item>
       <title>UK Retailer Game Enters Administration</title>
       <link>https://newsanarchist.com/articles/2026-07-21-uk-retailer-game-enters-administration</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-uk-retailer-game-enters-administration</guid>
@@ -633,6 +597,30 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
+    </item>
+    <item>
+      <title>US Enforcement Trends Shift</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-us-enforcement-trends-shift</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-us-enforcement-trends-shift</guid>
+      <pubDate>Tue, 21 Jul 2026 07:57:06 GMT</pubDate>
+      <description>US Enforcement Trends Shift</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-us-enforcement-trends-shift.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>ASEAN Ministers Meet to Address Myanmar Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-asean-ministers-meet-to-address-myanmar-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-asean-ministers-meet-to-address-myanmar-crisis</guid>
+      <pubDate>Tue, 21 Jul 2026 07:38:08 GMT</pubDate>
+      <description>ASEAN Ministers Meet to Address Myanmar Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-asean-ministers-meet-to-address-myanmar-crisis.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>ECB and EU Sanctions</title>
