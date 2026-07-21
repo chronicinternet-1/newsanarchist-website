@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 07:04:58 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 07:04:58 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:26:21 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 07:26:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brain May Not Create Consciousness</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-brain-may-not-create-consciousness</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-brain-may-not-create-consciousness</guid>
+      <pubDate>Tue, 21 Jul 2026 07:24:20 GMT</pubDate>
+      <description>Brain May Not Create Consciousness</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-brain-may-not-create-consciousness.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Faces Backlash</title>
       <link>https://newsanarchist.com/articles/2026-07-21-facial-recognition-faces-backlash</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Mullin Threatens Election Officials</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-mullin-threatens-election-officials</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-mullin-threatens-election-officials</guid>
-      <pubDate>Sun, 19 Jul 2026 00:55:00 GMT</pubDate>
-      <description>Mullin Threatens Election Officials</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-mullin-threatens-election-officials.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
