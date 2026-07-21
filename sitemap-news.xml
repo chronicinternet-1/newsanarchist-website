@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-21-global-energy-shifts-amid-rising-tensions</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-21T08:26:08.031Z</news:publication_date>
+      <news:title>Global Energy Shifts Amid Rising Tensions</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -342,14 +350,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-19T08:57:49.609Z</news:publication_date>
       <news:title>US Sanctions Impact Russia-Ukraine War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-clarity-act-negotiations-intensify</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T08:15:32.700Z</news:publication_date>
-      <news:title>CLARITY Act Negotiations Intensify</news:title>
     </news:news>
   </url>
 </urlset>
