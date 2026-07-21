@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-21-trump-orders-review-of-climate-guidance</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-21T05:23:11.231Z</news:publication_date>
+      <news:title>Trump Orders Review of Climate Guidance</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-21-aclu-toolkit-exposes-police-surveillance-secrets</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -174,30 +182,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-19T06:14:19.094Z</news:publication_date>
       <news:title>Crypto Market Trends and Regulation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-trump-speech-raises-transparency-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T05:13:33.509Z</news:publication_date>
-      <news:title>Trump Speech Raises Transparency Concerns</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-crypto-exchange-hacked-for-293m</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T05:13:17.185Z</news:publication_date>
-      <news:title>Crypto Exchange Hacked for $293M</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-sudan-conflict-escalates-with-drone-strikes-and-war-crimes</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T05:13:15.171Z</news:publication_date>
-      <news:title>Sudan Conflict Escalates with Drone Strikes and War Crimes</news:title>
     </news:news>
   </url>
 </urlset>

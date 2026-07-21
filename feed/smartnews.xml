@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 05:08:19 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 05:08:19 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:24:39 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 05:24:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Orders Review of Climate Guidance</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-trump-orders-review-of-climate-guidance</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-orders-review-of-climate-guidance</guid>
+      <pubDate>Tue, 21 Jul 2026 05:23:11 GMT</pubDate>
+      <description>Trump Orders Review of Climate Guidance</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-trump-orders-review-of-climate-guidance.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>ACLU Toolkit Exposes Police Surveillance Secrets</title>
       <link>https://newsanarchist.com/articles/2026-07-21-aclu-toolkit-exposes-police-surveillance-secrets</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Apple in Settlement Talks with DOJ</title>
-      <link>https://newsanarchist.com/articles/2026-07-18-apple-in-settlement-talks-with-doj</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-18-apple-in-settlement-talks-with-doj</guid>
-      <pubDate>Sat, 18 Jul 2026 21:29:24 GMT</pubDate>
-      <description>Apple in Settlement Talks with DOJ</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-18-apple-in-settlement-talks-with-doj.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
