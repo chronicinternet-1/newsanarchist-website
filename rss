@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 17:38:34 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 17:38:34 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 17:49:36 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 17:49:36 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ukraine Conflict Escalates in Eastern Ukraine</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine</guid>
+      <pubDate>Tue, 21 Jul 2026 17:48:53 GMT</pubDate>
+      <description>Ukraine Conflict Escalates in Eastern Ukraine</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Medicaid Fraud: $1B Payments Halted</title>
       <link>https://newsanarchist.com/articles/2026-07-21-medicaid-fraud-1b-payments-halted</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>ASCO 2026 Highlights Advances in Cancer Treatment</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-asco-2026-highlights-advances-in-cancer-treatment</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-asco-2026-highlights-advances-in-cancer-treatment</guid>
-      <pubDate>Tue, 21 Jul 2026 06:23:53 GMT</pubDate>
-      <description>ASCO 2026 Highlights Advances in Cancer Treatment</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-asco-2026-highlights-advances-in-cancer-treatment.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
