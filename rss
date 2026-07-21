@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 07:26:21 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 07:26:21 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:32:42 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 07:32:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Labcorp Settles $14.5M Medicare False Claims</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-labcorp-settles-145m-medicare-false-claims</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-labcorp-settles-145m-medicare-false-claims</guid>
+      <pubDate>Tue, 21 Jul 2026 07:26:46 GMT</pubDate>
+      <description>Labcorp Settles $14.5M Medicare False Claims</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-labcorp-settles-145m-medicare-false-claims.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Brain May Not Create Consciousness</title>
       <link>https://newsanarchist.com/articles/2026-07-21-brain-may-not-create-consciousness</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Toxic Dust Risk on London Underground</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-toxic-dust-risk-on-london-underground</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-toxic-dust-risk-on-london-underground</guid>
-      <pubDate>Sun, 19 Jul 2026 01:10:36 GMT</pubDate>
-      <description>Toxic Dust Risk on London Underground</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-toxic-dust-risk-on-london-underground.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
