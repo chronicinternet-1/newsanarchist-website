@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 09:44:06 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 09:44:06 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 09:55:39 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 09:55:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>HUD Funding Issues at Housing Authority</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-hud-funding-issues-at-housing-authority</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-hud-funding-issues-at-housing-authority</guid>
+      <pubDate>Tue, 21 Jul 2026 09:53:13 GMT</pubDate>
+      <description>HUD Funding Issues at Housing Authority</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-hud-funding-issues-at-housing-authority.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Prosecutorial Misconduct Allegations Rise</title>
       <link>https://newsanarchist.com/articles/2026-07-21-prosecutorial-misconduct-allegations-rise</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Negotiations Intensify</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-clarity-act-negotiations-intensify</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-clarity-act-negotiations-intensify</guid>
-      <pubDate>Sun, 19 Jul 2026 08:15:32 GMT</pubDate>
-      <description>CLARITY Act Negotiations Intensify</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-clarity-act-negotiations-intensify.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
