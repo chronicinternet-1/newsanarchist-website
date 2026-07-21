@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 22:19:00 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 22:19:00 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 22:35:24 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 22:35:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Orders UAP Documents Release</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-trump-orders-uap-documents-release</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-orders-uap-documents-release</guid>
+      <pubDate>Tue, 21 Jul 2026 22:34:28 GMT</pubDate>
+      <description>Trump Orders UAP Documents Release</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-trump-orders-uap-documents-release.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>55 US Cities Reject Flock Safety Cameras</title>
       <link>https://newsanarchist.com/articles/2026-07-21-55-us-cities-reject-flock-safety-cameras</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>US Enforcement Trends Shift</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-us-enforcement-trends-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-us-enforcement-trends-shift</guid>
-      <pubDate>Tue, 21 Jul 2026 07:57:06 GMT</pubDate>
-      <description>US Enforcement Trends Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-us-enforcement-trends-shift.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>ECB and EU Sanctions</title>
