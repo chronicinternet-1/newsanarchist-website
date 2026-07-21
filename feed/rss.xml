@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 21:35:00 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 21:35:00 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 21:56:15 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 21:56:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>D4vd Murder Case: Celeste Rivas Hernandez</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-d4vd-murder-case-celeste-rivas-hernandez</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-d4vd-murder-case-celeste-rivas-hernandez</guid>
+      <pubDate>Tue, 21 Jul 2026 21:53:00 GMT</pubDate>
+      <description>D4vd Murder Case: Celeste Rivas Hernandez</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-d4vd-murder-case-celeste-rivas-hernandez.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Consciousness Research Challenges Prevailing Views</title>
       <link>https://newsanarchist.com/articles/2026-07-21-consciousness-research-challenges-prevailing-views</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Flock Surveillance Feature Cancelled</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</guid>
-      <pubDate>Tue, 21 Jul 2026 08:03:49 GMT</pubDate>
-      <description>Flock Surveillance Feature Cancelled</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-flock-surveillance-feature-cancelled.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>UK Retailer Game Enters Administration</title>
