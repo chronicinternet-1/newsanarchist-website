@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 16:03:06 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 16:03:06 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 16:14:10 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 16:14:10 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ACLU Targets State Surveillance Secrets</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-aclu-targets-state-surveillance-secrets</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-aclu-targets-state-surveillance-secrets</guid>
+      <pubDate>Tue, 21 Jul 2026 16:10:29 GMT</pubDate>
+      <description>ACLU Targets State Surveillance Secrets</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-aclu-targets-state-surveillance-secrets.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Poll: SCOTUS Rulings on Trump Agenda Seen as Political</title>
       <link>https://newsanarchist.com/articles/2026-07-21-poll-scotus-rulings-on-trump-agenda-seen-as-political</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Trump Orders Review of Climate Guidance</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-trump-orders-review-of-climate-guidance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-orders-review-of-climate-guidance</guid>
-      <pubDate>Tue, 21 Jul 2026 05:23:11 GMT</pubDate>
-      <description>Trump Orders Review of Climate Guidance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-trump-orders-review-of-climate-guidance.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
