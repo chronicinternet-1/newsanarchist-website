@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-21-synack-research-finds-vulnerabilities</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-21T09:25:30.166Z</news:publication_date>
+      <news:title>Synack Research Finds Vulnerabilities</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -350,22 +358,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-19T09:39:59.959Z</news:publication_date>
       <news:title>Bahrain Issues Warning After Tehran Attack Claims</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-trump-officials-face-scrutiny</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T09:17:58.165Z</news:publication_date>
-      <news:title>Trump Officials Face Scrutiny</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-19-ecowas-faces-challenges-in-west-africa</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-19T09:02:06.359Z</news:publication_date>
-      <news:title>ECOWAS Faces Challenges in West Africa</news:title>
     </news:news>
   </url>
 </urlset>

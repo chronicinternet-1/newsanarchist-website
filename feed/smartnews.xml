@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 09:00:48 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 09:00:48 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 09:27:24 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 09:27:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Synack Research Finds Vulnerabilities</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-synack-research-finds-vulnerabilities</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-synack-research-finds-vulnerabilities</guid>
+      <pubDate>Tue, 21 Jul 2026 09:25:30 GMT</pubDate>
+      <description>Synack Research Finds Vulnerabilities</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-synack-research-finds-vulnerabilities.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
       <link>https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>EU Regulatory Challenges</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-eu-regulatory-challenges</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-eu-regulatory-challenges</guid>
-      <pubDate>Sun, 19 Jul 2026 07:00:15 GMT</pubDate>
-      <description>EU Regulatory Challenges</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-eu-regulatory-challenges.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
