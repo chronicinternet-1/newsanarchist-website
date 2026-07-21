@@ -1338,14 +1338,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-<script src="//ezoicanalytics.com/analytics.js"></script>
+
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -1372,8 +1365,6 @@ ${author.slug ? `<img src="/images/authors/${author.slug}.webp" alt="${author.na
 </div>
 ${shareRow('top')}
 ${cardThumb(catSlug, "art-img", "eager", slug)}
-<div id="ezoic-pub-ad-placeholder-101"></div>
-<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(101); });</script>
 <div class="art-body">${articleBody}</div>
 <div class="na-subscribe-inline" style="margin:40px 0;padding:28px 32px;background:#0f0f0f;border:1px solid #222;border-left:4px solid #e63946">
   <div style="font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#e63946;margin-bottom:8px">THE DAILY BRIEFING</div>
@@ -1388,14 +1379,10 @@ ${cardThumb(catSlug, "art-img", "eager", slug)}
 <script>
 function naSubscribe(e,form){e.preventDefault();var em=form.querySelector('input[name=email]').value;var btn=form.querySelector('button');btn.textContent='Subscribing...';btn.disabled=true;fetch('https://brevo-subscribe.steve-5cb.workers.dev',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:em,source:'article-inline'})}).then(function(){form.style.display='none';document.getElementById('na-sub-ok').style.display='block';}).catch(function(){btn.textContent='Subscribe Free';btn.disabled=false;});}
 </script>
-<div id="ezoic-pub-ad-placeholder-102"></div>
-<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(102); });</script>
 ${renderRelatedProducts(category)}
 ${shareRow('bottom')}
 ${SHARE_SCRIPT}
 </article>
-<div id="ezoic-pub-ad-placeholder-103"></div>
-<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(103); });</script>
 </main>
 <aside>
 <div class="na-widget" id="na-brief">
@@ -3220,14 +3207,7 @@ a{color:inherit;text-decoration:none}
 @media(max-width:600px){.na-hpsub{flex-direction:column;align-items:stretch}.na-hpsub form{max-width:none}}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-<script src="//ezoicanalytics.com/analytics.js"></script>
+
 </head>
 <body>
 <div class="na-mast">
@@ -3702,14 +3682,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fbot{padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
-<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-<script src="//ezoicanalytics.com/analytics.js"></script>
+
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -3914,14 +3887,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-<script src="//ezoicanalytics.com/analytics.js"></script>
+
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -4130,14 +4096,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .na-fcopy{font-size:10px;color:#333}.na-fchronic{font-size:10px;color:#333}.na-fchronic:hover{color:#888}
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-<script src="//ezoicanalytics.com/analytics.js"></script>
+
 </head>
 <body>
 <div class="na-mast"><div class="na-mast-inner">
@@ -4524,16 +4483,17 @@ function runAuthorPages() {
   console.log(`✅ ${n} author pages generated`);
 }
 
-// ─── Backfill GA4 / Ezoic / affiliate into older articles missing instrumentation ──
+// ─── Backfill GA4 / AdSense / affiliate into older articles missing instrumentation ──
+// (2026-07-21: Ezoic removed entirely — AdSense is the sole ad system, per policy: the two
+// can't run simultaneously. Do not reintroduce ezojs.com/ezoicanalytics.com/gatekeeperconsent.com
+// or ezoic-pub-ad-placeholder divs here.)
 function runBackfillInstrumentation() {
   const dir = path.join(SITE_DIR, 'articles');
   const files = fs.readdirSync(dir).filter(f => f.endsWith('.html'));
   const headBlock =
     `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>\n` +
     `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');</script>\n` +
-    `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>\n` +
-    `<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>\n` +
-    `<script>\n    window.ezstandalone = window.ezstandalone || {};\n    ezstandalone.cmd = ezstandalone.cmd || [];\n</script>\n`;
+    `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8570942144538499" crossorigin="anonymous"></script>\n`;
   let fixed = 0, skipped = 0;
   for (const f of files) {
     const fp = path.join(dir, f);
@@ -4542,13 +4502,11 @@ function runBackfillInstrumentation() {
     if (!html.includes('</head>')) { console.warn(`  ⚠️  ${f}: no </head> — skipped`); skipped++; continue; }
     const category = (html.match(/article:section" content="([^"]+)"/) || [])[1]
       || (html.match(/class="art-cat">([^<]+)</) || [])[1] || 'Government Secrets';
-    // 1) GA4 + Ezoic into <head>
+    // 1) GA4 + AdSense into <head>
     html = html.replace('</head>', headBlock + '</head>');
-    // 2) Ezoic ad placeholder + affiliate block before the footer (fallback: before </body>)
-    const adAffiliate =
-      `<div id="ezoic-pub-ad-placeholder-103"></div>\n` +
-      `<script>ezstandalone.cmd.push(function(){ ezstandalone.showAds(103); });</script>\n` +
-      renderRelatedProducts(category) + '\n';
+    // 2) Affiliate block before the footer (fallback: before </body>) — AdSense auto-ads handles
+    // ad placement site-wide via the <head> tag, no per-slot placeholder div needed here.
+    const adAffiliate = renderRelatedProducts(category) + '\n';
     if (/<footer class="na-footer">/.test(html)) {
       html = html.replace('<footer class="na-footer">', adAffiliate + '<footer class="na-footer">');
     } else if (html.includes('</body>')) {

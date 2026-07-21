@@ -95,7 +95,9 @@ function cosine(a, b) {
 function bodySnippet(filename, articlesDir) {
   try {
     const html = fs.readFileSync(path.join(articlesDir, filename), 'utf-8');
-    const m = html.match(/<div class="art-body">([\s\S]*?)<div id="ezoic/);
+    // 2026-07-21: was bounded by the (now-removed) ezoic placeholder div; a fixed raw-char
+    // window is sufficient since we only keep the first 400 cleaned chars anyway.
+    const m = html.match(/<div class="art-body">([\s\S]{0,3000})/);
     const body = m ? m[1] : '';
     return body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 400);
   } catch { return ''; }
