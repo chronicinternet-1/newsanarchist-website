@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 07:50:34 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 07:50:34 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:57:18 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 07:57:18 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Amtrak IG Report Highlights Lessons for Rolling-Stock Acquisitions</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-amtrak-ig-report-highlights-lessons-for-rolling-stock-acquisitions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-amtrak-ig-report-highlights-lessons-for-rolling-stock-acquisitions</guid>
+      <pubDate>Tue, 21 Jul 2026 07:52:15 GMT</pubDate>
+      <description>Amtrak IG Report Highlights Lessons for Rolling-Stock Acquisitions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-amtrak-ig-report-highlights-lessons-for-rolling-stock-acquisitions.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Wanchain Cardano Bridge Hacked for $10M</title>
       <link>https://newsanarchist.com/articles/2026-07-21-wanchain-cardano-bridge-hacked-for-10m</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>FCC Chair Faces GOP Backlash</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-fcc-chair-faces-gop-backlash</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-fcc-chair-faces-gop-backlash</guid>
-      <pubDate>Sun, 19 Jul 2026 02:33:15 GMT</pubDate>
-      <description>FCC Chair Faces GOP Backlash</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-fcc-chair-faces-gop-backlash.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
