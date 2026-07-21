@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:42:56 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 08:42:56 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:49:25 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 08:49:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Targets Crypto Fraud</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-sec-targets-crypto-fraud</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-sec-targets-crypto-fraud</guid>
+      <pubDate>Tue, 21 Jul 2026 08:48:45 GMT</pubDate>
+      <description>SEC Targets Crypto Fraud</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-sec-targets-crypto-fraud.png"/>
+      <category>Web3 &amp; Blockchain</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Woman on Trial for Murder of 3 Children</title>
       <link>https://newsanarchist.com/articles/2026-07-21-woman-on-trial-for-murder-of-3-children</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Speech Raises Transparency Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-trump-speech-raises-transparency-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-trump-speech-raises-transparency-concerns</guid>
-      <pubDate>Sun, 19 Jul 2026 05:13:33 GMT</pubDate>
-      <description>Trump Speech Raises Transparency Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-trump-speech-raises-transparency-concerns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
