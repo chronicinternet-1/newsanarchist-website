@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:49:25 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 08:49:25 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 09:00:48 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 09:00:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</guid>
+      <pubDate>Tue, 21 Jul 2026 09:00:14 GMT</pubDate>
+      <description>Nigeria Abduction: Terrorists Killed, Arrested</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Alma Gutierrez</dc:creator>
+    </item>
     <item>
       <title>SEC Targets Crypto Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-21-sec-targets-crypto-fraud</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sloan Sabbith</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Market Trends and Regulation</title>
-      <link>https://newsanarchist.com/articles/2026-07-19-crypto-market-trends-and-regulation</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-19-crypto-market-trends-and-regulation</guid>
-      <pubDate>Sun, 19 Jul 2026 06:14:19 GMT</pubDate>
-      <description>Crypto Market Trends and Regulation</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-19-crypto-market-trends-and-regulation.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
