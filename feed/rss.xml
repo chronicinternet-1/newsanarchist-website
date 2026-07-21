@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 Jul 2026 19:04:55 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jul 2026 19:04:55 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 19:15:57 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 19:15:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Safety Ends Audio Surveillance Pilot After EFF Backlash</title>
+      <link>https://newsanarchist.com/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash</guid>
+      <pubDate>Tue, 21 Jul 2026 19:12:18 GMT</pubDate>
+      <description>Flock Safety Ends Audio Surveillance Pilot After EFF Backlash</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-flock-safety-ends-audio-surveillance-pilot-after-eff-backlash.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Trump Releases Declassified CIA Files</title>
       <link>https://newsanarchist.com/articles/2026-07-21-trump-releases-declassified-cia-files</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Under Fire</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-facial-recognition-under-fire</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-facial-recognition-under-fire</guid>
-      <pubDate>Tue, 21 Jul 2026 06:01:53 GMT</pubDate>
-      <description>Facial Recognition Under Fire</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-facial-recognition-under-fire.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>RBI Keeps Repo Rate Unchanged</title>
