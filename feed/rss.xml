@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:16:38 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 16:16:38 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 16:27:54 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 16:27:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SEC Updates Rulemaking Process</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-sec-updates-rulemaking-process</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-sec-updates-rulemaking-process</guid>
+      <pubDate>Wed, 22 Jul 2026 16:25:07 GMT</pubDate>
+      <description>SEC Updates Rulemaking Process</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-sec-updates-rulemaking-process.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Camille Johnston Removed Amid Allegations</title>
       <link>https://newsanarchist.com/articles/2026-07-22-camille-johnston-removed-amid-allegations</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>$1 Billion Medicaid Funds Frozen</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-1-billion-medicaid-funds-frozen</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-1-billion-medicaid-funds-frozen</guid>
-      <pubDate>Wed, 22 Jul 2026 00:41:31 GMT</pubDate>
-      <description>$1 Billion Medicaid Funds Frozen</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-1-billion-medicaid-funds-frozen.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
