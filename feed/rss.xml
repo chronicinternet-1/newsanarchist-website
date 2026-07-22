@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:27:54 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 16:27:54 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 16:33:49 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 16:33:49 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Inspector General Reports Highlight $63 Million Bureaucratic Shortcomings</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-inspector-general-reports-highlight-63-million-bureaucratic-shortcomings</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-inspector-general-reports-highlight-63-million-bureaucratic-shortcomings</guid>
+      <pubDate>Wed, 22 Jul 2026 16:28:07 GMT</pubDate>
+      <description>Inspector General Reports Highlight $63 Million Bureaucratic Shortcomings</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-inspector-general-reports-highlight-63-million-bureaucratic-shortcomings.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>SEC Updates Rulemaking Process</title>
       <link>https://newsanarchist.com/articles/2026-07-22-sec-updates-rulemaking-process</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>American Passport Rankings Shift</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-american-passport-rankings-shift</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-american-passport-rankings-shift</guid>
-      <pubDate>Wed, 22 Jul 2026 00:41:56 GMT</pubDate>
-      <description>American Passport Rankings Shift</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-american-passport-rankings-shift.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
