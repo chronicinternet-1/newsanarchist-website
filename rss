@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 23:03:57 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 23:03:57 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 23:10:27 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 23:10:27 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>SNAP Fraud: Bodegas, Lottery Winners, and Incarcerated Individuals</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-snap-fraud-bodegas-lottery-winners-and-incarcerated-individuals</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-snap-fraud-bodegas-lottery-winners-and-incarcerated-individuals</guid>
+      <pubDate>Wed, 22 Jul 2026 23:09:13 GMT</pubDate>
+      <description>SNAP Fraud: Bodegas, Lottery Winners, and Incarcerated Individuals</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-snap-fraud-bodegas-lottery-winners-and-incarcerated-individuals.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US Warns ASEAN of Indo-Pacific Precedent</title>
       <link>https://newsanarchist.com/articles/2026-07-22-us-warns-asean-of-indo-pacific-precedent</link>
@@ -609,18 +621,6 @@
       <category>Tech &amp; Privacy</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>US Senate Hearings on Ecuador Partnership Raise Human Rights Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-us-senate-hearings-on-ecuador-partnership-raise-human-rights-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-senate-hearings-on-ecuador-partnership-raise-human-rights-concerns</guid>
-      <pubDate>Wed, 22 Jul 2026 05:15:16 GMT</pubDate>
-      <description>US Senate Hearings on Ecuador Partnership Raise Human Rights Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-senate-hearings-on-ecuador-partnership-raise-human-rights-concerns.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>मोदी सरकार की NEET 2026 पेपर लीक विवाद में क्या है रणनीति</title>
