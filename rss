@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 01:20:17 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 01:20:17 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:41:50 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 01:41:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Consciousness Research Explores New Frontiers</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-consciousness-research-explores-new-frontiers</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-consciousness-research-explores-new-frontiers</guid>
+      <pubDate>Wed, 22 Jul 2026 01:37:08 GMT</pubDate>
+      <description>Consciousness Research Explores New Frontiers</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-consciousness-research-explores-new-frontiers.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>US Expands Surveillance State Under Joe Biden</title>
       <link>https://newsanarchist.com/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Netanyahu Defies Court</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-netanyahu-defies-court</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-netanyahu-defies-court</guid>
-      <pubDate>Tue, 21 Jul 2026 12:54:12 GMT</pubDate>
-      <description>Netanyahu Defies Court</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-netanyahu-defies-court.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
