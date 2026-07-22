@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 19:20:47 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 19:20:47 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:31:43 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 19:31:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Crypto Market Sees $1.65M Hack</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-crypto-market-sees-165m-hack</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-crypto-market-sees-165m-hack</guid>
+      <pubDate>Wed, 22 Jul 2026 19:31:03 GMT</pubDate>
+      <description>Crypto Market Sees $1.65M Hack</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-crypto-market-sees-165m-hack.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>FCC Bans China Military-Grade Drone Imports</title>
       <link>https://newsanarchist.com/articles/2026-07-22-fcc-bans-china-military-grade-drone-imports</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>DNA Tech Solves 45-Year-Old Cold Cases</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-dna-tech-solves-45-year-old-cold-cases</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-dna-tech-solves-45-year-old-cold-cases</guid>
-      <pubDate>Wed, 22 Jul 2026 02:59:07 GMT</pubDate>
-      <description>DNA Tech Solves 45-Year-Old Cold Cases</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-dna-tech-solves-45-year-old-cold-cases.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
