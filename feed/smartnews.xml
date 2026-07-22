@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 18:33:38 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 18:33:38 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 18:59:37 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 18:59:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Conflict Escalates in Strait of Hormuz</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-us-iran-conflict-escalates-in-strait-of-hormuz</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-iran-conflict-escalates-in-strait-of-hormuz</guid>
+      <pubDate>Wed, 22 Jul 2026 18:55:51 GMT</pubDate>
+      <description>US-Iran Conflict Escalates in Strait of Hormuz</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-iran-conflict-escalates-in-strait-of-hormuz.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Clarity Act Nears Passage, Impacts XRP</title>
       <link>https://newsanarchist.com/articles/2026-07-22-clarity-act-nears-passage-impacts-xrp</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US-China Relations Under Strain</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-us-china-relations-under-strain</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-china-relations-under-strain</guid>
-      <pubDate>Wed, 22 Jul 2026 02:43:46 GMT</pubDate>
-      <description>US-China Relations Under Strain</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-china-relations-under-strain.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
