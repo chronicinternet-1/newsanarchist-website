@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 09:45:14 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 09:45:14 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 09:51:12 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 09:51:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UN Agency: Conflicts Threaten Global Hunger</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-un-agency-conflicts-threaten-global-hunger</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-un-agency-conflicts-threaten-global-hunger</guid>
+      <pubDate>Wed, 22 Jul 2026 09:49:25 GMT</pubDate>
+      <description>UN Agency: Conflicts Threaten Global Hunger</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-un-agency-conflicts-threaten-global-hunger.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Near-Death Experiences Spark New Research Frontier</title>
       <link>https://newsanarchist.com/articles/2026-07-22-near-death-experiences-spark-new-research-frontier</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Clarity Act Impact on $75 Million Crypto Token Sales</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-clarity-act-impact-on-75-million-crypto-token-sales</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-clarity-act-impact-on-75-million-crypto-token-sales</guid>
-      <pubDate>Tue, 21 Jul 2026 20:59:32 GMT</pubDate>
-      <description>Clarity Act Impact on $75 Million Crypto Token Sales</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-clarity-act-impact-on-75-million-crypto-token-sales.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
