@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 08:08:20 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 08:08:20 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 08:49:21 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 08:49:21 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump Accuses China of 2020 Election Interference</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-trump-accuses-china-of-2020-election-interference</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-trump-accuses-china-of-2020-election-interference</guid>
+      <pubDate>Wed, 22 Jul 2026 08:48:24 GMT</pubDate>
+      <description>Trump Accuses China of 2020 Election Interference</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-trump-accuses-china-of-2020-election-interference.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>ASEAN Talks Overshadowed by Myanmar Conflict</title>
       <link>https://newsanarchist.com/articles/2026-07-22-asean-talks-overshadowed-by-myanmar-conflict</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>SEC Regulation Shifts on Tokenization Governance</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-sec-regulation-shifts-on-tokenization-governance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-sec-regulation-shifts-on-tokenization-governance</guid>
-      <pubDate>Tue, 21 Jul 2026 18:57:06 GMT</pubDate>
-      <description>SEC Regulation Shifts on Tokenization Governance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-sec-regulation-shifts-on-tokenization-governance.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
