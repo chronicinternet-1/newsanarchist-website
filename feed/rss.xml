@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 15:17:22 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 15:17:22 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 15:28:25 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 15:28:25 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon's AARO Investigates UAP</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-pentagons-aaro-investigates-uap</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-pentagons-aaro-investigates-uap</guid>
+      <pubDate>Wed, 22 Jul 2026 15:26:37 GMT</pubDate>
+      <description>Pentagon's AARO Investigates UAP</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-pentagons-aaro-investigates-uap.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>House Committee Probes Middlemen</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-house-committee-probes-middlemen</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-house-committee-probes-middlemen</guid>
+      <pubDate>Wed, 22 Jul 2026 15:26:23 GMT</pubDate>
+      <description>House Committee Probes Middlemen</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-house-committee-probes-middlemen.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Correctional Officer's Conviction Vacated</title>
       <link>https://newsanarchist.com/articles/2026-07-22-correctional-officers-conviction-vacated</link>
@@ -597,30 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>EEOC Ends Demographic Data Collection</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-eeoc-ends-demographic-data-collection</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-eeoc-ends-demographic-data-collection</guid>
-      <pubDate>Tue, 21 Jul 2026 23:16:21 GMT</pubDate>
-      <description>EEOC Ends Demographic Data Collection</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-eeoc-ends-demographic-data-collection.png"/>
-      <category>Tech &amp; Privacy</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Trump Backs Clarity Act</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-trump-backs-clarity-act</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-backs-clarity-act</guid>
-      <pubDate>Tue, 21 Jul 2026 23:02:06 GMT</pubDate>
-      <description>Trump Backs Clarity Act</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-trump-backs-clarity-act.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
