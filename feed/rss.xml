@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 20:18:45 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 20:18:45 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 20:59:50 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 20:59:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Missile Hits Hormuz Island</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-us-missile-hits-hormuz-island</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-missile-hits-hormuz-island</guid>
+      <pubDate>Wed, 22 Jul 2026 20:57:53 GMT</pubDate>
+      <description>US Missile Hits Hormuz Island</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-missile-hits-hormuz-island.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Min Aung Hlaing Seeks Diplomatic Comeback</title>
       <link>https://newsanarchist.com/articles/2026-07-22-min-aung-hlaing-seeks-diplomatic-comeback</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>PA Court Rejects Warrantless Surveillance</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-pa-court-rejects-warrantless-surveillance</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-pa-court-rejects-warrantless-surveillance</guid>
-      <pubDate>Wed, 22 Jul 2026 04:21:09 GMT</pubDate>
-      <description>PA Court Rejects Warrantless Surveillance</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-pa-court-rejects-warrantless-surveillance.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>मोदी सरकार की NEET 2026 पेपर लीक विवाद में क्या है रणनीति</title>
