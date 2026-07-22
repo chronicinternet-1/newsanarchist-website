@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,12 +92,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,6 +167,12 @@
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-22-ukraine-conflict-escalation</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-22-eu-seeks-to-finalize-fresh-russia-sanctions</loc>
@@ -2691,8 +2697,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-new-jail-project-recommended</loc>
     <lastmod>2026-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-defi-hack-losses-remain-below-2025-levels</loc>
@@ -2703,14 +2709,14 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-china-expels-senior-official-faces-tariffs</loc>
     <lastmod>2026-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-hhs-cracks-down-on-medicaid-medicare-advantage-fraud</loc>
     <lastmod>2026-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-15-facial-recognition-tech-expands-globally</loc>

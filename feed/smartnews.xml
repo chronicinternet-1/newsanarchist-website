@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:54:47 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 16:54:47 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 17:15:48 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 17:15:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Ukraine Conflict Escalation</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-ukraine-conflict-escalation</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-ukraine-conflict-escalation</guid>
+      <pubDate>Wed, 22 Jul 2026 17:13:41 GMT</pubDate>
+      <description>Ukraine Conflict Escalation</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-ukraine-conflict-escalation.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>EU Seeks to Finalize Fresh Russia Sanctions</title>
       <link>https://newsanarchist.com/articles/2026-07-22-eu-seeks-to-finalize-fresh-russia-sanctions</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>US Expands Surveillance State Under Joe Biden</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden</guid>
-      <pubDate>Wed, 22 Jul 2026 01:18:39 GMT</pubDate>
-      <description>US Expands Surveillance State Under Joe Biden</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Australia Freezes Chinese Investor Rights</title>
