@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 08:49:21 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 08:49:21 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 08:55:24 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 08:55:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Medicaid Fraud Crackdown: $1 Billion</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-medicaid-fraud-crackdown-1-billion</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-medicaid-fraud-crackdown-1-billion</guid>
+      <pubDate>Wed, 22 Jul 2026 08:49:35 GMT</pubDate>
+      <description>Medicaid Fraud Crackdown: $1 Billion</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-medicaid-fraud-crackdown-1-billion.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>Trump Accuses China of 2020 Election Interference</title>
       <link>https://newsanarchist.com/articles/2026-07-22-trump-accuses-china-of-2020-election-interference</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Trump Releases Declassified CIA Files</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-trump-releases-declassified-cia-files</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-trump-releases-declassified-cia-files</guid>
-      <pubDate>Tue, 21 Jul 2026 19:02:02 GMT</pubDate>
-      <description>Trump Releases Declassified CIA Files</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-trump-releases-declassified-cia-files.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
