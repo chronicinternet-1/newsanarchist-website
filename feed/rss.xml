@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 01:13:40 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 01:13:40 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:20:17 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 01:20:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Expands Surveillance State Under Joe Biden</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden</guid>
+      <pubDate>Wed, 22 Jul 2026 01:18:39 GMT</pubDate>
+      <description>US Expands Surveillance State Under Joe Biden</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-us-expands-surveillance-state-under-joe-biden.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Blanche Faces Questions on 1% Epstein File Errors</title>
       <link>https://newsanarchist.com/articles/2026-07-22-blanche-faces-questions-on-1-epstein-file-errors</link>
@@ -609,18 +621,6 @@
       <category>Web3 &amp; Blockchain</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>China Coast Guard Accused</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-china-coast-guard-accused</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-china-coast-guard-accused</guid>
-      <pubDate>Tue, 21 Jul 2026 12:42:51 GMT</pubDate>
-      <description>China Coast Guard Accused</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-china-coast-guard-accused.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
