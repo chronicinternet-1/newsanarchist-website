@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 07:51:10 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 07:51:10 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 08:02:06 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 08:02:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UK Expands Third-Party Reporting Requirements</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-uk-expands-third-party-reporting-requirements</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-uk-expands-third-party-reporting-requirements</guid>
+      <pubDate>Wed, 22 Jul 2026 08:00:31 GMT</pubDate>
+      <description>UK Expands Third-Party Reporting Requirements</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-uk-expands-third-party-reporting-requirements.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>James Whitfield</dc:creator>
+    </item>
     <item>
       <title>Medicaid Funds Withheld From CA, MN</title>
       <link>https://newsanarchist.com/articles/2026-07-22-medicaid-funds-withheld-from-ca-mn</link>
@@ -611,18 +623,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>Ukraine Conflict Escalates in Eastern Ukraine</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine</guid>
-      <pubDate>Tue, 21 Jul 2026 17:48:53 GMT</pubDate>
-      <description>Ukraine Conflict Escalates in Eastern Ukraine</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-ukraine-conflict-escalates-in-eastern-ukraine.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
       <link>https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-nigeria-abduction-terrorists-killed-arrested</guid>
@@ -633,18 +633,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>UK Retailer Game Enters Administration</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-uk-retailer-game-enters-administration</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-uk-retailer-game-enters-administration</guid>
-      <pubDate>Tue, 21 Jul 2026 08:00:17 GMT</pubDate>
-      <description>UK Retailer Game Enters Administration</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-uk-retailer-game-enters-administration.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>James Whitfield</dc:creator>
     </item>
     <item>
       <title>Brasil visa liderar em terras raras em 15 anos</title>
