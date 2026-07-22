@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jul 2026 01:48:25 GMT</lastBuildDate>
-    <pubDate>Wed, 22 Jul 2026 01:48:25 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:59:58 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 01:59:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Houthis Blockade Bab el-Mandeb</title>
+      <link>https://newsanarchist.com/articles/2026-07-22-houthis-blockade-bab-el-mandeb</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-houthis-blockade-bab-el-mandeb</guid>
+      <pubDate>Wed, 22 Jul 2026 01:56:58 GMT</pubDate>
+      <description>Houthis Blockade Bab el-Mandeb</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-houthis-blockade-bab-el-mandeb.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Middle East Tensions</title>
       <link>https://newsanarchist.com/articles/2026-07-22-middle-east-tensions</link>
@@ -609,18 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Aug 10 Deadline</title>
-      <link>https://newsanarchist.com/articles/2026-07-21-clarity-act-aug-10-deadline</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-21-clarity-act-aug-10-deadline</guid>
-      <pubDate>Tue, 21 Jul 2026 13:53:10 GMT</pubDate>
-      <description>CLARITY Act Aug 10 Deadline</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-21-clarity-act-aug-10-deadline.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Nigeria Abduction: Terrorists Killed, Arrested</title>
