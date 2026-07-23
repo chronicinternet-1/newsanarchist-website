@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 03:46:14 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 03:46:14 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 04:02:17 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 04:02:17 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>नीट पेपर लीक: मोदी ने दोषियों को नहीं बख्शेंगे</title>
+      <link>https://newsanarchist.com/articles/2026-07-23--</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23--</guid>
+      <pubDate>Thu, 23 Jul 2026 04:01:06 GMT</pubDate>
+      <description>नीट पेपर लीक: मोदी ने दोषियों को नहीं बख्शेंगे</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23--.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Charlie Skinner</dc:creator>
+    </item>
     <item>
       <title>Flock Misuse: Hundreds of Searches at Demonstrations</title>
       <link>https://newsanarchist.com/articles/2026-07-23-flock-misuse-hundreds-of-searches-at-demonstrations</link>
@@ -611,18 +623,6 @@
       <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
-      <title>$1.65M DeFi Bridge Hack Sparks Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-165m-defi-bridge-hack-sparks-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-165m-defi-bridge-hack-sparks-concerns</guid>
-      <pubDate>Wed, 22 Jul 2026 12:22:48 GMT</pubDate>
-      <description>$1.65M DeFi Bridge Hack Sparks Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-165m-defi-bridge-hack-sparks-concerns.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Greater Horn Faces Looming Polycrisis</title>
       <link>https://newsanarchist.com/articles/2026-07-22-greater-horn-faces-looming-polycrisis</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-greater-horn-faces-looming-polycrisis</guid>
@@ -657,18 +657,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sloan Sabbith</dc:creator>
-    </item>
-    <item>
-      <title>मोदी सरकार की NEET 2026 पेपर लीक विवाद में क्या है रणनीति</title>
-      <link>https://newsanarchist.com/articles/2026-07-22--neet-2026-</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22--neet-2026-</guid>
-      <pubDate>Wed, 22 Jul 2026 04:01:23 GMT</pubDate>
-      <description>मोदी सरकार की NEET 2026 पेपर लीक विवाद में क्या है रणनीति</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22--neet-2026-.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Charlie Skinner</dc:creator>
     </item>
     <item>
       <title>日本のAI開発とプライバシー</title>
