@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 16:58:33 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 16:58:33 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 17:44:46 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 17:44:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Springfield 1995 Cold Case Solved</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</guid>
+      <pubDate>Thu, 23 Jul 2026 17:41:47 GMT</pubDate>
+      <description>Springfield 1995 Cold Case Solved</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-springfield-1995-cold-case-solved.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>US Gov Data Disappearing</title>
       <link>https://newsanarchist.com/articles/2026-07-23-us-gov-data-disappearing</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Flock Surveillance Misuse: 12M Searches</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-flock-surveillance-misuse-12m-searches</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-flock-surveillance-misuse-12m-searches</guid>
-      <pubDate>Thu, 23 Jul 2026 04:45:16 GMT</pubDate>
-      <description>Flock Surveillance Misuse: 12M Searches</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-flock-surveillance-misuse-12m-searches.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>US Warns ASEAN of Indo-Pacific Precedent</title>
