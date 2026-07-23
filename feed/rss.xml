@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 02:25:10 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 02:25:10 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 02:41:12 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 02:41:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Midnight Token Rebounds 19% After Wanchain Bridge Hack</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-midnight-token-rebounds-19-after-wanchain-bridge-hack</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-midnight-token-rebounds-19-after-wanchain-bridge-hack</guid>
+      <pubDate>Thu, 23 Jul 2026 02:40:27 GMT</pubDate>
+      <description>Midnight Token Rebounds 19% After Wanchain Bridge Hack</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-midnight-token-rebounds-19-after-wanchain-bridge-hack.png"/>
+      <category>Web3 &amp; Blockchain</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
+    <item>
+      <title>CT Group Caught Offering Payment</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-ct-group-caught-offering-payment</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-ct-group-caught-offering-payment</guid>
+      <pubDate>Thu, 23 Jul 2026 02:38:15 GMT</pubDate>
+      <description>CT Group Caught Offering Payment</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-ct-group-caught-offering-payment.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Wrongful Convictions of James Richardson Spark Outrage</title>
       <link>https://newsanarchist.com/articles/2026-07-23-wrongful-convictions-of-james-richardson-spark-outrage</link>
@@ -597,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>ASEAN Talks Overshadowed by Myanmar Conflict</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-asean-talks-overshadowed-by-myanmar-conflict</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-asean-talks-overshadowed-by-myanmar-conflict</guid>
-      <pubDate>Wed, 22 Jul 2026 08:03:11 GMT</pubDate>
-      <description>ASEAN Talks Overshadowed by Myanmar Conflict</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-asean-talks-overshadowed-by-myanmar-conflict.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>UK Expands Third-Party Reporting Requirements</title>
