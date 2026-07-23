@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 02:47:10 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 02:47:10 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 03:08:08 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 03:08:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>UN Agency Warns Energy Shocks Threaten Hunger</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-un-agency-warns-energy-shocks-threaten-hunger</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-un-agency-warns-energy-shocks-threaten-hunger</guid>
+      <pubDate>Thu, 23 Jul 2026 03:03:11 GMT</pubDate>
+      <description>UN Agency Warns Energy Shocks Threaten Hunger</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-un-agency-warns-energy-shocks-threaten-hunger.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>53% Concerned About Social Media</title>
       <link>https://newsanarchist.com/articles/2026-07-23-53-concerned-about-social-media</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Near-Death Experiences Spark New Research Frontier</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-near-death-experiences-spark-new-research-frontier</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-near-death-experiences-spark-new-research-frontier</guid>
-      <pubDate>Wed, 22 Jul 2026 09:43:20 GMT</pubDate>
-      <description>Near-Death Experiences Spark New Research Frontier</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-near-death-experiences-spark-new-research-frontier.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Greater Horn Faces Looming Polycrisis</title>
