@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/sloan-sabbith.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -151,12 +157,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/sloan-sabbith.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/charlie-skinner.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -167,6 +167,12 @@
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-cac-40-malgre-un-coup-de-froid-sur-les-valeurs-ia-la-bourse-de-paris-termine-a-l</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-house-passes-stop-secret-spending-act</loc>
@@ -2589,14 +2595,14 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-eu-unveils-digital-euro-regulations</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-ftc-reaches-settlement-with-caremark-in-antitrust-case</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-myanmar-civil-war-refugee-boats-sink-off-coast</loc>
