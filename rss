@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:30:45 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 11:30:45 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 11:36:48 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 11:36:48 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Missouri Prosecutor Removed Amid Sexual Misconduct Accusations</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-missouri-prosecutor-removed-amid-sexual-misconduct-accusations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-missouri-prosecutor-removed-amid-sexual-misconduct-accusations</guid>
+      <pubDate>Thu, 23 Jul 2026 11:34:19 GMT</pubDate>
+      <description>Missouri Prosecutor Removed Amid Sexual Misconduct Accusations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-missouri-prosecutor-removed-amid-sexual-misconduct-accusations.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>DOJ Indictments and Fraud Schemes</title>
       <link>https://newsanarchist.com/articles/2026-07-23-doj-indictments-and-fraud-schemes</link>
@@ -606,18 +618,6 @@
       <description>Mali Conflict Intensifies</description>
       <content:encoded><![CDATA[]]></content:encoded>
       <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-mali-conflict-intensifies.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Min Aung Hlaing Seeks Diplomatic Comeback</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-min-aung-hlaing-seeks-diplomatic-comeback</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-min-aung-hlaing-seeks-diplomatic-comeback</guid>
-      <pubDate>Wed, 22 Jul 2026 20:17:42 GMT</pubDate>
-      <description>Min Aung Hlaing Seeks Diplomatic Comeback</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-min-aung-hlaing-seeks-diplomatic-comeback.png"/>
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
