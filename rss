@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 20:02:52 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 20:02:52 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 20:24:06 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 20:24:06 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Seeks to Contain Escalating Conflict in Strait of Hormuz</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</guid>
+      <pubDate>Thu, 23 Jul 2026 20:23:24 GMT</pubDate>
+      <description>US Seeks to Contain Escalating Conflict in Strait of Hormuz</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>US Gov Data Disappears Amid 46% Privacy Concerns</title>
       <link>https://newsanarchist.com/articles/2026-07-23-us-gov-data-disappears-amid-46-privacy-concerns</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>ACT Finds Corruption Against Senior Public Servants</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-act-finds-corruption-against-senior-public-servants</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-act-finds-corruption-against-senior-public-servants</guid>
-      <pubDate>Thu, 23 Jul 2026 07:43:08 GMT</pubDate>
-      <description>ACT Finds Corruption Against Senior Public Servants</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-act-finds-corruption-against-senior-public-servants.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>CAC 40 : Malgré un coup de froid sur les valeurs IA, la Bourse de Paris termine à l'équilibre</title>
