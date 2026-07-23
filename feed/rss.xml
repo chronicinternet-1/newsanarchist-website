@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 03:40:20 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 03:40:20 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 03:46:14 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 03:46:14 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Misuse: Hundreds of Searches at Demonstrations</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-flock-misuse-hundreds-of-searches-at-demonstrations</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-flock-misuse-hundreds-of-searches-at-demonstrations</guid>
+      <pubDate>Thu, 23 Jul 2026 03:44:30 GMT</pubDate>
+      <description>Flock Misuse: Hundreds of Searches at Demonstrations</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-flock-misuse-hundreds-of-searches-at-demonstrations.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>House GOP Bill Targets Inspector General Group</title>
       <link>https://newsanarchist.com/articles/2026-07-23-house-gop-bill-targets-inspector-general-group</link>
@@ -609,18 +621,6 @@
       <category>Web3 &amp; Blockchain</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Judge Dismisses Charges Against Kilmar Abrego Garcia</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-judge-dismisses-charges-against-kilmar-abrego-garcia</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-judge-dismisses-charges-against-kilmar-abrego-garcia</guid>
-      <pubDate>Wed, 22 Jul 2026 12:09:15 GMT</pubDate>
-      <description>Judge Dismisses Charges Against Kilmar Abrego Garcia</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-judge-dismisses-charges-against-kilmar-abrego-garcia.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Greater Horn Faces Looming Polycrisis</title>
