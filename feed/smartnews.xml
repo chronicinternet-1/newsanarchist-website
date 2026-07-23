@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 21:02:48 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 21:02:48 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 21:09:38 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 21:09:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Pentagon UAP Office Reports New Sightings</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-pentagon-uap-office-reports-new-sightings</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-pentagon-uap-office-reports-new-sightings</guid>
+      <pubDate>Thu, 23 Jul 2026 21:02:48 GMT</pubDate>
+      <description>Pentagon UAP Office Reports New Sightings</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-pentagon-uap-office-reports-new-sightings.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Anil Seth Doubts AI Consciousness</title>
       <link>https://newsanarchist.com/articles/2026-07-23-anil-seth-doubts-ai-consciousness</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Hospice Fraud Sparks $1B Federal Action</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action</guid>
-      <pubDate>Thu, 23 Jul 2026 08:22:24 GMT</pubDate>
-      <description>Hospice Fraud Sparks $1B Federal Action</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>UK Insolvency Service Cracks Down on Companies House Abuse</title>
