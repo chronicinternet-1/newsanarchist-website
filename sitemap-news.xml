@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-us-fed-global-instability-at-record-high</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-23T05:05:37.435Z</news:publication_date>
+      <news:title>US Fed: Global Instability at Record High</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-te-connectivity-posts-14-sales-growth</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1310,14 +1318,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-21T05:23:11.231Z</news:publication_date>
       <news:title>Trump Orders Review of Climate Guidance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-21-aclu-toolkit-exposes-police-surveillance-secrets</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-21T05:01:26.046Z</news:publication_date>
-      <news:title>ACLU Toolkit Exposes Police Surveillance Secrets</news:title>
     </news:news>
   </url>
 </urlset>

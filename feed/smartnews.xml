@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 04:57:14 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 04:57:14 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 05:08:19 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 05:08:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Fed: Global Instability at Record High</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-us-fed-global-instability-at-record-high</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-fed-global-instability-at-record-high</guid>
+      <pubDate>Thu, 23 Jul 2026 05:05:37 GMT</pubDate>
+      <description>US Fed: Global Instability at Record High</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-fed-global-instability-at-record-high.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>TE Connectivity Posts 14% Sales Growth</title>
       <link>https://newsanarchist.com/articles/2026-07-23-te-connectivity-posts-14-sales-growth</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Advyzon Launches AI in Chicago</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-advyzon-launches-ai-in-chicago</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-advyzon-launches-ai-in-chicago</guid>
-      <pubDate>Wed, 22 Jul 2026 15:48:45 GMT</pubDate>
-      <description>Advyzon Launches AI in Chicago</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-advyzon-launches-ai-in-chicago.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Conflito no Oriente Médio ameaça estabilidade econômica global com 7% redução no fornecimento de pet</title>
