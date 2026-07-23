@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 21:50:56 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 21:50:56 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 22:02:07 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 22:02:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Sues Ticketmaster</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-us-sues-ticketmaster</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-sues-ticketmaster</guid>
+      <pubDate>Thu, 23 Jul 2026 22:00:05 GMT</pubDate>
+      <description>US Sues Ticketmaster</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-sues-ticketmaster.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Young Family's Wrongful Conviction Spotlighted</title>
       <link>https://newsanarchist.com/articles/2026-07-23-young-familys-wrongful-conviction-spotlighted</link>
@@ -83,18 +95,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>US Seeks to Contain Escalating Conflict in Strait of Hormuz</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</guid>
-      <pubDate>Thu, 23 Jul 2026 20:23:24 GMT</pubDate>
-      <description>US Seeks to Contain Escalating Conflict in Strait of Hormuz</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
       <title>US Gov Data Disappears Amid 46% Privacy Concerns</title>
       <link>https://newsanarchist.com/articles/2026-07-23-us-gov-data-disappears-amid-46-privacy-concerns</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-gov-data-disappears-amid-46-privacy-concerns</guid>
@@ -141,18 +141,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Update: 616-Page Senate Crypto Bill</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-clarity-act-update-616-page-senate-crypto-bill</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-clarity-act-update-616-page-senate-crypto-bill</guid>
-      <pubDate>Thu, 23 Jul 2026 19:00:53 GMT</pubDate>
-      <description>CLARITY Act Update: 616-Page Senate Crypto Bill</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-clarity-act-update-616-page-senate-crypto-bill.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Lauren Boebert Leads Push Back on Warrantless Surveillance</title>
@@ -225,18 +213,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Springfield 1995 Cold Case Solved</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</guid>
-      <pubDate>Thu, 23 Jul 2026 17:41:47 GMT</pubDate>
-      <description>Springfield 1995 Cold Case Solved</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-springfield-1995-cold-case-solved.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>US Gov Data Disappearing</title>
@@ -345,18 +321,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Hacked: $35M Lost in Multiple Attacks</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-crypto-hacked-35m-lost-in-multiple-attacks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-crypto-hacked-35m-lost-in-multiple-attacks</guid>
-      <pubDate>Thu, 23 Jul 2026 13:55:27 GMT</pubDate>
-      <description>Crypto Hacked: $35M Lost in Multiple Attacks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-crypto-hacked-35m-lost-in-multiple-attacks.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>US Antitrust Division Files Settlement Against Willow Bridge</title>
@@ -621,6 +585,30 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>El Obeid Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-el-obeid-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-el-obeid-conflict-escalates</guid>
+      <pubDate>Thu, 23 Jul 2026 08:31:42 GMT</pubDate>
+      <description>El Obeid Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-el-obeid-conflict-escalates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
+    <item>
+      <title>Hospice Fraud Sparks $1B Federal Action</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action</guid>
+      <pubDate>Thu, 23 Jul 2026 08:22:24 GMT</pubDate>
+      <description>Hospice Fraud Sparks $1B Federal Action</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>UK Insolvency Service Cracks Down on Companies House Abuse</title>

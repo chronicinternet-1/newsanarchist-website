@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,25 +103,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/marcus-webb.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/diana-reeves.html</loc>
+    <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/jordan-calloway.html</loc>
+    <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -169,6 +169,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-us-sues-ticketmaster</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-young-familys-wrongful-conviction-spotlighted</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -199,12 +205,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-us-gov-data-disappears-amid-46-privacy-concerns</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -224,12 +224,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-former-miss-halls-head-indicted</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-clarity-act-update-616-page-senate-crypto-bill</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -266,12 +260,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-andrew-left-convicted</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -326,12 +314,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-conflito-no-iemen-e-ira-eua-afeta-estabilidade-economica-global</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-crypto-hacked-35m-lost-in-multiple-attacks</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -770,12 +752,6 @@
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-22-advyzon-launches-ai-in-chicago</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-22-pentagons-aaro-investigates-uap</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2655,8 +2631,8 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-ellisons-sued-over-paramount-wb-deal</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-sudans-war-economy</loc>
