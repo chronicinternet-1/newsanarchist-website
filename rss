@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 08:22:47 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 08:22:47 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 08:33:44 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 08:33:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>El Obeid Conflict Escalates</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-el-obeid-conflict-escalates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-el-obeid-conflict-escalates</guid>
+      <pubDate>Thu, 23 Jul 2026 08:31:42 GMT</pubDate>
+      <description>El Obeid Conflict Escalates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-el-obeid-conflict-escalates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Hospice Fraud Sparks $1B Federal Action</title>
       <link>https://newsanarchist.com/articles/2026-07-23-hospice-fraud-sparks-1b-federal-action</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Global Instability at All-Time High</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-global-instability-at-all-time-high</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-global-instability-at-all-time-high</guid>
-      <pubDate>Wed, 22 Jul 2026 17:54:58 GMT</pubDate>
-      <description>Global Instability at All-Time High</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-global-instability-at-all-time-high.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Conflito no Oriente Médio ameaça estabilidade econômica global com 7% redução no fornecimento de pet</title>
