@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 20:24:06 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 20:24:06 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 20:45:20 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 20:45:20 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Wrongful Convictions Spotlighted</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-wrongful-convictions-spotlighted</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-wrongful-convictions-spotlighted</guid>
+      <pubDate>Thu, 23 Jul 2026 20:44:21 GMT</pubDate>
+      <description>Wrongful Convictions Spotlighted</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-wrongful-convictions-spotlighted.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>US Seeks to Contain Escalating Conflict in Strait of Hormuz</title>
       <link>https://newsanarchist.com/articles/2026-07-23-us-seeks-to-contain-escalating-conflict-in-strait-of-hormuz</link>
@@ -609,18 +621,6 @@
       <category>Web3 &amp; Blockchain</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Trump Admin Defers $1B Medicaid Payments</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-trump-admin-defers-1b-medicaid-payments</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-trump-admin-defers-1b-medicaid-payments</guid>
-      <pubDate>Thu, 23 Jul 2026 07:43:08 GMT</pubDate>
-      <description>Trump Admin Defers $1B Medicaid Payments</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-trump-admin-defers-1b-medicaid-payments.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>CAC 40 : Malgré un coup de froid sur les valeurs IA, la Bourse de Paris termine à l'équilibre</title>
