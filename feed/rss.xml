@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 08:33:44 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 08:33:44 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 08:44:39 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 08:44:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Duval County Schools Found with Unpermitted Work</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-duval-county-schools-found-with-unpermitted-work</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-duval-county-schools-found-with-unpermitted-work</guid>
+      <pubDate>Thu, 23 Jul 2026 08:44:17 GMT</pubDate>
+      <description>Duval County Schools Found with Unpermitted Work</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-duval-county-schools-found-with-unpermitted-work.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>El Obeid Conflict Escalates</title>
       <link>https://newsanarchist.com/articles/2026-07-23-el-obeid-conflict-escalates</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Solved: DNA Tech Cracks 1995 Murder</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-cold-case-solved-dna-tech-cracks-1995-murder</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-cold-case-solved-dna-tech-cracks-1995-murder</guid>
-      <pubDate>Wed, 22 Jul 2026 18:16:49 GMT</pubDate>
-      <description>Cold Case Solved: DNA Tech Cracks 1995 Murder</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-cold-case-solved-dna-tech-cracks-1995-murder.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Conflito no Oriente Médio ameaça estabilidade econômica global com 7% redução no fornecimento de pet</title>
