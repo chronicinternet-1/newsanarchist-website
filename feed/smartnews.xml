@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 10:53:38 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 10:53:38 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 11:14:38 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 11:14:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Federal Reserve: Global Instability Reaches New High</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-us-federal-reserve-global-instability-reaches-new-high</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-federal-reserve-global-instability-reaches-new-high</guid>
+      <pubDate>Thu, 23 Jul 2026 11:12:23 GMT</pubDate>
+      <description>US Federal Reserve: Global Instability Reaches New High</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-federal-reserve-global-instability-reaches-new-high.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Milwaukee Surveillance Expands</title>
       <link>https://newsanarchist.com/articles/2026-07-23-milwaukee-surveillance-expands</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>TSA Privatization Model Adopted by Two Airports</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-tsa-privatization-model-adopted-by-two-airports</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-tsa-privatization-model-adopted-by-two-airports</guid>
-      <pubDate>Wed, 22 Jul 2026 19:32:27 GMT</pubDate>
-      <description>TSA Privatization Model Adopted by Two Airports</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-tsa-privatization-model-adopted-by-two-airports.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Conflito no Oriente Médio ameaça estabilidade econômica global com 7% redução no fornecimento de pet</title>
