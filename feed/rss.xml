@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 17:44:46 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 17:44:46 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 17:56:05 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 17:56:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Andrew Left Convicted</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-andrew-left-convicted</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-andrew-left-convicted</guid>
+      <pubDate>Thu, 23 Jul 2026 17:55:07 GMT</pubDate>
+      <description>Andrew Left Convicted</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-andrew-left-convicted.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
     <item>
       <title>Springfield 1995 Cold Case Solved</title>
       <link>https://newsanarchist.com/articles/2026-07-23-springfield-1995-cold-case-solved</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Diana Reeves</dc:creator>
-    </item>
-    <item>
-      <title>TE Connectivity Posts 14% Sales Growth</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-te-connectivity-posts-14-sales-growth</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-te-connectivity-posts-14-sales-growth</guid>
-      <pubDate>Thu, 23 Jul 2026 04:52:25 GMT</pubDate>
-      <description>TE Connectivity Posts 14% Sales Growth</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-te-connectivity-posts-14-sales-growth.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>US Warns ASEAN of Indo-Pacific Precedent</title>
