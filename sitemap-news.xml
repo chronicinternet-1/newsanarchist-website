@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-uk-insolvency-service-cracks-down-on-companies-house-abuse</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-07-23T08:01:38.093Z</news:publication_date>
+      <news:title>UK Insolvency Service Cracks Down on Companies House Abuse</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-defi-security-concerns-grow-after-1m-exploit</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1222,30 +1230,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-21T08:37:59.472Z</news:publication_date>
       <news:title>Woman on Trial for Murder of 3 Children</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-21-flock-surveillance-feature-cancelled</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-21T08:03:49.806Z</news:publication_date>
-      <news:title>Flock Surveillance Feature Cancelled</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-21-uk-retailer-game-enters-administration</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-07-21T08:00:17.799Z</news:publication_date>
-      <news:title>UK Retailer Game Enters Administration</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-21-us-enforcement-trends-shift</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-21T07:57:06.313Z</news:publication_date>
-      <news:title>US Enforcement Trends Shift</news:title>
     </news:news>
   </url>
 </urlset>
