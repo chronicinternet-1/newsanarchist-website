@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 01:27:16 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 01:27:16 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 01:43:15 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 01:43:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Balance Stablecoin Collapses 99%</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-balance-stablecoin-collapses-99</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-balance-stablecoin-collapses-99</guid>
+      <pubDate>Thu, 23 Jul 2026 01:39:26 GMT</pubDate>
+      <description>Balance Stablecoin Collapses 99%</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-balance-stablecoin-collapses-99.png"/>
+      <category>Web3 &amp; Blockchain</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Sudan Conflict Escalates Amidst Alleged War Crimes</title>
       <link>https://newsanarchist.com/articles/2026-07-23-sudan-conflict-escalates-amidst-alleged-war-crimes</link>
