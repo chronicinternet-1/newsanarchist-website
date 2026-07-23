@@ -73,6 +73,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/authors/elena-vasquez.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,19 +115,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://newsanarchist.com/authors/sam-okafor.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://newsanarchist.com/authors/jordan-ames.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/authors/rafael-reyes.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -167,6 +167,18 @@
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-philadelphia-da-krasner-faces-criticism</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-23-myanmar-junta-intensifies-offensive-near-myawaddy</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-23-us-iran-strikes-widen-conflict</loc>
@@ -2625,14 +2637,14 @@
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-justices-discuss-security-and-ethics</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-consciousness-and-quantum-mechanics</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newsanarchist.com/articles/2026-07-16-hospice-fraud-sparks-nevada-license-freeze</loc>
