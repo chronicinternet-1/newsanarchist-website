@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:52:54 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 11:52:54 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 12:18:58 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 12:18:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Strikes Widen Conflict</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-us-iran-strikes-widen-conflict</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-us-iran-strikes-widen-conflict</guid>
+      <pubDate>Thu, 23 Jul 2026 12:13:39 GMT</pubDate>
+      <description>US-Iran Strikes Widen Conflict</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-us-iran-strikes-widen-conflict.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>AARO Releases New UAP Report</title>
       <link>https://newsanarchist.com/articles/2026-07-23-aaro-releases-new-uap-report</link>
@@ -609,18 +621,6 @@
       <category>Tech &amp; Privacy</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Senate GOP Releases CLARITY Act Draft</title>
-      <link>https://newsanarchist.com/articles/2026-07-22-senate-gop-releases-clarity-act-draft</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-22-senate-gop-releases-clarity-act-draft</guid>
-      <pubDate>Wed, 22 Jul 2026 22:35:25 GMT</pubDate>
-      <description>Senate GOP Releases CLARITY Act Draft</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-22-senate-gop-releases-clarity-act-draft.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Conflito no Oriente Médio ameaça estabilidade econômica global com 7% redução no fornecimento de pet</title>
