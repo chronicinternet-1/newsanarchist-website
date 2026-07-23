@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 14:57:10 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 14:57:10 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 15:18:16 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 15:18:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Renewables to Surpass Coal in Global Electricity by 2026</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-renewables-to-surpass-coal-in-global-electricity-by-2026</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-renewables-to-surpass-coal-in-global-electricity-by-2026</guid>
+      <pubDate>Thu, 23 Jul 2026 15:16:37 GMT</pubDate>
+      <description>Renewables to Surpass Coal in Global Electricity by 2026</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-renewables-to-surpass-coal-in-global-electricity-by-2026.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Pentagon Probes 100 Mysterious Objects Off Virginia Coast</title>
       <link>https://newsanarchist.com/articles/2026-07-23-pentagon-probes-100-mysterious-objects-off-virginia-coast</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>53% Concerned About Social Media</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-53-concerned-about-social-media</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-53-concerned-about-social-media</guid>
-      <pubDate>Thu, 23 Jul 2026 02:43:36 GMT</pubDate>
-      <description>53% Concerned About Social Media</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-53-concerned-about-social-media.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>US Warns ASEAN of Indo-Pacific Precedent</title>
