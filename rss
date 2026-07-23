@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2026 19:05:16 GMT</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 19:05:16 GMT</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:46:32 GMT</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 19:46:32 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Former Miss Hall’s Head Indicted</title>
+      <link>https://newsanarchist.com/articles/2026-07-23-former-miss-halls-head-indicted</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-former-miss-halls-head-indicted</guid>
+      <pubDate>Thu, 23 Jul 2026 19:43:52 GMT</pubDate>
+      <description>Former Miss Hall’s Head Indicted</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-former-miss-halls-head-indicted.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>CLARITY Act Update: 616-Page Senate Crypto Bill</title>
       <link>https://newsanarchist.com/articles/2026-07-23-clarity-act-update-616-page-senate-crypto-bill</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Pomerantz Investigates Franklin Covey</title>
-      <link>https://newsanarchist.com/articles/2026-07-23-pomerantz-investigates-franklin-covey</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-23-pomerantz-investigates-franklin-covey</guid>
-      <pubDate>Thu, 23 Jul 2026 05:40:54 GMT</pubDate>
-      <description>Pomerantz Investigates Franklin Covey</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-23-pomerantz-investigates-franklin-covey.png"/>
-      <category>Financial Fraud</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>US Warns ASEAN of Indo-Pacific Precedent</title>
