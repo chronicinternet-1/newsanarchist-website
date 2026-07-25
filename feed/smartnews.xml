@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 25 Jul 2026 08:23:40 GMT</lastBuildDate>
-    <pubDate>Sat, 25 Jul 2026 08:23:40 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2026 08:30:24 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2026 08:30:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICE Officer's Past Raises Questions</title>
+      <link>https://newsanarchist.com/articles/2026-07-25-ice-officers-past-raises-questions</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-ice-officers-past-raises-questions</guid>
+      <pubDate>Sat, 25 Jul 2026 08:29:10 GMT</pubDate>
+      <description>ICE Officer's Past Raises Questions</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-ice-officers-past-raises-questions.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>China-Taiwan Tensions Rise in Taiwan Strait</title>
       <link>https://newsanarchist.com/articles/2026-07-25-china-taiwan-tensions-rise-in-taiwan-strait</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Seerist Emerge</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-seerist-emerge</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-seerist-emerge</guid>
-      <pubDate>Sat, 25 Jul 2026 00:54:12 GMT</pubDate>
-      <description>Seerist Emerge</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-seerist-emerge.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Australia Criticizes China's Ballistic Missile Test Over Philippines</title>
