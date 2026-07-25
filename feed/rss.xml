@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 25 Jul 2026 22:16:58 GMT</lastBuildDate>
-    <pubDate>Sat, 25 Jul 2026 22:16:58 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2026 22:33:19 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2026 22:33:19 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nevada Freezes Hospice Licenses</title>
+      <link>https://newsanarchist.com/articles/2026-07-25-nevada-freezes-hospice-licenses</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-nevada-freezes-hospice-licenses</guid>
+      <pubDate>Sat, 25 Jul 2026 22:32:05 GMT</pubDate>
+      <description>Nevada Freezes Hospice Licenses</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-nevada-freezes-hospice-licenses.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US, EU Sanction Iran, China Retaliates Against EU</title>
       <link>https://newsanarchist.com/articles/2026-07-25-us-eu-sanction-iran-china-retaliates-against-eu</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Iran-US Tensions Escalate</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-iran-us-tensions-escalate</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-iran-us-tensions-escalate</guid>
-      <pubDate>Sat, 25 Jul 2026 11:25:52 GMT</pubDate>
-      <description>Iran-US Tensions Escalate</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-iran-us-tensions-escalate.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
