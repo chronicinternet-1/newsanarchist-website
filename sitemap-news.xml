@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-us-imposes-125-duty</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T14:07:10.178Z</news:publication_date>
+      <news:title>US Imposes 12.5% Duty</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-factory-manager-admits-300000-fraud</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1478,22 +1486,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T14:15:41.676Z</news:publication_date>
       <news:title>US-China Relations See New Developments</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-conflito-no-iemen-e-ira-eua-afeta-estabilidade-economica-global</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
-      <news:publication_date>2026-07-23T14:02:12.187Z</news:publication_date>
-      <news:title>Conflito no Iêmen e Irã-EUA afeta estabilidade econômica global</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-us-antitrust-division-files-settlement-against-willow-bridge</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T13:49:02.449Z</news:publication_date>
-      <news:title>US Antitrust Division Files Settlement Against Willow Bridge</news:title>
     </news:news>
   </url>
 </urlset>
