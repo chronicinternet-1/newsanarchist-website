@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-us-govt-withdraws-subpoenas-of-ny-times-journalists</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T11:31:54.883Z</news:publication_date>
+      <news:title>US Govt Withdraws Subpoenas of NY Times Journalists</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-iran-us-tensions-escalate</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1486,14 +1494,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T11:47:37.928Z</news:publication_date>
       <news:title>Nexstar Disputes $6.2B Tegna Merger Injunction</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-doj-indictments-and-fraud-schemes</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T11:27:59.650Z</news:publication_date>
-      <news:title>DOJ Indictments and Fraud Schemes</news:title>
     </news:news>
   </url>
 </urlset>
