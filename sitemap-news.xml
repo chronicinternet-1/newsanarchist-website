@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-6000-impacted-in-s-korea-breach</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T15:38:52.277Z</news:publication_date>
+      <news:title>6,000 Impacted in S. Korea Breach</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-surf-air-mobility-q2-earnings-aug-10</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1494,14 +1502,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T15:55:50.961Z</news:publication_date>
       <news:title>NSA Alerts Zimbra Users to Russian Phishing Campaign</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-mali-conflict-escalates-as-jnim-expands</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T15:39:11.879Z</news:publication_date>
-      <news:title>Mali Conflict Escalates as JNIM Expands</news:title>
     </news:news>
   </url>
 </urlset>
