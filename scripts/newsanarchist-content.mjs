@@ -4351,10 +4351,15 @@ async function runPublish() {
     const _cr = fs.readFileSync('/home/ubuntu/.openclaw/secrets/credentials.env', 'utf-8');
     _dEnv.CLOUDFLARE_API_TOKEN  = _cr.match(/^(?:export\s+)?CLOUDFLARE_API_TOKEN=(.+)$/m)?.[1]?.trim();
     _dEnv.CLOUDFLARE_ACCOUNT_ID = _cr.match(/^(?:export\s+)?CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
+    // Cache purge is a Zone-scoped action; CLOUDFLARE_API_TOKEN (Account-scoped, used for the
+    // Pages deploy above) does not carry Zone:Cache-Purge permission and gets an auth error on
+    // this call. CLOUDFLARE_CACHE_PURGE_TOKEN is a separate, dedicated, verified-valid token
+    // that does carry it.
+    const _purgeToken = _cr.match(/^(?:export\s+)?CLOUDFLARE_CACHE_PURGE_TOKEN=(.+)$/m)?.[1]?.trim();
     execSync('npx wrangler@4.93.1 pages deploy . --project-name newsanarchist-website --branch=master --commit-dirty=true', {
       cwd: gitDir, env: _dEnv, stdio: 'pipe', timeout: 180000
     });
-    const _purgeRaw = execSync(`curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/2b30983b0c36254440e8262db846a1f8/purge_cache" -H "Authorization: Bearer ${_dEnv.CLOUDFLARE_API_TOKEN}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`, { encoding: 'utf-8', timeout: 15000 });
+    const _purgeRaw = execSync(`curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/2b30983b0c36254440e8262db846a1f8/purge_cache" -H "Authorization: Bearer ${_purgeToken}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`, { encoding: 'utf-8', timeout: 15000 });
     const _purgeResp = JSON.parse(_purgeRaw);
     if (!_purgeResp.success) console.error(`  ⚠️  Cache purge rejected by CF API: ${JSON.stringify(_purgeResp.errors)}`);
     console.log('  ✅ Deployed to Cloudflare Pages' + (_purgeResp.success ? ' + cache purged' : ' (cache purge FAILED, see above)'));
