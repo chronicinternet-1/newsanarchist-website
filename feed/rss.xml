@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sat, 25 Jul 2026 10:27:29 GMT</lastBuildDate>
-    <pubDate>Sat, 25 Jul 2026 10:27:29 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2026 10:34:44 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2026 10:34:44 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Simone Biles' Near-Death Experience Sparks New Research</title>
+      <link>https://newsanarchist.com/articles/2026-07-25-simone-biles-near-death-experience-sparks-new-research</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-simone-biles-near-death-experience-sparks-new-research</guid>
+      <pubDate>Sat, 25 Jul 2026 10:29:05 GMT</pubDate>
+      <description>Simone Biles' Near-Death Experience Sparks New Research</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-simone-biles-near-death-experience-sparks-new-research.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>China-Philippines Tensions Rise Over 12 China Coast Guard Vessels</title>
       <link>https://newsanarchist.com/articles/2026-07-25-china-philippines-tensions-rise-over-12-china-coast-guard-vessels</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US-China Tensions Escalate Under Jamieson Greer</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-us-china-tensions-escalate-under-jamieson-greer</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-us-china-tensions-escalate-under-jamieson-greer</guid>
-      <pubDate>Sat, 25 Jul 2026 02:56:00 GMT</pubDate>
-      <description>US-China Tensions Escalate Under Jamieson Greer</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-us-china-tensions-escalate-under-jamieson-greer.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>Australia Criticizes China's Ballistic Missile Test Over Philippines</title>
