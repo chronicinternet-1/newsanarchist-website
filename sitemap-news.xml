@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-data-breach-exposes-6000-in-south-korea</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T12:35:52.040Z</news:publication_date>
+      <news:title>Data Breach Exposes 6000 in South Korea</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-us-military-air-traffic-control-shortage</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1470,22 +1478,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T12:52:33.873Z</news:publication_date>
       <news:title>4th Circuit: Border Agents Can Search Phones</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-philadelphia-da-krasner-faces-criticism</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T12:35:34.653Z</news:publication_date>
-      <news:title>Philadelphia DA Krasner Faces Criticism</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-myanmar-junta-intensifies-offensive-near-myawaddy</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T12:35:24.055Z</news:publication_date>
-      <news:title>Myanmar Junta Intensifies Offensive Near Myawaddy</news:title>
     </news:news>
   </url>
 </urlset>
