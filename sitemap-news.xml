@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-aaro-investigates-uap-sightings</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T19:47:17.300Z</news:publication_date>
+      <news:title>AARO Investigates UAP Sightings</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-flock-cameras-spark-controversy-1-connected-to-crime</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1566,14 +1574,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T19:57:40.982Z</news:publication_date>
       <news:title>SEC Enforcement Leadership Shifts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-former-miss-halls-head-indicted</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T19:43:52.660Z</news:publication_date>
-      <news:title>Former Miss Hall’s Head Indicted</news:title>
     </news:news>
   </url>
 </urlset>
