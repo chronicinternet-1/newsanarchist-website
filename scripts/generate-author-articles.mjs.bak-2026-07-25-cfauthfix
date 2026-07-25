@@ -30,10 +30,11 @@ const DRY          = process.argv.includes('--dry');
 const creds = fs.readFileSync(CREDS_PATH, 'utf-8');
 const BRAVE_KEY   = creds.match(/^BRAVE_SEARCH_API_KEY=(.+)$/m)?.[1]?.trim();
 const CF_ACCT     = creds.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
-const CF_TOKEN    = creds.match(/^(?:export\s+)?CLOUDFLARE_API_TOKEN=(.+)$/m)?.[1]?.trim();
+const CF_KEY      = creds.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || creds.match(/^CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
+const CF_EMAIL    = creds.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
 const CF_AI_URL   = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCT}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`;
 if (!BRAVE_KEY)   { console.error('BRAVE_SEARCH_API_KEY not found'); process.exit(1); }
-if (!CF_TOKEN)    { console.error('CLOUDFLARE_API_TOKEN not found'); process.exit(1); }
+if (!CF_KEY)      { console.error('CLOUDFLARE_GLOBAL_API_KEY not found'); process.exit(1); }
 
 const LOG = (m) => console.log(`[${new Date().toISOString()}] ${m}`);
 
@@ -205,7 +206,7 @@ function estimateReadTime(text) {
 async function cfAI(messages, maxTokens) {
   const res = await fetch(CF_AI_URL, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CF_TOKEN}` },
+    headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
     body: JSON.stringify({ messages, max_tokens: maxTokens }),
   });
   const data = await res.json();
@@ -296,7 +297,7 @@ async function eicReview(article, author) {
     const today = new Date().toISOString().slice(0,10);
     const aiRes = await fetch(CF_AI_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CF_TOKEN}` },
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Email': CF_EMAIL, 'X-Auth-Key': CF_KEY },
       body: JSON.stringify({
         messages: [
           { role: 'system', content: `You are the Editor-in-Chief of NewsAnarchist.com. Today is ${today}. Review articles and return ONLY valid JSON: {"approve":true/false,"reason":"one sentence"}. APPROVE if: covers a real recent news event, is on-beat, has at least one specific fact, cites a real source. REJECT only if: clearly fabricated, pure opinion with zero news hook, completely off-beat, or has no sources at all. Do NOT reject for unverifiable government claims or disputed sources.` },
@@ -518,23 +519,22 @@ async function main() {
   // ── Mason publish-request check ──────────────────────────────────────────
   try {
     const credsRaw = fs.readFileSync(CREDS_PATH, 'utf-8');
-    const cfToken = credsRaw.match(/^(?:export\s+)?CLOUDFLARE_API_TOKEN=(.+)$/m)?.[1]?.trim();
-    const cfPurgeToken = credsRaw.match(/^(?:export\s+)?CLOUDFLARE_CACHE_PURGE_TOKEN=(.+)$/m)?.[1]?.trim();
+    const cfKey   = credsRaw.match(/^CLOUDFLARE_GLOBAL_API_KEY=(.+)$/m)?.[1]?.trim() || credsRaw.match(/^CLOUDFLARE_API_KEY=(.+)$/m)?.[1]?.trim();
+    const cfEmail = credsRaw.match(/^CLOUDFLARE_EMAIL=(.+)$/m)?.[1]?.trim();
     const cfAcct  = credsRaw.match(/^CLOUDFLARE_ACCOUNT_ID=(.+)$/m)?.[1]?.trim();
     const kvNs    = '44b94a0518b24cef80342fa37c71bffd';
     const kvBase  = `https://api.cloudflare.com/client/v4/accounts/${cfAcct}/storage/kv/namespaces/${kvNs}`;
-    const hdr     = `-H "Authorization: Bearer ${cfToken}"`;
+    const hdr     = `-H "X-Auth-Email: ${cfEmail}" -H "X-Auth-Key: ${cfKey}"`;
     const raw = execSync(`curl -sL "${kvBase}/values/na%3Apublish-request" ${hdr}`, { encoding: 'utf8', timeout: 10000 });
     const req = JSON.parse(raw);
     if (req?.requestedAt) {
       LOG('Mason publish-request detected — running publish + deploy');
       execSync(`cd ${WORKSPACE} && node scripts/newsanarchist-content.mjs publish`, { stdio: 'inherit', timeout: 180000 });
       const dEnv = Object.assign({}, process.env);
-      dEnv.CLOUDFLARE_API_TOKEN = cfToken; dEnv.CLOUDFLARE_ACCOUNT_ID = cfAcct;
+      delete dEnv.CLOUDFLARE_API_TOKEN;
+      dEnv.CLOUDFLARE_API_KEY = cfKey; dEnv.CLOUDFLARE_EMAIL = cfEmail; dEnv.CLOUDFLARE_ACCOUNT_ID = cfAcct;
       execSync('npx wrangler@4.93.1 pages deploy . --project-name newsanarchist-website --branch=master --commit-dirty=true', { cwd: `${WORKSPACE}/newsanarchist-website`, env: dEnv, stdio: 'inherit', timeout: 180000 });
-      // Cache purge is Zone-scoped; CLOUDFLARE_API_TOKEN (Account-scoped, used above) doesn't
-      // carry Zone:Cache-Purge permission — CLOUDFLARE_CACHE_PURGE_TOKEN does.
-      execSync(`curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/2b30983b0c36254440e8262db846a1f8/purge_cache" -H "Authorization: Bearer ${cfPurgeToken}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`, { timeout: 10000 });
+      execSync(`curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/2b30983b0c36254440e8262db846a1f8/purge_cache" ${hdr} -H "Content-Type: application/json" --data '{"purge_everything":true}'`, { timeout: 10000 });
       execSync(`curl -sL -X DELETE "${kvBase}/values/na%3Apublish-request" ${hdr}`, { timeout: 10000 });
       LOG('Mason publish-request: completed and cleared');
     }

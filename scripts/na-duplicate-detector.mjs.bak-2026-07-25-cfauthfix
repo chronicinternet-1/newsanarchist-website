@@ -58,7 +58,7 @@ const LOG = (m) => console.log(`[dup-detector] ${m}`);
 function loadCreds() {
   const raw = fs.readFileSync(CREDS_PATH, 'utf-8');
   const get = (k) => raw.match(new RegExp(`^(?:export\\s+)?${k}=(.+)$`, 'm'))?.[1]?.trim();
-  return { token: get('CLOUDFLARE_API_TOKEN') };
+  return { email: get('CLOUDFLARE_EMAIL'), key: get('CLOUDFLARE_GLOBAL_API_KEY') };
 }
 
 function loadStore(storePath) {
@@ -72,11 +72,11 @@ function saveStore(store, storePath) {
 }
 
 function getEmbedding(text) {
-  const { token } = loadCreds();
+  const { email, key } = loadCreds();
   const body = JSON.stringify({ text: [String(text).slice(0, 2000)] });
   const raw = execSync(
     `curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT}/ai/run/${EMBEDDING_MODEL}" ` +
-    `-H "Authorization: Bearer ${token}" -H "Content-Type: application/json" --data-binary @-`,
+    `-H "X-Auth-Email: ${email}" -H "X-Auth-Key: ${key}" -H "Content-Type: application/json" --data-binary @-`,
     { input: body, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }
   );
   const d = JSON.parse(raw);
@@ -109,7 +109,7 @@ function articleText(article, articlesDir) {
 }
 
 function flagDuplicate(newArticle, matchEntry, similarity) {
-  const { token } = loadCreds();
+  const { email, key } = loadCreds();
   const newSlug = (newArticle.filename || '').replace(/\.html$/, '');
   const sql = 'INSERT INTO water_cooler (ts, agent, event, summary, metrics, status) VALUES (?, ?, ?, ?, ?, ?)';
   const params = [
@@ -131,7 +131,7 @@ function flagDuplicate(newArticle, matchEntry, similarity) {
   const body = JSON.stringify({ sql, params });
   const raw = execSync(
     `curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT}/d1/database/${NA_D1_DATABASE}/query" ` +
-    `-H "Authorization: Bearer ${token}" -H "Content-Type: application/json" --data-binary @-`,
+    `-H "X-Auth-Email: ${email}" -H "X-Auth-Key: ${key}" -H "Content-Type: application/json" --data-binary @-`,
     { input: body, encoding: 'utf8' }
   );
   const parsed = JSON.parse(raw);

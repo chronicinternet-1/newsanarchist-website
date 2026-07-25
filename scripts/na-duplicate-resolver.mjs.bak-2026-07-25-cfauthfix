@@ -50,14 +50,14 @@ function loadCreds() {
   const get = k => raw.match(new RegExp(`^(?:export\\s+)?${k}=(.+)$`, 'm'))?.[1]?.trim();
   return {
     CF_ACCT: get('CLOUDFLARE_ACCOUNT_ID'),
-    CF_TOKEN: get('CLOUDFLARE_API_TOKEN'),
-    CF_PURGE_TOKEN: get('CLOUDFLARE_CACHE_PURGE_TOKEN'),
+    CF_KEY:  get('CLOUDFLARE_GLOBAL_API_KEY') || get('CLOUDFLARE_API_KEY'),
+    CF_EMAIL: get('CLOUDFLARE_EMAIL'),
   };
 }
 
 function kvHdr() {
-  const { CF_TOKEN } = loadCreds();
-  return `-H "Authorization: Bearer ${CF_TOKEN}"`;
+  const { CF_EMAIL, CF_KEY } = loadCreds();
+  return `-H "X-Auth-Email: ${CF_EMAIL}" -H "X-Auth-Key: ${CF_KEY}"`;
 }
 
 function kvList(prefix) {
@@ -328,18 +328,18 @@ function applyPending({ dryRun = false } = {}) {
     LOG('Publish halt active — HTML committed locally but NOT deployed. Leaving KV directives in place for next run.');
   } else {
     try {
-      const { CF_ACCT, CF_TOKEN, CF_PURGE_TOKEN } = loadCreds();
+      const { CF_ACCT, CF_KEY, CF_EMAIL } = loadCreds();
       const env = Object.assign({}, process.env);
-      env.CLOUDFLARE_API_TOKEN = CF_TOKEN;
+      delete env.CLOUDFLARE_API_TOKEN;
+      env.CLOUDFLARE_API_KEY = CF_KEY;
+      env.CLOUDFLARE_EMAIL = CF_EMAIL;
       env.CLOUDFLARE_ACCOUNT_ID = CF_ACCT;
       execSync(
         'npx wrangler@4.93.1 pages deploy . --project-name newsanarchist-website --branch=master --commit-dirty=true',
         { cwd: SITE_DIR, env, stdio: 'inherit', timeout: 180000 }
       );
-      // Cache purge is Zone-scoped; CLOUDFLARE_API_TOKEN (Account-scoped, used for the deploy
-      // above) doesn't carry Zone:Cache-Purge permission — CLOUDFLARE_CACHE_PURGE_TOKEN does.
       execSync(
-        `curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" -H "Authorization: Bearer ${CF_PURGE_TOKEN}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`,
+        `curl -sL -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" -H "X-Auth-Email: ${CF_EMAIL}" -H "X-Auth-Key: ${CF_KEY}" -H "Content-Type: application/json" --data '{"purge_everything":true}'`,
         { timeout: 15000 }
       );
       deployed = true;
