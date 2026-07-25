@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-china-leads-global-power-shifts-east</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T12:05:00.014Z</news:publication_date>
+      <news:title>China Leads Global Power Shifts East</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-us-govt-withdraws-subpoenas-of-ny-times-journalists</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1462,38 +1470,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T12:13:39.249Z</news:publication_date>
       <news:title>US-Iran Strikes Widen Conflict</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-aaro-releases-new-uap-report</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T11:52:15.335Z</news:publication_date>
-      <news:title>AARO Releases New UAP Report</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-aclu-responds-to-flock-surveillance-misuse</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T11:50:56.313Z</news:publication_date>
-      <news:title>ACLU Responds to Flock Surveillance Misuse</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-grassley-queries-meta-on-whistleblower-firings</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T11:48:38.957Z</news:publication_date>
-      <news:title>Grassley Queries Meta on Whistleblower Firings</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-nexstar-disputes-62b-tegna-merger-injunction</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T11:47:37.928Z</news:publication_date>
-      <news:title>Nexstar Disputes $6.2B Tegna Merger Injunction</news:title>
     </news:news>
   </url>
 </urlset>
