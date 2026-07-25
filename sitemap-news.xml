@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-uk-finance-firms-under-scrutiny</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-07-25T08:00:24.096Z</news:publication_date>
+      <news:title>UK Finance Firms Under Scrutiny</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://newsanarchist.com/articles/2026-07-25-us-eu-trade-tensions-rise</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-25T08:00:15.855Z</news:publication_date>
+      <news:title>US-EU Trade Tensions Rise</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-25-glancy-prongay-wolke-rotter-llp-investigates-alphabet-inc</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1422,38 +1438,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-23T08:22:24.979Z</news:publication_date>
       <news:title>Hospice Fraud Sparks $1B Federal Action</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-uk-insolvency-service-cracks-down-on-companies-house-abuse</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-07-23T08:01:38.093Z</news:publication_date>
-      <news:title>UK Insolvency Service Cracks Down on Companies House Abuse</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-defi-security-concerns-grow-after-1m-exploit</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T07:48:36.427Z</news:publication_date>
-      <news:title>DeFi Security Concerns Grow After $1M Exploit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-trump-admin-defers-1b-medicaid-payments</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T07:43:08.917Z</news:publication_date>
-      <news:title>Trump Admin Defers $1B Medicaid Payments</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-23-act-finds-corruption-against-senior-public-servants</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-23T07:43:08.256Z</news:publication_date>
-      <news:title>ACT Finds Corruption Against Senior Public Servants</news:title>
     </news:news>
   </url>
 </urlset>
