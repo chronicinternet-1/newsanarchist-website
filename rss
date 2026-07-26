@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 04:03:57 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 04:03:57 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 04:20:15 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 04:20:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Tensions Escalate: Babak Zanjani Sanctioned</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-escalate-babak-zanjani-sanctioned</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-escalate-babak-zanjani-sanctioned</guid>
+      <pubDate>Sun, 26 Jul 2026 04:17:26 GMT</pubDate>
+      <description>US-Iran Tensions Escalate: Babak Zanjani Sanctioned</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-iran-tensions-escalate-babak-zanjani-sanctioned.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>मुंबई में छात्रों का विरोध: धर्मेंद्र प्रधान के इस्तीफे की मांग</title>
       <link>https://newsanarchist.com/articles/2026-07-26--</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>350,000 Cold Cases Solved Through DNA Technology</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-350000-cold-cases-solved-through-dna-technology</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-350000-cold-cases-solved-through-dna-technology</guid>
-      <pubDate>Sat, 25 Jul 2026 18:28:19 GMT</pubDate>
-      <description>350,000 Cold Cases Solved Through DNA Technology</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-350000-cold-cases-solved-through-dna-technology.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
