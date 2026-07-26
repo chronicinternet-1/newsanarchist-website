@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 06:51:02 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 06:51:02 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 07:23:24 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 07:23:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>2026 Strait of Hormuz Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-2026-strait-of-hormuz-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-2026-strait-of-hormuz-crisis</guid>
+      <pubDate>Sun, 26 Jul 2026 07:19:34 GMT</pubDate>
+      <description>2026 Strait of Hormuz Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-2026-strait-of-hormuz-crisis.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Rep Massie Targets Flock Cameras</title>
       <link>https://newsanarchist.com/articles/2026-07-26-rep-massie-targets-flock-cameras</link>
@@ -609,18 +621,6 @@
       <category>Web3 &amp; Blockchain</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>RI Judge Considers Disciplining Govt Lawyer Over Homicide Case</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-ri-judge-considers-disciplining-govt-lawyer-over-homicide-case</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-ri-judge-considers-disciplining-govt-lawyer-over-homicide-case</guid>
-      <pubDate>Sat, 25 Jul 2026 20:42:10 GMT</pubDate>
-      <description>RI Judge Considers Disciplining Govt Lawyer Over Homicide Case</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-ri-judge-considers-disciplining-govt-lawyer-over-homicide-case.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
