@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 02:45:47 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 02:45:47 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 02:52:05 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 02:52:05 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,30 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Grid Operator Crisis</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-grid-operator-crisis</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-grid-operator-crisis</guid>
+      <pubDate>Sun, 26 Jul 2026 02:46:47 GMT</pubDate>
+      <description>Grid Operator Crisis</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-grid-operator-crisis.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>Fourth Circuit: No Suspicion Needed</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-fourth-circuit-no-suspicion-needed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-fourth-circuit-no-suspicion-needed</guid>
+      <pubDate>Sun, 26 Jul 2026 02:46:46 GMT</pubDate>
+      <description>Fourth Circuit: No Suspicion Needed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-fourth-circuit-no-suspicion-needed.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>500 Missing in Myanmar Boats</title>
       <link>https://newsanarchist.com/articles/2026-07-26-500-missing-in-myanmar-boats</link>
@@ -597,30 +621,6 @@
       <category>Unexplained</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Facial Recognition Use Expands at Jantar Mantar</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-facial-recognition-use-expands-at-jantar-mantar</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-facial-recognition-use-expands-at-jantar-mantar</guid>
-      <pubDate>Sat, 25 Jul 2026 16:39:26 GMT</pubDate>
-      <description>Facial Recognition Use Expands at Jantar Mantar</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-facial-recognition-use-expands-at-jantar-mantar.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Dharmendra Pradhan Resigns Amid Protest</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-dharmendra-pradhan-resigns-amid-protest</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-dharmendra-pradhan-resigns-amid-protest</guid>
-      <pubDate>Sat, 25 Jul 2026 16:37:32 GMT</pubDate>
-      <description>Dharmendra Pradhan Resigns Amid Protest</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-dharmendra-pradhan-resigns-amid-protest.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
