@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-26-pew-china-surpasses-us</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-26T13:23:05.635Z</news:publication_date>
+      <news:title>Pew: China Surpasses US</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-26-house-democrats-probe-stubhub-ceo</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1798,14 +1806,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>pt</news:language></news:publication>
       <news:publication_date>2026-07-24T14:01:21.638Z</news:publication_date>
       <news:title>EUA Miram Amazônia e Cadeias de Abastecimento</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-24-delhi-police-install-4-facial-recognition-units-at-jantar-mantar</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-24T13:15:54.189Z</news:publication_date>
-      <news:title>Delhi Police Install 4 Facial Recognition Units at Jantar Mantar</news:title>
     </news:news>
   </url>
 </urlset>
