@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 20:57:39 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 20:57:39 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 21:14:03 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 21:14:03 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Unexplained Events in 2026</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-unexplained-events-in-2026</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-unexplained-events-in-2026</guid>
+      <pubDate>Sun, 26 Jul 2026 21:11:17 GMT</pubDate>
+      <description>Unexplained Events in 2026</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-unexplained-events-in-2026.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Myanmar Conflict Escalates: 530 Rohingyas Feared Dead</title>
       <link>https://newsanarchist.com/articles/2026-07-26-myanmar-conflict-escalates-530-rohingyas-feared-dead</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>China's Gene Therapy Regulations Under Scrutiny After 6-Year-Old's Death</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-chinas-gene-therapy-regulations-under-scrutiny-after-6-year-olds-death</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-chinas-gene-therapy-regulations-under-scrutiny-after-6-year-olds-death</guid>
-      <pubDate>Sun, 26 Jul 2026 08:39:54 GMT</pubDate>
-      <description>China's Gene Therapy Regulations Under Scrutiny After 6-Year-Old's Death</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-chinas-gene-therapy-regulations-under-scrutiny-after-6-year-olds-death.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Mitie £3.1bn Takeover</title>
