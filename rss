@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 03:03:42 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 03:03:42 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 03:20:13 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 03:20:13 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Counters China's Influence in ASEAN</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-us-counters-chinas-influence-in-asean</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-counters-chinas-influence-in-asean</guid>
+      <pubDate>Sun, 26 Jul 2026 03:16:39 GMT</pubDate>
+      <description>US Counters China's Influence in ASEAN</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-counters-chinas-influence-in-asean.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>£2.4m Abingdon Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-26-24m-abingdon-fraud</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US, EU Sanction Russia Amid Ukraine Conflict</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-us-eu-sanction-russia-amid-ukraine-conflict</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-us-eu-sanction-russia-amid-ukraine-conflict</guid>
-      <pubDate>Sat, 25 Jul 2026 17:10:35 GMT</pubDate>
-      <description>US, EU Sanction Russia Amid Ukraine Conflict</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-us-eu-sanction-russia-amid-ukraine-conflict.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
