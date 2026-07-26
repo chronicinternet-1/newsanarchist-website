@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 16:50:32 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 16:50:32 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 17:47:15 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 17:47:15 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>University of Virginia Study Reveals New Insights</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-reveals-new-insights</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-reveals-new-insights</guid>
+      <pubDate>Sun, 26 Jul 2026 17:46:09 GMT</pubDate>
+      <description>University of Virginia Study Reveals New Insights</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-university-of-virginia-study-reveals-new-insights.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>$5.56B Healthcare Fraud Recovered</title>
       <link>https://newsanarchist.com/articles/2026-07-26-556b-healthcare-fraud-recovered</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Michelle Hadley Case</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-michelle-hadley-case</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-michelle-hadley-case</guid>
-      <pubDate>Sun, 26 Jul 2026 04:37:27 GMT</pubDate>
-      <description>Michelle Hadley Case</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-michelle-hadley-case.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>मुंबई में छात्रों का विरोध: धर्मेंद्र प्रधान के इस्तीफे की मांग</title>
