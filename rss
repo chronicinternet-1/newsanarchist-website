@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 03:20:13 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 03:20:13 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 03:41:29 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 03:41:29 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Cold Case Solved After 26 Years</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-cold-case-solved-after-26-years</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-cold-case-solved-after-26-years</guid>
+      <pubDate>Sun, 26 Jul 2026 03:36:31 GMT</pubDate>
+      <description>Cold Case Solved After 26 Years</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-cold-case-solved-after-26-years.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>US Counters China's Influence in ASEAN</title>
       <link>https://newsanarchist.com/articles/2026-07-26-us-counters-chinas-influence-in-asean</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>20 States Face SNAP Funding Loss Due to Error Rates</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-20-states-face-snap-funding-loss-due-to-error-rates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-20-states-face-snap-funding-loss-due-to-error-rates</guid>
-      <pubDate>Sat, 25 Jul 2026 17:28:53 GMT</pubDate>
-      <description>20 States Face SNAP Funding Loss Due to Error Rates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-20-states-face-snap-funding-loss-due-to-error-rates.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
