@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-26-trump-waives-ndas-for-uap-whistleblowers</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-26T16:06:12.189Z</news:publication_date>
+      <news:title>Trump Waives NDAs for UAP Whistleblowers</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-26-ex-fda-official-us-cyclospora-response-near-catastrophic-level</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1846,14 +1854,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-24T16:46:12.100Z</news:publication_date>
       <news:title>US-China Relations Strained</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-24-fugitive-arrested-in-547m-medicare-fraud-case</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-24T16:05:04.843Z</news:publication_date>
-      <news:title>Fugitive Arrested in $547M Medicare Fraud Case</news:title>
     </news:news>
   </url>
 </urlset>
