@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 07:23:24 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 07:23:24 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 07:45:12 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 07:45:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Hawaii Lt Gov Indicted, $32M COVID-19 Fraud Fugitive Caught</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-hawaii-lt-gov-indicted-32m-covid-19-fraud-fugitive-caught</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-hawaii-lt-gov-indicted-32m-covid-19-fraud-fugitive-caught</guid>
+      <pubDate>Sun, 26 Jul 2026 07:41:15 GMT</pubDate>
+      <description>Hawaii Lt Gov Indicted, $32M COVID-19 Fraud Fugitive Caught</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-hawaii-lt-gov-indicted-32m-covid-19-fraud-fugitive-caught.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>2026 Strait of Hormuz Crisis</title>
       <link>https://newsanarchist.com/articles/2026-07-26-2026-strait-of-hormuz-crisis</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Update: $317B Stablecoin Senate Vote</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-clarity-act-update-317b-stablecoin-senate-vote</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-clarity-act-update-317b-stablecoin-senate-vote</guid>
-      <pubDate>Sat, 25 Jul 2026 20:48:31 GMT</pubDate>
-      <description>CLARITY Act Update: $317B Stablecoin Senate Vote</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-clarity-act-update-317b-stablecoin-senate-vote.png"/>
-      <category>Web3 &amp; Blockchain</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
