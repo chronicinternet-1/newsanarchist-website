@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 10:51:51 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 10:51:51 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 11:43:41 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 11:43:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Brain Decision-Making Study Challenges Previous Thoughts</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts</guid>
+      <pubDate>Sun, 26 Jul 2026 11:41:56 GMT</pubDate>
+      <description>Brain Decision-Making Study Challenges Previous Thoughts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Taiwan Detects 29 Chinese Sorties</title>
       <link>https://newsanarchist.com/articles/2026-07-26-taiwan-detects-29-chinese-sorties</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Tensions Escalate Over Gaza</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-escalate-over-gaza</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-escalate-over-gaza</guid>
-      <pubDate>Sun, 26 Jul 2026 00:15:26 GMT</pubDate>
-      <description>US-Iran Tensions Escalate Over Gaza</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-iran-tensions-escalate-over-gaza.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>China's Armed Coercion in Indo-Pacific in 2025-2026</title>
