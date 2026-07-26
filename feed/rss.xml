@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 00:54:26 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 00:54:26 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 01:20:46 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 01:20:46 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>NATO Expansion and Tensions with Russia and Iran</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-nato-expansion-and-tensions-with-russia-and-iran</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-nato-expansion-and-tensions-with-russia-and-iran</guid>
+      <pubDate>Sun, 26 Jul 2026 01:15:48 GMT</pubDate>
+      <description>NATO Expansion and Tensions with Russia and Iran</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-nato-expansion-and-tensions-with-russia-and-iran.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>DeFi Exploits Drain $35M</title>
       <link>https://newsanarchist.com/articles/2026-07-26-defi-exploits-drain-35m</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Imposes 12.5% Duty</title>
-      <link>https://newsanarchist.com/articles/2026-07-25-us-imposes-125-duty</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-25-us-imposes-125-duty</guid>
-      <pubDate>Sat, 25 Jul 2026 14:07:10 GMT</pubDate>
-      <description>US Imposes 12.5% Duty</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-25-us-imposes-125-duty.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>West Africa Conflict Tracking</title>
