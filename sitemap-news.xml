@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-26-dna-damage-may-decide-human-lifespan</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-26T10:41:32.016Z</news:publication_date>
+      <news:title>DNA Damage May Decide Human Lifespan</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-ease-as-oman-talks-advance-with-sanctions-on-babak-zanjani</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1798,14 +1806,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-24T10:57:08.317Z</news:publication_date>
       <news:title>PA House Passes Justice Reform Bill</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-24-eu-imposes-21st-round-of-sanctions-on-russia</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-24T10:39:48.022Z</news:publication_date>
-      <news:title>EU Imposes 21st Round of Sanctions on Russia</news:title>
     </news:news>
   </url>
 </urlset>
