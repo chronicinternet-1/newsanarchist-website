@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 16:17:23 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 16:17:23 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 16:28:56 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 16:28:56 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>EU Sanctions Russia, China Retaliates</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-eu-sanctions-russia-china-retaliates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-eu-sanctions-russia-china-retaliates</guid>
+      <pubDate>Sun, 26 Jul 2026 16:25:23 GMT</pubDate>
+      <description>EU Sanctions Russia, China Retaliates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-eu-sanctions-russia-china-retaliates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Paramount-WBD Merger Delayed</title>
       <link>https://newsanarchist.com/articles/2026-07-26-paramount-wbd-merger-delayed</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Charlie Skinner</dc:creator>
-    </item>
-    <item>
-      <title>FIFA Detects Suspicious Betting at World Cup</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-fifa-detects-suspicious-betting-at-world-cup</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-fifa-detects-suspicious-betting-at-world-cup</guid>
-      <pubDate>Sun, 26 Jul 2026 04:00:08 GMT</pubDate>
-      <description>FIFA Detects Suspicious Betting at World Cup</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-fifa-detects-suspicious-betting-at-world-cup.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>日本のスマホ規制とプライバシー</title>
