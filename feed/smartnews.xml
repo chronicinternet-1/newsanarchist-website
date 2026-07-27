@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Jul 2026 23:05:28 GMT</lastBuildDate>
-    <pubDate>Sun, 26 Jul 2026 23:05:28 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:13:00 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 00:13:00 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Whistleblower Sparks Federal Probe of Dodgers Owner</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner</guid>
+      <pubDate>Mon, 27 Jul 2026 00:07:55 GMT</pubDate>
+      <description>Whistleblower Sparks Federal Probe of Dodgers Owner</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Rep. Burchett's Flock Cameras Face Criticism</title>
       <link>https://newsanarchist.com/articles/2026-07-26-rep-burchetts-flock-cameras-face-criticism</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Talks</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-us-iran-talks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-iran-talks</guid>
-      <pubDate>Sun, 26 Jul 2026 09:20:19 GMT</pubDate>
-      <description>US-Iran Talks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-iran-talks.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>ECOWAS Calls for Release of Guinea-Bissau Opposition Leader</title>
