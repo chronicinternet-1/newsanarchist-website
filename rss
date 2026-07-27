@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 01:06:50 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 01:06:50 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 01:13:58 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 01:13:58 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Public Media Survives Without Federal Funds After Trump</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-public-media-survives-without-federal-funds-after-trump</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-public-media-survives-without-federal-funds-after-trump</guid>
+      <pubDate>Mon, 27 Jul 2026 01:08:53 GMT</pubDate>
+      <description>Public Media Survives Without Federal Funds After Trump</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-public-media-survives-without-federal-funds-after-trump.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>Facial Recognition Tech Sparks 1,317 Arrests</title>
       <link>https://newsanarchist.com/articles/2026-07-27-facial-recognition-tech-sparks-1317-arrests</link>
@@ -609,18 +621,6 @@
       <category>Web3 &amp; Blockchain</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>Brain Decision-Making Study Challenges Previous Thoughts</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts</guid>
-      <pubDate>Sun, 26 Jul 2026 11:41:56 GMT</pubDate>
-      <description>Brain Decision-Making Study Challenges Previous Thoughts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-brain-decision-making-study-challenges-previous-thoughts.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>ECOWAS Calls for Release of Guinea-Bissau Opposition Leader</title>
