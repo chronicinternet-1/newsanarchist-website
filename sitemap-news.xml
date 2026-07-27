@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-clarity-act-clears-house</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T23:35:14.854Z</news:publication_date>
+      <news:title>CLARITY Act Clears House</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-tennessee-lawmakers-target-flock-surveillance</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1166,22 +1174,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-26T00:15:26.723Z</news:publication_date>
       <news:title>US-Iran Tensions Escalate Over Gaza</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-d4vd-murder-case-new-evidence-reveals-14-year-old-victim</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T23:32:43.730Z</news:publication_date>
-      <news:title>D4vd Murder Case: New Evidence Reveals 14-Year-Old Victim</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-snap-benefits-lost-by-1m-children</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T23:32:28.690Z</news:publication_date>
-      <news:title>SNAP Benefits Lost by 1M+ Children</news:title>
     </news:news>
   </url>
 </urlset>
