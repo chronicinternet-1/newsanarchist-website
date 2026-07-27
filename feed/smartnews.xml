@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 20:24:16 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 20:24:16 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 20:45:59 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 20:45:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran and Trump's Global Power Shifts</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-iran-and-trumps-global-power-shifts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-iran-and-trumps-global-power-shifts</guid>
+      <pubDate>Mon, 27 Jul 2026 20:43:32 GMT</pubDate>
+      <description>Iran and Trump's Global Power Shifts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-iran-and-trumps-global-power-shifts.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Pentagon Accused of Cover-up Over 100 US Military Casualties</title>
       <link>https://newsanarchist.com/articles/2026-07-27-pentagon-accused-of-cover-up-over-100-us-military-casualties</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>World Monitor Launches Open-Source Dashboard with Country Instability Index</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-world-monitor-launches-open-source-dashboard-with-country-instability-index</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-world-monitor-launches-open-source-dashboard-with-country-instability-index</guid>
-      <pubDate>Mon, 27 Jul 2026 09:00:25 GMT</pubDate>
-      <description>World Monitor Launches Open-Source Dashboard with Country Instability Index</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-world-monitor-launches-open-source-dashboard-with-country-instability-index.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Alma Gutierrez</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
