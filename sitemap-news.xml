@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-police-investigate-payments-to-reform-uk</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T02:54:35.974Z</news:publication_date>
+      <news:title>Police Investigate Payments to Reform UK</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-global-peace-index-2026</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1726,22 +1734,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-25T03:13:42.586Z</news:publication_date>
       <news:title>Cold Cases Solved and Investigated in 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-us-china-tensions-escalate-under-jamieson-greer</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T02:56:00.700Z</news:publication_date>
-      <news:title>US-China Tensions Escalate Under Jamieson Greer</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-fincen-issues-alert-on-fraud-schemes-targeting-federal-student-aid</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T02:31:26.088Z</news:publication_date>
-      <news:title>FinCEN Issues Alert on Fraud Schemes Targeting Federal Student Aid</news:title>
     </news:news>
   </url>
 </urlset>
