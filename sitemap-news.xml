@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-nato-allies-under-pressure</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T06:30:54.380Z</news:publication_date>
+      <news:title>NATO Allies Under Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-aclu-trains-lawyers-to-expose-surveillance-secrets</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1246,22 +1254,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-25T06:59:47.037Z</news:publication_date>
       <news:title>US-Iran Tensions Rise Amid Failed MOU</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-dhs-sued-for-surveillance-of-protesters</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T06:30:52.764Z</news:publication_date>
-      <news:title>DHS Sued for Surveillance of Protesters</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-iran-us-conflict-escalates-in-bahrain</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T06:20:46.340Z</news:publication_date>
-      <news:title>Iran-US Conflict Escalates in Bahrain</news:title>
     </news:news>
   </url>
 </urlset>
