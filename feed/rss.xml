@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 14:43:40 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 14:43:40 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 15:05:24 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 15:05:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Chinese University Gene-Editing Trial Death</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-chinese-university-gene-editing-trial-death</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-chinese-university-gene-editing-trial-death</guid>
+      <pubDate>Mon, 27 Jul 2026 15:03:09 GMT</pubDate>
+      <description>Chinese University Gene-Editing Trial Death</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-chinese-university-gene-editing-trial-death.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Iran Warns Zelensky</title>
       <link>https://newsanarchist.com/articles/2026-07-27-iran-warns-zelensky</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>North Korea Arrests Hackers for Central Bank Crypto Laundering</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-north-korea-arrests-hackers-for-central-bank-crypto-laundering</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-north-korea-arrests-hackers-for-central-bank-crypto-laundering</guid>
-      <pubDate>Mon, 27 Jul 2026 00:14:39 GMT</pubDate>
-      <description>North Korea Arrests Hackers for Central Bank Crypto Laundering</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-north-korea-arrests-hackers-for-central-bank-crypto-laundering.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>China's Armed Coercion in Indo-Pacific in 2025-2026</title>
