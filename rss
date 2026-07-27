@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 02:10:33 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 02:10:33 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 02:17:42 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 02:17:42 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Crypto Market Sees $2.3T Cap</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-crypto-market-sees-23t-cap</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-crypto-market-sees-23t-cap</guid>
+      <pubDate>Mon, 27 Jul 2026 02:16:27 GMT</pubDate>
+      <description>Crypto Market Sees $2.3T Cap</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-crypto-market-sees-23t-cap.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>White House Updates Congressional Maps</title>
       <link>https://newsanarchist.com/articles/2026-07-27-white-house-updates-congressional-maps</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Pew: China Surpasses US</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-pew-china-surpasses-us</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-pew-china-surpasses-us</guid>
-      <pubDate>Sun, 26 Jul 2026 13:23:05 GMT</pubDate>
-      <description>Pew: China Surpasses US</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-pew-china-surpasses-us.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>ECOWAS Calls for Release of Guinea-Bissau Opposition Leader</title>
