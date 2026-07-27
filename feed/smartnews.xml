@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 03:32:09 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 03:32:09 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 03:58:53 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 03:58:53 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Trump's Overhaul Hits States</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-trumps-overhaul-hits-states</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-trumps-overhaul-hits-states</guid>
+      <pubDate>Mon, 27 Jul 2026 03:58:26 GMT</pubDate>
+      <description>Trump's Overhaul Hits States</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-trumps-overhaul-hits-states.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
     <item>
       <title>US-China Influence: $80 Million</title>
       <link>https://newsanarchist.com/articles/2026-07-27-us-china-influence-80-million</link>
@@ -609,18 +621,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Brain Decision-Making Study Reveals New Insights</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-reveals-new-insights</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-reveals-new-insights</guid>
-      <pubDate>Sun, 26 Jul 2026 14:43:53 GMT</pubDate>
-      <description>Brain Decision-Making Study Reveals New Insights</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-brain-decision-making-study-reveals-new-insights.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>Cadeias de Abastecimento como Armas de Guerra na Amazônia</title>
