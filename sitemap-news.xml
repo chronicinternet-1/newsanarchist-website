@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-us-iran-tensions-amid-drone-attack-on-saudi-aramco</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T18:41:54.499Z</news:publication_date>
+      <news:title>US-Iran Tensions Amid Drone Attack on Saudi Aramco</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-us-senate-considers-clarity-act</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1086,14 +1094,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-25T19:30:01.499Z</news:publication_date>
       <news:title>Men Plead Guilty in $2M Medicaid Fraud</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-fourth-amendment-concerns</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T18:40:56.109Z</news:publication_date>
-      <news:title>Fourth Amendment Concerns</news:title>
     </news:news>
   </url>
 </urlset>

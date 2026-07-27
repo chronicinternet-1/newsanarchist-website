@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 18:32:52 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 18:32:52 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 18:44:16 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 18:44:16 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Tensions Amid Drone Attack on Saudi Aramco</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-us-iran-tensions-amid-drone-attack-on-saudi-aramco</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-us-iran-tensions-amid-drone-attack-on-saudi-aramco</guid>
+      <pubDate>Mon, 27 Jul 2026 18:41:54 GMT</pubDate>
+      <description>US-Iran Tensions Amid Drone Attack on Saudi Aramco</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-us-iran-tensions-amid-drone-attack-on-saudi-aramco.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>US Senate Considers Clarity Act</title>
       <link>https://newsanarchist.com/articles/2026-07-27-us-senate-considers-clarity-act</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>White House Updates Congressional Maps</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-white-house-updates-congressional-maps</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-white-house-updates-congressional-maps</guid>
-      <pubDate>Mon, 27 Jul 2026 02:09:52 GMT</pubDate>
-      <description>White House Updates Congressional Maps</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-white-house-updates-congressional-maps.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>日本のストーカー対策としてGPSトラッカーの導入を検討</title>
