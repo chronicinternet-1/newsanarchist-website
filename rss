@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 14:22:03 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 14:22:03 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 14:43:40 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 14:43:40 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Iran Warns Zelensky</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-iran-warns-zelensky</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-iran-warns-zelensky</guid>
+      <pubDate>Mon, 27 Jul 2026 14:38:59 GMT</pubDate>
+      <description>Iran Warns Zelensky</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-iran-warns-zelensky.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>PA Lawmakers Introduce Legislation</title>
       <link>https://newsanarchist.com/articles/2026-07-27-pa-lawmakers-introduce-legislation</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>Whistleblower Sparks Federal Probe of Dodgers Owner</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner</guid>
-      <pubDate>Mon, 27 Jul 2026 00:07:55 GMT</pubDate>
-      <description>Whistleblower Sparks Federal Probe of Dodgers Owner</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-whistleblower-sparks-federal-probe-of-dodgers-owner.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>China's Armed Coercion in Indo-Pacific in 2025-2026</title>
