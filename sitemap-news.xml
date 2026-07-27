@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-uk-government-secrets-exposed</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
+      <news:publication_date>2026-07-27T08:01:29.265Z</news:publication_date>
+      <news:title>UK Government Secrets Exposed</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-irans-role-in-2026-global-power-shift</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1238,22 +1246,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-25T08:18:22.056Z</news:publication_date>
       <news:title>3 Tampa Bay Cold Cases Solved</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-uk-finance-firms-under-scrutiny</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en-GB</news:language></news:publication>
-      <news:publication_date>2026-07-25T08:00:24.096Z</news:publication_date>
-      <news:title>UK Finance Firms Under Scrutiny</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-us-eu-trade-tensions-rise</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T08:00:15.855Z</news:publication_date>
-      <news:title>US-EU Trade Tensions Rise</news:title>
     </news:news>
   </url>
 </urlset>
