@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 00:59:41 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 00:59:41 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 01:06:50 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 01:06:50 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Facial Recognition Tech Sparks 1,317 Arrests</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-facial-recognition-tech-sparks-1317-arrests</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-facial-recognition-tech-sparks-1317-arrests</guid>
+      <pubDate>Mon, 27 Jul 2026 01:05:45 GMT</pubDate>
+      <description>Facial Recognition Tech Sparks 1,317 Arrests</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-facial-recognition-tech-sparks-1317-arrests.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Myanmar Boats Capsize: 500+ Rohingyas Feared Dead</title>
       <link>https://newsanarchist.com/articles/2026-07-27-myanmar-boats-capsize-500-rohingyas-feared-dead</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects 29 Chinese Sorties</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-taiwan-detects-29-chinese-sorties</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-taiwan-detects-29-chinese-sorties</guid>
-      <pubDate>Sun, 26 Jul 2026 10:45:47 GMT</pubDate>
-      <description>Taiwan Detects 29 Chinese Sorties</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-taiwan-detects-29-chinese-sorties.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>ECOWAS Calls for Release of Guinea-Bissau Opposition Leader</title>
