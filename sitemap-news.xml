@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-27-nato-allies-face-pressure-as-tensions-rise</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T11:35:25.015Z</news:publication_date>
+      <news:title>NATO Allies Face Pressure as Tensions Rise</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-27-aaro-report-reveals-unsolved-uap-cases</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1142,14 +1150,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-25T12:05:00.014Z</news:publication_date>
       <news:title>China Leads Global Power Shifts East</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-25-us-govt-withdraws-subpoenas-of-ny-times-journalists</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-25T11:31:54.883Z</news:publication_date>
-      <news:title>US Govt Withdraws Subpoenas of NY Times Journalists</news:title>
     </news:news>
   </url>
 </urlset>
