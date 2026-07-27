@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Jul 2026 05:31:13 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 05:31:13 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:12:54 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 06:12:54 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ACLU Trains Lawyers to Expose Surveillance Secrets</title>
+      <link>https://newsanarchist.com/articles/2026-07-27-aclu-trains-lawyers-to-expose-surveillance-secrets</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-aclu-trains-lawyers-to-expose-surveillance-secrets</guid>
+      <pubDate>Mon, 27 Jul 2026 06:09:55 GMT</pubDate>
+      <description>ACLU Trains Lawyers to Expose Surveillance Secrets</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-aclu-trains-lawyers-to-expose-surveillance-secrets.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>US Counters China's Mercantilist Practices with Pax Silica</title>
       <link>https://newsanarchist.com/articles/2026-07-27-us-counters-chinas-mercantilist-practices-with-pax-silica</link>
@@ -311,18 +323,6 @@
       <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
-      <title>Myanmar Boats Capsize: 500+ Rohingyas Feared Dead</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-myanmar-boats-capsize-500-rohingyas-feared-dead</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-myanmar-boats-capsize-500-rohingyas-feared-dead</guid>
-      <pubDate>Mon, 27 Jul 2026 00:58:16 GMT</pubDate>
-      <description>Myanmar Boats Capsize: 500+ Rohingyas Feared Dead</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-myanmar-boats-capsize-500-rohingyas-feared-dead.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
       <title>NY Man Sentenced for $19M Medicaid Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-27-ny-man-sentenced-for-19m-medicaid-fraud</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-ny-man-sentenced-for-19m-medicaid-fraud</guid>
@@ -345,18 +345,6 @@
       <category>True Crime</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>6-Year-Old Girl Dies in Gene-Editing Trial</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-6-year-old-girl-dies-in-gene-editing-trial</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-6-year-old-girl-dies-in-gene-editing-trial</guid>
-      <pubDate>Mon, 27 Jul 2026 00:51:00 GMT</pubDate>
-      <description>6-Year-Old Girl Dies in Gene-Editing Trial</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-6-year-old-girl-dies-in-gene-editing-trial.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
       <title>North Korea Arrests Hackers for Central Bank Crypto Laundering</title>
@@ -383,30 +371,6 @@
       <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
-      <title>Rep. Burchett's Flock Cameras Face Criticism</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-rep-burchetts-flock-cameras-face-criticism</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-rep-burchetts-flock-cameras-face-criticism</guid>
-      <pubDate>Sun, 26 Jul 2026 23:04:17 GMT</pubDate>
-      <description>Rep. Burchett's Flock Cameras Face Criticism</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-rep-burchetts-flock-cameras-face-criticism.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Crypto Regulation Updates Include CLARITY Act</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-crypto-regulation-updates-include-clarity-act</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-crypto-regulation-updates-include-clarity-act</guid>
-      <pubDate>Sun, 26 Jul 2026 22:12:32 GMT</pubDate>
-      <description>Crypto Regulation Updates Include CLARITY Act</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-crypto-regulation-updates-include-clarity-act.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
       <title>Sahel Bloc to Triple Forces to 18,000</title>
       <link>https://newsanarchist.com/articles/2026-07-26-sahel-bloc-to-triple-forces-to-18000</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-sahel-bloc-to-triple-forces-to-18000</guid>
@@ -417,18 +381,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>D4vd Murder Case: New Evidence Revealed in Celeste Rivas Hernandez Death</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-d4vd-murder-case-new-evidence-revealed-in-celeste-rivas-hernandez-death</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-d4vd-murder-case-new-evidence-revealed-in-celeste-rivas-hernandez-death</guid>
-      <pubDate>Sun, 26 Jul 2026 21:51:01 GMT</pubDate>
-      <description>D4vd Murder Case: New Evidence Revealed in Celeste Rivas Hernandez Death</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-d4vd-murder-case-new-evidence-revealed-in-celeste-rivas-hernandez-death.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Consciousness Research Challenges Prevailing Thoughts</title>
@@ -479,30 +431,6 @@
       <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
-      <title>WA Official Discusses Noncitizen Voter Registration</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-wa-official-discusses-noncitizen-voter-registration</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-wa-official-discusses-noncitizen-voter-registration</guid>
-      <pubDate>Sun, 26 Jul 2026 20:04:35 GMT</pubDate>
-      <description>WA Official Discusses Noncitizen Voter Registration</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-wa-official-discusses-noncitizen-voter-registration.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Surveillance Concerns Grow</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-surveillance-concerns-grow</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-surveillance-concerns-grow</guid>
-      <pubDate>Sun, 26 Jul 2026 20:01:03 GMT</pubDate>
-      <description>Surveillance Concerns Grow</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-surveillance-concerns-grow.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>RSF Surrounds el-Obeid</title>
       <link>https://newsanarchist.com/articles/2026-07-26-rsf-surrounds-el-obeid</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-rsf-surrounds-el-obeid</guid>
@@ -513,42 +441,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Rafael Reyes</dc:creator>
-    </item>
-    <item>
-      <title>US Crime Updates</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-us-crime-updates</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-crime-updates</guid>
-      <pubDate>Sun, 26 Jul 2026 18:48:50 GMT</pubDate>
-      <description>US Crime Updates</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-crime-updates.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>University of Virginia Study on Near-Death Experiences Reveals Need for Support</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-on-near-death-experiences-reveals-need-for-support</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-on-near-death-experiences-reveals-need-for-support</guid>
-      <pubDate>Sun, 26 Jul 2026 18:46:55 GMT</pubDate>
-      <description>University of Virginia Study on Near-Death Experiences Reveals Need for Support</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-university-of-virginia-study-on-near-death-experiences-reveals-need-for-support.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>CLARITY Act Faces Uncertain Future by September</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-clarity-act-faces-uncertain-future-by-september</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-clarity-act-faces-uncertain-future-by-september</guid>
-      <pubDate>Sun, 26 Jul 2026 18:08:13 GMT</pubDate>
-      <description>CLARITY Act Faces Uncertain Future by September</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-clarity-act-faces-uncertain-future-by-september.png"/>
-      <category>Money &amp; Markets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>US Govt $27B Corporate Stakes Lack Oversight</title>
@@ -587,18 +479,6 @@
       <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
-      <title>University of Virginia Study Reveals New Insights</title>
-      <link>https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-reveals-new-insights</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-university-of-virginia-study-reveals-new-insights</guid>
-      <pubDate>Sun, 26 Jul 2026 17:46:09 GMT</pubDate>
-      <description>University of Virginia Study Reveals New Insights</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-university-of-virginia-study-reveals-new-insights.png"/>
-      <category>Unexplained</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
       <title>$5.56B Healthcare Fraud Recovered</title>
       <link>https://newsanarchist.com/articles/2026-07-26-556b-healthcare-fraud-recovered</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-556b-healthcare-fraud-recovered</guid>
@@ -623,6 +503,102 @@
       <dc:creator>Vera Solano</dc:creator>
     </item>
     <item>
+      <title>EU Sanctions Russia, China Retaliates</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-eu-sanctions-russia-china-retaliates</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-eu-sanctions-russia-china-retaliates</guid>
+      <pubDate>Sun, 26 Jul 2026 16:25:23 GMT</pubDate>
+      <description>EU Sanctions Russia, China Retaliates</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-eu-sanctions-russia-china-retaliates.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
+      <title>Paramount-WBD Merger Delayed</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-paramount-wbd-merger-delayed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-paramount-wbd-merger-delayed</guid>
+      <pubDate>Sun, 26 Jul 2026 16:11:01 GMT</pubDate>
+      <description>Paramount-WBD Merger Delayed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-paramount-wbd-merger-delayed.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>Ex-FDA Official: US Cyclospora Response Near 'Catastrophic Level'</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-ex-fda-official-us-cyclospora-response-near-catastrophic-level</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-ex-fda-official-us-cyclospora-response-near-catastrophic-level</guid>
+      <pubDate>Sun, 26 Jul 2026 16:00:58 GMT</pubDate>
+      <description>Ex-FDA Official: US Cyclospora Response Near 'Catastrophic Level'</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-ex-fda-official-us-cyclospora-response-near-catastrophic-level.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
+    <item>
+      <title>CFTC Stays KalshiEX Emergency Rule Change</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-cftc-stays-kalshiex-emergency-rule-change</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-cftc-stays-kalshiex-emergency-rule-change</guid>
+      <pubDate>Sun, 26 Jul 2026 15:10:05 GMT</pubDate>
+      <description>CFTC Stays KalshiEX Emergency Rule Change</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-cftc-stays-kalshiex-emergency-rule-change.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Diana Reeves</dc:creator>
+    </item>
+    <item>
+      <title>$2.2M Medicaid Fraud Scheme Exposed</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-22m-medicaid-fraud-scheme-exposed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-22m-medicaid-fraud-scheme-exposed</guid>
+      <pubDate>Sun, 26 Jul 2026 14:47:50 GMT</pubDate>
+      <description>$2.2M Medicaid Fraud Scheme Exposed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-22m-medicaid-fraud-scheme-exposed.png"/>
+      <category>Financial Fraud</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Ames</dc:creator>
+    </item>
+    <item>
+      <title>D4vd Preliminary Hearing Reveals Grisly Details of Celeste Rivas Hernandez Murder</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-d4vd-preliminary-hearing-reveals-grisly-details-of-celeste-rivas-hernandez-murde</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-d4vd-preliminary-hearing-reveals-grisly-details-of-celeste-rivas-hernandez-murde</guid>
+      <pubDate>Sun, 26 Jul 2026 14:45:04 GMT</pubDate>
+      <description>D4vd Preliminary Hearing Reveals Grisly Details of Celeste Rivas Hernandez Murder</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-d4vd-preliminary-hearing-reveals-grisly-details-of-celeste-rivas-hernandez-murde.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
+    <item>
+      <title>Brain Decision-Making Study Reveals New Insights</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-reveals-new-insights</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-brain-decision-making-study-reveals-new-insights</guid>
+      <pubDate>Sun, 26 Jul 2026 14:43:53 GMT</pubDate>
+      <description>Brain Decision-Making Study Reveals New Insights</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-brain-decision-making-study-reveals-new-insights.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
+    <item>
+      <title>US-China Tensions: 30% Jump in Mexico</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-us-china-tensions-30-jump-in-mexico</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-us-china-tensions-30-jump-in-mexico</guid>
+      <pubDate>Sun, 26 Jul 2026 14:23:54 GMT</pubDate>
+      <description>US-China Tensions: 30% Jump in Mexico</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-us-china-tensions-30-jump-in-mexico.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
+    <item>
       <title>Cadeias de Abastecimento como Armas de Guerra na Amazônia</title>
       <link>https://newsanarchist.com/articles/2026-07-26-cadeias-de-abastecimento-como-armas-de-guerra-na-amazonia</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-cadeias-de-abastecimento-como-armas-de-guerra-na-amazonia</guid>
@@ -633,6 +609,18 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
+    </item>
+    <item>
+      <title>Whistleblower Claims Grid Operator Flying Blind</title>
+      <link>https://newsanarchist.com/articles/2026-07-26-whistleblower-claims-grid-operator-flying-blind</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-26-whistleblower-claims-grid-operator-flying-blind</guid>
+      <pubDate>Sun, 26 Jul 2026 13:58:35 GMT</pubDate>
+      <description>Whistleblower Claims Grid Operator Flying Blind</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-26-whistleblower-claims-grid-operator-flying-blind.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>ECOWAS Calls for Release of Guinea-Bissau Opposition Leader</title>
