@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:39:12 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 02:39:12 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 03:15:59 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 03:15:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Justice System Under Scrutiny</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-us-justice-system-under-scrutiny</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-justice-system-under-scrutiny</guid>
+      <pubDate>Tue, 28 Jul 2026 03:14:29 GMT</pubDate>
+      <description>US Justice System Under Scrutiny</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-justice-system-under-scrutiny.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Crypto Hacks Reach $1.32B in 2026</title>
       <link>https://newsanarchist.com/articles/2026-07-28-crypto-hacks-reach-132b-in-2026</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Vera Solano</dc:creator>
-    </item>
-    <item>
-      <title>Conflito EUA-Irã afeta preços de petróleo e gás</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-conflito-eua-ira-afeta-precos-de-petroleo-e-gas</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-conflito-eua-ira-afeta-precos-de-petroleo-e-gas</guid>
-      <pubDate>Mon, 27 Jul 2026 14:01:08 GMT</pubDate>
-      <description>Conflito EUA-Irã afeta preços de petróleo e gás</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-conflito-eua-ira-afeta-precos-de-petroleo-e-gas.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Lúcia Ferreira</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
