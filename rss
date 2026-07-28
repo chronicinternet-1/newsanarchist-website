@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 03:34:41 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 03:34:41 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 03:51:35 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 03:51:35 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US-Iran Talks in Switzerland Ease Oil Price Worries</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-us-iran-talks-in-switzerland-ease-oil-price-worries</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-iran-talks-in-switzerland-ease-oil-price-worries</guid>
+      <pubDate>Tue, 28 Jul 2026 03:48:07 GMT</pubDate>
+      <description>US-Iran Talks in Switzerland Ease Oil Price Worries</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-iran-talks-in-switzerland-ease-oil-price-worries.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>Democrats Weigh Next Steps in Harry Benton Case</title>
       <link>https://newsanarchist.com/articles/2026-07-28-democrats-weigh-next-steps-in-harry-benton-case</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Pentagon Seeks to Block FOIA Access</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-pentagon-seeks-to-block-foia-access</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-pentagon-seeks-to-block-foia-access</guid>
-      <pubDate>Mon, 27 Jul 2026 14:17:26 GMT</pubDate>
-      <description>Pentagon Seeks to Block FOIA Access</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-pentagon-seeks-to-block-foia-access.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
