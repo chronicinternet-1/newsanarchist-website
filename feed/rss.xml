@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 13:00:51 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 13:00:51 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 13:32:39 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 13:32:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Sudan Civil War Escalates in West Darfur</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-sudan-civil-war-escalates-in-west-darfur</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-sudan-civil-war-escalates-in-west-darfur</guid>
+      <pubDate>Tue, 28 Jul 2026 13:30:57 GMT</pubDate>
+      <description>Sudan Civil War Escalates in West Darfur</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-sudan-civil-war-escalates-in-west-darfur.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>US Congressional Panel Plans Annual China Visits</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-congressional-panel-plans-annual-china-visits</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
-      <title>Triple-A Treasury Wallets Hacked for $11.8M</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-triple-a-treasury-wallets-hacked-for-118m</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-triple-a-treasury-wallets-hacked-for-118m</guid>
-      <pubDate>Mon, 27 Jul 2026 22:34:19 GMT</pubDate>
-      <description>Triple-A Treasury Wallets Hacked for $11.8M</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-triple-a-treasury-wallets-hacked-for-118m.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Casey North</dc:creator>
     </item>
     <item>
       <title>Brasil enfrenta pressão econômica e escândalos do Banco Master</title>
