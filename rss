@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 13:32:39 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 13:32:39 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:29:37 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 14:29:37 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Bryan Kohberger Seeks to Retract Guilty Plea in Idaho Murders</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-bryan-kohberger-seeks-to-retract-guilty-plea-in-idaho-murders</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-bryan-kohberger-seeks-to-retract-guilty-plea-in-idaho-murders</guid>
+      <pubDate>Tue, 28 Jul 2026 14:24:26 GMT</pubDate>
+      <description>Bryan Kohberger Seeks to Retract Guilty Plea in Idaho Murders</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-bryan-kohberger-seeks-to-retract-guilty-plea-in-idaho-murders.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Sudan Civil War Escalates in West Darfur</title>
       <link>https://newsanarchist.com/articles/2026-07-28-sudan-civil-war-escalates-in-west-darfur</link>
@@ -105,18 +117,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Warner Bros. Execs Hope 12-State Antitrust Lawsuit Derails Paramount Deal</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-warner-bros-execs-hope-12-state-antitrust-lawsuit-derails-paramount-deal</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-warner-bros-execs-hope-12-state-antitrust-lawsuit-derails-paramount-deal</guid>
-      <pubDate>Tue, 28 Jul 2026 11:34:16 GMT</pubDate>
-      <description>Warner Bros. Execs Hope 12-State Antitrust Lawsuit Derails Paramount Deal</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-warner-bros-execs-hope-12-state-antitrust-lawsuit-derails-paramount-deal.png"/>
-      <category>Corporate Watchdog</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Facial Recognition Sparks Concerns in Delhi</title>
