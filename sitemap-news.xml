@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-28-ftc-reports-highlight-security-issues</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-28T03:26:07.879Z</news:publication_date>
+      <news:title>FTC Reports Highlight Security Issues</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-28-us-justice-system-under-scrutiny</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1126,14 +1134,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-26T03:47:26.119Z</news:publication_date>
       <news:title>US Army Fails to Replenish 155mm Rounds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-us-counters-chinas-influence-in-asean</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T03:16:39.921Z</news:publication_date>
-      <news:title>US Counters China&apos;s Influence in ASEAN</news:title>
     </news:news>
   </url>
 </urlset>
