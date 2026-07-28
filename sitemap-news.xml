@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-28-china-philippines-july-27-encounter</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-28T00:19:04.903Z</news:publication_date>
+      <news:title>China-Philippines July 27 Encounter</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-28-rocket-lab-awarded-266m-contract</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1174,14 +1182,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-26T00:33:40.398Z</news:publication_date>
       <news:title>US Travelers Face 10-Year Prison Sentence</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-us-iran-tensions-escalate-over-gaza</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T00:15:26.723Z</news:publication_date>
-      <news:title>US-Iran Tensions Escalate Over Gaza</news:title>
     </news:news>
   </url>
 </urlset>
