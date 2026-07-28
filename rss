@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:27:34 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 02:27:34 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 02:39:12 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 02:39:12 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Crypto Hacks Reach $1.32B in 2026</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-crypto-hacks-reach-132b-in-2026</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-crypto-hacks-reach-132b-in-2026</guid>
+      <pubDate>Tue, 28 Jul 2026 02:36:25 GMT</pubDate>
+      <description>Crypto Hacks Reach $1.32B in 2026</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-crypto-hacks-reach-132b-in-2026.png"/>
+      <category>Money &amp; Markets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>AI-Enhanced Fraud 4.5 Times More Profitable</title>
       <link>https://newsanarchist.com/articles/2026-07-28-ai-enhanced-fraud-45-times-more-profitable</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>US Foreign Policy Shifts</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-us-foreign-policy-shifts</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-us-foreign-policy-shifts</guid>
-      <pubDate>Mon, 27 Jul 2026 12:36:17 GMT</pubDate>
-      <description>US Foreign Policy Shifts</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-us-foreign-policy-shifts.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
