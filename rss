@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 15:41:49 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 15:41:49 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 15:52:55 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 15:52:55 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Gov Unseals UAP Records</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-us-gov-unseals-uap-records</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-gov-unseals-uap-records</guid>
+      <pubDate>Tue, 28 Jul 2026 15:49:52 GMT</pubDate>
+      <description>US Gov Unseals UAP Records</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-gov-unseals-uap-records.png"/>
+      <category>Unexplained</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>CrowdStreet Investors Lose $63M to Fraud</title>
       <link>https://newsanarchist.com/articles/2026-07-28-crowdstreet-investors-lose-63m-to-fraud</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Iceland Ranked #1 for 16 Years</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-iceland-ranked-1-for-16-years</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-iceland-ranked-1-for-16-years</guid>
-      <pubDate>Tue, 28 Jul 2026 00:46:29 GMT</pubDate>
-      <description>Iceland Ranked #1 for 16 Years</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-iceland-ranked-1-for-16-years.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>ASEAN Trade Faces Geopolitical Pressure</title>
