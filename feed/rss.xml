@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 03:27:54 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 03:27:54 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 03:34:41 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 03:34:41 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Democrats Weigh Next Steps in Harry Benton Case</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-democrats-weigh-next-steps-in-harry-benton-case</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-democrats-weigh-next-steps-in-harry-benton-case</guid>
+      <pubDate>Tue, 28 Jul 2026 03:29:51 GMT</pubDate>
+      <description>Democrats Weigh Next Steps in Harry Benton Case</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-democrats-weigh-next-steps-in-harry-benton-case.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jordan Calloway</dc:creator>
+    </item>
     <item>
       <title>FTC Reports Highlight Security Issues</title>
       <link>https://newsanarchist.com/articles/2026-07-28-ftc-reports-highlight-security-issues</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Myanmar Military Escalates Killings of 702 Civilians</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-myanmar-military-escalates-killings-of-702-civilians</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-myanmar-military-escalates-killings-of-702-civilians</guid>
-      <pubDate>Mon, 27 Jul 2026 14:09:45 GMT</pubDate>
-      <description>Myanmar Military Escalates Killings of 702 Civilians</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-myanmar-military-escalates-killings-of-702-civilians.png"/>
-      <category>Conflict &amp; Wars</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
