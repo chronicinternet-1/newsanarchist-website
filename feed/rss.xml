@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 23:05:47 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 23:05:47 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 23:11:51 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 23:11:51 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China Outranks US in Global Favorability</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-china-outranks-us-in-global-favorability</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-china-outranks-us-in-global-favorability</guid>
+      <pubDate>Tue, 28 Jul 2026 23:09:06 GMT</pubDate>
+      <description>China Outranks US in Global Favorability</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-china-outranks-us-in-global-favorability.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>China, Philippines Clash in South China Sea</title>
       <link>https://newsanarchist.com/articles/2026-07-28-china-philippines-clash-in-south-china-sea</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sloan Sabbith</dc:creator>
-    </item>
-    <item>
-      <title>US-Iran Tensions Ease Amid 2nd Day of Paused Attacks</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-us-iran-tensions-ease-amid-2nd-day-of-paused-attacks</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-iran-tensions-ease-amid-2nd-day-of-paused-attacks</guid>
-      <pubDate>Tue, 28 Jul 2026 06:50:39 GMT</pubDate>
-      <description>US-Iran Tensions Ease Amid 2nd Day of Paused Attacks</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-iran-tensions-ease-amid-2nd-day-of-paused-attacks.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
       <title>आरबीआई नीति: विदेशी बैंकों ने 1.25 प्रतिशत अंकों की कटौती के मामले में मारी बाजी</title>
