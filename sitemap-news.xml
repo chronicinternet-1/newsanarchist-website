@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-28-sahel-violence-surges-with-7800-deaths</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-28T09:26:44.672Z</news:publication_date>
+      <news:title>Sahel Violence Surges with 7,800 Deaths</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-28-tinubus-agency-funds-blocked</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1198,14 +1206,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-26T09:41:04.094Z</news:publication_date>
       <news:title>US Bond Market Insights for 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-openai-hacking-spree-hits-hugging-face</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T09:04:40.067Z</news:publication_date>
-      <news:title>OpenAI Hacking Spree Hits Hugging Face</news:title>
     </news:news>
   </url>
 </urlset>
