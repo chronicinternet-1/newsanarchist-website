@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 22:49:43 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 22:49:43 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 23:05:47 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 23:05:47 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China, Philippines Clash in South China Sea</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-china-philippines-clash-in-south-china-sea</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-china-philippines-clash-in-south-china-sea</guid>
+      <pubDate>Tue, 28 Jul 2026 23:01:00 GMT</pubDate>
+      <description>China, Philippines Clash in South China Sea</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-china-philippines-clash-in-south-china-sea.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Jim Harper</dc:creator>
+    </item>
     <item>
       <title>US Treasury Expands Whistleblower Programs</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-treasury-expands-whistleblower-programs</link>
@@ -611,18 +623,6 @@
       <dc:creator>Elena Vasquez</dc:creator>
     </item>
     <item>
-      <title>ALPR Surveillance Sparks Civil Liberties Concerns</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-alpr-surveillance-sparks-civil-liberties-concerns</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-alpr-surveillance-sparks-civil-liberties-concerns</guid>
-      <pubDate>Tue, 28 Jul 2026 06:30:06 GMT</pubDate>
-      <description>ALPR Surveillance Sparks Civil Liberties Concerns</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-alpr-surveillance-sparks-civil-liberties-concerns.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
       <title>आरबीआई नीति: विदेशी बैंकों ने 1.25 प्रतिशत अंकों की कटौती के मामले में मारी बाजी</title>
       <link>https://newsanarchist.com/articles/2026-07-28--125-</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28--125-</guid>
@@ -633,18 +633,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Charlie Skinner</dc:creator>
-    </item>
-    <item>
-      <title>ASEAN Trade Faces Geopolitical Pressure</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-asean-trade-faces-geopolitical-pressure</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-asean-trade-faces-geopolitical-pressure</guid>
-      <pubDate>Mon, 27 Jul 2026 23:00:43 GMT</pubDate>
-      <description>ASEAN Trade Faces Geopolitical Pressure</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-asean-trade-faces-geopolitical-pressure.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jim Harper</dc:creator>
     </item>
     <item>
       <title>Brasil enfrenta pressão econômica e escândalos do Banco Master</title>
