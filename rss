@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 18:09:42 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 18:09:42 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 18:30:45 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 18:30:45 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Joseph James Ceravolo Jr. Identified in 1995 Murder</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-joseph-james-ceravolo-jr-identified-in-1995-murder</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-joseph-james-ceravolo-jr-identified-in-1995-murder</guid>
+      <pubDate>Tue, 28 Jul 2026 18:30:19 GMT</pubDate>
+      <description>Joseph James Ceravolo Jr. Identified in 1995 Murder</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-joseph-james-ceravolo-jr-identified-in-1995-murder.png"/>
+      <category>True Crime</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>US and EU Sanctions Updates</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-and-eu-sanctions-updates</link>
@@ -609,18 +621,6 @@
       <category>Corporate Watchdog</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>US Justice Dept Sentences California Man to 222 Months</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-us-justice-dept-sentences-california-man-to-222-months</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-justice-dept-sentences-california-man-to-222-months</guid>
-      <pubDate>Tue, 28 Jul 2026 02:13:46 GMT</pubDate>
-      <description>US Justice Dept Sentences California Man to 222 Months</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-justice-dept-sentences-california-man-to-222-months.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>ASEAN Trade Faces Geopolitical Pressure</title>
