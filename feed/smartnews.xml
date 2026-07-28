@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 07:35:57 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 07:35:57 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:42:43 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 07:42:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>39% of U.S. Adults Believe in Ghosts</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-39-of-us-adults-believe-in-ghosts</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-39-of-us-adults-believe-in-ghosts</guid>
+      <pubDate>Tue, 28 Jul 2026 07:40:39 GMT</pubDate>
+      <description>39% of U.S. Adults Believe in Ghosts</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-39-of-us-adults-believe-in-ghosts.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Casey North</dc:creator>
+    </item>
     <item>
       <title>Garcia Demands Answers on Cyclospora Outbreak</title>
       <link>https://newsanarchist.com/articles/2026-07-28-garcia-demands-answers-on-cyclospora-outbreak</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Sam Okafor</dc:creator>
-    </item>
-    <item>
-      <title>Déficit public français à 7% du PIB d'ici 2030</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-deficit-public-francais-a-7-du-pib-dici-2030</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-deficit-public-francais-a-7-du-pib-dici-2030</guid>
-      <pubDate>Mon, 27 Jul 2026 19:15:56 GMT</pubDate>
-      <description>Déficit public français à 7% du PIB d'ici 2030</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-deficit-public-francais-a-7-du-pib-dici-2030.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sloan Sabbith</dc:creator>
     </item>
     <item>
       <title>$25bn Nigeria-Morocco Gas Pipeline</title>
