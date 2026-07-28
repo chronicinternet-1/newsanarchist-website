@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 10:19:59 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 10:19:59 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 10:31:59 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 10:31:59 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>China-Taiwan Tensions Escalate by 2027</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-china-taiwan-tensions-escalate-by-2027</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-china-taiwan-tensions-escalate-by-2027</guid>
+      <pubDate>Tue, 28 Jul 2026 10:27:09 GMT</pubDate>
+      <description>China-Taiwan Tensions Escalate by 2027</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-china-taiwan-tensions-escalate-by-2027.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Neumora Therapeutics Reports Favorable NMRA-215 Results</title>
       <link>https://newsanarchist.com/articles/2026-07-28-neumora-therapeutics-reports-favorable-nmra-215-results</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Kalshi Flags Wisconsin Election Betting Law</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-kalshi-flags-wisconsin-election-betting-law</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-kalshi-flags-wisconsin-election-betting-law</guid>
-      <pubDate>Mon, 27 Jul 2026 19:20:09 GMT</pubDate>
-      <description>Kalshi Flags Wisconsin Election Betting Law</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-kalshi-flags-wisconsin-election-betting-law.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>Brasil enfrenta pressão econômica e escândalos do Banco Master</title>
