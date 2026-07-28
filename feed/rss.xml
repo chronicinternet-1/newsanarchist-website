@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 18:46:56 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 18:46:56 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 19:33:08 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 19:33:08 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>ICC Chief Prosecutor Removed</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-icc-chief-prosecutor-removed</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-icc-chief-prosecutor-removed</guid>
+      <pubDate>Tue, 28 Jul 2026 19:31:00 GMT</pubDate>
+      <description>ICC Chief Prosecutor Removed</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-icc-chief-prosecutor-removed.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sam Okafor</dc:creator>
+    </item>
     <item>
       <title>Inspector General Reports</title>
       <link>https://newsanarchist.com/articles/2026-07-28-inspector-general-reports</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>AI-Enhanced Fraud 4.5 Times More Profitable</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-ai-enhanced-fraud-45-times-more-profitable</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-ai-enhanced-fraud-45-times-more-profitable</guid>
-      <pubDate>Tue, 28 Jul 2026 02:25:17 GMT</pubDate>
-      <description>AI-Enhanced Fraud 4.5 Times More Profitable</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-ai-enhanced-fraud-45-times-more-profitable.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Diana Reeves</dc:creator>
     </item>
     <item>
       <title>ASEAN Trade Faces Geopolitical Pressure</title>
