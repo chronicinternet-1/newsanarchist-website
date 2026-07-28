@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-28-iceland-ranked-1-for-16-years</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-28T00:46:29.069Z</news:publication_date>
+      <news:title>Iceland Ranked #1 for 16 Years</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-28-us-govt-expands-ai-surveillance-with-google-like-search</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1158,38 +1166,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-26T01:15:48.644Z</news:publication_date>
       <news:title>NATO Expansion and Tensions with Russia and Iran</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-us-govt-secrets-uncovered</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T00:45:37.321Z</news:publication_date>
-      <news:title>US Govt Secrets Uncovered</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-iranian-hackers-target-us-water-and-energy-providers</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T00:45:15.223Z</news:publication_date>
-      <news:title>Iranian Hackers Target US Water and Energy Providers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-houthis-target-saudi-tankers</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T00:37:48.701Z</news:publication_date>
-      <news:title>Houthis Target Saudi Tankers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-26-us-travelers-face-10-year-prison-sentence</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-26T00:33:40.398Z</news:publication_date>
-      <news:title>US Travelers Face 10-Year Prison Sentence</news:title>
     </news:news>
   </url>
 </urlset>
