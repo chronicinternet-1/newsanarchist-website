@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 06:52:50 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 06:52:50 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:04:24 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 07:04:24 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Bourse de Paris gagne 0,4%</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-bourse-de-paris-gagne-04</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-bourse-de-paris-gagne-04</guid>
+      <pubDate>Tue, 28 Jul 2026 07:01:17 GMT</pubDate>
+      <description>Bourse de Paris gagne 0,4%</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-bourse-de-paris-gagne-04.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Sloan Sabbith</dc:creator>
+    </item>
     <item>
       <title>US-Iran Tensions Ease Amid 2nd Day of Paused Attacks</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-iran-tensions-ease-amid-2nd-day-of-paused-attacks</link>
@@ -609,18 +621,6 @@
       <category>Global Power</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Lúcia Ferreira</dc:creator>
-    </item>
-    <item>
-      <title>Senate Probes StubHub</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-senate-probes-stubhub</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-senate-probes-stubhub</guid>
-      <pubDate>Mon, 27 Jul 2026 19:14:45 GMT</pubDate>
-      <description>Senate Probes StubHub</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-senate-probes-stubhub.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>UK Government Secrets Exposed</title>
