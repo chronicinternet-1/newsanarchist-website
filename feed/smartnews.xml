@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:59:42 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 11:59:42 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 12:32:07 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 12:32:07 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Taiwan Detects 1 Chinese Aircraft, 7 Naval Vessels</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels</guid>
+      <pubDate>Tue, 28 Jul 2026 12:29:57 GMT</pubDate>
+      <description>Taiwan Detects 1 Chinese Aircraft, 7 Naval Vessels</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>EU Sanctions Target Russia's Military Might</title>
       <link>https://newsanarchist.com/articles/2026-07-28-eu-sanctions-target-russias-military-might</link>
@@ -609,18 +621,6 @@
       <category>Money &amp; Markets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Casey North</dc:creator>
-    </item>
-    <item>
-      <title>D4vd Murder Case: Forensic Evidence Presented Against Rapper David Anthony Burke</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-d4vd-murder-case-forensic-evidence-presented-against-rapper-david-anthony-burke</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-d4vd-murder-case-forensic-evidence-presented-against-rapper-david-anthony-burke</guid>
-      <pubDate>Mon, 27 Jul 2026 21:10:00 GMT</pubDate>
-      <description>D4vd Murder Case: Forensic Evidence Presented Against Rapper David Anthony Burke</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-d4vd-murder-case-forensic-evidence-presented-against-rapper-david-anthony-burke.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Brasil enfrenta pressão econômica e escândalos do Banco Master</title>
