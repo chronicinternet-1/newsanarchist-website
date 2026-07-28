@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 03:51:35 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 03:51:35 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 04:03:39 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 04:03:39 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>आरबीआई नीति: विदेशी बैंकों ने 1.25 प्रतिशत अंकों की कटौती के मामले में मारी बाजी</title>
+      <link>https://newsanarchist.com/articles/2026-07-28--125-</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28--125-</guid>
+      <pubDate>Tue, 28 Jul 2026 04:01:31 GMT</pubDate>
+      <description>आरबीआई नीति: विदेशी बैंकों ने 1.25 प्रतिशत अंकों की कटौती के मामले में मारी बाजी</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28--125-.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Charlie Skinner</dc:creator>
+    </item>
     <item>
       <title>US-Iran Talks in Switzerland Ease Oil Price Worries</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-iran-talks-in-switzerland-ease-oil-price-worries</link>
@@ -611,18 +623,6 @@
       <dc:creator>Jordan Ames</dc:creator>
     </item>
     <item>
-      <title>Iran Warns Zelensky</title>
-      <link>https://newsanarchist.com/articles/2026-07-27-iran-warns-zelensky</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-iran-warns-zelensky</guid>
-      <pubDate>Mon, 27 Jul 2026 14:38:59 GMT</pubDate>
-      <description>Iran Warns Zelensky</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27-iran-warns-zelensky.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Elena Vasquez</dc:creator>
-    </item>
-    <item>
       <title>UK Government Secrets Exposed</title>
       <link>https://newsanarchist.com/articles/2026-07-27-uk-government-secrets-exposed</link>
       <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27-uk-government-secrets-exposed</guid>
@@ -633,18 +633,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>James Whitfield</dc:creator>
-    </item>
-    <item>
-      <title>पीएम मोदी का बड़ा एलान: कल से देश में लागू होगा सख्त कानून</title>
-      <link>https://newsanarchist.com/articles/2026-07-27--</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-27--</guid>
-      <pubDate>Mon, 27 Jul 2026 04:00:57 GMT</pubDate>
-      <description>पीएम मोदी का बड़ा एलान: कल से देश में लागू होगा सख्त कानून</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-27--.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Charlie Skinner</dc:creator>
     </item>
     <item>
       <title>日本のストーカー対策としてGPSトラッカーの導入を検討</title>
