@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 28 Jul 2026 15:52:55 GMT</lastBuildDate>
-    <pubDate>Tue, 28 Jul 2026 15:52:55 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 16:03:57 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 16:03:57 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>US Removes 84 From Sanctions Lists</title>
+      <link>https://newsanarchist.com/articles/2026-07-28-us-removes-84-from-sanctions-lists</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-us-removes-84-from-sanctions-lists</guid>
+      <pubDate>Tue, 28 Jul 2026 16:01:45 GMT</pubDate>
+      <description>US Removes 84 From Sanctions Lists</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-us-removes-84-from-sanctions-lists.png"/>
+      <category>Global Power</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>US Gov Unseals UAP Records</title>
       <link>https://newsanarchist.com/articles/2026-07-28-us-gov-unseals-uap-records</link>
@@ -609,18 +621,6 @@
       <category>Financial Fraud</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Ames</dc:creator>
-    </item>
-    <item>
-      <title>Over 600 Wrongful Convictions Overturned</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-over-600-wrongful-convictions-overturned</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-over-600-wrongful-convictions-overturned</guid>
-      <pubDate>Tue, 28 Jul 2026 01:13:09 GMT</pubDate>
-      <description>Over 600 Wrongful Convictions Overturned</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-over-600-wrongful-convictions-overturned.png"/>
-      <category>Government Secrets</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>ASEAN Trade Faces Geopolitical Pressure</title>
