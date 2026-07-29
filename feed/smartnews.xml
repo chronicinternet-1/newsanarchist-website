@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Jul 2026 00:01:57 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 00:01:57 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 00:14:43 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 00:14:43 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Nvidia and Amkor Partner in $1.5 Billion Deal</title>
+      <link>https://newsanarchist.com/articles/2026-07-29-nvidia-and-amkor-partner-in-15-billion-deal</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-29-nvidia-and-amkor-partner-in-15-billion-deal</guid>
+      <pubDate>Wed, 29 Jul 2026 00:09:52 GMT</pubDate>
+      <description>Nvidia and Amkor Partner in $1.5 Billion Deal</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-29-nvidia-and-amkor-partner-in-15-billion-deal.png"/>
+      <category>Corporate Watchdog</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Elena Vasquez</dc:creator>
+    </item>
     <item>
       <title>CLARITY Act Delayed Past July 30</title>
       <link>https://newsanarchist.com/articles/2026-07-28-clarity-act-delayed-past-july-30</link>
@@ -609,18 +621,6 @@
       <category>Surveillance State</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>Cold Case Solved: Man Pleads Guilty in 1996 Murder</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-cold-case-solved-man-pleads-guilty-in-1996-murder</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-cold-case-solved-man-pleads-guilty-in-1996-murder</guid>
-      <pubDate>Tue, 28 Jul 2026 08:18:06 GMT</pubDate>
-      <description>Cold Case Solved: Man Pleads Guilty in 1996 Murder</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-cold-case-solved-man-pleads-guilty-in-1996-murder.png"/>
-      <category>True Crime</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Sam Okafor</dc:creator>
     </item>
     <item>
       <title>Bourse de Paris gagne 0,4%</title>
