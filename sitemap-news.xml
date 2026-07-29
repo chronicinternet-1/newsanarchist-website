@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-29-doj-under-fire</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-29T04:40:49.037Z</news:publication_date>
+      <news:title>DOJ Under Fire</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-29-csis-us-iran-conflict-reshapes-global-geopolitics</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1238,22 +1246,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-27T04:53:46.619Z</news:publication_date>
       <news:title>US War Casualties in Iran Eclipse 600</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-iran-threatens-ukraine-over-caspian-sea-ship-attack</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T04:28:55.898Z</news:publication_date>
-      <news:title>Iran Threatens Ukraine Over Caspian Sea Ship Attack</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-endless-yellow-maze</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T04:17:51.570Z</news:publication_date>
-      <news:title>Endless Yellow Maze</news:title>
     </news:news>
   </url>
 </urlset>
