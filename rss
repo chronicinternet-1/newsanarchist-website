@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Jul 2026 03:12:27 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 03:12:27 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 03:44:28 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 03:44:28 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Mali Instability Deepens</title>
+      <link>https://newsanarchist.com/articles/2026-07-29-mali-instability-deepens</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-29-mali-instability-deepens</guid>
+      <pubDate>Wed, 29 Jul 2026 03:42:36 GMT</pubDate>
+      <description>Mali Instability Deepens</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-29-mali-instability-deepens.png"/>
+      <category>Conflict &amp; Wars</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Rafael Reyes</dc:creator>
+    </item>
     <item>
       <title>Iraq Instability Worsens Post 2017 Referendum</title>
       <link>https://newsanarchist.com/articles/2026-07-29-iraq-instability-worsens-post-2017-referendum</link>
@@ -609,18 +621,6 @@
       <category>Tech &amp; Privacy</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Marcus Webb</dc:creator>
-    </item>
-    <item>
-      <title>Taiwan Detects 1 Chinese Aircraft, 7 Naval Vessels</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels</guid>
-      <pubDate>Tue, 28 Jul 2026 12:29:57 GMT</pubDate>
-      <description>Taiwan Detects 1 Chinese Aircraft, 7 Naval Vessels</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-taiwan-detects-1-chinese-aircraft-7-naval-vessels.png"/>
-      <category>Global Power</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Rafael Reyes</dc:creator>
     </item>
     <item>
       <title>Tinubu's Agency Funds Blocked</title>
