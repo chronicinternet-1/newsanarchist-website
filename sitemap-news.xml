@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-29-iran-launches-missiles-at-us-base-in-jordan</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-29T02:23:22.469Z</news:publication_date>
+      <news:title>Iran Launches Missiles at US Base in Jordan</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-29-2026ai</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>ja</news:language></news:publication>
@@ -1206,30 +1214,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-27T02:54:35.974Z</news:publication_date>
       <news:title>Police Investigate Payments to Reform UK</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-global-peace-index-2026</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T02:27:21.281Z</news:publication_date>
-      <news:title>Global Peace Index 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-crypto-market-sees-23t-cap</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T02:16:27.751Z</news:publication_date>
-      <news:title>Crypto Market Sees $2.3T Cap</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-white-house-updates-congressional-maps</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T02:09:52.818Z</news:publication_date>
-      <news:title>White House Updates Congressional Maps</news:title>
     </news:news>
   </url>
 </urlset>
