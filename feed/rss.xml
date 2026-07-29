@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Jul 2026 08:48:23 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 08:48:23 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:55:38 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 08:55:38 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Flock Safety Cameras Canceled in 28 States</title>
+      <link>https://newsanarchist.com/articles/2026-07-29-flock-safety-cameras-canceled-in-28-states</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-29-flock-safety-cameras-canceled-in-28-states</guid>
+      <pubDate>Wed, 29 Jul 2026 08:51:09 GMT</pubDate>
+      <description>Flock Safety Cameras Canceled in 28 States</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-29-flock-safety-cameras-canceled-in-28-states.png"/>
+      <category>Surveillance State</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Marcus Webb</dc:creator>
+    </item>
     <item>
       <title>Suzy Lamplugh Cold Case Updates</title>
       <link>https://newsanarchist.com/articles/2026-07-29-suzy-lamplugh-cold-case-updates</link>
@@ -609,18 +621,6 @@
       <category>Conflict &amp; Wars</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Jordan Calloway</dc:creator>
-    </item>
-    <item>
-      <title>India Youth Protests</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-india-youth-protests</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-india-youth-protests</guid>
-      <pubDate>Tue, 28 Jul 2026 19:40:17 GMT</pubDate>
-      <description>India Youth Protests</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-india-youth-protests.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Marcus Webb</dc:creator>
     </item>
     <item>
       <title>Tinubu's Agency Funds Blocked</title>
