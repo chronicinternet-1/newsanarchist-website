@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://newsanarchist.com/articles/2026-07-29-neptune-model-research</loc>
+    <news:news>
+      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-29T05:25:18.827Z</news:publication_date>
+      <news:title>NEPTUNE Model Research</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://newsanarchist.com/articles/2026-07-29-omar-jayapal-visit-whipple-federal-building</loc>
     <news:news>
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
@@ -1262,14 +1270,6 @@
       <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-27T05:30:02.460Z</news:publication_date>
       <news:title>US Counters China&apos;s Mercantilist Practices with Pax Silica</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://newsanarchist.com/articles/2026-07-27-us-iran-tensions-ease-with-trump</loc>
-    <news:news>
-      <news:publication><news:name>NewsAnarchist</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-27T05:02:04.989Z</news:publication_date>
-      <news:title>US-Iran Tensions Ease with Trump</news:title>
     </news:news>
   </url>
 </urlset>
