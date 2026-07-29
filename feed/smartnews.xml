@@ -11,8 +11,8 @@
     <atom:link href="https://newsanarchist.com/rss" rel="self" type="application/rss+xml"/>
     <description>Contrarian news with receipts.</description>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Jul 2026 00:14:43 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 00:14:43 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 00:26:22 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 00:26:22 GMT</pubDate>
     <ttl>15</ttl>
     <image>
       <url>https://newsanarchist.com/images/logo.png</url>
@@ -22,6 +22,18 @@
     <snf:logo>
       <url>https://newsanarchist.com/images/logo.png</url>
     </snf:logo>
+    <item>
+      <title>Bloom Energy Q2 Earnings at 4:05 PM ET</title>
+      <link>https://newsanarchist.com/articles/2026-07-29-bloom-energy-q2-earnings-at-405-pm-et</link>
+      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-29-bloom-energy-q2-earnings-at-405-pm-et</guid>
+      <pubDate>Wed, 29 Jul 2026 00:22:42 GMT</pubDate>
+      <description>Bloom Energy Q2 Earnings at 4:05 PM ET</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-29-bloom-energy-q2-earnings-at-405-pm-et.png"/>
+      <category>Government Secrets</category>
+      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
+      <dc:creator>Vera Solano</dc:creator>
+    </item>
     <item>
       <title>Nvidia and Amkor Partner in $1.5 Billion Deal</title>
       <link>https://newsanarchist.com/articles/2026-07-29-nvidia-and-amkor-partner-in-15-billion-deal</link>
@@ -609,18 +621,6 @@
       <category>Government Secrets</category>
       <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
       <dc:creator>Alma Gutierrez</dc:creator>
-    </item>
-    <item>
-      <title>FBI Investigates Public Corruption</title>
-      <link>https://newsanarchist.com/articles/2026-07-28-fbi-investigates-public-corruption</link>
-      <guid isPermaLink="true">https://newsanarchist.com/articles/2026-07-28-fbi-investigates-public-corruption</guid>
-      <pubDate>Tue, 28 Jul 2026 08:34:10 GMT</pubDate>
-      <description>FBI Investigates Public Corruption</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <media:thumbnail url="https://newsanarchist.com/images/articles/2026-07-28-fbi-investigates-public-corruption.png"/>
-      <category>Surveillance State</category>
-      <snf:analytics><![CDATA[<script>var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-7N6W04M3XW";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-7N6W04M3XW");</script>]]></snf:analytics>
-      <dc:creator>Jordan Calloway</dc:creator>
     </item>
     <item>
       <title>Bourse de Paris gagne 0,4%</title>
